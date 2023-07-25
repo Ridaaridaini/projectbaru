@@ -13,6 +13,8 @@ public class Soal5 {
 
         int z= x%y;
 
+        input.close();
+
         System.out.println("sisa bagi " + x + " dari " + y + " adalah " + z);
     }
 }
