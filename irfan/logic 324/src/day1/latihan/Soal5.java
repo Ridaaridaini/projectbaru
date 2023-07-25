@@ -1,13 +1,19 @@
 package day1.latihan;
 
+import java.util.Scanner;
+
 public class Soal5 {
     public static void main(String[] args) {
 
-        int x = 15;
-        int y = 6;
+        Scanner userInput = new Scanner(System.in);
 
-        int hasil = x % y ;
+        System.out.print("A =");
+        int panjang=userInput.nextInt();
 
-        System.out.println(hasil);
+        System.out.print("B =");
+        int lebar=userInput.nextInt();
+
+        int hasil = panjang % lebar;
+        System.out.println("hasil =" + hasil);
     }
 }

@@ -9,7 +9,7 @@ public class Soal8 {
         int intA = Integer.parseInt(strA);
         int intB = Integer.parseInt(strB);
 
-        System.out.println(intA%intB);
+        System.out.println(intA / intB);
 
     }
 }
