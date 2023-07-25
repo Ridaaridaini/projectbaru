@@ -8,10 +8,14 @@ public class Soal05 {
         Scanner input = new Scanner(System.in);
 
         System.out.print("x = ");
-        input.nextInt();
+        int x = input.nextInt();
 
         System.out.print("y = ");
-        input.nextInt();
+        int y = input.nextInt();
+
+        //int z = x/y;
+
+        System.out.println(x/y);
 
 
 

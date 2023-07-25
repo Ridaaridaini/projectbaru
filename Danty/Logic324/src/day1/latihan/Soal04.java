@@ -13,12 +13,11 @@ public class Soal04 {
         System.out.print("y = ");
         int y = input.nextInt();
 
-        System.out.println("z = x*y");
-        int z = input.nextInt();
+        int z = x*y;
 
-        System.out.println("Luas persegi panjang dengan panjang" + x + "dan lebar" y + "adalah" z);
+        System.out.println("Luas persegi panjang dengan panjang " + x + " dan lebar " + y + " adalah " + z);
 
-        //System.out.println("Luas persegi panjang dengan panjang x dan lebar y adalah z");
+
 
     }
 }

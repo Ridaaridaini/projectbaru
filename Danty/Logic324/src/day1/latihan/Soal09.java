@@ -7,8 +7,8 @@ public class Soal09 {
         String a = "10";
         String b = "3";
 
-        int intA = Integer.parseInt(a);
-        int intB = Integer.parseInt(b);
+        float intA = Float.parseFloat(a);
+        float intB = Float.parseFloat(b);
 
         System.out.println(intA/intB);
     }
