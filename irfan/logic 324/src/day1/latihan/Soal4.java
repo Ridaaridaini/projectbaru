@@ -5,12 +5,16 @@ import java.util.Scanner;
 public class Soal4 {
     public static void main(String[] args) {
 
-        int x = 15;
-        int y = 6;
+        Scanner userInput = new Scanner(System.in);
 
-        int z = x * y ;
+        System.out.print("panjang X =");
+        int panjang=userInput.nextInt();
 
-        System.out.println(z);
+        System.out.print("lebar Y =");
+        int lebar=userInput.nextInt();
+
+        int luas = panjang * lebar;
+        System.out.println("Luas =" + luas);
 
     }
 }
