@@ -1,5 +1,7 @@
 package day1.Latihan;
 
+import java.util.Scanner;
+
 public class Soal15 {
     public static void main(String[] args) {
         /*
@@ -7,16 +9,25 @@ public class Soal15 {
         Berapa takaran terigu, gula & susu untuk membuat sebanyak n cupcake?
         */
 
-        int terigu, gulaPasir, susu;
-        double cupcake;
-        terigu = 125;
-        gulaPasir = 100;
-        susu= 100;
-        cupcake = 15.0;
+        double terigu, gulaPasir, susu;
+        Scanner input = new Scanner(System.in);
+        System.out.print("jumlah cupkace: ");
+        int cupcake = input.nextInt();
 
-        System.out.printf("banyaknya tepung yang digunakan untuk membuat n buah cupcake adalah %.2f \n", terigu/cupcake);
-        System.out.printf("banyaknya gula pasir yang digunakan untuk membuat n buah cupcake adalah %.2f\n", gulaPasir/cupcake);
-        System.out.printf("banyaknya susu yang digunakan untuk membuat n buah cupcake adalah %.2f", susu/cupcake);
+        terigu = 125/15.0;
+        gulaPasir = 100/15.0;
+        susu= 100/15.0;
+
+        System.out.println("menghitung banyak bahan yang digunakan untuk membuat cupcake");
+        double nTerigu = terigu * cupcake;
+        double nGulaPasir = gulaPasir * cupcake;
+        double nSusu = susu * cupcake;
+
+
+        input.close();
+        System.out.printf("tepung yang digunakan untuk membuat " + cupcake+ " buah cupcake adalah %.2f gr\n", nTerigu);
+        System.out.printf("gula pasir yang digunakan untuk membuat"  + cupcake+ " buah cupcake adalah %.2f gr\n ", nGulaPasir);
+        System.out.printf("susu yang digunakan untuk membuat "  + cupcake+ " buah cupcake adalah %.2f gr", nSusu);
 
 
     }
