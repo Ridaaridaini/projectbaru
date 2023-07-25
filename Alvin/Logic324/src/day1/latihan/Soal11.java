@@ -18,6 +18,6 @@ public class Soal11 {
 
         double nilaiPangkat = Math.pow(a, b);
 
-        System.out.println("Nilai a:" + a + " pangkat b:" + b + " adalah " + (int) nilaiPangkat);
+        System.out.println("Nilai " + a + " pangkat " + b + " adalah " + (int) nilaiPangkat);
     }
 }
