@@ -10,14 +10,14 @@ public class Input {
 
         System.out.print("inputkan nama: ");
         String myName =  input.nextLine();
-        System.out.println("umur: ");
+        System.out.print("umur: ");
         int myUmur = input.nextInt();
         input.close();
 
         Date tahun = new Date();
         int date = tahun.getYear();
 
-        int tahunLahir = date-myUmur;
+        int tahunLahir = (date+1900)-myUmur;
 
         System.out.println("nama saya "+myName);
         System.out.println("umur saya "+myUmur);
