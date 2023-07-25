@@ -11,6 +11,6 @@ public class Soal10 {
         int b = input.nextInt();
 
 
-        System.out.println("Hasil " + (Math.max(a,b)));
+        System.out.println("Nilai terbesar :  " + (Math.max(a,b)));
     }
 }

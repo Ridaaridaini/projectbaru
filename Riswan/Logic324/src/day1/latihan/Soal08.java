@@ -4,11 +4,9 @@ import java.util.Scanner;
 
 public class Soal08 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("a : ");
-        String a = input.nextLine();
-        System.out.print("b : ");
-        String b = input.nextLine();
+
+        String a = "10";
+        String b = "5";
         int intA = Integer.parseInt(a);
         int intB = Integer.parseInt(b);
 

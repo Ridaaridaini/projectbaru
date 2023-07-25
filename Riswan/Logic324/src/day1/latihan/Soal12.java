@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class Soal12 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("a : ");
-        int a = input.nextInt();
-        System.out.print("b : ");
-        int b = input.nextInt();
+
+        int a = 5;
+        int b = 2;
+
+        double hasil = (double) a/b;
+        System.out.println("Hasil dari pembagian a dibagi b : " + hasil);
 
     }
 }

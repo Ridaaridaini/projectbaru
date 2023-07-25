@@ -10,6 +10,6 @@ public class soal04 {
         System.out.print("Nilai Y : ");
         int Y = input.nextInt();
         int Z = X*Y;
-        System.out.print("Luas persegi panjang : " + Z);
+        System.out.print("Luas persegi panjang dengan  panjang x dan lebar y sebesar : " + Z);
     }
 }
