@@ -12,6 +12,8 @@ public class Soal13 {
         double y = input.nextDouble();
 
         double keuntungan = ((y-x)/x)*100;
+
+        input.close();
         System.out.println(keuntungan + "%");
 
     }
