@@ -14,6 +14,8 @@ public class Soal7 {
         int kelilingPersegi = 4*sisiX;
         int kelilingSegitiga = 3*sisiY;
 
+        input.close();
+
         System.out.println(kelilingPersegi==kelilingSegitiga);
 
 

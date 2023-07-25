@@ -13,7 +13,9 @@ public class Soal4 {
         int y = input.nextInt();
         int z = x*y;
 
-        System.out.println("Luas Persegi panjang dengan panjang " + x + "dan lebar " + y + "adalah " + z);
+        input.close();
+
+        System.out.println("Luas Persegi panjang dengan panjang " + x + " dan lebar " + y + " adalah " + z);
 
     }
 }
