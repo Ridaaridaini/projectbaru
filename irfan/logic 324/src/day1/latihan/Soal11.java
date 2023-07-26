@@ -7,13 +7,15 @@ public class Soal11 {
 
         Scanner userInput = new Scanner(System.in);
 
+        int a,b;
         System.out.print(" nilai A =");
-        int a= userInput.nextInt();
+        a= userInput.nextInt();
 
         System.out.print("nilai B =");
-        int b=userInput.nextInt();
+        b=userInput.nextInt();
 
-        System.out.println("hasil = "+ (int)Math.pow(a,b));
+        float hasil = (float) Math.pow(a,b);
+        System.out.println("hasil = "+ hasil);
 
     }
 }

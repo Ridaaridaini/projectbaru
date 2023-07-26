@@ -9,6 +9,6 @@ public class Soal10 {
         Integer a= input.nextInt();
         System.out.println("b= ");
         Integer b= input.nextInt();
-        System.out.println(Math.max(a,b));
+        System.out.println("Nilai terbesar antara a dan b: " +Math.max(a,b));
     }
 }

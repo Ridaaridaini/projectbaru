@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Soal7 {
     public static void main(String[] args) {
 
-        //membandingkan keliling persegi dengan keliling persegi
+        //membandingkan keliling persegi dengan keliling segitiga sama sisi
         Scanner input = new Scanner(System.in);
         System.out.print("sisi x: ");
         int sisiX = input.nextInt();
@@ -16,7 +16,7 @@ public class Soal7 {
 
         input.close();
 
-        System.out.println(kelilingPersegi==kelilingSegitiga);
+        System.out.println(kelilingPersegi>kelilingSegitiga);
 
 
 

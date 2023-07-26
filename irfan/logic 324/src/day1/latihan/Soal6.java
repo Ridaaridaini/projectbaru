@@ -17,7 +17,7 @@ public class Soal6 {
 
         userInput.close();
 
-        int keliling = 3 * x;
+        int keliling = x * x;
         System.out.println("hasil Nilai X = " + keliling);
 
         int luas = (y * y) * 1/2;
