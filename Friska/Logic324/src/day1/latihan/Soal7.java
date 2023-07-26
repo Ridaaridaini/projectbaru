@@ -16,6 +16,6 @@ public class Soal7 {
         int kelPersegi = 4 * sisiX;
         int kelSegitiga = 3 * sisiY;
 
-        System.out.println(kelPersegi==kelSegitiga);
+        System.out.println(kelPersegi > kelSegitiga);
     }
 }

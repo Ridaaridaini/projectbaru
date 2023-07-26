@@ -6,29 +6,30 @@ public class Soal7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Silahkan masukkan jenis buku yang kamu pinjam (pelajaran, skripsi, novel): ");
-        String jenis = scanner.nextLine();
+        System.out.print("Silahkan masukkan jumlah buku pelajaran: ");
+        int pelajaran = scanner.nextInt();
 
-        System.out.print("Masukkan jumlah hari peminjaman: ");
+        System.out.print("Silahkan masukkan jumlah buku skripsi: ");
+        int skripsi = scanner.nextInt();
+
+        System.out.print("Silahkan masukkan jumlah buku novel: ");
+        int novel = scanner.nextInt();
+
+        System.out.print("Silahkan masukkan jumlah hari peminjaman: ");
         int hari = scanner.nextInt();
 
         scanner.close();
 
-        if (jenis.equalsIgnoreCase("pelajaran") && hari > 10) {
+        if(hari > 10){
             int telatHari = hari - 10;
-            int dendaPelajaran = telatHari * 2000;
-            System.out.println("Anda terlambat mengembalikan buku selama " + hari
-                    + " dan denda yang harus dibayar adalah sebesar Rp." + dendaPelajaran);
-        } else if (jenis.equalsIgnoreCase("novel") && hari > 10) {
-            int telatHari = hari - 10;
-            int dendaNovel = telatHari * 5000;
-            System.out.println("Anda terlambat mengembalikan buku selama " + hari
-                    + " dan denda yang harus dibayar adalah sebesar Rp." + dendaNovel);
-        } else if (jenis.equalsIgnoreCase("skripsi") && hari > 10) {
-            int telatHari = hari - 10;
-            int dendaSkripsi = telatHari * 10000;
-            System.out.println("Anda terlambat mengembalikan buku selama " + hari
-                    + " dan denda yang harus dibayar adalah sebesar Rp." + dendaSkripsi);
+            int dendaPelajaran = pelajaran * telatHari * 2000;
+            int dendaSkripsi =skripsi * telatHari * 10000;
+            int dendaNovel = novel * telatHari * 5000;
+
+            int jumlahDenda = dendaPelajaran + dendaNovel + dendaSkripsi;
+
+            System.out.println("Jumlah denda yang harus dibayarkan adalah: " + jumlahDenda);
+
         }
     }
 }
