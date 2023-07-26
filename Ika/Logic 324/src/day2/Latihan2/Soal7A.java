@@ -26,6 +26,8 @@ public class Soal7A {
         System.out.print("jumlah hari pinjam: ");
         int hari = scan.nextInt();
 
+        scan.close();
+
         if(hari>10){
             int pelajaran1= ((hari-10)*2000)*pelajaran;
             int novel1= ((hari-10)*5000)*novel;

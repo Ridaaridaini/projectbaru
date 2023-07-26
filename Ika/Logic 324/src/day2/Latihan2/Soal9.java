@@ -41,7 +41,7 @@ public class Soal9 {
             System.out.println("jumlah buah "+jumlah1);
         } else {
             int jumlah1 = keranjang1+keranjang2;
-            System.out.println("jumlah buah"+jumlah1);
+            System.out.println("jumlah buah "+jumlah1);
         }
 
     }
