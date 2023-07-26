@@ -6,13 +6,13 @@ public class Soal13 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Masukkan jumlah harga beli :");
-        float xhargabeli = input.nextInt();
+        double xhargabeli = input.nextDouble();
 
         System.out.println("Masukkan jumlah harga jual: ");
-        float yhargajual = input.nextInt();
+        double yhargajual = input.nextDouble();
         input.close();
-        float keuntungan = yhargajual-xhargabeli;
-        float persentaseUntung = ((keuntungan / yhargajual)*100);
+        double keuntungan = yhargajual-xhargabeli;
+        double persentaseUntung = (keuntungan / xhargabeli)*100;
 
         System.out.println("Keuntungan yg diperoleh yaitu: "+persentaseUntung+"%");
     }
