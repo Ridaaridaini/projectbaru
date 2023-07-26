@@ -1,6 +1,6 @@
 package latihan;
 
-public class soal8 {
+public class Soal8 {
     public static void main(String[] args) {
         String a = "10";
         String b = "5";

@@ -2,7 +2,7 @@ package latihan;
 
 import java.util.Scanner;
 
-public class soal7 {
+public class Soal7 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
