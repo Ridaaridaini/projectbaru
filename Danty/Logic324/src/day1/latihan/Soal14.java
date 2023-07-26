@@ -8,17 +8,23 @@ public class Soal14 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("a = ");
-        int a = input.nextInt();
+        System.out.print("banyak uang pecahan sepuluh ribu = ");
+        int sepuluh = input.nextInt();
 
-        System.out.print("b = ");
-        int b = input.nextInt();
+        System.out.print("banyak uang pecahan lima ribu = ");
+        int lima = input.nextInt();
 
-        System.out.print("c = ");
-        int c = input.nextInt();
+        System.out.print("banyak uang pecahan dua puluh ribu= ");
+        int duapuluh = input.nextInt();
 
-        int total = a+b+c;
+        int jumlahPecahanSepuluhRibu = sepuluh*10000;
+        int jumlahPecahanLimaRibu = lima*5000;
+        int jumlahPecahanDiuapuluhRibu = duapuluh*20000;
 
-        System.out.println(total);
+        int totalUang = jumlahPecahanSepuluhRibu + jumlahPecahanLimaRibu + jumlahPecahanDiuapuluhRibu;
+
+        System.out.println("total uang mbah jambrong = " + totalUang);
     }
+
+    //inget penentuan data harus disesuaikan dengan soal
 }

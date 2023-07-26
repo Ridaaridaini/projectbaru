@@ -14,7 +14,9 @@ public class Soal11 {
         System.out.print("b = ");
         int b = input.nextInt();
 
-        System.out.println(Math.pow(a,b));
+        double hasil = Math.pow(a, b); //tipe data tergantung yang tersedia di program ini
+
+        System.out.println(hasil);
 
     }
 }

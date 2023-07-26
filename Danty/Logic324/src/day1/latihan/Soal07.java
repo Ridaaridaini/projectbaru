@@ -16,7 +16,8 @@ public class Soal07 {
 
         int kelP = 4*x;
         int kelS = 3*y;
+        boolean hasil = kelP > kelS; //mendeklarasikan boolean itu penting
 
-        System.out.println(kelP > kelS);
+        System.out.println(hasil);
     }
 }

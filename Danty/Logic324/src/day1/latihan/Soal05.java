@@ -13,9 +13,9 @@ public class Soal05 {
         System.out.print("y = ");
         int y = input.nextInt();
 
-        //int z = x/y;
+        int z = x%y;
 
-        System.out.println(x/y);
+        System.out.println(z); //sisa hasil bagi
 
 
 

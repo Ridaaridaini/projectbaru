@@ -8,13 +8,13 @@ public class Soal13 {
         Scanner input = new Scanner(System.in);
 
         System.out.print("x = ");
-        int x = input.nextInt();
+        double x = input.nextDouble();
 
         System.out.print("y = ");
-        int y = input.nextInt();
+        double y = input.nextDouble();
 
-        int untung = y-x;
-        int persen = (untung*100)/x;
+        double untung = y-x;
+        double persen = (untung*100)/x;
 
         System.out.println(persen +"%");
     }

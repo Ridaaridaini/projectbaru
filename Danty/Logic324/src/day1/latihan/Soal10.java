@@ -13,8 +13,9 @@ public class Soal10 {
 
         System.out.print("b = ");
         int b = input.nextInt();
+        int hasil = Math.max(a,b);
 
-        System.out.println(Math.max(a, b));
+        System.out.println(hasil);
     }
 
 }
