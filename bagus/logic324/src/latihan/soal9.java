@@ -2,14 +2,14 @@ package latihan;
 
 public class soal9 {
     public static void main(String[] args) {
-        int hasil;
+        double hasil;
         String strA = "10";
         String strB = "3";
 
-        int intA = Integer.parseInt(strA);
-        int intB = Integer.parseInt(strB);
+        double dbA = Double.parseDouble(strA);
+        double dbB = Double.parseDouble(strB);
 
-        hasil=intA/intB;
+        hasil=dbA/dbB;
 
         System.out.println(hasil);
     }
