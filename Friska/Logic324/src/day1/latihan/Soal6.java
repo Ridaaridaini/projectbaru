@@ -8,7 +8,7 @@ public class Soal6 {
         System.out.println("Masukkan nilai sisi x :");
         int sisiX = input.nextInt();
 
-        System.out.println("MAsukkan nilai sisi y :");
+        System.out.println("Masukkan nilai sisi y :");
         int sisiY = input.nextInt();
 
         input.close();
