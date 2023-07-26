@@ -1,23 +1,27 @@
 package day1.latihan;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Soal13 {
     public static void main(String[] args) {
-        double hargaBeli, hargaJual;
+        int hargaBeli, hargaJual;
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Harga beli: ");
-        hargaBeli = scanner.nextDouble();
+        hargaBeli = scanner.nextInt();
 
         System.out.print("Harga jual: ");
-        hargaJual = scanner.nextDouble();
+        hargaJual = scanner.nextInt();
 
         scanner.close();
 
-        double keuntungan = ((hargaJual-hargaBeli)/hargaBeli)*100;
+        double keuntungan = hargaJual-hargaBeli;
 
-        System.out.println("Keuntungan: " + keuntungan +"%");
+        DecimalFormat decimal = new DecimalFormat("##.00");
+        String presentaseKeuntungan = decimal.format((keuntungan/hargaBeli)*100);
+
+        System.out.println("Keuntungan: " + presentaseKeuntungan +"%");
     }
 }

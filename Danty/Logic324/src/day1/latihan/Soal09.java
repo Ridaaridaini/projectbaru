@@ -7,9 +7,11 @@ public class Soal09 {
         String a = "10";
         String b = "3";
 
-        int intA = Integer.parseInt(a);
-        int intB = Integer.parseInt(b);
+        double A =  Double.parseDouble(a);
+        double B =  Double.parseDouble(b);
 
-        System.out.println(intA/intB);
+        double hasil = A/B;
+
+        System.out.println(hasil);
     }
 }

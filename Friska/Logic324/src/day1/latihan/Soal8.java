@@ -6,6 +6,8 @@ public class Soal8 {
         String strB = "3";
         int intA = Integer.parseInt(strA);
         int intB = Integer.parseInt(strB);
+        int hasilbagi = intA / intB;
+
         System.out.println(intA);
         System.out.println(intB);
 
