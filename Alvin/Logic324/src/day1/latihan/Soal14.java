@@ -19,6 +19,8 @@ public class Soal14 {
 
         scanner.close();
 
-        System.out.println("Total uang: Rp." + ((jmlhPecahanLima*5000) + (jmlhPecahanSepuluh*10000) + (jmlhPecahanDuaPuluh*20000)) + ",00.");
+        long jumlahTotal = (jmlhPecahanLima*5000L) + (jmlhPecahanSepuluh*10000L) + (jmlhPecahanDuaPuluh*20000L);
+
+        System.out.println("Total uang: Rp." + jumlahTotal + ",00.");
     }
 }

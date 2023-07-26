@@ -1,10 +1,12 @@
-package latihan;
+package day1.latihan;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class soal13 {
+public class Soal13 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        DecimalFormat df = new DecimalFormat("##.00");
 
         System.out.print("Masukkan harga beli barang: ");
         int hargaAwal = input.nextInt();
@@ -14,9 +16,10 @@ public class soal13 {
 
         input.close();
 
-        float persen = ((float)hargaJual / (float)hargaAwal) * 100;
+        int untung = hargaJual - hargaAwal;
+        String persen = df.format(untung/(float) hargaAwal * 100);
         System.out.println("======================");
-        System.out.println("Keuntungan yang diperoleh adalah sebesar" + persen + "%");
+        System.out.println("Keuntungan yang diperoleh adalah sebesar " + persen + "%");
         System.out.println("======================");
     }
 }

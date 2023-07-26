@@ -1,8 +1,8 @@
-package latihan;
+package day1.latihan;
 
 import java.util.Scanner;
 
-public class soal11 {
+public class Soal11 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -13,7 +13,6 @@ public class soal11 {
         int y = input.nextInt();
 
         double hasil = Math.pow(x, y);
-
 
         input.close();
 

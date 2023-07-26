@@ -1,6 +1,6 @@
-package latihan;
+package day1.latihan;
 
-public class soal1 {
+public class Soal1 {
     public static void main(String[] args) {
         System.out.println("============================");
         System.out.println("Nama: Baim");
