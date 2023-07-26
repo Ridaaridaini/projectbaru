@@ -1,5 +1,6 @@
 package day1.Latihan;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Soal15 {
@@ -14,6 +15,7 @@ public class Soal15 {
         System.out.print("jumlah cupkace: ");
         int cupcake = input.nextInt();
 
+        //menghitung untuk membuat satu cupcake
         terigu = 125/15.0;
         gulaPasir = 100/15.0;
         susu= 100/15.0;
@@ -23,11 +25,22 @@ public class Soal15 {
         double nGulaPasir = gulaPasir * cupcake;
         double nSusu = susu * cupcake;
 
+//        System.out.printf("tepung yang digunakan untuk membuat " + cupcake+ " buah cupcake adalah %.2f gr\n", nTerigu);
+//        System.out.printf("gula pasir yang digunakan untuk membuat"  + cupcake+ " buah cupcake adalah %.2f gr\n ", nGulaPasir);
+//        System.out.printf("susu yang digunakan untuk membuat "  + cupcake+ " buah cupcake adalah %.2f mL", nSusu);
+
+        // decimal format untuk mengambil dua angka dibelakang koma
+        DecimalFormat df = new DecimalFormat("##.00");
+
+        String terigu2 = df.format(terigu*cupcake);
+        String gula2 = df.format(gulaPasir*cupcake);
+        String susu2 = df.format(susu*cupcake);
 
         input.close();
-        System.out.printf("tepung yang digunakan untuk membuat " + cupcake+ " buah cupcake adalah %.2f gr\n", nTerigu);
-        System.out.printf("gula pasir yang digunakan untuk membuat"  + cupcake+ " buah cupcake adalah %.2f gr\n ", nGulaPasir);
-        System.out.printf("susu yang digunakan untuk membuat "  + cupcake+ " buah cupcake adalah %.2f gr", nSusu);
+
+        System.out.println("untuk membuat sebanyak " + cupcake + " cupcake dibutuhkan terigu " + terigu2 + "gr gula pasir "
+                + gula2 +" gr dan susu "+ susu2 + "ml");
+
 
 
     }
