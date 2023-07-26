@@ -7,7 +7,7 @@ public class Soal12 {
         Integer intb= 2;
 
         float c = (float) inta / intb;
-        System.out.println(c);
+        System.out.println("hasil = " + c);
 
     }
 }
