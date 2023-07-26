@@ -1,4 +1,4 @@
-package latihan;
+package day1.latihan;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;

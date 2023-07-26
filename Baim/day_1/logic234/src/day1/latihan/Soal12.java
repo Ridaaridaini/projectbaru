@@ -1,4 +1,4 @@
-package latihan;
+package day1.latihan;
 
 public class Soal12 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package latihan;
+package day1.latihan;
 
 import java.util.Scanner;
 
@@ -9,6 +9,7 @@ public class Soal3 {
 
         System.out.print("Masukkan Nama:");
         String nama = input.nextLine();
+        
 
         System.out.print("Masukkan Umur:");
         int umur = input.nextInt();
