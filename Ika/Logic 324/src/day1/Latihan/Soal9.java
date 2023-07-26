@@ -1,5 +1,7 @@
 package day1.Latihan;
 
+import java.text.DecimalFormat;
+
 public class Soal9 {
     public static void main(String[] args) {
 
@@ -9,8 +11,11 @@ public class Soal9 {
 
         double doubelA = Double.valueOf(a);
         double doubelB = Double.valueOf(b);
+        DecimalFormat df = new DecimalFormat("##.00");
 
-        System.out.println(doubelA/doubelB);
+        String hasilpembagian = df.format(doubelA/doubelB);
+
+        System.out.println("hasil pembagian "+ a +" dengan "+ b + " adalah " + hasilpembagian);
 
     }
 }

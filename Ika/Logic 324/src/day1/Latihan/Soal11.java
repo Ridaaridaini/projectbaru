@@ -12,8 +12,10 @@ public class Soal11 {
         System.out.print("masukan bilangan b: ");
         int b = input.nextInt();
 
+        int hasil =(int) Math.pow(a,b);
+
         input.close();
 
-        System.out.println("hasil dari " + a + " pangkat "+ b + " adalah " + (int)Math.pow(a,b));
+        System.out.println("hasil dari " + a + " pangkat "+ b + " adalah " + hasil);
     }
 }
