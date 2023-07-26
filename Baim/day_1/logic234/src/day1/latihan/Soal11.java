@@ -1,4 +1,4 @@
-package latihan;
+package day1.latihan;
 
 import java.util.Scanner;
 
@@ -13,7 +13,6 @@ public class Soal11 {
         int y = input.nextInt();
 
         double hasil = Math.pow(x, y);
-
 
         input.close();
 

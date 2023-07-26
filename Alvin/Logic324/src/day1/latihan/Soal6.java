@@ -18,7 +18,7 @@ public class Soal6 {
 
         float luasPersegi = x * x;
 
-        float luasSegitigaSikuSamaKaki = (y * y)/2;
+        float luasSegitigaSikuSamaKaki = (y * y)/2f;
 
         System.out.println("Luas persegi: "+luasPersegi);
         System.out.println("Luas segitiga siku sama kaki: "+luasSegitigaSikuSamaKaki);

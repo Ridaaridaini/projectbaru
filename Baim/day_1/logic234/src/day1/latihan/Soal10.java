@@ -1,4 +1,4 @@
-package latihan;
+package day1.latihan;
 
 import java.util.Scanner;
 
