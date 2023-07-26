@@ -1,5 +1,7 @@
 package day1;
 
+import java.text.DecimalFormat;
+
 public class MathFunction {
     public static void main(String[] args) {
         //perpangkatan
@@ -17,6 +19,15 @@ public class MathFunction {
 
         //pembulatan kebawah
         System.out.println(Math.floor(2.7));
+
+        //desimal formaat
+        double a = 100.0;
+        int b = 3;
+        DecimalFormat df = new DecimalFormat("##.00");
+        String pembagian = df.format(a/b);
+        System.out.println(pembagian);
+
+
 
 
     }
