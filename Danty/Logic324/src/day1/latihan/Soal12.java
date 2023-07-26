@@ -6,8 +6,10 @@ public class Soal12 {
         int a = 5;
         int b = 2;
 
-        double c = (double) a;
+        double c = (double) a; //tidak masalah apabila hanya salah satu yang di casting
 
-        System.out.println(c/b);
+        double hasil = c/b; //ingat deklarasi operasi perhitungan atau komparasi itu penting
+
+        System.out.println(hasil);
     }
 }
