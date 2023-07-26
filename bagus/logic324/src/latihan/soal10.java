@@ -7,10 +7,10 @@ public class soal10 {
         Scanner input = new Scanner(System.in);
 
         System.out.println("masukan a= ");
-        Integer a = input.nextInt();
+        double a = input.nextInt();
 
         System.out.println("masukan b= ");
-        Integer b = input.nextInt();
+        double b = input.nextInt();
 
 
         System.out.println("nilai a= " +a);
@@ -18,6 +18,7 @@ public class soal10 {
 
         System.out.println();
 
-        System.out.println(Math.pow(a,b));
+        double pangkat = Math.pow(a,b);
+        System.out.println("hasil dari  " + a  +" pangkat "+  b + " adalah = " +pangkat);
     }
 }
