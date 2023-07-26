@@ -1,5 +1,6 @@
 package day1.latihan;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Soal15 {
@@ -13,10 +14,13 @@ public class Soal15 {
 
         scanner.close();
 
-        double jumlahTerigu = Math.round(jumlahCupcake * teriguSatuCup);
-        double jumlahGula = Math.round(jumlahCupcake * gulaSatuCup);
-        double jumlahSusu = Math.round(jumlahCupcake * susuSatuCup);
+        DecimalFormat decimal = new DecimalFormat("##.00");
 
-        System.out.println((int)jumlahTerigu + " gr Terigu, " + (int)jumlahGula + " gr Gula dan " + (int)jumlahSusu + " mL Susu untuk " + jumlahCupcake + " Cupcake");
+        String jumlahTerigu = decimal.format(jumlahCupcake * teriguSatuCup);
+        String jumlahGula = decimal.format(jumlahCupcake * gulaSatuCup);
+        String jumlahSusu = decimal.format(jumlahCupcake * susuSatuCup);
+
+        System.out.println(jumlahTerigu + " gr Terigu, " + jumlahGula + " gr Gula dan " +
+                jumlahSusu + " mL Susu untuk " + jumlahCupcake + " Cupcake");
     }
 }
