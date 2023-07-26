@@ -17,6 +17,6 @@ public class Soal15 {
         double jumlahGula = Math.round(jumlahCupcake * gulaSatuCup);
         double jumlahSusu = Math.round(jumlahCupcake * susuSatuCup);
 
-        System.out.println((int)jumlahTerigu + " gr Terigu, " + (int)jumlahGula + " gr Gula dan " + (int)jumlahSusu + " mL Susu untuk " + (int)jumlahCupcake + " Cupcake");
+        System.out.println((int)jumlahTerigu + " gr Terigu, " + (int)jumlahGula + " gr Gula dan " + (int)jumlahSusu + " mL Susu untuk " + jumlahCupcake + " Cupcake");
     }
 }
