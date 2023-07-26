@@ -10,7 +10,11 @@ public class Soal08 {
         int intA = Integer.parseInt(a);
         int intB = Integer.parseInt(b);
 
-        System.out.println(intA/intB);
+        int hasil = intA/intB;
+
+        //lebih aman dengan double
+
+        System.out.println(hasil);
 
 
     }
