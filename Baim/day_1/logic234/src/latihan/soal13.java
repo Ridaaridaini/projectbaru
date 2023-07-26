@@ -3,10 +3,10 @@ package latihan;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class soal13 {
+public class Soal13 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        DecimalFormat df = new DecimalFormat("#.##");
+        DecimalFormat df = new DecimalFormat("##.00");
 
         System.out.print("Masukkan harga beli barang: ");
         int hargaAwal = input.nextInt();
