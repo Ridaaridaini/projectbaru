@@ -9,7 +9,7 @@ public class Soal01 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("masukan angka: ");
-        x = scanner.nextInt();
+        x = scanner.nextInt(); // 15
 
         scanner.close();
 
