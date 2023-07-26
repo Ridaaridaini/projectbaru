@@ -14,6 +14,7 @@ public class Soal6 {
         int luasPersegi = sisiX*sisiY;
         int luasSegitiga = luasPersegi/2; //misal sisi x= alas; sisi y = tinggi
 
+        input.close();
         System.out.println(luasPersegi==luasSegitiga);
 
 

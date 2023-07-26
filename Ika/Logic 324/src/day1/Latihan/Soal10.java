@@ -12,6 +12,8 @@ public class Soal10 {
         System.out.print("masukan bilangan b: ");
         int b = input.nextInt();
 
+        input.close();
+
         System.out.println("nilai maksimum antara nilai " +a +" dan "+ b + " adalah "+ Math.max(a,b));
 
 
