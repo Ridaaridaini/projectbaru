@@ -19,6 +19,7 @@ public class Soal07 {
 
         if(hari>10){
             jumlah = (bukuPelajaran * 2000) + (novel * 5000) + (skripsi * 10000);
+            jumlah = jumlah * (hari - 10);
         }else {
             System.out.println(" Gratis ");
         }
