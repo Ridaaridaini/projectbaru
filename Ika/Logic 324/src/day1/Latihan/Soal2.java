@@ -5,12 +5,19 @@ public class Soal2 {
 
         // menukar nilai a dengan nilai b dan sebaliknya tanpa variabel tambahan
         int a = 3;
-        int b= 4;
+        int b = 4;
 
-        a=4;
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        System.out.println(a);
+        System.out.println(b);
+
+        /*a=4;
         System.out.println(a);
         b=3;
-        System.out.println(b);
+        System.out.println(b);*/
 
     }
 }

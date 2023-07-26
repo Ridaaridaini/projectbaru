@@ -8,7 +8,7 @@ public class Soal03 {
 
         Scanner input = new Scanner(System.in);
         System.out.print("Nama : ");
-        String nama = input.nextLine();
+        input.nextLine();
 
 
         System.out.print("Umur : ");
