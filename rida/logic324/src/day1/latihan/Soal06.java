@@ -10,8 +10,8 @@ public class Soal06 {
         Integer x= input.nextInt();
         System.out.println("y= ");
         Integer y= input.nextInt();
-        luasX = 4 * x;
-        luasY = 1/2 * y *2;
+        luasX = x * x;
+        luasY = 1/2 * y *y;
         System.out.println(luasX==luasY);
 
     }

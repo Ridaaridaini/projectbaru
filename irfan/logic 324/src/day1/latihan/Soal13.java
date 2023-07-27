@@ -18,6 +18,7 @@ public class Soal13 {
         userInput.close();
 
         int untung = ((y - x) / x) * 100;
+
         System.out.println("nilai untung = " + untung);
 
     }
