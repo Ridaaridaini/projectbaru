@@ -18,5 +18,7 @@ public class RandomGen {
         int C = randomGenerator.nextInt(100);
         C = C + 1;
         System.out.println(C);
+
+
     }
 }

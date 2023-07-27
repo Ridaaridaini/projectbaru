@@ -6,7 +6,7 @@ public class Soal12 {
         int b = 2;
         float c = (float) a;
         float d = (float) b;
-        float hasilbagi = a/b;
+        float hasilbagi = c/d;
         System.out.println("Hasil Bagi dari kedua bilangan tersebut adalah: "+ hasilbagi);
 
 
