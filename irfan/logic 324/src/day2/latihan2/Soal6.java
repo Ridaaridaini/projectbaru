@@ -1,24 +1,30 @@
 package day2.latihan2;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Soal6 {
     public static void main(String[] args) {
 
-        int a ;
+        int a, rand;
 
         Scanner input = new Scanner(System.in);
 
         System.out.print("Masukan Tebakan = ");
         a = input.nextInt();
 
-        if(a<=5){
+        Random random = new Random();
+        rand = random.nextInt(10);
+
+        if (a == rand) {
             System.out.println("Anda Menang");
-        }else if(a>=6){
+        } else {
             System.out.println("Anda Kalah");
-        }else{
-            System.out.println("tebakan salah");
+            if (a > 9) {
+                System.out.println("tebakan salah");
+            } else {
+                System.out.println("angka random = " + rand);
+            }
         }
-        System.out.println("Angka Random = " + a);
     }
 }

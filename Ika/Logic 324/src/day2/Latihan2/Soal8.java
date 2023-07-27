@@ -19,9 +19,9 @@ public class Soal8 {
         scan.close();
         if(uang>= 750000){
             System.out.println("Jas");
-        } else if (uang >=250 && uang< 750000) {
+        } else if (uang >=250000 && uang< 750000) {
             System.out.println("Celana Panjang");
-        }else if(uang >=100 && uang < 250){
+        }else if(uang >=100000 && uang < 250000){
             System.out.println("Kemeja");
         }else {
             System.out.println("kaos");
