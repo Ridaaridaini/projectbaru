@@ -22,6 +22,7 @@ public class Soal07 {
             jumlah = jumlah * (hari - 10);
         }else {
             System.out.println(" Gratis ");
+            System.exit(0);
         }
         System.out.println("Buku pelajaran  : " + bukuPelajaran);
         System.out.println("Novel           : " + novel);
