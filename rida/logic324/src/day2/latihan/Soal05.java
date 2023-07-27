@@ -17,7 +17,7 @@ dst...
 Buatlah program untuk menentukan hari jika user melakukan input dengan bilangan x */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Masukkan angka: ");
+        System.out.print("Hari ke- ");
         Integer x= input.nextInt();
         if (x>=1 && x%7==1){
             System.out.println("Senin");
