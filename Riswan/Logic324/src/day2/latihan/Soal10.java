@@ -1,6 +1,5 @@
 package day2.latihan;
 
-import javax.sound.midi.Soundbank;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -25,9 +24,9 @@ public class Soal10 {
             short pilih = input.nextShort();
             if(pilih == 1){
                 System.out.println("Masukkan Nomor Rekening : ");
-                long NoRekening = input.nextLong();
+                String NoRekening = input.nextLine();
 
-                if(NoRekening >= 1000000000){
+                if(NoRekening.length() == 10){
                     System.out.println("Masukkan Nominal Transfer ");
                     long nominal = input.nextLong();
 
@@ -46,10 +45,13 @@ public class Soal10 {
                     System.exit(0);
                 }
             } else if(pilih == 2){
+                System.out.println("Masukkan Kode Bank : ");
+                String kodeBank = input.nextLine();
+                input.nextLine();
                 System.out.println("Masukkan Nomor Rekening : ");
-                long NoRekening = input.nextLong();
+                String NoRekening = input.nextLine();
 
-                if(NoRekening >= 1000000000){
+                if(NoRekening.length() == 10){
                     System.out.println("Masukkan Nominal Transfer ");
                     long nominal = input.nextLong();
 
