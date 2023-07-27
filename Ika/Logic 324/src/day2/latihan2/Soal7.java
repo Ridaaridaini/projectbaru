@@ -1,6 +1,5 @@
-package day2.Latihan2;
+package day2.latihan2;
 
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class Soal7 {
@@ -18,17 +17,18 @@ public class Soal7 {
         Scanner scan = new Scanner(System.in);
         System.out.print("lama pinjam buku pelajaran: ");
         int pelajaran= scan.nextInt();
-        System.out.println("jumlah buku pelajaran: ");
+        System.out.print("jumlah buku pelajaran: ");
         int jumlahBp= scan.nextInt();
+        Math.abs(jumlahBp);
 
         System.out.print("lama pinjam buku novel: ");
         int novel = scan.nextInt();
-        System.out.println("jumlah buku novel: ");
+        System.out.print("jumlah buku novel: ");
         int jumlahN = scan.nextInt();
 
         System.out.print("lama pinjam buku skripsi: ");
         int skripsi = scan.nextInt();
-        System.out.println("jumlah pijam buku skripsi");
+        System.out.print("jumlah pijam buku skripsi: ");
         int jumlahS = scan.nextInt();
 
 
@@ -36,24 +36,31 @@ public class Soal7 {
         if(pelajaran<10 && novel<10 && skripsi<10){
             System.out.println("Gratis");
         }else {
+
         } if (pelajaran>10 && novel>10 && skripsi>10) {
             int bayarDendaTotal = (((pelajaran - 10) * 2000) * jumlahBp) + (((novel - 10) * 5000)*jumlahN) + (((skripsi - 10) * 10000)* jumlahS);
             System.out.println("bayar denda " + bayarDendaTotal);
+
         } else if (pelajaran>10 && novel>10) {
             int bayarDendaPelajaranNovel = (((pelajaran-10)*2000)*jumlahBp) +((novel-10)*5000)*jumlahN;
             System.out.println(bayarDendaPelajaranNovel);
+
         }else if(pelajaran>10 && skripsi>10){
             int bayarDendaPelajaranNovel = (((pelajaran - 10) * 2000) * jumlahN) + ((skripsi - 10) * 10000)* jumlahS;
             System.out.println("bayar denda " + bayarDendaPelajaranNovel);
+
         } else if (novel>10 && skripsi>10) {
             int bayarDendaNovelSkripsi = (((novel - 10) * 5000)*jumlahN) + ((skripsi - 10) * 10000)* jumlahS;
             System.out.println("bayar denda " + bayarDendaNovelSkripsi);
+
         } else if (pelajaran>10) {
             int bayarDendaBukuPelajaran = (((pelajaran - 10) * 2000) * jumlahN);
             System.out.println("bayar denda buku " + bayarDendaBukuPelajaran);
+
         } else if (novel>10) {
             int bayarDendaBukuNovel = (((novel - 10) * 5000)*jumlahN);
             System.out.println("bayar denda buku " + bayarDendaBukuNovel);
+
         } else if (skripsi>10) {
             int bayarDendaBukuSkripsi = (((skripsi - 10) * 10000)* jumlahS);
             System.out.println("bayar denda buku " + bayarDendaBukuSkripsi);

@@ -1,4 +1,4 @@
-package day2.Latihan2;
+package day2.latihan2;
 
 
 import java.util.Scanner;
