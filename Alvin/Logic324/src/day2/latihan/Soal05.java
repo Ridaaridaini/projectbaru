@@ -1,5 +1,6 @@
 package day2.latihan;
 
+import java.util.IllegalFormatCodePointException;
 import java.util.Scanner;
 
 public class Soal05 {
@@ -37,7 +38,6 @@ public class Soal05 {
                     System.out.println("Mnggu");
                     break;
             }
-
 
 
     }
