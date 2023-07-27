@@ -11,25 +11,19 @@ public class Soal10 {
         int angka = 3;
 
         for (int i = 1; i <=n ; i++) {
-
             if( n % 2 == 1) {
-                if(i==n/2){
-                    System.out.print(" " + angka);
+                if(i == n/2+1){
+                    angka = angka * 3;
                     System.out.print(" XXX ");
-                    angka = angka * 3;
-                    i=i+1;
-                    angka = angka * 3;
+
                 }else{
                     System.out.print(" " + angka);
                     angka = angka * 3;
                 }
-            } else if (n%2 == 0) {
-                if (i==n/2 || i==(n/2)-1 ){
-                    System.out.print(" " + angka);
+            } else if (n % 2 == 0) {
+                if (i==n/2 || i==n/2+1 ){
+                    angka = angka * 3;
                     System.out.print(" XXX ");
-                    angka = angka * 3;
-                    i=i+1;
-                    angka = angka * 3;
 
                 }else {
                     System.out.print(" " + angka);
