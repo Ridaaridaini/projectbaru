@@ -6,65 +6,74 @@ public class Soal10 {
     public static void main(String[] args) {
 
 
-        int pin = 123456;
-        long saldo = 10000000;
+        String pin = "123456";
+
         long admin = 7500;
+        long saldo = 0;
 
 
-        Scanner pinBank = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("masukan pin: ");
-        int bankPin = pinBank.nextInt();
+        String bankPin = scanner.nextLine();
 
-        if (bankPin == pin) {
+        if (bankPin.equals(pin)) {
 
 
-            Scanner transfer = new Scanner(System.in);
+            System.out.println("masukan uang yang disetor: ");
+            long setor = scanner.nextLong();
+            saldo = setor + saldo;
+
             System.out.println("masukan pilihan: ");
-            int pilihan = transfer.nextInt();
+            int pilihan = scanner.nextInt();
+
+
 
             if (pilihan == 1) {
-                Scanner rekening = new Scanner(System.in);
+
+
 
                 System.out.println("masukan rekening tujuan: ");
-                String tujuan = rekening.next();
+                String tujuan = scanner.next();
 
                 if (tujuan.length() == 10) {
-                    Scanner nominal = new Scanner(System.in);
+
                     System.out.println("masukan nomnial transfer: ");
-                    long tf = nominal.nextLong();
-                    if (tf<saldo) {
+                    long tf = scanner.nextLong();
+                    if (tf < saldo) {
                         long sisaSaldo = saldo - tf;
                         System.out.println("Transaksi berhasil, saldo anda saat ini Rp." + sisaSaldo);
-                    } else if (tf>saldo) {
+                    } else if (tf > saldo) {
                         System.out.println("Saldo tidak cukup");
                     }
 
                 } else if (tujuan.length() != 10) {
                     System.out.println("nomor rekening tidak valid");
                 }
-            } else if (pilihan==2) {
-                Scanner rekening = new Scanner(System.in);
+            } else if (pilihan == 2) {
+
+                System.out.println("masukan kode bank: ");
+                int kodeBank = scanner.nextInt();
 
                 System.out.println("masukan rekening tujuan: ");
-                String tujuan = rekening.next();
+                String tujuan = scanner.next();
 
                 if (tujuan.length() == 10) {
-                    Scanner nominal = new Scanner(System.in);
+
                     System.out.println("masukan nomnial transfer: ");
-                    long tf = nominal.nextLong();
-                    if (tf<saldo) {
-                        long sisaSaldo = saldo - tf;
+                    long tf = scanner.nextLong();
+                    if (tf < saldo-admin) {
+                        long sisaSaldo = saldo - tf - admin;
                         System.out.println("Transaksi berhasil, saldo anda saat ini Rp." + sisaSaldo);
-                    } else if (tf>saldo) {
+                    } else if (tf > saldo) {
                         System.out.println("Saldo tidak cukup");
                     }
                 } else if (tujuan.length() != 10) {
                     System.out.println("nomor rekening tidak valid");
                 }
 
-            } else {
-                System.out.println("pin salah");
             }
+        } else {
+            System.out.println("pin salah");
         }
     }
 }
