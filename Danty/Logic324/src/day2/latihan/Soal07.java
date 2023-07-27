@@ -24,19 +24,20 @@ public class Soal07 {
         int dendaN = 5000;
         int dendaS = 10000;
 
-        int keterlambatanHari = hari - 10;
+        //int keterlambatanHari = hari - 10;
 
-        int totalBiayaDendaP = pelajaran*keterlambatanHari*dendaP;
-        int totalBiayaDendaN = novel*keterlambatanHari*dendaN;
-        int totalBiayaDendaS = skripsi*keterlambatanHari*dendaS;
+        //int totalBiayaDendaP = pelajaran*keterlambatanHari*dendaP;
+        //int totalBiayaDendaN = novel*keterlambatanHari*dendaN;
+        //int totalBiayaDendaS = skripsi*keterlambatanHari*dendaS;
 
-        int totalDendaBuku = totalBiayaDendaP + totalBiayaDendaN + totalBiayaDendaS;
+        //int totalDendaBuku = totalBiayaDendaP + totalBiayaDendaN + totalBiayaDendaS;
 
-        if(hari <= 10){
-            System.out.println("gratis");
+        if(hari > 10){
+            int totalDenda = ((hari - 10)*pelajaran*dendaP) + ((hari - 10)*novel*dendaN) + ((hari - 10)*skripsi*dendaS);
+            System.out.println("Total Denda = " + totalDenda);
         }
-        else if(hari > 10){
-            System.out.println("Total Denda Buku = " + totalDendaBuku);
+        else if(hari <= 10){
+            System.out.println("gratis");
 
         }
 
