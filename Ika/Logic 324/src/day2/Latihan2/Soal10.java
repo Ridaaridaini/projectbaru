@@ -31,7 +31,7 @@ public class Soal10 {
         int saldo = 0;
         int transfer = 1;
         int rekening = 1234567890;
-        int kodeBank = 1;
+        int biayaAdmin= 7_500;
 
 
         if (pin == pinBank) {
@@ -56,8 +56,12 @@ public class Soal10 {
                     if (panjangRekening == 10) {
                         System.out.print("masukan nominal transfer: ");
                         transfer = scan.nextInt();
-                        saldo -= transfer;
-                        System.out.println("Transaksi berhasil, saldo anda saat ini Rp" + saldo);
+                        if (saldo>=transfer){
+                            saldo -= transfer;
+                            System.out.println("Transaksi berhasil, saldo anda saat ini Rp" + saldo);
+                        }else {
+                            System.out.println("SALDO TIDAK MENCUKUPI");
+                        }
                     } else {
                         System.out.println("Nomor rekening salah");
                         System.exit(3);
@@ -66,15 +70,19 @@ public class Soal10 {
 
                 } else if (jenisTrasfer == 2) {
                     System.out.print("Masukan kode bank: ");
-                    kodeBank = scan.nextInt();
+                    int kodeBank = scan.nextInt();
                     System.out.print("Masukan nomor rekening: ");
                     rekening = scan.nextInt();
                     int panjangRekening = String.valueOf(rekening).length();
                     if (panjangRekening == 10) {
                         System.out.print("masukan nominal transfer: ");
                         transfer = scan.nextInt();
-                        int saldo1 = saldo - transfer - 7500;
-                        System.out.println("Transaksi berhasil, saldo anda saat ini Rp" + saldo1);
+                        if (saldo>=transfer){
+                            saldo =saldo - transfer -biayaAdmin;
+                            System.out.println("Transaksi berhasil, saldo anda saat ini Rp" + saldo);
+                        }else {
+                            System.out.println("SALDO TIDAK MENCUKUPI");
+                        }
                     } else {
                         System.out.println("Nomor rekening salah");
                         System.exit(3);
