@@ -10,11 +10,11 @@ public class Soal12 {
         Scanner inputan = new Scanner(System.in);
 
         System.out.print("Masukkan angka = ");
-        int a= inputan.nextInt();
+        int n= inputan.nextInt();
 
-        for (i = 0; i < a; i++) {
+        for (i = 0; i < n; i++) {
             System.out.print("*");
-            for (j = 0; j < a; j++) {
+            for (j = 0; j < n; j++) {
                 if(i>j){
                     System.out.print("*");
                 }
