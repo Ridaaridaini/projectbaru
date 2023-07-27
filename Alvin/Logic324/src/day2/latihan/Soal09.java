@@ -10,16 +10,16 @@ public class Soal09 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("keranjang 1: ");
-        keranjangSatu = scanner.nextInt();
+        keranjangSatu = scanner.nextInt(); //0
 
         System.out.print("keranjang 2: ");
-        keranjangDua = scanner.nextInt();
+        keranjangDua = scanner.nextInt(); //10
 
         System.out.print("keranjang 3: ");
-        keranjangTiga = scanner.nextInt();
+        keranjangTiga = scanner.nextInt(); // 5
 
         System.out.print("keranjang dibawa ke pasar: ");
-        bawaKePasar = scanner.nextInt();
+        bawaKePasar = scanner.nextInt(); //1
 
         scanner.close();
 

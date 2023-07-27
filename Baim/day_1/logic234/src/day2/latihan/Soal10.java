@@ -43,6 +43,7 @@ public class Soal10 {
                 case 2:
                     System.out.print("Masukkan kode bank: ");
                     int kodeBank = scanner.nextInt();
+                    int adminTransfer = 7500;
 
                     System.out.print("Masukkan rekening tujuan: ");
                     int rekeningBankTujuan = scanner.nextInt();
@@ -53,7 +54,7 @@ public class Soal10 {
                         int uangTransfer = scanner.nextInt();
 
                         if (uangTransfer < setorTunai) {
-                            int sisaSaldo = setorTunai - uangTransfer;
+                            int sisaSaldo = setorTunai - uangTransfer - adminTransfer;
                             System.out.println("Transfer Berhasil, sisa saldo anda adalah: Rp." + sisaSaldo);
                         } else {
                             System.out.println("Saldo tidak mencukupi");
