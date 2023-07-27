@@ -8,9 +8,9 @@ public class Soal10 {
         System.out.print("Masukan number: ");
         int number = scan.nextInt();
 
-        int bil = 3;
+        int bil = 1;
         for (int i = 0; i < number; i++) {
-            if (i%2==0){
+            if (number%2==0){
                 if(i == number/2-1) {
                     System.out.print(" * ");
                     bil = bil * 3;
