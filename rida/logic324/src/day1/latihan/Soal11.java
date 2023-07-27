@@ -9,6 +9,6 @@ public class Soal11 {
         Integer a= input.nextInt();
         System.out.println("b= ");
         Integer b= input.nextInt();
-        System.out.println(Math.pow(a,b));
+        System.out.println("Hasil dari a pangkat b ialah: " +Math.pow(a,b));
     }
 }

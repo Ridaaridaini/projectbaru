@@ -12,7 +12,7 @@ public class Soal6 {
         System.out.print("sisi y: ");
         int sisiY = input.nextInt();
         int luasPersegi = sisiX*sisiY;
-        int luasSegitiga = luasPersegi/2; //misal sisi x= alas; sisi y = tinggi
+        double luasSegitiga = sisiY*sisiY/2; //misal sisi x= alas; sisi y = tinggi
 
         input.close();
         System.out.println(luasPersegi==luasSegitiga);

@@ -9,14 +9,19 @@ public class Soal07 {
         long totalDenda;
 
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("jumlah pinjam buku pelajaran: ");
         jumlahPinjamPelajaran = scanner.nextInt();
+
         System.out.print("jumlah pinjam buku novel: ");
         jumlahPinjamNovel = scanner.nextInt();
+
         System.out.print("jumlah pinjam buku skripsi: ");
         jumlahPinjamSkripsi = scanner.nextInt();
+
         System.out.print("lama pinjam: ");
         lamaPinjam = scanner.nextInt();
+
         scanner.close();
 
         if (lamaPinjam>10){
