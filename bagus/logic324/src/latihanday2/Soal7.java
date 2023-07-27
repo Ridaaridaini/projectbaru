@@ -23,10 +23,10 @@ public class Soal7 {
 
         if (lamaPeminjaman == 10 || lamaPeminjaman <=10){
             System.out.println("tidak terkena denda");
-        } else if (lamaPeminjaman > 10) {
-            int totalDendaBukuPelajaran = Math.max(0, lamaPeminjaman - 10) * dendaBukuPelajaran * jumlahBukuPelajaran;
-            int totalDendaBukuNovel = Math.max(0, lamaPeminjaman - 10) * dendaBukuNovel * jumlahBukuNovel;
-            int totalDendaBukuSkripsi = Math.max(0, lamaPeminjaman - 10) * dendaBukuSkripsi * jumlahBukuSkripsi;
+        } else if (lamaPeminjaman >= 10) {
+            int totalDendaBukuPelajaran = (lamaPeminjaman - 10) * dendaBukuPelajaran * jumlahBukuPelajaran;
+            int totalDendaBukuNovel = (lamaPeminjaman - 10) * dendaBukuNovel * jumlahBukuNovel;
+            int totalDendaBukuSkripsi =(lamaPeminjaman - 10) * dendaBukuSkripsi * jumlahBukuSkripsi;
             int totalDenda = totalDendaBukuPelajaran + totalDendaBukuNovel + totalDendaBukuSkripsi;
             System.out.println("Total biaya denda: " + totalDenda + " rupiah");
         }
