@@ -22,7 +22,6 @@ public class Soal9 {
         if (keranjangPasar == 1) {
             int jumlahBuah = keranjang2 + keranjang3;
             System.out.println("Jumlah buah yang ada adalah: " + jumlahBuah + " buah");
-
         } else if (keranjangPasar == 2) {
             int jumlahBuah = keranjang1 + keranjang3;
             System.out.println("Jumlah buah yang ada adalah: " + jumlahBuah + " buah");

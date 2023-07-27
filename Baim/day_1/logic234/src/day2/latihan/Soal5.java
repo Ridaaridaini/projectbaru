@@ -9,7 +9,7 @@ public class Soal5 {
         System.out.print("Masukkan sembarang angka: ");
         int bilangan = scanner.nextInt()%7;
 
-        if(bilangan == 1 || bilangan == 0){
+        if(bilangan == 1){
             System.out.println("Senin");
         } else if(bilangan == 2){
             System.out.println("Selasa");
@@ -21,7 +21,7 @@ public class Soal5 {
             System.out.println("Jumat");
         } else if(bilangan == 6){
             System.out.println("Sabtu");
-        } else if (bilangan == 7){
+        } else if (bilangan == 7  || bilangan == 0){
             System.out.println("Minggu");
         } else {
             System.out.println("Masukkan bilangan desimal saja");
