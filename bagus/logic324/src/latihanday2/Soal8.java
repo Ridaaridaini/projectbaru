@@ -16,11 +16,11 @@ public class Soal8 {
 
         if(uangAlfin>=jas){
             System.out.println("alfin membeli jas");
-        } else if (uangAlfin>=250000 || uangAlfin > 750000) {
+        } else if (uangAlfin>=cp) {
             System.out.println("alfin membeli celana panjang");
-        } else if (uangAlfin >= 100000 || uangAlfin > 250000) {
+        } else if (uangAlfin >= kemeja) {
             System.out.println("alfin membeli kemeja");
-        } else if (uangAlfin>=50000 || uangAlfin > 100000) {
+        } else if (uangAlfin>=kaos) {
             System.out.println("alfin membeli kaos");
         }
     }

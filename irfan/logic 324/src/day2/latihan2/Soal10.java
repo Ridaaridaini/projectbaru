@@ -58,7 +58,7 @@ public class Soal10 {
             rekeningTujuan = inputan.nextLine();
 
             //kondisi rekening bank harus 10 digit
-            if(rekeningTujuan.length()!=10){
+            if(rekeningTujuan.length()!=10){ // length = kondisi string untuk pengecekan panjang string
                 System.out.print("rekening harus 10 digit =");
                 return; // kondisi apabila salah program berhenti
             }
