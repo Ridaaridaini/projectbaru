@@ -16,7 +16,7 @@ public class Soal06 {
             System.out.println("anda menang");
         }else {
             System.out.println("anda kalah");
-            System.out.println("Tebakan anda : " + random);
+            System.out.println("hasil : " + random);
         }
     }
 }
