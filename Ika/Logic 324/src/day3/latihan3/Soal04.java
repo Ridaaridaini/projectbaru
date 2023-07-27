@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Soal04 {
     public static void main(String[] args) {
+        // n=7
+        // 1 5 9 13 17 21 25
+
         Scanner scan = new Scanner(System.in);
         System.out.print("masukan panjang deret: ");
         int n = scan.nextInt();

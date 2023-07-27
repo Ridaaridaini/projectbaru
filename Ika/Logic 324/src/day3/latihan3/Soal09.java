@@ -13,6 +13,9 @@ public class Soal09 {
         double b = 0;
         double c ;
 
+        int x=1;
+
+        System.out.println("*************CARA 1***********");
         for (int i = 1; i < n+1; i++) {
             if(i %3 ==0){
                 System.out.print(" * ");
@@ -24,6 +27,17 @@ public class Soal09 {
 
         }
 
+        System.out.println("\n");
+        System.out.println("********CARA 2*************");
+        for (int i = 1; i < n+1; i++) {
+            if(i%3==0){
+                System.out.print(" * ");
+                continue;
+            }
+            x=x*4;
+            System.out.print(x + " ");
+
+        }
 
     }
 }
