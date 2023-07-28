@@ -19,7 +19,12 @@ public class Soal10 {
                 System.out.print("XXX ");
                 a = a*3;
 
-            } else {
+            } else if(i == (n/2)-1){
+                System.out.print("XXX ");
+                a= a*3;
+
+            }
+            else {
                 System.out.print(a + " ");
                 a = a*3;
 
