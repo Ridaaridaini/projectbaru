@@ -30,11 +30,9 @@ public class Soal5 {
             case (6):
                 System.out.println("Sabtu");
                 break;
-            case (7):
+            default:
                 System.out.println("Minggu");
                 break;
-            default:
-                System.out.println("error");
         }
     }
 }

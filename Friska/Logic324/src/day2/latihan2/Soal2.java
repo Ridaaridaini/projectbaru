@@ -15,15 +15,15 @@ public class Soal2 {
             }
         else if (musim.equalsIgnoreCase("Hujan") && hari.equalsIgnoreCase("Kerja")){
                 System.out.println("Kegiatan hari Pasrah aj deh");
-                }
+            }
         else if (musim.equalsIgnoreCase("Panas") && hari.equalsIgnoreCase("Libur")){
                         System.out.println("Jalan-jalan ke pantai");
-                    }
+            }
         else {
                         System.out.println("Hangout bareng teman kantor");
-                    }
-                }
             }
+        }
+    }
 
 
 
