@@ -12,7 +12,7 @@ public class Soal06 {
         int a= 1;// 1 5 9
         for (int i = 1; i < n+1; i++) {//i=1 2 3
             if( i%3==0){
-                a= a+4;
+                a = a+4;
                 System.out.print(" * ");
                 continue;
             }
