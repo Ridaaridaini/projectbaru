@@ -1,13 +1,12 @@
 package day2.latihan;
 
-import java.sql.SQLOutput;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Soal10 {
     public static void main(String[] args) {
         String pin = "123456", pin_temp;
-        long setUang = 0, sisaSaldo = 0;
+        long setUang, sisaSaldo = 0;
         String sisaSaldoStr;
 
         Scanner scanner = new Scanner(System.in);
@@ -67,7 +66,7 @@ public class Soal10 {
                     int tarif = 7500;
 
                     System.out.print("Masukan Kode Bank: ");
-                    int kodeBank = scanner.nextInt();
+                    scanner.nextInt();
                     scanner.nextLine();
 
                     System.out.print("Masukan Rekening Tujuan: ");
