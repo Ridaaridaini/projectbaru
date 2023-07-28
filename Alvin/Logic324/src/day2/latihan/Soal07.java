@@ -19,12 +19,20 @@ public class Soal07 {
         System.out.print("jumlah pinjam buku skripsi: ");
         jumlahPinjamSkripsi = scanner.nextInt();
 
+        if (jumlahPinjamNovel < 0 || jumlahPinjamSkripsi < 0 || jumlahPinjamPelajaran < 0){
+            System.out.println("jumlah buku pinjaman harus positif");
+            System.exit(666);
+        }
+
         System.out.print("lama pinjam: ");
         lamaPinjam = scanner.nextInt();
 
         scanner.close();
 
-        if (lamaPinjam>10){
+
+        if (lamaPinjam > 0 && lamaPinjam <= 10 ){
+            System.out.println("tidak ada denda");
+        } else if (lamaPinjam>10){
             int hariDenda = lamaPinjam - 10;
 
             dendaBukuPelajaran = hariDenda*(dendaBukuPelajaran*jumlahPinjamPelajaran);
@@ -37,7 +45,7 @@ public class Soal07 {
                     + hariDenda + " hari");
 
         }else{
-            System.out.println("tidak ada denda");
+            System.out.println("day undefine");
         }
 
     }

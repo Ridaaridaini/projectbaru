@@ -19,6 +19,8 @@ public class Soal08 {
             System.out.println("Beli Celana Panjang");
         } else if (x >= 750_000) {
             System.out.println("Beli Jas");
+        }else {
+            System.out.println("duit ndak cukup");
         }
     }
 }
