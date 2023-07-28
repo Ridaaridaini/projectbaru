@@ -1,4 +1,4 @@
-package day2.Latihan2;
+package day2.latihan2;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class Soal8 {
         //Buatlah program untuk membantu Alfin untuk menentukan barang apa yang akan dibeli jika uang alfin berupa inputan user.
 
         Scanner scan = new Scanner(System.in);
-        System.out.print("uang alfin: ");
+        System.out.print("uang Alfin: ");
         int uang = scan.nextInt();
 
         scan.close();
