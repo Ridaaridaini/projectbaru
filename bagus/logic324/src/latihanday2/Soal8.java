@@ -23,5 +23,6 @@ public class Soal8 {
         } else if (uangAlfin>=kaos) {
             System.out.println("alfin membeli kaos");
         }
+
     }
 }
