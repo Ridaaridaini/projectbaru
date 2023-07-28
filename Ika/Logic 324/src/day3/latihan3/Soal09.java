@@ -19,7 +19,7 @@ public class Soal09 {
         for (int i = 1; i < n+1; i++) {
             if(i %3 ==0){
                 System.out.print(" * ");
-                continue;
+
             }
             b++;
             c=Math.pow(a,b);
