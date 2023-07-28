@@ -9,7 +9,7 @@ public class Soal5 {
         System.out.print("masukan nilai x: ");
         int x = scan.nextInt();
 
-        for (int i = 1; i <=x; i++) {
+        for (int i = 3; i <=x; i++) {
             if(i%3!=0 ){
                 continue;
             }
