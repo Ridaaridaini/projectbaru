@@ -8,7 +8,7 @@ public class ForLoopStructure {
             i < 5; /*kondisi apakah  perulangan akan dilanjutkan*/  //optional juga (default true) (2)
             i++ )//i=i+1/*incremental*/ ) //optional (3)
         {
-            System.out.println(i);
+            System.out.println(i); //(4)
 
             //alur output : (1) (2) (true) (4) (3) (2) (false) -> perulangan berhenti
         }

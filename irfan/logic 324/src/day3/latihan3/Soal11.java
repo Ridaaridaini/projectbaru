@@ -4,18 +4,22 @@ import java.util.Scanner;
 
 public class Soal11 {
     public static void main(String[] args) {
-        int i;
+        int i,j;
 
         Scanner inputan = new Scanner(System.in);
 
         System.out.print("Masukkan angka = ");
-        int j = inputan.nextInt();
+        int n= inputan.nextInt();
 
-        for (i = 0; i < j; i++) {
-
+        for (i = 0; i < n; i++) {
             System.out.print("@");
 
+            for(j=0; j < n-1; j++){
+            System.out.print("@");
             }
+            System.out.println();
+        }
         }
     }
+
 

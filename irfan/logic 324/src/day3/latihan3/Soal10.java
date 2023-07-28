@@ -4,16 +4,24 @@ import java.util.Scanner;
 
 public class Soal10 {
     public static void main(String[] args) {
-        int i, deretAngka;
+        int i, n;
         int a = 3;
         Scanner inputan = new Scanner(System.in);
 
         System.out.print("Masukkan angka = ");
-        deretAngka = inputan.nextInt();
+        n = inputan.nextInt();
 
-        for (i = 0; i < deretAngka; i++) {
-            if (i % 4 == 3 || i % 4 == 4) {
-                System.out.print("XXX ");
+        for (i = 0; i < n; i++) {
+            if (n % 2 == 1) {
+                if (i == n / 2) {
+                    System.out.print("XXX ");
+                } else {
+                    System.out.print(a + "  ");
+                }
+                a = a * 3;
+            } else {
+                if (i == n / 2 || i == (n / 2) - 1) {
+                    System.out.print("XXX ");
                 } else {
                     System.out.print(a + "  ");
 
@@ -22,4 +30,6 @@ public class Soal10 {
             }
         }
     }
+}
+
 
