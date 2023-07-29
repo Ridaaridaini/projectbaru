@@ -9,10 +9,10 @@ public class BreakContinue {
         for(;true;a++){
 
             if (a%2 == 0){
-                continue;
+                continue; //membatasi program, jadi kembali ke pengecekan awal
             }
             if (a == 11){
-                break;
+                break; //langsung berhenti atau keluar
             }
             System.out.println(a);
 
