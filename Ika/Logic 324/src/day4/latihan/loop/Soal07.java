@@ -23,21 +23,46 @@ public class Soal07 {
             System.out.print("pilih kotak A atau B : ");
             String kotak = input.nextLine();
 
-
-            int nUser = 0;
-            int nRandom = 0;
+            int nUser = n;
+            int nRandom = n;
             if (kotak.equalsIgnoreCase("A")){
                 if (angkaRandomA>angkaRandomB){
-                    nUser+= m;
+                    nUser += m;
+                    nRandom -=m;
                     System.out.println("sisa kartu user " +nUser);
-                }else {
+                }else if(angkaRandomA<angkaRandomB) {
+                    nUser -= m;
                     nRandom +=m;
                     System.out.println("sisa kartu komputer " + nRandom);
+                }else {
+                    System.out.println("SERI");
+                    continue;
                 }
+            }else{
+                if (angkaRandomA>angkaRandomB){
+                    nUser += m;
+                    nRandom -=m;
+                    System.out.println("sisa kartu user " +nUser);
+                }else if(angkaRandomA<angkaRandomB) {
+                    nUser -= m;
+                    nRandom +=m;
+                    System.out.println("sisa kartu komputer " + nRandom);
+                }else {
+                    System.out.println("SERI");
+                    continue;
+                }
+            }
 
+            if(nRandom<1){
+                break;
+            }
+
+            if(nUser<1){
+                System.out.println("anda kalah");
+                break;
             }
 
         }
 
-        }
+    }
 }
