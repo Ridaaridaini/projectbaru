@@ -6,6 +6,11 @@ import java.util.Scanner;
 public class Soal07 {
     public static void main(String[] args) {
         //permainan kartu gag
+        //anda dan komputer akan dibekali kartu/gambaran masing-masing sebanyak n.
+        //kemudian akan mengacak angka 0-9 dan memilih 2 angka secara rahasia/tertutup dan dimasukan
+        //kedalam kondisi
+
+
         Scanner input = new Scanner(System.in);
         Random random = new Random();
 
@@ -27,26 +32,34 @@ public class Soal07 {
             int nRandom = n;
             if (kotak.equalsIgnoreCase("A")){
                 if (angkaRandomA>angkaRandomB){
-                    nUser += m;
-                    nRandom -=m;
+                    nUser = nUser +  m;
+                    nRandom = nRandom - m;
                     System.out.println("sisa kartu user " +nUser);
-                }else if(angkaRandomA<angkaRandomB) {
-                    nUser -= m;
-                    nRandom +=m;
                     System.out.println("sisa kartu komputer " + nRandom);
+                    System.out.println();
+                }else if(angkaRandomA<angkaRandomB) {
+                    nUser = nUser - m;
+                    nRandom = nRandom + m;
+                    System.out.println("sisa kartu user " +nUser);
+                    System.out.println("sisa kartu komputer " + nRandom);
+                    System.out.println();
                 }else {
                     System.out.println("SERI");
                     continue;
                 }
-            }else{
+            } else{
                 if (angkaRandomA>angkaRandomB){
-                    nUser += m;
-                    nRandom -=m;
+                    nUser = nUser +  m;
+                    nRandom = nRandom - m;
                     System.out.println("sisa kartu user " +nUser);
-                }else if(angkaRandomA<angkaRandomB) {
-                    nUser -= m;
-                    nRandom +=m;
                     System.out.println("sisa kartu komputer " + nRandom);
+                    System.out.println();
+                }else if(angkaRandomA<angkaRandomB) {
+                    nUser = nUser - m;
+                    nRandom = nRandom + m;
+                    System.out.println("sisa kartu user " +nUser);
+                    System.out.println("sisa kartu komputer " + nRandom);
+                    System.out.println();
                 }else {
                     System.out.println("SERI");
                     continue;
@@ -54,11 +67,12 @@ public class Soal07 {
             }
 
             if(nRandom<1){
+                System.out.println("ANDA MENANG");
                 break;
             }
 
             if(nUser<1){
-                System.out.println("anda kalah");
+                System.out.println("ANDA KALAH");
                 break;
             }
 
