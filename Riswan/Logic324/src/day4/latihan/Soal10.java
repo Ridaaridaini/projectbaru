@@ -44,14 +44,16 @@ public class Soal10 {
         }else if (saldo >200_000){
             long saldo1 = 0;
             saldo1 = saldo - 198000;
-            cup = cup +11;
+            cup = cup +22;
             long cup1 = 0;
+            long diluarDiskon = 0;
 
             System.out.println("diluar diskon : " + saldo1);
 
             while (keputusan){
                 saldo1 = saldo1 - harga;
                 cup1 = cup1 + 1 ;
+                diluarDiskon = diluarDiskon +1;
                 if(saldo1<18000){
                     keputusan = false;
                 }
@@ -64,9 +66,11 @@ public class Soal10 {
 
             System.out.println("jumlah cup : " + jumlahCup);
             long cashback = total/100*10;
-            //System.out.println(" cash back : " + cashback);
+            System.out.println(" cash back : " + cashback);
             long hasil = saldo - total + cashback;
+            System.out.println("hasil "+hasil);
             if(cashback > 30000){
+                System.out.println("saldo : " + (saldo - total + 30000));
                 System.out.println(" jumlah cup : "+ (jumlahCup + 1) + " Kembalian : " + (saldo - total + 30000 - 18_000));
             }else {
                 System.out.println(" jumlah cup : "+ (jumlahCup + 1) + " Kembalian : " + (saldo - total + cashback - 18_000));
@@ -74,11 +78,10 @@ public class Soal10 {
 
             }
         }else {
-            total = 18_000 * cup;
-            System.out.println( " total pembelian : " + total);
-            System.out.println(" sisa saldo : " + (saldo - total));
+
+            System.out.println(" tidak membeli ");
         }
     }
 
-        }
+}
 

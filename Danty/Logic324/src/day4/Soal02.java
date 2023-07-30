@@ -14,9 +14,6 @@ public class Soal02 {
         System.out.print("S = ");
         int s = input.nextInt();
 
-        //String p1 = p + " ? " + s;
-
-        //String s1 = s + " ? " + p;
 
         System.out.print("P" + " ? " + p);
 
