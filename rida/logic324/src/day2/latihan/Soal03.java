@@ -13,16 +13,23 @@ public class Soal03 {
         int z;
         System.out.print("Panjang dari persegi panjang ialah: ");
         Integer x= input.nextInt();
-        System.out.print("Lebar dari persegi panjang ialah: ");
-        Integer y= input.nextInt();
-        if (x>=1){
+        if (x>=1) {
+            System.out.print("Lebar dari persegi panjang ialah: ");
+            Integer y = input.nextInt();
+            if (y>=1){
+                z= x*y;
+                System.out.println("luas dari persegi panjang dengan panjang "+x+" dan lebar "+y+" ialah"+z);
+
+            }
+        }
+        /*if (x>=1){
             z= x*y;
-            System.out.println("luas dari persegi panjang dengan panjang "+x+" dan lebar "+y+" ialah"+z);
-        } else if (y>=1){
+            System.out.println("luas dari persegi panjang dengan panjang "+x+" dan lebar "+y+" ialah"+z);*/
+        /*if (y>=1){
             z= x*y;
             System.out.println("luas dari persegi panjang dengan panjang "+x+" dan lebar "+y+" ialah"+z);
 
-        }
+        }*/
 
 
     }

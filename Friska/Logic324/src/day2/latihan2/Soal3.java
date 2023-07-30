@@ -7,12 +7,13 @@ public class Soal3 {
         Scanner input = new Scanner(System.in);
         System.out.println("Masukkan nilai panjang: ");
         int x = input.nextInt();
+        if (x < 1){
+            System.out.println("Panjang yang diinputkan tidak boleh kurang dari 1");
+            System.exit(0);}
+
         System.out.println("Masukkan nilai lebar: ");
         int y = input.nextInt();
 
-        if (x < 1){
-            System.out.println("Panjang yang diinputkan tidak boleh kurang dari 1");
-        }
         if (y < 1){
             System.out.println("Lebar yang diinputkan tidak boleh kurang dari 1");
         }

@@ -13,7 +13,7 @@ public class Soal01 {
 
         scanner.close();
 
-        if (x > 0 && x < 10){
+        if (x > 0 && x < 10){ // true && true
             System.out.println("angka satuan");
         } else if (x >= 10 && x < 100) {
             System.out.println("angka puluhan");
