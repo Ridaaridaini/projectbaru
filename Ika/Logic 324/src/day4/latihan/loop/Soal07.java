@@ -47,6 +47,7 @@ public class Soal07 {
                     System.out.println("SERI");
                     continue;
                 }
+
             } else{
                 if (angkaRandomA>angkaRandomB){
                     nUser = nUser +  m;
