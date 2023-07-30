@@ -38,7 +38,7 @@ public class Soal07 {
                     System.out.println("Coba lagi ya");
                 }
             } else if (pilihKotak == 2 ) {
-                if(kotakA > kotakB){
+                if(kotakA < kotakB){
                     user = user + taruhan;
                     komputer = komputer - taruhan;
                     System.out.println("selamat anda menang");
