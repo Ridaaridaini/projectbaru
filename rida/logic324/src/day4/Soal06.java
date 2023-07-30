@@ -52,7 +52,6 @@ public class Soal06 {
                 }
                 break;
             }
-
         }while (opo>=54000) ;
     }
 }
