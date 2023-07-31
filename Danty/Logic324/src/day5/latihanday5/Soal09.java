@@ -15,23 +15,19 @@ public class Soal09 {
             System.out.print("Input indeks ke " + i + " : ");
             arrA[i] = input.nextInt();
         }
-        for (int i = 0; i < arrA.length; i++) {
-            System.out.print(arrA[i] + " ");
-
-
-        }
         System.out.println();
         Arrays.sort(arrA); //ini perintah untuk mengurutkan yaaa
 
+        int jumlah = 0;
+        for (int i = 0; i < arrA.length; i++) {
+            jumlah = jumlah + arrA[i];
 
-        System.out.println();
         }
+        System.out.print((jumlah - arrA[0]) + " dan " + (jumlah - arrA[4]));
 
 
 
-
-
-
+    }
 
     }
 

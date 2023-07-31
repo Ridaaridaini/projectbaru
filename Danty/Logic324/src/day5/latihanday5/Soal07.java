@@ -12,11 +12,18 @@ public class Soal07 {
         for (int i = 0; i < arrA.length; i++) {
             awal = awal + arrA[i];
 
+            if(i%2 == 0 && i != 0){
+                genap = genap + arrA[i];
+
+            } else if(i%2 != 0){
+                ganjil = ganjil + arrA[i];
+            }
         }
-
-
-
-
+        System.out.print("awal = " + awal);
+        System.out.println();
+        System.out.print("genap = " + genap);
+        System.out.println();
+        System.out.print("ganjil = " + ganjil);
 
 
 
