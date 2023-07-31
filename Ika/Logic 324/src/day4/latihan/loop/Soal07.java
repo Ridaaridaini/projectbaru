@@ -17,12 +17,11 @@ public class Soal07 {
         System.out.print("masukan banyak gambar n: ");
         int n = input.nextInt();
 
-        int angkaRandomA = random.nextInt(10);
-        int angkaRandomB = random.nextInt(10);
-
         for (int i = 0; i < n; i++){
             System.out.print("masukan jumlah kartu taruhan m: ");
             int m = input.nextInt();
+            int angkaRandomA = random.nextInt(10);
+            int angkaRandomB = random.nextInt(10);
 
             input.nextLine();
             System.out.print("pilih kotak A atau B : ");
