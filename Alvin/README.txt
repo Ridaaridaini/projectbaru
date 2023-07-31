@@ -1,1 +1,1 @@
-Hallo gais tambahin pake github desktop
+Hallo there, welcome to my dialy at XSIS Academy Batch-342 QA.
