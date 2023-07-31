@@ -10,25 +10,44 @@ public class Soal8 {
         int angka = input.nextInt();
 
 
-        int[] array = new int[angka];
+        int[] arrayGenap = new int[angka];
+        int[] arrayGanjil = new int[angka];
 
-        int bil = 1;
+        int genap = 0;
+        int ganjil = 1;
+
+        int total;
+
+
         for (int i = 0; i < angka; i++) {
-            array[i] = bil;
-            bil = bil + 2;
-            System.out.print(array[i] + " ");
+            arrayGenap[i] = genap;
+            arrayGanjil[i] = ganjil;
+
+            genap = genap + 2;
+            ganjil = ganjil + 2;
+
+        }
+        
+        for (int i = 0; i < angka; i++) {
+
+            System.out.print(arrayGenap[i] + "+" + arrayGanjil[i]+ " , ");
+
         }
 
         System.out.println();
 
-        int bilGenap = 0;
-        for (int i = 0; i < angka; i++) {
-            array[i] = bilGenap;
-            bilGenap = bilGenap + 2;
-            System.out.print(array[i] + " ");
-        }
-        System.out.println();
 
+        for (int i = 0; i < angka; i++) {
+
+            total = arrayGenap[i] + arrayGanjil[i];
+
+            System.out.print(total+ " ");
+
+
+        }
     }
+
+
 }
+
 
