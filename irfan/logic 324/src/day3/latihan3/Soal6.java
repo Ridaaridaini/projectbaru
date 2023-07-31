@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class Soal6 {
     public static void main(String[] args) {
-        int i, deretAngka;
+        int i, n;
         int a = 1;
         Scanner inputan = new Scanner(System.in);
 
         System.out.print("Masukkan angka = ");
-        deretAngka = inputan.nextInt();
+        n = inputan.nextInt();
 
-        for (i = 0; i < deretAngka; i++) {
+        for (i = 0; i < n; i++) {
             if (i % 3 == 2) {
                 System.out.print("* ");
             } else {

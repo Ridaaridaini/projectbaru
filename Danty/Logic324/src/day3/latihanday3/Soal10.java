@@ -15,17 +15,20 @@ public class Soal10 {
         for (int i = 0; i < n; i++) { //i = 0 1 2 3
 
             if (i == n/2) {
+
                 System.out.print("XXX ");
                 a = a*3;
 
-            } else {
+            } else if(i == (n/2)-1){
+                System.out.print("XXX ");
+                a= a*3;
 
+            }
+            else {
                 System.out.print(a + " ");
                 a = a*3;
 
                 //output = 3 9 27 81
-
-
             }
 
         }

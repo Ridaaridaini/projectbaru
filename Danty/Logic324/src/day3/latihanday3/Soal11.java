@@ -9,7 +9,7 @@ public class Soal11 {
         Scanner input = new Scanner(System.in);
 
         System.out.print("n = ");
-        int n = input.nextInt();
+        int n = input.nextInt(); //input = 2
 
         for (int i = 0; i < n; i++) {
             System.out.println();
