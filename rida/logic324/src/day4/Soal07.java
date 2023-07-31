@@ -93,10 +93,9 @@ public class Soal07 {
                         jumlahKartu= kartuUser;
                     }
                 }
-                System.out.println(jumlahKartu);
                 continue;
             }
-        }while(jumlahKartu == n);
+        }while(jumlahKartu != n);
 
 
 
