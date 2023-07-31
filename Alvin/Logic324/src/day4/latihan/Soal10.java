@@ -18,15 +18,6 @@ public class Soal10 {
         for (int i = 0; ; i++) {
             jumlahKopi = i;
             hargaKopiTotal = hargaKopiTotal + hargaKopi;
-
-            if (hargaKopiTotal > minOrder){
-                if (saldoPO < (hargaKopiTotal/2)){
-                    System.out.println(jumlahKopi);
-                    System.out.println((hargaKopiTotal/2));
-                    break;
-                }
-
-            }
         }
     }
 
