@@ -4,27 +4,51 @@ import java.util.Scanner;
 
 public class Soal10 {
     public static void main(String[] args) {
-        double saldoOpo, saldoAkhir;
-        int jumlahCup = 0;
-        int minimalOrder = 40_000;
-        double hargaCup = 18_000;
-        double cashback = 30_000;
-        
+        double diskon = 0.5;
+        double minimumOrde = 40000;
+        double maksDiskon = 100000;
+        double cashback = 0.1;
+        double maksCashback = 30000;
+        double hargaKopi = 18000;
+        double maxCup = 0;
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Saldo OPO = ");
-        saldoOpo = input.nextLong();
+        System.out.print("Masukan Jumlah Saldo = ");
+        double saldoOPO = input.nextInt();
 
-        for (int i = 1; i < 11; i++) {
-
-
-        }
-
-
+        while (saldoOPO >= hargaKopi){
+            if (saldoOPO >= minimumOrde){
+                double hargaAsli = saldoOPO/diskon;
+                maxCup = Math.floor(hargaAsli / hargaKopi);
+                double buyKopi = maxCup*hargaKopi;
+                double hargaDiskon = buyKopi*diskon;
+                if (hargaDiskon <= 100000){
+                    double sisaKembalian = saldoOPO - hargaDiskon;
+                    double nilaiCashback = hargaDiskon*cashback;
+                    if (nilaiCashback > 30000){
+                        saldoOPO = sisaKembalian + 30000;
+                    }else {
+                        saldoOPO = sisaKembalian + nilaiCashback;}
+                }else {
+                    double sisaKembalian = saldoOPO - 100000;
+                    double nilaiCashback = 100000*cashback;
+                    if (nilaiCashback > 30000){
+                        saldoOPO = sisaKembalian + 30000;
+                    }else {
+                        saldoOPO = sisaKembalian + nilaiCashback;}
+                }
+            }else {
+                maxCup = maxCup + 1;
+                saldoOPO = saldoOPO - hargaKopi;
             }
-
         }
+
+        System.out.println("jumlah Kopi = " + maxCup + " dan Jumlah Kembalian = " + saldoOPO);
+
+    }
+
+}
 
 
 
