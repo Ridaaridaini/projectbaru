@@ -1,1 +1,1 @@
-Hallo there, welcome to my dialy at XSIS Academy Batch-342 QA.
+Hallo there, welcome to my daily at XSIS Academy Batch-342 QA.
