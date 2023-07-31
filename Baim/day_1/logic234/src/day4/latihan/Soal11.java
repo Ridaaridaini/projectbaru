@@ -43,12 +43,14 @@ public class Soal11 {
                         System.out.println("Tebakan anda benar, kartu anda bertambah sebesar: ");
                         System.out.println("Player: " + player);
                         System.out.println("Komputer: " + komputer);
-                    } else {
+                    } else if (a < b){
                         player -= tawaran;
                         komputer += tawaran;
                         System.out.println("Tebakan anda salah, sisa kartu: ");
                         System.out.println("Player: " + player);
                         System.out.println("Komputer: " + komputer);
+                    } else {
+                        System.out.println("Draw");
                     }
                     break;
                 case "b":
@@ -58,17 +60,25 @@ public class Soal11 {
                         System.out.println("Tebakan anda benar, kartu anda bertambah sebesar: ");
                         System.out.println("Player: " + player);
                         System.out.println("Komputer: " + komputer);
-                    } else {
+                    } else if(b > a){
                         player -= tawaran;
                         komputer += tawaran;
                         System.out.println("Tebakan anda salah, sisa kartu: ");
                         System.out.println("Player: " + player);
                         System.out.println("Komputer: " + komputer);
+                    } else {
+                        System.out.println("Draw");
                     }
                     break;
                 default:
                     System.out.println("Masukan sesuai format");
                     break;
+            }
+
+            System.out.print("Lanjut bermain? (y/n): ");
+            String menyerah = scanner.nextLine();
+            if(menyerah.equalsIgnoreCase("y")){
+                bermain = false;
             }
         }
 
