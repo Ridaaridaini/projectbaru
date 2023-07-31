@@ -20,28 +20,55 @@ public class Soal07 {
 
         Random rG = new Random(); //Class Random
 
-        int kotakA = rG.nextInt(10);
+        int kotakA = rG.nextInt(10); //ini batasnya 0-9 yaaa, tapi memang ditulis 10
         int kotakB = rG.nextInt(10);
 
 
         System.out.print("Pilih Kotak : ");
         String namaKotak = input.nextLine();
 
-        input.nextLine();
+
+        while (nyawaPlayer > 0) {
+            if (namaKotak.equals("A")) {
+                System.out.print("Kotak A = " + kotakA);
+                System.out.print("Kotak B = " + kotakB);
+                if (kotakA > kotakB) {
+                    nyawaPlayer = nyawaPlayer + nyawaKomputer;
+                    continue;
+                } else if (kotakA < kotakB) {
+                    nyawaPlayer = nyawaPlayer - nyawaKomputer;
+                    continue;
+                }
+            }
+            if (namaKotak.equals("B")) {
+                System.out.print("Kotak A = " + kotakA);
+                System.out.print("Kotak B = " + kotakB);
+                if (kotakB > kotakA) {
+                    nyawaPlayer = nyawaPlayer + nyawaKomputer;
+                    continue;
+                } else if (kotakB < kotakA) {
+                    nyawaPlayer = nyawaPlayer - nyawaKomputer;
+                    continue;
+                }
+                }
+            if (nyawaKomputer == 0) {
+                System.out.print("YOU WIN");
+                }
+            if (nyawaPlayer == 0) {
+                System.out.print("YOU LOSE");
 
 
-//        if(namaKotak.equals("A")){
-//            if(kotakA > kotakB ){
-//                int nyawaPlayer = nyawaPlayer + nyawaKomputer;
-//                System.out.print(nyawaPlayer);
-//                continue;
-//
-//            }else if(kotakA < kotakB){
+            }
+        }
+    }
+}
+
+
+
+
+//           else if(kotakA < kotakB){
 //                int nyawaPlayer = nyawaKomputer - nyawaPlayer;
 //                System.out.print(nyawaPlayer);
-            }
-
-
 
 //            int player = n+m;
 //            System.out.print(player);
@@ -57,14 +84,14 @@ public class Soal07 {
 ////        System.out.print("Kotak B : " + kotakB);
 
             //System.out.print("Kotak A : " + kotakA);
-        }
 
 
 
 
 
 
-    }
-}
+
+
+
 
 
