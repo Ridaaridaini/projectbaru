@@ -44,7 +44,7 @@ public class Soal10 {
         }else if (saldo >200_000){
             long saldo1 = 0;
             saldo1 = saldo - 198000;
-            cup = cup +11;
+            cup = cup +22;
             long cup1 = 0;
             long diluarDiskon = 0;
 
@@ -70,7 +70,7 @@ public class Soal10 {
             long hasil = saldo - total + cashback;
             System.out.println("hasil "+hasil);
             if(cashback > 30000){
-                System.out.println("print");
+                System.out.println("saldo : " + (saldo - total + 30000));
                 System.out.println(" jumlah cup : "+ (jumlahCup + 1) + " Kembalian : " + (saldo - total + 30000 - 18_000));
             }else {
                 System.out.println(" jumlah cup : "+ (jumlahCup + 1) + " Kembalian : " + (saldo - total + cashback - 18_000));
