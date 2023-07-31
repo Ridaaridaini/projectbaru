@@ -32,26 +32,37 @@ public class Soal07 {
                     user = user + taruhan;
                     komputer = komputer - taruhan;
                     System.out.println("Selamat anda menang");
-                }else {
+                }else if(kotakA < kotakB) {
                     user = user - taruhan;
                     komputer = komputer + taruhan;
                     System.out.println("Coba lagi ya");
+                }else {
+                    System.out.println(" anda imbang");
                 }
             } else if (pilihKotak == 2 ) {
                 if(kotakA < kotakB){
                     user = user + taruhan;
                     komputer = komputer - taruhan;
                     System.out.println("selamat anda menang");
-                }else {
+                }else if (kotakA > kotakB){
                     user = user - taruhan;
                     komputer = komputer + taruhan;
                     System.out.println("Coba lagi ya");
+                }else {
+                    System.out.println(" anda imbang");
                 }
             }else {
                 System.out.println("Masukkan  pilihan dengan benar");
             }
             System.out.println(" Sisa Kartu Anda        : " + user);
             System.out.println(" Sisa Kartu Komputer    : " + komputer);
+            System.out.println();
+            System.out.println("Lanjut? (ya/tidak)");
+            input.nextLine();
+            String jawaban = input.nextLine();
+            if(jawaban.equalsIgnoreCase("tidak")){
+                hasil = false;
+            }
 
             if(user <1){
                 System.out.println("Anda kalah Coba lagi ya");
