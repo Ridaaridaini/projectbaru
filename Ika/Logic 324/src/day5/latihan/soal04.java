@@ -19,13 +19,16 @@ public class soal04 {
 
         int a=1;
         for (int i = 0; i <arrA.length; i++) {
-            arrA[i]=a;
-            a= a+2;
+            arrA[i]=a;//memasukan nilai a kedalam array
+            a= a+2; //mengganti a yang ada tambah dengan 2, diulang-ulang lagi
+            System.out.print(arrA[i] + " ");//memanggil array yang sudah dimasukan
         }
-        for (int i = 0; i < arrA.length; i++) {
-            System.out.print(arrA[i] + " ");
 
-        }
+        //memanggil array yang sudah dimasukan
+//        for (int i = 0; i < arrA.length; i++) {
+//            System.out.print(arrA[i] + " ");
+//
+//        }
 
 
 
