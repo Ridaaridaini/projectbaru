@@ -12,7 +12,7 @@ public class Soal09 {
 
         //input value ke setiap elemen
         for (int i = 0; i < 5; i++) {
-            System.out.print("n: ");
+            System.out.print("deret-" + (i+1) + ": ");
             arrIni[i] = scanner.nextInt();
         }
         System.out.println();
@@ -30,7 +30,7 @@ public class Soal09 {
         }
 
         for (int i = 0; i < 5; i++) {
-            System.out.print(arrIni[i]);
+            System.out.print(arrIni[i] + " ");
         }
         System.out.println();
 
