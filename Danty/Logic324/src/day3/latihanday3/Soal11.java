@@ -11,7 +11,7 @@ public class Soal11 {
         System.out.print("n = ");
         int n = input.nextInt(); //input = 2
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {  //terus bertambah
             System.out.println();
 
             for(int j = 0; j < n; j++){

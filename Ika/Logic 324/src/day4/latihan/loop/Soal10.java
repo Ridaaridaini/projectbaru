@@ -27,6 +27,8 @@ public class Soal10 {
         int maksimalCashback = 30_000;
         long hargaTotal;
         long sisaSaldo;
+        int maxDiskon=100_000;
+        long harga;
 
 
         if (saldoOpo<=minimalOrder){
@@ -47,9 +49,9 @@ public class Soal10 {
                 }
             }
         } else if (saldoOpo>=minimalOrder) {
-            for (int i = 1; i <=1000 ; i++) {
+            for (int i = 1; i <= 1000 ; i++) {
                 if(i*hargaCup>minimalOrder){
-                    if (i*hargaCup/2 <= saldoOpo){
+                    if (i*hargaCup-maksimalCashback <= saldoOpo){
                         cup=i;
                     }
                 }
@@ -59,8 +61,13 @@ public class Soal10 {
 
 
         System.out.println("jumlah kopi yang dipesan " + cup);
-        long harga = cup*hargaCup/2;
-        System.out.println(harga);
+        if (cup<=11){
+            harga = cup*hargaCup/2;
+            System.out.println(harga);
+        }else {
+            harga = cup*hargaCup - maksimalCashback;
+            System.out.println(harga);
+        }
 
         long nilaiCashback = harga/cashback;
 //        System.out.println(nilaiCashback);
