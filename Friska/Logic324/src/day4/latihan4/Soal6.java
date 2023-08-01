@@ -28,7 +28,7 @@ public class Soal6 {
             int fixsaldo = saldo1 + cashback;
 //            System.out.println("Total beli adalah " + belanja);
 //            System.out.println("Sisa uang adalah " + saldo1);
-//            System.out.println("Cashback yang kamu dapat adalah " + cashback);
+            System.out.println("Cashback yang kamu dapat adalah " + cashback);
             System.out.println("Saldo akhir anda yang kamu dapat adalah: Rp."+ fixsaldo);
         } else if (saldo < 40000) {
 
