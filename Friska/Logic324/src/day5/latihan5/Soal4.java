@@ -16,6 +16,19 @@ public class Soal4 {
             a = a + 2;
 
             }
+        // pola
+//        int [] arrA = new int[4];
+//        int a = 1;
+//
+//        arrA[0] = a;
+//        a +2;
+//
+//        arrA[1] = a;
+//        a +2;
+//
+//        arrA[2] = a;
+//        a +2;
+
 
         }
     }
