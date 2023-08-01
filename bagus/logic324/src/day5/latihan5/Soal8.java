@@ -27,7 +27,7 @@ public class Soal8 {
             ganjil = ganjil + 2;
 
         }
-        
+
         for (int i = 0; i < angka; i++) {
 
             System.out.print(arrayGenap[i] + "+" + arrayGanjil[i]+ " , ");
