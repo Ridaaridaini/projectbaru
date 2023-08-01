@@ -9,6 +9,7 @@ public class Soal7 {
 
         for (int i = 0; i < deret.length; i++) {
             awal += deret[i];
+
             if (i % 2 == 1 && i != 0) {
                 ganjil += deret[i];
             } else {

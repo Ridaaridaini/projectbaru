@@ -14,7 +14,7 @@ public class Soal4 {
 
         for (int i = 0; i < p; i++) {
             arrA[i] = ganjil;
-            ganjil +=2;
+            ganjil =ganjil + 2;
         }
         for (int i = 0; i < arrA.length; i++) {
                 System.out.print(arrA[i] + " ");
