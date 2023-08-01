@@ -49,7 +49,7 @@ public class Soal07 {
                     }
                 }else {
                     System.out.println("angka pada kartu A "+intA +" sama dengan " +intB);
-                    System.out.println("you are Balanced");
+                    System.out.println("you draw");
                     if (kartuKomputer > kartuUser){
                         jumlahKartu= kartuKomputer;
                     } else {
@@ -66,7 +66,7 @@ public class Soal07 {
                     kartuUser= kartuUser-m;
                     kartuKomputer= kartuKomputer+m;
                     System.out.println("You Lose");
-                    System.out.println("angka pada kartu A "+intB +" < " +intA);
+                    System.out.println("angka pada kartu B "+intB +" < " +intA);
                     System.out.println("Sisa kartu anda "+kartuUser+" Sisa kartu lawan "+kartuKomputer);
                     if (kartuKomputer > kartuUser){
                         jumlahKartu= kartuKomputer;
@@ -77,7 +77,7 @@ public class Soal07 {
                     kartuUser= kartuUser+m;
                     kartuKomputer= kartuKomputer-m;
                     System.out.println("You Win");
-                    System.out.println("angka pada kartu A "+intB +" > " +intA);
+                    System.out.println("angka pada kartu B "+intB +" > " +intA);
                     System.out.println("Sisa kartu anda "+kartuUser+" Sisa kartu lawan "+kartuKomputer);
                     if (kartuKomputer > kartuUser){
                         jumlahKartu= kartuKomputer;
@@ -85,7 +85,7 @@ public class Soal07 {
                         jumlahKartu= kartuUser;
                     }
                 }else {
-                    System.out.println("angka pada kartu A "+intA +" sama dengan " +intB);
+                    System.out.println("angka pada kartu B "+intB +" sama dengan " +intA);
                     System.out.println("you are Balanced");
                     if (kartuKomputer > kartuUser){
                         jumlahKartu= kartuKomputer;

@@ -18,26 +18,24 @@ public class Soal03 {
             if(uang >= 750000){
                 System.out.println("Pak Topik membeli Jas");
                 uang = uang - 750000;
-                continue;
+                //continue; (bisa menggunakan continue atau tidak
             } else if(uang >= 350000){
                 System.out.println("Pak Topik membeli Celana Panjang");
                 uang = uang - 350000;
-                continue;
+                //continue;
             }else if(uang >= 250000){
                 System.out.println("Pak Topik membeli Kemeja");
                 uang = uang - 250000;
-                continue;
+                //continue;
             }else if(uang >= 100000){
                 System.out.println("Pak Topik membeli Kaos");
                 uang = uang - 100000;
-                continue;
+                //continue;
             }else if(uang >= 50000){
                 System.out.println("Pak Topik membeli Celana Pendek");
                 uang = uang - 50000;
-                continue;
+                //continue;
             }
-
-
         }
 
     }
