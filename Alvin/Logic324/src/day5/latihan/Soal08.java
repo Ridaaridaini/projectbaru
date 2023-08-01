@@ -15,6 +15,7 @@ public class Soal08 {
         int[] arrGanjil = new int[panjangDeret];
         int[] arrGenap = new int[panjangDeret];
 
+        // insert array dengan deret angka ganjil dan array dengan deret angka genap
         for (int i = 0; i < panjangDeret; i++) {
             arrGanjil[i] = b;
             arrGenap[i] = a;
@@ -23,6 +24,7 @@ public class Soal08 {
             b = b+2;
         }
 
+        // menampilkan deret secara visual
         for (int i = 0; i < panjangDeret; i++) {
 
             if (i == panjangDeret-1){
@@ -35,6 +37,7 @@ public class Soal08 {
 
         System.out.println();
 
+        // menjumlahkan deret ganjil dan genap seperti contoh soal
         for (int i = 0; i < panjangDeret; i++) {
 
             jumlah = arrGenap[i] + arrGanjil[i];
