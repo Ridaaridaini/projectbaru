@@ -30,9 +30,6 @@ public class Soal10 {
                     gunung = gunung +1;
                 }
             }
-
-
-
         }
 
         System.out.println("Gunung: " + gunung);

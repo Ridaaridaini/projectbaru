@@ -18,7 +18,7 @@ public class Soal09 {
         for (int i = 0; i < arrWordSatu.length; i++) {
             for (int j = 0; j < arrWordDua.length; j++) {
 
-                if (arrWordSatu[i].equalsIgnoreCase(arrWordDua[j])) {
+                if (arrWordSatu[i].contains(arrWordDua[j])) {
                     substring = true;
                 }
 
