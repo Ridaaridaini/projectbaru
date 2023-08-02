@@ -21,10 +21,10 @@ public class Soal07 {
             for (int j = i+1; j < arrKalimat.length; j++) {
 
                     if (!arrKalimat[i].equals(arrKalimat[j])){
-                        if (specialKarakter.contains(arrKalimat[j])){
+                        if (specialKarakter.toString().contains(arrKalimat[j])){
                             continue;
                         }
-                        specialKarakter = specialKarakter+arrKalimat[j];
+                        specialKarakter += arrKalimat[j];
                     }
             }
 
