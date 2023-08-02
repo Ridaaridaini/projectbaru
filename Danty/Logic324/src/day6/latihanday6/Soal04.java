@@ -10,22 +10,38 @@ public class Soal04 {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Kalimat : ");
-        String nama = input.nextLine();
+        String nama = input.nextLine(); //"Liv Rundgren Tyler"
 
-        nama = nama.toUpperCase();
-        String [] arrNama = nama.split(" ");
+        nama = nama.toUpperCase(); //"LIV RUNDGREN TYLER"
+        String[] arrNama = nama.split(" ");  //{"LIV", "RUNDGREN", "TYLER"}
 
-        for (int i = 0; i < arrNama.length; i++) {
-            System.out.println(arrNama[i]);
+
+//        //Liv
+//        System.out.print(arrNama[0].charAt(0));
+//        System.out.println(arrNama[0].charAt(arrNama[0].length()-1));
+//
+//        //Rundgren
+//        System.out.print(arrNama[1].charAt(0));
+//        System.out.println(arrNama[1].charAt(arrNama[1].length()-1));
+//
+//        //Tyler
+//        System.out.print(arrNama[2].charAt(0));
+//        System.out.println(arrNama[2].charAt(arrNama[2].length()-1));
+
+
+       for (int i = 0; i < arrNama.length; i++) {
+           String kata = arrNama[i];
+           System.out.print(kata.charAt(0));
+
+           for (int j = 0; j < kata.length(); j++) {
+               System.out.print("*");
+
+           }
+           System.out.println(kata.charAt(kata.length()-1));
+       }
 
         }
 
 
-        //        for (int i = 0; i < arrNama2.length; i++) {
-//            if(i == 0 || i == arrNama2.length-1) {
-//                System.out.println(arrNama2[i]);
-//            }
-//           else {
-//               System.out.print("*");
     }
-}
+

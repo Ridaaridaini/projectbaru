@@ -19,21 +19,19 @@ public class Soal09 {
         String[] arrK2 = k2.split("");
 
         String bantu = "";
-        boolean cek = k1.contains(bantu);
+        //boolean cek = k1.contains(bantu);
 
-        for (int i = 0; i < arrK2.length ; i++) {
+        for (int i = 0; i < arrK2.length; i++) {
+            bantu = bantu + arrK2[i];
 
-
-            }
-        System.out.print(bantu);
-
-//        if (cek == true) {
-//            System.out.print("YES");
-//        }
-//        else{
-//                System.out.print("NO");
-            }
+        }if (k1.contains(bantu)) {
+            System.out.print("YES");
         }
+        else {
+            System.out.print("NO");
+        }
+    }
+}
 
 
 

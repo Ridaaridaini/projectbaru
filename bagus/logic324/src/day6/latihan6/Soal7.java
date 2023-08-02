@@ -28,7 +28,7 @@ public class Soal7 {
 //            System.out.println(unik);
     }
         System.out.println(unik);
-        System.out.println(unik.length()+ " karater");
+        System.out.println(unik.length()+ " karakter");
 
 }
 }
