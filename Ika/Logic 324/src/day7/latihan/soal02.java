@@ -61,13 +61,12 @@ public class soal02 {
         System.out.println(millis);
 
         //ubah milis kedalam kpk hari yang di mau
+
         millis = millis + (hasilKpk*hari);
         System.out.println(millis);
         date.setTime(millis);
 
         String tanggalBukaBersama = sdf.format(date);
         System.out.println("tanggal buka selanjutnya "+tanggalBukaBersama);
-
-
     }
 }
