@@ -43,7 +43,7 @@ public class Soal1 {
         long milis = date.getTime();
 //        System.out.println(milis);
 
-        milis=milis+(c*hari);
+        milis=milis+((long) c * hari);
         date.setTime(milis);
 
         String tglBukBer = sdf.format(date);
