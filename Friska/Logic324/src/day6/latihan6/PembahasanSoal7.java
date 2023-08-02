@@ -1,22 +1,19 @@
-package day6.latihanday6;
+package day6.latihan6;
 
 import java.util.Scanner;
 
-public class Soal07 {
-
+public class PembahasanSoal7 {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        Scanner input = new Scanner(System.in);
-
-        System.out.print("Kalimat : ");
-        String kalimat = input.nextLine();//Halo Apa Kabarmu?
-
-        kalimat = kalimat.replace(" ","");//HaloApaKabarmu?
-        kalimat= kalimat.toLowerCase();//
+        System.out.println("Kalimat :");
+        String kalimat = scanner.next();
+        kalimat = kalimat.replace(" ","");
+        kalimat = kalimat.toLowerCase();
 
         String unik = "";
 
-        String [] arrKalimat = kalimat.split("");
+        String [] arrKalimat = kalimat.split(" ");
         for (int i = 0; i < arrKalimat.length; i++) {
             String huruf = arrKalimat[i];
             if(!unik.contains(huruf)){
@@ -26,8 +23,6 @@ public class Soal07 {
         }
         System.out.println(unik);
         System.out.println(unik.length());
-
-
 
     }
 }
