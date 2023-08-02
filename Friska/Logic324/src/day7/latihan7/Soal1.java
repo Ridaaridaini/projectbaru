@@ -1,4 +1,4 @@
-package Day7.latihan7;
+package day7.latihan7;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Soal2 {
+public class Soal1 {
     public static void main(String[] args) throws ParseException {
         //milisecond / millis / ms ->
         //1 ms = 1/1000 detik
@@ -17,17 +17,19 @@ public class Soal2 {
         int hari = 24 * jam;
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Masukkan nilai x ");
-        int x = input.nextInt()+1;
-        System.out.println("Masukkan nilai y ");
-        int y = input.nextInt()+1;
-
+        System.out.println("Masukkan nilai x :");
+        int x = input.nextInt();
+        System.out.println("Masukkan nilai y");
+        int y = input.nextInt();
         input.nextLine();
-        int kpk = x;
-        while(kpk % x != 0 || kpk % y != 0){
-            kpk = kpk*2;
-
+        int kpk = 0;
+        for (int i = 0; i < y; i++) {
+            kpk = kpk+x;
+            if (kpk % y == 0){
+                break;
+            }
         }
+
         System.out.println("Masukkan tanggal: ");
         String tanggal = input.nextLine();
 
@@ -40,8 +42,12 @@ public class Soal2 {
         millis = millis + ( kpk * hari);
         date.setTime(millis);
 
-        String samaLibur = sdf.format(date);
-        System.out.println(samaLibur);
+        String samaBuka = sdf.format(date);
+        System.out.println(samaBuka);
 
+
+
+
+
+        }
     }
-}
