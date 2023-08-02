@@ -28,12 +28,6 @@ public class Soal06 {
 
 
 
-//                System.out.print("merupakan kata palindrom");
-//            } else{
-//                System.out.print("bukan merupakan kata palindrom");
-//            }
-
-
 
     }
 }

@@ -1,7 +1,6 @@
-package day6.latihanday6;
+package day6.latihan;
 
-public class Soal08 {
-
+public class Soal09 {
     public static void main(String[] args) {
 
     }
