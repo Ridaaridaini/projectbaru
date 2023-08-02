@@ -14,7 +14,7 @@ public class Soal05 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("char: ");
-        String karakter = scanner.nextLine();
+        String karakter = scanner.nextLine(); //9
 
         for (int i = 0; i < arrkalimat.length; i++) {
 
@@ -26,7 +26,7 @@ public class Soal05 {
 
         }
 
-        if (satus == false){
+        if (!satus){
             System.out.println("karakter " + karakter + " tidak ada dalam kalimat");
         }
 

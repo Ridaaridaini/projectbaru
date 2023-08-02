@@ -22,10 +22,13 @@ public class Soal04 {
                     name[j] = name[j].toUpperCase();
                     System.out.print(name[j]);
                 }
+
+
                 //cetak bintang
                 for (int k = 0; k < name[i].length(); k++) {
                     System.out.print("*");
                 }
+
                 //cetak huruf akhir
                 if (j == (name.length)-1){
                     name[j] = name[j].toUpperCase();
