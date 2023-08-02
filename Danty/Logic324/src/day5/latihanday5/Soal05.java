@@ -10,14 +10,24 @@ public class Soal05 {
 
         int[] arrA = {3,2,1,5,8};
 
-        System.out.print("Nilai yang dicari = ");
+        System.out.print("Nilai yang dicari? ");
         int nilai = input.nextInt();
 
+        int a=0;
+
+        for (int i = 0; i < arrA.length; i++) {
+
+            if(nilai == arrA[i]){
+                int deret = i + 1;
+                System.out.print("Nilai " + nilai + " ada dalam deret di posisi " + deret);
+            }
+
+           }
+        }
+
+//        if(a==0) {
+//        System.out.print("Nilai " + ni + " tidak ada dalam deret");
+
+        }
 
 
-
-
-
-
-    }
-}
