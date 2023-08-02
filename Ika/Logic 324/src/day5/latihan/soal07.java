@@ -24,9 +24,46 @@ public class soal07 {
                  ganjil = ganjil + arrB[i];
              }
         }
+
+        //total awal
+        for (int i = 0; i < arrB.length; i++) {
+            if(i== arrB.length-1){
+                System.out.print(arrB[i] + " = ");
+            }else {
+                System.out.print(arrB[i] + " + ");
+            }
+        }
+        System.out.print(awal);
+        System.out.println();
         System.out.println("nilai total awal " + awal);
-        System.out.println("nilai penjumlahan genap " + genap);
-        System.out.println("nilai penjumlahan ganjil " + ganjil);
+
+        //untuk sum genap
+        for (int i = 0; i < arrB.length; i++) {
+            if (i % 2 == 0 && i != 0) {
+                if(i== arrB.length-2){
+                    System.out.print(arrB[i] + " = ");
+                }else {
+                    System.out.print(arrB[i] + " + ");
+                }
+            }
+        }
+        System.out.print(genap);
+        System.out.println();
+        System.out.println("nilai penjumlahan indeks genap " + genap);
+
+        //untuk sum ganjil
+        for (int i = 0; i < arrB.length; i++) {
+            if (i%2 != 0){
+                if(i == arrB.length-1){
+                    System.out.print(arrB[i] + " = ");
+                }else {
+                    System.out.print(arrB[i] + " + ");
+                }
+            }
+        }
+        System.out.print(ganjil);
+        System.out.println();
+        System.out.println("nilai penjumlahan indeks ganjil " + ganjil);
 
     }
 }

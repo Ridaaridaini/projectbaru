@@ -26,12 +26,23 @@ public class Soal8 {
             a = a + 2 ;
 
         }
-//        for (int i = 0; i < ; i++) {
+        System.out.println();
+
+        for (int i = 0; i < panjang; i++) {
+            if (i % 2 == 0 && i != 0) {
+                System.out.println(arrA[i] + "+");
+                b = b + 2;
+
+            }
 
         }
-
-
-
     }
 
 }
+
+
+
+
+
+
+
