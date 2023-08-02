@@ -21,9 +21,8 @@ public class soal04 {
         String kalimat1 = kalimat.toUpperCase();
         String output1;
 
-
-
        String[] output=kalimat1.split(" ");
+
         for (int i = 0; i < output.length; i++) {
             String[] output2 = output[i].split("");
 
