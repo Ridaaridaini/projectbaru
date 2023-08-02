@@ -44,7 +44,12 @@ public class soal08 {
         System.out.println();
         for (int i = 0; i < deret.length; i++) {
             jumlah= genap1[i] + ganjil1[i];
-            System.out.print( jumlah + ", ");
+            if(i== deret.length-1){
+                System.out.print(jumlah + " ");
+            }else {
+
+                System.out.print( jumlah + ", ");
+            }
         }
 
     }
