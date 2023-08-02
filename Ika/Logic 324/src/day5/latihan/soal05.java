@@ -21,6 +21,7 @@ public class soal05 {
 
         for (int i = 0; i < arrA.length; i++) {
             if(arrA[i] == n){
+                i=i+1;
                 System.out.print("nilai "+ n + " ada dalam deret di posisi " + i);
                 a=a+1;
                break;
