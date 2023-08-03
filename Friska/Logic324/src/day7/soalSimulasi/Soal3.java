@@ -22,7 +22,7 @@ public class Soal3 {
         } else if (botol.equalsIgnoreCase(benda1) && gelas.equalsIgnoreCase(benda2)) {
             System.out.println("1 botol = " + 2.0 + " gelas");
         } else if (botol.equalsIgnoreCase(benda1) && teko.equalsIgnoreCase(benda2)) {
-            System.out.println("1 botol = " + 5 + " teko");
+            System.out.println("1 botol = " + 1 / 5 + " teko");
         }
 
         if (gelas.equalsIgnoreCase(benda1) && botol.equalsIgnoreCase(benda2)) {
