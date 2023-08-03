@@ -11,9 +11,9 @@ public class Soal01 {
     public static void main(String[] args) throws ParseException {
 
         int detik = 1000;
-        int menit = 60 * detik;
-        int jam = 60 * menit;
-        int hari = 24 * jam;
+        int menit = 60 * detik; // 60 * 1000
+        int jam = 60 * menit; // 60 * 60 * 1000
+        int hari = 24 * jam; // 24 * 60 * 60 * 1000
 
         Locale locale = new Locale("id","ID");
 
