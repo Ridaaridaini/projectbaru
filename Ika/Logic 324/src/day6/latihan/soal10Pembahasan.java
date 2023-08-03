@@ -24,7 +24,7 @@ public class soal10Pembahasan {
         int lembah=0;
 
         String[] arrInput =input1.split("");
-        for (int i = 0; i < arrInput.length; i++) {
+        for (int i = 0; i < arrInput.length; i++) {//i=0
             String aksi =arrInput[i];
             if(aksi.equalsIgnoreCase("N")){
                 ketinggian = ketinggian+1;
