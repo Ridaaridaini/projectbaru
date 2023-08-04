@@ -1,10 +1,9 @@
-package latihanB;
+package latihan;
 
 import java.util.Scanner;
 
-public class Soal3B {
+public class Soal3V2 {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("input n: ");
@@ -63,6 +62,6 @@ public class Soal3B {
 
             angka++;
         }
+
     }
 }
-

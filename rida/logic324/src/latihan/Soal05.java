@@ -19,7 +19,7 @@ public class Soal05 {
             Integer tipe=input.nextInt();
             input.nextLine();
             if (tipe==1){
-                System.out.print("Jumlah Orang: ");
+                System.out.print("Jumlah Orang: ");//3
                 int orang=input.nextInt();
                 jumOrang=jumOrang+orang;
                 porsi=porsi+(orang*2.0);
@@ -84,7 +84,7 @@ public class Soal05 {
                 continue;
             }
         }
-        if (jumOrang%2==1){
+        if (jumOrang==5 && jumOrang%2==1){
            porsi=porsi+1;
         }
         System.out.println(+porsi+" Porsi");

@@ -1,6 +1,6 @@
 package day5;
 
-public class Array1D {
+public class    Array1D {
 
     public static void main(String[] args) {
 

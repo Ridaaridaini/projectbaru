@@ -1,10 +1,8 @@
-package day4;
-
-import com.sun.source.util.DocTreePathScanner;
+package latihanFT1;
 
 import java.util.Scanner;
 
-public class Soal04 {
+public class Soal11 {
 
     public static void main(String[] args) {
 
@@ -25,11 +23,7 @@ public class Soal04 {
 
             System.out.print(i + " ");
 
-
         }
-
 
     }
 }
-
-
