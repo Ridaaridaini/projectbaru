@@ -23,7 +23,11 @@ public class Soal5 {
         int jumB = 0;
         int jumB1 = 0;
 
-        double porsi = 0;
+        double porsi1 = 0;
+        double porsi2 = 0;
+        double porsi3 = 0;
+        double porsi4 = 0;
+        double porsi5 = 0;
 
         while (pilihan == 1) {
             System.out.println("Pilih kategori : ");
@@ -39,7 +43,7 @@ public class Soal5 {
                 System.out.println("Berapa orang jumlah laki-laki dewasa? :");
                 jumLD = input.nextInt();
                 jumLD1 = jumLD + jumLD1;
-                porsi = jumLD * 2.0;
+                porsi1= jumLD1 * 2.0;
 
                 System.out.println("Apakah ada jumlah orang lagi? 1.YA ; 2.TIDAK ");
                 int pilihanLagi = input.nextInt();
@@ -51,7 +55,7 @@ public class Soal5 {
                 System.out.println("Berapa orang jumlah perempuan dewasa? :");
                 jumWD = input.nextInt();
                 jumWD1 = jumWD + jumWD1;
-                porsi = porsi + (jumWD * 1.0);
+                porsi2 = porsi2 + (jumWD1 * 1.0);
 
                 System.out.println("Apakah ada jumlah orang lagi? 1.YA ; 2.TIDAK ");
                 int pilihanLagi = input.nextInt();
@@ -62,9 +66,9 @@ public class Soal5 {
 
             } else if (pilihan2 == 3) {
                 System.out.println("Berapa orang jumlah Remaja? :");
-                jumR1 = input.nextInt();
+                jumR = input.nextInt();
                 jumR1 = jumR + jumR1;
-                porsi = porsi + (jumR * 1.0);
+                porsi3 = porsi3 + (jumR1 * 1.0);
 
                 System.out.println("Apakah ada jumlah orang lagi? 1.YA ; 2.TIDAK ");
                 int pilihanLagi = input.nextInt();
@@ -76,32 +80,38 @@ public class Soal5 {
                 }
 
             } else if (pilihan2 == 4) {
-            System.out.println("Berapa orang jumlah Remaja? :");
-            jumA = input.nextInt();
-            jumA1 = jumA + jumA1;
-            porsi = porsi + (jumA * 0.5);
+                System.out.println("Berapa orang jumlah Anak anak? :");
+                jumA = input.nextInt();
+                jumA1 = jumA + jumA1;
+                porsi4 = porsi4 + (jumA * 0.5);
 
-            System.out.println("Apakah ada jumlah orang lagi? 1.YA ; 2.TIDAK ");
-            pilihanLagi = input.nextInt();
-            if (pilihanLagi == 2) {
-                pilihan2 = 2;
-                break;
+                System.out.println("Apakah ada jumlah orang lagi? 1.YA ; 2.TIDAK ");
+                int pilihanLagi = input.nextInt();
+                if (pilihanLagi == 2) {
+                    pilihan2 = 2;
+                    break;
+                }
+
+            } else if (pilihan2 == 5) {
+                System.out.println("Berapa orang jumlah Balita? :");
+                jumB = input.nextInt();
+                jumB1 = jumB + jumB1;
+                porsi5 = porsi5 + (jumB1 * 1);
+
+                System.out.println("Apakah ada jumlah orang lagi? 1.YA ; 2.TIDAK ");
+                int pilihanLagi = input.nextInt();
+                if (pilihanLagi == 2) {
+                    pilihan2 = 2;
+                    break;
+                }
             }
 
-        } else if (pilihan2 == 5) {
-            System.out.println("Berapa orang jumlah Remaja? :");
-            jumB = input.nextInt();
-            jumB1 = jumB + jumB1;
-            porsi = porsi + (jumB1 * 1);
+        }System.out.println(porsi1);
+        System.out.println(porsi2);
+        System.out.println(porsi3);
+        System.out.println(porsi4);
+        System.out.println(porsi5);
 
-            System.out.println("Apakah ada jumlah orang lagi? 1.YA ; 2.TIDAK ");
-            pilihanLagi = input.nextInt();
-            if (pilihanLagi == 2) {
-                pilihan2 = 2;
-                break;
-            }
-        }
-        System.out.println(porsi);
     }
 
 }
