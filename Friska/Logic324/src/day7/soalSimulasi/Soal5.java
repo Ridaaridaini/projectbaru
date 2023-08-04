@@ -41,9 +41,9 @@ public class Soal5 {
 
             if (pilihan2 == 1) {
                 System.out.println("Berapa orang jumlah laki-laki dewasa? :");
-                jumLD = input.nextInt();
-                jumLD1 = jumLD + jumLD1;
-                porsi1= jumLD1 * 2.0;
+                jumLD1 = input.nextInt();
+                jumLD = jumLD + jumLD1;
+                porsi1= jumLD * 2.0;
 
                 System.out.println("Apakah ada jumlah orang lagi? 1.YA ; 2.TIDAK ");
                 int pilihanLagi = input.nextInt();
@@ -111,6 +111,7 @@ public class Soal5 {
         System.out.println(porsi3);
         System.out.println(porsi4);
         System.out.println(porsi5);
+        System.out.println(porsi1+porsi2+porsi3+porsi4+porsi5);
 
     }
 

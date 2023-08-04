@@ -2,7 +2,7 @@ package day7.soalSimulasi;
 
 import java.util.Scanner;
 
-public class Soal8 {
+public class Challange8A {
     public static void main(String[] args) {
         String pin = "123456";
         long sisaSaldo = 0;
@@ -10,9 +10,11 @@ public class Soal8 {
         int salah = 0;
         int nyoba = 0;
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("Masukkan pin: ");
-        String pin2 = input.nextLine();
+        while (nyoba < 3) {
+            Scanner input = new Scanner(System.in);
+
+            System.out.println("Masukkan pin: ");
+            String pin2 = input.nextLine();
             if (!pin2.equals(pin)) {
                 nyoba++;
                 System.out.println("PIN Salah");
@@ -67,9 +69,11 @@ public class Soal8 {
             }
 
         }
+        System.out.println("REKENING DIBLOKIR");
+        System.exit(0);
     }
 
-
+}
 
 
 
