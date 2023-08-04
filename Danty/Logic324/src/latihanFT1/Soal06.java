@@ -21,7 +21,6 @@ public class Soal06 {
             System.out.print("Input angka anda/player : ");
             int player = input.nextInt();
 
-
             komputer = random.nextInt(10);
             System.out.print("Angka Komputer : " + komputer);
 

@@ -96,10 +96,12 @@ public class Soal09 {
                 if(nyawaKomp == 0){
 
                     System.out.print("Game Over, You Win");
+                    break;
                 }
                 else if(nyawaPlayer == 0){
 
                     System.out.print("Game Over, You Lose");
+                    break;
                 }
 
             }
@@ -122,7 +124,7 @@ public class Soal09 {
 
         System.out.println();
 
-        System.out.print("Permainan Selesai");
+        System.out.print("Game Over");
             }
 
                 }

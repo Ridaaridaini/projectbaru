@@ -16,7 +16,7 @@ public class Soal08 {
         String pin = input.nextLine();
 
 
-        //Pilihan 1 (Antar Bank)
+        //Pilihan 1 (Antar Rekening) dan Pilihan 2 (Antar Bank)
 
         if(pin.equalsIgnoreCase("123456")){
 
@@ -42,7 +42,7 @@ public class Soal08 {
 
                    if(transfer <= saldoBaru){
 
-                       System.out.print("Transaksi Anda Berhasil, saldo anda saat ini Rp." + saldoBaru2);
+                       System.out.print("Transaksi Anda Berhasil, saldo Anda saat ini Rp." + saldoBaru2);
 
                    } else {
 
@@ -80,18 +80,12 @@ public class Soal08 {
                         System.out.print("Saldo Anda tidak mencukupi");
                     }
 
-
                 } else{
 
                     System.out.println("Rekening Tujuan Anda Salah");
                 }
 
-
             }
-
-
-
-
 
     } else {
             System.out.print("PIN SALAH");
