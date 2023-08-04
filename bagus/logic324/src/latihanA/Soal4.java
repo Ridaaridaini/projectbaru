@@ -13,13 +13,18 @@ public class Soal4 {
         int cashBack = 10;
         int minOrder = 40000;
         int cup = 0;
+        int cupTambahan = 0;
         int hargaCup = 18000;
         int minCashBack = 30000;
+        int sisaSaldo = 0;
+        int total = 0;
+
         //nyari cup
+//        while (sisaSaldo > 27000) {
         for (int i = 1; i <= 11; i++) {
-            if (i * hargaCup > minOrder ){
-                if (i * hargaCup/2 <= saldo){
-                    cup =  i;
+            if (i * hargaCup > minOrder) {
+                if (i * hargaCup / 2 <= saldo) {
+                    cup = i;
                 }
 
             }
@@ -27,7 +32,7 @@ public class Soal4 {
         }
         System.out.println(cup);
 
-        System.out.println("Jumlah cup: "+cup);
+        System.out.println("Jumlah cup: " + cup);
         int harga = cup * hargaCup;
 //        System.out.println("Harga asli: " + harga);
 
@@ -44,16 +49,15 @@ public class Soal4 {
             int hargaCashBack = hargaSetelahDiskon / cashBack;
 //            System.out.println("Harga cashback: " + hargaCashBack);
 //
-            int total = harga - hargaSetelahDiskon - hargaCashBack;
+            total = harga - hargaSetelahDiskon - hargaCashBack;
 //            System.out.println("Total: " + total);
 
 
-            int sisaSaldo = saldo - total;
-            System.out.println("Sisa Saldo Akhir: " + sisaSaldo);
-
-
         }
-
+        sisaSaldo = sisaSaldo + saldo - total;
+        System.out.println("Sisa Saldo Akhir: " + sisaSaldo);
 
     }
+
 }
+
