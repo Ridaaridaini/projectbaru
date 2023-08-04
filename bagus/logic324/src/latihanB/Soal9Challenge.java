@@ -2,7 +2,7 @@ package latihanB;
 
 import java.util.Scanner;
 
-public class Soal9 {
+public class Soal9Challenge {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -11,11 +11,12 @@ public class Soal9 {
 
         String[] turunNaik = naikTurun.split(" ");
         int ketinggian = 0;
-        int gunung = 0;
+        int gunung = -1;
         int lembah = 0;
 
         for (int i = 0; i < turunNaik.length; i++) {
             String aksi = turunNaik[i];
+
             if(aksi.equalsIgnoreCase("N")){
                 ketinggian = ketinggian + 1;
 
