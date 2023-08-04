@@ -1,10 +1,9 @@
-package Day7;
+package day7;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
-import java.util.SimpleTimeZone;
 
 public class StringToDate {
     public static void main(String[] args) throws ParseException {
