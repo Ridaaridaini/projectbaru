@@ -14,37 +14,53 @@ public class Soal10 {
 
         //Deret Bilangan Ganjil
 
-        int [] arrA = new int [n];
-        int [] arrB = new int [n];
+        int[] arrA = new int[n]; //Deret bilangan prima
+        int[] arrB = new int[n]; //Deret bilangan fibonacci
 
-        int a = 1;
-        for (int i = 0; i < arrA.length; i++) {
-            arrA[i] = a;
-            System.out.print(arrA[i] + " ");
-            a = a+2;
+        int a = 2; //bilangan yang di cek
+        for (int i = 0; i < arrA.length; ) { //i sebagai penanda berapa bilangan prima yang udah ketemu
 
-        }
-        System.out.println();
-        int b = 0;
-        int c = 1;
-        in = 0;
-        for (int i = 0; i < arrB.length; i++) {
-            System.out.print(arrB[i] + " ");
-            int jumlah = c + b;
-                b = c;
-                b = jumlah;
+            int cekPrima = 0;
 
-            }
-        System.out.println();
-        for (int i = 0; i < n; i++) {
-            int total = arrA[i] + arrB[i];
-            System.out.print(total + " ");
-        }
+            for (int j = 1; j <= a; j++) { //j untuk pengecek ada berapa angka yang bisa habis membagi a
+                if (a % j == 0) {
 
-
+                    cekPrima = cekPrima + 1;
                 }
+            }
+            if (cekPrima == 2) {
+
+                arrA[i] = a;
+                System.out.print(arrA[i] + " ");
+                i++;
+            }
+            a++;
+
+        }
+
+            System.out.println();
+
+            int b = 1; //ini fn
+            int c = 1;
+            int d = 0;
+            for (int i = 0; i < arrB.length; i++) {
+                arrB[i] = b;
+                System.out.print(arrB[i] + " ");
+                b = c + d;
+                d = c;
+                c = b;
 
             }
+            System.out.println();
+            for (int i = 0; i < n; i++) {
+                int total = arrA[i] + arrB[i];
+                System.out.print(total + " ");
+            }
+
+
+        }
+
+    }
 
 
 
