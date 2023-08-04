@@ -25,14 +25,15 @@ public class Soal10 {
 
         }
         System.out.println();
-        int b = 0;
+        int b = 1; //ini fn
         int c = 1;
-        in = 0;
+        int d = 0;
         for (int i = 0; i < arrB.length; i++) {
+            arrB [i] = b;
             System.out.print(arrB[i] + " ");
-            int jumlah = c + b;
-                b = c;
-                b = jumlah;
+            b = c + d;
+            d = c;
+            c = b;
 
             }
         System.out.println();
