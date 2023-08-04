@@ -51,10 +51,10 @@ public class Soal01 {
 //        System.out.println(millis);
         date.setTime(millis);
 
+
+        //konvert kedalam millis
         String tanggalBukaBersama = sdf.format(date);
         System.out.println("tanggal buka selanjutnya "+tanggalBukaBersama);
-
-
 
 //        long kpk = 1;
 //         x= 3
