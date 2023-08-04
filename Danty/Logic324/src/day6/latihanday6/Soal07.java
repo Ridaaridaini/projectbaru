@@ -12,7 +12,7 @@ public class Soal07 {
         String kalimat = input.nextLine();//Halo Apa Kabarmu?
 
         kalimat = kalimat.replace(" ","");//HaloApaKabarmu?
-        kalimat= kalimat.toLowerCase();//
+        kalimat = kalimat.toLowerCase();//haloapakabar?
 
         String unik = "";
 

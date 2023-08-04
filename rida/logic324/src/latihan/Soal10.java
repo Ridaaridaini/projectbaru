@@ -9,48 +9,35 @@ public class Soal10 {
         Integer n= input.nextInt();
         Integer[] deret1= new Integer[n];
         Integer[] deret2= new Integer[n];
-        int a=0;
-        System.out.print("Deret Genap: ");
-        for (int i = 0; i < n; i++) {
-            if (a % 2 ==0){
+        Integer[] sum=new Integer[n];
+        int a=2;
+        for (int i = 0; i < deret1.length;) {
+            int cek=0;
+            for (int j = 1; j <= a; j++) {
+                if (a%j==0){
+                    cek=cek+1;
+                }
+            }
+            if(cek==2){
                 deret1[i]=a;
-                System.out.print(deret1[i]+" ");
-                a=a+2;
+                i++;
             }
-            continue;
+            a++;
+
         }
-        System.out.println();
-        int b=1;
-        System.out.print("Deret Ganjil: ");
-        for (int i = 0; i < n; i++) {
-            if (b % 2 ==1){
-                deret2[i]=b;
-                System.out.print(deret2[i]+" ");
-                b=b+2;
-            }
-            continue;
-        }
-        System.out.println();
-        for (int i = 0; i < n; i++) {
-            if (i==n-1){
-                System.out.print(deret1[i]+" + "+deret2[i]);
-                break;
-            }
-            System.out.print(deret1[i]+" + "+deret2[i]+"; ");
+        deret2[0]=1;
+        deret2[1]=1;
+        for (int i =2; i < n; i++) {
+            deret2[i]=deret1[i-1]+deret2[i-2];
 
         }
         System.out.println();
         for (int i = 0; i < n; i++) {
-            int sum;
-            if (i==(n-1)){
-                sum= deret1[i]+ deret2[i];
-                System.out.print(+sum );
-                break;
-            }
-            sum= deret1[i]+ deret2[i];
-            System.out.print(sum +", ");
+            sum[i]= deret1[i]+ deret2[i];
+            System.out.print(sum[i]+" " );
 
         }
 
     }
+
 }
