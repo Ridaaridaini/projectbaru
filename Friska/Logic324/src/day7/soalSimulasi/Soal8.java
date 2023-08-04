@@ -6,13 +6,16 @@ public class Soal8 {
     public static void main(String[] args) {
         String pin = "123456";
         long sisaSaldo = 0;
+        long biayaAdmin = 7500;
+
+
         Scanner input = new Scanner(System.in);
         System.out.println("Masukkan pin: ");
         String pin2 = input.nextLine();
 
-        if (!pin.equals(pin2)){
+        if (!pin2.equals(pin)){
             System.out.println("PIN Salah");
-            System.exit(0);
+            System.exit(0);}
 
             System.out.println("Masukkan nominal yang akan disetor  ");
             long setor = input.nextInt();
@@ -41,21 +44,29 @@ public class Soal8 {
                 
             } else if (pilihan == 2) {
                 System.out.println("Kode Bank: ");
-                input.nextLine();
+                String kode = input.nextLine();
 
-                System.out.println("Masukkan no rek tujuan ");
                 System.out.println("Masukkan nomor rekening tujuan: ");
-                long rekening = input.nextLong();
-                String strRekening = String.valueOf(rekening);
+                String strRekening = input.nextLine();
 
+                if (strRekening.length() !=10) {
+                    System.out.println("Rekening tidak valid");
+                    System.exit(0);
+                }
+                System.out.println("Masukkan Nominal Transfer: ");
+                long trfBank = input.nextLong();
 
-
-                
+                if (trfBank <= sisaSaldo) {
+                    sisaSaldo = sisaSaldo - trfBank - biayaAdmin;
+                    System.out.println("Transaksi berhasil, saldo anda saat ini: "+ sisaSaldo);
+                }else {
+                    System.out.println("Maaf saldo anda tidak cukup");
+                }
             }
 
         } 
             
         }
 
-    }
+
 
