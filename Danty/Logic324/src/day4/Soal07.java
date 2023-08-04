@@ -51,7 +51,8 @@ public class Soal07 {
                     System.out.print("Draw"); //karena nyawanya gak kurang gak nambah
                 }
 
-            } else if(pilihKotak == 2){
+            }
+            else if(pilihKotak == 2){
                 if(kotakB > kotakA){
                     //Menang
                     nyawaPlayer = nyawaPlayer + m;
@@ -69,7 +70,8 @@ public class Soal07 {
 
             }
 
-        }else {
+        }
+            else {
                 System.out.print("Anda salah pilih, ulangi lagi");
 
             }
@@ -87,9 +89,14 @@ public class Soal07 {
             System.out.print("Lanjut main? (YA/TIDAK) : ");
             input.nextLine();
             String jawaban = input.nextLine();
-            if(jawaban.equalsIgnoreCase("Tidak")){
+            if(jawaban.equalsIgnoreCase("Ya")){
+                continue;
 
-            } break;
+            } else {
+
+                break;
+            }
+
 
         }
         System.out.println();

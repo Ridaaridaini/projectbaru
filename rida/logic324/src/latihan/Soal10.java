@@ -9,15 +9,15 @@ public class Soal10 {
         Integer n= input.nextInt();
         Integer[] deret1= new Integer[n];
         Integer[] deret2= new Integer[n];
-        int a=0;
-        System.out.print("Deret Genap: ");
+        int a=2;
+        int c=0;
+        System.out.print("Deret PRIMA: ");
         for (int i = 0; i < n; i++) {
-            if (a % 2 ==0){
-                deret1[i]=a;
-                System.out.print(deret1[i]+" ");
-                a=a+2;
+            for (int j = 0; j < i; j++) {
+
             }
-            continue;
+            System.out.println(deret1[i]);
+
         }
         System.out.println();
         int b=1;
@@ -53,4 +53,5 @@ public class Soal10 {
         }
 
     }
+
 }

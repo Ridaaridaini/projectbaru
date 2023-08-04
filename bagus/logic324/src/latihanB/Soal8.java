@@ -4,43 +4,91 @@ import java.util.Scanner;
 
 public class Soal8 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("masukan deret: ");
-        int deret = input.nextInt();
+        System.out.print("panjang deret: ");
+        int panjangDeret = scanner.nextInt();
 
-        int n = 0;
-        int m = 1;
-        int fibonacci;
-        int prima;
-        int panjang=2;
-        System.out.print(m + " ");
-        for (int i = 2; i <= deret; i++) {
-            fibonacci = n + m;
-            System.out.print(fibonacci + " ");
-            n = m;
-            m = fibonacci;
+        //membuat deret bilangan prima
+        int[] arrPrima = new int[panjangDeret];
+        int i=0, cek, bil=2;
+
+        while (i < panjangDeret){
+            cek = 0;
+
+            for (int j = 2; j <= bil ; j++) {//2 3
+                if (bil%j == 0) {
+                    cek++;
+                }
+            }
+
+            if (cek == 1){
+                arrPrima[i] = bil;
+                i++;
+            }
+            bil++;
         }
 
+
+        //fibonacci
+        int[] arrFibonacci = new int[panjangDeret];
+        int fibonacci=1, past=1, current=1;
+
+        for (i = 0; i < panjangDeret; i++) {
+
+            if (i==0){
+                arrFibonacci[i] = i;
+                continue;
+            }
+
+            if (i == 1) {
+                arrFibonacci[i] = i;
+                continue;
+            }
+
+            arrFibonacci[i] = current;
+            fibonacci = past+current;
+            past = current;
+            current = fibonacci;
+
+        }
+
+
+        //nampilin deret prima
+        System.out.print("deret prima    : ");
+        for (int j = 0; j < panjangDeret; j++) {
+            System.out.print(arrPrima[j] + " ");
+        }
         System.out.println();
 
+        //nampilin deret fibonacci
+        System.out.print("deret fibonacci: ");
+        for (int j = 0; j < panjangDeret; j++) {
+            System.out.print(arrFibonacci[j] + " ");
+        }
+        System.out.println();
+        //penjumlahan index ganjil +  index ganjil dan index genap + index genap
+        int[] penjumlahan = new int[panjangDeret];
+        for (i = 0; i < panjangDeret; i++) {
 
-
-        for (int i = 2; i <= deret+panjang; i++) {
-            prima = 0;
-            for (int j = 1;j <=i; j++) {
-                if(i % j == 0){
-                    prima++;
-//                    System.out.print(i+ " ");
-                }
-
+            if (i%2==0){
+                //genap
+                penjumlahan[i] = arrPrima[i] + arrFibonacci[i];
+                System.out.print(arrPrima[i] + " + " + arrFibonacci[i] + "; ");
+                continue;
+            }else{
+                //ganjil
+                penjumlahan[i] = arrPrima[i] + arrFibonacci[i];
+                System.out.print(arrPrima[i] + " + " + arrFibonacci[i] + "; ");
+                continue;
             }
-            if (prima == 2){
-                System.out.print(i+ " ");
 
+        }
+        //end of penjumlahan bilangan berdasarkan index ganjil atau genap
 
-            }panjang++;
-
+        System.out.println();
+        for (int j = 0; j < panjangDeret; j++) {
+            System.out.print(penjumlahan[j] + " ");
         }
     }
 }
