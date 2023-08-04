@@ -2,7 +2,7 @@ package latihan;
 
 import java.util.Scanner;
 
-public class Soal2 {
+public class Soal2Challenge {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -74,6 +74,7 @@ public class Soal2 {
                 if (rute[i - 1].equals("tempat4")) {
                     jarak += 6.5;
                 }
+                break;
             }
         }
 

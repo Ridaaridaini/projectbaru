@@ -2,14 +2,14 @@ package latihanB;
 
 import java.util.Scanner;
 
-public class Soal9 {
+public class Soal9Challenge {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Masukkan kata pertama: ");
         String[] inputString = scanner.nextLine().toLowerCase().replace(" ", "").split("");
 
-        int tinggi = 0;
+        int tinggi = 1;
         int gunung = 0;
         int lembah = 0;
 
@@ -29,8 +29,13 @@ public class Soal9 {
             }
         }
 
-        System.out.println("Gunung: " + gunung);
-        System.out.println("Lembah: " + lembah);
+        System.out.println("Gunung: " + (gunung -1));
+        if((lembah -1) < 0){
+            System.out.println("Lembah: " + 0);
+        } else {
+            
+            System.out.println("Lembah: " + lembah);
+        }
         scanner.close();
     }
 }

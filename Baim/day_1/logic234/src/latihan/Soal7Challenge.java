@@ -1,8 +1,8 @@
-package day2latihan;
+package latihan;
 
 import java.util.Scanner;
 
-public class Soal7 {
+public class Soal7Challenge {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -29,7 +29,7 @@ public class Soal7 {
             int jumlahBuah = keranjang1 + keranjang3;
             System.out.println("Jumlah buah yang ada adalah: " + jumlahBuah + " buah");
         } else {
-            System.out.println("Masukkan hanya 1 dan 3");
+            System.out.println("Jumlah Buah: " + (keranjang1 + keranjang2 + keranjang3));
         }
 
         scanner.close();

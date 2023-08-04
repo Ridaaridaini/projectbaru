@@ -17,7 +17,7 @@ public class Soal3 {
             int b = start;
             int result = 0;
 
-            while (b > 9) {
+            while (b > 10) {
                 result = 0;
                 while (b > 0) {
                     int digit = b % 10;
@@ -28,8 +28,12 @@ public class Soal3 {
             }
 
             if (result == 1) {
-                System.out.println(start);
+                System.out.println(start + " Si Angka 1");
                 i++;
+            }
+
+            if (result == 10){
+                System.out.println(start + " Si Angka 10");
             }
 
             start++;
