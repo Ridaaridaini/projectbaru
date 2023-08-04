@@ -18,13 +18,13 @@ public class Soal2 {
         for (int i = 1; i < ruteSplit.length; i++) {
 //            System.out.println(ruteSplit[i]);
             String jarakAntar = ruteSplit[i];
-            if (jarakAntar.equals("tempat1")){
+            if (jarakAntar.equals("tempat1") && ruteSplit[i-1].equals("toko")){
                 jarak = jarak + 2;
             }
             if (jarakAntar.equals("tempat2")) {
                 jarak = jarak + 0.5;
             }
-            if (jarakAntar.equals("jarak3")) {
+            if (jarakAntar.equals("tempat3")) {
                 jarak = jarak + 1.5;
             }
             if (jarakAntar.equals("tempat4")) {
@@ -38,7 +38,7 @@ public class Soal2 {
 
         double bensin = jarak/2.5;
 
-//        System.out.println(jarak);
+        System.out.println(jarak);
         System.out.println(bensin+ " liter");
     }
 }
