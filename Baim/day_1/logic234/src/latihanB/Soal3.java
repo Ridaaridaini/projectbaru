@@ -9,16 +9,31 @@ public class Soal3 {
         System.out.print("Banyaknya angka dari 'SiAngka-1' yang ingin ditampilkan: ");
         int angka = scanner.nextInt();
 
-        int start = 109;
+        
+        int start = 100;
         int i = 0;
-        int b = 0;
 
         while (i < angka) {
-            while(b > 9){
+            int b = start;
+            int result = 0;
 
+            while (b > 9) {
+                result = 0;
+                while (b > 0) {
+                    int digit = b % 10;
+                    result += digit * digit;
+                    b /= 10;
+                }
+                b = result;
             }
-        }
 
+            if (result == 1) {
+                System.out.println(start);
+                i++;
+            }
+
+            start++;
+        }
     }
 }
 // int i = 0;
@@ -134,5 +149,43 @@ public class Soal3 {
 // } else {
 // start++;
 // continue;
+// }
+
+
+// int start = 100;
+// int startCopy = start;
+// int result = 0;
+// int i = 0;
+// int b = 100;
+
+// while (i < angka) {
+// while (b > 9) {
+// result = 0;
+// while (startCopy > 0) {
+// int digit = startCopy % 10;
+// result += digit * digit;
+// startCopy /= 10;
+// }
+// if (result > 9) {
+// b = result;
+// startCopy = b;
+// continue;
+// }
+// if (result < 10) {
+// if (result == 1) {
+// System.out.println(start);
+// start++;
+// b = start;
+// startCopy = start;
+// i++;
+// break;
+// } else {
+// start++;
+// b = start;
+// startCopy = start;
+// break;
+// }
+// }
+// }
 // }
 // }
