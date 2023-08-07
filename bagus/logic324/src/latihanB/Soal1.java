@@ -8,8 +8,10 @@ public class Soal1 {
         System.out.println("masukan n: ");
         int n = input.nextInt();
 
-        for (int i = 1; i <= n; i = i+2) {
-            System.out.print(i+ " ");
+        for (int i = n; i >= 0; i--) {
+            if (i % 2 != 0) {
+                System.out.print(i + " ");
+            }
         }
 
         System.out.println();

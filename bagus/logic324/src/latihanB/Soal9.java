@@ -16,13 +16,13 @@ public class Soal9 {
 
         for (int i = 0; i < turunNaik.length; i++) {
             String aksi = turunNaik[i];
-            if(aksi.equals("N")){
+            if(aksi.equalsIgnoreCase("N")){
                 ketinggian = ketinggian + 1;
 
                 if(ketinggian==0){
                     lembah = lembah + 1;
                 }
-            } else if (aksi.equals("T")) {
+            } else if (aksi.equalsIgnoreCase("T")) {
                 ketinggian = ketinggian - 1;
 
                 if(ketinggian==0){
