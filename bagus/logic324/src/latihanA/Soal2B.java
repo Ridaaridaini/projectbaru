@@ -77,6 +77,8 @@ public class Soal2B {
                     jarak = jarak + 6.5;
                 }
 
+            } if (ruteSplit.length>i+1){
+                break;
             }
         }
         double bensin = jarak / 2.5;

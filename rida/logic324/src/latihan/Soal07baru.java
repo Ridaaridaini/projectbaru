@@ -34,8 +34,10 @@ public class Soal07baru {
             System.out.println("Jumlah Buah-> "+keranjang2+" + "+keranjang3+" = "+(keranjang2+keranjang3));
         } else if (keranjangDibawa==2) {
             System.out.println("Jumlah Buah-> "+keranjang1+" + "+keranjang3+" = "+(keranjang1+keranjang3));
-        }else {
+        }else if (keranjangDibawa==3){
             System.out.println("Jumlah Buah: "+keranjang1+" + "+keranjang2+" = "+(keranjang1+keranjang2));
-        }
+        }else
+            System.out.println("Jumlah Buah: "+keranjang1+" + "+keranjang2+" + "+keranjang3+" = "+(keranjang1+keranjang2+keranjang3));
+
     }
 }
