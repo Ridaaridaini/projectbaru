@@ -2,7 +2,7 @@ package latihanA;
 
 import java.util.Scanner;
 
-public class Soal10 {
+public class Soal10Challenge {
 
     public static void main(String[] args) {
 
@@ -67,19 +67,17 @@ public class Soal10 {
         }
         System.out.println();
         //penjumlahan index ganjil +  index ganjil dan index genap + index genap
-        int[] penjumlahan = new int[panjangDeret];
+        int[] hasil = new int[panjangDeret];
         for (i = 0; i < panjangDeret; i++) {
 
             if (i%2==0){
                 //genap
-                penjumlahan[i] = arrPrima[i] + arrFibonacci[i];
+                hasil[i] = arrPrima[i] + arrFibonacci[i];
                 System.out.print(arrPrima[i] + " + " + arrFibonacci[i] + "; ");
-                continue;
             }else{
                 //ganjil
-                penjumlahan[i] = arrPrima[i] + arrFibonacci[i];
-                System.out.print(arrPrima[i] + " + " + arrFibonacci[i] + "; ");
-                continue;
+                hasil[i] = Math.abs(arrPrima[i] - arrFibonacci[i]);
+                System.out.print(arrPrima[i] + " - " + arrFibonacci[i] + "; ");
             }
 
         }
@@ -87,9 +85,8 @@ public class Soal10 {
 
         System.out.println();
         for (int j = 0; j < panjangDeret; j++) {
-            System.out.print(penjumlahan[j] + " ");
+            System.out.print(hasil[j] + " ");
         }
 
     }
-
 }

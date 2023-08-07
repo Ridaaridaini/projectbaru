@@ -1,9 +1,8 @@
 package latihanA;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Soal01 {
+public class Soal01Challenge {
 
     public static void main(String[] args) {
 
@@ -30,6 +29,10 @@ public class Soal01 {
 
         } else if (pulsa>30_000) { // true
 
+            if (pulsa >= 50_000){
+                bonus = bonus +  ((pulsa/50_000)*100);
+            }
+
             pulsa = pulsa-10_000; // 75_000 - 10_000 = 65_000
             System.out.print(point + " + ");
 
@@ -40,14 +43,13 @@ public class Soal01 {
             point = point + ((pulsa/1000)*2);
             System.out.print((point-20) + " + ");
 
+            System.out.print(bonus + " = ");
         }else{
             System.out.println("anda diluar nalar!");
         }
 
 
-        System.out.println(point);
-
-
+        System.out.println(point+bonus);
 
     }
 

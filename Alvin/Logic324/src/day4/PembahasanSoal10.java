@@ -19,33 +19,34 @@ public class PembahasanSoal10 {
         System.out.print("Saldo OdO: ");
         saldoOPO = scanner.nextLong();
 
-        if (saldoOPO < 27000){// cek saldo apakah cukup untuk membeli kopi dengan diskon
+        while (saldoOPO > 27_000) {
+            long hargaBayar = 0;
+            jumlahCup = 0;
+            if (saldoOPO < 27000) {// cek saldo apakah cukup untuk membeli kopi dengan diskon
 
-        }else { // jika sadldo cukup
-            // menhitung jumlah cup
+            } else { // jika sadldo cukup
+                // menhitung jumlah cup
 
-            while (saldoOPO >= jumlahCup*hargaKopi*diskon && max_diskon > jumlahCup* hargaKopi*diskon){
-                jumlahCup = jumlahCup+1;
+                while (saldoOPO >= jumlahCup * hargaKopi * diskon && max_diskon > jumlahCup * hargaKopi * diskon) {
+                    jumlahCup = jumlahCup + 1;
+                }
+
+                jumlahCup = jumlahCup - 1;
+
+
+                double totalHarga = jumlahCup * hargaKopi * diskon; //hitung toal harga tanpa cashback
+                double cashBack = totalHarga * cashback; // hitung cashback
+
+                if (cashBack > max_cashback) { // jika cashback leboh dari 30000 maka max cashback 30000
+                    cashback = max_cashback;
+                }
+
+                hargaBayar = (int) totalHarga - (int) cashBack; // menghitung harga yang dibayar
+
+                saldoOPO = saldoOPO - hargaBayar;
+                System.out.println("jumlah cup = " + jumlahCup + "; Saldo Akhir = " +saldoOPO);
             }
-
-            jumlahCup = jumlahCup-1;
-            System.out.println("Jumlah Cup: "+ jumlahCup);
-
-
-            double totalHarga = jumlahCup*hargaKopi*diskon; //hitung toal harga tanpa cashback
-            double cashBack  = totalHarga * cashback; // hitung cashback
-
-            if (cashBack > max_cashback){ // jika cashback leboh dari 30000 maka max cashback 30000
-                cashback = max_cashback;
-            }
-
-            long hargaBayar = (int)totalHarga-(int)cashBack; // menghitung harga yang dibayar
-            System.out.println("Total bayar: " + hargaBayar);
-            System.out.println("Sisa OdO: " + (saldoOPO-hargaBayar));
-
-
         }
-
 
     }
 }
