@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class soal05Challange {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("\n1.memesan \n2.tidak memesan \npilihan ( Y atau N): ");
         String n = scanner.nextLine();
         double jumlahporsi = 0;
         int jumlahOrang = 0;
-        int jumlahoranglk=0;
-        int jumlahorangpl=0;
+        int jumlahoranglk = 0;
+        int jumlahorangpl = 0;
         double jumPor = 0;
 
         if (n.equalsIgnoreCase("n")) {
@@ -81,24 +81,17 @@ public class soal05Challange {
             n = scanner.nextLine();
 
         }
-        if(jumlahOrang % 2 != 0 || jumlahOrang >= 5){
-            System.out.println("jumlah porsi " +jumlahporsi + 1.0);
-            if(jumlahoranglk>jumlahorangpl) {
-                jumPor = jumPor + jumlahporsi + jumlahoranglk + jumlahorangpl;
-                System.out.println(jumPor);
-            }else{
-                jumPor=jumPor+jumlahporsi+jumlahorangpl;
-                System.out.println(jumPor);
-            }
+        if (jumlahOrang % 2 != 0 || jumlahOrang >= 5) {
+            jumPor = jumlahorangpl + jumlahporsi;
+            System.out.println("jumlah porsi " + jumPor);
         }
 
-//        if(jumlahoranglk>jumlahorangpl) {
-//            jumPor = jumPor + jumlahporsi + jumlahoranglk + jumlahorangpl;
-//            System.out.println(jumPor);
-//        }
+        if (jumlahoranglk > jumlahorangpl) {
+            jumPor = jumPor + jumlahporsi + jumlahoranglk + jumlahorangpl;
+            System.out.println(jumPor);
 
-        System.out.println("jumlah porsi " + jumlahporsi);
+            System.out.println("jumlah porsi " + jumlahporsi);
 
-
+        }
     }
 }

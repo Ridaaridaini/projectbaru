@@ -17,42 +17,45 @@ public class Soal05 {
 
 
 
-        System.out.print("Laki - laki Dewasa = ");
-        int l = input.nextInt();
+
+            System.out.print("Laki - laki Dewasa = ");
+            int l = input.nextInt();
 
 
-        System.out.print("Perempuan Dewasa = ");
-        int p = input.nextInt();
+            System.out.print("Perempuan Dewasa = ");
+            int p = input.nextInt();
 
-        System.out.print("Balita = ");
-        int b = input.nextInt();
+            System.out.print("Balita = ");
+            int b = input.nextInt();
 
-        System.out.print("Remaja = ");
-        int r = input.nextInt();
+            System.out.print("Remaja = ");
+            int r = input.nextInt();
 
-        System.out.print("Anak - anak = ");
-        int a = input.nextInt();
-
-
-        int totalOrang = l + p + b + r + a;
-        double porsi = (l * dewasaLaki) + (p * dewasaPerempuan) + (r * remaja) + (a * anak) + (b * balita);
+            System.out.print("Anak - anak = ");
+            int a = input.nextInt();
 
 
-        if (totalOrang > 5 && totalOrang % 2 != 0) {
 
-            porsi = porsi + (p * 1);
 
-            int porsi1 = (int) porsi;
+            int totalOrang = l + p + b + r + a;
+            double porsi = (l * dewasaLaki) + (p * dewasaPerempuan) + (r * remaja) + (a * anak) + (b * balita);
 
-            System.out.print(porsi1 + " porsi");
 
-        } else {
-            int porsi1 = (int) porsi;
-            System.out.print(porsi1 + " porsi");
+            if (totalOrang > 5 && totalOrang % 2 != 0) {
+
+                porsi = porsi + (p * 1);
+
+                int porsi1 = (int) porsi;
+
+                System.out.print(porsi1 + " porsi");
+
+            } else {
+                int porsi1 = (int) porsi;
+                System.out.print(porsi1 + " porsi");
+
             }
         }
-
-
-
     }
+
+
 
