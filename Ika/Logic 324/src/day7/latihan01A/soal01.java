@@ -8,7 +8,6 @@ public class soal01 {
         System.out.print("masukan beli pulsa: ");
         int pulsa= scanner.nextInt();
 
-        int point=0;
         int kelipatan = 1_000;
         int point1=0;
         int point2=0;
@@ -37,21 +36,8 @@ public class soal01 {
         }
 
         sumPoint = point1+point2+point3;
-        System.out.println(sumPoint);
-
-
-//         else if(pulsa>10_000 ) {
-//            if(pulsa>=30_000){
-//                point=((pulsa-30_000)/kelipatan)*2;
-//                point2 = point2 + point;
-//            }
-//            if (pulsa>10_000 ){
-//                point=(pulsa-10_000)/kelipatan;
-//                point1=point1+point;
-//            }
-//            sumPoint= point1+point2;
-//        }
 //        System.out.println(sumPoint);
 
+        System.out.println(point1 + " + " + point2 + " + " + point3 + " = " + sumPoint);
     }
 }

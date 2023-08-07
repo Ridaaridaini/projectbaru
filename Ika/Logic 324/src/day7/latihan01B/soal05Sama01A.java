@@ -70,6 +70,7 @@ public class soal05Sama01A {
 //                    System.out.println(jumlahporsi);
 //                    System.out.println(jumlahOrang);
                     break;
+
             }
             scanner.nextLine();
             System.out.println("\n1.memesan \n2.tidak memesan \npilihan ( Y atau N): ");
@@ -77,9 +78,9 @@ public class soal05Sama01A {
         }
 
         if (jumlahOrang % 2 != 0 || jumlahOrang >= 5) {
-            System.out.println(jumlahporsi+1);
+            System.out.println("jumlah porsi "+jumlahporsi+1);
         } else {
-            System.out.println(jumlahporsi);
+            System.out.println("jumlah porsi "+jumlahporsi);
         }
     }
 }
