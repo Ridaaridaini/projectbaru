@@ -28,12 +28,10 @@ public class PembahasanNo10 {
                     if(ketinggian==0){
                         gunung = gunung + 1;
                     }
-
                 }
-                System.out.println("gunung"+gunung+"lembah"+lembah);
             }
 
 
-        }
+        }System.out.println("gunung"+gunung+"lembah"+lembah);
     }
 }

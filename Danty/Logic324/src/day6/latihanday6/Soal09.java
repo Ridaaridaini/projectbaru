@@ -15,23 +15,27 @@ public class Soal09 {
         String k2 = input.nextLine();
 
 
-        //salah satu di split
+        //Salah satu inputan di split
         String[] arrK2 = k2.split("");
 
+        //Membuat variabel bantu untuk menampung hasil split
         String bantu = "";
-        //boolean cek = k1.contains(bantu);
 
+        //Masukkan nilai array arrK2 ke dalam variabel bantu
         for (int i = 0; i < arrK2.length; i++) {
-            bantu = bantu + arrK2[i];
-
-        }if (k1.contains(bantu)) {
-            System.out.print("YES");
+            bantu = arrK2[i]; //ini mengganti nilai di dalam string bantu dengan nilai array satu2, bukan mengisi full langsung semua kata
         }
-        else {
+
+        if (k1.contains(bantu)) {
+            System.out.print("YES");
+        } else {
             System.out.print("NO");
         }
     }
 }
+
+
+
 
 
 

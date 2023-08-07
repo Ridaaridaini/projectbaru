@@ -9,8 +9,7 @@ public class Soal06 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("anda mau bermain? (y/n): ");
-        String main = scanner.nextLine();
+        String main = "y";
 
         while (main.equalsIgnoreCase("y")){
             System.out.print("1. Player main dahulu 2. Computer main dahulu : ");
@@ -35,13 +34,14 @@ public class Soal06 {
             } else if (pilih == 2) {
 
                 Random random = new Random();
+                System.out.println("computer: *");
                 int computer = random.nextInt(10);
 
                 System.out.print("Input angka anda/player: ");
                 int player = scanner.nextInt();
 
+                System.out.println("Computer: " + computer);
 
-                System.out.println("computer: *");
 
                 if (player>computer){
                     System.out.println("You Win");
@@ -50,6 +50,8 @@ public class Soal06 {
                 } else {
                     System.out.println("Seri");
                 }
+            }else{
+                System.out.println("hanya ada 2 pilihan, anda di luar nalar!");
             }
 
 
