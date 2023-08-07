@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class soal01 {
     public static void main(String[] args) {
+
+        //angka ganjil dan genap
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("masukan n: ");
         int n = scanner.nextInt();
@@ -24,10 +27,6 @@ public class soal01 {
                 System.out.print(i + " ");
             }
         }
-
-
-
-
 
     }
 }

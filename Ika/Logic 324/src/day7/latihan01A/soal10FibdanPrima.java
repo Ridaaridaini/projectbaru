@@ -37,7 +37,7 @@ public class soal10FibdanPrima {
         //mencari bilangan fibonacci
         System.out.println();
         int bilSebelum=1;
-        int bilSesudah=1;
+        int bilSesudah=0;
         int bilFibonacci=1;
         for (i = 0; i < fibonacci.length; i++) {
 

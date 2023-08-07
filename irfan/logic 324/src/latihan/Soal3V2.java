@@ -4,63 +4,35 @@ import java.util.Scanner;
 
 public class Soal3V2 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        int count = 0;
+        int n = 3;
+        int lock = 100;
+        int start = lock;
 
-        System.out.print("input n: ");
-        int n = scanner.nextInt();
+        while (count < n){
+            for (;start >= 10;){
+                String strStart = start + "";
+                String[] arrStart = strStart.split("");
 
-        if (!(n>=1 && n<=100)){
-            System.out.println("nilai n harus antara 1 dan 100");
-            System.exit(0);
-        }
-
-        int angka = 100, count = 0;
-
-        while (angka>=100){
-
-            String strAngka = String.valueOf(angka);
-            String[] arrAngka = strAngka.split("");
-            Double[] singleAngka = new Double[arrAngka.length];
-
-            double total = 0;
-            for (int i = 0; i < arrAngka.length; i++) {
-                singleAngka[i] = Double.parseDouble(arrAngka[i]);
-
-                total = total + Math.pow(singleAngka[i], 2.0);
-            }
-
-            if (total == 1) {
-                count++;
-                System.out.println(angka + " adalah \"Si Angka 1\"");
-
-                if (count==n){
-                    System.exit(0);
+                int jumlah = 0;
+                for (int i = 0; i < arrStart.length; i++) {
+                    int digit = Integer.parseInt(arrStart[i]);
+                    int digitKuadrat = digit * digit;
+                    jumlah = jumlah + digitKuadrat;
                 }
-            }
-
-            while (total >= 10){
-                int intTotal = (int)total;
-                String strTotal = String.valueOf(intTotal);
-                String[] arrTotal = strTotal.split("");
-                Double[] singleTotal = new Double[arrTotal.length];
-                total = 0;
-
-                for (int i = 0; i < arrTotal.length; i++) {
-                    singleTotal[i] = Double.parseDouble(arrTotal[i]);
-
-                    total = total + Math.pow(singleTotal[i], 2.0);
-                }
-                if (total == 1) {
+                if (jumlah == 1){
+                    System.out.println(lock + " adalah si Angka 1");
                     count++;
-                    System.out.println(angka + " adalah \"Si Angka 1\"");
-
-                    if (count==n){
-                        System.exit(0);
-                    }
+                    lock++;
+                    start = lock;
+                    break;
+                } else if (jumlah < 10){
+                    lock++;
+                    start = lock;
+                    break;
                 }
+                start = jumlah;
             }
-
-            angka++;
         }
 
     }
