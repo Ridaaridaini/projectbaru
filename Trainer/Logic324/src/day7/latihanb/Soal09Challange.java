@@ -11,7 +11,7 @@ public class Soal09Challange {
         String rute = scanner.nextLine();
         String[] arrRute = rute.split(" ");
 
-        int mdpl = 1;
+        int mdpl = -1;
         int gunung = 0;
         int lembah = 0;
 
@@ -22,7 +22,11 @@ public class Soal09Challange {
             if (aksi.equalsIgnoreCase("n")){
                 mdpl++;
                 if (mdpl == 0){
-                    lembah++;
+                    if (skip == 1){
+                        skip = 0;
+                    } else {
+                        lembah++;
+                    }
                 }
             } else if (aksi.equalsIgnoreCase("t")){
                 mdpl--;
