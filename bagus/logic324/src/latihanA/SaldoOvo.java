@@ -1,4 +1,4 @@
-package day4.latihan;
+package latihanA;
 
 import java.util.Scanner;
 
@@ -21,10 +21,9 @@ public class SaldoOvo {
         double hargaBayar = 0.0;
         double cashback = 0.0;
 
-        //Cek saldo, cukup gk buat beli kopi
-            if (saldo < 27000) {
-                System.out.println("tidak jadi beli, saldo kurang!");
-            } else { //Kalo saldo mencukupi
+        while (1 > 0) {
+
+            if (saldo > 27000) { //Kalo saldo mencukupi
                 //Logic Menghitung Jumlah Cup
                 while (saldo >= jmlCup * hargaKopi * diskon //cek apakah saldo masih cukup
                         && maxDiskon > jmlCup * hargaKopi * diskon) { //cek apakah sudah mendekati max diskon
@@ -42,11 +41,10 @@ public class SaldoOvo {
                 saldo = (int) (saldo - hargaBayar + cashback);
                 System.out.println("Jumlah Cup = " + jmlCup + ", Saldo Akhir Rp." + saldo);
 
+            } else {
+                System.out.println("tidak jadi beli, saldo kurang!");
             }
-//            saldo = (int) (saldo - hargaBayar + cashback);
-//            System.out.println("Jumlah Cup = " + jmlCup + ", Saldo Akhir Rp." + saldo);
 
-//        while (saldo > 27000){
-//            if ()
         }
-        }
+    }
+}

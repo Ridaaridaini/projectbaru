@@ -11,6 +11,7 @@ public class Soal01 {
         String kalimat = input.nextLine();
 
         String [] arrKalimat = kalimat.split(" ");
+
         for (int i = 0; i < arrKalimat.length; i++) {
             System.out.println(arrKalimat[i]);
 

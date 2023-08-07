@@ -1,0 +1,31 @@
+Loop 1
+https://www.hackerrank.com/challenges/java-loops-i/problem
+
+Loop 2
+https://www.hackerrank.com/challenges/java-loops/problem
+
+IF 1
+https://www.hackerrank.com/challenges/java-if-else/problem
+
+Substring 1
+https://www.hackerrank.com/challenges/java-substring/problem
+
+Palindrome Reverse
+https://www.hackerrank.com/challenges/java-string-reverse/problem
+https://www.programmingsimplified.com/java/source-code/java-program-check-palindrome
+
+Date & Time
+https://www.hackerrank.com/challenges/java-date-and-time/problem
+https://www.javatpoint.com/java-string-to-date
+https://stackoverflow.com/questions/4216745/java-string-to-date-conversion
+
+
+Array
+https://www.hackerrank.com/challenges/java-1d-array-introduction/problem
+
+https://www.hackerrank.com/challenges/java-2d-array/problem
+
+Array 2D
+https://www.hackerrank.com/challenges/java-2d-array/problem
+https://stackoverflow.com/questions/37363674/java-how-to-solve-this-2d-array-hour-glass
+

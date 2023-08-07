@@ -16,6 +16,7 @@ public class Soal03 {
         System.out.print("benda : ");
         String benda = input.nextLine();
 
+
         if(benda.equalsIgnoreCase("botol")){
 
             System.out.print( "1 botol = " + (1*botol) +   " cangkir");

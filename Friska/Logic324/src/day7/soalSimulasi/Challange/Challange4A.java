@@ -12,6 +12,7 @@
 //        long cashback = 0;
 //        int cup = 1;
 //        while (saldo >= 27000){
+//
 //            if(saldo >= 40000) {
 //                while (saldo >= cup * 9000) {
 //                    cup = cup + 1;
@@ -21,6 +22,7 @@
 //
 //            }
 //            cup = cup - 1;
+//
 //            System.out.println("Jumlah cup: " + cup);
 //            belanja = cup * 9000;
 //            saldo1 = saldo - belanja;
@@ -28,8 +30,6 @@
 //            long saldoAkhir = saldo1 + cashback;
 //            System.out.println("Saldo akhir :" + saldoAkhir);
 //        }
-//
-//
 //
 //        }
 //    }

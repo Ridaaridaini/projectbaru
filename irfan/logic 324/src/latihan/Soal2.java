@@ -26,17 +26,18 @@ public class Soal2 {
                 double jarakPerLiter = 2.5;
 
                 // Input rute
-                System.out.println("Masukkan rute: ");
-                String rute = scanner.nextLine().toLowerCase();
+                System.out.print("Masukkan rute: ");
+                String rute = scanner.nextLine().toLowerCase();         // toko - tempat 1 - tempat 4 - toko
 
                 // Split rute menjadi array tempat yang dikunjungi
-                String[] tempatArray = rute.split("-");
+                String[] tempatArray = rute.split("-");          // {"toko","tempat1","tempat4"}
 
                 // Hitung total jarak per liter bensin yang ditempuh
-                double totalJarak = 0;
-                for (int i = 0; i < tempatArray.length - 1; i++) {
-                    String tempatAwal = tempatArray[i].trim();
-                    String tempatTujuan = tempatArray[i + 1].trim();
+                double totalJarak = 0; // jarak = 2.0 + 4.5
+
+                for (int i = 0; i < tempatArray.length - 1; i++) { // i =0 1 2 // false // tempatArray = 2
+                    String tempatAwal = tempatArray[i].trim();    // tepat awal = toko  . tempat1
+                    String tempatTujuan = tempatArray[i + 1].trim(); // tempat tujuan = tempat1 . tempat4
 
 //                    System.out.println(tempatAwal+" "+tempatTujuan);
                     if ((tempatAwal.equals("toko") && tempatTujuan.equals("tempat1")) || (tempatAwal.equals("tempat1") && tempatTujuan.equals("toko"))) {
@@ -84,8 +85,9 @@ public class Soal2 {
                 }
 
                 // Hitung jumlah bensin yang dibutuhkan
-                double bensinYangDibutuhkan = totalJarak / jarakPerLiter;
+                double bensinYangDibutuhkan = totalJarak / jarakPerLiter; // 6.5 / 2.5 = 2.6
 
+                System.out.println("jarak: " + totalJarak + " km");
                 System.out.println("Total bensin yang dibutuhkan: " + bensinYangDibutuhkan + " liter");
 //                System.out.println(totalJarak+"");
             }
