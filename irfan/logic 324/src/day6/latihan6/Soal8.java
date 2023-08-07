@@ -22,7 +22,7 @@ public class Soal8 {
 
                 System.out.print(awalan);
 
-                for (int i = 0; i < arrB.length() ; i++) {
+                for (int i = 0; i < 3 ; i++) {
                     System.out.print("*");
                 }
 

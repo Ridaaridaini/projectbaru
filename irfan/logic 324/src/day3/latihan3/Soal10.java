@@ -12,7 +12,7 @@ public class Soal10 {
         n = inputan.nextInt();
 
         for (i = 0; i < n; i++) {
-            if (n % 2 == 1) {
+            if (n % 2 == 1) { // buat ganjil
                 if (i == n / 2) {
                     System.out.print("XXX ");
                 } else {
@@ -20,7 +20,7 @@ public class Soal10 {
                 }
                 a = a * 3;
             } else {
-                if (i == n / 2 || i == (n / 2) - 1) {
+                if (i == n / 2 || i == (n / 2) - 1) { // buat genap
                     System.out.print("XXX ");
                 } else {
                     System.out.print(a + "  ");

@@ -19,7 +19,7 @@ public class Soal9 {
                 System.out.print(a + "  ");
                 a = a * 4;
             }
-
+//            a = a * 4;
         }
     }
 }

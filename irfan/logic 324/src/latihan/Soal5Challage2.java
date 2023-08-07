@@ -2,7 +2,7 @@ package latihan;
 
 import java.util.Scanner;
 
-public class Soal5Challage {
+public class Soal5Challage2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,7 +12,8 @@ public class Soal5Challage {
 
         double jumlah = 0;
         int jumlahOrang = 0;
-        double laki = 2;
+        int lakilaki = 0;
+        int perempuan = 0;
         
         for (int i = 0; i < arrA.length; i++) {
         String[] arrB = arrA[i].replace("-","").split("="); // arrB[i]= ["Lakilaki dewasa" , "= 3 orang" ]
@@ -21,10 +22,12 @@ public class Soal5Challage {
             if("lakilakidewasa".equalsIgnoreCase(arrB[0].replace(" ","").toLowerCase())){
                 jumlah = jumlah + (orang * 2); // menghitung porsi
                 jumlahOrang = jumlahOrang + orang; // menghitung orang
+                lakilaki = lakilaki + orang;
             
             } else if ("perempuandewasa".equalsIgnoreCase(arrB[0].replace(" ","").toLowerCase())) {
                 jumlah = jumlah + orang; // porsi
                 jumlahOrang = jumlahOrang + orang;
+                perempuan = perempuan + orang;
             } else if ("remaja".equalsIgnoreCase(arrB[0].replace(" ","").toLowerCase())) {
                 jumlah = jumlah + orang;
                 jumlahOrang = jumlahOrang + orang;
@@ -47,14 +50,12 @@ public class Soal5Challage {
 
                 if ("perempuandewasa".equalsIgnoreCase(arrB[0].replace(" ","").toLowerCase())) {
                     jumlah = jumlah + orang;
-//                    laki = laki + jumlah;
                 }
-
             }
 
-//            if ("lakilakidewasa".equalsIgnoreCase(arrB[0].replace(" ","").toLowerCase())) {
-//                jumlah = jumlah + orang ;
-//            }
+        }
+        if(lakilaki > perempuan ){
+            jumlah = jumlah + lakilaki;
 
         }
             System.out.println(jumlahOrang+" orang");
