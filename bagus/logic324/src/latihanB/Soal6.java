@@ -12,9 +12,15 @@ public class Soal6 {
         System.out.print("Masukan pin: ");
         String pinKu = input.nextLine();
 
+
         if (!pinKu.equals(pin)) {
             System.out.println("Pin Salah");
-        } else {
+        }
+
+
+
+
+        else {
             System.out.print("Uang yang Disetor: ");
             int saldo = input.nextInt();
 

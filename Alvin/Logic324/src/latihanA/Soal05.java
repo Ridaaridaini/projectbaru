@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class Soal05 {
 
     public static void main(String[] args) {
-
+// jika laki laki dewasa lebih banyak dari perempuan dewasa maka porsinya menambah 1
         Scanner scanner = new Scanner(System.in);
 
-        String lakiDewasa="lakilakidewasa", womenDewasa="perempuandewasa", balita="balita", anakAnak="anakanak", remaja="remaja";
+        String lakiDewasa="lakilakidewasa", womenDewasa="perempuandewasa", balita="balita", anakAnak="anakanak",
+                remaja="remaja";
         String input = scanner.nextLine();
 
         String[] arrInput1 = input.split(";");
@@ -50,8 +51,8 @@ public class Soal05 {
             }
         }
 
-        System.out.println(jumlah + " porsi");
         System.out.println(jumOrang + " orang");
+        System.out.println(jumlah + " porsi");
 
     }
 
