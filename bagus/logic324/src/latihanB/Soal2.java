@@ -15,12 +15,15 @@ public class Soal2 {
 
         String kataReplace = kata.replace(" ", "");
         String[] kataSplit = kataReplace.split("");
+        Arrays.sort(kataSplit);
+
         String hurufVokal = "";
         String hurufKonsonan = "";
 
         String[] hurufVokalSplit = hurufVokal.split("");
+//        Arrays.sort(hurufVokalSplit);
         String[] hurufKonsonanSplit = hurufKonsonan.split("");
-
+//        Arrays.sort(hurufKonsonanSplit);
 
 
         for (int i = 0; i < kataSplit.length; i++) {

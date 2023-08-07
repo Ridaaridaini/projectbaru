@@ -18,13 +18,13 @@ public class Soal10 {
         while (i < panjangDeret){
             cek = 0; //reset cek jadi 0 kembali
 
-            for (int j = 2; j <= bil ; j++) {//2 3
+            for (int j = 1; j <= bil ; j++) {//2 3
                 if (bil%j == 0) {
                     cek++;
                 }
             }
 
-            if (cek == 1){
+            if (cek == 2){
                 arrPrima[i] = bil;
                 i++;
             }
@@ -34,7 +34,7 @@ public class Soal10 {
 
         //membuat deret fibonacci
         int[] arrFibonacci = new int[panjangDeret];
-        int fibonacci=1, past=1, current=1;
+//        int fibonacci, past=1, current=1;
 
         for (i = 0; i < panjangDeret; i++) {
 
@@ -48,11 +48,11 @@ public class Soal10 {
                 continue;
             }
 
-                arrFibonacci[i] = current;
-                fibonacci = past+current;
-                past = current;
-                current = fibonacci;
-
+            arrFibonacci[i] = arrFibonacci[i-2] + arrFibonacci[i-1];
+//          arrFibonacci[i] = current;
+//          fibonacci = past+current;
+//          past = current;
+//          current = fibonacci;
         }
         //end of deret fibonacci
 

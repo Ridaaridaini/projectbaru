@@ -20,8 +20,7 @@ public class Soal03 {
 
         while (angka>=100){
 
-            String strAngka = String.valueOf(angka);
-            String[] arrAngka = strAngka.split("");
+            String[] arrAngka = String.valueOf(angka).split("");
             Double[] singleAngka = new Double[arrAngka.length];
 
             double total = 0;
@@ -42,8 +41,7 @@ public class Soal03 {
 
             while (total >= 10){
                 int intTotal = (int)total;
-                String strTotal = String.valueOf(intTotal);
-                String[] arrTotal = strTotal.split("");
+                String[] arrTotal = String.valueOf(intTotal).split("");
                 Double[] singleTotal = new Double[arrTotal.length];
                 total = 0;
 

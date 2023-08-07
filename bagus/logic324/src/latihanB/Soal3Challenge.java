@@ -2,7 +2,7 @@ package latihanB;
 
 import java.util.Scanner;
 
-public class Soal3C {
+public class Soal3Challenge {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -39,6 +39,15 @@ public class Soal3C {
                 }
             }
 
+            if (total == 10) {
+                count++;
+                System.out.println(angka + " adalah \"Si Angka 10\"");
+
+                if (count == n) {
+                    System.exit(0);
+                }
+            }
+
             while (total >= 10) {
                 int intTotal = (int) total;
                 String strTotal = String.valueOf(intTotal);
@@ -60,14 +69,7 @@ public class Soal3C {
                     }
                 }
 
-                if (total == 10) {
-                    count++;
-                    System.out.println(angka + " adalah \"Si Angka 10\"");
 
-                    if (count == n) {
-                        System.exit(0);
-                    }
-                }
             }
             angka++;
         }
