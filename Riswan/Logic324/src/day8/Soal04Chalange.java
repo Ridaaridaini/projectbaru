@@ -2,7 +2,7 @@ package day8;
 
 import java.util.Scanner;
 
-public class Soal04 {
+public class Soal04Chalange {
     public static void main(String[] args) {
         //Diketahui
         int hargaKopi = 18000;
@@ -14,14 +14,15 @@ public class Soal04 {
 
         //Input Saldo
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Masukkan Saldo : ");
-        int saldo = scanner.nextInt();
+//        System.out.print("Masukkan Saldo : ");
+        int saldo = 300000;//scanner.nextInt();
 
         //Cek saldo, cukup gk buat beli kopi
-        if (saldo < 27000) {
-            System.out.println("tidak jadi beli, saldo kurang mencukupi");
-        } else { //Kalo saldo mencukupi
+
+        while (saldo>=27000){
+            //Kalo saldo mencukupi
             //Logic Menghitung Jumlah Cup
+            jmlCup = 1;
             while (saldo >= jmlCup * hargaKopi * diskon //cek apakah saldo masih cukup
                     && maxDiskon > jmlCup * hargaKopi * diskon) { //cek apakah sudah mendekati max diskon
                 jmlCup = jmlCup + 1;
@@ -37,7 +38,7 @@ public class Soal04 {
             }
             saldo = (int) (saldo - hargaBayar + cashback);
             System.out.println("Jumlah Cup = " + jmlCup + ", Saldo Akhir Rp." + saldo);
-        }
 
+        }
     }
 }
