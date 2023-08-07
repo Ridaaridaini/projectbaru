@@ -54,8 +54,8 @@ public class Soal4 {
 
 
         }
-        sisaSaldo = sisaSaldo + saldo - total;
-        System.out.println("Sisa Saldo Akhir: " + sisaSaldo);
+        saldo = saldo - total;
+        System.out.println("Sisa Saldo Akhir: " + saldo);
 
     }
 

@@ -28,7 +28,7 @@ public class Soal10 {
         deret2[0]=1;
         deret2[1]=1;
         for (int i =2; i < n; i++) {
-            deret2[i]=deret1[i-1]+deret2[i-2];
+            deret2[i]=deret2[i-1]+deret2[i-2];
 
         }
         System.out.println();
