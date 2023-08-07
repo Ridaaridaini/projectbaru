@@ -18,7 +18,7 @@ public class Soal08 {
 
         //Pilihan 1 (Antar Rekening) dan Pilihan 2 (Antar Bank)
 
-        if(pin.equalsIgnoreCase("123456")){
+        if(pin.equalsIgnoreCase(PIN)){
 
             System.out.print("Uang yang disetor = ");
             int setor = input.nextInt();

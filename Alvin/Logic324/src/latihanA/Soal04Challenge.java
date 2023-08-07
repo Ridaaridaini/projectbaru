@@ -7,7 +7,7 @@ public class Soal04Challenge {
     public static void main(String[] args) {
 
         int jumlahCup = 0;
-        long hargaKopi = 18_000, totalHarga = 0, hargaKopiDiskon = 9_000;
+        long hargaKopi = 18_000, totalHarga = 0;
 
         Scanner scanner = new Scanner(System.in);
 
@@ -15,54 +15,52 @@ public class Soal04Challenge {
         long saldoOPO = scanner.nextLong();
 
         long saldoAwal = saldoOPO;
-        double cashback;
 
-        while (saldoOPO>27_000) {
-            totalHarga = 0;
+        // kondisi jika kopi terkena diskon (min order 3 cup atau 54_000)
+        while (saldoOPO >= 27_000){
             jumlahCup = 0;
-            // kondisi jika kopi terkena diskon (min order 3 cup atau 54_000)
-            if (saldoOPO >= 27_000 && saldoOPO < 100_000) {
+            saldoAwal = saldoOPO;
+            totalHarga = 0;
 
-                while (saldoOPO >= hargaKopiDiskon) {
+            if (saldoOPO >= 27_000 && saldoOPO < 100_000){
 
-                    saldoOPO = saldoOPO - hargaKopiDiskon;
-//                    totalHarga = totalHarga + hargaKopiDiskon;
+                while (saldoOPO >= hargaKopi*0.5){
+
+                    saldoOPO = saldoOPO - hargaKopi/2;
+                    totalHarga = totalHarga + hargaKopi/2;
                     jumlahCup++;
                 }
 
-                totalHarga = jumlahCup * hargaKopiDiskon;
+                totalHarga = jumlahCup * hargaKopi/2;
 
             } else if (saldoOPO > 99_000) {
-                while (saldoOPO > 27_000) {
-                    saldoOPO = saldoOPO - hargaKopiDiskon;
-//                    totalHarga = totalHarga + hargaKopiDiskon;
+
+                while (totalHarga < 100_000){
+                    saldoOPO = saldoOPO - hargaKopi/2;
+                    totalHarga = totalHarga + hargaKopi/2;
                     jumlahCup++;
 
-                    if (totalHarga == 99_000) {
+                    if (totalHarga == 99_000){
                         break;
                     }
                 }
 
 
-                totalHarga = jumlahCup * hargaKopiDiskon;
+                totalHarga = jumlahCup * hargaKopi/2;
             }
-
 
             saldoOPO = saldoAwal - totalHarga;
-            cashback = totalHarga * 0.1;
-            if (cashback <= 30_000) {
-                saldoOPO = saldoOPO + (int) cashback;
+            double cashback = totalHarga*0.1;
+            if (cashback <= 30_000){
+                saldoOPO = saldoOPO + (int)cashback;
             }
-            if (cashback > 30_000) {
+            if (cashback > 30_000){
                 saldoOPO = saldoOPO + 30_000;
             }
 
-            if (saldoOPO < 27_000){
-                break;
-            }
-        System.out.println("jumlah cup = " + jumlahCup + "; Saldo Akhir = " +saldoOPO);
-        }
+            System.out.println("jumlah cup = " + jumlahCup + "; Saldo Akhir = " +saldoOPO);
 
+        }
 
     }
 

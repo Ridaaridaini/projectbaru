@@ -7,17 +7,16 @@ public class PembahasanSoal7 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Kalimat :");
-        String kalimat = scanner.next();
-        kalimat = kalimat.replace(" ","");
-        kalimat = kalimat.toLowerCase();
+        String kalimat = scanner.nextLine();
 
         String unik = "";
+        String kalimatr = kalimat.replace(" ","");
 
-        String [] arrKalimat = kalimat.split(" ");
+        String [] arrKalimat = kalimatr.split("");
         for (int i = 0; i < arrKalimat.length; i++) {
-            String huruf = arrKalimat[i];
-            if(!unik.contains(huruf)){
-                unik = unik + huruf;
+//            String huruf = arrKalimat[i];
+            if(!unik.contains(arrKalimat[i])){
+                unik = unik + arrKalimat[i];
             }
 
         }

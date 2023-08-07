@@ -41,6 +41,7 @@ public class Soal07 {
             System.out.print("Jumlah Buah = " + (k1 + k2));
         }
 
+        }
 
     }
-}
+
