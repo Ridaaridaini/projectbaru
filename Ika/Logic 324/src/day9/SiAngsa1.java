@@ -1,0 +1,47 @@
+package day9;
+
+public class SiAngsa1 {
+    public static void main(String[] args) {
+
+        int count=0;
+        int n=3;
+        int lock =100;
+        int start =lock;
+        while (count<n){
+            for(;start>=10;){
+                String strStart = start+"";
+                String[] arrStart = strStart.split("");
+
+                int jumlah=0;
+                for (int i = 0; i < strStart.length(); i++) {
+                    int angka=Integer.parseInt(arrStart[i]);
+                    int hasilKuadrat = angka*angka;
+                    jumlah = jumlah+hasilKuadrat;
+                }
+                if(jumlah==1){
+                    System.out.println(lock + "adalah si angsa 1");
+                    count++;
+                    lock++;
+                    start=lock;
+                    break;
+                } else if (jumlah<10) {
+                    lock++;
+                    start=lock;
+                    break;
+                }
+                start = jumlah;
+                if (jumlah==10){
+                    System.out.println(lock+ " adalah si angsa 10");
+                    count++;
+                    lock++;
+                    start=lock;
+                    break;
+                }
+
+            }
+        }
+
+
+    }
+
+}

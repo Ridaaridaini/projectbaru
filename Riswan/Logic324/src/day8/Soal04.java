@@ -4,83 +4,40 @@ import java.util.Scanner;
 
 public class Soal04 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        //Diketahui
+        int hargaKopi = 18000;
+        double diskon = 0.5;
+        double persenCashback = 0.1;
+        int jmlCup = 1;
+        int maxDiskon = 100_000;
+        int maxCashback = 30_000;
 
-        long harga = 18000;
-        boolean keputusan=true;
-        long cup = 0;
+        //Input Saldo
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Masukkan Saldo : ");
+        int saldo = scanner.nextInt();
 
-        System.out.println("Masukkan Saldo : ");
-        long saldo = input.nextLong();
-        long hitungCup = saldo;
-        long hitungCup1 = saldo;
-        long total = 0;
-
-        if(saldo>=40000 && saldo<=200_000){
-            while(keputusan){
-                hitungCup = hitungCup - 9000;
-                cup = cup +1;
-                if(hitungCup < 9000){
-                    keputusan = false;
-                }
+        //Cek saldo, cukup gk buat beli kopi
+        if (saldo < 27000) {
+            System.out.println("tidak jadi beli, saldo kurang mencukupi");
+        } else { //Kalo saldo mencukupi
+            //Logic Menghitung Jumlah Cup
+            while (saldo >= jmlCup * hargaKopi * diskon //cek apakah saldo masih cukup
+                    && maxDiskon > jmlCup * hargaKopi * diskon) { //cek apakah sudah mendekati max diskon
+                jmlCup = jmlCup + 1;
             }
-            System.out.println(" jumlah cup : " + cup);
-            total = 9_000 * cup;
-            System.out.println( " total pembelian : " + total);
+            jmlCup = jmlCup - 1;
+            //System.out.print("Jumlah Cup : " + jmlCup);
 
-            System.out.println("jumlah cup : " + cup);
-            long cashback = total/100*10;
-            long hasil = saldo - total + cashback;
-            if(cashback<=30_000){
-                System.out.println("Diskon : "+ cashback);
-                System.out.println("sisa Saldo : "+ hasil);
-
-            }else if (cashback >= 30000){
-                System.out.println("hasil : "+ hasil);
-                System.out.println(" jumlah cup : "+ cup + " harga : " + (saldo - total + 30_000));
-                System.out.println(" sisa saldo : "+ (saldo - hasil));
+            //Logic untuk hitung sisa saldo
+            double hargaBayar = jmlCup * hargaKopi * diskon;
+            double cashback = hargaBayar * persenCashback;
+            if (cashback > maxCashback) {
+                cashback = maxCashback;
             }
-
-        }else if (saldo >200_000){
-            long saldo1 = 0;
-            saldo1 = saldo - 198000;
-            cup = cup +22;
-            long cup1 = 0;
-            long diluarDiskon = 0;
-
-            System.out.println("diluar diskon : " + saldo1);
-
-            while (keputusan){
-                saldo1 = saldo1 - harga;
-                cup1 = cup1 + 1 ;
-                diluarDiskon = diluarDiskon +1;
-                if(saldo1<18000){
-                    keputusan = false;
-                }
-            }
-            long jumlahCup = cup +cup1;
-//            System.out.println(" jumlah cup : " + (jumlahCup));
-            total = 18_000 * cup1;
-            total = total +198000;
-//            System.out.println( " total pembelian : " + total);
-//
-//            System.out.println("jumlah cup : " + jumlahCup);
-            long cashback = total/100*10;
-//            System.out.println(" cash back : " + cashback);
-//            System.out.println("saldo : " + saldo);
-//            long hasil = saldo - total + cashback;
-//            System.out.println("hasil "+hasil);
-            if(cashback > 30000){
-                System.out.println("saldo : " + (saldo - total + 30000));
-                System.out.println("Jumlah : "+jumlahCup);
-//                System.out.println(" jumlah cup : "+ (jumlahCup + 1) + " Kembalian : " + (saldo - total + 30000 - 18_000));
-            }else {
-//                System.out.println(" jumlah cup : "+ (jumlahCup + 1) + " Kembalian : " + (saldo - total + cashback - 18_000));
-                System.out.println("Jumlah : "+jumlahCup);
-            }
-        }else {
-
-            System.out.println(" tidak membeli ");
+            saldo = (int) (saldo - hargaBayar + cashback);
+            System.out.println("Jumlah Cup = " + jmlCup + ", Saldo Akhir Rp." + saldo);
         }
+
     }
 }

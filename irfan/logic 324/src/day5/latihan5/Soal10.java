@@ -5,11 +5,12 @@ import java.util.Scanner;
 
 public class Soal10 {
     public static void main(String[] args) {
-        int[] deret = new int[10];
         Scanner input = new Scanner(System.in);
 
         System.out.print("Masukkan 10 angka dalam deret:");
-        for (int i = 0; i < 10; i++) {
+        int a = input.nextInt();
+        int[] deret = new int[a];
+        for (int i = 0; i < deret.length; i++) {
             deret[i] = input.nextInt();
         }
 

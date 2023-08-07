@@ -7,15 +7,13 @@ public class Soal6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("anda mau bermain? (y/n): ");
-        String main = scanner.nextLine();
 
-        while (main.equalsIgnoreCase("y")){
+        while (true){
             System.out.print("1. Player main dahulu 2. Computer main dahulu : ");
             int pilih = scanner.nextInt();
 
             if (pilih == 1){
-                System.out.print("Input angka anda/player: ");
+                System.out.print("Input angka player: ");
                 int player = scanner.nextInt();
 
                 Random random = new Random();
@@ -35,11 +33,11 @@ public class Soal6 {
                 Random random = new Random();
                 int computer = random.nextInt(10);
 
-                System.out.print("Input angka anda/player: ");
+                System.out.print("Input angka player: ");
                 int player = scanner.nextInt();
 
 
-                System.out.println("computer: *");
+                System.out.println("computer: Rahasia bro");
 
                 if (player>computer){
                     System.out.println("You Win");
@@ -51,8 +49,6 @@ public class Soal6 {
             }
 
 
-            System.out.print("anda mau bermain? (y/n): ");
-            main = scanner.next();
         }
 
     }
