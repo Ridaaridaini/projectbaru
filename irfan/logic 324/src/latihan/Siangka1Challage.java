@@ -2,14 +2,19 @@ package latihan;
 
 import java.util.Scanner;
 
-public class Soal3V2 {
+public class Siangka1Challage {
     public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("masukkan angka = ");
+        int input = scanner.nextInt();
+
         int count = 0;
-        int n = 3;
         int lock = 100;
         int start = lock;
 
-        while (count < n){
+        while (count < input){
             for (;start >= 10;){
                 String strStart = start + "";
                 String[] arrStart = strStart.split("");
@@ -34,6 +39,5 @@ public class Soal3V2 {
                 start = jumlah;
             }
         }
-
     }
 }

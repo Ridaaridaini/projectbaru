@@ -32,9 +32,11 @@ public class Soal1 {
             pulsa = pulsa - 20000;
             point3 = (pulsa /1000) *2;
 
+
+
 //            System.out.println(point1+"+"+point2+"+"+point3);
 
-         hasil = point1 + point2 + point3;
+         hasil = point1 + point2 + point3 ;
         }
         System.out.println(point1+"+"+point2+"+"+point3+" = "+hasil);
     }

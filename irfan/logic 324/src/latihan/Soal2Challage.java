@@ -2,7 +2,7 @@ package latihan;
 
 import java.util.Scanner;
 
-public class Soal2 {
+public class Soal2Challage {
     public static void main(String[] args) {
 
                 Scanner scanner = new Scanner(System.in);
@@ -39,19 +39,36 @@ public class Soal2 {
                     String tempatAwal = tempatArray[i].trim();    // tepat awal = toko  . tempat1
                     String tempatTujuan = tempatArray[i + 1].trim(); // tempat tujuan = tempat1 . tempat4
 
+
 //                    System.out.println(tempatAwal+" "+tempatTujuan);
                     if ((tempatAwal.equals("toko") && tempatTujuan.equals("tempat1")) || (tempatAwal.equals("tempat1") && tempatTujuan.equals("toko"))) {
                         totalJarak += jarakTokoTempat1;
 
+                        if (tempatTujuan.equals("toko")){
+                            break;
+                        }
+
+
                     }else if ((tempatAwal.equals("toko") && tempatTujuan.equals("tempat2")) || (tempatAwal.equals("tempat2") && tempatTujuan.equals("toko"))){
                             totalJarak += jarakTokoTempat2;
+
+                        if (tempatTujuan.equals("toko")){
+                            break;
+                        }
 
                     }else if ((tempatAwal.equals("toko") && tempatTujuan.equals("tempat3")) || (tempatAwal.equals("tempat3") && tempatTujuan.equals("toko"))){
                         totalJarak += jarakTokoTempat3;
 
+                        if (tempatTujuan.equals("toko")){
+                            break;
+                        }
+
                     }else if ((tempatAwal.equals("toko") && tempatTujuan.equals("tempat4")) || (tempatAwal.equals("tempat4") && tempatTujuan.equals("toko"))){
                         totalJarak += jarakTokoTempat4;
 //
+                        if (tempatTujuan.equals("toko")){
+                            break;
+                        }
 
                     } else if ((tempatAwal.equals("tempat1") && tempatTujuan.equals("tempat2")) || (tempatAwal.equals("tempat2") && tempatTujuan.equals("tempat1"))){
                         totalJarak += jarakTempat1Tempat2;
