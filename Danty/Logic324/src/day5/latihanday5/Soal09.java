@@ -23,7 +23,7 @@ public class Soal09 {
             jumlah = jumlah + arrA[i];
 
         }
-        System.out.print((jumlah - arrA[0]) + " dan " + (jumlah - arrA[4]));
+        System.out.print((jumlah - arrA[0]) + " dan " + (jumlah - arrA[arrA.length-1]));
 
 
 

@@ -12,10 +12,8 @@ public class Soal6 {
         for (int i = 0; i < number; i++) {
             if (i % 3==2) {
                 System.out.print(" * ");
-
             } else {
                 System.out.print(bil + " ");
-
             }
             bil = bil + 4;
         }

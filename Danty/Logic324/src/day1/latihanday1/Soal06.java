@@ -17,7 +17,9 @@ public class Soal06 {
         int luasP = x*x;
         int luasS = (y*y)/2;
 
-        System.out.print(luasP == luasS);
+        boolean luas = luasP == luasS;
+
+        System.out.print(luas);
 
 
     }
