@@ -3,14 +3,16 @@ package day7.latihan01B;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class soal02 {
+public class Soal02Challange {
     public static void main(String[] args) {
 
+        //memberikan "-" untuk setiap huruf yang sama misal aaee jadi aa-ee, aeii a-e-ii
         Scanner scanner = new Scanner(System.in);
         System.out.print("input kalimat: ");
         String n =scanner.nextLine();
         String vokal="";
         String konsonan="";
+        String hasil1 = "";
 
         n=n.toLowerCase();
         String[] arrN = n.replace(" ","").split("");
@@ -18,29 +20,33 @@ public class soal02 {
         for (int i = 0; i < arrN.length; i++) {
             if (arrN[i].equals("a") || arrN[i].equals("u") || arrN[i].equals("i") || arrN[i].equals("e") || arrN[i].equals("o")){
                 vokal=vokal+arrN[i];
-//                System.out.println(vokal);
+
             } else if (!(arrN[i].equals("a") || arrN[i].equals("u") || arrN[i].equals("i") || arrN[i].equals("e") || arrN[i].equals("o"))) {
                 konsonan=konsonan+arrN[i];
 //                System.out.print(konsonan);
             }
-
         }
 
-//        //mengurtkan huruf vokal
-//        char[] vokChar = vokal.toCharArray();
-//        Arrays.sort(vokChar);
-//        String sortedChar = new String(vokChar);
-//        System.out.println("sorted huruf vokal " + sortedChar);
-//
-//        //mengurutkan huruf konsonan
-//        char[] konsonanChar = konsonan.toCharArray();
-//        Arrays.sort(konsonanChar);
-//        String sortedKonsonan = new String(konsonanChar);
-//        System.out.println("sorted huruf konsonan "+sortedKonsonan);
 
-        System.out.print("huruf vokal :" + vokal + " ");
+
+        String[] arrVok = vokal.split("");
+        String[] arrkons = konsonan.split("");
+        for (int i = 1; i < arrVok.length; i++) {
+            if(!arrVok[i-1].equalsIgnoreCase(arrVok[i])){
+                System.out.print(arrVok[i-1]+ "-" + arrVok[i]);
+            }else {
+                System.out.print(arrVok[i]);
+            }
+        }
+
         System.out.println();
-        System.out.print("huruf konsonan :" + konsonan + " ");
+        for (int i = 1; i < arrkons.length; i++) {
+            if(!arrkons[i-1].equalsIgnoreCase(arrkons[i])){
+                System.out.print(arrkons[i-1] + "-" + arrkons[i]);
+            }else {
+                System.out.print(arrkons[i]);
+            }
+        }
 
 
     }

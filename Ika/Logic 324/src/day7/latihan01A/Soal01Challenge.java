@@ -2,8 +2,9 @@ package day7.latihan01A;
 
 import java.util.Scanner;
 
-public class soal01 {
+public class Soal01Challenge {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("masukan beli pulsa: ");
         int pulsa= scanner.nextInt();
@@ -12,6 +13,7 @@ public class soal01 {
         int point1=0;
         int point2=0;
         int point3=0;
+        int bonus =0;
         int sumPoint=0;
         int sisapulsa;
 
@@ -35,9 +37,14 @@ public class soal01 {
             point3=point3+((sisapulsa/kelipatan)*2);
         }
 
-        sumPoint = point1+point2+point3;
+        if(pulsa>=50000){
+            sisapulsa=pulsa/50000;
+            bonus=bonus + sisapulsa*100;
+        }
+
+        sumPoint = point1+point2+point3+bonus;
+        System.out.println(point1+ " + " + point2 + " + " + point3 + " + " + bonus + " = " + sumPoint);
 //        System.out.println(sumPoint);
 
-        System.out.println(point1 + " + " + point2 + " + " + point3 + " = " + sumPoint);
     }
 }

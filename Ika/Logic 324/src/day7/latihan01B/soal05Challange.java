@@ -2,14 +2,16 @@ package day7.latihan01B;
 
 import java.util.Scanner;
 
-public class soal05Sama01A {
+public class soal05Challange {
     public static void main(String[] args) {
-
         Scanner scanner=new Scanner(System.in);
         System.out.println("\n1.memesan \n2.tidak memesan \npilihan ( Y atau N): ");
         String n = scanner.nextLine();
         double jumlahporsi = 0;
         int jumlahOrang = 0;
+        int jumlahoranglk=0;
+        int jumlahorangpl=0;
+        double jumPor = 0;
 
         if (n.equalsIgnoreCase("n")) {
             System.exit(0);
@@ -30,6 +32,7 @@ public class soal05Sama01A {
                     System.out.print("laki-laki dewasa: ");
                     int orang = scanner.nextInt();
                     jumlahOrang = jumlahOrang + orang;
+                    jumlahoranglk = jumlahoranglk + orang;
                     jumlahporsi = jumlahporsi + (orang * 2.0);
 //                    System.out.println(jumlahporsi);
 //                    System.out.println(jumlahOrang);
@@ -39,6 +42,7 @@ public class soal05Sama01A {
                     System.out.print("perempuan dewasa: ");
                     orang = scanner.nextInt();
                     jumlahOrang = jumlahOrang + orang;
+                    jumlahorangpl = jumlahorangpl + orang;
                     jumlahporsi = jumlahporsi + (orang * 1.0);
 //                    System.out.println(jumlahporsi);
 //                    System.out.println(jumlahOrang);
@@ -75,12 +79,26 @@ public class soal05Sama01A {
             scanner.nextLine();
             System.out.println("\n1.memesan \n2.tidak memesan \npilihan ( Y atau N): ");
             n = scanner.nextLine();
+
+        }
+        if(jumlahOrang % 2 != 0 || jumlahOrang >= 5){
+            System.out.println("jumlah porsi " +jumlahporsi + 1.0);
+            if(jumlahoranglk>jumlahorangpl) {
+                jumPor = jumPor + jumlahporsi + jumlahoranglk + jumlahorangpl;
+                System.out.println(jumPor);
+            }else{
+                jumPor=jumPor+jumlahporsi+jumlahorangpl;
+                System.out.println(jumPor);
+            }
         }
 
-        if (jumlahOrang % 2 != 0 || jumlahOrang >= 5) {
-            System.out.println("jumlah porsi "+jumlahporsi+1);
-        } else {
-            System.out.println("jumlah porsi "+jumlahporsi);
-        }
+//        if(jumlahoranglk>jumlahorangpl) {
+//            jumPor = jumPor + jumlahporsi + jumlahoranglk + jumlahorangpl;
+//            System.out.println(jumPor);
+//        }
+
+        System.out.println("jumlah porsi " + jumlahporsi);
+
+
     }
 }
