@@ -2,7 +2,7 @@ package latihan;
 
 import java.util.Scanner;
 
-public class Soal5 {
+public class Soal5Challenge {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int prLakilaki = 2;
@@ -37,6 +37,9 @@ public class Soal5 {
                     + (anak * prAnak) + (balita * prBalita);
         }
 
+        if (lakiLaki > perempuan) {
+            jumlahPorsi += lakiLaki;
+        }
 
         System.out.println("Jumlah porsi: " + jumlahPorsi);
     }
