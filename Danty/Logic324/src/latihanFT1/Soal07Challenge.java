@@ -1,9 +1,8 @@
 package latihanFT1;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Soal07 {
+public class Soal07Challenge {
 
     public static void main(String[] args) {
 
@@ -40,8 +39,15 @@ public class Soal07 {
 
             System.out.print("Jumlah Buah = " + (k1 + k2));
         }
+        else{
+
+            System.out.println("Tidak ada keranjang yang dibawa ke pasar");
+
+            System.out.print("Jumlah Buah = " + (k1 + k2 + k3));
 
         }
 
-    }
 
+
+    }
+}
