@@ -17,6 +17,7 @@ public class Soal07 {
         String unik = "";
 
         String [] arrKalimat = kalimat.split("");
+
         for (int i = 0; i < arrKalimat.length; i++) {
             String huruf = arrKalimat[i];
             if(!unik.contains(huruf)){

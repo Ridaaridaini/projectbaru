@@ -79,7 +79,7 @@ public class StringManipulation {
         //cth : "Dianty-ssi".contains("tyssi") -> false
 
         boolean namaSaya = "Dianty".contains("Dia");
-        System.out.println("Hsil Contains : " + namaSaya);
+        System.out.println("Hasil Contains : " + namaSaya);
 
         //equals(a) a -> string
         //Mengecek apakah string yang kita cek sama dengan string a (CASE SENSITIVE) return boolean

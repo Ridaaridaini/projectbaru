@@ -18,10 +18,15 @@ public class Soal05 {
         for (int i = 0; i < arrA.length; i++) {
 
             if (nilai == arrA[i]) {
+
+
+                    System.out.print("Nilai " + nilai + " ada dalam deret di posisi " + (i + 1));
+
+            } else {
+
                 System.out.print("Nilai " + nilai + " ada dalam deret di posisi " + (i+1));
-
-
             }
+            break;
 
 
         }

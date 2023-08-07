@@ -10,6 +10,7 @@ public class Soal3 {
         System.out.println("mau konversi apa: ");
         String input = scanner.nextLine(); //1 botol
 
+
         String[] arrInput = input.split(" ");// {1,botol}
 
 
