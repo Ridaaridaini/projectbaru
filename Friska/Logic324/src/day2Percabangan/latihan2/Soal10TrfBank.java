@@ -18,25 +18,26 @@ public class Soal10TrfBank {
         String pin2 = input.nextLine();
 
         //2.Setor tunai
-        if (pin.equals(pin2)) {
+        if (pin2.equals(pin)) {
             System.out.println("Masukkan jumlah uang yang akan disetor :");
             setor = input.nextLong();
             saldo = setor;
 
             System.out.println("Pilih transfer: 1. Antar Rekening ; 2. Antar Bank");
             int pilihantrf = input.nextInt();
+            input.nextLine();
 
             if (pilihantrf == 1) {
 
                 System.out.println("Masukkan Rekening  tujuan: ");
                 String rekTujuan = input.nextLine();
 
-                int panjangRekening = rekTujuan.length();
+//                int panjangRekening = rekTujuan.length();
 
-                if (panjangRekening != 10) {
+                if (rekTujuan.length() != 10) {
                     System.out.println("Rekening yang anda masukkan tidak valid");
                     System.exit(0);
-                }
+                } else {
 
                     System.out.println("Masukkan Nominal Transfer: ");
                     trfRekening = input.nextLong();
@@ -47,31 +48,30 @@ public class Soal10TrfBank {
                         System.out.println("Transaksi berhasil, saldo Anda saat ini: " + saldo);
                     }
 
-                } else if (pilihantrf == 2) {
-                    System.out.println("Masukkan kode bank:");
-                    int kodeBank = input.nextInt();
-                    System.out.println("Masukkan Nominal Transfer: ");
-                    trfBank = input.nextLong();
-                    if (saldo < trfBank || saldo < biayaAdmin) {
-                        System.out.println("Saldo anda tidak mencukupi");
-                    } else {
-                        saldo = saldo - trfBank - biayaAdmin;
-                        System.out.println("Transaksi berhasil, saldo Anda saat ini: " + saldo);
-                    }
-
                 }
 
-
-            } else {
-                System.out.println("PIN SALAH");
-                System.exit(0);
+            } else if (pilihantrf == 2) {
+                System.out.println("Masukkan kode bank:");
+                int kodeBank = input.nextInt();
+                System.out.println("Masukkan Nominal Transfer: ");
+                trfBank = input.nextLong();
+                if (saldo < trfBank || saldo < biayaAdmin) {
+                    System.out.println("Saldo anda tidak mencukupi");
+                } else {
+                    saldo = saldo - trfBank - biayaAdmin;
+                    System.out.println("Transaksi berhasil, saldo Anda saat ini: " + saldo);
+                }
 
             }
 
+        } else {
+            System.out.println("PIN SALAH");
+            System.exit(0);
 
         }
 
     }
+}
 
 
 
