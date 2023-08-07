@@ -11,7 +11,7 @@ public class Soal01Part2 {
             System.out.println("Constraint: N harus bilangan bulat positif");
         }else {
             Integer[] deret = new Integer[n];
-            Integer[] deret2 = new Integer[n];
+            //Integer[] deret2 = new Integer[n];
             int a=1;
             int b=2;
             for (int i = 0; i < n; i++) {

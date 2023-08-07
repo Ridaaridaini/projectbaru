@@ -1,9 +1,9 @@
-package latihan;
+package latihan.challenge;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class Soal07baru {
+public class Soal07Keranjang {
     public static void main(String[] args) {
         Scanner input= new Scanner(System.in);
         int keranjang1=0, keranjang2=0, keranjang3=0;

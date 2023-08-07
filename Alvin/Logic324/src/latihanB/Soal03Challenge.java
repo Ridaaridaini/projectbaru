@@ -2,7 +2,7 @@ package latihanB;
 
 import java.util.Scanner;
 
-public class Soal03 {
+public class Soal03Challenge {
 
     public static void main(String[] args) {
 
@@ -18,21 +18,30 @@ public class Soal03 {
 
         int angka = 100, count = 0;
 
-        while (angka>=100){
+        while (angka>=10){
 
             String[] arrAngka = String.valueOf(angka).split("");
             Double[] singleAngka = new Double[arrAngka.length];
 
             double total = 0;
             for (int i = 0; i < arrAngka.length; i++) {
-                    singleAngka[i] = Double.parseDouble(arrAngka[i]);
+                singleAngka[i] = Double.parseDouble(arrAngka[i]);
 
-                    total = total + Math.pow(singleAngka[i], 2.0);
+                total = total + Math.pow(singleAngka[i], 2.0);
             }
 
             if (total == 1) {
                 count++;
                 System.out.println(angka + " adalah \"Si Angka 1\"");
+
+                if (count==n){
+                    System.exit(0);
+                }
+            }
+
+            if (total == 10){
+                count++;
+                System.out.println(angka + " adalah \"Si Angka 10\"");
 
                 if (count==n){
                     System.exit(0);
@@ -53,6 +62,15 @@ public class Soal03 {
                 if (total == 1) {
                     count++;
                     System.out.println(angka + " adalah \"Si Angka 1\"");
+
+                    if (count==n){
+                        System.exit(0);
+                    }
+                }
+
+                if (total == 10){
+                    count++;
+                    System.out.println(angka + " adalah \"Si Angka 10\"");
 
                     if (count==n){
                         System.exit(0);

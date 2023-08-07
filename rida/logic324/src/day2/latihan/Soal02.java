@@ -2,7 +2,7 @@ package day2.latihan;
 
 import java.util.Scanner;
 
-public class Soal2 {
+public class Soal02 {
     public static void main(String[] args) {
         String musim1 = "hujan";
         String musim2 = "panas";
