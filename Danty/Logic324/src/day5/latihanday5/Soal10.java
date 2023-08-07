@@ -10,7 +10,7 @@ public class Soal10 {
 
         int [] arrA = new int[10]; //{1,2.4,7,8,6,9,2,5,4}
 
-       int min = 10; //min = 1
+       int min = arrA.length; //min = 1
        int max = 0; //max = 4
 
         for (int i = 0; i < arrA.length; i++) {

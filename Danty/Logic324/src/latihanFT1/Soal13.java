@@ -15,7 +15,7 @@ public class Soal13 {
 
             for (; start >= 10; ) {
 
-                String strStart = start + " ";
+                String strStart = start + "";
                 String[] arrStart = strStart.split("");
 
                 int jumlah = 0;
@@ -23,12 +23,12 @@ public class Soal13 {
                 for (int i = 0; i < arrStart.length; i++) {
 
                     int digit = Integer.parseInt(arrStart[i]);
-                    int digitKuadrat = digit + digit;
+                    int digitKuadrat = digit * digit;
                     jumlah = jumlah + digitKuadrat;
 
                 }
                 if (jumlah == 1) {
-                    System.out.print(lock + " adalah Si Angka 100");
+                    System.out.println(lock + " adalah Si Angka 1");
                     count++;
                     lock++;
                     start = lock;

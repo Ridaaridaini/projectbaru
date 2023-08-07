@@ -16,13 +16,11 @@ public class Soal05 {
             if(i%3 == 0 && i%2 == 0) {
                 System.out.print(i + " ");
 
-            } else{
-                System.out.println();
+            }
             }
             }
 
         }
 
-        }
 
 
