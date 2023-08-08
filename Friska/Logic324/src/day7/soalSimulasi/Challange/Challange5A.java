@@ -109,14 +109,15 @@ public class Challange5A {
             }
 
         }
+        totalPorsi = porsi1+porsi2+porsi3+porsi4+porsi5;
         totalOrang = jumLD1 + jumWD1 + jumR1 + jumA1 + jumB1;
+
         if (totalOrang > 5 && totalOrang % 2 == 1){
             totalPorsi = totalPorsi +  jumWD1;
         }
         if (jumLD1 > jumWD1){
             totalPorsi = totalPorsi + jumLD1;
         }
-        totalPorsi = porsi1+porsi2+porsi3+porsi4+porsi5;
         System.out.println("Porsi :" + totalPorsi);
 
     }
