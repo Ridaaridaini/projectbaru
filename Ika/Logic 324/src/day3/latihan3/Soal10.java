@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class Soal10 {
     public static void main(String[] args) {
+        //"n = 7
+        //3        9        27        XXX        243        729        2187
+        //"
+        //"n = 8
+        //3        9        27        XXX        XXX          729        2187        6561
+        //"
+
         Scanner scan = new Scanner(System.in);
         System.out.print("masukan panjang deret: ");
         int n = scan.nextInt();
@@ -28,8 +35,5 @@ public class Soal10 {
             }
 
         }
-
     }
-
-
 }

@@ -1,21 +1,29 @@
 package day10;
 
-import javax.xml.crypto.Data;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Soal04DateManipulation {
     public static void main(String[] args) throws ParseException {
+        //mengubah 24 jam menjadi 12 jam
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("masukan konversi jam: ");
         String jam = scanner.nextLine();
 
 
-        SimpleDateFormat sdf24Hour = new SimpleDateFormat("HH:mm:ss");
-        SimpleDateFormat sdf12jam = new SimpleDateFormat("hh:mm:ssa");
+        Locale local = new Locale("id","ID");
+        SimpleDateFormat sdf24Hour = new SimpleDateFormat("HH:mm", local);
+        SimpleDateFormat sdf12jam = new SimpleDateFormat("hh:mm a", local);
 
-//        Data date = sdf24Hour.parse(jam);
+        Date _24Jam = sdf24Hour.parse(jam);
+        System.out.println(sdf12jam.format(_24Jam));
+
+
 
 
     }

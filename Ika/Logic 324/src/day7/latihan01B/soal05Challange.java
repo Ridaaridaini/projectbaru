@@ -81,17 +81,15 @@ public class soal05Challange {
             n = scanner.nextLine();
 
         }
-        if (jumlahOrang % 2 != 0 || jumlahOrang >= 5) {
-            jumPor = jumlahorangpl + jumlahporsi;
-            System.out.println("jumlah porsi " + jumPor);
+        if (jumlahOrang % 2 != 0 && jumlahOrang > 5) {
+            jumlahporsi = jumlahorangpl + jumlahporsi;
+//            System.out.println("jumlah porsi " + );
         }
-
         if (jumlahoranglk > jumlahorangpl) {
-            jumPor = jumPor + jumlahporsi + jumlahoranglk + jumlahorangpl;
-            System.out.println(jumPor);
-
-            System.out.println("jumlah porsi " + jumlahporsi);
+            jumlahporsi =  jumlahporsi + jumlahoranglk;
+//            System.out.println(jumPor);
 
         }
+        System.out.println("jumlah porsi " + jumlahporsi);
     }
 }

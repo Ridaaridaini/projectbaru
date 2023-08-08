@@ -91,15 +91,14 @@ public class Soal10FibChallange {
         System.out.println();
         System.out.print("hasil penjumlahan bilangan prima dan fibbonaci: ");
         for (int j = 0; j < arrA.length; j++) {
-            output=prima[j]+fibonacci[j];
-            System.out.print(output + " ");
+            if(j%2==0){
+                output=prima[j]+fibonacci[j];
+                System.out.print(output + " ");
+            } else if (j%2!=0) {
+                output = Math.abs(prima[j]-fibonacci[j]);
+                System.out.print(output +" ");
+            }
         }
-
-
-        //menghitung sum dan selisih bilangan prima
-
-
-
 
     }
 }
