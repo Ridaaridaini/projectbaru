@@ -12,6 +12,7 @@ public class Soal5Challage {
 
         double jumlah = 0;
         int jumlahOrang = 0;
+        double laki = 2;
         
         for (int i = 0; i < arrA.length; i++) {
         String[] arrB = arrA[i].replace("-","").split("="); // arrB[i]= ["Lakilaki dewasa" , "= 3 orang" ]
@@ -46,13 +47,14 @@ public class Soal5Challage {
 
                 if ("perempuandewasa".equalsIgnoreCase(arrB[0].replace(" ","").toLowerCase())) {
                     jumlah = jumlah + orang;
+//                    laki = laki + jumlah;
                 }
 
             }
 
-            if ("lakilakidewasa".equalsIgnoreCase(arrB[0].replace(" ","").toLowerCase())) {
-                jumlah = jumlah + orang ;
-            }
+//            if ("lakilakidewasa".equalsIgnoreCase(arrB[0].replace(" ","").toLowerCase())) {
+//                jumlah = jumlah + orang ;
+//            }
 
         }
             System.out.println(jumlahOrang+" orang");

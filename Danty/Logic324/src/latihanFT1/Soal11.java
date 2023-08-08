@@ -12,16 +12,31 @@ public class Soal11 {
         int n = input.nextInt();
 
 
-        for (int i = 1; i <= n; i = i + 2) {
+        int[] arrGanjil = new int[n];
 
-            System.out.print(i + " ");
+        int c = arrGanjil.length - 1;
+
+        int a = 1;
+        int d = 0;
+
+        for (int i = 0; i < arrGanjil.length; i = i+2) {
+
+            d = d + arrGanjil[c];
+
+            System.out.print(arrGanjil[c] + " ");
+
 
         }
+
+
         System.out.println();
 
-        for (int i = 2; i <= n; i = i + 2) {
+        int b = 2;
 
-            System.out.print(i + " ");
+        for (int i = 1; i < n; i = i + 2) {
+
+            System.out.print(b + " ");
+            b = b+2;
 
         }
 

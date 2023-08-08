@@ -14,7 +14,7 @@ public class Soal10 {
             deret[i] = input.nextInt();
         }
 
-        int min = Arrays.stream(deret).min().getAsInt();
+        int min = Arrays.stream(deret).min().getAsInt(); // stream => manipulasi array
         int max = Arrays.stream(deret).max().getAsInt();
 
         System.out.print("Min = " + min + ", Max = " + max);

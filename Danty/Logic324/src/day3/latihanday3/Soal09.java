@@ -16,10 +16,12 @@ public class Soal09 {
 
             if (i % 3 == 2) {
                 System.out.print("* ");
-                continue;
+
+
+            } else {
+                System.out.print(a + " ");
+                a = a * 4;
             }
-            System.out.print(a + " ");
-            a = a * 4;
 
 
         }

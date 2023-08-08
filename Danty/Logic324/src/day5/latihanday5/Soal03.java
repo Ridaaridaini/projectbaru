@@ -13,7 +13,7 @@ public class Soal03 {
 
         for (int i = 0; i < arrA.length; i++) { // i = 0
             if (i == arrA.length - 1) { //menghilangkan koma dibelakang
-                System.out.print("dan " + arrA[i]);
+                System.out.print(" dan " + arrA[i]);
             } else {
                 System.out.print(arrA[i] + ",");
             }

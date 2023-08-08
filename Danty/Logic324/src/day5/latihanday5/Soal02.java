@@ -10,6 +10,7 @@ public class Soal02 {
         int[] arrA = {2,4,6,8,10,12,14};
 
         int a = arrA.length-1;
+        //ingat karena indeks dimulai dari 0, maka indeks terakhir data terakhir adalah panjang data - 1.
 
         for (int i =0;  i < arrA.length; i++) {
             System.out.print(arrA[a]  + " ");

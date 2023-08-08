@@ -7,7 +7,7 @@ public class Soal04 {
     public static void main(String[] args) {
 
         //Deklarasi variabel yang diketahui
-        int hargaKopi = 18000;
+        int hargaKopi = 9000; //setelah di diskon
         double cashBack = 0.1; // cashback = 10%
 
         Scanner input = new Scanner(System.in);
@@ -17,11 +17,10 @@ public class Soal04 {
         int saldo = input.nextInt();
 
         do{
-            if(saldo >= 54000){
+            if(saldo >= 27000){
                 if(saldo/hargaKopi <= 11){
                     int cup = saldo/hargaKopi;
                     int beli = cup * hargaKopi;
-                    int diskon = beli/2;
                     double uangKembali = cashBack*beli; //ini uang cashback
                     double sisaUang = saldo - beli; //ini sisa uang setelah bayar kopi sebelum diskon
                     double sisaSaldo = sisaUang + uangKembali;
@@ -34,7 +33,6 @@ public class Soal04 {
                 else if(saldo/hargaKopi > 11){
                     int cup = 11; //ini karena tidak mau melebihi 100000 bayarnya
                     int beli = cup * hargaKopi;
-                    int diskon = beli/2;
                     double uangKembali = cashBack*beli; //ini uang cashback dari harga sebelum di diskon
                     double sisaUang = saldo - beli; //ini sisa uang setelah bayar kopi sebelum diskon
                     double sisaSaldo = sisaUang + uangKembali;
@@ -47,7 +45,7 @@ public class Soal04 {
 
             } break;
         }
-        while (saldo >= 54000);
+        while (saldo >= 27000);
 
     }
 }

@@ -7,7 +7,7 @@ public class Soal05 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("nilai hari = ");
+        System.out.print("Nilai Hari = ");
         int x = input.nextInt();
 
         if(x%7 == 1){
