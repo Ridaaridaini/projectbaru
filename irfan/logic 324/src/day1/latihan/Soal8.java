@@ -9,7 +9,8 @@ public class Soal8 {
         int intA = Integer.parseInt(strA);
         int intB = Integer.parseInt(strB);
 
-        System.out.println("hasil" + intA / intB);
+        int hasil = intA / intB;
+        System.out.println("hasil = " +hasil);
 
     }
 }
