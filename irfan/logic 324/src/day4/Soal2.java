@@ -8,7 +8,6 @@ public class Soal2 {
 
         int i,j,n;
         int a=1;
-        int b=3;
         Scanner inputan = new Scanner(System.in);
 
         System.out.print("P = ");
@@ -23,6 +22,8 @@ public class Soal2 {
             a = a+1;
         }
         System.out.println();
+
+        int b=j;
 
         for(i=0; i<n; i++){
             System.out.print(b +"");

@@ -9,12 +9,26 @@ public class GanjilGenapChallange {
         System.out.print("masukkan angka =");
         int n = input.nextInt();
 
-        for (int i = n ; i >= 1; i = i - 2) {
+        int i=0;
+
+        if(n % 2 !=0){
+            i = n;
+        }else {
+            i= n-1;
+        }
+
+        for (; i >= 1; i = i - 2) {
             System.out.print(i+ " ");
         }
         System.out.println();
 
-        for (int i = n-1; i >= 2; i = i - 2) {
+        if(n % 2 ==0){
+            i = n;
+        }else {
+            i= n-1;
+        }
+
+        for (; i >= 2; i = i - 2) {
             System.out.print(i + " ");
         }
     }
