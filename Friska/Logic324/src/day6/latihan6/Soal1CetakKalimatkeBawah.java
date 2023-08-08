@@ -8,7 +8,7 @@ public class Soal1CetakKalimatkeBawah {
         System.out.print("Masukkan kalimat :");
         String kalimat = input.nextLine();
 
-        String [] arrKalimat = kalimat.split("");
+        String [] arrKalimat = kalimat.split(" ");
 
         for (int i = 0; i < arrKalimat.length ; i++) {
             System.out.println(arrKalimat[i]);

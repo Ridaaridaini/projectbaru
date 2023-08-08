@@ -12,7 +12,7 @@ public class Soal05 {
         int j=0;
         for (int i = 0; i < deret.length; i++) {
             if (deret[i] == nilai){
-                System.out.println("nilai "+nilai+ " ada dalam deret di posisi: "+i);
+                System.out.println("nilai "+nilai+ " ada dalam deret di posisi: "+(i+1));
                 j=j+1;
                 break;
             }

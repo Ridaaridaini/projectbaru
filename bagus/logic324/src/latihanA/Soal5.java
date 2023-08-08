@@ -31,21 +31,35 @@ public class Soal5 {
         double totalPorsi = 0;
 
         int orang = lkDewasa + prDewasa + remaja + anak + balita;
+
+
         if (orang % 2 == 0 && lkDewasa > prDewasa) {
             totalPorsi = ((lkDewasa * porsilkDewasa) + (prDewasa * porsiprDewasa) + (remaja * porsiRemaja) + (balita * porsiBalita) + (anak * porsiAnak) + lkDewasa);
             System.out.println(totalPorsi + " porsi");
-        }
-        if (orang % 2 != 0 && orang > 5 && lkDewasa > prDewasa) {
-            totalPorsi = ((lkDewasa * porsilkDewasa) + (prDewasa * porsiprDewasa) + (remaja * porsiRemaja) + (balita * porsiBalita) + (anak * porsiAnak) + prDewasa + lkDewasa);
-            System.out.println(totalPorsi + " porsi");
-        }
-        if (orang % 2 == 0) {
+        } else if (orang % 2 == 0) {
             totalPorsi = ((lkDewasa * porsilkDewasa) + (prDewasa * porsiprDewasa) + (remaja * porsiRemaja) + (balita * porsiBalita) + (anak * porsiAnak));
             System.out.println(totalPorsi + " porsi");
         }
-        if (orang % 2 != 0 && orang > 5) {
-            totalPorsi = ((lkDewasa * porsilkDewasa) + (prDewasa * porsiprDewasa) + (remaja * porsiRemaja) + (balita * porsiBalita) + (anak * porsiAnak) + prDewasa);
+
+
+        if (orang % 2 != 0 && orang > 5 && lkDewasa > prDewasa) {
+            totalPorsi = ((lkDewasa * porsilkDewasa) + (prDewasa * porsiprDewasa) + (remaja * porsiRemaja) + (balita * porsiBalita) + (anak * porsiAnak) + prDewasa + lkDewasa);
+            System.out.println(totalPorsi + " porsi");
+        }else if (orang % 2 != 0 && lkDewasa > prDewasa) {
+            totalPorsi = ((lkDewasa * porsilkDewasa) + (prDewasa * porsiprDewasa) + (remaja * porsiRemaja) + (balita * porsiBalita) + (anak * porsiAnak) + lkDewasa);
             System.out.println(totalPorsi + " porsi");
         }
+        else if (orang % 2 != 0 && orang > 5) {
+            totalPorsi = ((lkDewasa * porsilkDewasa) + (prDewasa * porsiprDewasa) + (remaja * porsiRemaja) + (balita * porsiBalita) + (anak * porsiAnak)+prDewasa);
+            System.out.println(totalPorsi + " porsi");
+        }
+        else if (orang % 2 != 0) {
+            totalPorsi = ((lkDewasa * porsilkDewasa) + (prDewasa * porsiprDewasa) + (remaja * porsiRemaja) + (balita * porsiBalita) + (anak * porsiAnak));
+            System.out.println(totalPorsi + " porsi");
+        }
+
+
     }
 }
+
+

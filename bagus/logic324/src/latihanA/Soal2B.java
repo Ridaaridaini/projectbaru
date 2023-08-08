@@ -77,7 +77,8 @@ public class Soal2B {
                     jarak = jarak + 6.5;
                 }
 
-            } if (ruteSplit.length>i+1){
+            }
+            if (ruteSplit[i].equalsIgnoreCase("toko")){
                 break;
             }
         }

@@ -55,8 +55,10 @@ public class Soal10TrfBank {
                 int kodeBank = input.nextInt();
                 System.out.println("Masukkan Nominal Transfer: ");
                 trfBank = input.nextLong();
-                if (saldo < trfBank || saldo < biayaAdmin) {
+                long totalTrfBank = trfBank + biayaAdmin;
+                if ( saldo < totalTrfBank) {
                     System.out.println("Saldo anda tidak mencukupi");
+                    System.exit(0);
                 } else {
                     saldo = saldo - trfBank - biayaAdmin;
                     System.out.println("Transaksi berhasil, saldo Anda saat ini: " + saldo);

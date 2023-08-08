@@ -46,6 +46,8 @@ public class Soal8AATM {
                     System.out.println("Kode Bank: ");
                     String kode = input.nextLine();
 
+
+
                     System.out.println("Masukkan nomor rekening tujuan: ");
                     String strRekening = input.nextLine();
 

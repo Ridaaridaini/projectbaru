@@ -28,6 +28,10 @@ public class Soal5CaseHari {
                 System.out.println("Sabtu");
                 break;
 
+            case 0:
+                System.out.println("Minggu");
+                break;
+
             default:
                 System.out.println("Tidak terdaftar");
                 break;
