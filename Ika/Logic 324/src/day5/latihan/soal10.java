@@ -37,6 +37,8 @@ public class soal10 {
         System.out.print("MAX " + arrB[0]);
 
         System.out.println();
+
+
         System.out.println("===========CARA 2================");
 
         System.out.print("input panjang array :");

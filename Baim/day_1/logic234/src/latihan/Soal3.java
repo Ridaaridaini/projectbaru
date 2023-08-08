@@ -19,71 +19,75 @@ public class Soal3 {
         System.out.println("2. Gelas");
         System.out.println("3. Botol");
         System.out.println("4. Teko");
-        System.out.print("Masukkan Pilihan anda");
+        System.out.print("Masukkan Pilihan anda: ");
         int input2 = scanner.nextInt();
 
-        float gelas = 0;
-        float cangkir = 0;
-        float botol = 0;
-        float teko = 0;
+        double hasil = 0;
 
-        switch (input) {
-            case 1:
-                if (input2 == 1) {
-                    System.out.println("1 cangkir = " + 1 + " cangkir");
-                }
-                if (input2 == 2) {
-                    gelas = 1 / 2.5f;
-                    System.out.println("1 cangkir = " + gelas + " gelas");
-                }
-                if (input2 == 3) {
-                    botol = 1 / 5f;
-                    System.out.println("1 cangkir = " + botol + " botol");
-                }
-                if (input2 == 4) {
-                    teko = 1 / 25f;
-                    System.out.println("1 cangkir = " + teko + " teko");
-                }
-                break;
-
-            case 2:
-                if (input2 == 1) {
-                    cangkir = 1 * 2.5f;
-                    System.out.println("1 gelas = " + cangkir + " Cangkir");
-                }
-                if (input2 == 2) {
-                    System.out.println("1 gelas = " + 1 + " gelas");
-                }
-                if (input2 == 3) {
-                    botol = 1 / 2f;
-                    System.out.println("1 gelas = " + botol + " botol");
-                }
-                if (input2 == 4) {
-                    teko = 1 / 10f;
-                    System.out.println("1 gelas = " + teko + " teko");
-                }
-                break;
-
-            case 3:
-                if (input2 == 1) {
-                    cangkir = 1 * 2.5f;
-                    System.out.println("1 botol = " + cangkir + " Cangkir");
-                }
-                if (input2 == 2) {
-                    System.out.println("1 botol = " + 1 + " gelas");
-                }
-                if (input2 == 3) {
-                    botol = 1 / 2f;
-                    System.out.println("1 botol = " + botol + " botol");
-                }
-                if (input2 == 4) {
-                    teko = 1 / 10f;
-                    System.out.println("1 botol = " + teko + " teko");
-                }
-                break;
-            default:
-                break;
+        if (input == 1 && input2 == 2) {
+            System.out.print("Masukkan jumlah cangkir: ");
+            double cangkir = scanner.nextDouble();
+            hasil = cangkir * 2.5;
+            System.out.println(cangkir + " cangkir sama dengan " + hasil + " gelas.");
+        } else if (input == 1 && input2 == 3) {
+            System.out.print("Masukkan jumlah cangkir: ");
+            double cangkir = scanner.nextDouble();
+            hasil = cangkir * 0.1;
+            System.out.println(cangkir + " cangkir sama dengan " + hasil + " botol.");
+        } else if (input == 1 && input2 == 4) {
+            System.out.print("Masukkan jumlah cangkir: ");
+            double cangkir = scanner.nextDouble();
+            hasil = cangkir * 0.04;
+            System.out.println(cangkir + " cangkir sama dengan " + hasil + " teko.");
+        } else if (input == 2 && input2 == 1) {
+            System.out.print("Masukkan jumlah gelas: ");
+            double gelas = scanner.nextDouble();
+            hasil = gelas * 0.4;
+            System.out.println(gelas + " gelas sama dengan " + hasil + " cangkir.");
+        } else if (input == 2 && input2 == 3) {
+            System.out.print("Masukkan jumlah gelas: ");
+            double gelas = scanner.nextDouble();
+            hasil = gelas * 0.04;
+            System.out.println(gelas + " gelas sama dengan " + hasil + " botol.");
+        } else if (input == 2 && input2 == 4) {
+            System.out.print("Masukkan jumlah gelas: ");
+            double gelas = scanner.nextDouble();
+            hasil = gelas * 0.016;
+            System.out.println(gelas + " gelas sama dengan " + hasil + " teko.");
+        } else if (input == 3 && input2 == 1) {
+            System.out.print("Masukkan jumlah botol: ");
+            double botol = scanner.nextDouble();
+            hasil = botol * 10;
+            System.out.println(botol + " botol sama dengan " + hasil + " cangkir.");
+        } else if (input == 3 && input2 == 2) {
+            System.out.print("Masukkan jumlah botol: ");
+            double botol = scanner.nextDouble();
+            hasil = botol * 4;
+            System.out.println(botol + " botol sama dengan " + hasil + " gelas.");
+        } else if (input == 3 && input2 == 4) {
+            System.out.print("Masukkan jumlah botol: ");
+            double botol = scanner.nextDouble();
+            hasil = botol * 0.4;
+            System.out.println(botol + " botol sama dengan " + hasil + " teko.");
+        } else if (input == 4 && input2 == 1) {
+            System.out.print("Masukkan jumlah teko: ");
+            double teko = scanner.nextDouble();
+            hasil = teko * 100;
+            System.out.println(teko + " teko sama dengan " + hasil + " cangkir.");
+        } else if (input == 4 && input2 == 2) {
+            System.out.print("Masukkan jumlah teko: ");
+            double teko = scanner.nextDouble();
+            hasil = teko * 40;
+            System.out.println(teko + " teko sama dengan " + hasil + " gelas.");
+        } else if (input == 4 && input2 == 3) {
+            System.out.print("Masukkan jumlah teko: ");
+            double teko = scanner.nextDouble();
+            hasil = teko * 4;
+            System.out.println(teko + " teko sama dengan " + hasil + " botol.");
+        } else {
+            System.out.println("Pilihan tidak valid.");
         }
 
+        scanner.close();
     }
 }

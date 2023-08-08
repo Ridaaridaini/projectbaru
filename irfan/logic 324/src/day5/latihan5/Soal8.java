@@ -4,44 +4,54 @@ import java.util.Scanner;
 
 public class Soal8 {
     public static void main(String[] args) {
+        int panjangDeret, a = 0, b = 1, jumlah;
+
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Panjang deret: ");
-        int deret = scanner.nextInt();
+        System.out.print("panjang deret: ");
+        panjangDeret = scanner.nextInt();
 
+        int[] arrGanjil = new int[panjangDeret];
+        int[] arrGenap = new int[panjangDeret];
 
-        // Membuat deret bilangan ganjil dan genap
-        int[] deretGanjil = new int[deret];
-        int[] deretGenap = new int[deret];
-        int[] jumlah = new int[deret];
+        // loop deret angka ganjil dan array dengan deret angka genap
+        for (int i = 0; i < panjangDeret; i++) {
+            arrGanjil[i] = b;
+            arrGenap[i] = a;
 
-        for (int i = 0; i < deret; i++) {
-            deretGanjil[i] = 2 * i + 1; // Bilangan ganjil: 2n + 1
-            deretGenap[i] = 2 * i;     // Bilangan genap: 2n
+            a = a+2;
+            b = b+2;
         }
 
-        // Menampilkan deret bilangan ganjil dan genap
-        System.out.print("Deret ganjil: " + deretGanjil);
+        // menampilkan deret
+        System.out.print("genap + ganjil = ");
+        for (int i = 0; i < panjangDeret; i++) {
 
-        System.out.print("Deret genap: " + deretGenap);
-
-        // Menghitung dan menampilkan hasil penjumlahan sesuai dengan aturan
-        System.out.print("Hasil penjumlahan: ");
-        for (int i = 0; i < deret; i++) {
-            System.out.print(deretGanjil[i] + deretGenap[i]);
-            if (i < deret - 1) {
-                System.out.print(", ");
+            if (i == panjangDeret-1){
+                System.out.print(arrGenap[i] + "+" + arrGanjil[i]);
+            }else {
+                System.out.print(arrGenap[i] + "+" + arrGanjil[i] + " ; ");
             }
+
         }
-        // Metode untuk mencetak array
-        for (int i = 0; i < jumlah.length; i++) {
-            System.out.print(jumlah[i]);
-            if (i < jumlah.length - 1) {
-                System.out.print(", ");
-            }
-        }
+
         System.out.println();
+
+        // menjumlahkan deret ganjil
+        System.out.print("Penjumlahan = ");
+        for (int i = 0; i < panjangDeret; i++) {
+
+            jumlah = arrGenap[i] + arrGanjil[i];
+
+            if (i == panjangDeret-1) {
+                System.out.print(jumlah);
+            }else {
+                System.out.print(jumlah + ", ");
             }
 
         }
+
+    }
+
+}
 
 

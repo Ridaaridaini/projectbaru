@@ -8,7 +8,7 @@ public class Soal6 {
         Random tebakAngka = new Random();
 
         System.out.print("pilih angka= ");
-        int angka = tebakAngka.nextInt(10);
+        int angka = tebakAngka.nextInt(1);
 
         Scanner pilihan = new Scanner(System.in);
         int angkaPilihan = pilihan.nextInt();

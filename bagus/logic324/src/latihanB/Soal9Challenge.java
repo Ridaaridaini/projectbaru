@@ -11,7 +11,7 @@ public class Soal9Challenge {
 
         String[] turunNaik = naikTurun.split(" ");
         int ketinggian = 1;
-        int gunung = 0;
+        int gunung = -1;
         int lembah = 0;
 
         for (int i = 0; i < turunNaik.length; i++) {
@@ -31,8 +31,11 @@ public class Soal9Challenge {
                 }
             }
         }
+        if(gunung < 0){
+            gunung = 0;
+        }
 
-        System.out.println("gunung : " + (gunung - 1) + " lembah: " + lembah);
+        System.out.println("gunung : " + (gunung) + " lembah: " + lembah);
     }
 
 

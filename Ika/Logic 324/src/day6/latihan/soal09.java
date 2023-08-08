@@ -29,14 +29,19 @@ public class soal09 {
 
         System.out.print("masukan kalimat2: ");
         String input2 = scanner.nextLine();
-        String b="";
+        boolean b=false;
 
-        String[] output = input2.split("");
+        String[] output = input2.replace(" ","").split("");
+        String[] output2 = input1.replace(" ","").split("");
         for (int i = 0; i < output.length; i++) {
 //            System.out.println(output[i]);
-            b= output[i];
+            for (int j = 0; j < output2.length; j++) {
+                if (output[i].contains(output2[j])){
+                    b=true;
+                }
+            }
         }
-        if(input1.contains(b)){
+        if(b){
             System.out.println("yes");
         }else{
             System.out.println("No");

@@ -36,8 +36,9 @@ public class Soal01 {
 
             System.out.println("point = " + (point + point1 + point2));
 
-        } else if(10001 <= saldo && saldo >= 30000){
-             saldo = saldo-20000;
+        } else if(10001 <= saldo && saldo <= 30000){
+
+             saldo = saldo-10000;
              int point3 = saldo/1000;
 
             System.out.print("point = " + point3);
