@@ -1,4 +1,4 @@
-package latihan;
+package latihanFT1;
 
 import java.util.Scanner;
 

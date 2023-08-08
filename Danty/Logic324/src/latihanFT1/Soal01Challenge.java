@@ -25,21 +25,21 @@ public class Soal01Challenge {
             int saldo2 = saldo1 - 20000;
             int point1 = 20000 / 1000;
             int point2 = (saldo2 / 1000) * 2;
+            int bonus = 0;
 
-            System.out.print("point = " + point + " + " + point1 + " + "  + point2 + " = " + (point+point1+point2));
 
-
-            if(saldo % 50000 == 0) {
+            if(saldo >= 50000) {
 
                  point1 = 20000 / 1000;
                  point2 = ((saldo2 / 1000) * 2);
-                 int point4 = ((saldo/50000) * 100);
+                 bonus = ((saldo/50000) * 100);
 
-                System.out.println("point = " + point + " + " + point1 + " + " + point2 + " + " + point4 + " = " + (point+point1+point2+point4));
             }
 
-        } else if(10001 <= saldo && saldo >= 30000){
-            saldo = saldo-20000;
+            System.out.println("point = " + point + " + " + point1 + " + " + point2 + " + " + bonus + " = " + (point+point1+point2+bonus));
+
+        } else if(10001 <= saldo && saldo <= 30000){
+            saldo = saldo-10000;
             int point3 = saldo/1000;
 
             System.out.print("point = " + point3);

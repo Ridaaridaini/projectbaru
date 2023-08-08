@@ -60,7 +60,7 @@ public class Soal10Challenge {
             }
             else if(i%2 != 0){
 
-                int totalGanjil = arrA[i] - arrB[i];//perlu fungsi absolut biar nggak negatif
+                int totalGanjil = Math.abs(arrA[i] - arrB[i]);//perlu fungsi absolut biar nggak negatif
                 System.out.print(totalGanjil + " ");
             }
 

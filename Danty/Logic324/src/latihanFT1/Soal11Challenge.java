@@ -13,26 +13,34 @@ public class Soal11Challenge {
         System.out.print(" n = ");
         int n = input.nextInt();
 
-        int[] arrA = new int[n];
 
-        int a = arrA.length-1;
-        int b = 1;
 
-        for (int i = 0; i < n; i++) {
+        int a = n;
+        if(n%2 == 0){
 
-            arrA[i] = b;
-            System.out.print(arrA[a] + " ");
-            a = a-1;
-            b = b + 2;
-
+            a = n-1;
         }
 
+        for (int i = 0; i < n; i = i+2) {
 
+            System.out.print(a + " ");
+            a = a-2;
+
+        }
         System.out.println();
 
-        for (int i = 2; i <= arrA.length; i = i + 2) {
+        int b = n;
+        if(n%2 == 1){
 
-            System.out.print(arrA[i] + " ");
+            b = n-1;
         }
+
+        for (int i = 1; i < n; i = i + 2) {
+
+            System.out.print(b + " ");
+            b = b-2;
+
+        }
+
     }
 }
