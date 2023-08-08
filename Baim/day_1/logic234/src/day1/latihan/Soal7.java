@@ -15,7 +15,7 @@ public class Soal7 {
 
         int hasilPersegi = x * x;
         int hasilSegitigaSisi = 3 * y;
-        boolean bool = hasilPersegi == hasilSegitigaSisi;
+        boolean bool = hasilPersegi > hasilSegitigaSisi;
 
         System.out.println("==================");
         System.out.println("Segitiga sama sisi dan persegi memiliki keliling yang sama? " + bool);
