@@ -18,6 +18,8 @@ public class Soal6 {
 
         if (a == rand) {
             System.out.println("Anda Menang");
+            System.out.println("angka komputer = " +rand);
+
         } else {
             System.out.println("Anda Kalah");
             if (a > 9) {

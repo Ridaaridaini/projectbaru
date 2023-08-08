@@ -42,7 +42,7 @@ public class Soal7 {
             }
 
         }
-        System.out.print(totalGenap);
+        System.out.print(totalGanjil);
 
         System.out.println();
 
