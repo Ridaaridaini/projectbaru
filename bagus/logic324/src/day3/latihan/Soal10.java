@@ -12,17 +12,17 @@ public class Soal10 {
         for (int i = 0; i < number; i++) {
             if (number%2==0){
                 if(i == number/2-1) {
-                    System.out.print(" * ");
+                    System.out.print(" XXX ");
                     bil = bil * 3;
                     continue;
                 }else if (i == number/2) {
-                    System.out.print(" * ");
+                    System.out.print(" XXX ");
                     bil = bil * 3;
                     continue;
                 }
             }
             else if (i == number/2) {
-                System.out.print(" * ");
+                System.out.print(" XXX ");
                 bil = bil * 3;
                 continue;
             }

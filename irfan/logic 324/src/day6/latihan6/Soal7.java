@@ -9,9 +9,9 @@ public class Soal7 {
         System.out.print("Sembarang Teks Kalimat = ");
         String teks = scanner.nextLine();
 
-        String kalimat = teks.replace(" ", "").toLowerCase();
-        String[] arrN = kalimat.split("");
-        String karakterUnik = arrN[0];
+        String kalimat = teks.replace(" ", "").toLowerCase();   // {'haloapakabar?'}
+        String[] arrN = kalimat.split(""); //{'h'a'l'o'a'p'a'k'a'b'a'r'?'} //13
+        String karakterUnik = arrN[0]; //halopkbr?
 
         for (int i = 0; i < (arrN.length-1); i++) {
 
