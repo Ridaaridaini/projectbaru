@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Soal10FibChallange {
     public static void main(String[] args) {
+        //JAWABAN KURANG TEPAT
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("masukan panjang deret: ");

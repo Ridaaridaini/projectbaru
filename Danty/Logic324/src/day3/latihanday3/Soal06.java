@@ -26,6 +26,7 @@ public class Soal06 {
 
             if(i%3 == 2) {
                 System.out.print("* ");
+                continue;
 
             } else {
                 System.out.print(a + " ");

@@ -20,21 +20,24 @@ public class Soal3V1Challage {
                                                 // arrN = panjang 10
         for (int i = 0; i < arrN.length; i++) { // i = 0 1 2 3 4 5 6 7 8 9 10
                 if (hurufVokal.contains(arrN[i])) { // false
-                    vokal = vokal + arrN[i]; // a a e e
-//                    vokal.replace("","-").split("");
-                    if(!hurufVokal.contains(arrN[i])){
-                        if(hurufVokal.length()>0) {
-                            hurufVokal += "-";
+                    if(!vokal.contains(arrN[i])) {
+                        if (vokal.length() > 0) {
+                            vokal += "-";
                         }
+                    }
+                    vokal += arrN[i];
+                }else{
+                    if(!konsonan.contains(arrN[i])){
+                        if(konsonan.length()>0) {
+                            konsonan += "-";
                         }
-                    hurufVokal += arrN[i];
-                } else {
-                    konsonan = konsonan + arrN[i]; //c l m p s s
+                    }
+                    konsonan += arrN[i];
                 }
 
         }
         System.out.println("Huruf vokal: " + vokal); // aaee
-        System.out.println("Huruf konsonan: " + konsonan.replace("","-")); // clmpss
+        System.out.println("Huruf konsonan: " + konsonan); // clmpss
     }
 }
 

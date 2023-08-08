@@ -21,12 +21,16 @@ public class Soal9 {
         System.out.print(" dibawa kepasar = ");
         kepasar = input.nextInt();
 
+        int hasil1 = keranjang2 + keranjang3;
+        int hasil2 = keranjang1 + keranjang3;
+        int hasil3 = keranjang1 + keranjang2;
+
         if(kepasar == 1 ){
-            System.out.println("jumlah buah = " + (keranjang2 + keranjang3 ));
+            System.out.println("jumlah buah = " + hasil1);
         } else if (kepasar == 2) {
-            System.out.println("jumlah buah = " + (keranjang1 + keranjang3));
+            System.out.println("jumlah buah = " + hasil2);
         } else if (kepasar == 3) {
-            System.out.println("jumlah buah = " + (keranjang1 + keranjang2));
+            System.out.println("jumlah buah = " + hasil3);
         }else {
             System.out.println("error");
         }

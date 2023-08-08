@@ -19,7 +19,6 @@ public class soal04 {
         System.out.print("masukan kalimat: ");
         String kalimat = scanner.nextLine();
         String kalimat1 = kalimat.toUpperCase();
-        String output1;
 
        String[] output=kalimat1.split(" ");
 
@@ -46,15 +45,6 @@ public class soal04 {
             System.out.println();
 
         }
-//
-//        for (int i = 0; i < output.length; i++) {
-//            char depan=output[i].charAt(0);
-//            char belakang=output[i].charAt((output.length));
-//            System.out.println(depan);
-//            System.out.println(belakang);
-//
-//        }
-
 
     }
 }
