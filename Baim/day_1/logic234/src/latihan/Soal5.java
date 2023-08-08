@@ -37,9 +37,6 @@ public class Soal5 {
                     + (anak * prAnak) + (balita * prBalita);
         }
 
-        if (lakiLaki > perempuan) {
-            jumlahPorsi += lakiLaki;
-        }
 
         System.out.println("Jumlah porsi: " + jumlahPorsi);
     }

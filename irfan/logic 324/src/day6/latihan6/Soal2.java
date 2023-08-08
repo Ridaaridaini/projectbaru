@@ -8,7 +8,7 @@ public class Soal2 {
 
         System.out.print("inputkan kalimat = ");
         String kalimat = scanner.nextLine();
-        kalimat = kalimat.replace(" ", "");
+        kalimat = kalimat.replace(" ", ""); // {irfanafandi}
         for (int i = 0; i < kalimat.length(); i++) {
             System.out.println(kalimat.charAt(i));
         }

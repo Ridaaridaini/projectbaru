@@ -20,15 +20,27 @@ public class Soal09 {
 
         //Membuat variabel bantu untuk menampung hasil split
         String bantu = "";
+        int a = 0;
 
         //Masukkan nilai array arrK2 ke dalam variabel bantu
         for (int i = 0; i < arrK2.length; i++) {
+
             bantu = arrK2[i]; //ini mengganti nilai di dalam string bantu dengan nilai array satu2, bukan mengisi full langsung semua kata
+
+            if(k1.contains(bantu)){
+
+                a = 1;
+                break;
+
+            }
         }
 
-        if (k1.contains(bantu)) {
+        if (a == 1) {
+
             System.out.print("YES");
-        } else {
+
+        } else if (a == 0) {
+
             System.out.print("NO");
         }
     }
