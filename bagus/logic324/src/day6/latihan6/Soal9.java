@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Soal9 {
     public static void main(String[] args) {
 
+        boolean cek = false;
         Scanner input = new Scanner(System.in);
 
         System.out.println("masukan kata pertama: ");
@@ -13,27 +14,26 @@ public class Soal9 {
 
         System.out.println("masukan kata kedua: ");
         String kataDua = input.nextLine();
+
+        String banding = "";
+        String banding2 = "";
+
         String[] kataDuaSplit = kataDua.split("");
-
-        String bandingBandingke = "";
-        String bandingBandingke1 = "";
-
-        for (int i = 0; i < kataSatuSplit.length; i++) {
+        for (int i = 0; i < kataDuaSplit.length; i++) {
             for (int j = 0; j < kataSatuSplit.length; j++) {
-                bandingBandingke = kataSatuSplit[i];
-                bandingBandingke1 = kataDuaSplit[i];
-
-
-
-//                if (kataSatuSplit[i].equals(kataDuaSplit[i])) {
-//                    System.out.println("Yes");
-//                } else {
-//                    System.out.println("No");
-//                }
+                if (kataDuaSplit[i].contains(kataSatuSplit[j])) {
+                    cek = true;
+                }
             }
-            System.out.print(bandingBandingke);
-
-            System.out.print(bandingBandingke1);
         }
+        if (cek){
+            System.out.println("YES");
+        }else {
+            System.out.println("NO");
+        }
+
+
     }
+
 }
+
