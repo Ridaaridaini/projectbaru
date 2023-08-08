@@ -5,10 +5,10 @@ public class Soal3 {
         int[] arrA = {2, 4, 6, 8, 10};
 
 
-        for (int i = 0; i < arrA.length -1 ; i++) {
-            System.out.print(arrA[i]+",");
+        for (int i = 0; i < arrA.length - 1; i++) {
+            System.out.print(arrA[i] + ",");
 
-            }
-        System.out.print("dan " + arrA[arrA.length - 1]);
         }
+        System.out.print("dan " + arrA[arrA.length - 1]);
     }
+}

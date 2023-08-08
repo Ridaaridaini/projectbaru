@@ -6,7 +6,7 @@ public class Soal9 {
         String strB = "3";
 
         int intA = Integer.parseInt(strA);
-        int intB = Integer.parseInt(strB);
+        double intB = Integer.parseInt(strB);
 
         System.out.println(" Hasil = " + intA / intB);
     }
