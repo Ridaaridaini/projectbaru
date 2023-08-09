@@ -2,7 +2,7 @@ package latihanC;
 
 import java.util.Scanner;
 
-public class DeretKelipatan3dikurang1 {
+public class Nomor1 {
 
     public static void main(String[] args) {
 

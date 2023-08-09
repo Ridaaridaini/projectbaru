@@ -29,6 +29,6 @@ public class Soal10 {
         }
 
         System.out.println("Min: " + min);
-        System.out.println("Min: " + max);
+        System.out.println("Max: " + max);
     }
 }
