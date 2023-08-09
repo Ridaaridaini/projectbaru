@@ -1,36 +1,43 @@
-//package day7.soalSimulasi;
-//
-//import java.util.Scanner;
-//
-//public class Challange4A {
-//    public static void main(String[] args) {
-//        Scanner input = new Scanner(System.in);
-//        System.out.println("Masukkan saldo OVO: ");
-//        long saldo = input.nextLong();
-//        long saldo1 = saldo;
-//        long belanja = 0;
-//        long cashback = 0;
-//        int cup = 1;
-//        while (saldo >= 27000){
-//
-//            if(saldo >= 40000) {
-//                while (saldo >= cup * 9000) {
-//                    cup = cup + 1;
-//                    if (cup >= 12) {
-//                    break;
-//                }
-//
-//            }
-//            cup = cup - 1;
-//
-//            System.out.println("Jumlah cup: " + cup);
-//            belanja = cup * 9000;
-//            saldo1 = saldo - belanja;
-//            cashback = belanja * 1 / 10;
-//            long saldoAkhir = saldo1 + cashback;
-//            System.out.println("Saldo akhir :" + saldoAkhir);
-//        }
-//
-//        }
-//    }
-//}
+package day7.soalSimulasi.Challange;
+
+import java.util.Scanner;
+
+public class Challange4A {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Masukkan saldo OVO: ");
+        int saldo = input.nextInt();
+
+
+        int cashback = 10;
+        int cup = 0;
+        int hargaCup = 18000;
+        int maksCashback = 30000;
+        double totalCashback = 0.0;
+
+        //1.Cari cup dulu
+        while (true) {
+            if (saldo > 27000) {
+                for (int i = 1; i <= 11; i++) {
+                    if (i * hargaCup / 2 <= saldo) {
+                        cup = i;
+                    }
+
+                }
+                int harga = cup * hargaCup / 2;
+                totalCashback = (double) harga / cashback;
+
+                if (totalCashback > maksCashback) {
+                    totalCashback = maksCashback;
+                }
+                saldo = saldo - harga + (int) totalCashback;
+                System.out.println("Jumlah Cup " + cup + " Sisa Saldo " + saldo);
+
+
+            } else {
+                System.exit(0);
+            }
+        }
+    }
+}
+

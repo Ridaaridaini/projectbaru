@@ -41,27 +41,19 @@ public class Soal05Challenge {
 
             porsi = porsi + (p * 1);
 
-            int porsi1 = (int) porsi;
 
-            System.out.println(porsi1 + " porsi");
-
-
-            if (l > p) {
-
-                double porsi2 = porsi + (l - p) * l;
-
-                int porsiC = (int) porsi2;
-
-                System.out.print(porsiC + " porsi");
-
-            }
-            }
-        else {
-
-            int porsi1 = (int) porsi;
-
-            System.out.print(porsi1 + " porsi");
         }
+        if (l > p) {
+
+            porsi = porsi + (l - p) * l;
+
+        } else {
+            porsi = porsi;
+
+        }
+
+        int porsi1 = (int) porsi;
+        System.out.print(porsi1 + " porsi");
     }
 }
 

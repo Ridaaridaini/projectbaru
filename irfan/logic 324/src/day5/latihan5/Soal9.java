@@ -38,11 +38,13 @@ public class Soal9 {
 
         for (int i = 0; i < 5; i++) {
             if (i < 4) {
+
                 bawah = bawah + arrIni[i];
             }
 
             if (i > 0) {
-                atas = atas + arrIni[i];
+
+                 atas = atas + arrIni[i];
             }
         }
 

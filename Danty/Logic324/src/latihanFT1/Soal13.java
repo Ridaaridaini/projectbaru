@@ -13,7 +13,7 @@ public class Soal13 {
         while (count < n) {
 
 
-            for (; start >= 10; ) {
+            for ( ;start >= 10; ) {
 
                 String strStart = start + "";
                 String[] arrStart = strStart.split("");

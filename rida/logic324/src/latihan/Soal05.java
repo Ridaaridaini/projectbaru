@@ -8,7 +8,7 @@ public class Soal05 {
         System.out.println("Tapilkan pilihan: (tombol: 1.Ya dan 2.Tidak)");
         Integer pil=input.nextInt();
         double porsi=0;
-        int jumOrang=0;
+        int jumOrang=0,jumwt=0;
         while(pil==1){
             System.out.println("Tipe Customer :(pilihan bentuk nomor");
             System.out.println("1. Laki-laki Dewasa");
@@ -34,6 +34,7 @@ public class Soal05 {
             if (tipe==2) {
                 System.out.print("Jumlah Orang: ");
                 int orang=input.nextInt();
+                jumwt=jumwt+orang;
                 jumOrang = jumOrang + orang;
                 porsi = porsi + (orang * 1.0);
                 //System.out.println(porsi);
@@ -84,8 +85,8 @@ public class Soal05 {
                 continue;
             }
         }
-        if (jumOrang==5 && jumOrang%2==1){
-           porsi=porsi+1;
+        if (jumOrang>5 && jumOrang%2==1){
+           porsi=porsi+jumwt;
         }
         System.out.println(+porsi+" Porsi");
     }
