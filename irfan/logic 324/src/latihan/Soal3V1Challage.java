@@ -17,7 +17,7 @@ public class Soal3V1Challage {
         String vokal = "";
         String konsonan = "";
 
-                                                // arrN = panjang 10
+        // mencari vokal                                        // arrN = panjang 10
         for (int i = 0; i < arrN.length; i++) { // i = 0 1 2 3 4 5 6 7 8 9 10
                 if (hurufVokal.contains(arrN[i])) { // false
                     if(!vokal.contains(arrN[i])) {
@@ -27,7 +27,7 @@ public class Soal3V1Challage {
                     }
                     vokal += arrN[i];
                 }else{
-                    if(!konsonan.contains(arrN[i])){
+                    if(!konsonan.contains(arrN[i])){ // mencari konsonan
                         if(konsonan.length()>0) {
                             konsonan += "-";
                         }

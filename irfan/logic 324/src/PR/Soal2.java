@@ -8,7 +8,7 @@ public class Soal2 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Masukkan Angka =");
+        System.out.print("Masukkan Angka = ");
         int input = scanner.nextInt();
 
         for (int i = 0; i < input; i++) {

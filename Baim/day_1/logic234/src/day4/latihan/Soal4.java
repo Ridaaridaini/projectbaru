@@ -10,7 +10,7 @@ public class Soal4 {
         int bilangan = scanner.nextInt();
         scanner.close();
 
-        for (int i = 0; i < bilangan; i++) {
+        for (int i = 0; i <= bilangan; i++) {
             if(i%2 == 1){
                 System.out.print(i + " ");
                 continue;
@@ -19,7 +19,7 @@ public class Soal4 {
 
         System.out.println("");
 
-        for (int i = 0; i < bilangan; i++) {
+        for (int i = 0; i <= bilangan; i++) {
             if(i%2 == 0 && i != 0){
                 System.out.print(i + " ");
                 continue;

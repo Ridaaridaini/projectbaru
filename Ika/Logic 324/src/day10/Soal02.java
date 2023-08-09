@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Soal02 {
     public static void main(String[] args) {
+        //contoh
+        // input : ika nur oktaviana
+        //output : I*a N*r O*******a
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("masukan kalimat: ");

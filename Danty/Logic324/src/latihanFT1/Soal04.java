@@ -17,7 +17,7 @@ public class Soal04 {
         int saldo = input.nextInt();
 
         do{
-            if(saldo >= 54000){
+            if(saldo >= 27000){
                 if(saldo/hargaKopi <= 11){
                     int cup = saldo/hargaKopi;
                     int beli = cup * hargaKopi;
@@ -45,7 +45,7 @@ public class Soal04 {
 
             } break;
         }
-        while (saldo >= 54000);
+        while (saldo >= 27000);
 
     }
 }
