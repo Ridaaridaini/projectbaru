@@ -2,7 +2,7 @@ package latihanC;
 
 import java.util.Scanner;
 
-public class SbyBintangBintang {
+public class Nomor2 {
 
     public static void main(String[] args) {
 
