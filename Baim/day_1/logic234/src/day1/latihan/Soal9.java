@@ -9,7 +9,7 @@ public class Soal9 {
         int intA = Integer.parseInt(a);
         int intB = Integer.parseInt(b);
 
-        int hasil = intA / intB;
+        double hasil = (double)intA / intB;
 
         System.out.println("Hasil pembagian dari string a = \"" + a + "\" dan string b = \"" + b + "\" adalah: " + hasil);
 

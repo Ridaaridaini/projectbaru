@@ -10,7 +10,7 @@ public class Soal9Challenge {
         String[] inputString = scanner.nextLine().toLowerCase().replace(" ", "").split("");
 
         int tinggi = 1;
-        int gunung = 0;
+        int gunung = 0 - 1;
         int lembah = 0;
 
         for (int i = 0; i < inputString.length; i++) {
@@ -29,11 +29,17 @@ public class Soal9Challenge {
             }
         }
 
-        System.out.println("Gunung: " + (gunung -1));
-        if((lembah -1) < 0){
+        if ((gunung - 1) < 0) {
+            System.out.println("Gunung: " + 0);
+        } else {
+
+            System.out.println("Gunung " + gunung);
+        }
+
+        if ((lembah - 1) < 0) {
             System.out.println("Lembah: " + 0);
         } else {
-            
+
             System.out.println("Lembah: " + lembah);
         }
         scanner.close();
