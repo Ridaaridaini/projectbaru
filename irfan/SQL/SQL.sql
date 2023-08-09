@@ -173,6 +173,34 @@ select
 	count (umur) as "jumlah data"
 from pegawai;
 
+--group by (mengelompokkan berdasarkan kolom apa)
+select * from pegawai
+
+--tampilkan data umur dan jumlah pegawai yang memiliki umur tsb
+select
+	umur,
+	count(umur) as "Jumlah pegawai"
+from pegawai
+group by umur;
+
+
+--having (filtering groub by)
+select
+	umur,
+	count(umur) as "Jumlah pegawai"
+from pegawai
+group by umur
+having umur = 20 or umur = 26;
+
+--limit (batas banyaknya data yang ditampilkan)
+select
+	umur,
+	count(umur) as "Jumlah pegawai"
+from pegawai
+group by umur
+having umur in (20,26)
+limit 1;
+
 --latihan film
 
 create table film(
@@ -201,12 +229,224 @@ insert into film values
 
 --soal latihan film
 --1.tampilkan nama film dan nominasi dari nominasi yang terbesar
+select 
+	nm_film as "Nama film",
+	nominasi 
+from film
+order by nominasi desc;
+
+--2.tampilkan nama film dan pendapatan dari yg terkecil
+select 
+	nm_film as "Nama Film",
+	pendapatan 
+from film
+order by pendapatan asc;
+
+--3. tampilan nama film dan nominasi yang tidak dapat nominasi
+select 
+	nm_film 
+	as "Nama Film",nominasi 
+from film
+where nominasi = 0;
+
+--4.tampilkan nama film
+
+select 
+	nm_film
+	as "Nama film",
+	nominasi
+	from film
+where nominasi = (select max(nominasi) as "banyak nominasi" from film)
+
+
+--5 tampilkan nama film pendapatan terbesar
+select 
+	nm_film
+	as "Nama film",
+	pendapatan
+	from film
+where pendapatan = (select max(pendapatan) from film);
+
+--6 nama film dan pendapatan terkecil
+
+select 
+	nm_film
+	as "Nama film",
+	pendapatan
+	from film
+where pendapatan = (select min(pendapatan) from film);
+
+
+--7 nampilkan rata2 pendapatan
+
+select 
+	avg (pendapatan) as "Rata-rata pendapatan film"
+from film;
+
+--8 tampilkan rata2 nominal
+select 
+	round (avg (nominasi)) as "Rata-rata nominasi film"
+from film
+
+--angka dibelakang koma
+select 
+	round (avg (nominasi),2) as "Rata-rata nominasi film"
+from film
+
+-- 9 nampilkan nama film huruf depan awalan p
+select 
+nm_film
+from film
+where nm_film ilike 'p%'
+
+
+--lower -> huruf kecil (mengubah Semua jadi lower case)
+select lower('irfan');
+
+select 
+nm_film as "Nama film"
+from film
+where lower (nm_film) like lower ('p%');
+
+--upper ->huruf besar ( mengubah semua jadi upper case)
+select upper ('irfan');
+
+select 
+nm_film
+from film
+where upper (nm_film) ilike 'p%'
+
+
+--floor(boletin ke bawah)
+select floor(2.5)
+
+--ceil(boletin ke atas)
+select ceil(2.5)
+
+--round(buletin yang terdekat)
+select round(2.5)
 
 
 
-select * from film
-where nominasi between 1 and 2;
+--10
+select 
+	nm_film as "Nama film"
+	from film
+	where nm_film ilike '%s'
+	
 
-select * from film
-where nominasi = 1;
+--11
+select 
+	nm_film as "Nama film"
+	from film
+	where nm_film ilike '%d%'
+	
+--12  tampilkan nama film dengan pendapatan terkecil yg mengandung huruf 'h'
+select 
+	nm_film as "Nama film",
+	pendapatan
+	 from film
+	 where nm_film ilike '%h%' 
+	 and pendapatan = (select min (pendapatan) from film where nm_film ilike '%h%');
+	  
+
+--13 tampilkan nama film dengan pendapatan terbesar yg mengandung huruf 'd'
+select 
+	nm_film as "Nama film",
+	pendapatan
+from film
+where nm_film ilike '%h%' 
+and pendapatan = (select max (pendapatan) from film where nm_film ilike '%d%');
+
+
+drop table kota;
+
+create table kota(
+	id integer primary key,
+	nama text,
+	id_propinsi integer
+);
+
+create table propinsi(
+	id integer primary key,
+	nama text
+);
+
+insert into kota
+values
+(1, 'Jakarta', '1'),
+(2, 'Bandung', '2'),
+(3, 'Sumedang', '2'),
+(4, 'Makasar', '4'),
+(5, 'Surabaya', '5'),
+(6, 'Medan', '6')
+
+insert into propinsi
+values
+(1, 'DKI Jakarta'),
+(2, 'Jawa Barat'),
+(3, 'Papua Barat'),
+(4, 'Sulawesi Selatan'),
+(5, 'Jawa Timur')
+
+select * from propinsi
+
+
+--inner join / join
+select * from kota
+inner join propinsi
+	on kota.id_propinsi = propinsi.id;
+	
+select 
+	kota.nama AS "Nama kota", 
+	propinsi.nama AS "Nama propinsi"
+from kota
+inner join propinsi on kota.id_propinsi = propinsi.id;
+
+
+select
+	k.nama as "Nama kota",
+	p.nama as "Nama propinsi"
+from kota k
+inner join propinsi p
+on k.id_propinsi = p.id;
+
+
+-- left join
+
+select
+	kota.nama as "Nama kota",
+	propinsi.nama as "Nama propinsi"
+from kota
+left join propinsi 
+on kota.id_propinsi = propinsi.id;
+
+
+--- right join
+
+select 
+	kota.nama as "Nama kota",
+	propinsi.nama as "Nama propinsi"
+from kota
+right join propinsi
+on kota.id_propinsi = propinsi.id;
+
+
+-- full outer join
+
+select 
+	kota.nama as "Nama kota",
+	propinsi.nama as "Nama propinsi"
+from kota full outer join propinsi
+on kota.id_propinsi = propinsi.id;
+
+
+
+
+
+
+
+
+
+
 
