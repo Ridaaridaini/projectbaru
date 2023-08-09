@@ -66,10 +66,13 @@ select film.nm_film as "Nama Film", artis.nm_artis as "Nama Film"
 	where artis.nm_artis ilike 'j%';
 
 -- 23. tampilkan nama artis yang paling banyak bermain film
-select artis.nm_artis, film.nm_film
+select artis.nm_artis
 	from film
 	join artis
-		on film.artis = artis.kd_artis;
+		on film.artis = artis.kd_artis
+	where artis.kd_artis = ();
+		
+select artis, count(nm_film) from film group by artis; 
 
 -- 24. tampilkan negara mana yang paling banyak filmnya
 -- 25. tampilkan data negara dengan jumlah filmnya
