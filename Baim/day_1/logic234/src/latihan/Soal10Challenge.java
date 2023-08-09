@@ -66,7 +66,7 @@ public class Soal10Challenge {
             if (j % 2 == 0) {
                 System.out.print((deretFibonanci[j] + deretPrima[j]) + " ");
             } else {
-                System.out.print(Math.abs((deretFibonanci[j] + deretPrima[j])) + " ");
+                System.out.print(Math.abs((deretFibonanci[j] - deretPrima[j])) + " ");
             }
         }
         // indeks genap 0, 2, 4, 6, 8 ditambah
