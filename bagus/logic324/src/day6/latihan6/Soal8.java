@@ -14,7 +14,7 @@ public class Soal8 {
         for (int i = 0; i < strSplit.length; i++) {
 //            System.out.println(strSplit[i]);
         }
-
+            //depan
         for (int i = 0; i < strSplit.length; i++) {
             String str1 = strSplit[i];
             char str1At = str1.charAt(0);

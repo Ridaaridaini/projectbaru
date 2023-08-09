@@ -14,7 +14,6 @@ public class Soal5 {
             if (a % 2 == 0 && a < x) {
                 System.out.print(a + " ");
             }
-
             a = a + 3;
         }
 

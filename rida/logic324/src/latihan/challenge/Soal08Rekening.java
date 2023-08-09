@@ -14,12 +14,18 @@ public class Soal08Rekening {
             System.out.println("\"PIN SALAH\" ");
             System.out.println("1.Masukkan kembali / 2.Keluar");
             Integer pilih=input.nextInt();
+            int a=1;
             input.nextLine();
-            while (pilih==1){
+            while (pilih==1 && a<3){
                 System.out.print("Masukkan kode PIN: ");
                 pin=input.nextLine();
                 if(!PIN.equalsIgnoreCase(pin)) {
                     System.out.println("\"PIN SALAH\" ");
+                    a=a+1;
+                    if(a==3){
+                        System.out.println("ATM DIBLOKIR");
+                        break;
+                    }
                     System.out.println("1.Masukkan kembali / 2.Keluar");
                     pilih = input.nextInt();
                     input.nextLine();

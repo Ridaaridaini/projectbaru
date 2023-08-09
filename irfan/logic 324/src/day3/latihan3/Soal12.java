@@ -15,7 +15,7 @@ public class Soal12 {
         for (i = 0; i < n; i++) {
             System.out.print("*");
             for (j = 0; j < n; j++) {
-                if(i>j){
+                if(i > j){
                     System.out.print("*");
                 }
             }

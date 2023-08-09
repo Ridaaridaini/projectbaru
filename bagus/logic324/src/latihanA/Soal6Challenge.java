@@ -52,12 +52,14 @@ public class Soal6Challenge {
             input.nextLine();
             System.out.println("Main atau tidak? ");
 
+            String opsi2 = input.nextLine();
+            if (opsi2.equalsIgnoreCase("tidak")) {
+                System.out.println("udahan bang");
+                break;
+            }
 
         }
-        String opsi2 = input.nextLine();
-        if (opsi2.equalsIgnoreCase("tidak")) {
-            System.out.println("udahan bang");
-        }
+
     }
 
 }

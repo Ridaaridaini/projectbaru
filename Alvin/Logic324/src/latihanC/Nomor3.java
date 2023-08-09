@@ -2,7 +2,7 @@ package latihanC;
 
 import java.util.Scanner;
 
-public class RecordPenjualanBuah {
+public class Nomor3 {
 
     public static void main(String[] args) {
 

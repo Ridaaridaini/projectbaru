@@ -29,6 +29,9 @@ public class Soal5APorsiMakanan {
         double porsi4 = 0;
         double porsi5 = 0;
 
+        double totalPorsi = 0;
+        int totalORang =0;
+
         while (pilihan == 1) {
             System.out.println("Pilih kategori : ");
             System.out.println("1.Laki laki dewasa ");
@@ -105,7 +108,13 @@ public class Soal5APorsiMakanan {
                 }
             }
 
-        }System.out.println("Porsi :" + porsi1+porsi2+porsi3+porsi4+porsi5);
+        }
+        totalPorsi = porsi1+porsi2+porsi3+porsi4+porsi5;
+        totalORang = jumLD1 + jumWD1 + jumA1 + jumR1 +jumB1;
+        if(totalORang > 5 && totalORang % 2 == 1 ){
+            totalPorsi = totalPorsi + jumWD1;
+
+        }System.out.println("total Porsi: "+ totalPorsi);
 
     }
 

@@ -86,7 +86,7 @@ public class Soal05Porsi {
                 continue;
             }
         }
-        if (jumOrang>=5 && jumOrang%2==1){
+        if (jumOrang>5 && jumOrang%2==1){
             porsi=porsi+jumPR;
         }
         if (jumLK>jumPR){

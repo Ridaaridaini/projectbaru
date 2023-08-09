@@ -9,7 +9,7 @@ public class Soal1 {
         System.out.print("inputkan kalimat = ");
         String n = scanner.nextLine();
 
-        String[] arrA = n.split(" ");
+        String[] arrA = n.split(" "); // {'irfan','afandi'}
         for (int i = 0; i < arrA.length; i++) {
             System.out.println(arrA[i]);
 
