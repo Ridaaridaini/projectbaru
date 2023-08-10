@@ -161,4 +161,161 @@ select
 from artis a
 join film f
 	on a.kd_artis=f.artis
+--24 tampilkan negara mana yang paling banyak filmnya
+select
 
+from film f
+--26 tampilkan nama produser yang skalanya international
+select
+	p.nm_produser as "Nama produser"
+from produser p
+	where p.international='YA';
+
+--27 tampilkan jumlah film dari masing-masing produser
+select 
+	count(f.nm_film),
+	p.nm_produser
+from film f
+right join produser p
+	on f.produser=p.kd_produser
+group by p.nm_produser
+
+--28 tampilkan jumlah nominasi dari masing-masing produser
+select
+	coalesce (sum(f.nominasi),0) as "Jumlah nominasi",
+	p.nm_produser
+from film f
+right join produser p
+	on f.produser= p.kd_produser
+group by p.nm_produser;	
+
+--29 tampilkan jumlah pendapatan produser marvel secara keseluruhan
+select 
+	sum(f.pendapatan) as "pendapatan Marvel"
+from film f
+join produser p
+	on f.produser =p.kd_produser
+	where kd_produser='PD01';
+
+--30 tampilkan jumlah pendapatan produser yang sekalanya tidak international
+select 
+	p.nm_produser as "Nama produser",
+	sum (f.pendapatan) as "Jumlah Pendapatan" 
+from film f
+full outer join produser p
+	on f.produser = p.kd_produser
+	where p.international='TIDAK'
+group by p.nm_produser;
+
+--31 tampilkan produser yang tidak punya film
+select 
+ 	f.nm_film,
+ 	p.nm_produser
+from film f
+right join produser p
+ on f.produser = p.kd_produser
+ where f.nm_film is null;
+--coalesce -> mengubah tampilan yang tadinya null jadi yang kita tentukan 
+--tipe datanya harus samaa
+select coalesce (null,3);
+--32 tampilkan produser film yang memiliki artis termahal
+select
+	p.nm_produser,
+	max(a.bayaran)
+from produser p
+join film f
+	on f.produser =p.kd_produser
+join artis a
+	on f.artis= a.kd_artis
+group by p.nm_produser;
+
+select max(max) from (select
+	p.nm_produser,
+	max(a.bayaran)
+from produser p
+join film f
+	on f.produser =p.kd_produser
+join artis a
+	on f.artis= a.kd_artis
+group by p.nm_produser
+)tabel1
+
+select * from (select
+	p.nm_produser,
+	max(a.bayaran)
+from produser p
+join film f
+	on f.produser =p.kd_produser
+join artis a
+	on f.artis= a.kd_artis
+group by p.nm_produser
+)tabel2
+where tabel2.max= (select max(max) from (select
+	p.nm_produser,
+	max(a.bayaran)
+from produser p
+join film f
+	on f.produser =p.kd_produser
+join artis a
+	on f.artis= a.kd_artis
+group by p.nm_produser
+)tabel1)
+
+--33 tampilkan produser yang memiliki artis paling banyak
+select
+	p.nm_produser,
+	count(f.artis)
+from produser p
+join film f
+	on f.produser= p.kd_produser
+group by p.nm_produser;
+select max(count) from (select
+	p.nm_produser,
+	count(f.artis)
+from produser p
+join film f
+	on f.produser= p.kd_produser
+group by p.nm_produser)tabel1
+select* from (select
+	p.nm_produser,
+	count(f.artis)
+from produser p
+join film f
+	on f.produser= p.kd_produser
+group by p.nm_produser)tabel2
+where tabel2.count=(select max(count) from (select
+	p.nm_produser,
+	count(f.artis)
+from produser p
+join film f
+	on f.produser= p.kd_produser
+group by p.nm_produser)tabel1)
+ --34 tampilkan produser yang memiliki artis paling sedikit
+ select
+ 	p.nm_produser,
+	count(f.artis)
+ from produser p
+ left join film f
+ 		on f.produser=p.kd_produser
+group by p.nm_produser;
+select min(count) from (select
+ 	p.nm_produser,
+	count(f.artis)
+ from produser p
+ left join film f
+ 		on f.produser=p.kd_produser
+group by p.nm_produser)tabel1;
+select*from( select
+ 	p.nm_produser,
+	count(f.artis)
+ from produser p
+ left join film f
+ 		on f.produser=p.kd_produser
+group by p.nm_produser)tabel2
+where tabel2.count=(select min(count) from (select
+ 	p.nm_produser,
+	count(f.artis)
+ from produser p
+ left join film f
+ 		on f.produser=p.kd_produser
+group by p.nm_produser)tabel1)
