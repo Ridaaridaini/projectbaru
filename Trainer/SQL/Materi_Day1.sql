@@ -476,7 +476,9 @@ on film.genre = genre.kd_genre
 where nm_genre = 'DRAMA';
 
 --21 tampilkan nama artis, film & genre yg bermain film dengan genre action
+
 --22 tampilkan nama film & artis yg dibintangi oleh artis yg huruf depannya 'J'
+
 --23 tampilkan nama artis yg paling banyak bermain film
 --step 1: join tabel2 dulu aja sesuai yg diminta
 select
@@ -519,7 +521,34 @@ where tabel1.count = (select max(count) from (select
 					order by count desc) tabel2);
 
 --24 tampilkan negara mana yg paling banyak filmnya
+
 --25 tampilkan data negara dengan jumlah filmnya
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--26 tampilkan nama produser yg skalanya international
+--27 tampilkan jumlah film dr masing2 produser
+--28 tampilkan jumlah nominasi dari masing2 produser
+--29 tampilkan jumlah pendapatan produser marvel secara keseluruhan
+--30 tampilkan jumlah pendapatan produser yg skalanya tidak international
+--31 tampilkan produser yg tidak punya film
+--32 tampilkan produser film yg memilik artis termahal
+--33 tampilkan produser yg memiliki artis paling banyak
+--34 tampilkan produser yg memiliki artis paling sedikit
+
+
 
 
 
