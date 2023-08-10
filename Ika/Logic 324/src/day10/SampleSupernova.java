@@ -21,21 +21,40 @@ public class SampleSupernova {
         System.out.println("nilai rata-rata: "+mean2);
 
         Arrays.sort(arrAngka);
-        double modus=0;
-        double modus2=0;
+        double median=0.0;
+        double median2=0;
         for (int i = 0; i < arrAngka.length; i++) {
             double parsAngka = Integer.parseInt(arrAngka[i]);
 //            System.out.println(parsAngka);
-            if(i%2==0){
-                if(i==arrAngka.length/2 || i==(arrAngka.length/2)+1 ){
-                    modus=modus+parsAngka;
-                    modus2=modus/2;
+         if(arrAngka.length%2==0){
+             if(i== arrAngka.length/2 || i== (arrAngka.length-1)/2){
+                 median= median +(parsAngka)/2.0;
+             }
+         }else {
+             if(i== arrAngka.length/2){
+                 median=median+parsAngka;
+             }
+         }
+
+        }
+        System.out.println("median " + median);
+
+
+        //mencari modus
+        int maks=0, modus=0 , chek=0;
+        for (int i = 0; i < arrAngka.length; i++) {
+            chek=1;
+            for (int j = i+1; j < arrAngka.length; j++) {
+                if(Integer.parseInt(arrAngka[i])==Integer.parseInt(arrAngka[j])){
+                    chek=chek+1;
                 }
+            }if(chek>maks){
+                maks=chek;
+                modus=Integer.parseInt(arrAngka[i]);
             }
 
         }
-
-        System.out.println(modus2);
+        System.out.println("modus "+modus);
 
     }
 }
