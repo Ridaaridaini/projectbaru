@@ -253,6 +253,22 @@ select *
 		where table1.bayaran = (select max(bayaran) from artis);
 
 --33 tampilkan produser yg memiliki artis paling banyak
+--cara baru :
+	WITH table1 AS(
+		select
+			p.nm_produser, count(a.nm_artis) as jmlh_artis
+			from produser p
+			left join film f
+				on p.kd_produser = f.produser
+			left join artis a
+				on f.artis = a.kd_artis
+			group by p.nm_produser
+	), table2 AS(
+		select max(jmlh_artis) from table1
+	) select * from table1 where jmlh_artis = (select * from table2);
+
+
+-- cara lama :
 -- langkah 1
 	select
 		p.nm_produser, count(a.nm_artis)
@@ -301,6 +317,21 @@ select *
 					group by p.nm_produser
 					 ) table2);
 --34 tampilkan produser yg memiliki artis paling sedikit
+--cara baru :
+WITH table1 AS (
+	select
+		p.nm_produser, count(a.nm_artis) as jmlh_artis
+		from produser p
+		left join film f
+			on p.kd_produser = f.produser
+		left join artis a
+			on f.artis = a.kd_artis
+		group by p.nm_produser
+), table2 AS(
+	select min(jmlh_artis) from table1
+)select * from table1 where jmlh_artis = (select * from table2);
+
+--cara lama :
 --langkah 1
 	select
 		p.nm_produser, count(a.nm_artis)
