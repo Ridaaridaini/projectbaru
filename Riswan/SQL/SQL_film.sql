@@ -245,6 +245,20 @@ from film
 right join produser
 	on film.produser = produser.kd_produser
 group by nm_produser;
+
+--coalesce -> mengubah tampilan yang tadinya null jadi yang kita tentukan
+--tipe datanya harus sama
+select coalesce(null,3);
+select coalesce(null,'abc');
+
+select 
+	produser.nm_produser,
+	coalesce (sum(film.nominasi),0)
+from film
+right join produser
+	on film.produser = produser.kd_produser
+group by nm_produser;
+
 --29 tampilkan jumlah pendapatan produser marvel secara keseluruhan
 select 
 	produser.nm_produser,
