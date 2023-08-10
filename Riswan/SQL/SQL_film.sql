@@ -133,11 +133,96 @@ join artis
 	on film.artis = artis.kd_artis
 	where artis.nm_artis ilike 'j%'
 --23 tampilan nama artis yang paling banyak bermain film
-select artis.nm_artis
+--step 1: join tabel2 dulu aja sesuai yg diminta
+select
+	artis.nm_artis, --kolom biasa
+	count(film.nm_film) --agreate
 from film
-join artis
+inner join artis 
 	on film.artis = artis.kd_artis
+group by nm_artis
+order by count desc;
+
+--step 2: bikin query untuk nilai maxnya
+select max(count) from (select
+	artis.nm_artis, --kolom biasa
+	count(film.nm_film) --agreate
+from film
+inner join artis
+	on film.artis = artis.kd_artis
+group by nm_artis
+order by count desc) tabel1;
+--step 3: gabungkan
+select 
+	*
+from (select
+	artis.nm_artis, --kolom biasa
+	count(film.nm_film) --agreate
+		from film
+		inner join artis
+			on film.artis = artis.kd_artis
+	group by nm_artis
+	order by count desc) tabel1
+where tabel1.count = (select max(count) from (select
+					artis.nm_artis, --kolom biasa
+					count(film.nm_film) --agreate
+						from film
+					inner join artis
+						on film.artis = artis.kd_artis
+					group by nm_artis
+					order by count desc) tabel2);
 	
 --24 tampilan negara mana yang paling banyak filmnya
+select 
+	negara.nm_negara,
+	count(film.nm_film)
+from film
+inner join artis
+	on film.artis = artis.kd_artis
+inner join negara
+	on artis.negara = negara.kd_negara
+group by nm_negara
+order by count desc;
 
+select max(count) from(select 
+	negara.nm_negara,
+	count(film.nm_film)
+from film
+inner join artis
+	on film.artis = artis.kd_artis
+inner join negara
+	on artis.negara = negara.kd_negara
+group by nm_negara
+order by count desc)tabel1;
+
+select * from (select 
+	negara.nm_negara,
+	count(film.nm_film)
+from film
+inner join artis
+	on film.artis = artis.kd_artis
+inner join negara
+	on artis.negara = negara.kd_negara
+group by nm_negara
+order by count desc)tabel1
+where tabel1.count = (select max(count) from(select 
+	negara.nm_negara,
+	count(film.nm_film)
+from film
+inner join artis
+	on film.artis = artis.kd_artis
+inner join negara
+	on artis.negara = negara.kd_negara
+group by nm_negara
+order by count desc)tabel2);
 --25 tampilkan data negara dengan jumlah filmnya
+select
+	negara.nm_negara,
+	count(film.nm_film) as "jumlah film"
+from film
+inner join artis
+	on film.artis = artis.kd_artis
+inner join negara
+	on artis.negara = negara.kd_negara
+group by nm_negara;
+	
