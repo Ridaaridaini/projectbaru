@@ -66,6 +66,18 @@ select film.nm_film as "Nama Film", artis.nm_artis as "Nama Film"
 	where artis.nm_artis ilike 'j%';
 
 -- 23. tampilkan nama artis yang paling banyak bermain film
+--cara baru :
+WITH table1 AS(
+	select
+		a.nm_artis as nm_artis, count(f.nm_film) as jmlh_film
+		from artis a
+		left join film f
+			on a.kd_artis = f.artis
+		group by a.nm_artis
+) select nm_artis as "Nama Artis", jmlh_film as "Nama Film"
+	from table1
+	where jmlh_film = (select max(jmlh_film) from table1);
+
 -- langkah 1 :
 	select
 		a.nm_artis, count(f.nm_film)
@@ -110,6 +122,20 @@ select film.nm_film as "Nama Film", artis.nm_artis as "Nama Film"
 				) as table2
 		);
 -- 24. tampilkan negara mana yang paling banyak filmnya
+--cara baru :
+WITH table1 AS(
+	select
+		n.nm_negara as negara, count(f.nm_film) as jmlh_film
+		from film f
+		right join artis a
+			on f.artis = a.kd_artis
+		right join negara n
+			on a.negara = n.kd_negara
+		group by n.nm_negara
+) select negara as "Negara", jmlh_film as "Jumlah Film"
+	from table1
+	where jmlh_film = (select max(jmlh_film) from table1);
+
 -- langkah 1 : buat tabel 1 untuk menampilkan nama negara dan jumlah filmnya
 select n.nm_negara, count(f.nm_film)
 	from film f
@@ -183,6 +209,18 @@ select *
 		right join produser p
 			on f.produser = p.kd_produser
 		group by p.nm_produser;
+		
+		--coalesce --> fungsi untuk mengubah value null menjadi yang kita inginkan (dengan syarat tipe data harus sama)
+		select coalesce(null, 3);
+		select coalesce(null, 'abc');
+		-- contoh
+		
+		select
+		p.nm_produser as "Produser", coalesce(sum(nominasi), 0) as "Jumlah Nominasi"
+		from film f
+		right join produser p
+			on f.produser = p.kd_produser
+		group by p.nm_produser;
 	
 -- 29. tampilkan jumlah pendapatan produser marvel secara keseluruhan
 	select
@@ -196,7 +234,7 @@ select *
 
 -- 30. tampilkan jumlah pendapatan produser yg skalanya tidak international
 	select
-		p.nm_produser as "Produser", sum(f.pendapatan) as "Pendapatan"
+		p.nm_produser as "Produser", coalesce(sum(f.pendapatan), 0) as "Pendapatan"
 		from produser p
 		left join film f
 			on p.kd_produser = f.produser
@@ -208,7 +246,8 @@ select *
 	select p.nm_produser, count(f.nm_film)
 		from produser p
 		left join film f
-			on p.kd_produser = f.produser;
+			on p.kd_produser = f.produser
+		group by p.nm_produser;
 
 -- langkah 2
 	select
@@ -221,6 +260,15 @@ select *
 			group by p.nm_produser
 		) as table1
 		where table1.jmlh_film = 0;
+		
+-- langkah baru
+	WITH table1 AS(
+		select p.nm_produser, count(f.nm_film) as jmlh_film
+		from produser p
+		left join film f
+			on p.kd_produser = f.produser
+		group by p.nm_produser
+	) select * from table1 where jmlh_film = 0;
 
 --32 tampilkan produser film yg memilik artis termahal
 -- langkah 1

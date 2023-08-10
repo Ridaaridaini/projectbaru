@@ -651,6 +651,7 @@ from film
 right join produser
 	on film.produser = produser.kd_produser
 group by produser.nm_produser;
+
 --28 tampilkan jumlah nominasi dari masing2 produser
 	select
 		p.nm_produser as "Produser", sum(f.nominasi) as "Jumlah Nominasi"
@@ -658,6 +659,21 @@ group by produser.nm_produser;
 		left join film f
 			on p.kd_produser = f.produser
 		group by p.nm_produser;
+		
+--coalesce -> mengubah tampilan yang tadinya null jadi yg kita tentukan
+--tipe datanya harus sama
+select coalesce(null,3);
+select coalesce(null,'abc'); 
+
+select
+		p.nm_produser as "Produser", 
+		coalesce(sum(f.nominasi),0) as "Jumlah Nominasi"
+		from produser p
+		left join film f
+			on p.kd_produser = f.produser
+		group by p.nm_produser;
+		
+		
 --29 tampilkan jumlah pendapatan produser marvel secara keseluruhan
 select produser.nm_produser as "Produser",
 		sum(film.pendapatan) as "Pendapatan"
