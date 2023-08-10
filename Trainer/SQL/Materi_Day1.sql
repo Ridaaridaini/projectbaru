@@ -698,24 +698,17 @@ group by nm_produser
 having max(bayaran) = (select max(bayaran) from artis)
 
 --33 tampilkan produser yg memiliki artis paling banyak
-select 	nm_produser,
-		count(artis) as "Jumlah"
-from(
-	select distinct	f.produser, p.nm_produser, f.artis
-	from film f right join produser p on f.produser = p.kd_produser
-) as tb1
-group by nm_produser
-having count(artis) = (select max("pil")
-					  from (select 	nm_produser,
-									count(artis) as "pil"
-							from(
-								select distinct	f.produser, p.nm_produser, f.artis
-								from film f right join produser p
-									on f.produser = p.kd_produser
-								) as tb1
-							group by nm_produser
-							) as tb2
-					  	)
+with f as(
+	select 
+		nm_produser,
+		count(artis)
+	from produser 
+	left join film
+		on produser.kd_produser = film.produser
+	group by nm_produser
+), f_max as(
+	select max(count) from f
+) select * from f where count = (select * from f_max);
 
 --34 tampilkan produser yg memiliki artis paling sedikit
 WITH f AS (
