@@ -639,17 +639,97 @@ GROUP BY n.nm_negara
 ORDER BY "Jumlah" desc;
 
 --26 tampilkan nama produser yg skalanya international
+select nm_produser as "Nama Produser" from produser
+where international = 'YA';
+
+
 --27 tampilkan jumlah film dr masing2 produser
+select
+	produser.nm_produser,
+	count(film.nm_film)
+from film
+right join produser
+	on film.produser = produser.kd_produser
+group by produser.nm_produser;
 --28 tampilkan jumlah nominasi dari masing2 produser
+	select
+		p.nm_produser as "Produser", sum(f.nominasi) as "Jumlah Nominasi"
+		from produser p
+		left join film f
+			on p.kd_produser = f.produser
+		group by p.nm_produser;
 --29 tampilkan jumlah pendapatan produser marvel secara keseluruhan
+select produser.nm_produser as "Produser",
+		sum(film.pendapatan) as "Pendapatan"
+from produser
+full outer join film on kd_produser=produser
+group by nm_produser
+having  produser.nm_produser ilike 'marvel';
+
 --30 tampilkan jumlah pendapatan produser yg skalanya tidak international
-
-
+select
+	nm_produser as "Nama Produser",
+	coalesce(sum(pendapatan),0) as "Jumlah Pendapatan"
+from film
+right join produser
+	on film.produser = produser.kd_produser
+where international ilike '%tidak%'
+group by nm_produser
 
 --31 tampilkan produser yg tidak punya film
+select
+		nm_film,
+		nm_produser
+from film f
+right join produser p
+	on f.produser = p.kd_produser
+where nm_film is null
+
 --32 tampilkan produser film yg memilik artis termahal
+select 
+	nm_produser as "Nama Produser",
+	max(bayaran)
+from produser p
+left join film f
+on p.kd_produser = f.produser
+left join artis a
+on a.kd_artis = f.artis
+group by nm_produser
+having max(bayaran) = (select max(bayaran) from artis)
+
 --33 tampilkan produser yg memiliki artis paling banyak
+select 	nm_produser,
+		count(artis) as "Jumlah"
+from(
+	select distinct	f.produser, p.nm_produser, f.artis
+	from film f right join produser p on f.produser = p.kd_produser
+) as tb1
+group by nm_produser
+having count(artis) = (select max("pil")
+					  from (select 	nm_produser,
+									count(artis) as "pil"
+							from(
+								select distinct	f.produser, p.nm_produser, f.artis
+								from film f right join produser p
+									on f.produser = p.kd_produser
+								) as tb1
+							group by nm_produser
+							) as tb2
+					  	)
+
 --34 tampilkan produser yg memiliki artis paling sedikit
+WITH f AS (
+	select 
+		p.nm_produser,
+		count(f.artis) as jml_artis
+	from produser p
+	left join film f
+		on p.kd_produser = f.produser
+	group by nm_produser
+), f_min AS(
+	select min(jml_artis) from f
+) select * from f where jml_artis = (select * from f_min);
+
 
 
 
