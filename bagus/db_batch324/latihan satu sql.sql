@@ -107,7 +107,9 @@ where film.genre = 'G004';
 
 -- tampilkan nama artis, film & genre yang bermain film dengan genre horor
 
-select artis.nm_artis as "Nama Artis", film.nm_film from film inner join artis on artis.kd_artis = film.artis
+select artis.nm_artis as "Nama Artis", film.nm_film as "Nama Film", nm_genre as "Genre" 
+from film inner join artis on artis.kd_artis = film.artis
+inner join genre on film.genre = genre.kd_genre
 where film.genre = 'G001';
 
 -- tampilkan nama film & artis yang di bintangi oleh artis yang huruf depan nya J
@@ -117,5 +119,176 @@ where artis.nm_artis ilike 'j%';
 
 -- tampilkan nama artis yang paling banyak main film
 
-select artis.nm_artis as "Nama Artis" from artis inner join film on artis.kd_artis = film.artis
-group by artis.nm_artis
+--step 1: join tabel2 dulu aja sesuai yg diminta
+select
+	a.nm_artis, --kolom biasa
+	count(f.nm_film) --agreate
+from film f
+inner join artis a
+	on f.artis = a.kd_artis
+group by nm_artis
+order by count desc; --tabel 1
+
+--step 2: bikin query untuk nilai maxnya
+select max(count) from (select
+	a.nm_artis, --kolom biasa
+	count(f.nm_film) --agreate
+from film f
+inner join artis a
+	on f.artis = a.kd_artis
+group by nm_artis
+order by count desc) tabel1;
+
+--step 3: srosooot gabungkan
+select 
+	*
+from (select
+	a.nm_artis, --kolom biasa
+	count(f.nm_film) --agreate
+		from film f
+		inner join artis a
+			on f.artis = a.kd_artis
+	group by nm_artis
+	order by count desc) tabel1
+where tabel1.count = (select max(count) from (select
+					a.nm_artis, --kolom biasa
+					count(f.nm_film) --agreate
+						from film f
+					inner join artis a
+						on f.artis = a.kd_artis
+					group by nm_artis
+					order by count desc) tabel2);
+
+
+--24 tampilkan negara mana yg paling banyak filmnya
+
+
+--25 tampilkan data negara dengan jumlah filmnya
+
+
+
+
+
+
+--26 tampilkan nama produser yg skalanya international
+select nm_produser from produser where international = 'YA'
+
+
+
+--27 tampilkan jumlah film dr masing2 produser
+select  produser.nm_produser as "Nama Produser", count(film.nm_film) from film right join produser
+on film.produser = produser.kd_produser
+group by produser.kd_produser
+
+--28 tampilkan jumlah nominasi dari masing2 produser
+
+select produser.nm_produser,coalesce (sum(film.nominasi),0) from film right join produser on film.produser = produser.kd_produser
+group by produser.kd_produser
+
+--coalesce = untuk mengubah dari yang nilai null ke nilai yang di inginkan
+-- constrain: type data nya harus sama
+
+
+
+--29 tampilkan jumlah pendapatan produser marvel secara keseluruhan
+
+
+select sum(film.pendapatan), produser.nm_produser
+from film inner join produser on film.produser = produser.kd_produser where produser.nm_produser = 'MARVEL'
+group by produser.kd_produser
+
+
+--30 tampilkan jumlah pendapatan produser yg skalanya tidak international
+select produser.nm_produser, sum(film.pendapatan) from film right join produser on film.produser = produser.kd_produser
+where produser.international = 'TIDAK'
+group by produser.nm_produser
+
+
+--31 tampilkan produser yg tidak punya film
+select produser.nm_produser from produser left join film on produser.kd_produser = film.produser
+where film.nm_film is null
+
+
+--32 tampilkan produser film yg memilik artis termahal
+select produser.nm_produser, max(artis.bayaran) from film inner join artis on film.artis = artis.kd_artis 
+inner join produser on film.produser = produser.kd_produser
+group by produser.nm_produser
+
+
+------------------------------------
+
+
+select max(max)
+from(select produser.nm_produser, max(artis.bayaran) from film inner join artis on film.artis = artis.kd_artis 
+inner join produser on film.produser = produser.kd_produser
+group by produser.nm_produser) table1
+
+
+-------------------------------------
+
+
+select * from (select produser.nm_produser, max(artis.bayaran) from film inner join artis on film.artis = artis.kd_artis 
+inner join produser on film.produser = produser.kd_produser
+group by produser.nm_produser) table1
+where table1.max=(select max(max)
+from(select produser.nm_produser, max(artis.bayaran) from film inner join artis on film.artis = artis.kd_artis 
+inner join produser on film.produser = produser.kd_produser
+group by produser.nm_produser) table2)
+
+
+
+--33 tampilkan produser yg memiliki artis paling banyak
+select produser.nm_produser as "Produser", count(artis.nm_artis) as "Jumlah Artis" from artis inner join film on film.artis = artis.kd_artis
+inner join produser on produser.kd_produser = film.produser
+group by produser.nm_produser
+
+
+---------------------------------
+
+
+select max ("Jumlah Artis") 
+from (select produser.nm_produser as "Produser", count(artis.nm_artis) as "Jumlah Artis" from artis inner join film on film.artis = artis.kd_artis
+inner join produser on produser.kd_produser = film.produser
+group by produser.nm_produser) tabel1
+
+
+------------------------------------
+
+
+select * from
+(select produser.nm_produser as "Produser", count(artis.nm_artis) as "Jumlah Artis" from artis inner join film on film.artis = artis.kd_artis
+inner join produser on produser.kd_produser = film.produser
+group by produser.nm_produser) table1
+where table1."Jumlah Artis" =
+(select max ("Jumlah Artis") 
+from (select produser.nm_produser as "Produser", count(artis.nm_artis) as "Jumlah Artis" from artis inner join film on film.artis = artis.kd_artis
+inner join produser on produser.kd_produser = film.produser
+group by produser.nm_produser) tabel2) 
+
+
+--34 tampilkan produser yg memiliki artis paling sedikit
+
+select produser.nm_produser, count(artis.nm_artis) as "Artis" from produser left join film on film.produser = produser.kd_produser
+left join artis on film.artis = artis.kd_artis
+group by produser.nm_produser
+
+
+-------------------------------------------
+
+
+select min("Artis") from
+(select produser.nm_produser, count(artis.nm_artis) as "Artis" from produser left join film on film.produser = produser.kd_produser
+left join artis on film.artis = artis.kd_artis
+group by produser.nm_produser) table1
+
+
+-------------------------------------------
+
+
+select * from (select produser.nm_produser as "Produser", count(artis.nm_artis) as "Artis" from produser left join film on film.produser = produser.kd_produser
+left join artis on film.artis = artis.kd_artis
+group by produser.nm_produser) tabel1
+where tabel1."Artis" = (select min("Artis") from
+(select produser.nm_produser, count(artis.nm_artis) as "Artis" from produser left join film on film.produser = produser.kd_produser
+left join artis on film.artis = artis.kd_artis
+group by produser.nm_produser) table2)
