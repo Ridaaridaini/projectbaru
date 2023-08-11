@@ -46,7 +46,7 @@ public class SampleSupernova {
         for (int i = 0; i < count.length; i++) {
             for (int j = 0; j < input.length; j++) {
 
-                if ()
+//                if ()
 
             }
         }
