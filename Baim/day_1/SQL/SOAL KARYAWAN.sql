@@ -38,8 +38,6 @@ f_biodata AS(
 
 SELECT * FROM f_biodata
 
-
-
 -- 2 hitung berapa hari cuti yang sudah diambil oleh masing masing karyawan
 SELECT CONCAT(b.first_name, ' ', b.last_name) AS "Full Name",
     SUM(AGE(lr.end_date, lr.start_date)) AS "Lama Cuti"
@@ -47,7 +45,31 @@ FROM biodata b
     LEFT JOIN employee e ON b.id = e.biodata_id
     LEFT JOIN leave_request lr ON lr.employee_id = e.id
     GROUP BY "Full Name";
+
 -- 3 tampilkan fullname dan jabatan 3 karyawan yang paling tua
-SELECT CONCAT(b.first_name, ' ', last_name) AS "Full Name", p.name AS "Jabatan" FROM biodata b JOIN 
+SELECT CONCAT(b.first_name, ' ', last_name) AS "Full Name",
+    p.name AS "Jabatan",
+    date_part('year', AGE(NOW(), to_date(dob, 'YYYY-MM-DD'))) || ' Tahun' AS "Umur"
+FROM biodata b
+    JOIN employee e ON b.id = e.biodata_id
+    JOIN employee_position ep ON ep.employee_id = e.id
+    JOIN position p ON ep.position_id = p.id
+ORDER BY "Umur" DESC
+LIMIT 3;
+
 -- 4 tampilkan nama nama pelamar yang tidak diterima karyawan
+SELECT CONCAT(b.first_name, ' ', b.last_name),
+    e.nip
+FROM biodata b
+    LEFT JOIN employee e ON b.id = e.biodata_id
+WHERE e.nip IS NULL;
+
 -- 5 hitung berapa rata rata gaji karyawan dengan level staff
+
+SELECT p.name as "Jabatan", AVG(e.salary) AS "Rata Rata Gaji"
+FROM biodata as b
+    JOIN employee e ON b.id = e.biodata_id
+    JOIN employee_position ep ON ep.employee_id = e.id
+    JOIN position p ON p.id = ep.position_id
+WHERE p.id = 4
+GROUP BY p.name
