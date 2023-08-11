@@ -233,8 +233,6 @@ from biodata;
 
 ----------------------------------------------------------
 
-
-
 --fungsi Age()- untuk menghitung selisih dari 2 date
 select
 	'27-05-2000',
@@ -308,8 +306,253 @@ inner join position
 order by usia  desc limit 3
 
 -- 4. Tampilkan nama-nama pelamar yang tidak diterima karyawan
--- 5. Hitung berapa rata-rata gaji karyawan dengan level staff
+select
 
+	biodata.first_name||' '|| last_name as fullname	
+	
+from biodata left join employee 
+	on biodata.id = employee.biodata_id
+where status is null;
+
+	
+-- 5. Hitung berapa rata-rata gaji karyawan dengan level staff
+select
+	
+	round(avg(employee.salary))
+
+from biodata inner join employee
+	on biodata.id = employee.biodata_id
+inner join employee_position
+	on employee.id = employee_position.employee_id
+inner join position
+	on  employee_position.position_id = position.id
+	
+where position.name ilike 'staff';
+
+-- 6. Urutkan nama-nama karyawan dan statusnya, diurutkan dari yang paling tua dan yg paling muda
+select
+	biodata.first_name||' '|| last_name as NamaKaryawan,
+	position.name as Posisi,
+	date_part('year',age(now(),to_date(dob,'yyyy-mmm-dd')))||' tahun' as usia
+
+from biodata inner join employee
+	on biodata.id = employee.biodata_id
+inner join employee_position 
+	on employee.id = employee_position.employee_id
+inner join position
+	on employee_position.position_id = position.id
+	
+order by usia desc;
+
+
+-- 7. Tampilkan last name dengan huruf kapital,dimana last namenya diawali dengan huruf M
+select
+	upper (biodata.last_name) as NamaKaryawan
+ 
+from biodata
+where biodata.last_name ilike ('M%');
+	
+
+-- 8. Tampilkan employeeid, fullname, salary_lama, dan salary_baru
+-- Dimana salary baru itu sebesar 10% lebih besar dari salary lama
+-- dan tampilkan dengan kolom alias Gaji baru
+
+select
+	biodata.first_name||' '||last_name as fullname,
+	(employee.salary * 0.1) + employee.salary as salarybaru
+
+from biodata inner join employee
+	on biodata.id = employee.biodata_id;
+	
+
+-- 9. Tampilkan nama karyawan, jenis perjalanan dinas,tanggal perjalanan dinas, 
+-- dan total pengeluarannya selama dinas tersebut select
+select
+
+	biodata.first_name||' '|| last_name as karyawan,
+	travel_type.name as jenisperjalanandinas,
+	travel_request.start_date as tanggalperjalanandinas,
+	travel_type.travel_fee + sum(travel_settlement.item_cost) as totalpengeluaran
+
+	
+from biodata inner join employee
+	on biodata.id = employee.biodata_id
+inner join 	travel_request
+	on employee.id = travel_request.employee_id
+inner join travel_type
+	on travel_request.travel_type_id = travel_type.id
+inner join travel_settlement
+	on travel_request.id = travel_settlement.travel_request_id
+
+group by karyawan, travel_type.name, travel_request.start_date, travel_type.travel_fee;
+	
+
+-- 10. Buatkan query untuk menampilkan data karyawan yang belum pernah melakukan perjalanan dinas
+select
+	biodata.first_name ||' '|| last_name as karyawan,
+	employee.id 
+
+from biodata right join employee
+	on biodata.id = employee.biodata_id
+left join travel_request
+	on employee.id = travel_request.employee_id
+where start_date is null;
+	
+
+-- 11. Tampilkan nama lengkap karyawan, jenis cuti,alasan cuti, durasi cuti,
+-- dan nomor telepon yang bisa dihubungi untuk masing-masing karyawan yang mengajukan cuti
+select
+	biodata.first_name||' '|| last_name as karyawan,
+	leave_request.reason,
+	sum(date_part('day',age(leave_request.end_date, leave_request.start_date)))||' hari'as lama,
+	contact_person.contact
+	
+from contact_person inner join biodata
+on contact_person.biodata_id = biodata.id
+inner join employee
+	on biodata.id = employee.biodata_id
+inner join leave_request
+	on employee.id = leave_request.employee_id
+	
+group by karyawan,leave_request.reason,contact_person.contact;
+
+
+-- 12. Tampilkan alasan cuti yang paling sering diajukkan karyawan
+
+select 
+
+	leave_request.reason,
+	count(leave_request.reason) as alasan
+	
+from biodata left join employee
+	on biodata.id = employee.biodata_id
+inner join leave_request
+	on employee.id = leave_request.employee_id
+
+group by leave_request.reason
+-- 13. Tampilkan last name, salary, bonus-
+-- dan salary_plus_bonus untuk karywan yang namanya mengandung minimal salah
+-- satu dari huruf vocal.Dimana bonus itu sebesar 20% dari salary
+
+---------------------------------------------Simulasi FT 1-----------------------------------------------------------
+
+--SOAL 1 Tampilkan status karyawan dan jumlah karyawan untuk setiap statusnya
+select
+	biodata.first_name ||' '||last_name as karyawan,
+	count(position.name) as banyaknyakaryawan
+	
+from biodata inner join employee
+on biodata.id = employee.biodata_id
+inner join employee_position 
+on employee.id = employee_position.employee_id
+inner join position
+on employee_position.position_id = position.id
+group by karyawan
+
+--SOAL 2 Tampilkan data biodata yang bukan merupakan karyawan
+select 
+
+	*
+	
+from biodata left join employee
+on biodata.id = employee.biodata_id
+where status is null
+
+
+
+
+
+		
+--SOAL 3 Tampilkan fullname, status pernikahan (sudah menikah/ belum menikah) dan jumlah anak dari biodata
+
+select
+	
+	biodata.first_name||' '|| last_name as karyawan,
+	case 
+	when biodata.marital_status = 'true' then 'sudah menikah'
+	else
+		'belum menikah'
+	
+	end as "Status Pernikahan",
+
+	sum(case
+	when family.status ilike 'anak' then 1
+	else 0
+	end) as "Jumlah anak"
+
+from biodata left join family
+on biodata.id = family.biodata_id
+inner join employee
+on biodata.id = employee.biodata_id
+group by karyawan, biodata.marital_status, employee.id
+
+--SOAL 4 Tampilkan Semua departemen
+select
+	*
+from department
+
+--SOAL 5 Tampilkan tahun lahir & jumlah karyawan yang mempunyai tahun lahir yang sama
+select
+	count(biodata.first_name||' '|| last_name) as karyawan,
+	date_part('year',to_date(dob,'yyyy-mm-dd'))
+	
+from biodata
+group by biodata.dob
+
+--SOAL 6 Tampilkan data biodata & jabatan dari karyawan
+select
+
+	biodata.*,
+	position.name as "Jabatan Karyawan"
+	 	 	
+from biodata inner join employee
+	on biodata.id = employee.biodata_id
+inner join 	employee_position
+	on employee.id = employee_position.employee_id
+inner join position
+	on employee_position.position_id = position.id;
+	
+--SOAL 7 Tampilkan data biodata yang lahir di Jakarta namun tidak tinggal di Jakarta
+select
+
+	biodata.*
+	
+from biodata
+where pob ilike 'jakarta' and address not ilike '%jakarta%'
+	
+	
+	
+	
+	
+	
+	
+	
+--SOAL 8 Tampilkan fullname, jabatan, usia, dan jumlah anak dari masing-masing karyawan saat 
+--ini (kalau tidak ada anak tulis 0 (nol) atau \'-\' saja.
+select
+
+	biodata.first_name||' '|| last_name as karyawan,
+	position.name,
+	date_part('year',age(now(),to_date(dob,'yyyy-mm-dd'))) as umur,
+	sum(case
+	when family.status ilike 'anak' then 1
+	else 0
+	end)
+
+from family right join biodata
+	on family.biodata_id = biodata.id
+right join employee
+	on biodata.id = employee.biodata_id
+left join employee_position
+	on employee.id = employee_position.employee_id
+left join position
+	on employee_position.position_id = position.id
+group by karyawan,position.name,umur
+
+--SOAL 9 Tampilkan nama karyawan dan jumlah hari cuti yang sudah pernah diambil
+
+
+--SOAL 10 Tampilkan nama karyawan, jenis perjalanan dinas, tanggal perjalanan dinas, dan total pengeluarannya selama perjalanan dinas tersebut
 
 
 
