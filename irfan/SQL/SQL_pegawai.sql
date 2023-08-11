@@ -251,17 +251,6 @@ select
 from biodata;
 
 --1.tampilkan fullname,jabatan,usia & jumlah anak dari masing2 karyawan
-select * from family
-
-select
-	concat(first_name,' ',last_name) as fullname,
-	position.name,
-	family.status
-from biodata
-join employee_position on employee_position.id = position.id
-join family on family.biodata_id = biodata.id
-
-------------------------------------------
 
 select
 	biodata.first_name ||' '||biodata.last_name as fullname,
@@ -285,13 +274,14 @@ group by fullname,jabatan,usia
 
 --2.hitung berapa hari cuti yg sudah di ambil masing masing karyawan
 select
-	employee.nip,
-	leave.name
-from biodata
-inner join employee 
-	on employee.biodata_id = biodata.id
-inner join leave_request 
-on leave_request.employee.id = leave.id
+	biodata.first_name ||' '|| biodata.last_name as fullname,
+	sum(coalesce (date_part('day',age(leave_request.end_date,leave_request.start_date)),0))
+	from
+	biodata
+inner join employee on employee.biodata_id = biodata.id 
+left join leave_request on leave_request.employee_id = employee.id
+group by fullname
+order by sum desc;
 
 
 --3.tampilkan fullname dan jabatan 3 karyawan paling tua
@@ -299,6 +289,7 @@ select
 	biodata.first_name ||' '||biodata.last_name as fullname,
 	position as jabatan,
 	date_part('year',age(now(),to_date(biodata.dob,'yyyy-mm-dd'))) || ' tahun' as usia
+	
 from biodata
 inner join employee
 	on biodata.id = employee.biodata_id	
@@ -310,34 +301,254 @@ group by fullname,position,usia
 order by fullname,position,usia desc
 limit 3;
 	
+
+	
 --4.tampilkan nama nama pelamar yg tidak diterima karyawan
 select 
-	biodata.first_name ||' '||biodata.last_name as Nama_pelamar,
-	employee.status as "status"
+	biodata.first_name ||' '||biodata.last_name as Nama_pelamar
 from biodata
 left join employee 
-	on employee.biodata_id = biodata.id where status is null ;
+	on employee.biodata_id = biodata.id where employee.nip is null
+
+
 	
 --5.hitung berapa rata-rata gaji karyawan dengan level staff
 select
+	round(avg(employee.salary),2) as rata_rata
+	from
+employee 
+inner join employee_position 
+	on employee_position.employee_id = employee.id 
+inner join position 
+	on position.id = employee_position.position_id where position.name = 'Staff'
 	
 
+--6.urutkan nama2 karyawan dan statusnya,diurutkan dari yg paling tua ke yg paling muda
+select
+	biodata.first_name||' '||biodata.last_name as fullname,
+	employee.status as status,
+	date_part('year',age(now(),to_date(biodata.dob,'yyyy-mm-dd'))) as umur
+	from
+biodata
+inner join employee on employee.biodata_id = biodata.id
+order by umur desc;
+
+--7.tampilkan last name dengan huruf kapital, dimana last name diawali dengan huruf M
+select
+	upper (biodata.last_name) as Last_name
+	from
+biodata 
+where biodata.last_name ilike 'M%';
+
+--8. tampilkan empoyee id, fullname, salary_lama, dan salary_baru.
+--dimana salary baru itu sebesar 10% lebih besar dari salary lama
+--dan ditampilkan dengan kolom alias gaji baru
+select
+	employee.id as employee_id,
+	biodata.first_name||' '||biodata.last_name as fullname,
+	employee.salary as salary_lama,
+	(employee.salary + (employee.salary * 0.1)) salary_baru
+
+	from
+biodata
+inner join employee on employee.biodata_id = biodata.id
 
 
+--9.tampilkan nama karyawan, jenis perjalanan dinas, tanggal perjalanan dinas,
+--dan total pengeluaran selama dinas tersebut
+select 
+	biodata.first_name||' '||biodata.last_name as Nama_karyawan,
+	travel_type.name as jenis_perjalanan,
+	travel_request.start_date as tanggal_perjalanan,
+	travel_type.travel_fee + sum(travel_settlement.item_cost) as pengeluaran
+	
+	from
+biodata
+inner join employee 
+	on employee.biodata_id = biodata.id 
+inner join travel_request 
+	on travel_request.employee_id = employee.id
+inner join travel_type 
+	on travel_request.travel_type_id = travel_type.id
+inner join travel_settlement 
+	on travel_request.id = travel_settlement.travel_request_id
+group by Nama_karyawan,jenis_perjalanan,tanggal_perjalanan,travel_fee;
 
 
+--10. buatlah query untuk menampilkan data karyawan yang belum pernah melakukan dinas
+select
+	biodata.first_name||' '||biodata.last_name as Nama_karyawan
+	from
+biodata
+right join employee 
+	on employee.biodata_id = biodata.id
+left join travel_request 
+	on travel_request.employee_id = employee.id 
+	where travel_request.employee_id is null
 
 
+--11.Tampilkan nama lengkap karyawan,jenis cuti,alasan cuti,durasi cuti,
+--dan nomor telepon yang bisa dihubungi untuk masing2 karyawan yg mengajukan cuti
+select
+	biodata.first_name||' '||biodata.last_name as Nama_karyawan,
+	leave.type as jenis_cuti,
+	leave_request.reason as alasan_cuti,
+	sum(date_part('day',age(leave_request.end_date,leave_request.start_date))) || ' hari' as durasi_cuti,
+	contact_person.contact as "nomor_telepon"
+	from
+biodata
+right join employee 
+	on employee.biodata_id = biodata.id
+left join leave_request 
+	on leave_request.employee_id = employee.id
+inner join leave 
+	on leave_request.leave_id = leave.id
+inner join contact_person 
+	on contact_person.biodata_id = biodata.id
+group by Nama_karyawan,jenis_cuti,alasan_cuti,nomor_telepon
+
+--12.tampilkan alasan cuti yg paling sering diajukan karyawan
+with table1 as(
+select 
+	leave_request.reason as alasan,
+	count(leave_request.reason) as jumlah
+
+	from
+employee
+inner join leave_request 
+	on leave_request.employee_id = employee.id
+group by alasan
+)select * from table1 where jumlah = (select max (jumlah ) from table1);
+
+	
+--13.tampilkan last_name,salary,bonus,dan salary_plus_bonus untuk 
+---karyawan yg namanya mengandung minimal salah satu dari
+---huruf vocal.Dimana bonus itu sebesar 20% dari salary
+
+select
+	biodata.last_name,
+	employee.salary,
+	(employee.salary + (employee.salary * 0.2)) as bonus,
+	case
+		when last_name ilike 'Aurelia Putri' then 'A'
+		when last_name ilike 'Indriyani' then 'I'
+		when last_name ilike 'Everdeen' then 'E'
+		else 'tidak_huruf_vocal'
+		end
+	from
+biodata
+inner join employee on employee.biodata_id = biodata.id
+
+-----------------------------------
 
 
+--SOAL SQL
 
 
+--Nomor 1
+
+select
+	employee.status as status_karyawan,
+	count (employee.status)
+	from
+employee
+inner join biodata on biodata.id = employee.biodata_id
+group by status_karyawan
 
 
+--Nomor 2
+
+select
+	biodata.first_name||' '||biodata.last_name as Nama_karyawan
+	from
+biodata
+left join employee on employee.biodata_id = biodata.id where nip is null
 
 
+--Nomor 3 => belum
+select
+	biodata.first_name||' '||biodata.last_name as Full_name,
+	biodata.marital_status as status_pernikahan,
+	sum(case
+	   when family.status ilike 'anak' then 1
+	   else 0
+	   end) as jml_anak
+	from
+biodata
+left join employee on employee.biodata_id = biodata.id
+inner join family on family.biodata_id = family.id
+group by Full_name,status_pernikahan
 
+--Nomor 4 => belum
+select 
+	*
+	from
+	department;
+	
+--Nomor 5 => belum
+select 
+	dob as tahun_lahir
+	from 
+biodata 
+inner join employee on employee.biodata_id = biodata.id
 
+--Nomor 6
+select
+	biodata.*,
+	position.name as Jabatan
+	from 
+biodata 
+inner join employee 
+	on employee.biodata_id = biodata.id 
+inner join employee_position 
+	on employee_position.employee_id = employee.id
+inner join position
+	on employee_position.position_id = position.id 
 
+--Nomor 7 => belum
+select 
+	*
+	from
+biodata
+where biodata.pob = 'Jakarta'
+
+--Nomor 8 => belum
+select
+	biodata.first_name||' '||biodata.last_name as fullname,
+	position.name as jabatan,
+	date_part('year',age(now(),to_date(biodata.dob,'yyyy-mm-dd'))) || ' tahun' as tahun_lahir
+	from
+biodata
+left join employee on employee.biodata_id = biodata.id
+inner join employee_position on employee_position.employee_id = employee.id
+left join position on employee_position.position_id = position.id
+group by fullname,jabatan,tahun_lahir
+order by tahun_lahir desc;
+
+--Nomor 9 => belum
+select
+	biodata.first_name||' '||biodata.last_name as fullname,
+	sum(date_part('day',age(leave_request.end_date,leave_request.start_date))) || ' hari' as jumlah_cuti
+	
+	from
+biodata
+left join employee on employee.biodata_id = biodata.id
+inner join leave_request on leave_request.employee_id = employee.id
+group by fullname
+
+--Nomor 10 
+select
+	biodata.first_name||' '||biodata.last_name as fullname,
+	travel_type.name as perjalanan,
+	travel_request.start_date as tgl_perjalanan_dinas,
+	travel_type.travel_fee + sum(travel_settlement.item_cost) as total_pengeluaran
+	
+	from
+biodata
+left join employee on employee.biodata_id = biodata.id
+inner join travel_request on travel_request.employee_id = employee.id
+inner join travel_settlement on travel_request_id = travel_settlement.id
+inner join travel_type on travel_request.travel_type_id = travel_type.id
+group by fullname,perjalanan,tgl_perjalanan_dinas,travel_fee
 
 
