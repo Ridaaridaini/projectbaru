@@ -87,11 +87,16 @@ from biodata
 -- 3. tampilkan fullname dan jabatan 3 karyawan paling tua
 	select
 		b.first_name || ' ' || b.last_name as fullname,
-		date_part('year', age(now(), to_date(b.dob, 'yyyy-mm-dd'))) as y_born
+		p.name as position,
+		date_part('year', age(now(), to_date(b.dob, 'yyyy-mm-dd'))) as age
 		from biodata b
 		inner join employee e
 			on b.id = e.biodata_id
-		order by y_born DESC limit 3;
+		inner join employee_position ep
+			on e.id = ep.employee_id
+		inner join position p
+			on p.id = ep.position_id
+		order by age DESC limit 3;
 
 -- 4. tampilkan nama2 pelamar yang tidak diterima karyawan
 	select
