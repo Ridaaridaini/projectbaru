@@ -739,12 +739,17 @@ order by "Jumlah film" desc;
 --28.tampilkan jumlah nominasi dari masing2 produser
 select
 	produser.nm_produser as "Nama produser",
-	sum(film.nominasi) as "Jumlah nominasi"
+	coalesce (sum(film.nominasi),0) as "Jumlah nominasi"
 	
 	from film
 right join produser on produser.kd_produser = film.produser
 group by produser.nm_produser
-order by "Jumlah nominasi" desc;
+order by "Jumlah nominasi" asc;
+
+--coalesce -> mengubah tampilan yg tadinya null jadi yg tidak kita tentukan 
+--tipe datanya harus sama
+
+select coalesce (null,3);
 
 
 --29.tampilkan jumlah pendapatan produser marvel secara keseluruhan
