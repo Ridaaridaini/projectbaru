@@ -4,7 +4,7 @@
 create database batch324_2
 
 --delete database
-drop database batch324_2;
+--drop database batch324_2;
 
 --create table
 create table pegawai(
@@ -562,7 +562,7 @@ artis.bayaran as "bayaran"
 from film
 inner join artis 
 on film.artis = artis.kd_artis
-where bayaran = (select min (bayaran) from artis);
+where artis.bayaran = (select min (bayaran) from artis);
 
 
 -- 19. tampilkan nama artis, yang tidak pernah bermain film
@@ -571,37 +571,254 @@ artis.nm_artis as "Nama artis"
 from artis
 left join film
 on artis.kd_artis = film.artis
-where film.artis ='null';
+where film.nm_film is null ;
+
 
 -- 20. tampilkan nama artis, film dan genre, yang bermain film dengan genre drama
 select 
 artis.nm_artis as "Nama artis",
 film.nm_film as "Nama film",
 genre.nm_genre as "Nama genre"
-from film
-inner join genre on film.genre = genre.kd_genre 
+
+from artis
+inner join film
+on artis.kd_artis = film.artis
+inner join genre
+on film.genre = genre.kd_genre 
 where nm_genre = 'DRAMA';
 
--- 21 tampilkan nama artis,film & genre yg bermain film dengan genre horor
+-- 21 tampilkan nama artis,film & genre yg bermain film dengan genre action
 select 
-artis.nm_artis as "Nama artis" 
+artis.nm_artis as "Nama artis",
 film.nm_film as "Nama film",
 genre.nm_genre as "Nama genre"
+
 from artis
-inner join film on film.artis = artis.kd_artis
+inner join film on artis.kd_artis = film.artis 
 inner join genre on film.genre = genre.kd_genre
-where nm_genre = 'HOROR';
+where nm_genre = 'ACTION';
 
 
 -- 22 tampilkan nama film & artis yg dibintangi oleh artis yg huruf depannya 'J'
+select
+film.nm_film as "Nama film",
+artis.nm_artis as "Nama artis"
+
+from film
+inner join artis on artis.kd_artis = film.artis
+where nm_artis ilike 'J%';
 
 
 -- 23 tampilkan nama artis yg paling banyak bermain film
+--step 1: join tabel2 dulu aja sesuai yg diminta
+select
+	a.nm_artis, --kolom biasa
+	count(f.nm_film) --agreate
+from film f
+inner join artis a
+	on f.artis = a.kd_artis
+group by nm_artis
+order by count desc; --tabel 1
 
+--step 2: bikin query untuk nilai maxnya
+select max(count) from (select
+	a.nm_artis, --kolom biasa
+	count(f.nm_film) --agreate
+from film f
+inner join artis a
+	on f.artis = a.kd_artis
+group by nm_artis
+order by count desc) tabel1;
+
+--step 3: srosooot gabungkan
+select 
+	*
+from (select
+	a.nm_artis, --kolom biasa
+	count(f.nm_film) --agreate
+		from film f
+		inner join artis a
+			on f.artis = a.kd_artis
+	group by nm_artis
+	order by count desc) tabel1
+where tabel1.count = (select max(count) from (select
+					a.nm_artis, --kolom biasa
+					count(f.nm_film) --agreate
+						from film f
+					inner join artis a
+						on f.artis = a.kd_artis
+					group by nm_artis
+					order by count desc) tabel2);
+					
 -- 24 tampilkan negara mana yang paling banyak filmnya
+select
+	artis.negara, --kolom biasa
+	count(film.nm_film) --agreate
+from artis
+inner join film
+	on film.artis = artis.kd_artis
+	inner join negara
+	on artis.negara = negara.kd_negara
+group by negara
+order by count desc; --tabel 1
+--------------------
+select
+negara.nm_negar --kolom biasa
+	count(film.nm_film) --agreate
+from artis
+inner join negara
+	on negara.kd_negara = artis.kd_artis
+	inner join negara
+	on artis.negara = negara.kd_negara
+group by negara
+order by count desc; --tabel 1
+---------------------------------
 
+select max (count) from (select
+	artis.negara, --kolom biasa
+	count(film.nm_film) --agreate
+from artis
+inner join film
+	on film.artis = artis.kd_artis
+	inner join negara
+	on artis.negara = negara.kd_negara
+group by negara
+order by count desc) tabel1; --tabel 1)
+-----------------------------------
+select *
+	from (select
+	artis.negara,
+	count(film.nm_film)
+		  from artis
+		  inner join film
+		  on film.artis = artis.kd_artis
+		  group by negara
+		  order by count desc) tabel1
+where tabel1.count = (select max (count) from (select
+	artis.negara, --kolom biasa
+	count(film.nm_film) --agreate
+from artis
+inner join film
+	on film.artis = artis.kd_artis
+	inner join negara
+	on artis.negara = negara.kd_negara
+group by negara
+order by count desc) tabel2); --tabel 1))
+		 
 
 -- 25 tampilkan nama negara dengan jumlah filmnya
+
+select 
+negara.nm_negara as "Nama Negara",
+
+count (film.nm_film) as "jumlah"
+from film
+join artis on artis.kd_artis = film.artis
+right join negara on artis.negara = negara.kd_negara
+group by negara.nm_negara
+order by "jumlah" desc;
+----------------------------------
+
+-- 26.tampilkan nama produser yg skala internasional
+select 
+produser.nm_produser as "Nama produser"
+from produser
+where international = 'YA';
+
+--27.tampilkan jumlah film dari masing2 produser
+select
+produser.nm_produser "Nama produser",
+count(film.nm_film) as "Jumlah film"
+
+from film
+right join produser on produser.kd_produser = film.produser
+group by produser.nm_produser
+order by "Jumlah film" desc;
+
+
+--28.tampilkan jumlah nominasi dari masing2 produser
+select
+	produser.nm_produser as "Nama produser",
+	coalesce (sum(film.nominasi),0) as "Jumlah nominasi"
+	
+	from film
+right join produser on produser.kd_produser = film.produser
+group by produser.nm_produser
+order by "Jumlah nominasi" asc;
+
+--coalesce -> mengubah tampilan yg tadinya null jadi yg tidak kita tentukan 
+--tipe datanya harus sama
+
+select coalesce (null,3);
+
+
+--29.tampilkan jumlah pendapatan produser marvel secara keseluruhan
+select 
+	produser.nm_produser as "Nama produser",
+	sum(film.pendapatan) as "Jml_pendapatan"
+from film
+join produser on produser.kd_produser = film.produser where nm_produser = 'MARVEL'
+group by produser.nm_produser
+order by "Jml_pendapatan" desc;
+
+
+
+--30.tampilkan jumlah pendapatan produser yg skala tidak internasional
+select
+	produser.nm_produser as "Nama produser",
+	sum(film.pendapatan) as "Jumlah"
+from film
+right join produser on produser.kd_produser = film.produser where international = 'TIDAK'
+group by produser.nm_produser
+order by "Jumlah" desc;
+
+
+--31.tampilkan produser yg tidak punya film
+select
+	produser.nm_produser as "Nama produser"
+from film
+right join produser on produser.kd_produser = film.produser where film.produser is null
+
+
+--32.tampilkan produser film yg memiliki artis termahal
+select
+	artis.nm_artis as "Nama artis",
+	produser.nm_produser as "Nama produser",
+	artis.bayaran as "bayaran"
+	
+from artis
+inner join film on film.artis = artis.kd_artis
+inner join produser on film.produser = produser.kd_produser where nm_artis = 'JACKIE CHAN'
+order by "bayaran" desc;
+
+
+--33.tampilkan produser yg memiliki artis paling banyak
+with film as (
+	select
+	produser.nm_produser,
+	count(film.artis) as jumlah_artis
+	from produser 
+	left join film
+	on produser.kd_produser = film.produser
+	group by nm_produser
+),film_max as(
+select max(jumlah_artis)from film
+) select * from film where jumlah_artis = (select * from film_max);
+
+
+--34.tampilkan produser yg memiliki artis paling banyak
+with film as (
+	select
+	produser.nm_produser,
+	count(film.artis) as jumlah_artis
+	from produser
+	left join film
+	on produser.kd_produser = film.produser
+	group by nm_produser
+),film_min as(
+select min(jumlah_artis)from film
+) select * from film where jumlah_artis = (select * from film_min);
+
 
 
 

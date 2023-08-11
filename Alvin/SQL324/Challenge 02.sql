@@ -87,11 +87,16 @@ from biodata
 -- 3. tampilkan fullname dan jabatan 3 karyawan paling tua
 	select
 		b.first_name || ' ' || b.last_name as fullname,
-		date_part('year', age(now(), to_date(b.dob, 'yyyy-mm-dd'))) as y_born
+		p.name as position,
+		date_part('year', age(now(), to_date(b.dob, 'yyyy-mm-dd'))) as age
 		from biodata b
 		inner join employee e
 			on b.id = e.biodata_id
-		order by y_born DESC limit 3;
+		inner join employee_position ep
+			on e.id = ep.employee_id
+		inner join position p
+			on p.id = ep.position_id
+		order by age DESC limit 3;
 
 -- 4. tampilkan nama2 pelamar yang tidak diterima karyawan
 	select
@@ -112,3 +117,114 @@ from biodata
 			inner join position p
 				on ep.position_id = p.id
 		where p.name ilike 'staff';
+
+-- 6. urutkan nama2 karyawan dan statusnya, diurutkan dari yang paling tua ke yang paling muda
+	select
+		concat(b.first_name, ' ', b.last_name) as fullname,
+		e.status,
+		date_part('year', age(now(), to_date(b.dob, 'yyyy-mm-dd'))) || ' ' as age
+		from biodata b
+			inner join employee e
+				on b.id = e.biodata_id
+		order by age desc;
+
+-- 7. tampilkan last name dengan huruf kapital, dimana last namenya diawali dengan huruf M
+	select
+		upper(last_name) as last_name
+		from biodata
+	where last_name ilike 'm%';
+
+-- 8. tamilkan employee id, fullname, salary_lama dan salary_baru
+-- dimana salary baru itu sebesar 10% lebih besar dari salary lama
+-- dan ditampilkan dengan kolom alias Gaji Baru
+	select
+		e.id as employee_id,
+		concat(b.first_name, ' ', b.last_name) as fullname,
+		e.salary as salary_lama,
+		round((e.salary + (e.salary*0.1))) as "Gaji Baru"
+		from biodata b
+			inner join employee e
+				on b.id = e.biodata_id;
+
+-- 9. tampilkan nama karyawan, jenis perjalanan dinas, tanggal perjalanan dinas
+-- dan total pengeluaran selama dinas tsb
+	select
+		concat(b.first_name, ' ', b.last_name) as fullname,
+		tt.name as travel_type,
+		tr.start_date as tgl_perjalanan,
+		travel_fee + sum(ts.item_cost) as total_costs
+		from biodata b
+			inner join employee e
+				on b.id = e.biodata_id
+			inner join travel_request tr
+				on e.id = tr.employee_id
+			inner join travel_type tt
+				on tr.travel_type_id = tt.id
+			left join travel_settlement ts
+				on tr.id = ts.travel_request_id
+		group by fullname, travel_type, tgl_perjalanan, travel_fee;
+
+-- 10. buatan query untuk menampilkan data karyawan yang belum pernah melakukan perjalanan dinas
+
+	select 
+		concat(first_name, ' ', last_name) as fullname
+		from biodata b
+			inner join employee e
+				on b.id = e.biodata_id
+			left join travel_request tr
+				on e.id = tr.employee_id
+			where tr.id is null;
+			
+-- 11. tampilkan nama lengkap karyawan, jenis cuti, alasan cuti, durasi cuti
+-- dan nomor telepon yang bisa dihubungi untuk masing2 karyawan yang mengajukan cuti
+	select
+		concat(b.first_name, ' ', b.last_name) as fullname,
+		l.type as jenis_cuti,
+		lr.reason as alasan_cuti,
+		date_part('day', age(lr.end_date, lr.start_date)) || ' hari' as durasi_cuti,
+		cp.contact
+		from employee e
+			inner join biodata b
+				on e.biodata_id = b.id
+			inner join leave_request lr
+				on e.id = lr.employee_id
+			inner join leave l
+				on lr.leave_id = l.id
+			inner join contact_person cp
+				on b.id = cp.biodata_id
+		where cp.type ilike 'phone';
+
+-- 12. tampilkan alasan cuti yang paling sering diajukan karyawan
+
+	WITH table1 AS(
+		select
+		lr.reason as alasan,
+		count(lr.reason) as jmlh_alsn
+		from biodata b
+			inner join employee e
+				on b.id = e.biodata_id
+			inner join leave_request lr
+				on e.id = lr.employee_id
+		group by alasan
+	) select * from table1 where jmlh_alsn = (select max(jmlh_alsn) from table1);
+		
+
+-- 13. tampilkan last name, salary, bonus
+-- dan salary_plus_bonus untuk karyawan yang namanya mengandung minimal
+-- salah satu dari huruf vokal, dimana bonus itu sebesar 20% dari salary
+
+	select 
+		 b.last_name as last_name,
+		 e.salary as salary,
+		 round(e.salary*0.2) as bonus,
+		 e.salary + round(e.salary*0.2) as salary_plus_bonus
+		 from biodata b
+		 	inner join employee e
+				on b.id = e.biodata_id
+		where last_name ilike '%a%'
+			or last_name ilike '%i%'
+			or last_name ilike '%u%'
+			or last_name ilike '%e%'
+			or last_name ilike '%o%';
+				
+
