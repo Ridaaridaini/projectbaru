@@ -520,13 +520,6 @@ select
 from biodata
 where pob ilike 'jakarta' and address not ilike '%jakarta%'
 	
-	
-	
-	
-	
-	
-	
-	
 --SOAL 8 Tampilkan fullname, jabatan, usia, dan jumlah anak dari masing-masing karyawan saat 
 --ini (kalau tidak ada anak tulis 0 (nol) atau \'-\' saja.
 select
