@@ -184,67 +184,70 @@ INSERT INTO family VALUES (4, 5, 'Friska Davira', 'Anak');
 INSERT INTO family VALUES (5, 5, 'Harum Indah Az Zahra', 'Anak');
 INSERT INTO family VALUES (6, 6, 'Adya Pratama Yuda', 'Suami');
 
---fungsi concat : menggabungkan 2 atau lebih text
-select
+----------------------------------------------------------
+select * from position
+
+--fungsi concat : menggabungkan 2 atau lebih text 
+select 
 	first_name,
 	last_name,
 	concat(first_name,' ',last_name) as fullname,
 	first_name || ' ' || last_name as fullname2
 from biodata;
 
---fungsi now() : mengambil waktu sekarang
+-- fungsi now() : mengambil waktu sekarang
 select now();
 
---fungsi date_part() : mengambil / extract dari bagian waktu
+-- fungsi date_part() : mengambil /extract dari bagian waktu
 select date_part('year',now());
 select date_part('month',now());
 
---fungsi to_date() 	: konversi dari string ke date
---fungsi extract() 	: mengambil bagian dari date
---fungsi to_char	: mengubah date ke text sesuai pattern kita
---(cth : year, month,dll)
-select
-	'10-08-2023',
-	to_date('10-08-2023','DD-MM-YYYY'),
-	date_part('year',to_date('10-08-2023','DD-MM-YYYY')),
-	extract(year from to_date('10-08-2023','DD-MM-YYYY')),
+--tidak bisa karena tanggalnya masih string/text
+select date_part('year','10-08-2023'); 
+
+--fungsi to_date() : konversi dari string ke date
+--fungsi extract() : mengambil bagian dari date 
+--fungsi to_char() : mengubah date ke text sesuai pattern kita
+--(cth: year,month,dll) 
+select 
+	'10-08-2023', --text
+	to_date('10-08-2023','DD-MM-YYYY'), --date
+	date_part('year',to_date('10-08-2023','DD-MM-YYYY')), --double
+	extract(year from to_date('10-08-2023','DD-MM-YYYY')), --numeric
 	to_char(now(),'DD-MM-YYYY') --text
 
---latihan
---tampilkan dob(text),dob(date), tanggal lahir seluruh biodata
-select dob,to_date(dob,'YYYY-MM-DD'),date_part('YEAR',to_date(dob,'YYYY-MM-DD')) from biodata;
-
+--Latihan
+--tampilkan dob (text), dob (date), tahun lahir seluruh biodata
 select
 	dob,
 	to_date(dob,'yyyy-mm-dd'),
 	date_part('year',to_date(dob,'yyyy-mm-dd'))
 from biodata
 
---fungsi age() - untuk menghitung selisih dari 2 date
+--Fungsi Age() - untuk menghitung selisih dari 2 date
 select
 	'27-05-2000',
 	to_date('27-05-2000','dd-mm-yyyy'),
 	age(now(),to_date('27-05-2000','dd-mm-yyyy')),
 	date_part('year',age(now(),
-			  to_date('27-05-2000','dd-mm-yyyy'))) || 'tahun'
+	     to_date('27-05-2000','dd-mm-yyyy'))) || ' tahun'
 
---case when end -> kondisi percabangan sql
+--case when end -> kondisi percabangan di sql
 select
 	pob,
 	case
-		when pob ilike 'jakarta' then 'jekardah'
-		when pob ilike 'bali' then 'Dewata'
+		when pob ilike 'jakarta' then 'Jekardah'
+		when pob ilike 'bali' then 'Bali skuy'
 		else 'Kota Lain'
 	end
-from biodata
+from biodata;
+--LATIHAN
 
---Latihan
-
---1 Tampilkan Fullname, jabatan , usia dan jumlah anak dari karyawan
+-- 1 TAMPILKAN FULLNAME, JABATAN, USIA & JUMLAH ANAK DARI MASING2 KARYAWAN
 select
-	b.first_name ||' '||b.last_name as fullname,
+	b.first_name || ' ' || b.last_name as fullname,
 	p.name as jabatan,
-	date_part('year', age(now(),to_date(dob,'yyyy-mm-dd'))) ||'tahun' as usia,
+	date_part('year',age(now(),to_date(b.dob,'yyyy-mm-dd'))) || ' tahun' as usia,
 	sum (case
 		when f.status ilike 'anak' then 1
 		else 0
@@ -255,162 +258,138 @@ inner join employee e
 inner join employee_position ep
 	on e.id = ep.employee_id
 inner join position p
-	on p.id = ep.position_id 
+	on p.id = ep.position_id
 left join family f
 	on f.biodata_id = b.id
-group by fullname,jabatan, usia;
+group by fullname, jabatan, usia
 
 
---2 hitung berapa hari cuti yang sudah diambil masing masing karyawan
+-- 2 HITUNG BERAPA HARI CUTI YANG SUDAH DI AMBIL MASING MASING KARYAWAN
 select 
-	first_name || ' ' || last_name as fullname,
-	coalesce (sum(date_part('day',age(end_date,start_date))),0) as cuti
-from biodata
-left join employee
-	on biodata.id = employee.biodata_id
-left join employee_position
-	on employee.id = employee_position.id
-left join leave_request
-	on employee_position.employee_id = leave_request.employee_id 
-group by fullname
+	concat(b.first_name,' ',b.last_name) as full_name,
+	coalesce(sum(date_part('day', age(end_date, start_date))),0) as cuti
+from biodata b left join employee e on
+	b.id=e.biodata_id
+left join leave_request lr on
+	e.id=lr.employee_id
+group by full_name
 order by cuti desc;
---3 tampilkan fullName dan jabatan 3 karyawan paling tua
-select 
-	first_name || ' ' || last_name as fullname,
-	position.name,
-	date_part('year', age(now(),to_date(dob,'yyyy-mm-dd'))) ||'tahun' as usia
-from biodata
-join employee
-	on biodata.id = employee.biodata_id
-join employee_position
-	on employee.id = employee_position.employee_id
-join position
-	on employee_position.position_id = position.id 
-ORDER BY usia DESC limit 3;	
 
---4 tampilkan nama nama pelamar yang tidak diterima karyawan
-select
-	first_name || ' ' || last_name as nonKaryawan
-from biodata
-left join employee
-	on biodata.id = employee.biodata_id where biodata_id is null
---5 hitung berapa rata rata gaji karyawan dengan level staf
+-- 3 TAMPILKAN FULLNAME DAN JABATAN 3 KARYAWAN PALING TUA
 select 
-	round(avg(salary),'2'),
-	name
-from biodata
-right join employee
-	on biodata.id = employee.biodata_id
-right join employee_position
-	on employee.id = employee_position.employee_id
-right join position
-	on position.id = employee_position.position_id where name = 'Staff'
-group by name;
-
---6 Urutkan nama-nama karyawan dan statusnya, diurutkan dari yang paling tua ke paling muda
-select 
-	first_name || ' ' || last_name,
-	status,
-	date_part('year', age(now(),to_date(dob,'yyyy-mm-dd'))) ||'tahun' as usia
-from biodata
-right join employee
+	biodata.first_name||' '||biodata.last_name as fullname,
+	position.name as jabatan,
+	date_part('year',age(now(),to_date(biodata.dob,'yyyy-mm-dd'))) as umur
+	from
+biodata
+inner join employee 
 	on employee.biodata_id = biodata.id
-order by usia desc
---7 Tampilkan last name dengan huruf kapital, dimana last namenya diawali dengan huruf M
-select
-	upper(last_name)
-from biodata where biodata.last_name ilike ('m%')
---8 tampilkan employee id, fullname, salary_lama, salary baru. 
---tampilkan salary baru itu sebesar 10% lebih besar dari salary lam
---dan tampilkan dengan kolom alias gaji baru
-select 
-	employee_position.employee_id,
-	first_name || ' ' || last_name,
-	employee.salary,
-	(employee.salary  * 0.1) + employee.salary as salary_baru
-from biodata
-right join employee
-	on biodata.id = employee.biodata_id
-right join employee_position
+inner join employee_position 
 	on employee_position.employee_id = employee.id
---9 tampilkan nama karyawan, jenis perjalanan dinas, tanggal, perjalanan dinas,
--- dan total pengeluarannya selama dinas tersebut
+inner join position on employee_position.position_id = position.id
+order by umur desc
+limit 3;
 
+
+-- 4 TAMPILKAN NAMA NAMA PELAMAR YANG TIDAK DITERIMA KARYAWAN 
 select
-	first_name ||' '||last_name as fullname,
-	travel_type.name,
-	sum(travel_settlement.item_cost)+
-	travel_type.travel_fee,
-	start_date
+	biodata.first_name||' '|| last_name as fullname
 	
-from biodata
-join employee
-	on biodata.id = employee.biodata_id
-join travel_request
-	on employee.id = travel_request.employee_id
-join travel_type
-	on travel_type.id = travel_request.travel_type_id
-join travel_settlement
-	on travel_request.id = travel_settlement.travel_request_id
-group by fullname,travel_type.name,start_date,travel_type.travel_fee
---10 buatkan query untuk menampilkan data karyawan yang belum pernah melakukan perjalanan dinas
-select
-	first_name || ' ' ||last_name
-from biodata
-right join employee
-	on biodata.id = employee.biodata_id
-left join travel_request
-	on travel_request.employee_id = employee.biodata_id where start_date is null
+from biodata left join employee
+on biodata.id = employee.biodata_id
+where status is null
 
---11. Tampilkan nama lengkap karyawan,jenis cuti, alasan cuti,durasi cuti,
--- dan nomor telepon yang bisa dihubungi untuk masing-masing karyawan yang mengajukan cuti
-select
-	first_name ||' '||last_name as fullname,
-	leave_request.reason as alasan,
-	leave.name as jenis_cuti,
-	end_date - start_date as durasi,
-	contact_person.contact as nomor_telepon
 
-from biodata
-join contact_person
-	on contact_person.biodata_id = biodata.id
-join employee
-	on biodata.id = employee.biodata_id
-join leave_request
-	on employee.id = leave_request.employee_id
-join leave
-	on leave_request.leave_id = leave.id
-group by fullname,alasan,jenis_cuti,durasi,nomor_telepon
---12 tampilkan alasan cuti yang paling sering diajukan karyawan
-select
-	count(reason) as cuti,
-	reason
-from leave_request
-group by reason;
+-- 5 HITUNG BERAPA RATA-RATA GAJI KARYAWAN DENGAN LEVEL STAFF
+select round(avg(employee.salary),2) as "Gaji" from employee
+inner join employee_position on employee.id = employee_position.employee_id 
+inner join position on employee_position.position_id = position.id
+where position.name = 'Staff'
 
-with table1 as (
+--6. Urutkan nama-nama karyawan dan statusnya, diurutkan dari yang paling tua ke yang paling muda
 select
-	count(reason) as cuti,
-	reason
-from leave_request
-group by reason),table2 as (select max(cuti) from table1)
-select reason from table1 where cuti  = (select * from table2)
-						 
---13 tampilkan last name,salary, bonus,dan tampilkan salary_plus_bonus untuk karyawan yang
---namanya mengandung minimal salah satu dari huruf vokal. dimana bonus itu sebesar 20% dari salary
-select 
-	b.last_name,
-	case
-		when b.last_name ilike '%a%' then b.last_name
-		when b.last_name ilike '%i%' then b.last_name
-		when b.last_name ilike '%u%' then b.last_name
-		when b.last_name ilike '%e%' then b.last_name
-		when b.last_name ilike '%o%' then b.last_name
-		else '...'
-	end,
-	e.salary,
-	(e.salary *0.2) +e.salary as bonus
-	
+	b.first_name || ' '|| b.last_name as "Nama karyawan",
+	e.status, 
+	date_part('year', age(now(),to_date(dob,'YYYY-MM-DD')))|| ' Tahun'
 from biodata b
 join employee e
-	on b.id = e.biodata_id
+	on b.id= e.biodata_id
+order by date_part('year', age(now(),to_date(dob,'YYYY-MM-DD')))desc;
+	
+	
+	
+--7. Tampilkan last name dengan huruf kapital, dimana last namenya diawali dengan huruf M
+select 
+	upper(last_name)
+from biodata where last_name ilike ('m%')	
+--8. Tampilkan employee id, fullname, salary_lama, dan salary_baru. 
+--   Dimana salary baru itu sebesar 10% lebih besar dari salary lama 
+--   dan ditampilkan dengan kolom alias Gaji Baru
+
+	select
+		e.id as employee_id,
+		concat(first_name, ' ', last_name),
+		e.salary as salary_lama,
+		e.salary + (e.salary*0.1) as "Gaji Baru"
+		from biodata b
+			inner join employee e
+				on b.id = e.biodata_id;
+
+--9. Tampilkan nama karyawan, jenis perjalanan dinas,tanggal perjalanan dinas, 
+--   dan total pengeluarannya selama dinas tersebut
+
+SELECT CONCAT(b.first_name, ' ', b.last_name) AS karyawan,
+	tt.name AS "Perjalanan Dinas",
+	tr.start_date AS "Tanggal Perjalanan",
+	SUM(ts.item_cost) + tt.travel_fee AS "Perjalanan"
+	FROM biodata b
+	JOIN employee e ON e.biodata_id = b.id
+	JOIN travel_request tr ON tr.employee_id = e.id
+	JOIN travel_type tt ON tt.id = tr.travel_type_id
+	JOIN travel_settlement ts ON ts.travel_request_id = tr.id
+	GROUP BY karyawan, "Perjalanan Dinas", "Tanggal Perjalanan", tt.travel_fee;
+
+--10. Buatkan query untuk menampilkan data karyawan yang belum pernah melakukan perjalanan dinas
+Select
+ 	biodata.first_name ||' '|| last_name as karyawan
+	
+from biodata right join employee
+	on biodata.id = employee.biodata_id
+left join travel_request
+	on employee.id = travel_request.employee_id
+
+where start_date is null;
+
+--11. Tampilkan nama lengkap karyawan, jenis cuti, alasan cuti, durasi cuti, 
+--    dan nomor telepon yang bisa dihubungi untuk masing-masing karyawan yang mengajukan cuti
+SELECT 
+	B.FIRST_NAME || ' ' || B.LAST_NAME AS FULLNAME,
+	L.TYPE AS JENISCUTI,
+	LR.REASON AS ALASANCUTI,
+	AGE(LR.END_DATE,LR.START_DATE),
+	CP.CONTACT
+FROM BIODATA B
+INNER JOIN EMPLOYEE E
+	ON B.ID = E.BIODATA_ID
+INNER JOIN LEAVE_REQUEST LR
+	ON E.ID = LR.EMPLOYEE_ID
+INNER JOIN LEAVE L 
+	ON L.ID = LR.LEAVE_ID
+INNER JOIN CONTACT_PERSON CP
+	ON CP.BIODATA_ID = B.ID
+WHERE CP.TYPE ILIKE 'PHONE'
+
+--12. Tampilkan alasan cuti yang paling sering diajukan karyawan
+WITH TABEL1 AS
+	(SELECT REASON,
+	 COUNT(REASON)
+		FROM LEAVE_REQUEST
+		GROUP BY REASON)
+, TABEL2 AS (
+	SELECT MAX(COUNT) FROM TABEL1
+) SELECT REASON FROM TABEL1 WHERE COUNT = (SELECT * FROM TABEL2);
+
+
+--13. Tampilkan last name, salary, bonus, 
+--    dan salary_plus_bonus untuk karyawan yang namanya mengandung minimal salah
+--    satu dari huruf vocal. Dimana bonus itu sebesar 20% dari salary
