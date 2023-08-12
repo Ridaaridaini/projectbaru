@@ -2,7 +2,7 @@ package day5Array.latihan5;
 
 import java.util.Scanner;
 
-public class Soal8 {
+public class Soal8PenjumlahanGanjilGenap {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Masukkan panjang deret");

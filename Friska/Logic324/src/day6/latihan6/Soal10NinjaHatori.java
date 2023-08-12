@@ -29,8 +29,8 @@ public class Soal10NinjaHatori {
 
                 }
             }
-        }
-        System.out.println("gunung " + gunung + "lembah " + lembah);
+        }System.out.println("gunung " + gunung + "lembah " + lembah);
+
     }
 
 }

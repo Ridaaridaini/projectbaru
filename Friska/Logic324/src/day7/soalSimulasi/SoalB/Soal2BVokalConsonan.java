@@ -13,8 +13,6 @@ public class Soal2BVokalConsonan {
         String tampungVokal = "";
         String hurufKonsonan = "";
 
-        String tampungVokal2 = "";
-        String tampungKonsonan2 = "";
 
         String [] arrKalimat = kalimat.replace(" ","").split("");
         Arrays.sort(arrKalimat);
@@ -22,12 +20,23 @@ public class Soal2BVokalConsonan {
 
         for (int i = 0; i < arrKalimat.length; i++) {
             if(hurufVokal.contains(arrKalimat[i])){
+                if(!tampungVokal.contains(arrKalimat[i])){
+                    if(tampungVokal.length() >0){
+                        tampungVokal += "-";
+                    }
+
+                }
                 tampungVokal += arrKalimat[i];
 
 
             }else {
-                hurufKonsonan += arrKalimat[i];
+                if (!hurufKonsonan.contains(arrKalimat[i])){
+                    if(hurufKonsonan.length()>0){
+                        hurufKonsonan += "-";
 
+                    }
+                }
+                hurufKonsonan += arrKalimat[i];
 
             }
             

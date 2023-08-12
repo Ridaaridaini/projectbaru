@@ -418,7 +418,7 @@ group by karyawan,leave_request.reason,contact_person.contact;
 
 
 -- 12. Tampilkan alasan cuti yang paling sering diajukkan karyawan
-
+--belum--
 select 
 
 	leave_request.reason,
@@ -430,9 +430,10 @@ inner join leave_request
 	on employee.id = leave_request.employee_id
 
 group by leave_request.reason
+
 -- 13. Tampilkan last name, salary, bonus-
 -- dan salary_plus_bonus untuk karywan yang namanya mengandung minimal salah
--- satu dari huruf vocal.Dimana bonus itu sebesar 20% dari salary
+-- satu dari huruf vocal. Dimana bonus itu sebesar 20% dari salary
 
 ---------------------------------------------Simulasi FT 1-----------------------------------------------------------
 
@@ -457,11 +458,6 @@ select
 from biodata left join employee
 on biodata.id = employee.biodata_id
 where status is null
-
-
-
-
-
 		
 --SOAL 3 Tampilkan fullname, status pernikahan (sudah menikah/ belum menikah) dan jumlah anak dari biodata
 
@@ -543,11 +539,39 @@ left join position
 group by karyawan,position.name,umur
 
 --SOAL 9 Tampilkan nama karyawan dan jumlah hari cuti yang sudah pernah diambil
+select
+	biodata.first_name||' '||last_name as karyawan,
+	coalesce(sum(date_part('day',age(leave_request.end_date, start_date))),0) as "Jumlah Cuti"
+	
+from biodata right join employee 
+	on biodata.id = employee.biodata_id
+left join leave_request
+	on employee.id = leave_request.employee_id
+group by karyawan
 
+--SOAL 10 Tampilkan nama karyawan, jenis perjalanan dinas, tanggal perjalanan dinas, 
+--dan total pengeluarannya selama perjalanan dinas tersebut
 
---SOAL 10 Tampilkan nama karyawan, jenis perjalanan dinas, tanggal perjalanan dinas, dan total pengeluarannya selama perjalanan dinas tersebut
+select
+	biodata.first_name||' '||last_name as karyawan,
+	travel_type.name,
+	travel_request.start_date,
+	travel_type.travel_fee + sum(travel_settlement.item_cost) as totalpengeluaran
+	
+from biodata inner join employee
+	on biodata.id = employee.biodata_id
+inner join travel_request
+	on employee.id = travel_request.employee_id
+inner join travel_type
+	on travel_request.travel_type_id = travel_type.id
+inner join travel_settlement
+	on travel_request.id = travel_settlement.travel_request_id
+	
+group by karyawan,travel_type.name,travel_request.start_date,travel_type.travel_fee
+	
+	
 
-
+	
 
 
 
