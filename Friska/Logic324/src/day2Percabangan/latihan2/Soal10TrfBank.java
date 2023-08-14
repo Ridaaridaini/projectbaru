@@ -32,7 +32,7 @@ public class Soal10TrfBank {
                 System.out.println("Masukkan Rekening  tujuan: ");
                 String rekTujuan = input.nextLine();
 
-//                int panjangRekening = rekTujuan.length();
+
 
                 if (rekTujuan.length() != 10) {
                     System.out.println("Rekening yang anda masukkan tidak valid");

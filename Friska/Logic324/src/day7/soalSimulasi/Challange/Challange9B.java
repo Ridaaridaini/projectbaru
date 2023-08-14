@@ -1,4 +1,4 @@
-package day6.latihan;
+package day7.soalSimulasi.Challange;
 
 import java.util.Scanner;
 
@@ -10,31 +10,39 @@ public class Challange9B {
         System.out.print("input : ");
         String input = scanner.nextLine();
 
-        String[] arrInput = input.split(" ");
+        String[] arrInput = input.split("");
 
-        int ketinggian = 0;//1 0 -1 0 1 2
-        int gunung = 0;//1
-        int lembah = 0;//1
+        int ketinggian = -1;
+        int gunung = 0;
+        int lembah = 0;
+
+        int skip = 1;
 
         for (int i = 0; i < arrInput.length; i++) {
-            String aksi = arrInput[i]; //N
-            if (aksi.equals("N")){
-
+            String aksi = arrInput[i];
+            if (aksi.equalsIgnoreCase("N")) {
                 ketinggian = ketinggian + 1;
-                if (ketinggian == 0){
-                    lembah = lembah + 1;
-                }
-            } else if(aksi.equals("T")){
+                if (ketinggian == 0) {
+                    if(skip == 1){
+                        skip = 0;
+                    }else{
+                        lembah = lembah + 1;
+                    }
 
+                }
+            } else if (aksi.equalsIgnoreCase("T")) {
                 ketinggian = ketinggian - 1;
-                if (ketinggian == 0){
-                    gunung = gunung + 1;
+                if (ketinggian == 0) {
+                    if (skip == 1){
+                        skip = 0;
+                    }else{
+                        gunung = gunung + 1;
+                    }
+
                 }
             }
         }
-
-        System.out.println("Gunung : " + gunung +",Lembah : " + lembah);
-
+        System.out.println("Gunung : " + gunung + ",Lembah : " + lembah);
 
     }
 }
