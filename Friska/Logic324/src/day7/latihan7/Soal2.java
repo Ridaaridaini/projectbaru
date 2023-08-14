@@ -43,5 +43,6 @@ public class Soal2 {
         String samaLibur = sdf.format(date);
         System.out.println(samaLibur);
 
+
     }
 }
