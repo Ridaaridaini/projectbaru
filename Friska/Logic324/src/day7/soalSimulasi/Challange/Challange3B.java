@@ -1,8 +1,8 @@
-package day7.soalSimulasi.SoalB;
+package day7.soalSimulasi.Challange;
 
 import java.util.Scanner;
 
-public class Soal3BSiangka1 {
+public class Challange3B {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -21,8 +21,13 @@ public class Soal3BSiangka1 {
                     int hasil = Integer.parseInt(arrStrMulai[i]) * Integer.parseInt(arrStrMulai[i]);
                     jumlah = jumlah + hasil;
                 }
-                if (jumlah == 1) {
-                    System.out.println(start + " si Angka 1");
+                if (jumlah == 1 || jumlah == 10) {
+                    if (jumlah == 1) {
+                        System.out.println(start + " si Angka 1");
+                    } else if (jumlah == 10) {
+                        System.out.println(start + " si Angka 10");
+                    }
+
                     start++;
                     mulai = start;
                     angka1Ditemukan++;
@@ -38,3 +43,4 @@ public class Soal3BSiangka1 {
 
     }
 }
+
