@@ -24,7 +24,7 @@ public class Soal3 {
             }
 
         }
-        System.out.println("Ada "+b+" angka fibbonacci selain 0 dan dibawah X ");
+        System.out.println("Ada "+b+" angka fibbonacci selain 0 dan dibawah  "+x);
 
     }
 }

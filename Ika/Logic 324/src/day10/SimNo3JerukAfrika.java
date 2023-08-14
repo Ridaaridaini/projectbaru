@@ -2,7 +2,7 @@ package day10;
 
 import java.util.Scanner;
 
-public class SimNo3 {
+public class SimNo3JerukAfrika {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("input: ");
