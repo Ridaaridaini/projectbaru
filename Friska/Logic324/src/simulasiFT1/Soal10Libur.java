@@ -1,4 +1,4 @@
-package day7.latihan7;
+package simulasiFT1;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -6,11 +6,8 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Soal2 {
+public class Soal10Libur {
     public static void main(String[] args) throws ParseException {
-        //milisecond / millis / ms ->
-        //1 ms = 1/1000 detik
-        //1 detik -> 1000 ms
         int detik = 1000;
         int menit = 60 * detik;
         int jam = 60 * menit;
@@ -42,7 +39,6 @@ public class Soal2 {
 
         String samaLibur = sdf.format(date);
         System.out.println(samaLibur);
-
 
     }
 }
