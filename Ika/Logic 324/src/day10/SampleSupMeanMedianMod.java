@@ -3,12 +3,12 @@ package day10;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class SampleSupernova {
+public class SampleSupMeanMedianMod {
     public static void main(String[] args) {
         Scanner scanner= new Scanner(System.in);
         System.out.print("input angka : ");
         String  angka = scanner.nextLine();
-        ;
+
         String[] arrAngka = angka.replace(" ","").split("");
         double mean=0;
         double mean2 =0;
