@@ -40,7 +40,9 @@ public class Fibonacci {
         }
 
         for (int i = 0; i < arrFibo.length; i++) {
-            System.out.println(arrFibo[i]);
+            if (arrFibo[i] % 2 != 0) {
+                System.out.println(arrFibo[i]);
+            }
         }
 
 

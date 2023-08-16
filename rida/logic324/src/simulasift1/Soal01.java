@@ -5,28 +5,30 @@ import java.util.Scanner;
 public class Soal01 {
     public static void main(String[] args) {
         Scanner input= new Scanner(System.in);
-        System.out.println("Masukkan nilai a");
+        System.out.println("Masukkan bilangan a");
         int a= input.nextInt();
-        System.out.println("Masukkan nilai b");
+        System.out.println("masukkan bilangan b");
         int b= input.nextInt();
         System.out.println("Masukkan panjang deret");
-        int n= input.nextInt();
+        int n=input.nextInt();
         Integer[] deret= new Integer[n];
-       int a1=a,b1=b;
-        for (int i = 0; i < n; i++) {
-            if(i%2==0){
-                deret[i]=a;
-                a=a+a1;
-                continue;
-            }
-            if(i%2==1){
-                deret[i]=b;
-                b=b+b1;
-                continue;
+        int c=0;
+        for (int i = 0; i < b; i++) {
+            c=c+a;
+            if (c%b==0){
+                break;
             }
         }
-        for (int i = 0; i < n; i++) {
-            System.out.print(deret[i]+" ");
+        int kel=c;
+        for (int i = 0; i < deret.length; i++) {
+            if (i== deret.length-1){
+                deret[i]=kel;
+                System.out.print(deret[i]);
+                break;
+            }
+            deret[i]=kel;
+            System.out.print(deret[i]+", ");
+            kel=kel+c;
         }
     }
 }

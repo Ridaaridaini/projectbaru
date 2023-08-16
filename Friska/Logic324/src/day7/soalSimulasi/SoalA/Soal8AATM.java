@@ -46,7 +46,7 @@ public class Soal8AATM {
                     System.out.println("Kode Bank: ");
                     String kode = input.nextLine();
 
-
+                    input.nextLine();
 
                     System.out.println("Masukkan nomor rekening tujuan: ");
                     String strRekening = input.nextLine();
@@ -57,10 +57,11 @@ public class Soal8AATM {
                     }
                     System.out.println("Masukkan Nominal Transfer: ");
                     long trfBank = input.nextLong();
+                    long totalTrfBank = trfBank + 7500;
 
-                    if (trfBank <= sisaSaldo) {
-                        sisaSaldo = sisaSaldo - trfBank - biayaAdmin;
-                        System.out.println("Transaksi berhasil, saldo anda saat ini: "+ sisaSaldo);
+                    if (trfBank >= totalTrfBank) {
+                        trfBank = trfBank - totalTrfBank;
+                        System.out.println("Transaksi berhasil, saldo anda saat ini: "+ trfBank);
                     }else {
                         System.out.println("Maaf saldo anda tidak cukup");
                     }
