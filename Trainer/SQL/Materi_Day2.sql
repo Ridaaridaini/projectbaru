@@ -360,8 +360,7 @@ left join travel_request
 
 where start_date is null;
 
---11. Tampilkan nama lengkap karyawan, jenis cuti, alasan cuti, durasi cuti, 
---    dan nomor telepon yang bisa dihubungi untuk masing-masing karyawan yang mengajukan cuti
+--11. Tampilkan nama lengkap karyawan, jenis cuti, alasan cuti, durasi cuti untuk masing-masing karyawan yang mengajukan cuti
 SELECT 
 	B.FIRST_NAME || ' ' || B.LAST_NAME AS FULLNAME,
 	L.TYPE AS JENISCUTI,
