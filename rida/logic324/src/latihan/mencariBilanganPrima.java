@@ -14,6 +14,7 @@ public class mencariBilanganPrima {
             }
             if (cekPrima==1){
                 arrPrima[i]=a;
+                System.out.println(arrPrima[i]);
                 i++;
             }
             a++;

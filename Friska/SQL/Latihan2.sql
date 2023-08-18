@@ -91,20 +91,48 @@ where artis.nm_artis ilike 'J%';
 --join tabel- tabel dulu sesuai yang diminta
 select
 	artis.nm_artis,
-	count (film.nm_film) -- karna yg dihitung jum film yg diperankan
+	count (film.nm_film) as jum
+	
 from artis inner join film
-on artis.artis = film_kd.artis
-group nm_artis
-order by count desc; -- desc1
+on artis.kd_artis = film.artis
+group by nm_artis;
 
---tentukan nilai max nya
-select max (count) from (select artis.nm_artis,)
+
+--step 2 buat max nya---
+select max(jum)
+from(select
+	artis.nm_artis,
+	count (film.nm_film) as jum
+	
+from artis inner join film
+on artis.kd_artis = film.artis
+group by nm_artis)tabel1;
+
+-- gabungkan step 1 dan 2
+select
+*
+from(select
+	artis.nm_artis,
+	count (film.nm_film) as jum
+	
+from artis inner join film
+on artis.kd_artis = film.artis
+group by nm_artis)tabel2
+where tabel2.jum = (select max(jum)
+from(select
+	artis.nm_artis,
+	count (film.nm_film) as jum
+	
+from artis inner join film
+on artis.kd_artis = film.artis
+group by nm_artis)tabel1);
+
 
 -- 24. Tampilkan negara mana yang paling banyak filmnya
 --asumsi
 -- hubungkan artisnya dengan film hitung artis dan film, hubungkan dengan negara
 -- artis dan negara
---step 
+--step1
 select 
 	negara.nm_negara,
 	count(film.nm_film) as jml_film
@@ -115,27 +143,57 @@ inner join negara
 on artis.negara = negara.kd_negara
 group by nm_negara
 
+---step2
+select max(jml_film)
+from(select 
+	negara.nm_negara,
+	count(film.nm_film) as jml_film
+	
+from film inner join artis
+on film.artis = artis.kd_artis
+inner join negara
+on artis.negara = negara.kd_negara
+group by nm_negara)tabel1
 
-
-
-
-
-
-
-
-
-
-
-
+--step 3 
+select 
+*
+from (select 
+	negara.nm_negara,
+	count(film.nm_film) as jml_film
+	
+from film inner join artis
+on film.artis = artis.kd_artis
+inner join negara
+on artis.negara = negara.kd_negara
+group by nm_negara)tabel2
+where tabel2.jml_film = (select max(jml_film)
+from(select 
+	negara.nm_negara,
+	count(film.nm_film) as jml_film
+	
+from film inner join artis
+on film.artis = artis.kd_artis
+inner join negara
+on artis.negara = negara.kd_negara
+group by nm_negara)tabel1);
 
 -- 25. Tampilkan nama negara dengan jumlah film nya
+select 
+	negara.nm_negara,
+	count(film.nm_film) as jml_film
+	
+from film inner join artis
+on film.artis = artis.kd_artis
+inner join negara
+on artis.negara = negara.kd_negara
+group by nm_negara
 
 -- 26. Tampilkan nama produser yang skalanya international
 Select 
 	produser.nm_produser as "Nama Produser Internasional"
 
 from produser where produser.international ='YA';
-	
 
 -- 27. Tampilkan jumlah film dari masing-masing produser
 Select

@@ -18,35 +18,46 @@ public class Soal01Andi {
         String[] arrBaju = baju.replace(" ", "").split(",");
 
         int m= 3;
-
-
         int i = 0;
-        while(i<m){
-            while (uang > Integer.parseInt(arrKac[i])) {
-
-
-                int hargaBayar = 0;
+        int sisaUang=0;
+//        while(i<m){
+            while (uang > Integer.parseInt(arrKac[i]) || uang > Integer.parseInt(arrBaju[i])) {
                 if (uang > Integer.parseInt(arrKac[i])) {
-                    hargaBayar = (hargaBayar + uang) -Integer.parseInt(arrKac[i]);
+                    uang = uang -Integer.parseInt(arrKac[i]);
                     System.out.print("kacamata ");
-                    i++;
-                    break;
-                }uang=hargaBayar;
-
-                if(uang>Integer.parseInt(arrBaju[i])){
-                    hargaBayar= (uang) - Integer.parseInt(arrBaju[i]);
+                    System.out.println(uang);
+                }else if(uang>Integer.parseInt(arrBaju[i])){
+                    uang= uang - Integer.parseInt(arrBaju[i]);
+                    System.out.println(uang);
                     System.out.println("baju");
-                    i++;
-                    break;
-                }uang=hargaBayar;
-
-                if(uang<Integer.parseInt(arrBaju[i]) || uang<Integer.parseInt(arrKac[i])){
-                    System.out.println("dana tidak mencukupi");
-                    i++;
                 }
+
             }
-        }
+//        }
 
     }
 }
+
+
+
+//while(i<m) {
+//        while (uang > Integer.parseInt(arrKac[i]) || uang > Integer.parseInt(arrBaju[i])) {
+//        if((uang > Integer.parseInt(arrKac[i]) && uang > Integer.parseInt(arrBaju[i])) ){
+//        uang = uang - (Integer.parseInt(arrKac[i]) + Integer.parseInt(arrBaju[i]));
+//        sisaUang = sisaUang +uang;
+//        System.out.print(" kacamata  dan baju");
+//        System.out.println(sisaUang);
+//        }else if (uang > Integer.parseInt(arrKac[i])) {
+//        uang = uang - Integer.parseInt(arrKac[i]);
+//        System.out.print("kacamata ");
+//        break;
+//        } else if (uang > Integer.parseInt(arrBaju[i])) {
+//        uang = uang - Integer.parseInt(arrBaju[i]);
+//        System.out.println("baju");
+//        i++;
+//        break;
+//        }
+//        i++;
+//        }
+//        }
 

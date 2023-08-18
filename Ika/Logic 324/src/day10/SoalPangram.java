@@ -30,7 +30,6 @@ public class SoalPangram {
             if (!b.contains(arrKal[i])) {
                 b= b + arrKal[i];//untuk menampung abjad yang berbeda
             }
-
         }
         if(b.length()==26){//jika mengandung semua abjad maka panagram
             System.out.println("panagram");
