@@ -40,14 +40,17 @@ public class SampleSupernova {
             System.out.println("median: " + median + " dan " + median2);
         }
 
+        String calonModus, oposisiCalonModus;
+        int hitungCalonModus = 0, hitungOposisiCalonModus = 0;
         //modus
-        int[] count = new int[input.length];
+        for (int i = 0; i < input.length; i++) {
 
-        for (int i = 0; i < count.length; i++) {
             for (int j = 0; j < input.length; j++) {
+                if (input[i].contains(input[j])){
+                    calonModus = input[i];
 
-                if ()
 
+                }
             }
         }
 

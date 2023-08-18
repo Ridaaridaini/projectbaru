@@ -30,9 +30,15 @@ GROUP BY karyawan;
 -- 3. tampilkan fullname dan jabatan 3 karyawan paling tua
 SELECT
     concat(b.first_name, ' ', b.last_name) as full_name,
-    date_part('year', age(now(), to_date(dob, 'yyyy-mm-dd'))) || ' tahun' as umur
-from biodata b
-ORDER BY 2 DESC
+    p.name as jabatan,
+    date_part('year', age(now(), to_date(b.dob, 'yyyy-mm-dd'))) || ' tahun' as umur
+from biodata b join employee e ON
+    b.id=e.biodata_id
+join employee_position ep ON
+    e.id= ep.employee_id
+join position p ON
+    ep.position_id=p.id
+ORDER BY 3 DESC
 limit 3;
 
 --4. tampilkan nama-nama pelamar yang tidak diterima karyawan

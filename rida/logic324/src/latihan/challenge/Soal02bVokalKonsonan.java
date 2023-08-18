@@ -9,6 +9,7 @@ public class Soal02bVokalKonsonan {
         Scanner input= new Scanner(System.in);
         System.out.println("Masukkan kalimat: ");
         String[] kata=input.nextLine().toLowerCase().replace(" ","").split("");
+        //menyusun kata
         Arrays.sort(kata);
         String vokal="",konsonan="";
         for (int j = 0; j < kata.length; j++) {
