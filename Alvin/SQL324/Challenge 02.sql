@@ -36,8 +36,9 @@ select
 
 select 
 	'22-10-1997',
-	to_date('22-10-1997', 'dd-mm-yyyy'),
+	age(now(), to_date('22-10-1997', 'dd-mm-yyyy')),
 	age(now(), to_date('16-08-1998', 'dd-mm-yyyy')),
+	age(to_date('16-08-1998', 'dd-mm-yyyy'), to_date('22-10-1997', 'dd-mm-yyyy')),
 	date_part('year', age(now(), to_date('16-08-1998', 'dd-mm-yyyy')))
 	
 -- case when end --> kondisi percabangandi sql

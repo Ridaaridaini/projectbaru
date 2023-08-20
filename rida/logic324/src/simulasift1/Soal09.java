@@ -8,20 +8,28 @@ public class Soal09 {
         System.out.println("Masukkan panjang array: ");
         int n= input.nextInt();
         int[] deret=new int[n];
-        int a=2,b=0;
+        int[] deret1=new int[n];
+        int a=3,b=4,c=0;
         for (int i = 0; i < deret.length; i++) {
-            if (i== deret.length-1){
-                deret[i]=a;
-                a=a+2;
-                b=deret[i]*2;
-                System.out.print(b);
-            }else{
-                deret[i]=a;
-                a=a+2;
-                b=deret[i]*2;
-                System.out.print(b+", ");
-            }
-
+            deret[i]=a-1;
+            a=a+3;
+            //System.out.print(deret[i]+" ");
         }
+        //System.out.println();
+        for (int i = 0; i < deret.length; i++) {
+           deret1[i]=b/2;
+           b=b+4;
+            //System.out.print(deret1[i]+" ");
+        }
+        //System.out.println();
+        for (int i = 0; i < deret.length; i++) {
+            c= deret[i]+deret1[i];
+            if (i== deret.length-1){
+                System.out.print(c);
+            }else{
+                System.out.print(c+", ");
+            }
+        }
+
     }
 }
