@@ -31,7 +31,7 @@ public class Kalkulator {
         } else if (operasi == 4) {
             if( b == 0){
                 System.out.println("Error bang!!");
-                System.exit(402);
+                System.exit(402 );
             }
             hasil = a/b;
 
