@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test GET 100 ALBUMS API</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c15a358-0754-4186-a5cb-f7fc2e560758</testCaseGuid>
+</TestCaseEntity>
