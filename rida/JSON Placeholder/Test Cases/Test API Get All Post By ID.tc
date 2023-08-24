@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test API Get All Post By ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>790b6e98-7a68-4896-9ce3-6602ed3eb3b8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0e94a357-d937-430f-9301-91e150c7076b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>0e94a357-d937-430f-9301-91e150c7076b</id>
+      <masked>false</masked>
+      <name>PostId</name>
+   </variable>
+</TestCaseEntity>
