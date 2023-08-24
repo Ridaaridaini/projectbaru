@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test API GET SINGLE PHOTO BY ID API</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f74a079a-e497-442e-84cc-16ff0d714a0a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d573ffa-82a6-466b-87aa-6a6f37f17c19</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>3d573ffa-82a6-466b-87aa-6a6f37f17c19</id>
+      <masked>false</masked>
+      <name>PhotosId</name>
+   </variable>
+</TestCaseEntity>
