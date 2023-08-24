@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user  login dengan detail yang valid.</description>
+   <name>Test Case 1.1 (Script)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>940cc6fa-66ec-4e92-8deb-6508a075b51e</testCaseGuid>
+</TestCaseEntity>
