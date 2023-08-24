@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ketika user menggunakan username dan password yang tidak valid</description>
+   <name>Test Case 1.2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfef59d9-cffb-4229-b560-e5eea73df7b2</testCaseGuid>
+</TestCaseEntity>
