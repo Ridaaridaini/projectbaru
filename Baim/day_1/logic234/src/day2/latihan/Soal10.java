@@ -72,5 +72,7 @@ public class Soal10 {
         } else {
             System.out.println("Pin yang anda masukkan salah!");
         }
+
+        scanner.close();
     }
 }

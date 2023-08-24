@@ -9,6 +9,7 @@ public class Soal20 {
         String[] bilangan = scanner.nextLine().split(" ");
         int[] angka = new int[bilangan.length];
 
+        
         int jumlah = 0;
         for (int i = 0; i < bilangan.length; i++) {
             jumlah += Integer.parseInt(bilangan[i]);
