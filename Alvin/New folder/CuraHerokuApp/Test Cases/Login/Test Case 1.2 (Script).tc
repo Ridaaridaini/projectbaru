@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user login dengan menggunakan detail yang invalid</description>
+   <name>Test Case 1.2 (Script)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef7672df-cc71-4df9-ab9a-67637883fd00</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f627d568-aca7-4f52-b3c5-8340acdbf102</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48caa71d-b03f-48e7-8e28-e1b9c27f00b3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b467574-fcfe-4a85-8e24-fd98cda00928</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>f627d568-aca7-4f52-b3c5-8340acdbf102</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'8SQVv/p9jVQlAgA5jBHJwQ=='</defaultValue>
+      <description>Password salah untuk Test Case 1.2</description>
+      <id>48caa71d-b03f-48e7-8e28-e1b9c27f00b3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Login failed! Please ensure the username and password are valid.'</defaultValue>
+      <description>error message sesuai document test case</description>
+      <id>3b467574-fcfe-4a85-8e24-fd98cda00928</id>
+      <masked>false</masked>
+      <name>error_message</name>
+   </variable>
+</TestCaseEntity>

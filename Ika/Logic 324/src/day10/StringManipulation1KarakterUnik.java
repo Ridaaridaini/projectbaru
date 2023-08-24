@@ -6,7 +6,7 @@ public class StringManipulation1KarakterUnik {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("masukan kalimat: ");
-        String kal = scanner.nextLine().toLowerCase().replaceAll("[^a-zA-z]", "").replace(" ","");
+        String kal = scanner.nextLine().toLowerCase().replaceAll("[^a-zA-Z]", "").replace(" ","");
         String[] arrKal = kal.split("");
         String kalimat = "";
 
