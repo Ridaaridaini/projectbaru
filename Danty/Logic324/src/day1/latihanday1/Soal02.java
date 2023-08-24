@@ -8,7 +8,7 @@ public class Soal02 {
         int b = 4;
 
 
-        //cara yang benar
+        //cara y ang benar
         a = a + b; //(a yang di depan berarti = 7)
         b = a - b; //(b yang didepan = 3)
         a = a - b; //(a yang didepan = 4)

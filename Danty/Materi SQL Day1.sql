@@ -255,13 +255,12 @@ select nm_film from film where nm_film ilike '%s';
 select nm_film from film where nm_film ilike '%d%';
 
 --12 tampilkan nama film dengan pendapatan terkecil yang mengandung 'h'
---select nm_film, min(pendapatan) as pendapatan from film group by nm_film having nm_film ilike '%h%' order by min(pendapatan) asc;
+
 
 select nm_film, pendapatan from film where nm_film ilike '%h%' and pendapatan = (select min(pendapatan) from film where nm_film ilike '%h%');
 
 
 --13 tampilkan nama film dengan pendapatan terbesar yang mengandung huruf 'd'
---select nm_film, max(pendapatan) as pendapatan from film group by nm_film having nm_film ilike '%d%' order by max(pendapatan) desc limit 1;
 
 select nm_film, pendapatan from film where nm_film ilike '%d%' and pendapatan = (select max(pendapatan) from film where nm_film ilike '%d%');
 

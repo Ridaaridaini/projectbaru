@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ketika user login dengan menggunakan username dan password yang valid namun akun terlah terblokir</description>
+   <name>Test Case 1.3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb20f9df-b258-4af7-b739-ae10acdf06e3</testCaseGuid>
+</TestCaseEntity>

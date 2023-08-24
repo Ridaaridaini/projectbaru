@@ -14,18 +14,18 @@ public class Soal9 {
 
         int bil1 = 3;
         for (int i = 0; i < arrDeret1.length; i++) {
-            arrDeret1[i] = bil1;
+            arrDeret1[i] = bil1 - 1;
+            bil1 = bil1 + 3;
             System.out.print(arrDeret1[i]+ " ");
-            bil1 = bil1 + 3 - 1;
         }
         System.out.println();
 
-        int bil2 = 4 / 2;
+        int bil2 = 4;
         for (int i = 0; i < arrDeret2.length; i++) {
-            arrDeret2[i] = bil2;
-            System.out.print(arrDeret2[i]+ " ");
-            bil2 = bil2 + 4 / 2;
+            arrDeret2[i] = bil2/2;
 
+            bil2 = bil2 + 4;
+            System.out.print(arrDeret2[i]+ " ");
         }
 
         System.out.println();
@@ -54,6 +54,7 @@ public class Soal9 {
         System.out.println();
 
         for (int i = 0; i < tambah.length; i++) {
+
             System.out.print(tambah[i]+ " ");
         }
     }
