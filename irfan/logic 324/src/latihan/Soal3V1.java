@@ -26,8 +26,8 @@ public class Soal3V1 {
                 }
 
         }
-        System.out.println("Huruf vokal: " + vokal ); // aaee
-        System.out.println("Huruf konsonan: " + konsonan  ); // clmpss
+        System.out.println("Huruf vokal: " + konsonan ); // aaee
+        System.out.println("Huruf konsonan: " + konsonan.length()  ); // clmpss
     }
 }
 

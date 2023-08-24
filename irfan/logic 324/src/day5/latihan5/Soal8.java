@@ -18,8 +18,10 @@ public class Soal8 {
             arrGanjil[i] = b;
             arrGenap[i] = a;
 
+
             a = a+2;
             b = b+2;
+
         }
 
         // menampilkan deret
