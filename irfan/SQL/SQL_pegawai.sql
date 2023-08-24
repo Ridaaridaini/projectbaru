@@ -258,7 +258,7 @@ select
 	date_part('year',age(now(),to_date(biodata.dob,'yyyy-mm-dd'))) || 'tahun' as usia,
 	sum(case
 	   when family.status ilike 'anak' then 1
-	   else 0
+		else 0 
 	   end) as jml_anak
 from biodata
 inner join employee
@@ -328,6 +328,7 @@ select
 	biodata.first_name||' '||biodata.last_name as fullname,
 	employee.status as status,
 	date_part('year',age(now(),to_date(biodata.dob,'yyyy-mm-dd'))) as umur
+	
 	from
 biodata
 inner join employee on employee.biodata_id = biodata.id
@@ -418,7 +419,7 @@ employee
 inner join leave_request 
 	on leave_request.employee_id = employee.id
 group by alasan
-)select * from table1 where jumlah = (select max (jumlah ) from table1);
+)select * from table1 where jumlah = (select max(jumlah) from table1)
 
 	
 --13.tampilkan last_name,salary,bonus,dan salary_plus_bonus untuk 
@@ -468,18 +469,20 @@ left join employee on employee.biodata_id = biodata.id where nip is null
 --Nomor 3 => belum
 select
 	biodata.first_name||' '||biodata.last_name as Full_name,
-	biodata.marital_status as status_pernikahan,
+	case
+	when biodata.marital_status is true then 'Sudah Menikah'
+		else 'Belum Menikah'
+	end as merit,
 	sum(case
-	   when family.status ilike 'anak' then 1
-	   else 0
-	   end) as jml_anak
+		when family.status ilike 'anak' then 1
+		else 0
+	end) as anak
 	from
 biodata
-left join employee on employee.biodata_id = biodata.id
-inner join family on family.biodata_id = family.id
-group by Full_name,status_pernikahan
+left join family on family.biodata_id = family.id
+group by Full_name,merit
 
---Nomor 4 => belum
+--Nomor 4 
 select 
 	*
 	from
@@ -510,22 +513,48 @@ select
 	*
 	from
 biodata
-where biodata.pob = 'Jakarta'
+where pob ilike 'Jakarta' and address not ilike '%jakarta%'
 
 --Nomor 8 => belum
 select
 	biodata.first_name||' '||biodata.last_name as fullname,
 	position.name as jabatan,
-	date_part('year',age(now(),to_date(biodata.dob,'yyyy-mm-dd'))) || ' tahun' as tahun_lahir
+	date_part('year',age(now(),to_date(biodata.dob,'yyyy-mm-dd'))) || ' tahun' as tahun_lahir,
+	sum(case
+		when family.status ilike 'anak' then 1
+		else 0
+	end) as jum_anak
 	from
 biodata
 left join employee on employee.biodata_id = biodata.id
 inner join employee_position on employee_position.employee_id = employee.id
 left join position on employee_position.position_id = position.id
+left join family on family.biodata_id = biodata.id
 group by fullname,jabatan,tahun_lahir
 order by tahun_lahir desc;
 
---Nomor 9 => belum
+
+select
+	concat(b.first_name, ' ', b.last_name) as fullname,
+	p.name as jabatan,
+	date_part('year', age(now(), to_date(b.dob, 'yyyy-MM-dd'))) as umur,
+	sum(case
+		when f.status ilike 'anak' then 1
+		else 0
+	end) as jum_anak
+	from biodata b
+		inner join employee e
+			on b.id = e.biodata_id
+		inner join employee_position ep
+			on e.id = ep.employee_id
+		inner join position p
+			on p.id = ep.position_id
+		left join family f
+			on b.id = f.biodata_id
+		group by fullname, jabatan, umur;
+
+
+--Nomor 9 
 select
 	biodata.first_name||' '||biodata.last_name as fullname,
 	sum(date_part('day',age(leave_request.end_date,leave_request.start_date))) || ' hari' as jumlah_cuti
@@ -535,6 +564,7 @@ biodata
 left join employee on employee.biodata_id = biodata.id
 inner join leave_request on leave_request.employee_id = employee.id
 group by fullname
+	
 
 --Nomor 10 
 select
