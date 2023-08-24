@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user membuat appointment dengan data yang valid</description>
+   <name>Test Case 2.1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a17a467a-0a36-4430-83d0-73644118121c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2589514b-e3ec-49b0-af5b-2fb7e193d62a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ad4e11e-7b6a-4f37-a8d0-3a76d32d2ef0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>2589514b-e3ec-49b0-af5b-2fb7e193d62a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
+      <description></description>
+      <id>2ad4e11e-7b6a-4f37-a8d0-3a76d32d2ef0</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
