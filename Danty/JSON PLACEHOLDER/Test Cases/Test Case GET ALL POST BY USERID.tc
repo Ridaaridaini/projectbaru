@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Case GET ALL POST BY USERID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdd13dcd-6bca-4427-9bf2-aabe37f68542</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>997f598a-eea7-4372-8099-4f7b3b3df9f3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>997f598a-eea7-4372-8099-4f7b3b3df9f3</id>
+      <masked>false</masked>
+      <name>user_id</name>
+   </variable>
+</TestCaseEntity>

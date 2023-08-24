@@ -24,7 +24,7 @@ public class Soal6 {
         if (kalimat.equalsIgnoreCase(kalSplitBalik)){
             System.out.println("palindrom");
         }else {
-            System.out.println("bukan");
+            System.out.println("bukan palindrom");
         }
     }
 }

@@ -336,3 +336,107 @@ inner join position
 on employee_position.position_id = position.id
 where position.name = 'Staff';
 
+
+--6 URUTKAN NAMA2 KARYAWAN DAN STATUSNYA, DIURUTKAN DARI YANG PALING TUA KE YANG PALING MUDA
+select concat(first_name,' ',last_name) as full_name, employee.status
+from biodata
+inner join employee
+on biodata.id = employee.biodata_id
+order by age(now(),to_date(dob, 'yyyy-mm-dd')) desc;
+
+
+
+--7 TAMPILKAN LAST NAME DENGAN HURUF KAPITAL DIMANA LAST NAMENYA DIAWALI DENGAN HURUF M
+select upper(last_name)
+from biodata
+where last_name ilike 'm%';
+
+
+
+--8 TAMPILKAN EMPLOYEE ID, FULLNAME, SALARY_LAMA DAN SaLARY BARU
+--dimana salary baru itu sebesar 10% lebih besar dari salary lama
+--dan tampilkan dengan kolom alias Gaji Baru
+select employee.id, concat(first_name,' ',last_name) as full_name, employee.salary as salary_lama,
+salary + (0.1*salary) as gaji_baru
+from biodata
+inner join employee
+on biodata.id = employee.biodata_id;
+
+select salary, salary*salary as gaji_baru from employee;
+
+
+--9 TAMPILKAN NAMA KARYAWAN, JENIS PERJALANAN DINAS, TANGGAL PERJALANAN DINAS, DAN TOTAL PENGELUARANNYA SELAMA DINAS TERSEBUT
+select first_name, travel_type.name as Jenis_Perjalanan_Dinas, travel_request.start_date as tanggal_perjalanan_dinas,
+(travel_type.travel_fee + sum(travel_settlement.item_cost)) as total_pengeluaran
+from biodata
+inner join employee
+on biodata.id = employee.biodata_id
+inner join travel_request
+on employee.id = travel_request.employee_id
+inner join travel_type
+on travel_request.travel_type_id = travel_type.id
+inner join travel_settlement
+on travel_request.id = travel_settlement.travel_request_id
+group by first_name, travel_type.name, travel_request.start_date, travel_type.travel_fee;
+
+
+
+--10 BUATKAN QUERY UNTUK MENAMPILKAN DATA KARYAWAN YANG BELUM PERNAH MELAKUKAN PERJALANAN DINAS
+select first_name
+from biodata
+inner join employee
+on biodata.id = employee.biodata_id
+left join travel_request
+on employee.id = travel_request.employee_id
+where travel_request.id is null;
+
+
+--11 TAMPILKAN NAMA LENGKAP KARYAWAN, JENIS CUTI, ALASAN CUTI, DURASI CUTI DAN NOMOR TELEPON YANG BISA DIHUBUNGI
+--UNTUK MASING2 KARYAWAN YANG MENGAJUKAN CUTI
+
+select concat(first_name,' ',last_name) as full_name, leave.type as jenis_cuti, leave_request.reason as alasan_cuti,
+age(leave_request.end_date, leave_request.start_date) as durasi_cuti, contact_person.contact as nomor_telepon
+
+from biodata
+inner join employee
+on biodata.id = employee.biodata_id
+inner join contact_person
+on biodata.id = contact_person.biodata_id
+inner join leave_request
+on employee.id = leave_request.employee_id
+inner join leave
+on leave_request.leave_id = leave.id
+where contact_person.type = 'PHONE'
+group by full_name, jenis_cuti, alasan_cuti, durasi_cuti, nomor_telepon;
+
+
+--12 TAMPILKAN ALASAN CUTI YANG PALING SERING DIAJUKAN KARYAWAN
+--step 1
+select leave_request.reason as alasan_cuti, count(reason) as jumlah
+from leave_request
+group by leave_request.reason;
+
+--step 2
+select max(jumlah) as jumlah_cuti from (select leave_request.reason as alasan_cuti, count(reason) as jumlah
+from leave_request
+group by leave_request.reason) table2;
+
+--step 3
+select alasan_cuti from (select leave_request.reason as alasan_cuti, count(reason) as jumlah
+from leave_request
+group by leave_request.reason) table1 
+where table1.jumlah = (select max(jumlah) as jumlah_cuti from (select leave_request.reason as alasan_cuti, count(reason) as jumlah
+from leave_request
+group by leave_request.reason) table2);
+
+
+--13 TAMPILKAN LAST NAME, SALARY, BONUS
+--DAN SALARY_PLUS_BONUS UNTUK KARYAWAN YANG NAMANYA MENGANDUNG MINIMAL SALAH SATU DARI HURUF VOCAL
+--DIMANA BONUS SEBESAR 20% DARI SALARY
+
+select last_name, employee.salary, (0.2 *salary) as bonus, (salary + (0.2*salary)) as salary_plus_bonus
+from biodata
+inner join employee
+on biodata.id = employee.biodata_id
+where concat(first_name,' ',last_name) ilike '%a%' OR concat(first_name,' ',last_name) ilike '%i%' OR concat(first_name,' ',last_name) ilike '%u%'
+OR concat(first_name,' ',last_name) ilike '%e%' OR concat(first_name,' ',last_name) ilike '%o%';
