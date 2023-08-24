@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user  login dengan detail yang valid.</description>
+   <name>Test Case 1.1 (Script)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9f9faf7-e967-4b4e-ab04-98b79821f525</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>01a14bb6-42e7-4357-91c0-af09a846e23d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://katalon-demo-cura.herokuapp.com/'</defaultValue>
+      <description></description>
+      <id>01a14bb6-42e7-4357-91c0-af09a846e23d</id>
+      <masked>false</masked>
+      <name>WEB_URL</name>
+   </variable>
+</TestCaseEntity>
