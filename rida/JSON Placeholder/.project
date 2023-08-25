@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>%Users%ridaaridaini%Desktop%projectrida%batch-324-qa%rida%JSON Placeholder%JSON Placeholder.prj</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>kat-196980985600095413.groovy</name>
+			<type>1</type>
+			<location>/var/folders/yt/ghx0jyqj7tlcd9jt54hldq8r0000gn/T/Katalon/Web Services/kat-196980985600095413.groovy</location>
+		</link>
+		<link>
+			<name>kat-2954103787832835702.groovy</name>
+			<type>1</type>
+			<location>/var/folders/yt/ghx0jyqj7tlcd9jt54hldq8r0000gn/T/Katalon/Web Services/kat-2954103787832835702.groovy</location>
+		</link>
+		<link>
+			<name>kat-4096844697505565073.groovy</name>
+			<type>1</type>
+			<location>/var/folders/yt/ghx0jyqj7tlcd9jt54hldq8r0000gn/T/Katalon/Web Services/kat-4096844697505565073.groovy</location>
+		</link>
+		<link>
+			<name>kat-4679703794638543456.groovy</name>
+			<type>1</type>
+			<location>/var/folders/yt/ghx0jyqj7tlcd9jt54hldq8r0000gn/T/Katalon/Web Services/kat-4679703794638543456.groovy</location>
+		</link>
+		<link>
+			<name>kat-4857551547139941629.groovy</name>
+			<type>1</type>
+			<location>/var/folders/yt/ghx0jyqj7tlcd9jt54hldq8r0000gn/T/Katalon/Web Services/kat-4857551547139941629.groovy</location>
+		</link>
+		<link>
+			<name>kat-5907780572113460733.groovy</name>
+			<type>1</type>
+			<location>/var/folders/yt/ghx0jyqj7tlcd9jt54hldq8r0000gn/T/Katalon/Web Services/kat-5907780572113460733.groovy</location>
+		</link>
+		<link>
+			<name>kat-7284255936574294249.groovy</name>
+			<type>1</type>
+			<location>/var/folders/yt/ghx0jyqj7tlcd9jt54hldq8r0000gn/T/Katalon/Web Services/kat-7284255936574294249.groovy</location>
+		</link>
+		<link>
+			<name>kat-7529532671208431990.groovy</name>
+			<type>1</type>
+			<location>/var/folders/yt/ghx0jyqj7tlcd9jt54hldq8r0000gn/T/Katalon/Web Services/kat-7529532671208431990.groovy</location>
+		</link>
+		<link>
+			<name>kat-803676348795181933.groovy</name>
+			<type>1</type>
+			<location>/var/folders/yt/ghx0jyqj7tlcd9jt54hldq8r0000gn/T/Katalon/Web Services/kat-803676348795181933.groovy</location>
+		</link>
+		<link>
+			<name>kat-8736526125012623413.groovy</name>
+			<type>1</type>
+			<location>/var/folders/yt/ghx0jyqj7tlcd9jt54hldq8r0000gn/T/Katalon/Web Services/kat-8736526125012623413.groovy</location>
+		</link>
+		<link>
+			<name>kat-9021463755277701064.groovy</name>
+			<type>1</type>
+			<location>/var/folders/yt/ghx0jyqj7tlcd9jt54hldq8r0000gn/T/Katalon/Web Services/kat-9021463755277701064.groovy</location>
+		</link>
+	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1692840126976</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1692840126989</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>
