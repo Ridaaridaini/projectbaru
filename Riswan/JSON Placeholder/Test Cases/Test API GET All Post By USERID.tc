@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test API GET All Post By USERID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b150d32d-1b75-45dc-a8c2-003a5b5f7a02</testCaseGuid>
+</TestCaseEntity>
