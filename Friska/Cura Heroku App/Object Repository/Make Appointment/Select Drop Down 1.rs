@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select Drop Down Facility                          Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center</name>
+   <name>Select Drop Down 1</name>
    <tag></tag>
    <elementGuidId>cfab9c79-cb25-4f39-b98b-c9de5aaff418</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#combo_facility</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@id='combo_facility']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#combo_facility</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

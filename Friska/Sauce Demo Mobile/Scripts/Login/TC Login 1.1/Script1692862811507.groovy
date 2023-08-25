@@ -17,32 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('Object Repository/GET ALL POST BY USER ID',
-	["varUserId" : userId]))
+Mobile.startApplication('C:\\Users\\frisk\\Downloads\\mda-2.0.0-21.apk', true)
 
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView'), 0)
 
-//hitung user id
-jumUserId = WS.getElementsCount(response, "")
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Log In'), 0)
 
-//verifikasi user id nya sesuai
-for (int i = 0 ; i < jumUserId; i++) {
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText'), 'bob@example.com', 0)
 
-WS.verifyElementPropertyValue(response, "["+ i +"].userId", userId)
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (2)'), '10203040', 0)
 
-//verifikasi data tidak boleh null atau kosong
-userId = WS.getElementPropertyValue(response,"["+ i +"].userId")
-title = WS.getElementPropertyValue(response,"["+ i +"].title")
-body = WS.getElementPropertyValue(response,"["+ i +"].body")
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Login'), 0)
 
-assert userId != null && userId !="";
-assert title != null && title !="";
-assert body != null && body!="";
+Mobile.verifyElementExist(findTestObject('Object Repository/android.widget.TextView - Products'), 0)
 
-}
-
-
-
-
-
-
+Mobile.closeApplication()
 

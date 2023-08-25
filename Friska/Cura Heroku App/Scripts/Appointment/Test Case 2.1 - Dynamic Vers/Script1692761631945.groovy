@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Test Case 1.1 (Script)'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Make Appointment/Select Drop Down Facility                          Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'), 
+WebUI.selectOptionByValue(findTestObject('Make Appointment/Select Drop Down 1'), 
     facility, false)
 
 if (hospital_readmission.toString().equalsIgnoreCase('yes')) {
