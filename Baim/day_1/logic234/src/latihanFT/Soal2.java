@@ -6,28 +6,30 @@ public class Soal2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Masukkan Uang: ");
-        int uang = scanner.nextInt();
+        System.out.print("Masukkan rute: ");
+        String[] rute = scanner.nextLine().split(" ");
 
-        boolean masihBisa = true;
-        int point = 0;
-        int sisaUang = 0;
-        int coklat = 0;
+        int tinggi = 0;
+        int gunung = 0;
+        int lembah = 0;
 
-        while(masihBisa){
-            if(uang > 3000){
-                coklat += uang/3000;
-                uang -= (coklat*3000);
-                point = coklat;
-            } else if (uang < 3000){
-                while(point >= 5){
-                    point -= 5;
-                    coklat += 1;
+        for (String langkah : rute) {
+            if (langkah.equalsIgnoreCase("n")) {
+                tinggi++;
+            } else if (langkah.equalsIgnoreCase("t")) {
+                tinggi--;
+            }
+
+            if (tinggi == 0) {
+                if (langkah.equalsIgnoreCase("t")) {
+                    gunung++;
+                } else if (langkah.equalsIgnoreCase("n")) {
+                    lembah++;
                 }
-                System.out.println("Coklat: " + coklat);
-                System.out.println("Point: " + 1);
-                masihBisa = false;
             }
         }
+
+        System.out.println("Gunung: " + gunung);
+        System.out.println("Lembah: " + lembah);
     }
 }

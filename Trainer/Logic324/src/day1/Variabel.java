@@ -15,10 +15,10 @@ public class Variabel {
         long bilLong;
 
         //Assignment variabel
-        bilByte = 1;
-        bilShort = 1 + 3 + 6;
-        bilInt = 1;
-        bilLong = 1000000000000000l;
+            bilByte = 1;
+            bilShort = 1 + 3 + 6;
+            bilInt = 1;
+            bilLong = 1000000000000000l;
 
             //Bilangan desimal
                 //float

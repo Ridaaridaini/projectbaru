@@ -14,12 +14,11 @@ public class Soal1 {
 
         System.out.print("Masukkan panjang bilangan: ");
         int panjang = scanner.nextInt();
-
-        int bilAB = bilA + bilB;
+        
         int bil = 0;
         for (int i = 0; i < panjang; i++) {
             System.out.print(bil + ", ");
-            bil += bilAB;
+            bil += bilA + bilB;
         }
 
         scanner.close();

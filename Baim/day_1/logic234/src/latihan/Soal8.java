@@ -1,8 +1,8 @@
-package day2.latihan;
+package latihan;
 
 import java.util.Scanner;
 
-public class Soal10 {
+public class Soal8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int pinUser = 123456;
