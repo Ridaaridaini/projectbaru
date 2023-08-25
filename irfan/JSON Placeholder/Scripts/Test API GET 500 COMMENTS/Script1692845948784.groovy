@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('Object Repository/GET 500 COMMENTS AP'))
+response = WS.sendRequest(findTestObject('Object Repository/GET 500 COMMENTS API'))
 
 WS.verifyResponseStatusCode(response, 200)
 

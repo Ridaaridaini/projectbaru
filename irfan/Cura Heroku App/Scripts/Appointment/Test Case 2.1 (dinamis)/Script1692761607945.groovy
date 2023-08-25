@@ -26,7 +26,7 @@ if (hospital_readmission.toString().equalsIgnoreCase('yes')) {
 }
 
 if (healthcare_program.toString().equalsIgnoreCase('Medicare')) {
-    WebUI.check(findTestObject('Object Repository/Make Appointment/Radio Medicareprograms'))
+    WebUI.check(findTestObject('Object Repository/Make Appointment/Radio Medicare programs'))
 } else if (healthcare_program.toString().equalsIgnoreCase('Medicaid')) {
     WebUI.check(findTestObject('Object Repository/Make Appointment/Radio Medicaid programs'))
 } else {//none
@@ -51,9 +51,9 @@ hasilVisitdate = WebUI.getText(findTestObject('Make Appointment/Hasil visit date
 
 hasilComment = WebUI.getText(findTestObject('Make Appointment/Hasil comment'))
 
-assert hasilFacility.toString().equalsIgnoreCase(facility)
-assert hasilReadmission.toString().equalsIgnoreCase(hospital_readmission)
-assert hasilhealtcare.toString().equalsIgnoreCase(healthcare_program)
-assert hasilVisitdate.toString().equalsIgnoreCase(visit_date)
-assert hasilComment.toString().equalsIgnoreCase(comment)
+assert hasilFacility.trim().equalsIgnoreCase(facility.trim())
+assert hasilReadmission.trim().equalsIgnoreCase(hospital_readmission.trim())
+assert hasilhealtcare.trim().equalsIgnoreCase(healthcare_program.trim())
+assert hasilVisitdate.trim().equalsIgnoreCase(visit_date.trim())
+assert hasilComment.trim().equalsIgnoreCase(comment.trim())
 
