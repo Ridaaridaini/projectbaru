@@ -3,6 +3,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+
+import com.kms.katalon.constants.IdConstants
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -17,17 +19,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-HashMap<String,String> data = WebUI.callTestCase(findTestCase('TC Hero 1'), [:], FailureHandling.STOP_ON_FAILURE)
+idUser = 15;
+idClient = 102;
 
-WebUI.setText(findTestObject('herocura/input_Username_username'), 'John Doe')
-
-
-
-WebUI.setText(findTestObject('herocura/input_Password_password'), 'ThisIsNotAPassword')
-
-WebUI.click(findTestObject('Swadikap/button_Login'))
+HashMap<String,Object> data = new HashMap();
+data.put("idUser", idUser);
+data.put("idClient",idClient);
+data.put("bootcamp","Batch 324");
 
 return data;
-
-
-

@@ -15,19 +15,35 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.Keys
+import org.openqa.selenium.WebElement
 
-HashMap<String,String> data = WebUI.callTestCase(findTestCase('TC Hero 1'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('https://the-internet.herokuapp.com/tables')
 
-WebUI.setText(findTestObject('herocura/input_Username_username'), 'John Doe')
+WebUI.click(findTestObject('Sorting/TH Last Name 1'))
+WebUI.click(findTestObject('Sorting/TH Last Name 1'))
 
+//Ambil semua element dari last name
+List<WebElement> dataList = WebUI.findWebElements(findTestObject('Object Repository/Sorting/Data List Last Name 1'),10);
 
+//Deklarasi dua array
+String[] arrLastNameOri = new String[dataList.size()]
+String[] arrLastNameSort = new String[dataList.size()]
 
-WebUI.setText(findTestObject('herocura/input_Password_password'), 'ThisIsNotAPassword')
+//Isi Array yang Ori & Sort
+for(int i = 0; i< dataList.size(); i++){
+	text = dataList.get(i).text
+	arrLastNameOri[i] = text
+	arrLastNameSort[i] = text
+}
 
-WebUI.click(findTestObject('Swadikap/button_Login'))
+//Sort Array
+//Arrays.sort(arrLastNameSort)
+Arrays.sort(arrLastNameSort,Collections.reverseOrder())
 
-return data;
-
+//verifikasi arrayOri == arraySort
+println arrLastNameOri
+println arrLastNameSort
+assert arrLastNameOri == arrLastNameSort
 
 

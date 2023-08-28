@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\youha\\AppData\\Local\\Temp\\Katalon\\Test Cases\\TC Hero 3\\20230828_095548\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\youha\\AppData\\Local\\Temp\\Katalon\\Test Cases\\TC Sorting Last Name 1\\20230828_131434\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/TC Hero 3', new TestCaseBinding('Test Cases/TC Hero 3',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/TC Sorting Last Name 1', new TestCaseBinding('Test Cases/TC Sorting Last Name 1',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

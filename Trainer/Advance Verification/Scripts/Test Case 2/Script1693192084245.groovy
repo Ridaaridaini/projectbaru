@@ -17,17 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-HashMap<String,String> data = WebUI.callTestCase(findTestCase('TC Hero 1'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('herocura/input_Username_username'), 'John Doe')
-
-
-
-WebUI.setText(findTestObject('herocura/input_Password_password'), 'ThisIsNotAPassword')
-
-WebUI.click(findTestObject('Swadikap/button_Login'))
-
+HashMap<String,Object> data = WebUI.callTestCase(findTestCase('Test Case 1'), [:], FailureHandling.STOP_ON_FAILURE)
 return data;
-
-
-
