@@ -26,14 +26,16 @@ WS.verifyElementPropertyValue(response, "[0].postId", varPostId)
 
 WS.verifyResponseStatusCode(response, 200)
 
-
-id = WS.getElementPropertyValue(response, "[0].id")
-name = WS.getElementPropertyValue(response, "[0].name")
-email = WS.getElementPropertyValue(response, "[0].email")
-body = WS.getElementPropertyValue(response, "[0].body")
+for(i=0; i < 5; i++) {
+id = WS.getElementPropertyValue(response, "["+ i +"]")
+name = WS.getElementPropertyValue(response, "["+ i +"]")
+email = WS.getElementPropertyValue(response, "["+ i +"]")
+body = WS.getElementPropertyValue(response, "["+ i +"]")
 
 
 assert id != null && id != "";
 assert name != null && name != "";
 assert email != null && email != "";
 assert body != null && body != "";
+
+}

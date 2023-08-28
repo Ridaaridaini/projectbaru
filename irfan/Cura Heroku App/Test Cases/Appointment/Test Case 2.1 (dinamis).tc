@@ -62,7 +62,7 @@
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>'Tokyo CURA Healthcare Center'</defaultValue>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
       <description></description>
       <id>8109e66b-3360-44ee-8203-c08ff26c1bef</id>
       <masked>false</masked>
@@ -76,7 +76,7 @@
       <name>hospital_readmission</name>
    </variable>
    <variable>
-      <defaultValue>'Medicaid'</defaultValue>
+      <defaultValue>'medicare'</defaultValue>
       <description></description>
       <id>0f04cd77-7060-47b2-a773-a31bcbe86fd1</id>
       <masked>false</masked>
