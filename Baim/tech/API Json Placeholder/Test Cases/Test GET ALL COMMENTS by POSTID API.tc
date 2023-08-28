@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test GET ALL COMMENTS by POSTID API</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61ad31cd-4d2f-45d5-af12-24c8059edd5f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e1cef320-0e66-491d-aaa4-a779307d38a0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>e1cef320-0e66-491d-aaa4-a779307d38a0</id>
+      <masked>false</masked>
+      <name>postId</name>
+   </variable>
+</TestCaseEntity>

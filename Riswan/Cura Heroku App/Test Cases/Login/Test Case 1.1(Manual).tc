@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user  login dengan detail yang valid.</description>
+   <name>Test Case 1.1(Manual)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e66978b-5bd0-4447-9e0f-9c07abc54cf2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9ae5f113-c27a-4804-a240-264642dbaf4c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dac6f3fa-13bd-41a1-9b78-71f8a168a4ff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>9ae5f113-c27a-4804-a240-264642dbaf4c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
+      <description></description>
+      <id>dac6f3fa-13bd-41a1-9b78-71f8a168a4ff</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
