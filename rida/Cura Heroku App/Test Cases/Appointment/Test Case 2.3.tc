@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user membuat appointment tanpa memasukkan comment</description>
+   <name>Test Case 2.3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25664b38-e8bf-4c4e-80a8-fbae45a1aa83</testCaseGuid>
+</TestCaseEntity>

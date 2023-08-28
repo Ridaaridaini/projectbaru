@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.WEB_URL)
 
-WebUI.navigateToUrl(GlobalVariable.WEB_URL)
-
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('null'))
+WebUI.verifyElementPresent(findTestObject('Login/halaman_home'), 10)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Login/menu_humburger'))
 
-WebUI.setText(findTestObject('null'), 'John Doe')
+WebUI.click(findTestObject('Login/menu_login'))
 
-WebUI.setEncryptedText(findTestObject('null'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setText(findTestObject('Login/input_Username'), username)
 
-WebUI.click(findTestObject('null'))
+WebUI.setEncryptedText(findTestObject('Login/input_Password'), password)
+
+WebUI.click(findTestObject('Login/button_Login'))
 
