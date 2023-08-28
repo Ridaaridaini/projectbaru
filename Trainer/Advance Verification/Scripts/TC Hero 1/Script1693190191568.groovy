@@ -14,31 +14,19 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable
-
-import com.kms.katalon.core.webui.driver.DriverFactory
-import org.openqa.selenium.By
-import org.openqa.selenium.JavascriptExecutor
+import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys
-import org.openqa.selenium.WebDriver
 
-WebUI.openBrowser('https://octopus-portal-sit.digipay.dev/login')
+WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Swadikap/button_'))
+WebUI.click(findTestObject('herocura/a_Make Appointment'))
 
-//Membuat objek Web driver
-WebDriver webDriver = DriverFactory.getWebDriver();
+//Membuat objek Hashmap
+HashMap<String,String> data = new HashMap<String,String>();
+data.put("username", "irfankun");
+data.put("name", "sakurachan")
 
-//Mengambil Objek inputan usernamenya dulu
-field_username = webDriver.findElement(By.xpath('//input[@id="username"]'));
-
-//Mengambil Error Messge
-error_message =  ((JavascriptExecutor) webDriver)
-	.executeScript("return arguments[0].validationMessage", field_username);
-println error_message
-
-//verifikasi apakah error message sesuai
-assert error_message == "Please fill out this field."
+return data
 
 
 

@@ -14,36 +14,15 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-import com.kms.katalon.core.webui.driver.DriverFactory
-import org.openqa.selenium.By
-import org.openqa.selenium.JavascriptExecutor
-import org.openqa.selenium.Keys
-import org.openqa.selenium.WebDriver
+HashMap<String,String> data = WebUI.callTestCase(findTestCase('TC Hero 2'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.openBrowser('https://octopus-portal-sit.digipay.dev/login')
+username = data.get("username");
+name = data.get("name");
 
-WebUI.click(findTestObject('Swadikap/button_'))
-
-//Membuat objek Web driver
-WebDriver webDriver = DriverFactory.getWebDriver();
-
-//Mengambil Objek inputan usernamenya dulu
-field_username = webDriver.findElement(By.xpath('//input[@id="username"]'));
-
-//Mengambil Error Messge
-error_message =  ((JavascriptExecutor) webDriver)
-	.executeScript("return arguments[0].validationMessage", field_username);
-println error_message
-
-//verifikasi apakah error message sesuai
-assert error_message == "Please fill out this field."
-
-
-
-
-
-
+println username;
+println name;
 
 

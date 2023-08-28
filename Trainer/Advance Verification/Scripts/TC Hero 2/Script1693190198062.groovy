@@ -14,36 +14,20 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-import com.kms.katalon.core.webui.driver.DriverFactory
-import org.openqa.selenium.By
-import org.openqa.selenium.JavascriptExecutor
-import org.openqa.selenium.Keys
-import org.openqa.selenium.WebDriver
+HashMap<String,String> data = WebUI.callTestCase(findTestCase('TC Hero 1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.openBrowser('https://octopus-portal-sit.digipay.dev/login')
-
-WebUI.click(findTestObject('Swadikap/button_'))
-
-//Membuat objek Web driver
-WebDriver webDriver = DriverFactory.getWebDriver();
-
-//Mengambil Objek inputan usernamenya dulu
-field_username = webDriver.findElement(By.xpath('//input[@id="username"]'));
-
-//Mengambil Error Messge
-error_message =  ((JavascriptExecutor) webDriver)
-	.executeScript("return arguments[0].validationMessage", field_username);
-println error_message
-
-//verifikasi apakah error message sesuai
-assert error_message == "Please fill out this field."
+WebUI.setText(findTestObject('herocura/input_Username_username'), 'John Doe')
 
 
 
+WebUI.setText(findTestObject('herocura/input_Password_password'), 'ThisIsNotAPassword')
 
+WebUI.click(findTestObject('herocura/button_Login'))
 
+return data;
 
 
 
