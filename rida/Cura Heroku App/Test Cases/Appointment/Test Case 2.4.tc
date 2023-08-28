@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user membuat appointment tanpa memilih healthcare</description>
+   <name>Test Case 2.4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46b1dc05-6944-4ed4-b519-1e0f56112291</testCaseGuid>
+</TestCaseEntity>

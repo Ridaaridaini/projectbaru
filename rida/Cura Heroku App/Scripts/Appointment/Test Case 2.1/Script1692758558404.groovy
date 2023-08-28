@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Test Case 1.1(Record)'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementPresent(findTestObject('Make Appointment/title_Appointment Confirmation'), 10)
+
 WebUI.selectOptionByValue(findTestObject('Make Appointment/dropdown_facility'), 'Tokyo CURA Healthcare Center', false)
 
 WebUI.check(findTestObject('Make Appointment/chk_box'))
@@ -30,6 +32,4 @@ WebUI.setText(findTestObject('Make Appointment/input_Visit Date (Required)'), '2
 WebUI.setText(findTestObject('Make Appointment/textarea_Comment'), 'beti')
 
 WebUI.click(findTestObject('Make Appointment/button_Book Appointment'))
-
-WebUI.verifyElementPresent(findTestObject('Make Appointment/title_Appointment Confirmation'), 0)
 

@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Appointment,Firefox 116.0,,,2023-08-25 10:29:53,2023-08-25 10:30:44,51.541s,PASSED
+,,,,,,,
+Test Cases/Appointment/Test Case 2.1 - dinamis,Firefox 116.0,Test Case ketika user membuat appointment dengan data yang valid,,2023-08-25 10:29:53,2023-08-25 10:30:12,19.069s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1(Record)""), [""username"":username, ""password"":password], STOP_ON_FAILURE)",Firefox 116.0,,,2023-08-25 10:29:54,2023-08-25 10:30:07,12.699s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_facility""), facility, false)",Firefox 116.0,,,2023-08-25 10:30:07,2023-08-25 10:30:07,0.662s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Firefox 116.0,,,2023-08-25 10:30:07,2023-08-25 10:30:08,0.510s,PASSED
+"if (toString().equalsIgnoreCase(""Medicare""))",Firefox 116.0,,,2023-08-25 10:30:08,2023-08-25 10:30:08,0.003s,PASSED
+"else if (toString().equalsIgnoreCase(""Medicaid""))",Firefox 116.0,,,2023-08-25 10:30:08,2023-08-25 10:30:08,0.003s,PASSED
+else,Firefox 116.0,,,2023-08-25 10:30:08,2023-08-25 10:30:08,0.522s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)""), visit_date)",Firefox 116.0,,,2023-08-25 10:30:08,2023-08-25 10:30:09,0.872s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment""), comment)",Firefox 116.0,,,2023-08-25 10:30:09,2023-08-25 10:30:10,0.733s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Firefox 116.0,,,2023-08-25 10:30:10,2023-08-25 10:30:11,0.638s,PASSED
+"verifyElementPresent(findTestObject(""Make Appointment/title_Appointment Confirmation""), 0)",Firefox 116.0,,,2023-08-25 10:30:11,2023-08-25 10:30:11,0.496s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/hasil_facility""))",Firefox 116.0,,,2023-08-25 10:30:11,2023-08-25 10:30:11,0.300s,PASSED
+"hasil_healthcare_program = getText(findTestObject(""Object Repository/Make Appointment/hasil_healtycare_program""))",Firefox 116.0,,,2023-08-25 10:30:11,2023-08-25 10:30:12,0.285s,PASSED
+"hasil_visit_date = getText(findTestObject(""Object Repository/Make Appointment/hasil_visit_date""))",Firefox 116.0,,,2023-08-25 10:30:12,2023-08-25 10:30:12,0.284s,PASSED
+"hasil_commend = getText(findTestObject(""Object Repository/Make Appointment/hasil_commend""))",Firefox 116.0,,,2023-08-25 10:30:12,2023-08-25 10:30:12,0.300s,PASSED
+"hasil_chkbox = getText(findTestObject(""Object Repository/Make Appointment/hasil_chkbox""))",Firefox 116.0,,,2023-08-25 10:30:12,2023-08-25 10:30:12,0.273s,PASSED
+assert trim().equalsIgnoreCase(facility.trim()),Firefox 116.0,,,2023-08-25 10:30:12,2023-08-25 10:30:12,0.003s,PASSED
+assert trim().equalsIgnoreCase(healthcare_program.trim()),Firefox 116.0,,,2023-08-25 10:30:12,2023-08-25 10:30:12,0.000s,PASSED
+assert trim().equalsIgnoreCase(visit_date.trim()),Firefox 116.0,,,2023-08-25 10:30:12,2023-08-25 10:30:12,0.000s,PASSED
+assert trim().equalsIgnoreCase(comment.trim()),Firefox 116.0,,,2023-08-25 10:30:12,2023-08-25 10:30:12,0.000s,PASSED
+assert trim().equalsIgnoreCase(hospital_readmission.trim()),Firefox 116.0,,,2023-08-25 10:30:12,2023-08-25 10:30:12,0.001s,PASSED
+,,,,,,,
+Test Cases/Appointment/Test Case 2.1 - dinamis,Firefox 116.0,Test Case ketika user membuat appointment dengan data yang valid,,2023-08-25 10:30:13,2023-08-25 10:30:28,15.870s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1(Record)""), [""username"":username, ""password"":password], STOP_ON_FAILURE)",Firefox 116.0,,,2023-08-25 10:30:13,2023-08-25 10:30:23,10.581s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_facility""), facility, false)",Firefox 116.0,,,2023-08-25 10:30:23,2023-08-25 10:30:24,0.876s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Firefox 116.0,,,2023-08-25 10:30:24,2023-08-25 10:30:24,0.001s,PASSED
+"if (toString().equalsIgnoreCase(""Medicare""))",Firefox 116.0,,,2023-08-25 10:30:24,2023-08-25 10:30:24,0.301s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)""), visit_date)",Firefox 116.0,,,2023-08-25 10:30:24,2023-08-25 10:30:25,0.807s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment""), comment)",Firefox 116.0,,,2023-08-25 10:30:25,2023-08-25 10:30:26,0.732s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Firefox 116.0,,,2023-08-25 10:30:26,2023-08-25 10:30:27,0.634s,PASSED
+"verifyElementPresent(findTestObject(""Make Appointment/title_Appointment Confirmation""), 0)",Firefox 116.0,,,2023-08-25 10:30:27,2023-08-25 10:30:27,0.469s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/hasil_facility""))",Firefox 116.0,,,2023-08-25 10:30:27,2023-08-25 10:30:27,0.294s,PASSED
+"hasil_healthcare_program = getText(findTestObject(""Object Repository/Make Appointment/hasil_healtycare_program""))",Firefox 116.0,,,2023-08-25 10:30:27,2023-08-25 10:30:28,0.261s,PASSED
+"hasil_visit_date = getText(findTestObject(""Object Repository/Make Appointment/hasil_visit_date""))",Firefox 116.0,,,2023-08-25 10:30:28,2023-08-25 10:30:28,0.282s,PASSED
+"hasil_commend = getText(findTestObject(""Object Repository/Make Appointment/hasil_commend""))",Firefox 116.0,,,2023-08-25 10:30:28,2023-08-25 10:30:28,0.284s,PASSED
+"hasil_chkbox = getText(findTestObject(""Object Repository/Make Appointment/hasil_chkbox""))",Firefox 116.0,,,2023-08-25 10:30:28,2023-08-25 10:30:28,0.271s,PASSED
+assert trim().equalsIgnoreCase(facility.trim()),Firefox 116.0,,,2023-08-25 10:30:28,2023-08-25 10:30:28,0.000s,PASSED
+assert trim().equalsIgnoreCase(healthcare_program.trim()),Firefox 116.0,,,2023-08-25 10:30:28,2023-08-25 10:30:28,0.001s,PASSED
+assert trim().equalsIgnoreCase(visit_date.trim()),Firefox 116.0,,,2023-08-25 10:30:28,2023-08-25 10:30:28,0.000s,PASSED
+assert trim().equalsIgnoreCase(comment.trim()),Firefox 116.0,,,2023-08-25 10:30:28,2023-08-25 10:30:28,0.000s,PASSED
+assert trim().equalsIgnoreCase(hospital_readmission.trim()),Firefox 116.0,,,2023-08-25 10:30:28,2023-08-25 10:30:28,0.000s,PASSED
+,,,,,,,
+Test Cases/Appointment/Test Case 2.1 - dinamis,Firefox 116.0,Test Case ketika user membuat appointment dengan data yang valid,,2023-08-25 10:30:28,2023-08-25 10:30:44,16.006s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1(Record)""), [""username"":username, ""password"":password], STOP_ON_FAILURE)",Firefox 116.0,,,2023-08-25 10:30:29,2023-08-25 10:30:39,9.996s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_facility""), facility, false)",Firefox 116.0,,,2023-08-25 10:30:39,2023-08-25 10:30:39,0.885s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Firefox 116.0,,,2023-08-25 10:30:39,2023-08-25 10:30:40,0.523s,PASSED
+"if (toString().equalsIgnoreCase(""Medicare""))",Firefox 116.0,,,2023-08-25 10:30:40,2023-08-25 10:30:40,0.002s,PASSED
+"else if (toString().equalsIgnoreCase(""Medicaid""))",Firefox 116.0,,,2023-08-25 10:30:40,2023-08-25 10:30:40,0.496s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)""), visit_date)",Firefox 116.0,,,2023-08-25 10:30:40,2023-08-25 10:30:41,0.851s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment""), comment)",Firefox 116.0,,,2023-08-25 10:30:41,2023-08-25 10:30:42,0.719s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Firefox 116.0,,,2023-08-25 10:30:42,2023-08-25 10:30:43,0.610s,PASSED
+"verifyElementPresent(findTestObject(""Make Appointment/title_Appointment Confirmation""), 0)",Firefox 116.0,,,2023-08-25 10:30:43,2023-08-25 10:30:43,0.478s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/hasil_facility""))",Firefox 116.0,,,2023-08-25 10:30:43,2023-08-25 10:30:43,0.290s,PASSED
+"hasil_healthcare_program = getText(findTestObject(""Object Repository/Make Appointment/hasil_healtycare_program""))",Firefox 116.0,,,2023-08-25 10:30:43,2023-08-25 10:30:44,0.273s,PASSED
+"hasil_visit_date = getText(findTestObject(""Object Repository/Make Appointment/hasil_visit_date""))",Firefox 116.0,,,2023-08-25 10:30:44,2023-08-25 10:30:44,0.281s,PASSED
+"hasil_commend = getText(findTestObject(""Object Repository/Make Appointment/hasil_commend""))",Firefox 116.0,,,2023-08-25 10:30:44,2023-08-25 10:30:44,0.266s,PASSED
+"hasil_chkbox = getText(findTestObject(""Object Repository/Make Appointment/hasil_chkbox""))",Firefox 116.0,,,2023-08-25 10:30:44,2023-08-25 10:30:44,0.268s,PASSED
+assert trim().equalsIgnoreCase(facility.trim()),Firefox 116.0,,,2023-08-25 10:30:44,2023-08-25 10:30:44,0.000s,PASSED
+assert trim().equalsIgnoreCase(healthcare_program.trim()),Firefox 116.0,,,2023-08-25 10:30:44,2023-08-25 10:30:44,0.000s,PASSED
+assert trim().equalsIgnoreCase(visit_date.trim()),Firefox 116.0,,,2023-08-25 10:30:44,2023-08-25 10:30:44,0.001s,PASSED
+assert trim().equalsIgnoreCase(comment.trim()),Firefox 116.0,,,2023-08-25 10:30:44,2023-08-25 10:30:44,0.000s,PASSED
+assert trim().equalsIgnoreCase(hospital_readmission.trim()),Firefox 116.0,,,2023-08-25 10:30:44,2023-08-25 10:30:44,0.000s,PASSED
