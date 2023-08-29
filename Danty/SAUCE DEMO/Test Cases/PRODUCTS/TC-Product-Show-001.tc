@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can see product in product page</description>
+   <name>TC-Product-Show-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f38d301b-7d06-43ee-ba31-95a71ba2757f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>191ea4ba-19c6-49e7-a595-90923dae0b5b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c2a1ad85-bd76-4488-ad66-b9f132f45610</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>191ea4ba-19c6-49e7-a595-90923dae0b5b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>c2a1ad85-bd76-4488-ad66-b9f132f45610</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

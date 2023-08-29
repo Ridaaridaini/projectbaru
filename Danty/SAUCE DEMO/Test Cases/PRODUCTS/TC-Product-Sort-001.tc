@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin mengurutkan nama produk dari A ke Z</description>
+   <name>TC-Product-Sort-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae10019f-7fd9-457f-8d5b-b54944febe29</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8ca7f454-be05-4167-b091-ef1adfd6e359</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dada3021-6e2d-4f59-8fa1-ccc9bca61312</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>8ca7f454-be05-4167-b091-ef1adfd6e359</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>dada3021-6e2d-4f59-8fa1-ccc9bca61312</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
