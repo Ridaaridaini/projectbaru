@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user membuat appointment tanpa memasukkan data visit date</description>
+   <name>Test Case 2.2 belum</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ee65e8f-220e-4cb1-8cc7-6a69c1d6f117</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1444592b-ad73-420a-83cd-6e0019b24b65</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>17aba539-41e3-4234-9cc8-edd24d98aeef</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e36abe1-3eaf-45c4-a268-c48ddd3d55b2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>1444592b-ad73-420a-83cd-6e0019b24b65</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>'Yes'</defaultValue>
+      <description></description>
+      <id>17aba539-41e3-4234-9cc8-edd24d98aeef</id>
+      <masked>false</masked>
+      <name>hospital_readmission</name>
+   </variable>
+   <variable>
+      <defaultValue>'medicaId'</defaultValue>
+      <description></description>
+      <id>1e36abe1-3eaf-45c4-a268-c48ddd3d55b2</id>
+      <masked>false</masked>
+      <name>healthcare_program</name>
+   </variable>
+</TestCaseEntity>

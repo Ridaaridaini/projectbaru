@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>test case ketika user membuat appoitment dengan memasukan tanggal sebelum hari log in</description>
+   <name>Test Case 2.3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb679597-c561-4fa2-bee4-4dd321ccf010</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>34fb9cbd-7ee6-47fa-9373-9f7688912626</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bcc69cdd-f07e-4b20-ab45-61f096781e0d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67ef464e-35ba-45ed-b13b-814d30223e6d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0aaadbc6-ae6a-4fc7-9b2e-830fcd71f11c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>74925e61-e582-436c-b51e-d9d0545a3ca7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>34fb9cbd-7ee6-47fa-9373-9f7688912626</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>'Yes'</defaultValue>
+      <description></description>
+      <id>bcc69cdd-f07e-4b20-ab45-61f096781e0d</id>
+      <masked>false</masked>
+      <name>hospital_readmission</name>
+   </variable>
+   <variable>
+      <defaultValue>'medicaId'</defaultValue>
+      <description></description>
+      <id>67ef464e-35ba-45ed-b13b-814d30223e6d</id>
+      <masked>false</masked>
+      <name>healthcare_program</name>
+   </variable>
+   <variable>
+      <defaultValue>'23/08/2023'</defaultValue>
+      <description></description>
+      <id>0aaadbc6-ae6a-4fc7-9b2e-830fcd71f11c</id>
+      <masked>false</masked>
+      <name>tanggal_booking</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hello World'</defaultValue>
+      <description></description>
+      <id>74925e61-e582-436c-b51e-d9d0545a3ca7</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>
