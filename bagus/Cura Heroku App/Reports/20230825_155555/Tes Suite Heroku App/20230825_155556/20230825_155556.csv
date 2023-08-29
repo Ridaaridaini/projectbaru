@@ -1,0 +1,159 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Tes Suite Heroku App,Edge Chromium 115,,,2023-08-25 15:56:04,2023-08-25 15:59:52,3m - 48.746s,FAILED
+,,,,,,,
+Test Cases/Login/Test Case 1.1 (Cara Manual),Edge Chromium 115,Test Case ketika user  login dengan detail yang valid.,,2023-08-25 15:56:04,2023-08-25 15:56:19,15.075s,PASSED
+openBrowser(web_url),Edge Chromium 115,,,2023-08-25 15:56:04,2023-08-25 15:56:13,8.891s,PASSED
+maximizeWindow(),Edge Chromium 115,,,2023-08-25 15:56:13,2023-08-25 15:56:14,0.237s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/title_homepage""), 0)",Edge Chromium 115,,,2023-08-25 15:56:14,2023-08-25 15:56:14,0.465s,PASSED
+"click(findTestObject(""Login Manual/burger_button""))",Edge Chromium 115,,,2023-08-25 15:56:14,2023-08-25 15:56:15,0.595s,PASSED
+"click(findTestObject(""Login Manual/burger_button_login""))",Edge Chromium 115,,,2023-08-25 15:56:15,2023-08-25 15:56:16,0.965s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/Title_Login""), 0)",Edge Chromium 115,,,2023-08-25 15:56:16,2023-08-25 15:56:16,0.487s,PASSED
+"setText(findTestObject(""Login Manual/input_Username""), Username)",Edge Chromium 115,,,2023-08-25 15:56:16,2023-08-25 15:56:17,0.841s,PASSED
+"setEncryptedText(findTestObject(""Login Manual/input_Password""), password)",Edge Chromium 115,,,2023-08-25 15:56:17,2023-08-25 15:56:17,0.589s,PASSED
+"click(findTestObject(""Login Manual/button_Login (1)""))",Edge Chromium 115,,,2023-08-25 15:56:17,2023-08-25 15:56:19,1.114s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/title_Make Appointment""), 5)",Edge Chromium 115,,,2023-08-25 15:56:19,2023-08-25 15:56:19,0.416s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case 1.2,Edge Chromium 115,Negative test case,,2023-08-25 15:56:19,2023-08-25 15:56:38,18.536s,PASSED
+openBrowser(web_url),Edge Chromium 115,,,2023-08-25 15:56:19,2023-08-25 15:56:28,9.069s,PASSED
+maximizeWindow(),Edge Chromium 115,,,2023-08-25 15:56:28,2023-08-25 15:56:29,0.172s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/title_homepage""), 0)",Edge Chromium 115,,,2023-08-25 15:56:29,2023-08-25 15:56:29,0.392s,PASSED
+"click(findTestObject(""Login Manual/burger_button""))",Edge Chromium 115,,,2023-08-25 15:56:29,2023-08-25 15:56:29,0.518s,PASSED
+"click(findTestObject(""Login Manual/burger_button_login""))",Edge Chromium 115,,,2023-08-25 15:56:29,2023-08-25 15:56:30,0.955s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/Title_Login""), 0)",Edge Chromium 115,,,2023-08-25 15:56:30,2023-08-25 15:56:31,0.468s,PASSED
+"setText(findTestObject(""Login Manual/input_Username""), username)",Edge Chromium 115,,,2023-08-25 15:56:31,2023-08-25 15:56:32,0.859s,PASSED
+"setEncryptedText(findTestObject(""Login Manual/input_Password""), password)",Edge Chromium 115,,,2023-08-25 15:56:32,2023-08-25 15:56:32,0.475s,PASSED
+"click(findTestObject(""Login Manual/button_Login (1)""))",Edge Chromium 115,,,2023-08-25 15:56:32,2023-08-25 15:56:33,1.091s,PASSED
+"verifyElementText(findTestObject(""Login Negative/Error_Login failed Please ensure the username and password are valid""), ""Login failed! Please ensure the username and password are valid."")",Edge Chromium 115,,,2023-08-25 15:56:33,2023-08-25 15:56:34,0.434s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 15:56:34,2023-08-25 15:56:37,3.035s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 15:56:37,2023-08-25 15:56:38,0.793s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case 1.3,Edge Chromium 115,Test case when user input valid username and user didn't input password,,2023-08-25 15:56:38,2023-08-25 15:56:50,12.696s,FAILED
+openBrowser(web_url),Edge Chromium 115,,,2023-08-25 15:56:38,2023-08-25 15:56:45,6.791s,PASSED
+maximizeWindow(),Edge Chromium 115,,,2023-08-25 15:56:45,2023-08-25 15:56:45,0.154s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/title_homepage""), 0)",Edge Chromium 115,,,2023-08-25 15:56:45,2023-08-25 15:56:45,0.383s,PASSED
+"click(findTestObject(""Login Manual/burger_button""))",Edge Chromium 115,,,2023-08-25 15:56:45,2023-08-25 15:56:46,0.446s,PASSED
+"click(findTestObject(""Login Manual/burger_button_login""))",Edge Chromium 115,,,2023-08-25 15:56:46,2023-08-25 15:56:47,0.974s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/Title_Login""), 0)",Edge Chromium 115,,,2023-08-25 15:56:47,2023-08-25 15:56:47,0.485s,PASSED
+"setText(findTestObject(""Login Manual/input_Username""), ""John Doe"")",Edge Chromium 115,,,2023-08-25 15:56:47,2023-08-25 15:56:48,0.796s,PASSED
+"setEncryptedText(findTestObject(""Login Manual/input_Password""), """")",Edge Chromium 115,,,2023-08-25 15:56:48,2023-08-25 15:56:48,0.459s,PASSED
+"click(findTestObject(""Login Manual/button_Login (1)""))",Edge Chromium 115,,,2023-08-25 15:56:48,2023-08-25 15:56:49,1.037s,PASSED
+"verifyElementText(findTestObject(""Login Negative/Error_Login failed Please ensure the username and password are valid""), ""Please fills out this field."")",Edge Chromium 115,,,2023-08-25 15:56:49,2023-08-25 15:56:50,0.911s,FAILED
+,,,,,,,
+Test Cases/Login/Test Case 1.4,Edge Chromium 115,Test case when didn't input username and user input password,,2023-08-25 15:56:50,2023-08-25 15:57:04,13.605s,FAILED
+openBrowser(web_url),Edge Chromium 115,,,2023-08-25 15:56:51,2023-08-25 15:56:58,7.848s,PASSED
+maximizeWindow(),Edge Chromium 115,,,2023-08-25 15:56:58,2023-08-25 15:56:59,0.156s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/title_homepage""), 0)",Edge Chromium 115,,,2023-08-25 15:56:59,2023-08-25 15:56:59,0.405s,PASSED
+"click(findTestObject(""Login Manual/burger_button""))",Edge Chromium 115,,,2023-08-25 15:56:59,2023-08-25 15:56:59,0.412s,PASSED
+"click(findTestObject(""Login Manual/burger_button_login""))",Edge Chromium 115,,,2023-08-25 15:56:59,2023-08-25 15:57:00,0.957s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/Title_Login""), 0)",Edge Chromium 115,,,2023-08-25 15:57:00,2023-08-25 15:57:01,0.390s,PASSED
+"setText(findTestObject(""Login Manual/input_Username""), """")",Edge Chromium 115,,,2023-08-25 15:57:01,2023-08-25 15:57:02,0.829s,PASSED
+"setEncryptedText(findTestObject(""Login Manual/input_Password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Edge Chromium 115,,,2023-08-25 15:57:02,2023-08-25 15:57:02,0.494s,PASSED
+"click(findTestObject(""Login Manual/button_Login (1)""))",Edge Chromium 115,,,2023-08-25 15:57:02,2023-08-25 15:57:03,1.047s,PASSED
+"verifyElementText(findTestObject(""Login Negative/Error_Login failed Please ensure the username and password are valid""), ""Please fills out this field."")",Edge Chromium 115,,,2023-08-25 15:57:03,2023-08-25 15:57:04,0.777s,FAILED
+,,,,,,,
+Test Cases/Login/Test Case 1.5,Edge Chromium 115,Test case when user input valid username and user input invalid password,,2023-08-25 15:57:04,2023-08-25 15:57:17,13.246s,FAILED
+openBrowser(web_url),Edge Chromium 115,,,2023-08-25 15:57:04,2023-08-25 15:57:12,7.483s,PASSED
+maximizeWindow(),Edge Chromium 115,,,2023-08-25 15:57:12,2023-08-25 15:57:12,0.146s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/title_homepage""), 0)",Edge Chromium 115,,,2023-08-25 15:57:12,2023-08-25 15:57:12,0.414s,PASSED
+"click(findTestObject(""Login Manual/burger_button""))",Edge Chromium 115,,,2023-08-25 15:57:12,2023-08-25 15:57:13,0.402s,PASSED
+"click(findTestObject(""Login Manual/burger_button_login""))",Edge Chromium 115,,,2023-08-25 15:57:13,2023-08-25 15:57:14,1.011s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/Title_Login""), 0)",Edge Chromium 115,,,2023-08-25 15:57:14,2023-08-25 15:57:14,0.434s,PASSED
+"setText(findTestObject(""Login Manual/input_Username""), ""John Doe"")",Edge Chromium 115,,,2023-08-25 15:57:14,2023-08-25 15:57:15,0.824s,PASSED
+"setEncryptedText(findTestObject(""Login Manual/input_Password""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Edge Chromium 115,,,2023-08-25 15:57:15,2023-08-25 15:57:15,0.476s,PASSED
+"click(findTestObject(""Login Manual/button_Login (1)""))",Edge Chromium 115,,,2023-08-25 15:57:15,2023-08-25 15:57:16,1.002s,PASSED
+"verifyElementText(findTestObject(""Login Negative/Error_Login failed Please ensure the username and password are valid""), ""Incorrect username or password."")",Edge Chromium 115,,,2023-08-25 15:57:16,2023-08-25 15:57:17,0.816s,FAILED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,Test case when user make appointment,,2023-08-25 15:57:17,2023-08-25 15:57:41,23.537s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 15:57:18,2023-08-25 15:57:31,13.889s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 15:57:31,2023-08-25 15:57:32,0.695s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 15:57:32,2023-08-25 15:57:33,0.398s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 15:57:33,2023-08-25 15:57:33,0.347s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 15:57:33,2023-08-25 15:57:34,0.835s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 15:57:34,2023-08-25 15:57:35,0.935s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 15:57:35,2023-08-25 15:57:38,3.729s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 15:57:38,2023-08-25 15:57:39,0.466s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 15:57:39,2023-08-25 15:57:39,0.378s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 15:57:39,2023-08-25 15:57:40,0.355s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 15:57:40,2023-08-25 15:57:40,0.372s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 15:57:40,2023-08-25 15:57:40,0.343s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 15:57:40,2023-08-25 15:57:41,0.357s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 15:57:41,2023-08-25 15:57:41,0.005s,PASSED
+"verifyMatch(trim().toLowerCase(), trim().toLowerCase(), false)",Edge Chromium 115,,,2023-08-25 15:57:41,2023-08-25 15:57:41,0.000s,PASSED
+"verifyMatch(trim().toLowerCase(), trim().toLowerCase(), false)",Edge Chromium 115,,,2023-08-25 15:57:41,2023-08-25 15:57:41,0.000s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 15:57:41,2023-08-25 15:57:41,0.000s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 15:57:41,2023-08-25 15:57:41,0.000s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.2,Edge Chromium 115,Test case when user didn't fill out visi date field,,2023-08-25 15:57:41,2023-08-25 15:57:59,18.015s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 15:57:41,2023-08-25 15:57:54,12.545s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 15:57:54,2023-08-25 15:57:54,0.720s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 15:57:54,2023-08-25 15:57:55,0.446s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 15:57:55,2023-08-25 15:57:55,0.326s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), """")",Edge Chromium 115,,,2023-08-25 15:57:55,2023-08-25 15:57:56,0.756s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 15:57:56,2023-08-25 15:57:57,0.886s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 15:57:57,2023-08-25 15:57:57,0.457s,PASSED
+driver = getWebDriver(),Edge Chromium 115,,,2023-08-25 15:57:57,2023-08-25 15:57:57,0.025s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@id=""txt_visit_date""]""))",Edge Chromium 115,,,2023-08-25 15:57:57,2023-08-25 15:57:58,0.512s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 115,,,2023-08-25 15:57:58,2023-08-25 15:57:58,0.024s,PASSED
+println(accept_button_message),Edge Chromium 115,,,2023-08-25 15:57:58,2023-08-25 15:57:58,0.006s,PASSED
+"verifyMatch(accept_button_message, ""Please fill out this field."", false)",Edge Chromium 115,,,2023-08-25 15:57:58,2023-08-25 15:57:58,0.000s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 15:57:58,2023-08-25 15:57:59,0.798s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.3,Edge Chromium 115,Test case when user didn't fill out comment field,,2023-08-25 15:57:59,2023-08-25 15:58:15,15.901s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 15:57:59,2023-08-25 15:58:11,11.738s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), ""Hongkong CURA Healthcare Center"", false)",Edge Chromium 115,,,2023-08-25 15:58:11,2023-08-25 15:58:11,0.715s,PASSED
+"check(findTestObject(""Make Appointment/checkbox_apply_for_hospital_readmission""))",Edge Chromium 115,,,2023-08-25 15:58:11,2023-08-25 15:58:12,0.400s,PASSED
+"check(findTestObject(""Make Appointment/radio_button_input_Medicaid""))",Edge Chromium 115,,,2023-08-25 15:58:12,2023-08-25 15:58:12,0.400s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), ""29/08/2023"")",Edge Chromium 115,,,2023-08-25 15:58:12,2023-08-25 15:58:13,0.802s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), ""sakit kepala"")",Edge Chromium 115,,,2023-08-25 15:58:13,2023-08-25 15:58:14,0.885s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 15:58:14,2023-08-25 15:58:15,0.705s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.4,Edge Chromium 115,Test case when user want to make appointment but user didn't login,,2023-08-25 15:58:15,2023-08-25 15:58:28,13.428s,PASSED
+openBrowser(web_url),Edge Chromium 115,,,2023-08-25 15:58:15,2023-08-25 15:58:22,6.718s,PASSED
+maximizeWindow(),Edge Chromium 115,,,2023-08-25 15:58:22,2023-08-25 15:58:22,0.180s,PASSED
+"verifyElementPresent(findTestObject(""Login/h1_CURA Healthcare Service""), 0)",Edge Chromium 115,,,2023-08-25 15:58:22,2023-08-25 15:58:22,0.379s,PASSED
+"click(findTestObject(""Login/button_make_appointment_home_page""))",Edge Chromium 115,,,2023-08-25 15:58:22,2023-08-25 15:58:24,1.583s,PASSED
+"verifyElementVisible(findTestObject(""Login/h2_Login""))",Edge Chromium 115,,,2023-08-25 15:58:24,2023-08-25 15:58:24,0.412s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 15:58:24,2023-08-25 15:58:27,3.010s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 15:58:27,2023-08-25 15:58:28,0.815s,PASSED
+,,,,,,,
+Test Cases/History/Test Case 3.1,Edge Chromium 115,Test case when user not yet make apointment and user go to history page,,2023-08-25 15:58:28,2023-08-25 15:58:45,16.657s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":""John Doe"", ""password"":""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM""], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 15:58:28,2023-08-25 15:58:39,10.967s,PASSED
+"click(findTestObject(""History/button_burger_make_apointment_page""))",Edge Chromium 115,,,2023-08-25 15:58:39,2023-08-25 15:58:40,0.346s,PASSED
+"click(findTestObject(""History/button_history""))",Edge Chromium 115,,,2023-08-25 15:58:40,2023-08-25 15:58:40,0.861s,PASSED
+"verifyElementText(findTestObject(""History/no_appointment""), ""No appointment."", STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 15:58:40,2023-08-25 15:58:41,0.410s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 15:58:41,2023-08-25 15:58:44,3.003s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 15:58:44,2023-08-25 15:58:45,0.832s,PASSED
+,,,,,,,
+Test Cases/History/Test Case 3.2,Edge Chromium 115,Test case when user go to history menu after make appointment,,2023-08-25 15:58:45,2023-08-25 15:59:12,26.919s,PASSED
+"callTestCase(findTestCase(""Make Appointment/Test Case 2.1 (Versi Dinamis)""), [""username"":""John Doe"", ""password"":""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"", ""dropdown_menu"":""Tokyo CURA Healthcare Center"", ""hospital_readmission"":""Yes"", ... ], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 15:58:45,2023-08-25 15:59:04,18.775s,PASSED
+"click(findTestObject(""History/button_burger_appointment_confirm""))",Edge Chromium 115,,,2023-08-25 15:59:04,2023-08-25 15:59:04,0.406s,PASSED
+"click(findTestObject(""History/button_history_appointment_confirm""))",Edge Chromium 115,,,2023-08-25 15:59:04,2023-08-25 15:59:05,0.861s,PASSED
+"facility_appointment = getText(findTestObject(""Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 15:59:05,2023-08-25 15:59:05,0.388s,PASSED
+"readmission_appointment = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 15:59:05,2023-08-25 15:59:06,0.351s,PASSED
+"program_appointment = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 15:59:06,2023-08-25 15:59:06,0.345s,PASSED
+"comment_appointment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 15:59:06,2023-08-25 15:59:06,0.342s,PASSED
+"facility_history = getText(findTestObject(""History/history_facility""))",Edge Chromium 115,,,2023-08-25 15:59:06,2023-08-25 15:59:07,0.350s,PASSED
+"readmission_history = getText(findTestObject(""History/history_readmission""))",Edge Chromium 115,,,2023-08-25 15:59:07,2023-08-25 15:59:07,0.343s,PASSED
+"program_history = getText(findTestObject(""History/history_healthcare_program""))",Edge Chromium 115,,,2023-08-25 15:59:07,2023-08-25 15:59:07,0.345s,PASSED
+"comment_history = getText(findTestObject(""History/history_comment""))",Edge Chromium 115,,,2023-08-25 15:59:07,2023-08-25 15:59:08,0.331s,PASSED
+"verifyMatch(facility_history, facility_appointment, false)",Edge Chromium 115,,,2023-08-25 15:59:08,2023-08-25 15:59:08,0.001s,PASSED
+"verifyMatch(readmission_history, readmission_appointment, false)",Edge Chromium 115,,,2023-08-25 15:59:08,2023-08-25 15:59:08,0.000s,PASSED
+"verifyMatch(program_history, program_appointment, false)",Edge Chromium 115,,,2023-08-25 15:59:08,2023-08-25 15:59:08,0.000s,PASSED
+"verifyMatch(comment_history, comment_appointment, false)",Edge Chromium 115,,,2023-08-25 15:59:08,2023-08-25 15:59:08,0.005s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 15:59:08,2023-08-25 15:59:11,3.004s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 15:59:11,2023-08-25 15:59:12,0.815s,PASSED
+,,,,,,,
+Test Cases/Logout/Test Case 4.2,Edge Chromium 115,Test case when user back to previous page after logout,,2023-08-25 15:59:12,2023-08-25 15:59:34,22.401s,PASSED
+"callTestCase(findTestCase(""Logout/Test Case 4.1""), [:], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 15:59:12,2023-08-25 15:59:29,17.505s,PASSED
+back(),Edge Chromium 115,,,2023-08-25 15:59:29,2023-08-25 15:59:30,0.351s,PASSED
+"click(findTestObject(""Login/button_make_appointment_home_page""))",Edge Chromium 115,,,2023-08-25 15:59:30,2023-08-25 15:59:31,0.880s,PASSED
+"verifyElementVisible(findTestObject(""Login/h2_Login""))",Edge Chromium 115,,,2023-08-25 15:59:31,2023-08-25 15:59:31,0.393s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 15:59:31,2023-08-25 15:59:34,3.000s,PASSED
+,,,,,,,
+Test Cases/Logout/Test Case 4.1,Edge Chromium 115,Test case when user can logout,,2023-08-25 15:59:34,2023-08-25 15:59:52,18.323s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":""John Doe"", ""password"":""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM""], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 15:59:34,2023-08-25 15:59:47,12.687s,PASSED
+"click(findTestObject(""Logout/burber_button""))",Edge Chromium 115,,,2023-08-25 15:59:47,2023-08-25 15:59:47,0.367s,PASSED
+"click(findTestObject(""Logout/button_logout""))",Edge Chromium 115,,,2023-08-25 15:59:47,2023-08-25 15:59:48,1.074s,PASSED
+"click(findTestObject(""Login/button_make_appointment_home_page""))",Edge Chromium 115,,,2023-08-25 15:59:48,2023-08-25 15:59:49,0.770s,PASSED
+"verifyElementVisible(findTestObject(""Login/h2_Login""))",Edge Chromium 115,,,2023-08-25 15:59:49,2023-08-25 15:59:49,0.411s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 15:59:49,2023-08-25 15:59:52,3.011s,PASSED

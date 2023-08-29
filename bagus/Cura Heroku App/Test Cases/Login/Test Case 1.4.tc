@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case when didn't input username and user input password</description>
+   <name>Test Case 1.4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8748cf33-ed2e-4e3d-8cd3-9d0dd7841922</testCaseGuid>
+</TestCaseEntity>
