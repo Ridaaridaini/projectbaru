@@ -6,6 +6,10 @@
    <elementGuidId>c21fb04c-81e4-46ab-afde-fc4909c3001b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Bach' or . = 'Bach')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//table[@id='table1']/tbody/tr/td[1]</value>
       </entry>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>02a07832-af0f-48b3-8328-5d7421029bf6</webElementGuid>
+      <webElementGuid>d7bad88b-206a-4458-bc79-1b1b35d55194</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Bach</value>
-      <webElementGuid>dcff15a1-41c3-4f6a-8e1e-4daae293d64e</webElementGuid>
+      <webElementGuid>867b710d-7788-45a6-8d32-250c09bc02c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;table1&quot;)/tbody[1]/tr[1]/td[1]</value>
-      <webElementGuid>13cba328-7827-4fdb-9dea-1e702be77897</webElementGuid>
+      <webElementGuid>2d8007dd-9bc2-4623-8197-569810ff1a9a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='table1']/tbody/tr/td</value>
-      <webElementGuid>92014b53-7f2c-48af-adaa-4000a2755d14</webElementGuid>
+      <webElementGuid>b278273f-77eb-48cf-aa11-6ed06cbf770f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::td[1]</value>
-      <webElementGuid>7a56f1b9-7bee-4f5e-aae4-1e6bf31f3e20</webElementGuid>
+      <webElementGuid>ca3ca3fd-4e2c-4e9c-a05c-fb0fc99ba9b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Web Site'])[1]/following::td[1]</value>
-      <webElementGuid>5a57309d-e8fe-4bd4-9531-6d7b3c07f65b</webElementGuid>
+      <webElementGuid>58fb78b6-ec67-4de4-99a3-a512f4acc9de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Frank'])[1]/preceding::td[1]</value>
-      <webElementGuid>a7fd80a6-450d-4136-a16b-b514c6ea85aa</webElementGuid>
+      <webElementGuid>2eb5b2e2-b4b8-439e-9d80-933239a214a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='fbach@yahoo.com'])[1]/preceding::td[2]</value>
-      <webElementGuid>10d4b44a-dcfd-4244-9dc9-763069217ba1</webElementGuid>
+      <webElementGuid>faa1de0b-eaf3-4db1-85f0-73dc2c98e502</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Bach']/parent::*</value>
-      <webElementGuid>488b34f6-d72f-4306-a38e-0a7f1e7e06e3</webElementGuid>
+      <webElementGuid>3454f116-e895-4fa8-b4a4-5a43d67a5337</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td</value>
-      <webElementGuid>36c5b1bc-9fdf-432a-a08c-ed6f862bdb04</webElementGuid>
+      <webElementGuid>62d447f0-fc63-4229-acea-e63537d1295f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Bach' or . = 'Bach')]</value>
-      <webElementGuid>935b6419-a854-470e-b98f-f8184fdb8d9a</webElementGuid>
+      <webElementGuid>21a27df5-30cd-48e8-a30b-883199f7126c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

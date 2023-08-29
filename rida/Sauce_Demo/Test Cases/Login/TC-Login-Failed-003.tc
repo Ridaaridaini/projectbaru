@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User memasukkan username dan password yang valid</description>
+   <name>TC-Login-Failed-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb5dbc3a-6aff-4439-acff-035edba37ab1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5369b6aa-f78a-45fb-a052-c89c3d07747f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>5369b6aa-f78a-45fb-a052-c89c3d07747f</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

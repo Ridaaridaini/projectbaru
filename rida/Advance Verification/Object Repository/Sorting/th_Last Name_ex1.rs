@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>th</value>
-      <webElementGuid>9448cd8f-f842-4307-ba2a-ac742269519a</webElementGuid>
+      <webElementGuid>ee98dbef-208f-4aa6-a8d3-1a4b1205355a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>header headerSortDown</value>
-      <webElementGuid>e1aad0a3-114b-4108-ba69-3b6af79b7784</webElementGuid>
+      <webElementGuid>18aea6d4-ef14-4402-b1fe-0fb48406c840</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Last Name</value>
-      <webElementGuid>d9983d16-aa93-499c-8d2d-69fd88c87301</webElementGuid>
+      <webElementGuid>e3777033-92a6-410c-b0f0-b23a529041ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;table1&quot;)/thead[1]/tr[1]/th[@class=&quot;header headerSortDown&quot;]</value>
-      <webElementGuid>1b71d319-4c34-4a02-9024-c8a03451a704</webElementGuid>
+      <webElementGuid>19b77561-757d-44ee-8edf-9ca00be0bcb4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='table1']/thead/tr/th</value>
-      <webElementGuid>c48499c2-1190-433a-b778-8dfab2f3ac7f</webElementGuid>
+      <webElementGuid>21799f07-ce36-4f85-a26b-49a49c9d499d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Example 1'])[1]/following::th[1]</value>
-      <webElementGuid>0beebcd3-cfbf-40bd-ada3-7edd1a1afe9e</webElementGuid>
+      <webElementGuid>c858c602-5c88-49f9-8025-2d9f7e1521ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Tables'])[1]/following::th[1]</value>
-      <webElementGuid>fe720eed-80c8-40e0-97e1-10180c44b4cc</webElementGuid>
+      <webElementGuid>c82e5760-84ca-43c4-80a7-bda361fc281d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[1]/preceding::th[1]</value>
-      <webElementGuid>86f1204a-9865-43cf-9502-2628b4d613e1</webElementGuid>
+      <webElementGuid>14d05ceb-6c88-425f-8111-ca29145a2cb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//th</value>
-      <webElementGuid>e450befc-bf54-45bb-b126-0a56ab161214</webElementGuid>
+      <webElementGuid>67ccc4c6-620b-4ca1-9d13-137b03a6e884</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//th[(text() = 'Last Name' or . = 'Last Name')]</value>
-      <webElementGuid>3413834b-1277-47cb-920b-284ef5d4b8ee</webElementGuid>
+      <webElementGuid>0509aba2-5528-4fb8-af55-903a0e898a1b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

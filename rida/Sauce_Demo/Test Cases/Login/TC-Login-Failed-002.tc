@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User memasukkan username dan password yang valid</description>
+   <name>TC-Login-Failed-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d48f7b4-0354-43d6-9c3c-686143243b3b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f5f42751-2749-4c25-bb18-1f2a5c6ca84c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'rida'</defaultValue>
+      <description></description>
+      <id>f5f42751-2749-4c25-bb18-1f2a5c6ca84c</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>
