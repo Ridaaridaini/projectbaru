@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Data Due 2</name>
+   <tag></tag>
+   <elementGuidId>892715b9-bc5a-4646-b70d-6c0679818ab0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='table2']/tbody/tr/td[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.dues</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>eed8b6c5-6e4d-4bfe-8cbc-db3b7fe9f456</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dues</value>
+      <webElementGuid>e91ecdbc-e18a-47d0-8516-98c78a5ec8fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$50.00</value>
+      <webElementGuid>5cbd3a92-99ac-4e0a-b08e-1a94199366ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table2&quot;)/tbody[1]/tr[1]/td[@class=&quot;dues&quot;]</value>
+      <webElementGuid>fc8ee1c2-78ce-484e-b65a-a1d8326af456</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table2']/tbody/tr/td[4]</value>
+      <webElementGuid>3ba32aa1-41b2-468c-a11f-67cfb740a889</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='jsmith@gmail.com'])[2]/following::td[1]</value>
+      <webElementGuid>856b38f7-b574-482b-9e76-31bf6765d2f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='John'])[2]/following::td[2]</value>
+      <webElementGuid>ffab8127-e38e-4562-85a8-a5dffa1c97ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='http://www.jsmith.com'])[2]/preceding::td[1]</value>
+      <webElementGuid>cc14730c-87f3-4b40-9bdb-4b61b05eb391</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='edit'])[5]/preceding::td[2]</value>
+      <webElementGuid>9e00a471-d91d-45b1-8935-e6f62113ee02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[2]/tbody/tr/td[4]</value>
+      <webElementGuid>aa83f948-1ccf-42d5-b29a-f10d68a56323</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '$50.00' or . = '$50.00')]</value>
+      <webElementGuid>8bdd59c4-f23f-4b32-b0a3-521a8f8c33f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
