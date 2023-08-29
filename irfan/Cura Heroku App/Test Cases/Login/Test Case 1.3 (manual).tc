@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test Case ketika user login dengan username tanpa password</description>
    <name>Test Case 1.3 (manual)</name>
    <tag></tag>
    <comment></comment>
