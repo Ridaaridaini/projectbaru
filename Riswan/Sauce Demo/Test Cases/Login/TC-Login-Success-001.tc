@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User memasukkan username dan password yang valid</description>
+   <name>TC-Login-Success-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdec1a9e-8136-4f4f-972a-b25e0a66598f</testCaseGuid>
+</TestCaseEntity>

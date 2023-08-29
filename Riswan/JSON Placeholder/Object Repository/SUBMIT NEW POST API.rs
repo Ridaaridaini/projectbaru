@@ -11,7 +11,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;title\&quot; : \&quot;${varTitle}\&quot;,\n  \t\&quot;body\&quot; : \&quot;${varBody}\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \t\n    \&quot;title\&quot; : \&quot;${varTitle}\&quot;,\n  \t\&quot;body\&quot; : \&quot;${varBody}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -50,13 +50,6 @@
       <id>44aaf32a-0345-435e-974f-8b6389d619ad</id>
       <masked>false</masked>
       <name>varBody</name>
-   </variables>
-   <variables>
-      <defaultValue>101</defaultValue>
-      <description></description>
-      <id>cda68709-16e5-4fc9-8ee6-63747f891e69</id>
-      <masked>false</masked>
-      <name>var_id</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

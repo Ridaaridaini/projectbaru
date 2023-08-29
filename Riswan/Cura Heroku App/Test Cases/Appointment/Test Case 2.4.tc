@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user Tidak menginputkan kolom comment pada form appointment</description>
+   <name>Test Case 2.4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4ddb10e-3c97-486d-9eb0-dd22810322fe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ddd3a75d-c101-4895-8242-f3a318a8de18</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb3b693c-a1ad-4944-92f7-e11eb83f6b40</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8903da39-a7aa-4aee-98bd-d14e7f32d7d2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>22cc03bb-309d-49f9-92ac-91a319df59db</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ca105a38-2d8b-446d-920c-547cd70d4722</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>ddd3a75d-c101-4895-8242-f3a318a8de18</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>'yes'</defaultValue>
+      <description></description>
+      <id>cb3b693c-a1ad-4944-92f7-e11eb83f6b40</id>
+      <masked>false</masked>
+      <name>hospital_readmission</name>
+   </variable>
+   <variable>
+      <defaultValue>'medicaid'</defaultValue>
+      <description></description>
+      <id>8903da39-a7aa-4aee-98bd-d14e7f32d7d2</id>
+      <masked>false</masked>
+      <name>health_care_program</name>
+   </variable>
+   <variable>
+      <defaultValue>'26/08/2023'</defaultValue>
+      <description></description>
+      <id>22cc03bb-309d-49f9-92ac-91a319df59db</id>
+      <masked>false</masked>
+      <name>visit_date</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ca105a38-2d8b-446d-920c-547cd70d4722</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>

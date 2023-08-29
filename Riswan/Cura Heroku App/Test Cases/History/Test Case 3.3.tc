@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user setelah membaca appointment confirmation kemudian menekan tombol go to Hompage</description>
+   <name>Test Case 3.3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5fa3d376-dd98-47ca-9a97-dc4337600ec4</testCaseGuid>
+</TestCaseEntity>
