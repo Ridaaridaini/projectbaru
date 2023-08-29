@@ -19,11 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.webSauceDemo)
 
-WebUI.verifyElementPresent(findTestObject('Login Page Object/Swag Labs Text (tanda masuk home)'), 5)
+WebUI.verifyElementPresent(findTestObject('Login Page Object/button login'), 5)
 
 WebUI.setText(findTestObject('Login Page Object/username login'), username)
 
 WebUI.setEncryptedText(findTestObject('Login Page Object/password login'), password)
 
 WebUI.click(findTestObject('Login Page Object/button login'))
+
+WebUI.verifyTextPresent(locked_message, false)
 

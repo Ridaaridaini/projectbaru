@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Product Story Test Suite,Edge Chromium 116,,,2023-08-29 19:47:10,2023-08-29 19:49:13,2m - 3.026s,PASSED
+,,,,,,,
+Test Cases/Product/TC-Product-Show-001,Edge Chromium 116,User can see product in product page,Product,2023-08-29 19:47:11,2023-08-29 19:47:28,17.445s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login-Success-001""), [""username"":""standard_user"", ""password"":""qcu24s4901FyWDTwXGr6XA==""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:47:12,2023-08-29 19:47:28,16.320s,PASSED
+,,,,,,,
+Test Cases/Product/TC-Product-Sort-001,Edge Chromium 116,User ingin mengurutkan nama produk dari A ke Z,Product,2023-08-29 19:47:28,2023-08-29 19:47:42,13.980s,PASSED
+"callTestCase(findTestCase(""Product/TC-Product-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:47:29,2023-08-29 19:47:41,11.877s,PASSED
+"selectOptionByValue(findTestObject(""Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)""), ""az"", false)",Edge Chromium 116,,,2023-08-29 19:47:41,2023-08-29 19:47:42,1.083s,PASSED
+,,,,,,,
+Test Cases/Product/TC-Product-Sort-002,Edge Chromium 116,User ingin mengurutkan product items berurutan nama Z-A (descending),,2023-08-29 19:47:42,2023-08-29 19:47:56,14.395s,PASSED
+"callTestCase(findTestCase(""Product/TC-Product-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:47:43,2023-08-29 19:47:55,12.483s,PASSED
+"selectOptionByValue(findTestObject(""Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)""), ""za"", false)",Edge Chromium 116,,,2023-08-29 19:47:55,2023-08-29 19:47:56,1.061s,PASSED
+,,,,,,,
+Test Cases/Product/TC-Product-Sort-003,Edge Chromium 116,User ingin mengurutkan produk berdasarkan price (low to high),Product,2023-08-29 19:47:56,2023-08-29 19:48:13,16.167s,PASSED
+"callTestCase(findTestCase(""Product/TC-Product-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:47:57,2023-08-29 19:48:12,14.113s,PASSED
+"selectOptionByValue(findTestObject(""Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)""), ""lohi"", false)",Edge Chromium 116,,,2023-08-29 19:48:12,2023-08-29 19:48:13,0.985s,PASSED
+,,,,,,,
+Test Cases/Product/TC-Product-Sort-004,Edge Chromium 116,User ingin mengurutkan produk berdasarkan price (high to low),Product,2023-08-29 19:48:13,2023-08-29 19:48:28,14.948s,PASSED
+"callTestCase(findTestCase(""Product/TC-Product-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:48:14,2023-08-29 19:48:27,13.048s,PASSED
+"selectOptionByValue(findTestObject(""Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)""), ""hilo"", false)",Edge Chromium 116,,,2023-08-29 19:48:27,2023-08-29 19:48:28,0.926s,PASSED
+,,,,,,,
+Test Cases/Product/TC-Product-AddCart-001,Edge Chromium 116,User ingin menambahkan 1 product ke dalam keranjang,Product,2023-08-29 19:48:28,2023-08-29 19:48:44,16.390s,PASSED
+"callTestCase(findTestCase(""Product/TC-Product-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:48:28,2023-08-29 19:48:42,13.950s,PASSED
+"click(findTestObject(""Product/button add to cart backpack""))",Edge Chromium 116,,,2023-08-29 19:48:42,2023-08-29 19:48:43,0.565s,PASSED
+"verifyElementPresent(findTestObject(""Product/button remove item from cart""), 5)",Edge Chromium 116,,,2023-08-29 19:48:43,2023-08-29 19:48:43,0.498s,PASSED
+"verifyElementPresent(findTestObject(""Product/cart notification""), 5)",Edge Chromium 116,,,2023-08-29 19:48:43,2023-08-29 19:48:44,0.476s,PASSED
+,,,,,,,
+Test Cases/Product/TC-Product-AddCart-002,Edge Chromium 116,User ingin menambahkan 2 product ke dalam keranjang,Product,2023-08-29 19:48:44,2023-08-29 19:48:58,14.363s,PASSED
+"callTestCase(findTestCase(""Product/TC-Product-AddCart-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:48:45,2023-08-29 19:48:58,12.798s,PASSED
+"click(findTestObject(""Product/button add to cart pos 2""))",Edge Chromium 116,,,2023-08-29 19:48:58,2023-08-29 19:48:58,0.521s,PASSED
+,,,,,,,
+Test Cases/Product/TC-Product-RemoveCart-001,Edge Chromium 116,User meremove barang yang dipilih dari halaman product,Product,2023-08-29 19:48:58,2023-08-29 19:49:13,14.451s,PASSED
+"callTestCase(findTestCase(""Product/TC-Product-AddCart-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:48:59,2023-08-29 19:49:12,13.074s,PASSED
+"click(findTestObject(""Product/button remove item from cart""))",Edge Chromium 116,,,2023-08-29 19:49:12,2023-08-29 19:49:13,0.517s,PASSED

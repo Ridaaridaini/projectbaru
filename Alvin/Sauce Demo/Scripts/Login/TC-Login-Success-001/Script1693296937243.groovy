@@ -27,5 +27,5 @@ WebUI.setEncryptedText(findTestObject('Login Page Object/password login'), passw
 
 WebUI.click(findTestObject('Login Page Object/button login'))
 
-WebUI.verifyElementPresent(findTestObject('Login Page Object/Element Swag Labs Berhasil Login'), 5)
+WebUI.verifyElementPresent(findTestObject('Product/span_Products'), 5)
 

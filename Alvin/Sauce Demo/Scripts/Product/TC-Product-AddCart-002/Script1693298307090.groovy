@@ -17,7 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Product/TC-Product-AddCart-001'), [:], FailureHandling.STOP_ON_FAILURE)
+HashMap<String, String> itemProduct = WebUI.callTestCase(findTestCase('Product/TC-Product-AddCart-001'), [:], FailureHandling.STOP_ON_FAILURE)
+
+nameProduct = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/nama item pos 2 (product)'), 5).text
+descProduct = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/desc item pos 2 (product)'), 5).text
+priceProduct = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/price item pos 2 (product)'), 5).text
+
+itemProduct.put("nameProduct2", nameProduct)
+itemProduct.put("descProduct2", descProduct)
+itemProduct.put("priceProduct2", priceProduct)
 
 WebUI.click(findTestObject('Product/button add to cart pos 2'))
 
+WebUI.verifyElementPresent(findTestObject('selector for verify/button remove item pos 2'), 5)
+
+WebUI.verifyElementPresent(findTestObject('selector for verify/verify jumlah item 2 (cart)'), 5)
+
+return itemProduct

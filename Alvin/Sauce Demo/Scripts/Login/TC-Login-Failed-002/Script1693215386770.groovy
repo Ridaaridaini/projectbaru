@@ -23,5 +23,5 @@ WebUI.setText(findTestObject('Login Page Object/username login'), username)
 
 WebUI.click(findTestObject('Login Page Object/button login'))
 
-WebUI.verifyTextPresent(error_message, false)
+WebUI.verifyTextPresent(error_message, true)
 

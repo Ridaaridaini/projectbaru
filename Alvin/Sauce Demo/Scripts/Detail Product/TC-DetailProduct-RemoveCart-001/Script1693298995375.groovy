@@ -21,5 +21,7 @@ WebUI.callTestCase(findTestCase('Detail Product/TC-DetailProduct-AddCart-001'), 
 
 WebUI.click(findTestObject('Detail Product/button_Remove'))
 
-WebUI.verifyElementPresent(findTestObject('Detail Product/button_Add to cart'), 0)
+WebUI.verifyElementPresent(findTestObject('Detail Product/button_Add to cart'), 5)
+
+WebUI.verifyElementNotPresent(findTestObject('selector for verify/verify jumlah item 1 (cart)'), 5)
 

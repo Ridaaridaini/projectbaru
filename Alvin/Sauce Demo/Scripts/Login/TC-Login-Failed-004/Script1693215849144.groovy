@@ -23,5 +23,5 @@ WebUI.verifyElementPresent(findTestObject('Login Page Object/Swag Labs Text (tan
 
 WebUI.click(findTestObject('Login Page Object/button login'))
 
-WebUI.verifyTextPresent('Epic sadface: Username is  required', false)
+WebUI.verifyTextPresent(error_message, true)
 

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Detail Product Story Test Suite,Edge Chromium 116,,,2023-08-29 19:51:58,2023-08-29 19:53:14,1m - 15.851s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-Show-001,Edge Chromium 116,User ingin menampilkan Detail Products,Detail Product,2023-08-29 19:52:00,2023-08-29 19:52:22,22.983s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login-Success-001""), [""username"":""standard_user"", ""password"":""qcu24s4901FyWDTwXGr6XA==""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:52:01,2023-08-29 19:52:22,20.597s,PASSED
+"click(findTestObject(""Detail Product/detail produk name pos 1 backpack""))",Edge Chromium 116,,,2023-08-29 19:52:22,2023-08-29 19:52:22,0.674s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-AddCart-001,Edge Chromium 116,"Test case ketika user ingin 
+menambahkan product ke
+ keranjang",Detail Product,2023-08-29 19:52:23,2023-08-29 19:52:39,16.290s,PASSED
+"callTestCase(findTestCase(""Detail Product/TC-DetailProduct-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:52:24,2023-08-29 19:52:38,14.345s,PASSED
+"click(findTestObject(""Detail Product/button_Add to cart""))",Edge Chromium 116,,,2023-08-29 19:52:38,2023-08-29 19:52:39,0.784s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-RemoveCart-001,Edge Chromium 116,User ingin menghapus produk dari troli halaman pada halaman detail produk,Detail Product,2023-08-29 19:52:39,2023-08-29 19:52:58,19.154s,PASSED
+"callTestCase(findTestCase(""Detail Product/TC-DetailProduct-AddCart-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:52:41,2023-08-29 19:52:57,16.139s,PASSED
+"click(findTestObject(""Detail Product/button_Remove""))",Edge Chromium 116,,,2023-08-29 19:52:57,2023-08-29 19:52:57,0.566s,PASSED
+"verifyElementPresent(findTestObject(""Detail Product/button_Add to cart""), 0)",Edge Chromium 116,,,2023-08-29 19:52:57,2023-08-29 19:52:58,0.476s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-Nav-001,Edge Chromium 116,User ingin kembali ke halaman produk,Detail Product,2023-08-29 19:52:58,2023-08-29 19:53:14,16.349s,PASSED
+"callTestCase(findTestCase(""Detail Product/TC-DetailProduct-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:52:59,2023-08-29 19:53:13,14.012s,PASSED
+"click(findTestObject(""Detail Product/button_Back to products""))",Edge Chromium 116,,,2023-08-29 19:53:13,2023-08-29 19:53:14,0.731s,PASSED
+"verifyElementPresent(findTestObject(""Login Page Object/Element Swag Labs Berhasil Login""), 5)",Edge Chromium 116,,,2023-08-29 19:53:14,2023-08-29 19:53:14,0.486s,PASSED

@@ -11,11 +11,24 @@
       <value></value>
       <variableId>24fb0f30-e30a-48d9-be8d-8afe71dafab2</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6d70e9ce-c5b6-426b-961a-de86c168bf94</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
       <description></description>
       <id>24fb0f30-e30a-48d9-be8d-8afe71dafab2</id>
       <masked>false</masked>
       <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Epic sadface: Username is required'</defaultValue>
+      <description></description>
+      <id>6d70e9ce-c5b6-426b-961a-de86c168bf94</id>
+      <masked>false</masked>
+      <name>error_message</name>
    </variable>
 </TestCaseEntity>
