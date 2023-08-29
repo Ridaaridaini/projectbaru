@@ -62,5 +62,4 @@ assert hasilVisitDate.toString().equalsIgnoreCase(visit_date)
 
 assert hasilComment.toString().equalsIgnoreCase(comment)
 
-WebUI.closeBrowser()
-
+HashMap data = new HashMap<String, String>()

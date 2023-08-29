@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test Case ketika user  login dengan detail yang valid.</description>
    <name>Test Case 1.1(Script)</name>
    <tag></tag>
    <comment></comment>
