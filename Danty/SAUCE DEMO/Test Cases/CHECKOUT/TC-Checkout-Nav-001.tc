@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;User 
+batal membeli product 
+pada halaman checkout:
+overview&quot;</description>
+   <name>TC-Checkout-Nav-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3bd01de0-7f13-45fb-b02a-984805595276</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f48dfc25-6ef6-48d6-8521-fb40e34733be</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c5d68416-75f9-4835-9c4a-d61f4a840203</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9e8d71b-403b-42ef-89df-b5f669e17ba4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6cd4c818-145b-4424-86c2-ed053f2d0053</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>847de2f3-8173-4e94-a5b6-50c9713a9731</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>f48dfc25-6ef6-48d6-8521-fb40e34733be</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>c5d68416-75f9-4835-9c4a-d61f4a840203</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dianty'</defaultValue>
+      <description></description>
+      <id>f9e8d71b-403b-42ef-89df-b5f669e17ba4</id>
+      <masked>false</masked>
+      <name>First_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Fistika'</defaultValue>
+      <description></description>
+      <id>6cd4c818-145b-4424-86c2-ed053f2d0053</id>
+      <masked>false</masked>
+      <name>Last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345'</defaultValue>
+      <description></description>
+      <id>847de2f3-8173-4e94-a5b6-50c9713a9731</id>
+      <masked>false</masked>
+      <name>Postal</name>
+   </variable>
+</TestCaseEntity>

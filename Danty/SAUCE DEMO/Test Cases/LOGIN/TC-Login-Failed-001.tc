@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User login dengan menggunakan username dan password yang invalid.</description>
+   <name>TC-Login-Failed-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>030e4f30-d65a-46e3-b430-85f23eb0e81a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>373d2e1a-c3ec-4650-a898-c06bfbf2e977</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c69836c2-148f-4865-83cd-42ffc1df910a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6dc0c3db-b8f1-4643-8516-3c071545ad3a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user99'</defaultValue>
+      <description></description>
+      <id>373d2e1a-c3ec-4650-a898-c06bfbf2e977</id>
+      <masked>false</masked>
+      <name>usernameFailed</name>
+   </variable>
+   <variable>
+      <defaultValue>'locked_out_user'</defaultValue>
+      <description></description>
+      <id>c69836c2-148f-4865-83cd-42ffc1df910a</id>
+      <masked>false</masked>
+      <name>username2</name>
+   </variable>
+   <variable>
+      <defaultValue>'OSPFQ61MRVhEdo88bmn4CQ=='</defaultValue>
+      <description></description>
+      <id>6dc0c3db-b8f1-4643-8516-3c071545ad3a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

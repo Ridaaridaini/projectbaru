@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User meremove barang yang dipilih dari halaman product</description>
+   <name>TC-Product-RemoveCart-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ee7d3fc-c116-4c65-8ac6-11d67c41359d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>65b58175-e5a0-4e78-aebb-5955b863c5b2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>baf36f9c-ec80-4293-8864-89f5ebf0b563</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>65b58175-e5a0-4e78-aebb-5955b863c5b2</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>baf36f9c-ec80-4293-8864-89f5ebf0b563</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
