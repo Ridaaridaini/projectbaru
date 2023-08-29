@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suites Login,Firefox 116.0,,,2023-08-25 09:26:40,2023-08-25 09:27:10,29.708s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case 1.1(Record),Firefox 116.0,Test Case ketika user  login dengan detail yang valid.,,2023-08-25 09:26:40,2023-08-25 09:26:53,13.156s,PASSED
+"openBrowser("""")",Firefox 116.0,,,2023-08-25 09:26:41,2023-08-25 09:26:46,5.381s,PASSED
+maximizeWindow(),Firefox 116.0,,,2023-08-25 09:26:46,2023-08-25 09:26:47,0.539s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 116.0,,,2023-08-25 09:26:47,2023-08-25 09:26:49,2.802s,PASSED
+"click(findTestObject(""Object Repository/h1_CURA Healthcare Service""))",Firefox 116.0,,,2023-08-25 09:26:49,2023-08-25 09:26:50,0.677s,PASSED
+"click(findTestObject(""Object Repository/i_CURA Healthcare_fa fa-bars""))",Firefox 116.0,,,2023-08-25 09:26:50,2023-08-25 09:26:51,0.534s,PASSED
+"click(findTestObject(""Object Repository/a_Login""))",Firefox 116.0,,,2023-08-25 09:26:51,2023-08-25 09:26:52,0.925s,PASSED
+"setText(findTestObject(""Object Repository/input_Username_username""), username)",Firefox 116.0,,,2023-08-25 09:26:52,2023-08-25 09:26:52,0.582s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), password)",Firefox 116.0,,,2023-08-25 09:26:52,2023-08-25 09:26:53,0.339s,PASSED
+"click(findTestObject(""Object Repository/button_Login""))",Firefox 116.0,,,2023-08-25 09:26:53,2023-08-25 09:26:53,0.931s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case 1.2(Manual),Firefox 116.0,Test Case ketika user login dengan menggunakan detail yang invalid.,,2023-08-25 09:26:53,2023-08-25 09:27:10,16.202s,PASSED
+openBrowser(WEB_URL),Firefox 116.0,,,2023-08-25 09:26:54,2023-08-25 09:26:59,5.368s,PASSED
+maximizeWindow(),Firefox 116.0,,,2023-08-25 09:26:59,2023-08-25 09:27:00,0.550s,PASSED
+"verifyElementPresent(findTestObject(""h1_CURA Healthcare Service""), 10)",Firefox 116.0,,,2023-08-25 09:27:00,2023-08-25 09:27:00,0.361s,PASSED
+"click(findTestObject(""i_CURA Healthcare_fa fa-bars""))",Firefox 116.0,,,2023-08-25 09:27:00,2023-08-25 09:27:01,0.518s,PASSED
+"click(findTestObject(""a_Login""))",Firefox 116.0,,,2023-08-25 09:27:01,2023-08-25 09:27:01,0.846s,PASSED
+"click(findTestObject(""h2_Login""))",Firefox 116.0,,,2023-08-25 09:27:01,2023-08-25 09:27:02,0.489s,PASSED
+"setText(findTestObject(""input_Username_username""), Username)",Firefox 116.0,,,2023-08-25 09:27:02,2023-08-25 09:27:03,0.555s,PASSED
+"setEncryptedText(findTestObject(""input_Password_password""), Password)",Firefox 116.0,,,2023-08-25 09:27:03,2023-08-25 09:27:03,0.299s,PASSED
+"click(findTestObject(""button_Login""))",Firefox 116.0,,,2023-08-25 09:27:03,2023-08-25 09:27:04,0.887s,PASSED
+"verifyElementText(findTestObject(""Error_massage_Login failed""), ""Login failed! Please ensure the username and password are valid."")",Firefox 116.0,,,2023-08-25 09:27:04,2023-08-25 09:27:04,0.440s,PASSED
+delay(5),Firefox 116.0,,,2023-08-25 09:27:04,2023-08-25 09:27:09,5.028s,PASSED
+closeBrowser(),Firefox 116.0,,,2023-08-25 09:27:09,2023-08-25 09:27:10,0.515s,PASSED

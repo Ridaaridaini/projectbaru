@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ketika user masuk dengan mengunakan username yang sama namun huruf kecil semua atau kapital semua</description>
+   <name>Test Case 1.4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f258aa5e-90ed-4852-aa97-637d556aeee0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>81a76fb5-a710-4a4d-a733-37165d4c31e9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3e1f5592-20b0-4169-b51c-96d0668639f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'john doe'</defaultValue>
+      <description></description>
+      <id>81a76fb5-a710-4a4d-a733-37165d4c31e9</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'zPdkBIu2yzwV12AJZZyKxEFzqBOBfWMG'</defaultValue>
+      <description></description>
+      <id>3e1f5592-20b0-4169-b51c-96d0668639f6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Login,Edge Chromium 115,,,2023-08-25 09:26:34,2023-08-25 09:27:06,31.994s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case 1.1 (Manual),Edge Chromium 115,Test Case ketika user  login dengan detail yang valid.,,2023-08-25 09:26:34,2023-08-25 09:26:45,10.843s,PASSED
+openBrowser(WEB_URL),Edge Chromium 115,,,2023-08-25 09:26:34,2023-08-25 09:26:40,6.223s,PASSED
+maximizeWindow(),Edge Chromium 115,,,2023-08-25 09:26:40,2023-08-25 09:26:40,0.143s,PASSED
+"verifyElementPresent(findTestObject(""Login/Title Home Page""), 10)",Edge Chromium 115,,,2023-08-25 09:26:40,2023-08-25 09:26:41,0.342s,PASSED
+"click(findTestObject(""Login/Menu Burger""))",Edge Chromium 115,,,2023-08-25 09:26:41,2023-08-25 09:26:41,0.355s,PASSED
+"click(findTestObject(""Login/Menu Login""))",Edge Chromium 115,,,2023-08-25 09:26:41,2023-08-25 09:26:42,0.891s,PASSED
+"verifyElementPresent(findTestObject(""Login/Title Login""), 10)",Edge Chromium 115,,,2023-08-25 09:26:42,2023-08-25 09:26:42,0.301s,PASSED
+"setText(findTestObject(""Login/Input Username Login""), username)",Edge Chromium 115,,,2023-08-25 09:26:42,2023-08-25 09:26:43,0.676s,PASSED
+"setEncryptedText(findTestObject(""Login/Input Password Login""), password)",Edge Chromium 115,,,2023-08-25 09:26:43,2023-08-25 09:26:43,0.413s,PASSED
+"click(findTestObject(""Login/Button Login""))",Edge Chromium 115,,,2023-08-25 09:26:43,2023-08-25 09:26:44,0.877s,PASSED
+"verifyElementPresent(findTestObject(""Login/Title Make Appointment""), 10)",Edge Chromium 115,,,2023-08-25 09:26:44,2023-08-25 09:26:45,0.317s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case 1.1 (Record),Edge Chromium 115,Test Case ketika user  login dengan detail yang valid.,,2023-08-25 09:26:45,2023-08-25 09:26:55,10.412s,PASSED
+"openBrowser("""")",Edge Chromium 115,,,2023-08-25 09:26:45,2023-08-25 09:26:48,3.511s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 115,,,2023-08-25 09:26:48,2023-08-25 09:26:51,2.540s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), 0)",Edge Chromium 115,,,2023-08-25 09:26:51,2023-08-25 09:26:51,0.322s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Edge Chromium 115,,,2023-08-25 09:26:51,2023-08-25 09:26:52,0.351s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Login""))",Edge Chromium 115,,,2023-08-25 09:26:52,2023-08-25 09:26:52,0.847s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Login""), 0)",Edge Chromium 115,,,2023-08-25 09:26:52,2023-08-25 09:26:53,0.304s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Edge Chromium 115,,,2023-08-25 09:26:53,2023-08-25 09:26:53,0.666s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Edge Chromium 115,,,2023-08-25 09:26:53,2023-08-25 09:26:54,0.389s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Edge Chromium 115,,,2023-08-25 09:26:54,2023-08-25 09:26:55,0.923s,PASSED
+"verifyElementVisible(findTestObject(""Page_CURA Healthcare Service/h2_Make Appointment""), STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 09:26:55,2023-08-25 09:26:55,0.349s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case 1.1 (Script),Edge Chromium 115,Test Case ketika user  login dengan detail yang valid.,,2023-08-25 09:26:55,2023-08-25 09:27:06,10.552s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 115,,,2023-08-25 09:26:55,2023-08-25 09:27:01,6.115s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Title Home Page""), 10)",Edge Chromium 115,,,2023-08-25 09:27:01,2023-08-25 09:27:02,0.325s,PASSED
+"click(findTestObject(""Object Repository/Login/Menu Burger""))",Edge Chromium 115,,,2023-08-25 09:27:02,2023-08-25 09:27:02,0.351s,PASSED
+"click(findTestObject(""Object Repository/Login/Menu Login""))",Edge Chromium 115,,,2023-08-25 09:27:02,2023-08-25 09:27:03,0.843s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Title Home Page""), 10)",Edge Chromium 115,,,2023-08-25 09:27:03,2023-08-25 09:27:03,0.427s,PASSED
+"setText(findTestObject(""Object Repository/Login/Input Username Login""), ""John Doe"")",Edge Chromium 115,,,2023-08-25 09:27:03,2023-08-25 09:27:04,0.662s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Input Password Login""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Edge Chromium 115,,,2023-08-25 09:27:04,2023-08-25 09:27:04,0.395s,PASSED
+"click(findTestObject(""Object Repository/Login/Button Login""))",Edge Chromium 115,,,2023-08-25 09:27:04,2023-08-25 09:27:05,0.914s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Title Make Appointment""), 10)",Edge Chromium 115,,,2023-08-25 09:27:05,2023-08-25 09:27:06,0.312s,PASSED

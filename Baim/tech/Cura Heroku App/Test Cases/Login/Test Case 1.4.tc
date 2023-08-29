@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user login dengan hanya menggunakan password saja</description>
+   <name>Test Case 1.4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>53f85cdb-4c9d-40c5-8323-f6ad41842298</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ca3ac57f-6d9b-4570-9e2d-6aaab3554ff6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'g3/DOGG74jA5O/nHFRoT/1zowqUjE9HV'</defaultValue>
+      <description></description>
+      <id>ca3ac57f-6d9b-4570-9e2d-6aaab3554ff6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

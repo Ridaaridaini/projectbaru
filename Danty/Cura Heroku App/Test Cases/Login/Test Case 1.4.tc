@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user login hanya menginputkan password valid, tanpa username</description>
+   <name>Test Case 1.4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae13d50e-fe7b-4053-bfc9-ce7ea19ed523</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36e3d65e-23e4-42e1-b03b-1c7f51533306</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'g3/DOGG74jDua8tUcAmbsBSU6CJxFwda'</defaultValue>
+      <description></description>
+      <id>36e3d65e-23e4-42e1-b03b-1c7f51533306</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
