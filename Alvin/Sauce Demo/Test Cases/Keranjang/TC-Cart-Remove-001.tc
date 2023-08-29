@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User meremove product pada keranjang</description>
+   <name>TC-Cart-Remove-001</name>
+   <tag>Keranjang</tag>
+   <comment></comment>
+   <testCaseGuid>aeb9c783-6a51-4bda-8db8-20096794aeb6</testCaseGuid>
+</TestCaseEntity>

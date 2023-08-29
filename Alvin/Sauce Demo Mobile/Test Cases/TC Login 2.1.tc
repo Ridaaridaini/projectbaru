@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC Login 2.1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7c20d81-4f88-48d7-a7d0-51e46ef50f96</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21952e5c-453d-441c-8fa4-8a0aa58bf795</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb34c65e-8c83-4387-9b13-0e30b54b3b9d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>661f1574-ac46-4099-86c7-7b3388948c88</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'bob@example.com'</defaultValue>
+      <description></description>
+      <id>21952e5c-453d-441c-8fa4-8a0aa58bf795</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cb34c65e-8c83-4387-9b13-0e30b54b3b9d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password is required'</defaultValue>
+      <description></description>
+      <id>661f1574-ac46-4099-86c7-7b3388948c88</id>
+      <masked>false</masked>
+      <name>errorMessagePassword</name>
+   </variable>
+</TestCaseEntity>

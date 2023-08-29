@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user berada di halaman profile dan langsung logout</description>
+   <name>Test Case 4.2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4176954c-70e3-4a7c-aa46-7c0b30f4b878</testCaseGuid>
+</TestCaseEntity>

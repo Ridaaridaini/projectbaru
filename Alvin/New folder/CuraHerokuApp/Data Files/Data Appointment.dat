@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>data eksternal untuk test case appointment</description>
+   <name>Data Appointment</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>9bb263ab-a7e2-444c-ac5f-6d9df5e5eb3e</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>yes MedicaId 20%2F05%2F2023 Hello+World Hongkong+CURA+Healthcare+Center</data>
+   <data>no Medicare 20%2F05%2F2023 Hello+World Hongkong+CURA+Healthcare+Center</data>
+   <data>yes none 20%2F05%2F2023 Hello+World Tokyo+CURA+Healthcare+Center</data>
+   <data>no Medicare 20%2F05%2F2023 Hello+World Tokyo+CURA+Healthcare+Center</data>
+   <data>yes medicaid 20%2F05%2F2023 Hello+World Seoul+CURA+Healthcare+Center</data>
+   <data>no none 20%2F05%2F2023 Hello+World Seoul+CURA+Healthcare+Center</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>readmission</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>program</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>date</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>comment</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>facility</name>
+      <size>6</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

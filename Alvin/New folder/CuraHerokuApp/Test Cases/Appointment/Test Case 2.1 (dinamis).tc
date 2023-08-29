@@ -76,7 +76,7 @@
       <name>readmission</name>
    </variable>
    <variable>
-      <defaultValue>'medicare'</defaultValue>
+      <defaultValue>'medicaid'</defaultValue>
       <description>medicare; medicaid; none;</description>
       <id>820ee9ce-552b-4aa2-acb8-4c1588561add</id>
       <masked>false</masked>

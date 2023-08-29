@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify error message dari kolom password</description>
+   <name>Test Case 1.2</name>
+   <tag>login</tag>
+   <comment></comment>
+   <testCaseGuid>aa04877b-fbba-49ba-a374-800c2e8cbd5b</testCaseGuid>
+</TestCaseEntity>

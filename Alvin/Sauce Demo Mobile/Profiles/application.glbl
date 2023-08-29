@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>application</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\Aslamadin Alvian Haz\\Downloads\\mda-2.0.0-21.apk'</initValue>
+      <name>appPath</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

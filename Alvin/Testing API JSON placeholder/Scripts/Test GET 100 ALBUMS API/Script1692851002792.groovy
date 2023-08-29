@@ -17,3 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+response = WS.sendRequest(findTestObject('Object Repository/GET 100 ALBUMS API'))
+
+WS.verifyResponseStatusCode(response, 200)
+
+albums_count = WS.getElementsCount(response, "")
+
+for(int i = 0; i < 10; i++) {
+	
+	userId = WS.getElementPropertyValue(response, "["+i+"].userId") 
+	id = WS.getElementPropertyValue(response, "["+i+"].id")
+	title = WS.getElementPropertyValue(response, "["+i+"].title")
+	
+	assert userId != null && userId != "";
+	assert id != null && id != "";
+	assert title != null && title != "";
+	
+}

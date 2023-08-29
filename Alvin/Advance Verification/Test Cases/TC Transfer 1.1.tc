@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC Transfer 1.1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c37ae2b1-6257-4b8a-8603-baa9417c6a3e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9624ec30-2615-47b7-b624-6ed99dec3f30</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>797029b5-9fe6-41ca-befa-31b1f06134fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5aa3f26b-0045-44eb-aae4-d32751b9278f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>15</defaultValue>
+      <description></description>
+      <id>9624ec30-2615-47b7-b624-6ed99dec3f30</id>
+      <masked>false</masked>
+      <name>idUser</name>
+   </variable>
+   <variable>
+      <defaultValue>2023000151945</defaultValue>
+      <description></description>
+      <id>797029b5-9fe6-41ca-befa-31b1f06134fc</id>
+      <masked>false</masked>
+      <name>idClient</name>
+   </variable>
+   <variable>
+      <defaultValue>'Batch 324'</defaultValue>
+      <description></description>
+      <id>5aa3f26b-0045-44eb-aae4-d32751b9278f</id>
+      <masked>false</masked>
+      <name>desc</name>
+   </variable>
+</TestCaseEntity>

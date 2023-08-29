@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login dengan menggunakan username yang sudah locked out</description>
+   <name>TC Login 1.2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cedfecb6-83ee-47a5-9a15-ee183ed1bf91</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d8afe1e7-e332-41ca-a8bf-e336bb4a7e05</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df8aae31-0e46-41de-bc54-48b07bd95edf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>19bec0e5-2307-4590-9c77-68112da14b58</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'alice@example.com'</defaultValue>
+      <description></description>
+      <id>d8afe1e7-e332-41ca-a8bf-e336bb4a7e05</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'dbXIBZ66cuht4KTRMDozZw=='</defaultValue>
+      <description></description>
+      <id>df8aae31-0e46-41de-bc54-48b07bd95edf</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sorry, this user has been locked out.'</defaultValue>
+      <description></description>
+      <id>19bec0e5-2307-4590-9c77-68112da14b58</id>
+      <masked>false</masked>
+      <name>errorLockedOut</name>
+   </variable>
+</TestCaseEntity>

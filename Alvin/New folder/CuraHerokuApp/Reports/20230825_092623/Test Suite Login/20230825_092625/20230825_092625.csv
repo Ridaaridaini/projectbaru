@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Login,Edge Chromium 116,,,2023-08-25 09:26:44,2023-08-25 09:27:21,36.996s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case 1.1 (Script),Edge Chromium 116,Test Case ketika user  login dengan detail yang valid,,2023-08-25 09:26:45,2023-08-25 09:27:04,19.848s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 116,,,2023-08-25 09:26:46,2023-08-25 09:26:55,9.366s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-08-25 09:26:55,2023-08-25 09:26:56,0.318s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Objek untuk login/title_homepage""), 10)",Edge Chromium 116,,,2023-08-25 09:26:56,2023-08-25 09:26:56,0.617s,PASSED
+"click(findTestObject(""Object Repository/Objek untuk login/menu_burger""))",Edge Chromium 116,,,2023-08-25 09:26:56,2023-08-25 09:26:57,1.078s,PASSED
+"click(findTestObject(""Object Repository/Objek untuk login/menu_login""))",Edge Chromium 116,,,2023-08-25 09:26:57,2023-08-25 09:26:59,1.484s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Objek untuk login/verifikasi_masuk_halaman_login""), 10)",Edge Chromium 116,,,2023-08-25 09:26:59,2023-08-25 09:27:00,0.779s,PASSED
+"setText(findTestObject(""Object Repository/Objek untuk login/input_form_username""), username)",Edge Chromium 116,,,2023-08-25 09:27:00,2023-08-25 09:27:00,0.954s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Objek untuk login/input_form_password""), password)",Edge Chromium 116,,,2023-08-25 09:27:00,2023-08-25 09:27:01,0.799s,PASSED
+"click(findTestObject(""Object Repository/Objek untuk login/button_form_Login""))",Edge Chromium 116,,,2023-08-25 09:27:01,2023-08-25 09:27:04,2.572s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Objek untuk login/title_make _appointment""), 10)",Edge Chromium 116,,,2023-08-25 09:27:04,2023-08-25 09:27:04,0.537s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case 1.2 (Script),Edge Chromium 116,Test Case ketika user login dengan menggunakan detail yang invalid,,2023-08-25 09:27:04,2023-08-25 09:27:21,16.461s,PASSED
+openBrowser(WEB_URL),Edge Chromium 116,,,2023-08-25 09:27:05,2023-08-25 09:27:13,7.773s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Objek untuk login/title_homepage""), 10)",Edge Chromium 116,,,2023-08-25 09:27:13,2023-08-25 09:27:14,0.508s,PASSED
+"click(findTestObject(""Object Repository/Objek untuk login/menu_burger""))",Edge Chromium 116,,,2023-08-25 09:27:14,2023-08-25 09:27:14,0.793s,PASSED
+"click(findTestObject(""Object Repository/Objek untuk login/menu_login""))",Edge Chromium 116,,,2023-08-25 09:27:14,2023-08-25 09:27:16,1.507s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Objek untuk login/verifikasi_masuk_halaman_login""), 10)",Edge Chromium 116,,,2023-08-25 09:27:16,2023-08-25 09:27:16,0.581s,PASSED
+"setText(findTestObject(""Object Repository/Objek untuk login/input_form_username""), username)",Edge Chromium 116,,,2023-08-25 09:27:16,2023-08-25 09:27:17,0.957s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Objek untuk login/input_form_password""), password)",Edge Chromium 116,,,2023-08-25 09:27:17,2023-08-25 09:27:18,0.690s,PASSED
+"click(findTestObject(""Object Repository/Objek untuk login/button_form_Login""))",Edge Chromium 116,,,2023-08-25 09:27:18,2023-08-25 09:27:20,2.274s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Objek untuk login/verifikasi_error_message_login""), error_message)",Edge Chromium 116,,,2023-08-25 09:27:20,2023-08-25 09:27:21,0.517s,PASSED

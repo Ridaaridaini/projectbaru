@@ -53,9 +53,9 @@ hasilDate = WebUI.getText(findTestObject('Make Appointment/hasil_visit_date'))
 
 hasilComment = WebUI.getText(findTestObject('Make Appointment/hasil_comment'))
 
-assert hasilFacility.toString().equalsIgnoreCase(facility)
-assert hasilReadmission.toString().equalsIgnoreCase(readmission)
-assert hasilProgram.toString().equalsIgnoreCase(healthcare_program)
-assert hasilDate.toString().equalsIgnoreCase(date)
-assert hasilComment.toString().equalsIgnoreCase(comment)
+assert hasilFacility.trim().equalsIgnoreCase(facility.trim())
+assert hasilReadmission.trim().equalsIgnoreCase(readmission.trim())
+assert hasilProgram.trim().equalsIgnoreCase(healthcare_program.trim())
+assert hasilDate.trim().equalsIgnoreCase(date.trim())
+assert hasilComment.trim().equalsIgnoreCase(comment.trim())
 

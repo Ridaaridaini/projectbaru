@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ketika user ingin 
+menambahkan product ke
+ keranjang</description>
+   <name>TC-DetailProduct-AddCart-001</name>
+   <tag>Detail Product</tag>
+   <comment></comment>
+   <testCaseGuid>4d59011a-145d-42b8-9fb4-4f69b16aafc7</testCaseGuid>
+</TestCaseEntity>

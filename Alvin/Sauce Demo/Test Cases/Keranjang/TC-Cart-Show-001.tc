@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can access cart page</description>
+   <name>TC-Cart-Show-001</name>
+   <tag>Keranjang</tag>
+   <comment></comment>
+   <testCaseGuid>b2037d5b-b969-4ad5-b3e0-92c4670298b4</testCaseGuid>
+</TestCaseEntity>
