@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can access cart page</description>
+   <name>TC-Cart-Show-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80b505fa-8dd2-4689-ac71-43f145bdd17a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e17585c1-39b0-4a2a-a411-7946f85b5b9d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e355a460-67ae-4242-8d71-04caf7861f8c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>e17585c1-39b0-4a2a-a411-7946f85b5b9d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>e355a460-67ae-4242-8d71-04caf7861f8c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login 1.1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>936c6de8-dd0e-4daa-8ed2-62ecf2a121af</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a64561ee-d515-4852-a745-a88d8f7a3263</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e7685d7a-1d7e-4931-89ff-b995bcec6ee7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'bob@example.com'</defaultValue>
+      <description></description>
+      <id>a64561ee-d515-4852-a745-a88d8f7a3263</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'10203040'</defaultValue>
+      <description></description>
+      <id>e7685d7a-1d7e-4931-89ff-b995bcec6ee7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

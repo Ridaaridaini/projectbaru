@@ -24,6 +24,7 @@ public class DeretFibo {
 
         }
 
+
         int a = 2; //bilangan yang dicek
         for (int i = 0; i < arrPrima.length;) {
             //i buat penanda berapa bil prima yg udah ketemu
@@ -52,7 +53,7 @@ public class DeretFibo {
         System.out.println();
         for (int i = 0; i < hasil.length; i++) {
 
-            System.out.print(hasil[i] + " ");
+            System.out.print(arrFibo[i] + " ");
 
         }
     }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test API GET ALL POST BY USERID API</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ccac141-9a98-4fb3-8a83-dc37eb64391c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc8b8786-16a2-406b-8124-18bf57619b23</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>fc8b8786-16a2-406b-8124-18bf57619b23</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
+</TestCaseEntity>

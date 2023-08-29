@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user menekan tombol homepage pada halaman history</description>
+   <name>Test Case 3.4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de87a7d5-6462-4cb5-9c86-8bae64c6d5f6</testCaseGuid>
+</TestCaseEntity>

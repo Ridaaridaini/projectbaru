@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin menambahkan 1 product ke dalam keranjang</description>
+   <name>TC-Product-AddCart-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4440f0fa-49f6-4aac-ad99-5802e099812a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e3e89070-f056-453e-b6c9-2f0e1110c5e0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>533c871d-c5c1-4292-9bb1-4e9cc4ac40c1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>e3e89070-f056-453e-b6c9-2f0e1110c5e0</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>533c871d-c5c1-4292-9bb1-4e9cc4ac40c1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

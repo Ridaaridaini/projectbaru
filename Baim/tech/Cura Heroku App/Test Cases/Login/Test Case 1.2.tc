@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user login dengan menggunakan detail yang invalid.</description>
+   <name>Test Case 1.2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8e8c9f7-85f2-4ecf-b32c-bf5151e5fe31</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>708adbad-08ab-4dd4-9eae-d916a841ae6d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8da3db2e-30fd-48f8-b055-84e1d43ccfb7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'coba lagi'</defaultValue>
+      <description></description>
+      <id>708adbad-08ab-4dd4-9eae-d916a841ae6d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'BACqw2Q2PuL/lHcCLx1ANw=='</defaultValue>
+      <description></description>
+      <id>8da3db2e-30fd-48f8-b055-84e1d43ccfb7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

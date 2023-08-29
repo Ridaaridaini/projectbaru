@@ -52,13 +52,13 @@ hasil_date = WebUI.getText(findTestObject('Make Appointment/visit_date'))
 
 hasil_comment = WebUI.getText(findTestObject('Make Appointment/comment_sakit kepala'))
 
-WebUI.verifyMatch(hasil_facility, dropdown_menu, false)
+WebUI.verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)
 
-WebUI.verifyMatch(hasil_readmission, hospital_readmission, false)
+WebUI.verifyMatch(hasil_readmission.trim().toLowerCase(), hospital_readmission.trim().toLowerCase(), false)
 
-WebUI.verifyMatch(hasil_program, healthcare_program, false)
+WebUI.verifyMatch(hasil_program.trim().toLowerCase(), healthcare_program.trim().toLowerCase(), false)
 
-WebUI.verifyMatch(hasil_date, visit_date, false)
+WebUI.verifyMatch(hasil_date.trim(), visit_date.trim(), false)
 
-WebUI.verifyMatch(hasil_comment, comment, false)
+WebUI.verifyMatch(hasil_comment.trim(), comment.trim(), false)
 

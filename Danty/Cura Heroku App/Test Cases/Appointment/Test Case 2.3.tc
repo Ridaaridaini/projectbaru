@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user membuat appointment tanpa memilih Apply for Hospital Readmission</description>
+   <name>Test Case 2.3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e2cc1fa-b947-4862-9881-b49a64b0c5b5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5becd10-274a-40e1-b4b5-edc0dcb18078</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>31b5fe1d-c30e-473d-be60-dafb28ae8cd7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7ee2aa4-ad40-48cf-8e17-a49071ab47be</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8d59daef-2973-46b6-aac2-58fcf935a236</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c28fd8fe-89f6-4ce6-b38e-ca0c6361482e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51cca345-e3fc-4488-a4df-3384fa1b88cc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>a5becd10-274a-40e1-b4b5-edc0dcb18078</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
+      <description></description>
+      <id>31b5fe1d-c30e-473d-be60-dafb28ae8cd7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Tokyo CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>d7ee2aa4-ad40-48cf-8e17-a49071ab47be</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>'medicaid'</defaultValue>
+      <description></description>
+      <id>8d59daef-2973-46b6-aac2-58fcf935a236</id>
+      <masked>false</masked>
+      <name>healthcare_program</name>
+   </variable>
+   <variable>
+      <defaultValue>'01/09/2023'</defaultValue>
+      <description></description>
+      <id>c28fd8fe-89f6-4ce6-b38e-ca0c6361482e</id>
+      <masked>false</masked>
+      <name>visit_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hello'</defaultValue>
+      <description></description>
+      <id>51cca345-e3fc-4488-a4df-3384fa1b88cc</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>
