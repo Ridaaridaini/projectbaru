@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user login dengan hanya menggunakan username saja</description>
+   <name>Test Case 1.3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2eee2ce-131c-4291-a015-64a7426998ea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aae379d8-d79d-48ba-8f0f-bccd2816d017</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>aae379d8-d79d-48ba-8f0f-bccd2816d017</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
