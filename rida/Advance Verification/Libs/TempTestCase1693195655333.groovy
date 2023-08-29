@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/yt/ghx0jyqj7tlcd9jt54hldq8r0000gn/T/Katalon/Test Cases/verify Error Username/20230828_090255/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/yt/ghx0jyqj7tlcd9jt54hldq8r0000gn/T/Katalon/Test Cases/Test Case 1/20230828_110735/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/verify Error Username', new TestCaseBinding('Test Cases/verify Error Username',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Test Case 1', new TestCaseBinding('Test Cases/Test Case 1',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
