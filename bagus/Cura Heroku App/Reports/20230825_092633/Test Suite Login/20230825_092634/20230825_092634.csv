@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Login,Edge Chromium 115,,,2023-08-25 09:26:44,2023-08-25 09:27:16,31.676s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case 1.1 (Cara Manual),Edge Chromium 115,Test Case ketika user  login dengan detail yang valid.,,2023-08-25 09:26:45,2023-08-25 09:26:59,14.389s,PASSED
+openBrowser(web_url),Edge Chromium 115,,,2023-08-25 09:26:45,2023-08-25 09:26:53,8.227s,PASSED
+maximizeWindow(),Edge Chromium 115,,,2023-08-25 09:26:53,2023-08-25 09:26:53,0.181s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/title_homepage""), 0)",Edge Chromium 115,,,2023-08-25 09:26:53,2023-08-25 09:26:54,0.438s,PASSED
+"click(findTestObject(""Login Manual/burger_button""))",Edge Chromium 115,,,2023-08-25 09:26:54,2023-08-25 09:26:54,0.565s,PASSED
+"click(findTestObject(""Login Manual/burger_button_login""))",Edge Chromium 115,,,2023-08-25 09:26:54,2023-08-25 09:26:55,0.996s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/Title_Login""), 0)",Edge Chromium 115,,,2023-08-25 09:26:55,2023-08-25 09:26:56,0.493s,PASSED
+"setText(findTestObject(""Login Manual/input_Username""), Username)",Edge Chromium 115,,,2023-08-25 09:26:56,2023-08-25 09:26:57,0.862s,PASSED
+"setEncryptedText(findTestObject(""Login Manual/input_Password""), password)",Edge Chromium 115,,,2023-08-25 09:26:57,2023-08-25 09:26:57,0.575s,PASSED
+"click(findTestObject(""Login Manual/button_Login (1)""))",Edge Chromium 115,,,2023-08-25 09:26:57,2023-08-25 09:26:59,1.104s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/title_Make Appointment""), 5)",Edge Chromium 115,,,2023-08-25 09:26:59,2023-08-25 09:26:59,0.409s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case 1.2,Edge Chromium 115,Negative test case,,2023-08-25 09:26:59,2023-08-25 09:27:16,16.970s,PASSED
+openBrowser(web_url),Edge Chromium 115,,,2023-08-25 09:26:59,2023-08-25 09:27:07,7.421s,PASSED
+maximizeWindow(),Edge Chromium 115,,,2023-08-25 09:27:07,2023-08-25 09:27:07,0.190s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/title_homepage""), 0)",Edge Chromium 115,,,2023-08-25 09:27:07,2023-08-25 09:27:07,0.364s,PASSED
+"click(findTestObject(""Login Manual/burger_button""))",Edge Chromium 115,,,2023-08-25 09:27:07,2023-08-25 09:27:08,0.417s,PASSED
+"click(findTestObject(""Login Manual/burger_button_login""))",Edge Chromium 115,,,2023-08-25 09:27:08,2023-08-25 09:27:09,1.187s,PASSED
+"verifyElementPresent(findTestObject(""Login Manual/Title_Login""), 0)",Edge Chromium 115,,,2023-08-25 09:27:09,2023-08-25 09:27:09,0.432s,PASSED
+"setText(findTestObject(""Login Manual/input_Username""), username)",Edge Chromium 115,,,2023-08-25 09:27:09,2023-08-25 09:27:10,0.834s,PASSED
+"setEncryptedText(findTestObject(""Login Manual/input_Password""), password)",Edge Chromium 115,,,2023-08-25 09:27:10,2023-08-25 09:27:11,0.507s,PASSED
+"click(findTestObject(""Login Manual/button_Login (1)""))",Edge Chromium 115,,,2023-08-25 09:27:11,2023-08-25 09:27:12,1.045s,PASSED
+"verifyElementText(findTestObject(""Login Negative/Error_Login failed Please ensure the username and password are valid""), ""Login failed! Please ensure the username and password are valid."")",Edge Chromium 115,,,2023-08-25 09:27:12,2023-08-25 09:27:12,0.449s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 09:27:12,2023-08-25 09:27:15,3.027s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 09:27:15,2023-08-25 09:27:16,0.812s,PASSED
