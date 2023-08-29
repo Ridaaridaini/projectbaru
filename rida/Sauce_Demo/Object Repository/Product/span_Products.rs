@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Data List Last Name</name>
+   <name>span_Products</name>
    <tag></tag>
-   <elementGuidId>c21fb04c-81e4-46ab-afde-fc4909c3001b</elementGuidId>
+   <elementGuidId>ccfb7cbc-569e-49a5-b283-7899ad5c033a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Bach' or . = 'Bach')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//table[@id='table1']/tbody/tr/td[1]</value>
+         <value>//div[@id='header_container']/div[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>td</value>
+         <value>span.title</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,87 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
-      <webElementGuid>d7bad88b-206a-4458-bc79-1b1b35d55194</webElementGuid>
+      <value>span</value>
+      <webElementGuid>61c21f33-1f51-4cb7-b9b2-83f234833c16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>ffec3f17-32c5-48fb-ab54-1843ce3af1cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Bach</value>
-      <webElementGuid>867b710d-7788-45a6-8d32-250c09bc02c4</webElementGuid>
+      <value>Products</value>
+      <webElementGuid>3b0979f5-afca-45d2-a8f2-68d574a97f53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;table1&quot;)/tbody[1]/tr[1]/td[1]</value>
-      <webElementGuid>2d8007dd-9bc2-4623-8197-569810ff1a9a</webElementGuid>
+      <value>id(&quot;header_container&quot;)/div[@class=&quot;header_secondary_container&quot;]/span[@class=&quot;title&quot;]</value>
+      <webElementGuid>46f45062-245f-4c1a-85d3-593d4f4d6c71</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='table1']/tbody/tr/td</value>
-      <webElementGuid>b278273f-77eb-48cf-aa11-6ed06cbf770f</webElementGuid>
+      <value>//div[@id='header_container']/div[2]/span</value>
+      <webElementGuid>d625009c-473e-42d8-aa1d-afb00291fcc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::td[1]</value>
-      <webElementGuid>ca3ca3fd-4e2c-4e9c-a05c-fb0fc99ba9b3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/following::span[1]</value>
+      <webElementGuid>0f5c3fb5-3bef-412b-a288-702589d36898</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Web Site'])[1]/following::td[1]</value>
-      <webElementGuid>58fb78b6-ec67-4de4-99a3-a512f4acc9de</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Menu'])[1]/following::span[1]</value>
+      <webElementGuid>06fdf187-2c86-493a-aab1-caeacba8dfcc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Frank'])[1]/preceding::td[1]</value>
-      <webElementGuid>2eb5b2e2-b4b8-439e-9d80-933239a214a3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price (high to low)'])[1]/preceding::span[1]</value>
+      <webElementGuid>4800e54e-7eef-418d-a5d3-ee929b549f5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='fbach@yahoo.com'])[1]/preceding::td[2]</value>
-      <webElementGuid>faa1de0b-eaf3-4db1-85f0-73dc2c98e502</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sauce Labs Fleece Jacket'])[1]/preceding::span[3]</value>
+      <webElementGuid>2e27e6e6-27a0-484b-b47b-2864250b161c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Bach']/parent::*</value>
-      <webElementGuid>3454f116-e895-4fa8-b4a4-5a43d67a5337</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Products']/parent::*</value>
+      <webElementGuid>6181a712-13ee-4052-98ec-442e06d31d5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td</value>
-      <webElementGuid>62d447f0-fc63-4229-acea-e63537d1295f</webElementGuid>
+      <value>//span</value>
+      <webElementGuid>4d75f22d-285e-4b2c-9a00-b9ca0200c4c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = 'Bach' or . = 'Bach')]</value>
-      <webElementGuid>21a27df5-30cd-48e8-a30b-883199f7126c</webElementGuid>
+      <value>//span[(text() = 'Products' or . = 'Products')]</value>
+      <webElementGuid>f229b02f-242a-4ea1-af7a-afb85b0a7221</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Data List Last Name</name>
+   <name>Data List Due 1</name>
    <tag></tag>
-   <elementGuidId>c21fb04c-81e4-46ab-afde-fc4909c3001b</elementGuidId>
+   <elementGuidId>60346f6f-e8c7-40ed-b5c2-63e437642d92</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Bach' or . = 'Bach')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//table[@id='table1']/tbody/tr/td[1]</value>
+         <value>//table[@id='table1']/tbody/tr/td[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>td</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>d7bad88b-206a-4458-bc79-1b1b35d55194</webElementGuid>
+      <webElementGuid>93c266d5-35a7-40f3-bea4-62ab9efd1cad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Bach</value>
-      <webElementGuid>867b710d-7788-45a6-8d32-250c09bc02c4</webElementGuid>
+      <value>$100.00</value>
+      <webElementGuid>2e2dfc30-12c2-4177-9a40-6be7249b3e24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;table1&quot;)/tbody[1]/tr[1]/td[1]</value>
-      <webElementGuid>2d8007dd-9bc2-4623-8197-569810ff1a9a</webElementGuid>
+      <value>id(&quot;table1&quot;)/tbody[1]/tr[1]/td[4]</value>
+      <webElementGuid>d1b62ad7-0779-45ee-9e58-d5f86b563bd2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='table1']/tbody/tr/td</value>
-      <webElementGuid>b278273f-77eb-48cf-aa11-6ed06cbf770f</webElementGuid>
+      <value>//table[@id='table1']/tbody/tr/td[4]</value>
+      <webElementGuid>b080c5ac-6a2b-4418-a1d6-dc0706e0d5b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::td[1]</value>
-      <webElementGuid>ca3ca3fd-4e2c-4e9c-a05c-fb0fc99ba9b3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='jdoe@hotmail.com'])[1]/following::td[1]</value>
+      <webElementGuid>1e9dbdc6-55d6-4093-a6c7-6a3828160f7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Web Site'])[1]/following::td[1]</value>
-      <webElementGuid>58fb78b6-ec67-4de4-99a3-a512f4acc9de</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jason'])[1]/following::td[2]</value>
+      <webElementGuid>9f8392ef-34d4-4623-87e2-8687a266cc83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Frank'])[1]/preceding::td[1]</value>
-      <webElementGuid>2eb5b2e2-b4b8-439e-9d80-933239a214a3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='http://www.jdoe.com'])[1]/preceding::td[1]</value>
+      <webElementGuid>052e0451-412c-4371-ab7b-be879011f13a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='fbach@yahoo.com'])[1]/preceding::td[2]</value>
-      <webElementGuid>faa1de0b-eaf3-4db1-85f0-73dc2c98e502</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='edit'])[1]/preceding::td[2]</value>
+      <webElementGuid>a4644c0a-91b4-45ec-b588-eb2a2e35d730</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Bach']/parent::*</value>
-      <webElementGuid>3454f116-e895-4fa8-b4a4-5a43d67a5337</webElementGuid>
+      <value>//*/text()[normalize-space(.)='$100.00']/parent::*</value>
+      <webElementGuid>1532cd76-80d1-4596-ad62-5ace80158566</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td</value>
-      <webElementGuid>62d447f0-fc63-4229-acea-e63537d1295f</webElementGuid>
+      <value>//td[4]</value>
+      <webElementGuid>d5db13b9-184c-4a77-af65-6ad0ec81511a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = 'Bach' or . = 'Bach')]</value>
-      <webElementGuid>21a27df5-30cd-48e8-a30b-883199f7126c</webElementGuid>
+      <value>//td[(text() = '$100.00' or . = '$100.00')]</value>
+      <webElementGuid>2519333a-af5c-48e5-a9f2-9cb35c0741bf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
