@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>login tanpa menggunakan password</description>
+   <name>tc 1.2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed0591bc-4385-4849-aa2b-f86186033178</testCaseGuid>
+</TestCaseEntity>

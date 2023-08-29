@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>test case ketika user tidak memilih apply for hospital readmission dengan tanggal yang akan datang</description>
+   <name>Test Case 2.4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdc11351-ccb0-4493-89ff-4538ed20e1d6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>671bed2f-96a7-43ac-b662-4229c0ed465d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0df87cb3-18ad-4552-8420-66d7f33718b2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>49d7a92b-4cf8-4496-8d25-1cf758aa097c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>671bed2f-96a7-43ac-b662-4229c0ed465d</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>'Yes'</defaultValue>
+      <description></description>
+      <id>0df87cb3-18ad-4552-8420-66d7f33718b2</id>
+      <masked>false</masked>
+      <name>hospital_readmission</name>
+   </variable>
+   <variable>
+      <defaultValue>'MedicaId'</defaultValue>
+      <description></description>
+      <id>49d7a92b-4cf8-4496-8d25-1cf758aa097c</id>
+      <masked>false</masked>
+      <name>healthcare_program</name>
+   </variable>
+</TestCaseEntity>

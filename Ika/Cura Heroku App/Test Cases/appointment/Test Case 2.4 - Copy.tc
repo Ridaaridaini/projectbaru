@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>test case ketika user tidak memilih apply for hospital readmission dengan tanggal yang akan datang</description>
+   <name>Test Case 2.4 - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0445e38-96e6-4e82-ab30-c6c1d0cb83eb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>701642a8-4ca2-484c-b68b-e675d37d33a3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6a73fc9e-d7f5-4125-b00c-e06182134411</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6d36b0eb-b286-45d2-94f7-e9c6995c72f3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe4989de-ef18-404b-9fe6-16c4905d1e70</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd365a40-6a14-4e9e-9c8a-bb51dc6d24b5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>701642a8-4ca2-484c-b68b-e675d37d33a3</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>'No'</defaultValue>
+      <description></description>
+      <id>6a73fc9e-d7f5-4125-b00c-e06182134411</id>
+      <masked>false</masked>
+      <name>hospital_readmission</name>
+   </variable>
+   <variable>
+      <defaultValue>'MedicaId'</defaultValue>
+      <description></description>
+      <id>6d36b0eb-b286-45d2-94f7-e9c6995c72f3</id>
+      <masked>false</masked>
+      <name>healthcare_program</name>
+   </variable>
+   <variable>
+      <defaultValue>'26/08/2023'</defaultValue>
+      <description></description>
+      <id>fe4989de-ef18-404b-9fe6-16c4905d1e70</id>
+      <masked>false</masked>
+      <name>visit_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hello World'</defaultValue>
+      <description></description>
+      <id>fd365a40-6a14-4e9e-9c8a-bb51dc6d24b5</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>
