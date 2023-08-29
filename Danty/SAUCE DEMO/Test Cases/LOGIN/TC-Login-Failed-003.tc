@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User hanya login menggunakan password yang valid saja tidak menyertakan username</description>
+   <name>TC-Login-Failed-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e2040ee-7b99-4b1f-a910-35198cd22f9e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0e22a16d-f864-4995-a06a-d05d86841daf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>171dd837-93cc-43f1-8df4-bc96f7b5d7f9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21c6ba3d-8809-4c1c-ad56-d41fc585b0b2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>0e22a16d-f864-4995-a06a-d05d86841daf</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'locked_out_user'</defaultValue>
+      <description></description>
+      <id>171dd837-93cc-43f1-8df4-bc96f7b5d7f9</id>
+      <masked>false</masked>
+      <name>username2</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>21c6ba3d-8809-4c1c-ad56-d41fc585b0b2</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
