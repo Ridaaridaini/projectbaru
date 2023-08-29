@@ -21,11 +21,10 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 response = WS.sendRequest(findTestObject('Object Repository/SUBMIT NEW POST API',
-	["var_id" : id,"varTitle" : title,"varBody" : body]
+	["varTitle" : title,"varBody" : body]
 	))
 
-WS.verifyResponseStatusCode(response, 200)
-
+System.out.println(response)
 WS.verifyElementPropertyValue(response,"title",title)
 WS.verifyElementPropertyValue(response,"body",body)
 

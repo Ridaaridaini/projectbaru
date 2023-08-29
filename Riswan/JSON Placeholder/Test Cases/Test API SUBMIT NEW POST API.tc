@@ -22,13 +22,13 @@
       <description></description>
       <id>c1b7079d-0b96-4aab-b1c9-ea360fbc1874</id>
       <masked>false</masked>
-      <name>varTitle</name>
+      <name>title</name>
    </variable>
    <variable>
       <defaultValue>'bodyKu'</defaultValue>
       <description></description>
       <id>0c5795c8-1490-46c5-ba54-fb954b4b4b39</id>
       <masked>false</masked>
-      <name>varBody</name>
+      <name>body</name>
    </variable>
 </TestCaseEntity>

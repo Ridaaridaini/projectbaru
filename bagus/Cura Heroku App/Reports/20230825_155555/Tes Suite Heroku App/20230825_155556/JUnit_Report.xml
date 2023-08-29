@@ -1,0 +1,1693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tes Suite Heroku App" time="228.746" tests="13" failures="3" errors="0">
+   <testsuite name="Tes Suite Heroku App" tests="13" failures="3" errors="0" time="228.746" skipped="0" timestamp="2023-08-25 15:56:04" hostname="ASUS - DESKTOP-MRD68AC" id="Test Suites/Tes Suite Heroku App">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\xsis\\batch-324-qa\\bagus\\Cura Heroku App\\Reports\\20230825_155555\\Tes Suite Heroku App\\20230825_155556"/>
+         <property name="logFiles" value="D:\\xsis\\batch-324-qa\\bagus\\Cura Heroku App\\Reports\\20230825_155555\\Tes Suite Heroku App\\20230825_155556\\execution0.log"/>
+         <property name="attachments" value="D:\\xsis\\batch-324-qa\\bagus\\Cura Heroku App\\Reports\\20230825_155555\\Tes Suite Heroku App\\20230825_155556\\1692953810300.png, D:\\xsis\\batch-324-qa\\bagus\\Cura Heroku App\\Reports\\20230825_155555\\Tes Suite Heroku App\\20230825_155556\\1692953810569.png, D:\\xsis\\batch-324-qa\\bagus\\Cura Heroku App\\Reports\\20230825_155555\\Tes Suite Heroku App\\20230825_155556\\1692953823985.png, D:\\xsis\\batch-324-qa\\bagus\\Cura Heroku App\\Reports\\20230825_155555\\Tes Suite Heroku App\\20230825_155556\\1692953824235.png, D:\\xsis\\batch-324-qa\\bagus\\Cura Heroku App\\Reports\\20230825_155555\\Tes Suite Heroku App\\20230825_155556\\1692953837251.png, D:\\xsis\\batch-324-qa\\bagus\\Cura Heroku App\\Reports\\20230825_155555\\Tes Suite Heroku App\\20230825_155556\\1692953837476.png"/>
+         <property name="hostName" value="ASUS - DESKTOP-MRD68AC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Edge Chromium 115"/>
+         <property name="hostAddress" value="10.9.2.33"/>
+         <property name="sessionId" value="043b8761ffb66ccac2d2e4a9422f7de6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Test Case 1.1 (Cara Manual)" time="15.075" classname="Test Cases/Login/Test Case 1.1 (Cara Manual)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 15:56:04 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1 (Cara Manual): Test Cases/Login/Test Case 1.1 (Cara Manual)
+
+2023-08-25 15:56:04 - [TEST_STEP][PASSED] - openBrowser(web_url): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:56:05 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 15:56:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 15:56:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:56:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-25 15:56:14 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-25 15:56:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_homepage"), 0): Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:56:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:56:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:56:14 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button")): Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:56:15 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button_login")): Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:56:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:56:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/Title_Login"), 0): Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:56:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:56:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:56:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login Manual/input_Username"), Username): Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:56:17 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:56:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Manual/input_Password"), password): Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:56:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:56:17 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/button_Login (1)")): Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:56:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_Make Appointment"), 5): Object 'Object Repository/Login Manual/title_Make Appointment' is present
+
+2023-08-25 15:56:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_Make Appointment' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Test Case 1.2" time="18.536" classname="Test Cases/Login/Test Case 1.2" status="PASSED">
+         <system-out><![CDATA[2023-08-25 15:56:19 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.2: Test Cases/Login/Test Case 1.2
+
+2023-08-25 15:56:19 - [TEST_STEP][PASSED] - openBrowser(web_url): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:56:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 15:56:20 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 15:56:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 15:56:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:56:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-25 15:56:29 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-25 15:56:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_homepage"), 0): Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:56:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:56:29 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:56:29 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button")): Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:56:29 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button_login")): Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:56:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/Title_Login"), 0): Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:56:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:56:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:56:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login Manual/input_Username"), username): Text 'admin' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:56:32 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:56:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Manual/input_Password"), password): Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:56:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:56:32 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/button_Login (1)")): Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:56:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login Negative/Error_Login failed Please ensure the username and password are valid"), "Login failed! Please ensure the username and password are valid."): Actual text and expected text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are matched.
+
+2023-08-25 15:56:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are matched.
+
+2023-08-25 15:56:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-25 15:56:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-25 15:56:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-25 15:56:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Test Case 1.3" time="12.696" classname="Test Cases/Login/Test Case 1.3" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login/Test Case 1.3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.3.run(Test Case 1.3:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-25 15:56:38 - [TEST_CASE][FAILED] - Test Cases/Login/Test Case 1.3: Test Cases/Login/Test Case 1.3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.3.run(Test Case 1.3:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-25 15:56:38 - [TEST_STEP][PASSED] - openBrowser(web_url): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:56:38 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 15:56:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 15:56:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:56:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-25 15:56:45 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-25 15:56:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_homepage"), 0): Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:56:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:56:45 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:56:45 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button")): Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:56:46 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button_login")): Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:56:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:56:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/Title_Login"), 0): Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:56:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:56:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:56:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login Manual/input_Username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:56:48 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:56:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Manual/input_Password"), ""): Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:56:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:56:48 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/button_Login (1)")): Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:56:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:56:49 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Login Negative/Error_Login failed Please ensure the username and password are valid"), "Please fills out this field."): Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.3.run(Test Case 1.3:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-08-25 15:56:50 - [MESSAGE][FAILED] - Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.3.run(Test Case 1.3:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+)
+[[ATTACHMENT|D:\\xsis\\batch-324-qa\\bagus\\Cura Heroku App\\Reports\\20230825_155555\\Tes Suite Heroku App\\20230825_155556\\1692953810300.png]]
+
+2023-08-25 15:56:50 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.3.run(Test Case 1.3:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\xsis\\batch-324-qa\\bagus\\Cura Heroku App\\Reports\\20230825_155555\\Tes Suite Heroku App\\20230825_155556\\1692953810569.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-25 15:56:38 - [TEST_CASE][FAILED] - Test Cases/Login/Test Case 1.3: Test Cases/Login/Test Case 1.3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.3.run(Test Case 1.3:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Test Case 1.4" time="13.605" classname="Test Cases/Login/Test Case 1.4" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login/Test Case 1.4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.4.run(Test Case 1.4:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-25 15:56:50 - [TEST_CASE][FAILED] - Test Cases/Login/Test Case 1.4: Test Cases/Login/Test Case 1.4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.4.run(Test Case 1.4:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-25 15:56:51 - [TEST_STEP][PASSED] - openBrowser(web_url): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:56:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 15:56:51 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 15:56:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 15:56:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:56:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-25 15:56:59 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-25 15:56:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_homepage"), 0): Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:56:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:56:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:56:59 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button")): Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:56:59 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button_login")): Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:57:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/Title_Login"), 0): Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:57:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:57:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:57:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login Manual/input_Username"), ""): Text '' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:57:02 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:57:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Manual/input_Password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:57:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:57:02 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/button_Login (1)")): Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:57:03 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Login Negative/Error_Login failed Please ensure the username and password are valid"), "Please fills out this field."): Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.4.run(Test Case 1.4:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-08-25 15:57:04 - [MESSAGE][FAILED] - Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.4.run(Test Case 1.4:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+)
+[[ATTACHMENT|D:\\xsis\\batch-324-qa\\bagus\\Cura Heroku App\\Reports\\20230825_155555\\Tes Suite Heroku App\\20230825_155556\\1692953823985.png]]
+
+2023-08-25 15:57:04 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.4.run(Test Case 1.4:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\xsis\\batch-324-qa\\bagus\\Cura Heroku App\\Reports\\20230825_155555\\Tes Suite Heroku App\\20230825_155556\\1692953824235.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-25 15:56:50 - [TEST_CASE][FAILED] - Test Cases/Login/Test Case 1.4: Test Cases/Login/Test Case 1.4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.4.run(Test Case 1.4:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Test Case 1.5" time="13.246" classname="Test Cases/Login/Test Case 1.5" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login/Test Case 1.5 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.5.run(Test Case 1.5:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Incorrect username or password.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-25 15:57:04 - [TEST_CASE][FAILED] - Test Cases/Login/Test Case 1.5: Test Cases/Login/Test Case 1.5 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.5.run(Test Case 1.5:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Incorrect username or password.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-25 15:57:04 - [TEST_STEP][PASSED] - openBrowser(web_url): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:57:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 15:57:05 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 15:57:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 15:57:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:57:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-25 15:57:12 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-25 15:57:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_homepage"), 0): Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:57:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:57:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:57:12 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button")): Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:57:13 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button_login")): Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:57:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/Title_Login"), 0): Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:57:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:57:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:57:14 - [TEST_STEP][PASSED] - setText(findTestObject("Login Manual/input_Username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:57:15 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:57:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Manual/input_Password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:57:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:57:15 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/button_Login (1)")): Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:57:16 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Login Negative/Error_Login failed Please ensure the username and password are valid"), "Incorrect username or password."): Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.5.run(Test Case 1.5:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Incorrect username or password.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-08-25 15:57:17 - [MESSAGE][FAILED] - Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Incorrect username or password.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Incorrect username or password.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.5.run(Test Case 1.5:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+)
+[[ATTACHMENT|D:\\xsis\\batch-324-qa\\bagus\\Cura Heroku App\\Reports\\20230825_155555\\Tes Suite Heroku App\\20230825_155556\\1692953837251.png]]
+
+2023-08-25 15:57:17 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.5.run(Test Case 1.5:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Incorrect username or password.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\xsis\\batch-324-qa\\bagus\\Cura Heroku App\\Reports\\20230825_155555\\Tes Suite Heroku App\\20230825_155556\\1692953837476.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-25 15:57:04 - [TEST_CASE][FAILED] - Test Cases/Login/Test Case 1.5: Test Cases/Login/Test Case 1.5 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.5.run(Test Case 1.5:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Incorrect username or password.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis)" time="23.537" classname="Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 15:57:17 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis): Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis)
+
+2023-08-25 15:57:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1 (Cara Manual)"), ["Username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1 (Cara Manual)' successfully
+
+2023-08-25 15:57:18 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1 (Cara Manual): Test Cases/Login/Test Case 1.1 (Cara Manual)
+
+2023-08-25 15:57:18 - [TEST_STEP][PASSED] - openBrowser(web_url): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:57:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 15:57:19 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 15:57:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 15:57:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:57:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-25 15:57:26 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-25 15:57:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_homepage"), 0): Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:57:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:57:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:57:27 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button")): Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:57:27 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button_login")): Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:57:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/Title_Login"), 0): Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:57:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:57:29 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:57:29 - [TEST_STEP][PASSED] - setText(findTestObject("Login Manual/input_Username"), Username): Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:57:29 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:57:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Manual/input_Password"), password): Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:57:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:57:30 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/button_Login (1)")): Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:57:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_Make Appointment"), 5): Object 'Object Repository/Login Manual/title_Make Appointment' is present
+
+2023-08-25 15:57:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_Make Appointment' is present
+
+2023-08-25 15:57:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1 (Cara Manual)' successfully
+
+2023-08-25 15:57:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/dropdown_menu"), dropdown_menu, false): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/dropdown_menu' 
+
+2023-08-25 15:57:32 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/dropdown_menu' 
+
+2023-08-25 15:57:32 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): Object 'Object Repository/Make Appointment/checkbox_apply_for_hospital_readmission' is checked
+
+2023-08-25 15:57:32 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/checkbox_apply_for_hospital_readmission")): Object 'Object Repository/Make Appointment/checkbox_apply_for_hospital_readmission' is checked
+
+2023-08-25 15:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/checkbox_apply_for_hospital_readmission' is checked
+
+2023-08-25 15:57:33 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): Object 'Object Repository/Make Appointment/radio_button_input_Medicare' is checked
+
+2023-08-25 15:57:33 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/radio_button_input_Medicare")): Object 'Object Repository/Make Appointment/radio_button_input_Medicare' is checked
+
+2023-08-25 15:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/radio_button_input_Medicare' is checked
+
+2023-08-25 15:57:33 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date (Required)_visit_date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date (Required)_visit_date'
+
+2023-08-25 15:57:34 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date (Required)_visit_date'
+
+2023-08-25 15:57:34 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment_comment"), comment): Text 'mau berobat' is set on object 'Object Repository/Make Appointment/textarea_Comment_comment'
+
+2023-08-25 15:57:35 - [MESSAGE][PASSED] - Text 'mau berobat' is set on object 'Object Repository/Make Appointment/textarea_Comment_comment'
+
+2023-08-25 15:57:35 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 15:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 15:57:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Make Appointment/title_Appointment Confirmation")): Object 'Object Repository/Make Appointment/title_Appointment Confirmation' is visible
+
+2023-08-25 15:57:39 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/title_Appointment Confirmation' is visible
+
+2023-08-25 15:57:39 - [TEST_STEP][PASSED] - hasil_facility = getText(findTestObject("Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center")): Text of object 'Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 15:57:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 15:57:39 - [TEST_STEP][PASSED] - hasil_readmission = getText(findTestObject("Make Appointment/checkbox_Yes")): Text of object 'Object Repository/Make Appointment/checkbox_Yes' is: 'Yes'
+
+2023-08-25 15:57:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/checkbox_Yes' is: 'Yes'
+
+2023-08-25 15:57:40 - [TEST_STEP][PASSED] - hasil_program = getText(findTestObject("Make Appointment/program_Medicare")): Text of object 'Object Repository/Make Appointment/program_Medicare' is: 'Medicare'
+
+2023-08-25 15:57:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/program_Medicare' is: 'Medicare'
+
+2023-08-25 15:57:40 - [TEST_STEP][PASSED] - hasil_date = getText(findTestObject("Make Appointment/visit_date")): Text of object 'Object Repository/Make Appointment/visit_date' is: '23/08/2023'
+
+2023-08-25 15:57:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/visit_date' is: '23/08/2023'
+
+2023-08-25 15:57:40 - [TEST_STEP][PASSED] - hasil_comment = getText(findTestObject("Make Appointment/comment_sakit kepala")): Text of object 'Object Repository/Make Appointment/comment_sakit kepala' is: 'mau berobat'
+
+2023-08-25 15:57:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/comment_sakit kepala' is: 'mau berobat'
+
+2023-08-25 15:57:41 - [TEST_STEP][PASSED] - verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false): Actual text 'Tokyo CURA Healthcare Center' and expected text 'Tokyo CURA Healthcare Center' are matched 
+
+2023-08-25 15:57:41 - [MESSAGE][PASSED] - Actual text 'Tokyo CURA Healthcare Center' and expected text 'Tokyo CURA Healthcare Center' are matched 
+
+2023-08-25 15:57:41 - [TEST_STEP][PASSED] - verifyMatch(trim().toLowerCase(), trim().toLowerCase(), false): Actual text 'yes' and expected text 'yes' are matched 
+
+2023-08-25 15:57:41 - [MESSAGE][PASSED] - Actual text 'yes' and expected text 'yes' are matched 
+
+2023-08-25 15:57:41 - [TEST_STEP][PASSED] - verifyMatch(trim().toLowerCase(), trim().toLowerCase(), false): Actual text 'medicare' and expected text 'medicare' are matched 
+
+2023-08-25 15:57:41 - [MESSAGE][PASSED] - Actual text 'medicare' and expected text 'medicare' are matched 
+
+2023-08-25 15:57:41 - [TEST_STEP][PASSED] - verifyMatch(hasil_date.trim(), visit_date.trim(), false): Actual text '23/08/2023' and expected text '23/08/2023' are matched 
+
+2023-08-25 15:57:41 - [MESSAGE][PASSED] - Actual text '23/08/2023' and expected text '23/08/2023' are matched 
+
+2023-08-25 15:57:41 - [TEST_STEP][PASSED] - verifyMatch(hasil_comment.trim(), comment.trim(), false): Actual text 'mau berobat' and expected text 'mau berobat' are matched 
+
+2023-08-25 15:57:41 - [MESSAGE][PASSED] - Actual text 'mau berobat' and expected text 'mau berobat' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/Test Case 2.2" time="18.015" classname="Test Cases/Make Appointment/Test Case 2.2" status="PASSED">
+         <system-out><![CDATA[2023-08-25 15:57:41 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/Test Case 2.2: Test Cases/Make Appointment/Test Case 2.2
+
+2023-08-25 15:57:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1 (Cara Manual)"), ["Username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1 (Cara Manual)' successfully
+
+2023-08-25 15:57:41 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1 (Cara Manual): Test Cases/Login/Test Case 1.1 (Cara Manual)
+
+2023-08-25 15:57:41 - [TEST_STEP][PASSED] - openBrowser(web_url): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:57:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 15:57:42 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 15:57:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 15:57:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:57:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-25 15:57:48 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-25 15:57:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_homepage"), 0): Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:57:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:57:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:57:48 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button")): Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:57:49 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button_login")): Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:57:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:57:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/Title_Login"), 0): Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:57:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:57:51 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:57:51 - [TEST_STEP][PASSED] - setText(findTestObject("Login Manual/input_Username"), Username): Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:57:52 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:57:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Manual/input_Password"), password): Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:57:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:57:52 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/button_Login (1)")): Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:57:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:57:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_Make Appointment"), 5): Object 'Object Repository/Login Manual/title_Make Appointment' is present
+
+2023-08-25 15:57:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_Make Appointment' is present
+
+2023-08-25 15:57:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1 (Cara Manual)' successfully
+
+2023-08-25 15:57:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/dropdown_menu"), dropdown_menu, false): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/dropdown_menu' 
+
+2023-08-25 15:57:54 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/dropdown_menu' 
+
+2023-08-25 15:57:54 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): Object 'Object Repository/Make Appointment/checkbox_apply_for_hospital_readmission' is checked
+
+2023-08-25 15:57:54 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/checkbox_apply_for_hospital_readmission")): Object 'Object Repository/Make Appointment/checkbox_apply_for_hospital_readmission' is checked
+
+2023-08-25 15:57:55 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/checkbox_apply_for_hospital_readmission' is checked
+
+2023-08-25 15:57:55 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): Object 'Object Repository/Make Appointment/radio_button_input_Medicare' is checked
+
+2023-08-25 15:57:55 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/radio_button_input_Medicare")): Object 'Object Repository/Make Appointment/radio_button_input_Medicare' is checked
+
+2023-08-25 15:57:55 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/radio_button_input_Medicare' is checked
+
+2023-08-25 15:57:55 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date (Required)_visit_date"), ""): Text '' is set on object 'Object Repository/Make Appointment/input_Visit Date (Required)_visit_date'
+
+2023-08-25 15:57:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Make Appointment/input_Visit Date (Required)_visit_date'
+
+2023-08-25 15:57:56 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment_comment"), comment): Text 'ku ingin kau mati saja' is set on object 'Object Repository/Make Appointment/textarea_Comment_comment'
+
+2023-08-25 15:57:57 - [MESSAGE][PASSED] - Text 'ku ingin kau mati saja' is set on object 'Object Repository/Make Appointment/textarea_Comment_comment'
+
+2023-08-25 15:57:57 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 15:57:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 15:57:57 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-08-25 15:57:57 - [TEST_STEP][PASSED] - field_username_element = driver.findElement(By.xpath("//input[@id="txt_visit_date"]")): null
+
+2023-08-25 15:57:58 - [TEST_STEP][PASSED] - accept_button_message = driver.executeScript("return arguments[0].validationMessage", field_username_element): null
+
+2023-08-25 15:57:58 - [TEST_STEP][PASSED] - println(accept_button_message): null
+
+2023-08-25 15:57:58 - [TEST_STEP][PASSED] - verifyMatch(accept_button_message, "Please fill out this field.", false): Actual text 'Please fill out this field.' and expected text 'Please fill out this field.' are matched 
+
+2023-08-25 15:57:58 - [MESSAGE][PASSED] - Actual text 'Please fill out this field.' and expected text 'Please fill out this field.' are matched 
+
+2023-08-25 15:57:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-25 15:57:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/Test Case 2.3" time="15.901" classname="Test Cases/Make Appointment/Test Case 2.3" status="PASSED">
+         <system-out><![CDATA[2023-08-25 15:57:59 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/Test Case 2.3: Test Cases/Make Appointment/Test Case 2.3
+
+2023-08-25 15:57:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1 (Cara Manual)"), ["Username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1 (Cara Manual)' successfully
+
+2023-08-25 15:57:59 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1 (Cara Manual): Test Cases/Login/Test Case 1.1 (Cara Manual)
+
+2023-08-25 15:57:59 - [TEST_STEP][PASSED] - openBrowser(web_url): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:57:59 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 15:58:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 15:58:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:58:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-25 15:58:05 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-25 15:58:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_homepage"), 0): Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:58:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:58:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:58:05 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button")): Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:58:06 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button_login")): Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:58:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/Title_Login"), 0): Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:58:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:58:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:58:08 - [TEST_STEP][PASSED] - setText(findTestObject("Login Manual/input_Username"), Username): Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:58:09 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:58:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Manual/input_Password"), password): Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:58:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:58:09 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/button_Login (1)")): Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:58:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:58:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_Make Appointment"), 5): Object 'Object Repository/Login Manual/title_Make Appointment' is present
+
+2023-08-25 15:58:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_Make Appointment' is present
+
+2023-08-25 15:58:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1 (Cara Manual)' successfully
+
+2023-08-25 15:58:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/dropdown_menu"), "Hongkong CURA Healthcare Center", false): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/dropdown_menu' 
+
+2023-08-25 15:58:11 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/dropdown_menu' 
+
+2023-08-25 15:58:11 - [TEST_STEP][PASSED] - check(findTestObject("Make Appointment/checkbox_apply_for_hospital_readmission")): Object 'Object Repository/Make Appointment/checkbox_apply_for_hospital_readmission' is checked
+
+2023-08-25 15:58:12 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/checkbox_apply_for_hospital_readmission' is checked
+
+2023-08-25 15:58:12 - [TEST_STEP][PASSED] - check(findTestObject("Make Appointment/radio_button_input_Medicaid")): Object 'Object Repository/Make Appointment/radio_button_input_Medicaid' is checked
+
+2023-08-25 15:58:12 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/radio_button_input_Medicaid' is checked
+
+2023-08-25 15:58:12 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date (Required)_visit_date"), "29/08/2023"): Text '29/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date (Required)_visit_date'
+
+2023-08-25 15:58:13 - [MESSAGE][PASSED] - Text '29/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date (Required)_visit_date'
+
+2023-08-25 15:58:13 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment_comment"), "sakit kepala"): Text 'sakit kepala' is set on object 'Object Repository/Make Appointment/textarea_Comment_comment'
+
+2023-08-25 15:58:14 - [MESSAGE][PASSED] - Text 'sakit kepala' is set on object 'Object Repository/Make Appointment/textarea_Comment_comment'
+
+2023-08-25 15:58:14 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 15:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/Test Case 2.4" time="13.428" classname="Test Cases/Make Appointment/Test Case 2.4" status="PASSED">
+         <system-out><![CDATA[2023-08-25 15:58:15 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/Test Case 2.4: Test Cases/Make Appointment/Test Case 2.4
+
+2023-08-25 15:58:15 - [TEST_STEP][PASSED] - openBrowser(web_url): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:58:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 15:58:16 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 15:58:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 15:58:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:58:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-25 15:58:22 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-25 15:58:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/h1_CURA Healthcare Service"), 0): Object 'Object Repository/Login/h1_CURA Healthcare Service' is present
+
+2023-08-25 15:58:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:58:22 - [MESSAGE][PASSED] - Object 'Object Repository/Login/h1_CURA Healthcare Service' is present
+
+2023-08-25 15:58:22 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_make_appointment_home_page")): Object: 'Object Repository/Login/button_make_appointment_home_page' is clicked on
+
+2023-08-25 15:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_make_appointment_home_page' is clicked on
+
+2023-08-25 15:58:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/h2_Login")): Object 'Object Repository/Login/h2_Login' is visible
+
+2023-08-25 15:58:24 - [MESSAGE][PASSED] - Object 'Object Repository/Login/h2_Login' is visible
+
+2023-08-25 15:58:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-25 15:58:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-25 15:58:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-25 15:58:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/History/Test Case 3.1" time="16.657" classname="Test Cases/History/Test Case 3.1" status="PASSED">
+         <system-out><![CDATA[2023-08-25 15:58:28 - [TEST_CASE][PASSED] - Test Cases/History/Test Case 3.1: Test Cases/History/Test Case 3.1
+
+2023-08-25 15:58:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1 (Cara Manual)"), ["Username":"John Doe", "password":"g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1 (Cara Manual)' successfully
+
+2023-08-25 15:58:28 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1 (Cara Manual): Test Cases/Login/Test Case 1.1 (Cara Manual)
+
+2023-08-25 15:58:28 - [TEST_STEP][PASSED] - openBrowser(web_url): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:58:28 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 15:58:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 15:58:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:58:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-25 15:58:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-25 15:58:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_homepage"), 0): Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:58:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:58:35 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button")): Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:58:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:58:35 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button_login")): Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:58:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/Title_Login"), 0): Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:58:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:58:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:58:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login Manual/input_Username"), Username): Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:58:37 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:58:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Manual/input_Password"), password): Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:58:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:58:38 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/button_Login (1)")): Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:58:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_Make Appointment"), 5): Object 'Object Repository/Login Manual/title_Make Appointment' is present
+
+2023-08-25 15:58:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_Make Appointment' is present
+
+2023-08-25 15:58:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1 (Cara Manual)' successfully
+
+2023-08-25 15:58:39 - [TEST_STEP][PASSED] - click(findTestObject("History/button_burger_make_apointment_page")): Object: 'Object Repository/History/button_burger_make_apointment_page' is clicked on
+
+2023-08-25 15:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/History/button_burger_make_apointment_page' is clicked on
+
+2023-08-25 15:58:40 - [TEST_STEP][PASSED] - click(findTestObject("History/button_history")): Object: 'Object Repository/History/button_history' is clicked on
+
+2023-08-25 15:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/History/button_history' is clicked on
+
+2023-08-25 15:58:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("History/no_appointment"), "No appointment.", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/History/no_appointment' are matched.
+
+2023-08-25 15:58:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/History/no_appointment' are matched.
+
+2023-08-25 15:58:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-25 15:58:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-25 15:58:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-25 15:58:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/History/Test Case 3.2" time="26.919" classname="Test Cases/History/Test Case 3.2" status="PASSED">
+         <system-out><![CDATA[2023-08-25 15:58:45 - [TEST_CASE][PASSED] - Test Cases/History/Test Case 3.2: Test Cases/History/Test Case 3.2
+
+2023-08-25 15:58:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Make Appointment/Test Case 2.1 (Versi Dinamis)"), ["username":"John Doe", "password":"g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM", "dropdown_menu":"Tokyo CURA Healthcare Center", "hospital_readmission":"Yes", ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis)' successfully
+
+2023-08-25 15:58:45 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis): Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis)
+
+2023-08-25 15:58:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1 (Cara Manual)"), ["Username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1 (Cara Manual)' successfully
+
+2023-08-25 15:58:45 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1 (Cara Manual): Test Cases/Login/Test Case 1.1 (Cara Manual)
+
+2023-08-25 15:58:45 - [TEST_STEP][PASSED] - openBrowser(web_url): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:58:45 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 15:58:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 15:58:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:58:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-25 15:58:53 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-25 15:58:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_homepage"), 0): Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:58:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:58:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:58:53 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button")): Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:58:53 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button_login")): Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:58:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/Title_Login"), 0): Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:58:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:58:55 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:58:55 - [TEST_STEP][PASSED] - setText(findTestObject("Login Manual/input_Username"), Username): Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:58:56 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:58:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Manual/input_Password"), password): Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:58:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:58:56 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/button_Login (1)")): Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:58:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_Make Appointment"), 5): Object 'Object Repository/Login Manual/title_Make Appointment' is present
+
+2023-08-25 15:58:58 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_Make Appointment' is present
+
+2023-08-25 15:58:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1 (Cara Manual)' successfully
+
+2023-08-25 15:58:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/dropdown_menu"), dropdown_menu, false): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/dropdown_menu' 
+
+2023-08-25 15:58:58 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/dropdown_menu' 
+
+2023-08-25 15:58:58 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): Object 'Object Repository/Make Appointment/checkbox_apply_for_hospital_readmission' is checked
+
+2023-08-25 15:58:58 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/checkbox_apply_for_hospital_readmission")): Object 'Object Repository/Make Appointment/checkbox_apply_for_hospital_readmission' is checked
+
+2023-08-25 15:58:59 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/checkbox_apply_for_hospital_readmission' is checked
+
+2023-08-25 15:58:59 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): Object 'Object Repository/Make Appointment/radio_button_input_Medicare' is checked
+
+2023-08-25 15:58:59 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/radio_button_input_Medicare")): Object 'Object Repository/Make Appointment/radio_button_input_Medicare' is checked
+
+2023-08-25 15:58:59 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/radio_button_input_Medicare' is checked
+
+2023-08-25 15:58:59 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date (Required)_visit_date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date (Required)_visit_date'
+
+2023-08-25 15:59:00 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date (Required)_visit_date'
+
+2023-08-25 15:59:00 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment_comment"), comment): Text 'mau berobat' is set on object 'Object Repository/Make Appointment/textarea_Comment_comment'
+
+2023-08-25 15:59:01 - [MESSAGE][PASSED] - Text 'mau berobat' is set on object 'Object Repository/Make Appointment/textarea_Comment_comment'
+
+2023-08-25 15:59:01 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 15:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 15:59:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Make Appointment/title_Appointment Confirmation")): Object 'Object Repository/Make Appointment/title_Appointment Confirmation' is visible
+
+2023-08-25 15:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/title_Appointment Confirmation' is visible
+
+2023-08-25 15:59:02 - [TEST_STEP][PASSED] - hasil_facility = getText(findTestObject("Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center")): Text of object 'Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 15:59:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 15:59:02 - [TEST_STEP][PASSED] - hasil_readmission = getText(findTestObject("Make Appointment/checkbox_Yes")): Text of object 'Object Repository/Make Appointment/checkbox_Yes' is: 'Yes'
+
+2023-08-25 15:59:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/checkbox_Yes' is: 'Yes'
+
+2023-08-25 15:59:03 - [TEST_STEP][PASSED] - hasil_program = getText(findTestObject("Make Appointment/program_Medicare")): Text of object 'Object Repository/Make Appointment/program_Medicare' is: 'Medicare'
+
+2023-08-25 15:59:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/program_Medicare' is: 'Medicare'
+
+2023-08-25 15:59:03 - [TEST_STEP][PASSED] - hasil_date = getText(findTestObject("Make Appointment/visit_date")): Text of object 'Object Repository/Make Appointment/visit_date' is: '23/08/2023'
+
+2023-08-25 15:59:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/visit_date' is: '23/08/2023'
+
+2023-08-25 15:59:03 - [TEST_STEP][PASSED] - hasil_comment = getText(findTestObject("Make Appointment/comment_sakit kepala")): Text of object 'Object Repository/Make Appointment/comment_sakit kepala' is: 'mau berobat'
+
+2023-08-25 15:59:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/comment_sakit kepala' is: 'mau berobat'
+
+2023-08-25 15:59:04 - [TEST_STEP][PASSED] - verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false): Actual text 'Tokyo CURA Healthcare Center' and expected text 'Tokyo CURA Healthcare Center' are matched 
+
+2023-08-25 15:59:04 - [MESSAGE][PASSED] - Actual text 'Tokyo CURA Healthcare Center' and expected text 'Tokyo CURA Healthcare Center' are matched 
+
+2023-08-25 15:59:04 - [TEST_STEP][PASSED] - verifyMatch(trim().toLowerCase(), trim().toLowerCase(), false): Actual text 'yes' and expected text 'yes' are matched 
+
+2023-08-25 15:59:04 - [MESSAGE][PASSED] - Actual text 'yes' and expected text 'yes' are matched 
+
+2023-08-25 15:59:04 - [TEST_STEP][PASSED] - verifyMatch(trim().toLowerCase(), trim().toLowerCase(), false): Actual text 'medicare' and expected text 'medicare' are matched 
+
+2023-08-25 15:59:04 - [MESSAGE][PASSED] - Actual text 'medicare' and expected text 'medicare' are matched 
+
+2023-08-25 15:59:04 - [TEST_STEP][PASSED] - verifyMatch(hasil_date.trim(), visit_date.trim(), false): Actual text '23/08/2023' and expected text '23/08/2023' are matched 
+
+2023-08-25 15:59:04 - [MESSAGE][PASSED] - Actual text '23/08/2023' and expected text '23/08/2023' are matched 
+
+2023-08-25 15:59:04 - [TEST_STEP][PASSED] - verifyMatch(hasil_comment.trim(), comment.trim(), false): Actual text 'mau berobat' and expected text 'mau berobat' are matched 
+
+2023-08-25 15:59:04 - [MESSAGE][PASSED] - Actual text 'mau berobat' and expected text 'mau berobat' are matched 
+
+2023-08-25 15:59:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis)' successfully
+
+2023-08-25 15:59:04 - [TEST_STEP][PASSED] - click(findTestObject("History/button_burger_appointment_confirm")): Object: 'Object Repository/History/button_burger_appointment_confirm' is clicked on
+
+2023-08-25 15:59:04 - [MESSAGE][PASSED] - Object: 'Object Repository/History/button_burger_appointment_confirm' is clicked on
+
+2023-08-25 15:59:04 - [TEST_STEP][PASSED] - click(findTestObject("History/button_history_appointment_confirm")): Object: 'Object Repository/History/button_history_appointment_confirm' is clicked on
+
+2023-08-25 15:59:05 - [MESSAGE][PASSED] - Object: 'Object Repository/History/button_history_appointment_confirm' is clicked on
+
+2023-08-25 15:59:05 - [TEST_STEP][PASSED] - facility_appointment = getText(findTestObject("Make Appointment/facility_Tokyo CURA Healthcare Center")): Text of object 'Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 15:59:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 15:59:05 - [TEST_STEP][PASSED] - readmission_appointment = getText(findTestObject("Make Appointment/checkbox_Yes")): Text of object 'Object Repository/Make Appointment/checkbox_Yes' is: 'Yes'
+
+2023-08-25 15:59:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/checkbox_Yes' is: 'Yes'
+
+2023-08-25 15:59:06 - [TEST_STEP][PASSED] - program_appointment = getText(findTestObject("Make Appointment/program_Medicare")): Text of object 'Object Repository/Make Appointment/program_Medicare' is: 'Medicare'
+
+2023-08-25 15:59:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/program_Medicare' is: 'Medicare'
+
+2023-08-25 15:59:06 - [TEST_STEP][PASSED] - comment_appointment = getText(findTestObject("Make Appointment/comment_sakit kepala")): Text of object 'Object Repository/Make Appointment/comment_sakit kepala' is: 'mau berobat'
+
+2023-08-25 15:59:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/comment_sakit kepala' is: 'mau berobat'
+
+2023-08-25 15:59:06 - [TEST_STEP][PASSED] - facility_history = getText(findTestObject("History/history_facility")): Text of object 'Object Repository/History/history_facility' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 15:59:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/History/history_facility' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 15:59:07 - [TEST_STEP][PASSED] - readmission_history = getText(findTestObject("History/history_readmission")): Text of object 'Object Repository/History/history_readmission' is: 'Yes'
+
+2023-08-25 15:59:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/History/history_readmission' is: 'Yes'
+
+2023-08-25 15:59:07 - [TEST_STEP][PASSED] - program_history = getText(findTestObject("History/history_healthcare_program")): Text of object 'Object Repository/History/history_healthcare_program' is: 'Medicare'
+
+2023-08-25 15:59:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/History/history_healthcare_program' is: 'Medicare'
+
+2023-08-25 15:59:07 - [TEST_STEP][PASSED] - comment_history = getText(findTestObject("History/history_comment")): Text of object 'Object Repository/History/history_comment' is: 'mau berobat'
+
+2023-08-25 15:59:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/History/history_comment' is: 'mau berobat'
+
+2023-08-25 15:59:08 - [TEST_STEP][PASSED] - verifyMatch(facility_history, facility_appointment, false): Actual text 'Tokyo CURA Healthcare Center' and expected text 'Tokyo CURA Healthcare Center' are matched 
+
+2023-08-25 15:59:08 - [MESSAGE][PASSED] - Actual text 'Tokyo CURA Healthcare Center' and expected text 'Tokyo CURA Healthcare Center' are matched 
+
+2023-08-25 15:59:08 - [TEST_STEP][PASSED] - verifyMatch(readmission_history, readmission_appointment, false): Actual text 'Yes' and expected text 'Yes' are matched 
+
+2023-08-25 15:59:08 - [MESSAGE][PASSED] - Actual text 'Yes' and expected text 'Yes' are matched 
+
+2023-08-25 15:59:08 - [TEST_STEP][PASSED] - verifyMatch(program_history, program_appointment, false): Actual text 'Medicare' and expected text 'Medicare' are matched 
+
+2023-08-25 15:59:08 - [MESSAGE][PASSED] - Actual text 'Medicare' and expected text 'Medicare' are matched 
+
+2023-08-25 15:59:08 - [TEST_STEP][PASSED] - verifyMatch(comment_history, comment_appointment, false): Actual text 'mau berobat' and expected text 'mau berobat' are matched 
+
+2023-08-25 15:59:08 - [MESSAGE][PASSED] - Actual text 'mau berobat' and expected text 'mau berobat' are matched 
+
+2023-08-25 15:59:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-25 15:59:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-25 15:59:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-25 15:59:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout/Test Case 4.2" time="22.401" classname="Test Cases/Logout/Test Case 4.2" status="PASSED">
+         <system-out><![CDATA[2023-08-25 15:59:12 - [TEST_CASE][PASSED] - Test Cases/Logout/Test Case 4.2: Test Cases/Logout/Test Case 4.2
+
+2023-08-25 15:59:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Logout/Test Case 4.1"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Logout/Test Case 4.1' successfully
+
+2023-08-25 15:59:12 - [TEST_CASE][PASSED] - Test Cases/Logout/Test Case 4.1: Test Cases/Logout/Test Case 4.1
+
+2023-08-25 15:59:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1 (Cara Manual)"), ["Username":"John Doe", "password":"g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1 (Cara Manual)' successfully
+
+2023-08-25 15:59:12 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1 (Cara Manual): Test Cases/Login/Test Case 1.1 (Cara Manual)
+
+2023-08-25 15:59:12 - [TEST_STEP][PASSED] - openBrowser(web_url): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:59:12 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 15:59:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 15:59:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:59:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-25 15:59:19 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-25 15:59:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_homepage"), 0): Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:59:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:59:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:59:19 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button")): Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:59:19 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button_login")): Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:59:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:59:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/Title_Login"), 0): Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:59:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:59:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:59:21 - [TEST_STEP][PASSED] - setText(findTestObject("Login Manual/input_Username"), Username): Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:59:22 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:59:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Manual/input_Password"), password): Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:59:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:59:22 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/button_Login (1)")): Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:59:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_Make Appointment"), 5): Object 'Object Repository/Login Manual/title_Make Appointment' is present
+
+2023-08-25 15:59:24 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_Make Appointment' is present
+
+2023-08-25 15:59:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1 (Cara Manual)' successfully
+
+2023-08-25 15:59:24 - [TEST_STEP][PASSED] - click(findTestObject("Logout/burber_button")): Object: 'Object Repository/Logout/burber_button' is clicked on
+
+2023-08-25 15:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/burber_button' is clicked on
+
+2023-08-25 15:59:24 - [TEST_STEP][PASSED] - click(findTestObject("Logout/button_logout")): Object: 'Object Repository/Logout/button_logout' is clicked on
+
+2023-08-25 15:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/button_logout' is clicked on
+
+2023-08-25 15:59:25 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_make_appointment_home_page")): Object: 'Object Repository/Login/button_make_appointment_home_page' is clicked on
+
+2023-08-25 15:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_make_appointment_home_page' is clicked on
+
+2023-08-25 15:59:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/h2_Login")): Object 'Object Repository/Login/h2_Login' is visible
+
+2023-08-25 15:59:26 - [MESSAGE][PASSED] - Object 'Object Repository/Login/h2_Login' is visible
+
+2023-08-25 15:59:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-25 15:59:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-25 15:59:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Logout/Test Case 4.1' successfully
+
+2023-08-25 15:59:29 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2023-08-25 15:59:30 - [MESSAGE][PASSED] - Navigate back successfully
+
+2023-08-25 15:59:30 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_make_appointment_home_page")): Object: 'Object Repository/Login/button_make_appointment_home_page' is clicked on
+
+2023-08-25 15:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_make_appointment_home_page' is clicked on
+
+2023-08-25 15:59:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/h2_Login")): Object 'Object Repository/Login/h2_Login' is visible
+
+2023-08-25 15:59:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login/h2_Login' is visible
+
+2023-08-25 15:59:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-25 15:59:34 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout/Test Case 4.1" time="18.323" classname="Test Cases/Logout/Test Case 4.1" status="PASSED">
+         <system-out><![CDATA[2023-08-25 15:59:34 - [TEST_CASE][PASSED] - Test Cases/Logout/Test Case 4.1: Test Cases/Logout/Test Case 4.1
+
+2023-08-25 15:59:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1 (Cara Manual)"), ["Username":"John Doe", "password":"g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1 (Cara Manual)' successfully
+
+2023-08-25 15:59:34 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1 (Cara Manual): Test Cases/Login/Test Case 1.1 (Cara Manual)
+
+2023-08-25 15:59:34 - [TEST_STEP][PASSED] - openBrowser(web_url): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:59:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 15:59:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 15:59:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 15:59:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 15:59:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-25 15:59:42 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-25 15:59:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_homepage"), 0): Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:59:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:59:42 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_homepage' is present
+
+2023-08-25 15:59:42 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button")): Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button' is clicked on
+
+2023-08-25 15:59:43 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/burger_button_login")): Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/burger_button_login' is clicked on
+
+2023-08-25 15:59:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/Title_Login"), 0): Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:59:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 15:59:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/Title_Login' is present
+
+2023-08-25 15:59:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login Manual/input_Username"), Username): Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:59:45 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Manual/input_Username'
+
+2023-08-25 15:59:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Manual/input_Password"), password): Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:59:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Manual/input_Password'
+
+2023-08-25 15:59:45 - [TEST_STEP][PASSED] - click(findTestObject("Login Manual/button_Login (1)")): Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Manual/button_Login (1)' is clicked on
+
+2023-08-25 15:59:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Manual/title_Make Appointment"), 5): Object 'Object Repository/Login Manual/title_Make Appointment' is present
+
+2023-08-25 15:59:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login Manual/title_Make Appointment' is present
+
+2023-08-25 15:59:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1 (Cara Manual)' successfully
+
+2023-08-25 15:59:47 - [TEST_STEP][PASSED] - click(findTestObject("Logout/burber_button")): Object: 'Object Repository/Logout/burber_button' is clicked on
+
+2023-08-25 15:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/burber_button' is clicked on
+
+2023-08-25 15:59:47 - [TEST_STEP][PASSED] - click(findTestObject("Logout/button_logout")): Object: 'Object Repository/Logout/button_logout' is clicked on
+
+2023-08-25 15:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/button_logout' is clicked on
+
+2023-08-25 15:59:48 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_make_appointment_home_page")): Object: 'Object Repository/Login/button_make_appointment_home_page' is clicked on
+
+2023-08-25 15:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_make_appointment_home_page' is clicked on
+
+2023-08-25 15:59:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/h2_Login")): Object 'Object Repository/Login/h2_Login' is visible
+
+2023-08-25 15:59:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login/h2_Login' is visible
+
+2023-08-25 15:59:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-25 15:59:52 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-25 15:56:04 - [TEST_SUITE][FAILED] - Tes Suite Heroku App: Test Cases/Login/Test Case 1.3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.3.run(Test Case 1.3:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-25 15:56:04 - [TEST_SUITE][FAILED] - Tes Suite Heroku App: Test Cases/Login/Test Case 1.3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Case 1.3.run(Test Case 1.3:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692953756542.run(TempTestSuite1692953756542.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Login failed! Please ensure the username and password are valid.' and expected text 'Please fills out this field.' of test object 'Object Repository/Login Negative/Error_Login failed Please ensure the username and password are valid' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

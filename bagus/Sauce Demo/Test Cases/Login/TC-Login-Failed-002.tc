@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User login hanya menggunakan Username</description>
+   <name>TC-Login-Failed-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4bfd86f-5300-46c9-b400-6f73c01d7f00</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>02b9b847-c3b3-461f-a8f1-a3600c17d95e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>02b9b847-c3b3-461f-a8f1-a3600c17d95e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

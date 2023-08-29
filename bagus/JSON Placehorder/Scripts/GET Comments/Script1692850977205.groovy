@@ -16,4 +16,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+//send request
 
+respon = WS.sendRequest(findTestObject('Object Repository/GET Comment'))
+
+//verify http code
+
+WS.verifyResponseStatusCode(respon, 200)
+
+count = WS.getElementsCount(respon, "")
+println(count)
+
+for(i=0;i<5;i++) {
+postId = WS.getElementPropertyValue(respon, "["+i+"].postId")
+id = WS.getElementPropertyValue(respon, "["+i+"].id")
+name = WS.getElementPropertyValue(respon, "["+i+"].name")
+email = WS.getElementPropertyValue(respon, "["+i+"].email")
+body = WS.getElementPropertyValue(respon, "["+i+"].body")
+
+assert postId != null && postId != "";
+assert id != null && id != "";
+assert name != null && name != "";
+assert email != null && email != "";
+assert body != null && body != "";
+
+}

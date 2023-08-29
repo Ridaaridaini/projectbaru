@@ -1,0 +1,392 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Make Appointment,Edge Chromium 115,,,2023-08-25 10:41:09,2023-08-25 10:47:26,6m - 17.364s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:41:09,2023-08-25 10:41:33,24.070s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:41:10,2023-08-25 10:41:23,13.128s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:41:23,2023-08-25 10:41:24,0.779s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:41:24,2023-08-25 10:41:24,0.429s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:41:24,2023-08-25 10:41:25,0.394s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:41:25,2023-08-25 10:41:25,0.884s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:41:25,2023-08-25 10:41:26,0.936s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:41:26,2023-08-25 10:41:27,0.744s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:41:27,2023-08-25 10:41:28,0.405s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:41:28,2023-08-25 10:41:28,0.444s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:41:28,2023-08-25 10:41:28,0.383s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:41:28,2023-08-25 10:41:29,0.333s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:41:29,2023-08-25 10:41:29,0.395s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:41:29,2023-08-25 10:41:29,0.379s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:41:29,2023-08-25 10:41:29,0.005s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:41:29,2023-08-25 10:41:29,0.006s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:41:29,2023-08-25 10:41:29,0.000s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:41:29,2023-08-25 10:41:30,0.005s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:41:30,2023-08-25 10:41:30,0.001s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:41:30,2023-08-25 10:41:33,3.002s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:41:33,2023-08-25 10:41:33,0.815s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:41:33,2023-08-25 10:41:56,22.805s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:41:33,2023-08-25 10:41:46,12.610s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:41:46,2023-08-25 10:41:47,0.719s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:41:47,2023-08-25 10:41:47,0.409s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:41:47,2023-08-25 10:41:47,0.000s,PASSED
+"else if (toString().equalsIgnoreCase(""medicaid""))",Edge Chromium 115,,,2023-08-25 10:41:47,2023-08-25 10:41:48,0.399s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:41:48,2023-08-25 10:41:48,0.827s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:41:48,2023-08-25 10:41:49,0.899s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:41:49,2023-08-25 10:41:50,0.738s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:41:50,2023-08-25 10:41:50,0.476s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:41:50,2023-08-25 10:41:51,0.388s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:41:51,2023-08-25 10:41:51,0.375s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:41:51,2023-08-25 10:41:52,0.365s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:41:52,2023-08-25 10:41:52,0.374s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:41:52,2023-08-25 10:41:52,0.374s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:41:52,2023-08-25 10:41:52,0.002s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:41:52,2023-08-25 10:41:52,0.000s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:41:52,2023-08-25 10:41:52,0.003s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:41:52,2023-08-25 10:41:52,0.000s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:41:52,2023-08-25 10:41:52,0.000s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:41:52,2023-08-25 10:41:55,3.012s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:41:55,2023-08-25 10:41:56,0.779s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:41:56,2023-08-25 10:42:19,22.835s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:41:56,2023-08-25 10:42:09,12.528s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:42:09,2023-08-25 10:42:09,0.693s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:42:09,2023-08-25 10:42:10,0.537s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:42:10,2023-08-25 10:42:10,0.000s,PASSED
+"else if (toString().equalsIgnoreCase(""medicaid""))",Edge Chromium 115,,,2023-08-25 10:42:10,2023-08-25 10:42:10,0.000s,PASSED
+else,Edge Chromium 115,,,2023-08-25 10:42:10,2023-08-25 10:42:10,0.376s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:42:10,2023-08-25 10:42:11,0.854s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:42:11,2023-08-25 10:42:12,0.921s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:42:12,2023-08-25 10:42:13,0.787s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:42:13,2023-08-25 10:42:13,0.439s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:42:13,2023-08-25 10:42:14,0.373s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:42:14,2023-08-25 10:42:14,0.359s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:42:14,2023-08-25 10:42:14,0.354s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:42:14,2023-08-25 10:42:15,0.353s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:42:15,2023-08-25 10:42:15,0.353s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:42:15,2023-08-25 10:42:15,0.002s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:42:15,2023-08-25 10:42:15,0.000s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:42:15,2023-08-25 10:42:15,0.000s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:42:15,2023-08-25 10:42:15,0.000s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:42:15,2023-08-25 10:42:15,0.002s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:42:15,2023-08-25 10:42:18,3.011s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:42:18,2023-08-25 10:42:19,0.802s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:42:19,2023-08-25 10:42:41,21.760s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:42:19,2023-08-25 10:42:31,12.029s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:42:31,2023-08-25 10:42:32,0.657s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:42:32,2023-08-25 10:42:32,0.000s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:42:32,2023-08-25 10:42:32,0.352s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:42:32,2023-08-25 10:42:33,0.865s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:42:33,2023-08-25 10:42:34,0.901s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:42:34,2023-08-25 10:42:35,0.730s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:42:35,2023-08-25 10:42:35,0.439s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:42:35,2023-08-25 10:42:36,0.390s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:42:36,2023-08-25 10:42:36,0.353s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:42:36,2023-08-25 10:42:36,0.363s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:42:36,2023-08-25 10:42:37,0.379s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:42:37,2023-08-25 10:42:37,0.355s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:42:37,2023-08-25 10:42:37,0.002s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:42:37,2023-08-25 10:42:37,0.001s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:42:37,2023-08-25 10:42:37,0.002s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:42:37,2023-08-25 10:42:37,0.000s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:42:37,2023-08-25 10:42:37,0.000s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:42:37,2023-08-25 10:42:40,3.010s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:42:40,2023-08-25 10:42:41,0.805s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:42:41,2023-08-25 10:43:02,21.630s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:42:41,2023-08-25 10:42:53,11.961s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:42:53,2023-08-25 10:42:54,0.698s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:42:54,2023-08-25 10:42:54,0.001s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:42:54,2023-08-25 10:42:54,0.000s,PASSED
+"else if (toString().equalsIgnoreCase(""medicaid""))",Edge Chromium 115,,,2023-08-25 10:42:54,2023-08-25 10:42:54,0.393s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:42:54,2023-08-25 10:42:55,0.806s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:42:55,2023-08-25 10:42:56,0.879s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:42:56,2023-08-25 10:42:56,0.775s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:42:56,2023-08-25 10:42:57,0.420s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:42:57,2023-08-25 10:42:57,0.379s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:42:57,2023-08-25 10:42:58,0.352s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:42:58,2023-08-25 10:42:58,0.353s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:42:58,2023-08-25 10:42:58,0.369s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:42:58,2023-08-25 10:42:59,0.358s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:42:59,2023-08-25 10:42:59,0.002s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:42:59,2023-08-25 10:42:59,0.000s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:42:59,2023-08-25 10:42:59,0.002s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:42:59,2023-08-25 10:42:59,0.001s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:42:59,2023-08-25 10:42:59,0.001s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:42:59,2023-08-25 10:43:02,3.016s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:43:02,2023-08-25 10:43:02,0.813s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:43:03,2023-08-25 10:43:24,21.947s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:43:03,2023-08-25 10:43:15,12.255s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:43:15,2023-08-25 10:43:16,0.707s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:43:16,2023-08-25 10:43:16,0.001s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:43:16,2023-08-25 10:43:16,0.000s,PASSED
+"else if (toString().equalsIgnoreCase(""medicaid""))",Edge Chromium 115,,,2023-08-25 10:43:16,2023-08-25 10:43:16,0.000s,PASSED
+else,Edge Chromium 115,,,2023-08-25 10:43:16,2023-08-25 10:43:16,0.361s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:43:16,2023-08-25 10:43:17,0.830s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:43:17,2023-08-25 10:43:18,0.899s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:43:18,2023-08-25 10:43:18,0.769s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:43:18,2023-08-25 10:43:19,0.436s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:43:19,2023-08-25 10:43:19,0.384s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:43:19,2023-08-25 10:43:20,0.362s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:43:20,2023-08-25 10:43:20,0.361s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:43:20,2023-08-25 10:43:20,0.364s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:43:20,2023-08-25 10:43:21,0.337s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:43:21,2023-08-25 10:43:21,0.002s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:43:21,2023-08-25 10:43:21,0.001s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:43:21,2023-08-25 10:43:21,0.002s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:43:21,2023-08-25 10:43:21,0.001s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:43:21,2023-08-25 10:43:21,0.000s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:43:21,2023-08-25 10:43:24,3.015s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:43:24,2023-08-25 10:43:24,0.803s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:43:24,2023-08-25 10:43:47,22.636s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:43:25,2023-08-25 10:43:37,12.464s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:43:37,2023-08-25 10:43:38,0.707s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:43:38,2023-08-25 10:43:38,0.389s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:43:38,2023-08-25 10:43:38,0.380s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:43:38,2023-08-25 10:43:39,0.889s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:43:39,2023-08-25 10:43:40,0.953s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:43:40,2023-08-25 10:43:41,0.739s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:43:41,2023-08-25 10:43:41,0.406s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:43:41,2023-08-25 10:43:42,0.384s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:43:42,2023-08-25 10:43:42,0.361s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:43:42,2023-08-25 10:43:43,0.388s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:43:43,2023-08-25 10:43:43,0.360s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:43:43,2023-08-25 10:43:43,0.357s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:43:43,2023-08-25 10:43:43,0.001s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:43:43,2023-08-25 10:43:43,0.001s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:43:43,2023-08-25 10:43:43,0.002s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:43:43,2023-08-25 10:43:43,0.002s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:43:43,2023-08-25 10:43:43,0.000s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:43:43,2023-08-25 10:43:46,3.000s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:43:46,2023-08-25 10:43:47,0.789s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:43:47,2023-08-25 10:44:09,22.252s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:43:47,2023-08-25 10:43:59,12.086s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:43:59,2023-08-25 10:44:00,0.765s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:44:00,2023-08-25 10:44:00,0.401s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:44:00,2023-08-25 10:44:00,0.001s,PASSED
+"else if (toString().equalsIgnoreCase(""medicaid""))",Edge Chromium 115,,,2023-08-25 10:44:00,2023-08-25 10:44:01,0.411s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:44:01,2023-08-25 10:44:02,0.835s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:44:02,2023-08-25 10:44:03,0.876s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:44:03,2023-08-25 10:44:03,0.746s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:44:03,2023-08-25 10:44:04,0.509s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:44:04,2023-08-25 10:44:04,0.368s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:44:04,2023-08-25 10:44:05,0.356s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:44:05,2023-08-25 10:44:05,0.372s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:44:05,2023-08-25 10:44:05,0.357s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:44:05,2023-08-25 10:44:06,0.331s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:44:06,2023-08-25 10:44:06,0.001s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:44:06,2023-08-25 10:44:06,0.001s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:44:06,2023-08-25 10:44:06,0.002s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:44:06,2023-08-25 10:44:06,0.002s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:44:06,2023-08-25 10:44:06,0.000s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:44:06,2023-08-25 10:44:09,3.003s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:44:09,2023-08-25 10:44:09,0.784s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:44:09,2023-08-25 10:44:31,21.791s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:44:09,2023-08-25 10:44:21,11.671s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:44:21,2023-08-25 10:44:22,0.711s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:44:22,2023-08-25 10:44:22,0.404s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:44:22,2023-08-25 10:44:22,0.001s,PASSED
+"else if (toString().equalsIgnoreCase(""medicaid""))",Edge Chromium 115,,,2023-08-25 10:44:22,2023-08-25 10:44:22,0.000s,PASSED
+else,Edge Chromium 115,,,2023-08-25 10:44:22,2023-08-25 10:44:23,0.441s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:44:23,2023-08-25 10:44:24,0.815s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:44:24,2023-08-25 10:44:24,0.905s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:44:24,2023-08-25 10:44:25,0.748s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:44:25,2023-08-25 10:44:26,0.395s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:44:26,2023-08-25 10:44:26,0.358s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:44:26,2023-08-25 10:44:26,0.364s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:44:26,2023-08-25 10:44:27,0.369s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:44:27,2023-08-25 10:44:27,0.378s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:44:27,2023-08-25 10:44:27,0.356s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:44:27,2023-08-25 10:44:27,0.003s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:44:27,2023-08-25 10:44:27,0.000s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:44:27,2023-08-25 10:44:27,0.000s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:44:27,2023-08-25 10:44:27,0.003s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:44:27,2023-08-25 10:44:27,0.002s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:44:27,2023-08-25 10:44:30,3.016s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:44:30,2023-08-25 10:44:31,0.801s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:44:31,2023-08-25 10:44:53,21.629s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:44:31,2023-08-25 10:44:43,11.933s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:44:43,2023-08-25 10:44:44,0.724s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:44:44,2023-08-25 10:44:44,0.001s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:44:44,2023-08-25 10:44:44,0.377s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:44:44,2023-08-25 10:44:45,0.798s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:44:45,2023-08-25 10:44:46,0.896s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:44:46,2023-08-25 10:44:47,0.724s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:44:47,2023-08-25 10:44:47,0.487s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:44:47,2023-08-25 10:44:48,0.363s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:44:48,2023-08-25 10:44:48,0.359s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:44:48,2023-08-25 10:44:48,0.370s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:44:48,2023-08-25 10:44:49,0.355s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:44:49,2023-08-25 10:44:49,0.354s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:44:49,2023-08-25 10:44:49,0.002s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:44:49,2023-08-25 10:44:49,0.001s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:44:49,2023-08-25 10:44:49,0.002s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:44:49,2023-08-25 10:44:49,0.001s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:44:49,2023-08-25 10:44:49,0.001s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:44:49,2023-08-25 10:44:52,3.011s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:44:52,2023-08-25 10:44:53,0.792s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:44:53,2023-08-25 10:45:14,21.509s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:44:53,2023-08-25 10:45:05,11.749s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:45:05,2023-08-25 10:45:05,0.777s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:45:05,2023-08-25 10:45:05,0.001s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:45:05,2023-08-25 10:45:05,0.000s,PASSED
+"else if (toString().equalsIgnoreCase(""medicaid""))",Edge Chromium 115,,,2023-08-25 10:45:05,2023-08-25 10:45:06,0.386s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:45:06,2023-08-25 10:45:07,0.798s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:45:07,2023-08-25 10:45:08,0.917s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:45:08,2023-08-25 10:45:08,0.765s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:45:08,2023-08-25 10:45:09,0.449s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:45:09,2023-08-25 10:45:09,0.364s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:45:09,2023-08-25 10:45:10,0.356s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:45:10,2023-08-25 10:45:10,0.356s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:45:10,2023-08-25 10:45:10,0.354s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:45:10,2023-08-25 10:45:11,0.374s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:45:11,2023-08-25 10:45:11,0.001s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:45:11,2023-08-25 10:45:11,0.000s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:45:11,2023-08-25 10:45:11,0.000s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:45:11,2023-08-25 10:45:11,0.004s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:45:11,2023-08-25 10:45:11,0.001s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:45:11,2023-08-25 10:45:14,3.004s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:45:14,2023-08-25 10:45:14,0.824s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:45:14,2023-08-25 10:45:37,22.857s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:45:14,2023-08-25 10:45:27,12.868s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:45:27,2023-08-25 10:45:28,0.708s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:45:28,2023-08-25 10:45:29,0.435s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:45:29,2023-08-25 10:45:29,0.353s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:45:29,2023-08-25 10:45:30,0.808s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:45:30,2023-08-25 10:45:31,0.896s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:45:31,2023-08-25 10:45:31,0.738s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:45:31,2023-08-25 10:45:32,0.414s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:45:32,2023-08-25 10:45:32,0.376s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:45:32,2023-08-25 10:45:32,0.355s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:45:32,2023-08-25 10:45:33,0.344s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:45:33,2023-08-25 10:45:33,0.364s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:45:33,2023-08-25 10:45:34,0.349s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:45:34,2023-08-25 10:45:34,0.001s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:45:34,2023-08-25 10:45:34,0.004s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:45:34,2023-08-25 10:45:34,0.001s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:45:34,2023-08-25 10:45:34,0.001s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:45:34,2023-08-25 10:45:34,0.001s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:45:34,2023-08-25 10:45:37,3.004s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:45:37,2023-08-25 10:45:37,0.805s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:45:37,2023-08-25 10:46:00,22.316s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:45:37,2023-08-25 10:45:49,12.115s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:45:49,2023-08-25 10:45:50,0.752s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:45:50,2023-08-25 10:45:51,0.387s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:45:51,2023-08-25 10:45:51,0.000s,PASSED
+"else if (toString().equalsIgnoreCase(""medicaid""))",Edge Chromium 115,,,2023-08-25 10:45:51,2023-08-25 10:45:51,0.425s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:45:51,2023-08-25 10:45:52,0.815s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:45:52,2023-08-25 10:45:53,0.892s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:45:53,2023-08-25 10:45:54,0.756s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:45:54,2023-08-25 10:45:54,0.518s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:45:54,2023-08-25 10:45:54,0.362s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:45:54,2023-08-25 10:45:55,0.362s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:45:55,2023-08-25 10:45:55,0.360s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:45:55,2023-08-25 10:45:55,0.372s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:45:55,2023-08-25 10:45:56,0.333s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:45:56,2023-08-25 10:45:56,0.001s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:45:56,2023-08-25 10:45:56,0.001s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:45:56,2023-08-25 10:45:56,0.000s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:45:56,2023-08-25 10:45:56,0.000s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:45:56,2023-08-25 10:45:56,0.004s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:45:56,2023-08-25 10:45:59,3.017s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:45:59,2023-08-25 10:46:00,0.808s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:46:00,2023-08-25 10:46:21,21.498s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:46:00,2023-08-25 10:46:11,11.613s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:46:11,2023-08-25 10:46:12,0.776s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:46:12,2023-08-25 10:46:13,0.404s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:46:13,2023-08-25 10:46:13,0.000s,PASSED
+"else if (toString().equalsIgnoreCase(""medicaid""))",Edge Chromium 115,,,2023-08-25 10:46:13,2023-08-25 10:46:13,0.000s,PASSED
+else,Edge Chromium 115,,,2023-08-25 10:46:13,2023-08-25 10:46:13,0.408s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:46:13,2023-08-25 10:46:14,0.810s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:46:14,2023-08-25 10:46:15,0.793s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:46:15,2023-08-25 10:46:15,0.674s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:46:15,2023-08-25 10:46:16,0.397s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:46:16,2023-08-25 10:46:16,0.376s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:46:16,2023-08-25 10:46:16,0.362s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:46:16,2023-08-25 10:46:17,0.354s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:46:17,2023-08-25 10:46:17,0.369s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:46:17,2023-08-25 10:46:17,0.318s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:46:17,2023-08-25 10:46:17,0.002s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:46:17,2023-08-25 10:46:17,0.000s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:46:17,2023-08-25 10:46:17,0.001s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:46:17,2023-08-25 10:46:17,0.000s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:46:17,2023-08-25 10:46:17,0.003s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:46:17,2023-08-25 10:46:20,3.006s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:46:20,2023-08-25 10:46:21,0.784s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:46:21,2023-08-25 10:46:43,21.783s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:46:21,2023-08-25 10:46:33,12.169s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:46:33,2023-08-25 10:46:34,0.731s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:46:34,2023-08-25 10:46:34,0.000s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:46:34,2023-08-25 10:46:35,0.354s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:46:35,2023-08-25 10:46:35,0.831s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:46:35,2023-08-25 10:46:36,0.933s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:46:36,2023-08-25 10:46:37,0.715s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:46:37,2023-08-25 10:46:37,0.432s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:46:37,2023-08-25 10:46:38,0.361s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:46:38,2023-08-25 10:46:38,0.355s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:46:38,2023-08-25 10:46:39,0.349s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:46:39,2023-08-25 10:46:39,0.357s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:46:39,2023-08-25 10:46:39,0.360s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:46:39,2023-08-25 10:46:39,0.000s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:46:39,2023-08-25 10:46:39,0.000s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:46:39,2023-08-25 10:46:39,0.001s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:46:39,2023-08-25 10:46:39,0.000s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:46:39,2023-08-25 10:46:39,0.003s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:46:39,2023-08-25 10:46:42,3.001s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:46:42,2023-08-25 10:46:43,0.780s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:46:43,2023-08-25 10:47:05,21.652s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:46:43,2023-08-25 10:46:55,11.985s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:46:55,2023-08-25 10:46:56,0.769s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:46:56,2023-08-25 10:46:56,0.000s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:46:56,2023-08-25 10:46:56,0.000s,PASSED
+"else if (toString().equalsIgnoreCase(""medicaid""))",Edge Chromium 115,,,2023-08-25 10:46:56,2023-08-25 10:46:56,0.383s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:46:56,2023-08-25 10:46:57,0.807s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:46:57,2023-08-25 10:46:58,0.859s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:46:58,2023-08-25 10:46:59,0.744s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:46:59,2023-08-25 10:46:59,0.411s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:46:59,2023-08-25 10:46:59,0.423s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:46:59,2023-08-25 10:47:00,0.364s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:47:00,2023-08-25 10:47:00,0.355s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:47:00,2023-08-25 10:47:01,0.351s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:47:01,2023-08-25 10:47:01,0.309s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:47:01,2023-08-25 10:47:01,0.001s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:47:01,2023-08-25 10:47:01,0.001s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:47:01,2023-08-25 10:47:01,0.000s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:47:01,2023-08-25 10:47:01,0.000s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:47:01,2023-08-25 10:47:01,0.004s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:47:01,2023-08-25 10:47:04,3.008s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:47:04,2023-08-25 10:47:05,0.827s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Test Case 2.1 (Versi Dinamis),Edge Chromium 115,,,2023-08-25 10:47:05,2023-08-25 10:47:26,21.448s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Cara Manual)""), [""Username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-08-25 10:47:05,2023-08-25 10:47:17,11.865s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/dropdown_menu""), dropdown_menu, false)",Edge Chromium 115,,,2023-08-25 10:47:17,2023-08-25 10:47:17,0.757s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 115,,,2023-08-25 10:47:17,2023-08-25 10:47:17,0.001s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 115,,,2023-08-25 10:47:17,2023-08-25 10:47:17,0.000s,PASSED
+"else if (toString().equalsIgnoreCase(""medicaid""))",Edge Chromium 115,,,2023-08-25 10:47:17,2023-08-25 10:47:17,0.000s,PASSED
+else,Edge Chromium 115,,,2023-08-25 10:47:17,2023-08-25 10:47:18,0.400s,PASSED
+"setText(findTestObject(""Make Appointment/input_Visit Date (Required)_visit_date""), visit_date)",Edge Chromium 115,,,2023-08-25 10:47:18,2023-08-25 10:47:19,0.781s,PASSED
+"setText(findTestObject(""Make Appointment/textarea_Comment_comment""), comment)",Edge Chromium 115,,,2023-08-25 10:47:19,2023-08-25 10:47:19,0.869s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Edge Chromium 115,,,2023-08-25 10:47:19,2023-08-25 10:47:20,0.724s,PASSED
+"verifyElementVisible(findTestObject(""Make Appointment/title_Appointment Confirmation""))",Edge Chromium 115,,,2023-08-25 10:47:20,2023-08-25 10:47:21,0.409s,PASSED
+"hasil_facility = getText(findTestObject(""Object Repository/Make Appointment/facility_Tokyo CURA Healthcare Center""))",Edge Chromium 115,,,2023-08-25 10:47:21,2023-08-25 10:47:21,0.344s,PASSED
+"hasil_readmission = getText(findTestObject(""Make Appointment/checkbox_Yes""))",Edge Chromium 115,,,2023-08-25 10:47:21,2023-08-25 10:47:21,0.363s,PASSED
+"hasil_program = getText(findTestObject(""Make Appointment/program_Medicare""))",Edge Chromium 115,,,2023-08-25 10:47:21,2023-08-25 10:47:22,0.398s,PASSED
+"hasil_date = getText(findTestObject(""Make Appointment/visit_date""))",Edge Chromium 115,,,2023-08-25 10:47:22,2023-08-25 10:47:22,0.352s,PASSED
+"hasil_comment = getText(findTestObject(""Make Appointment/comment_sakit kepala""))",Edge Chromium 115,,,2023-08-25 10:47:22,2023-08-25 10:47:22,0.332s,PASSED
+"verifyMatch(hasil_facility.trim(), dropdown_menu.trim(), false)",Edge Chromium 115,,,2023-08-25 10:47:22,2023-08-25 10:47:22,0.001s,PASSED
+"verifyMatch(trim().toLowerCase(), hospital_readmission.trim(), false)",Edge Chromium 115,,,2023-08-25 10:47:22,2023-08-25 10:47:22,0.000s,PASSED
+"verifyMatch(trim().toLowerCase(), healthcare_program.trim(), false)",Edge Chromium 115,,,2023-08-25 10:47:22,2023-08-25 10:47:22,0.000s,PASSED
+"verifyMatch(hasil_date.trim(), visit_date.trim(), false)",Edge Chromium 115,,,2023-08-25 10:47:22,2023-08-25 10:47:22,0.000s,PASSED
+"verifyMatch(hasil_comment.trim(), comment.trim(), false)",Edge Chromium 115,,,2023-08-25 10:47:22,2023-08-25 10:47:22,0.000s,PASSED
+delay(3),Edge Chromium 115,,,2023-08-25 10:47:22,2023-08-25 10:47:25,3.012s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-08-25 10:47:25,2023-08-25 10:47:26,0.807s,PASSED
