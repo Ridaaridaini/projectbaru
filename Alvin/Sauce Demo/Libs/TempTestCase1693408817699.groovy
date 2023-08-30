@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\ASLAMA~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Checkout\\TC-Checkout-Error-003\\20230830_164917\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\ASLAMA~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Checkout\\TC-Checkout-Success-002\\20230830_222017\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Checkout/TC-Checkout-Error-003', new TestCaseBinding('Test Cases/Checkout/TC-Checkout-Error-003',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Checkout/TC-Checkout-Success-002', new TestCaseBinding('Test Cases/Checkout/TC-Checkout-Success-002',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
