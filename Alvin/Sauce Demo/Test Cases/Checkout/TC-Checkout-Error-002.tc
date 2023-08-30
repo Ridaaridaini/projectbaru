@@ -5,4 +5,43 @@
    <tag>Checkout Negative</tag>
    <comment></comment>
    <testCaseGuid>dc96b98a-3c45-45a4-9736-293c9a38808f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>20778a64-c2ee-4161-b8e3-00a5a72b87eb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>93451c7e-c0d1-4af2-85a2-50b4eb40244f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c5b6826-a5f3-46b1-91e2-2ba15bc5a52d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Joko'</defaultValue>
+      <description></description>
+      <id>20778a64-c2ee-4161-b8e3-00a5a72b87eb</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345'</defaultValue>
+      <description></description>
+      <id>93451c7e-c0d1-4af2-85a2-50b4eb40244f</id>
+      <masked>false</masked>
+      <name>postalCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Last Name Required'</defaultValue>
+      <description></description>
+      <id>0c5b6826-a5f3-46b1-91e2-2ba15bc5a52d</id>
+      <masked>false</masked>
+      <name>error_message</name>
+   </variable>
 </TestCaseEntity>

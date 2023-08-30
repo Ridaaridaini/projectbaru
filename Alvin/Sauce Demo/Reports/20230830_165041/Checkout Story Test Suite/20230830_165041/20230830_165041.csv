@@ -1,0 +1,98 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout Story Test Suite,Edge Chromium 116,,,2023-08-30 16:51:02,2023-08-30 16:55:01,3m - 59.248s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Success-001,Edge Chromium 116,User Melakukan Checkout 1 barang,Checkout,2023-08-30 16:51:03,2023-08-30 16:52:04,1m - 0.737s,PASSED
+"cartItems = callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-30 16:51:12,2023-08-30 16:51:52,40.662s,PASSED
+"click(findTestObject(""Checkout/button_Checkout""))",Edge Chromium 116,,,2023-08-30 16:51:52,2023-08-30 16:51:53,0.871s,PASSED
+"verifyElementPresent(findTestObject(""Checkout/span_Checkout Your Information""), 5)",Edge Chromium 116,,,2023-08-30 16:51:53,2023-08-30 16:51:54,0.680s,PASSED
+"setText(findTestObject(""Checkout/input_Checkout Your Information_firstName""), firstName)",Edge Chromium 116,,,2023-08-30 16:51:54,2023-08-30 16:51:55,1.180s,PASSED
+"setText(findTestObject(""Checkout/input_Checkout Your Information_lastName""), lastName)",Edge Chromium 116,,,2023-08-30 16:51:55,2023-08-30 16:51:56,1.358s,PASSED
+"setText(findTestObject(""Checkout/input_Checkout Your Information_postalCode""), postalCode)",Edge Chromium 116,,,2023-08-30 16:51:56,2023-08-30 16:51:58,1.174s,PASSED
+"click(findTestObject(""Checkout/input_Cancel_continue""))",Edge Chromium 116,,,2023-08-30 16:51:58,2023-08-30 16:51:58,0.797s,PASSED
+"verifyElementPresent(findTestObject(""Checkout/span_Checkout Overview""), 5)",Edge Chromium 116,,,2023-08-30 16:51:58,2023-08-30 16:51:59,0.685s,PASSED
+cartName = text,Edge Chromium 116,,,2023-08-30 16:51:59,2023-08-30 16:52:00,0.569s,PASSED
+cartDesc = text,Edge Chromium 116,,,2023-08-30 16:52:00,2023-08-30 16:52:00,0.598s,PASSED
+cartPrice = text,Edge Chromium 116,,,2023-08-30 16:52:00,2023-08-30 16:52:01,0.671s,PASSED
+taxElement = text,Edge Chromium 116,,,2023-08-30 16:52:01,2023-08-30 16:52:02,0.806s,PASSED
+itemTotalElement = text,Edge Chromium 116,,,2023-08-30 16:52:02,2023-08-30 16:52:02,0.627s,PASSED
+totalElement = text,Edge Chromium 116,,,2023-08-30 16:52:02,2023-08-30 16:52:03,0.650s,PASSED
+"assert cartName == cartItems.get(""nameProduct"")",Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.001s,PASSED
+"assert cartDesc == cartItems.get(""descProduct"")",Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.003s,PASSED
+"assert cartPrice == cartItems.get(""priceProduct"")",Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.001s,PASSED
+"assert cartName == cartItems.get(""nameCart"")",Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.001s,PASSED
+"assert cartDesc == cartItems.get(""descCart"")",Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.001s,PASSED
+"assert cartPrice == cartItems.get(""priceCart"")",Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.001s,PASSED
+df = new java.text.DecimalFormat(#.##),Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.117s,PASSED
+"tax = Double.parseDouble(df.format(Double.parseDouble(cartPrice.replace(""$"", """")) * 0.08))",Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.066s,PASSED
+"itemTotal = Double.parseDouble(cartPrice.replace(""$"", """"))",Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.002s,PASSED
+total = tax + itemTotal,Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.002s,PASSED
+"arrItemTotalElement = itemTotalElement.split(""\$"")",Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.008s,PASSED
+"arrTaxElement = taxElement.split(""\$"")",Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.002s,PASSED
+"arrTotalElement = totalElement.split(""\$"")",Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.001s,PASSED
+assert tax == Double.parseDouble(arrTaxElement[1]),Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.042s,PASSED
+assert itemTotal == Double.parseDouble(arrItemTotalElement[1]),Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.003s,PASSED
+assert total == Double.parseDouble(arrTotalElement[1]),Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:03,0.002s,PASSED
+"click(findTestObject(""Checkout/button_Finish""))",Edge Chromium 116,,,2023-08-30 16:52:03,2023-08-30 16:52:04,0.952s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Success-002,Edge Chromium 116,User Melakukan Checkout 2 barang,Checkout,2023-08-30 16:52:04,2023-08-30 16:52:50,45.609s,PASSED
+"cartItems = callTestCase(findTestCase(""Keranjang/TC-Cart-Show-003""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-30 16:52:07,2023-08-30 16:52:38,31.580s,PASSED
+"click(findTestObject(""Checkout/button_Checkout""))",Edge Chromium 116,,,2023-08-30 16:52:38,2023-08-30 16:52:39,0.864s,PASSED
+"verifyElementPresent(findTestObject(""Checkout/span_Checkout Your Information""), 5)",Edge Chromium 116,,,2023-08-30 16:52:39,2023-08-30 16:52:40,0.611s,PASSED
+"setText(findTestObject(""Checkout/input_Checkout Your Information_firstName""), firstName)",Edge Chromium 116,,,2023-08-30 16:52:40,2023-08-30 16:52:41,1.268s,PASSED
+"setText(findTestObject(""Checkout/input_Checkout Your Information_lastName""), lastName)",Edge Chromium 116,,,2023-08-30 16:52:41,2023-08-30 16:52:42,1.319s,PASSED
+"setText(findTestObject(""Checkout/input_Checkout Your Information_postalCode""), postalCode)",Edge Chromium 116,,,2023-08-30 16:52:42,2023-08-30 16:52:44,1.366s,PASSED
+"click(findTestObject(""Checkout/input_Cancel_continue""))",Edge Chromium 116,,,2023-08-30 16:52:44,2023-08-30 16:52:45,0.754s,PASSED
+"verifyElementPresent(findTestObject(""Checkout/span_Checkout Overview""), 5)",Edge Chromium 116,,,2023-08-30 16:52:45,2023-08-30 16:52:45,0.666s,PASSED
+"cartName = findWebElements(findTestObject(""Object Repository/Checkout/overview item pos 1 name""), 5)",Edge Chromium 116,,,2023-08-30 16:52:45,2023-08-30 16:52:46,0.798s,PASSED
+"cartDesc = findWebElements(findTestObject(""Object Repository/Checkout/overview item pos 1 desc""), 5)",Edge Chromium 116,,,2023-08-30 16:52:46,2023-08-30 16:52:47,0.831s,PASSED
+"cartPrice = findWebElements(findTestObject(""Object Repository/Checkout/overview item pos 1 price""), 5)",Edge Chromium 116,,,2023-08-30 16:52:47,2023-08-30 16:52:47,0.554s,PASSED
+productName = new java.util.ArrayList(),Edge Chromium 116,,,2023-08-30 16:52:47,2023-08-30 16:52:47,0.000s,PASSED
+productDesc = new java.util.ArrayList(),Edge Chromium 116,,,2023-08-30 16:52:47,2023-08-30 16:52:47,0.000s,PASSED
+productPrice = new java.util.ArrayList(),Edge Chromium 116,,,2023-08-30 16:52:47,2023-08-30 16:52:47,0.000s,PASSED
+"for ([i = 0, i < cartName.size(), (i++)])",Edge Chromium 116,,,2023-08-30 16:52:47,2023-08-30 16:52:48,0.182s,PASSED
+"assert cartItems.get(""listNameProduct"") == productName",Edge Chromium 116,,,2023-08-30 16:52:48,2023-08-30 16:52:48,0.002s,PASSED
+"assert cartItems.get(""listDescProduct"") == productDesc",Edge Chromium 116,,,2023-08-30 16:52:48,2023-08-30 16:52:48,0.001s,PASSED
+"assert cartItems.get(""listPriceProduct"") == productPrice",Edge Chromium 116,,,2023-08-30 16:52:48,2023-08-30 16:52:48,0.001s,PASSED
+"click(findTestObject(""Checkout/button_Finish""))",Edge Chromium 116,,,2023-08-30 16:52:48,2023-08-30 16:52:48,0.888s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Checkout/span_Checkout Complete""), 5)",Edge Chromium 116,,,2023-08-30 16:52:49,2023-08-30 16:52:49,0.717s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Checkout/present thankyou for your order""), 5)",Edge Chromium 116,,,2023-08-30 16:52:49,2023-08-30 16:52:50,0.596s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Nav-001,Edge Chromium 116,"User 
+batal membeli product 
+pada halaman checkout:
+overview",Checkout,2023-08-30 16:52:50,2023-08-30 16:53:23,33.115s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-30 16:52:52,2023-08-30 16:53:15,23.536s,PASSED
+"click(findTestObject(""Checkout/button_Checkout""))",Edge Chromium 116,,,2023-08-30 16:53:15,2023-08-30 16:53:16,0.814s,PASSED
+"verifyElementPresent(findTestObject(""Checkout/span_Checkout Your Information""), 5)",Edge Chromium 116,,,2023-08-30 16:53:16,2023-08-30 16:53:17,0.663s,PASSED
+"setText(findTestObject(""Checkout/input_Checkout Your Information_firstName""), firstName)",Edge Chromium 116,,,2023-08-30 16:53:17,2023-08-30 16:53:18,1.187s,PASSED
+"setText(findTestObject(""Checkout/input_Checkout Your Information_lastName""), lastName)",Edge Chromium 116,,,2023-08-30 16:53:18,2023-08-30 16:53:19,1.247s,PASSED
+"setText(findTestObject(""Checkout/input_Checkout Your Information_postalCode""), postalCode)",Edge Chromium 116,,,2023-08-30 16:53:19,2023-08-30 16:53:20,1.129s,PASSED
+"click(findTestObject(""Checkout/input_Cancel_continue""))",Edge Chromium 116,,,2023-08-30 16:53:20,2023-08-30 16:53:21,0.758s,PASSED
+"verifyElementPresent(findTestObject(""Checkout/span_Checkout Overview""), 5)",Edge Chromium 116,,,2023-08-30 16:53:21,2023-08-30 16:53:22,0.592s,PASSED
+"click(findTestObject(""Checkout/button_Cancel""))",Edge Chromium 116,,,2023-08-30 16:53:22,2023-08-30 16:53:22,0.740s,PASSED
+"verifyElementPresent(findTestObject(""Product/span_Products""), 5)",Edge Chromium 116,,,2023-08-30 16:53:22,2023-08-30 16:53:23,0.643s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Error-001,Edge Chromium 116,user melakukan chekout di halaman Your Cart yang sudah ada isi atau sudah ada produk yang di masukan kedalaman keranjang namun tidak memasukan first name di halaman Chekout : Your Information,Checkout Negative,2023-08-30 16:53:23,2023-08-30 16:53:53,30.280s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-30 16:53:24,2023-08-30 16:53:48,23.709s,PASSED
+"click(findTestObject(""Checkout/button_Checkout""))",Edge Chromium 116,,,2023-08-30 16:53:48,2023-08-30 16:53:49,0.817s,PASSED
+"verifyElementPresent(findTestObject(""Checkout/span_Checkout Your Information""), 5)",Edge Chromium 116,,,2023-08-30 16:53:49,2023-08-30 16:53:50,0.663s,PASSED
+"setText(findTestObject(""Checkout/input_Checkout Your Information_lastName""), lastName)",Edge Chromium 116,,,2023-08-30 16:53:50,2023-08-30 16:53:51,1.217s,PASSED
+"setText(findTestObject(""Checkout/input_Checkout Your Information_postalCode""), postalCode)",Edge Chromium 116,,,2023-08-30 16:53:51,2023-08-30 16:53:52,1.192s,PASSED
+"click(findTestObject(""Checkout/input_Cancel_continue""))",Edge Chromium 116,,,2023-08-30 16:53:52,2023-08-30 16:53:53,0.728s,PASSED
+"verifyElementPresent(findTestObject(""Error message/Overview/Error First Name is required""), 5)",Edge Chromium 116,,,2023-08-30 16:53:53,2023-08-30 16:53:53,0.556s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Error-002,Edge Chromium 116,user cannot continue to the overview page when the user does not fill out the last name information form,Checkout Negative,2023-08-30 16:53:53,2023-08-30 16:54:24,30.773s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-30 16:53:55,2023-08-30 16:54:19,23.969s,PASSED
+"click(findTestObject(""Checkout/button_Checkout""))",Edge Chromium 116,,,2023-08-30 16:54:19,2023-08-30 16:54:20,1.063s,PASSED
+"setText(findTestObject(""Checkout/input_Checkout Your Information_firstName""), firstName)",Edge Chromium 116,,,2023-08-30 16:54:20,2023-08-30 16:54:22,1.300s,PASSED
+"setText(findTestObject(""Checkout/input_Checkout Your Information_postalCode""), postalCode)",Edge Chromium 116,,,2023-08-30 16:54:22,2023-08-30 16:54:23,1.199s,PASSED
+"click(findTestObject(""Checkout/input_Cancel_continue""))",Edge Chromium 116,,,2023-08-30 16:54:23,2023-08-30 16:54:23,0.726s,PASSED
+"verifyElementPresent(findTestObject(""Error message/Overview/Error Last Name is required""), 5)",Edge Chromium 116,,,2023-08-30 16:54:23,2023-08-30 16:54:24,0.571s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Error-003,Edge Chromium 116,User hanya mengosongkan zip/Postal Code.,Checkout Negative,2023-08-30 16:54:33,2023-08-30 16:55:01,28.059s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-30 16:54:33,2023-08-30 16:54:57,23.250s,PASSED
+"click(findTestObject(""Checkout/button_Checkout""))",Edge Chromium 116,,,2023-08-30 16:54:57,2023-08-30 16:54:57,0.750s,PASSED
+"setText(findTestObject(""Checkout/input_Checkout Your Information_firstName""), firstName)",Edge Chromium 116,,,2023-08-30 16:54:57,2023-08-30 16:54:59,1.277s,PASSED
+"setText(findTestObject(""Checkout/input_Checkout Your Information_lastName""), lastName)",Edge Chromium 116,,,2023-08-30 16:54:59,2023-08-30 16:55:00,1.288s,PASSED
+"click(findTestObject(""Checkout/input_Cancel_continue""))",Edge Chromium 116,,,2023-08-30 16:55:00,2023-08-30 16:55:01,0.701s,PASSED
+"verifyElementPresent(findTestObject(""Error message/Overview/Error Postal Code is required""), 5)",Edge Chromium 116,,,2023-08-30 16:55:01,2023-08-30 16:55:01,0.583s,PASSED

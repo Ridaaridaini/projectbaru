@@ -5,4 +5,18 @@
    <tag>Checkout Negative</tag>
    <comment></comment>
    <testCaseGuid>a7a07f52-877f-4a45-97da-778ae5054435</testCaseGuid>
+   <variable>
+      <defaultValue>'friska'</defaultValue>
+      <description></description>
+      <id>e8731a50-e265-4ec9-a93a-6392323fdece</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'alafanda'</defaultValue>
+      <description></description>
+      <id>a0ee3659-871e-4d70-8efe-69d5da9c268b</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
 </TestCaseEntity>

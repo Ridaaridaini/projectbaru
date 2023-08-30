@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Detail Product Story Test Suite" time="123.254" tests="4" failures="0" errors="0">
+   <testsuite name="Detail Product Story Test Suite" tests="4" failures="0" errors="0" time="123.254" skipped="0" timestamp="2023-08-30 15:20:23" hostname="Aslamadin Alvian Haz - DESKTOP-L5FUI4E" id="Test Suites/Detail Product Story Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_152003\\Detail Product Story Test Suite\\20230830_152003"/>
+         <property name="logFiles" value="C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_152003\\Detail Product Story Test Suite\\20230830_152003\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Aslamadin Alvian Haz - DESKTOP-L5FUI4E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Edge Chromium 116"/>
+         <property name="hostAddress" value="10.9.2.55"/>
+         <property name="sessionId" value="b66f23eaa5a1357b5541e26522745fac"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Detail Product/TC-DetailProduct-Show-001" time="36.193" classname="Test Cases/Detail Product/TC-DetailProduct-Show-001" status="PASSED">
+         <system-out><![CDATA[2023-08-30 15:20:25 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-Show-001: Test Cases/Detail Product/TC-DetailProduct-Show-001
+
+2023-08-30 15:20:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:20:28 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-30 15:20:31 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:20:33 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 15:20:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 15:20:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:20:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:20:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:20:49 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:20:52 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:20:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:20:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:20:54 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:20:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:20:56 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:20:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:20:56 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-30 15:20:57 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-30 15:20:58 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-30 15:20:58 - [TEST_STEP][PASSED] - click(findTestObject("Detail Product/detail produk name pos 1 backpack")): Object: 'Object Repository/Detail Product/detail produk name pos 1 backpack' is clicked on
+
+2023-08-30 15:20:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail Product/detail produk name pos 1 backpack' is clicked on
+
+2023-08-30 15:20:59 - [TEST_STEP][PASSED] - nameDetail = text: null
+
+2023-08-30 15:21:00 - [TEST_STEP][PASSED] - descDetail = text: null
+
+2023-08-30 15:21:00 - [TEST_STEP][PASSED] - priceDetail = text: null
+
+2023-08-30 15:21:01 - [TEST_STEP][PASSED] - assert nameProduct == nameDetail: null
+
+2023-08-30 15:21:01 - [TEST_STEP][PASSED] - assert descProduct == descDetail: null
+
+2023-08-30 15:21:01 - [TEST_STEP][PASSED] - assert priceProduct == priceDetail: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Detail Product/TC-DetailProduct-AddCart-001" time="24.578" classname="Test Cases/Detail Product/TC-DetailProduct-AddCart-001" status="PASSED">
+         <system-out><![CDATA[2023-08-30 15:21:01 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-AddCart-001: Test Cases/Detail Product/TC-DetailProduct-AddCart-001
+
+2023-08-30 15:21:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Detail Product/TC-DetailProduct-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-Show-001' successfully
+
+2023-08-30 15:21:02 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-Show-001: Test Cases/Detail Product/TC-DetailProduct-Show-001
+
+2023-08-30 15:21:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:21:02 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-30 15:21:03 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:21:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 15:21:04 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 15:21:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 15:21:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:21:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:21:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:21:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:21:15 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:21:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:21:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:21:16 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:21:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:21:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:21:18 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:21:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:21:18 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-30 15:21:19 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-30 15:21:20 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-30 15:21:21 - [TEST_STEP][PASSED] - click(findTestObject("Detail Product/detail produk name pos 1 backpack")): Object: 'Object Repository/Detail Product/detail produk name pos 1 backpack' is clicked on
+
+2023-08-30 15:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail Product/detail produk name pos 1 backpack' is clicked on
+
+2023-08-30 15:21:21 - [TEST_STEP][PASSED] - nameDetail = text: null
+
+2023-08-30 15:21:22 - [TEST_STEP][PASSED] - descDetail = text: null
+
+2023-08-30 15:21:23 - [TEST_STEP][PASSED] - priceDetail = text: null
+
+2023-08-30 15:21:23 - [TEST_STEP][PASSED] - assert nameProduct == nameDetail: null
+
+2023-08-30 15:21:23 - [TEST_STEP][PASSED] - assert descProduct == descDetail: null
+
+2023-08-30 15:21:23 - [TEST_STEP][PASSED] - assert priceProduct == priceDetail: null
+
+2023-08-30 15:21:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-Show-001' successfully
+
+2023-08-30 15:21:23 - [TEST_STEP][PASSED] - click(findTestObject("Detail Product/button_Add to cart")): Object: 'Object Repository/Detail Product/button_Add to cart' is clicked on
+
+2023-08-30 15:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail Product/button_Add to cart' is clicked on
+
+2023-08-30 15:21:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Detail Product/button_Remove"), 5): Object 'Object Repository/Detail Product/button_Remove' is present
+
+2023-08-30 15:21:25 - [MESSAGE][PASSED] - Object 'Object Repository/Detail Product/button_Remove' is present
+
+2023-08-30 15:21:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/verify jumlah item 1 (cart)"), 5): Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-30 15:21:26 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Detail Product/TC-DetailProduct-RemoveCart-001" time="26.714" classname="Test Cases/Detail Product/TC-DetailProduct-RemoveCart-001" status="PASSED">
+         <system-out><![CDATA[2023-08-30 15:21:26 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-RemoveCart-001: Test Cases/Detail Product/TC-DetailProduct-RemoveCart-001
+
+2023-08-30 15:21:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Detail Product/TC-DetailProduct-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-AddCart-001' successfully
+
+2023-08-30 15:21:27 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-AddCart-001: Test Cases/Detail Product/TC-DetailProduct-AddCart-001
+
+2023-08-30 15:21:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Detail Product/TC-DetailProduct-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-Show-001' successfully
+
+2023-08-30 15:21:27 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-Show-001: Test Cases/Detail Product/TC-DetailProduct-Show-001
+
+2023-08-30 15:21:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:21:27 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-30 15:21:27 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:21:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 15:21:29 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 15:21:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 15:21:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:21:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:21:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:21:38 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:21:40 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:21:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:21:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:21:41 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:21:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:21:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:21:43 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-30 15:21:44 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-30 15:21:45 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-30 15:21:45 - [TEST_STEP][PASSED] - click(findTestObject("Detail Product/detail produk name pos 1 backpack")): Object: 'Object Repository/Detail Product/detail produk name pos 1 backpack' is clicked on
+
+2023-08-30 15:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail Product/detail produk name pos 1 backpack' is clicked on
+
+2023-08-30 15:21:46 - [TEST_STEP][PASSED] - nameDetail = text: null
+
+2023-08-30 15:21:47 - [TEST_STEP][PASSED] - descDetail = text: null
+
+2023-08-30 15:21:47 - [TEST_STEP][PASSED] - priceDetail = text: null
+
+2023-08-30 15:21:48 - [TEST_STEP][PASSED] - assert nameProduct == nameDetail: null
+
+2023-08-30 15:21:48 - [TEST_STEP][PASSED] - assert descProduct == descDetail: null
+
+2023-08-30 15:21:48 - [TEST_STEP][PASSED] - assert priceProduct == priceDetail: null
+
+2023-08-30 15:21:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-Show-001' successfully
+
+2023-08-30 15:21:48 - [TEST_STEP][PASSED] - click(findTestObject("Detail Product/button_Add to cart")): Object: 'Object Repository/Detail Product/button_Add to cart' is clicked on
+
+2023-08-30 15:21:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail Product/button_Add to cart' is clicked on
+
+2023-08-30 15:21:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Detail Product/button_Remove"), 5): Object 'Object Repository/Detail Product/button_Remove' is present
+
+2023-08-30 15:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/Detail Product/button_Remove' is present
+
+2023-08-30 15:21:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/verify jumlah item 1 (cart)"), 5): Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-30 15:21:50 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-30 15:21:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-AddCart-001' successfully
+
+2023-08-30 15:21:50 - [TEST_STEP][PASSED] - click(findTestObject("Detail Product/button_Remove")): Object: 'Object Repository/Detail Product/button_Remove' is clicked on
+
+2023-08-30 15:21:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail Product/button_Remove' is clicked on
+
+2023-08-30 15:21:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Detail Product/button_Add to cart"), 5): Object 'Object Repository/Detail Product/button_Add to cart' is present
+
+2023-08-30 15:21:51 - [MESSAGE][PASSED] - Object 'Object Repository/Detail Product/button_Add to cart' is present
+
+2023-08-30 15:21:51 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("selector for verify/verify jumlah item 1 (cart)"), 5): Web element with id: 'Object Repository/selector for verify/verify jumlah item 1 (cart)' located by 'By.xpath: //span[@class = 'shopping_cart_badge' and (text() = '1' or . = '1')]' is not present after '5' second(s)
+
+2023-08-30 15:21:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/selector for verify/verify jumlah item 1 (cart)' located by 'By.xpath: //span[@class = 'shopping_cart_badge' and (text() = '1' or . = '1')]' is not present after '5' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Detail Product/TC-DetailProduct-Nav-001" time="25.41" classname="Test Cases/Detail Product/TC-DetailProduct-Nav-001" status="PASSED">
+         <system-out><![CDATA[2023-08-30 15:22:01 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-Nav-001: Test Cases/Detail Product/TC-DetailProduct-Nav-001
+
+2023-08-30 15:22:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Detail Product/TC-DetailProduct-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-Show-001' successfully
+
+2023-08-30 15:22:01 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-Show-001: Test Cases/Detail Product/TC-DetailProduct-Show-001
+
+2023-08-30 15:22:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:22:01 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-30 15:22:01 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:22:01 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 15:22:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 15:22:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:22:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:22:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:22:15 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:22:16 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:22:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:22:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:22:18 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:22:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:22:20 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:22:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:22:20 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-30 15:22:21 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-30 15:22:21 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-30 15:22:22 - [TEST_STEP][PASSED] - click(findTestObject("Detail Product/detail produk name pos 1 backpack")): Object: 'Object Repository/Detail Product/detail produk name pos 1 backpack' is clicked on
+
+2023-08-30 15:22:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail Product/detail produk name pos 1 backpack' is clicked on
+
+2023-08-30 15:22:23 - [TEST_STEP][PASSED] - nameDetail = text: null
+
+2023-08-30 15:22:23 - [TEST_STEP][PASSED] - descDetail = text: null
+
+2023-08-30 15:22:24 - [TEST_STEP][PASSED] - priceDetail = text: null
+
+2023-08-30 15:22:25 - [TEST_STEP][PASSED] - assert nameProduct == nameDetail: null
+
+2023-08-30 15:22:25 - [TEST_STEP][PASSED] - assert descProduct == descDetail: null
+
+2023-08-30 15:22:25 - [TEST_STEP][PASSED] - assert priceProduct == priceDetail: null
+
+2023-08-30 15:22:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-Show-001' successfully
+
+2023-08-30 15:22:25 - [TEST_STEP][PASSED] - click(findTestObject("Detail Product/button_Back to products")): Object: 'Object Repository/Detail Product/button_Back to products' is clicked on
+
+2023-08-30 15:22:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail Product/button_Back to products' is clicked on
+
+2023-08-30 15:22:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:22:27 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-30 15:20:23 - [TEST_SUITE][FAILED] - Detail Product Story Test Suite: Test Cases/Detail Product/TC-DetailProduct-Nav-001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-Show-001' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at TC-DetailProduct-Nav-001.run(TC-DetailProduct-Nav-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693383603804.run(TempTestSuite1693383603804.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login/TC-Login-Success-001' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at TC-DetailProduct-Show-001.run(TC-DetailProduct-Show-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://www.saucedemo.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Success-001.run(TC-Login-Success-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 36 more
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-L5FUI4E', ip: '10.9.2.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x003B73C3+226771]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002A0831+384945]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000D62FE+3950]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000D8A95+14085]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000DA118+19848]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000DA1A0+19984]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0011E97F+214431]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0011D2FA+208666]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00116F06+183078]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x000FB3EB+69643]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x000FAB9B+67515]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x000FBAED+71437]
+	GetHandleVerifier [0x00474712+1001762]
+	Microsoft::Applications::Events::FromJSON [0x00540CAE+130302]
+	Microsoft::Applications::Events::FromJSON [0x00540634+128644]
+	Microsoft::Applications::Events::FromJSON [0x005368CA+88346]
+	Microsoft::Applications::Events::FromJSON [0x00541683+132819]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002B41C7+465223]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002A9E78+423416]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002A9F93+423699]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00293E64+333284]
+	BaseThreadInitThunk [0x765100C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77437B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77437AEE+238]
+	(No symbol) [0x00000000]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:674)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:389)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 51 more]]></system-out>
+      <system-err><![CDATA[2023-08-30 15:20:23 - [TEST_SUITE][FAILED] - Detail Product Story Test Suite: Test Cases/Detail Product/TC-DetailProduct-Nav-001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-Show-001' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at TC-DetailProduct-Nav-001.run(TC-DetailProduct-Nav-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693383603804.run(TempTestSuite1693383603804.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login/TC-Login-Success-001' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at TC-DetailProduct-Show-001.run(TC-DetailProduct-Show-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://www.saucedemo.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Success-001.run(TC-Login-Success-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 36 more
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-L5FUI4E', ip: '10.9.2.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x003B73C3+226771]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002A0831+384945]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000D62FE+3950]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000D8A95+14085]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000DA118+19848]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000DA1A0+19984]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0011E97F+214431]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0011D2FA+208666]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00116F06+183078]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x000FB3EB+69643]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x000FAB9B+67515]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x000FBAED+71437]
+	GetHandleVerifier [0x00474712+1001762]
+	Microsoft::Applications::Events::FromJSON [0x00540CAE+130302]
+	Microsoft::Applications::Events::FromJSON [0x00540634+128644]
+	Microsoft::Applications::Events::FromJSON [0x005368CA+88346]
+	Microsoft::Applications::Events::FromJSON [0x00541683+132819]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002B41C7+465223]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002A9E78+423416]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002A9F93+423699]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00293E64+333284]
+	BaseThreadInitThunk [0x765100C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77437B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77437AEE+238]
+	(No symbol) [0x00000000]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:674)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:389)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 51 more]]></system-err>
+   </testsuite>
+</testsuites>

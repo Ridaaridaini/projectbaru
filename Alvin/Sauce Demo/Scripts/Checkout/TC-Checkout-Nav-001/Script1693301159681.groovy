@@ -23,11 +23,11 @@ WebUI.click(findTestObject('Checkout/button_Checkout'))
 
 WebUI.verifyElementPresent(findTestObject('Checkout/span_Checkout Your Information'), 5)
 
-WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_firstName'), 'rida')
+WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_firstName'), firstName)
 
-WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_lastName'), 'aridaini')
+WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_lastName'), lastName)
 
-WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_postalCode'), '1018')
+WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_postalCode'), postalCode)
 
 WebUI.click(findTestObject('Checkout/input_Cancel_continue'))
 

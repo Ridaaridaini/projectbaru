@@ -5,17 +5,4 @@
    <tag>Login</tag>
    <comment></comment>
    <testCaseGuid>4b43fb97-31d3-4dd6-9446-be5b009369d5</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>9176d070-1b06-462b-8c48-6c83364402f4</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>'Epic sadface: Username is required'</defaultValue>
-      <description></description>
-      <id>9176d070-1b06-462b-8c48-6c83364402f4</id>
-      <masked>false</masked>
-      <name>error_message</name>
-   </variable>
 </TestCaseEntity>

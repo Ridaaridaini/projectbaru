@@ -17,15 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-HashMap<String, String> itemProduct = WebUI.callTestCase(findTestCase('Product/TC-Product-AddCart-001'), [:], FailureHandling.STOP_ON_FAILURE)
+HashMap<String, Object> itemProduct = WebUI.callTestCase(findTestCase('Product/TC-Product-AddCart-001'), [:], FailureHandling.STOP_ON_FAILURE)
 
 nameProduct = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/nama item pos 2 (product)'), 5).text
 descProduct = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/desc item pos 2 (product)'), 5).text
 priceProduct = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/price item pos 2 (product)'), 5).text
 
-itemProduct.put("nameProduct2", nameProduct)
-itemProduct.put("descProduct2", descProduct)
-itemProduct.put("priceProduct2", priceProduct)
+List<String> nameProductList = new ArrayList()
+List<String> descProductList = new ArrayList()
+List<String> priceProductList = new ArrayList()
+
+nameProductList.add(itemProduct.get("nameProduct"))
+nameProductList.add(nameProduct)
+
+descProductList.add(itemProduct.get("descProduct"))
+descProductList.add(descProduct)
+
+priceProductList.add(itemProduct.get("priceProduct"))
+priceProductList.add(priceProduct)
+
+itemProduct.put("listNameProduct", nameProductList)
+itemProduct.put("listDescProduct", descProductList)
+itemProduct.put("listPriceProduct", priceProductList)
 
 WebUI.click(findTestObject('Product/button add to cart pos 2'))
 

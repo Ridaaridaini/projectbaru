@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Logout Story Test Suite,Edge Chromium 116,,,2023-08-30 19:57:16,2023-08-30 19:57:36,20.377s,PASSED
+,,,,,,,
+Test Cases/Logout/TC-Logout-Success-001,Edge Chromium 116,User melakukan logout dari hamburger,Logout,2023-08-30 19:57:17,2023-08-30 19:57:36,19.558s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login-Success-001""), [""username"":""standard_user"", ""password"":""qcu24s4901FyWDTwXGr6XA==""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-30 19:57:18,2023-08-30 19:57:34,16.240s,PASSED
+"click(findTestObject(""Logout/button_burger""))",Edge Chromium 116,,,2023-08-30 19:57:34,2023-08-30 19:57:35,0.585s,PASSED
+"click(findTestObject(""Logout/a_Logout""))",Edge Chromium 116,,,2023-08-30 19:57:35,2023-08-30 19:57:36,0.673s,PASSED
+"verifyElementPresent(findTestObject(""Login Page Object/username login""), 5)",Edge Chromium 116,,,2023-08-30 19:57:36,2023-08-30 19:57:36,0.509s,PASSED

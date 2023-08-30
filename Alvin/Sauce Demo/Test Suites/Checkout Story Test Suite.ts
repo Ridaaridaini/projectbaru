@@ -17,6 +17,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Checkout/TC-Checkout-Success-001</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>609aa1ec-d01d-4366-b1cb-bd2492b15f2c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8d05ee27-0488-42e1-a833-a34f0248dac6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3ad2c811-acd6-470b-9269-37a1c0499e0b</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>6b1a8002-541f-47cf-aa9a-77f5017c85fb</guid>
@@ -24,6 +42,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Checkout/TC-Checkout-Success-002</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d6ed8304-364d-404a-b7d3-0351d9b930e2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>05093386-864a-4e0c-a60a-819789f0f69e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>51d42add-0cb6-41b1-854d-ce8c66f0da78</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>ab9c3594-1b1b-4964-876a-4fab8941d315</guid>
@@ -31,6 +67,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Checkout/TC-Checkout-Nav-001</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>36d9fb57-a13b-4a3d-84d6-2f10eb720292</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ce2d5a03-bdfe-47db-8956-f58f1fb15e64</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>148008dc-e292-4b17-8686-0cd53250cd09</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>cfe1c570-10b7-44ef-9bd4-d1da04db7682</guid>
@@ -38,6 +92,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Checkout/TC-Checkout-Error-001</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f11ed60e-a1c6-427d-8e42-127c20e0f887</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d7774bcf-2182-42a5-9837-2a461d4617db</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>370971ab-6ea5-4f11-88bf-63fa59282633</guid>
@@ -45,6 +111,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Checkout/TC-Checkout-Error-002</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>20778a64-c2ee-4161-b8e3-00a5a72b87eb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>93451c7e-c0d1-4af2-85a2-50b4eb40244f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0c5b6826-a5f3-46b1-91e2-2ba15bc5a52d</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>674559c1-6a09-463f-84c0-a7a14ec3b98a</guid>
@@ -52,5 +136,17 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Checkout/TC-Checkout-Error-003</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e8731a50-e265-4ec9-a93a-6392323fdece</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a0ee3659-871e-4d70-8efe-69d5da9c268b</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

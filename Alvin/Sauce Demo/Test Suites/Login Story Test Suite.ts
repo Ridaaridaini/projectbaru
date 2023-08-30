@@ -48,12 +48,6 @@
          <value></value>
          <variableId>5b0c88c2-9b98-4f99-aafe-25bf475213c6</variableId>
       </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9a5d1fa9-07a2-4ccb-a358-4acb0541f3ce</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>6b1089e7-fb4a-44bc-958d-ff5b672badf0</guid>
@@ -72,12 +66,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>7ebf3082-0dcb-48aa-a0aa-9062e17ccb65</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4ab923e7-e850-4b8d-9792-2c9ebacd9ad2</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -111,12 +99,6 @@
          <value></value>
          <variableId>24fb0f30-e30a-48d9-be8d-8afe71dafab2</variableId>
       </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6d70e9ce-c5b6-426b-961a-de86c168bf94</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>7ff9d5ea-2787-414a-b35f-9833b87ed6e6</guid>
@@ -124,11 +106,5 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/TC-Login-Failed-004</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9176d070-1b06-462b-8c48-6c83364402f4</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

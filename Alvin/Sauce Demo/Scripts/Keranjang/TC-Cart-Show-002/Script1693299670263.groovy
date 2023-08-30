@@ -27,7 +27,12 @@ nameCart = WebUI.findWebElement(findTestObject('Object Repository/selector for v
 descCart = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/cart item pos 1 desc'), 5).text
 priceCart = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/cart item pos 1 price'), 5).text
 
+productPage.put("nameCart", nameCart)
+productPage.put("descCart", descCart)
+productPage.put("priceCart", priceCart)
+
 assert productPage.get("nameProduct") == nameCart
 assert productPage.get("priceProduct") == priceCart
 assert productPage.get("descProduct") == descCart
 
+return productPage

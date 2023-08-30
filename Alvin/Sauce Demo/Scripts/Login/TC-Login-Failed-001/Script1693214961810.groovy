@@ -27,5 +27,6 @@ WebUI.setEncryptedText(findTestObject('Login Page Object/password login'), passw
 
 WebUI.click(findTestObject('Login Page Object/button login'))
 
-WebUI.verifyTextPresent(locked_message, false)
+WebUI.verifyElementPresent(findTestObject('Error message/Login/Epic sadface Username and password do not match any user in this service'), 
+    5)
 

@@ -19,11 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Keranjang/TC-Cart-Show-002'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_firstName'), 'Joko')
+WebUI.click(findTestObject('Checkout/button_Checkout'))
 
-WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_postalCode'), '12345')
+WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_firstName'), firstName)
+
+WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_postalCode'), postalCode)
 
 WebUI.click(findTestObject('Checkout/input_Cancel_continue'))
 
-WebUI.verifyTextPresent('Last Name Required', true)
+WebUI.verifyElementPresent(findTestObject('Error message/Overview/Error Last Name is required'), 5)
 

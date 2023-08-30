@@ -25,5 +25,5 @@ WebUI.setEncryptedText(findTestObject('Login Page Object/password login'), passw
 
 WebUI.click(findTestObject('Login Page Object/button login'))
 
-WebUI.verifyTextPresent(error_message, false)
+WebUI.verifyElementPresent(findTestObject('Error message/Login/Epic sadface Username is required'), 5)
 

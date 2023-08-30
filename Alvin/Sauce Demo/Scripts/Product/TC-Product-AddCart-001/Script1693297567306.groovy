@@ -26,9 +26,11 @@ descProduct = WebUI.findWebElement(findTestObject('Object Repository/selector fo
 priceProduct = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/price item pos 1 (product)'), 5).text
 
 HashMap<String, String> dataProduct = new HashMap()
-dataProduct.putAt("nameProduct", nameProduct)
-dataProduct.putAt("descProduct", descProduct)
-dataProduct.putAt("priceProduct", priceProduct)
+
+
+dataProduct.put("nameProduct", nameProduct)
+dataProduct.put("descProduct", descProduct)
+dataProduct.put("priceProduct", priceProduct)
 
 WebUI.click(findTestObject('Product/button add to cart backpack'))
 

@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Story Test Suite,Edge Chromium 116,,,2023-08-30 19:50:02,2023-08-30 19:51:23,1m - 20.878s,PASSED
+,,,,,,,
+Test Cases/Login/TC-Login-Success-001,Edge Chromium 116,User memasukkan username dan password yang valid,Login,2023-08-30 19:50:03,2023-08-30 19:50:21,18.025s,PASSED
+openBrowser(webSauceDemo),Edge Chromium 116,,,2023-08-30 19:50:04,2023-08-30 19:50:13,8.825s,PASSED
+"verifyElementPresent(findTestObject(""Login Page Object/Swag Labs Text (tanda masuk home)""), 5)",Edge Chromium 116,,,2023-08-30 19:50:13,2023-08-30 19:50:14,0.807s,PASSED
+"setText(findTestObject(""Login Page Object/username login""), username)",Edge Chromium 116,,,2023-08-30 19:50:14,2023-08-30 19:50:15,1.074s,PASSED
+"setEncryptedText(findTestObject(""Login Page Object/password login""), password)",Edge Chromium 116,,,2023-08-30 19:50:15,2023-08-30 19:50:18,2.844s,PASSED
+"click(findTestObject(""Login Page Object/button login""))",Edge Chromium 116,,,2023-08-30 19:50:18,2023-08-30 19:50:20,2.283s,PASSED
+"verifyElementPresent(findTestObject(""Product/span_Products""), 5)",Edge Chromium 116,,,2023-08-30 19:50:20,2023-08-30 19:50:21,0.932s,PASSED
+,,,,,,,
+Test Cases/Login/TC-Login-Locked-001,Edge Chromium 116,User memasukkan username dan password yang valid,Login,2023-08-30 19:50:21,2023-08-30 19:50:37,15.865s,PASSED
+openBrowser(webSauceDemo),Edge Chromium 116,,,2023-08-30 19:50:24,2023-08-30 19:50:32,7.750s,PASSED
+"verifyElementPresent(findTestObject(""Login Page Object/Swag Labs Text (tanda masuk home)""), 5)",Edge Chromium 116,,,2023-08-30 19:50:32,2023-08-30 19:50:33,1.021s,PASSED
+"setText(findTestObject(""Login Page Object/username login""), username)",Edge Chromium 116,,,2023-08-30 19:50:33,2023-08-30 19:50:34,1.690s,PASSED
+"setEncryptedText(findTestObject(""Login Page Object/password login""), password)",Edge Chromium 116,,,2023-08-30 19:50:34,2023-08-30 19:50:35,1.066s,PASSED
+"click(findTestObject(""Login Page Object/button login""))",Edge Chromium 116,,,2023-08-30 19:50:35,2023-08-30 19:50:36,0.903s,PASSED
+"verifyElementPresent(findTestObject(""Error message/Login/Epic sadface Sorry, this user has been locked out""), 5)",Edge Chromium 116,,,2023-08-30 19:50:36,2023-08-30 19:50:37,0.596s,PASSED
+,,,,,,,
+Test Cases/Login/TC-Login-Failed-001,Edge Chromium 116,User login dengan menggunakan username dan password yang invalid.,Login,2023-08-30 19:50:44,2023-08-30 19:50:52,8.377s,PASSED
+openBrowser(webSauceDemo),Edge Chromium 116,,,2023-08-30 19:50:44,2023-08-30 19:50:48,3.894s,PASSED
+"verifyElementPresent(findTestObject(""Login Page Object/button login""), 5)",Edge Chromium 116,,,2023-08-30 19:50:48,2023-08-30 19:50:49,0.727s,PASSED
+"setText(findTestObject(""Login Page Object/username login""), username)",Edge Chromium 116,,,2023-08-30 19:50:49,2023-08-30 19:50:50,1.049s,PASSED
+"setEncryptedText(findTestObject(""Login Page Object/password login""), password)",Edge Chromium 116,,,2023-08-30 19:50:50,2023-08-30 19:50:51,0.996s,PASSED
+"click(findTestObject(""Login Page Object/button login""))",Edge Chromium 116,,,2023-08-30 19:50:51,2023-08-30 19:50:52,0.881s,PASSED
+"verifyElementPresent(findTestObject(""Error message/Login/Epic sadface Username and password do not match any user in this service""), 5)",Edge Chromium 116,,,2023-08-30 19:50:52,2023-08-30 19:50:52,0.705s,PASSED
+,,,,,,,
+Test Cases/Login/TC-Login-Failed-002,Edge Chromium 116,User login hanya menggunakan Username,Login,2023-08-30 19:50:52,2023-08-30 19:51:03,10.335s,PASSED
+openBrowser(webSauceDemo),Edge Chromium 116,,,2023-08-30 19:50:54,2023-08-30 19:51:00,6.372s,PASSED
+"setText(findTestObject(""Login Page Object/username login""), username)",Edge Chromium 116,,,2023-08-30 19:51:00,2023-08-30 19:51:01,1.203s,PASSED
+"click(findTestObject(""Login Page Object/button login""))",Edge Chromium 116,,,2023-08-30 19:51:01,2023-08-30 19:51:02,0.573s,PASSED
+"verifyElementPresent(findTestObject(""Error message/Login/Epic sadface Password is required""), 5)",Edge Chromium 116,,,2023-08-30 19:51:02,2023-08-30 19:51:03,0.763s,PASSED
+,,,,,,,
+Test Cases/Login/TC-Login-Failed-003,Edge Chromium 116,User hanya login menggunakan password yang valid saja tidak menyertakan username,Login,2023-08-30 19:51:03,2023-08-30 19:51:13,10.677s,PASSED
+openBrowser(webSauceDemo),Edge Chromium 116,,,2023-08-30 19:51:04,2023-08-30 19:51:10,6.462s,PASSED
+"verifyElementPresent(findTestObject(""Login Page Object/Swag Labs Text (tanda masuk home)""), 0)",Edge Chromium 116,,,2023-08-30 19:51:10,2023-08-30 19:51:11,0.652s,PASSED
+"setEncryptedText(findTestObject(""Login Page Object/password login""), password)",Edge Chromium 116,,,2023-08-30 19:51:11,2023-08-30 19:51:12,0.798s,PASSED
+"click(findTestObject(""Login Page Object/button login""))",Edge Chromium 116,,,2023-08-30 19:51:12,2023-08-30 19:51:12,0.670s,PASSED
+"verifyElementPresent(findTestObject(""Error message/Login/Epic sadface Username is required""), 5)",Edge Chromium 116,,,2023-08-30 19:51:12,2023-08-30 19:51:13,0.879s,PASSED
+,,,,,,,
+Test Cases/Login/TC-Login-Failed-004,Edge Chromium 116,User ketika user login tidak menggunakan password dan username,Login,2023-08-30 19:51:13,2023-08-30 19:51:23,9.902s,PASSED
+openBrowser(webSauceDemo),Edge Chromium 116,,,2023-08-30 19:51:15,2023-08-30 19:51:21,6.742s,PASSED
+"verifyElementPresent(findTestObject(""Login Page Object/Swag Labs Text (tanda masuk home)""), 5)",Edge Chromium 116,,,2023-08-30 19:51:21,2023-08-30 19:51:22,0.691s,PASSED
+"click(findTestObject(""Login Page Object/button login""))",Edge Chromium 116,,,2023-08-30 19:51:22,2023-08-30 19:51:23,0.646s,PASSED
+"verifyElementPresent(findTestObject(""Error message/Login/Epic sadface Username is required""), 5)",Edge Chromium 116,,,2023-08-30 19:51:23,2023-08-30 19:51:23,0.466s,PASSED

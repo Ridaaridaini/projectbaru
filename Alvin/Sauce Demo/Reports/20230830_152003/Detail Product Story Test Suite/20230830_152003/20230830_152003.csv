@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Detail Product Story Test Suite,Edge Chromium 116,,,2023-08-30 15:20:23,2023-08-30 15:22:27,2m - 3.254s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-Show-001,Edge Chromium 116,User ingin menampilkan Detail Products,Detail Product,2023-08-30 15:20:25,2023-08-30 15:21:01,36.193s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login-Success-001""), [""username"":""standard_user"", ""password"":""qcu24s4901FyWDTwXGr6XA==""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-30 15:20:27,2023-08-30 15:20:56,28.906s,PASSED
+nameProduct = text,Edge Chromium 116,,,2023-08-30 15:20:56,2023-08-30 15:20:57,0.710s,PASSED
+descProduct = text,Edge Chromium 116,,,2023-08-30 15:20:57,2023-08-30 15:20:58,0.683s,PASSED
+priceProduct = text,Edge Chromium 116,,,2023-08-30 15:20:58,2023-08-30 15:20:58,0.609s,PASSED
+"click(findTestObject(""Detail Product/detail produk name pos 1 backpack""))",Edge Chromium 116,,,2023-08-30 15:20:58,2023-08-30 15:20:59,0.709s,PASSED
+nameDetail = text,Edge Chromium 116,,,2023-08-30 15:20:59,2023-08-30 15:21:00,0.735s,PASSED
+descDetail = text,Edge Chromium 116,,,2023-08-30 15:21:00,2023-08-30 15:21:00,0.555s,PASSED
+priceDetail = text,Edge Chromium 116,,,2023-08-30 15:21:00,2023-08-30 15:21:01,0.569s,PASSED
+assert nameProduct == nameDetail,Edge Chromium 116,,,2023-08-30 15:21:01,2023-08-30 15:21:01,0.007s,PASSED
+assert descProduct == descDetail,Edge Chromium 116,,,2023-08-30 15:21:01,2023-08-30 15:21:01,0.006s,PASSED
+assert priceProduct == priceDetail,Edge Chromium 116,,,2023-08-30 15:21:01,2023-08-30 15:21:01,0.001s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-AddCart-001,Edge Chromium 116,"Test case ketika user ingin 
+menambahkan product ke
+ keranjang",Detail Product,2023-08-30 15:21:01,2023-08-30 15:21:26,24.578s,PASSED
+"callTestCase(findTestCase(""Detail Product/TC-DetailProduct-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-30 15:21:02,2023-08-30 15:21:23,21.003s,PASSED
+"click(findTestObject(""Detail Product/button_Add to cart""))",Edge Chromium 116,,,2023-08-30 15:21:23,2023-08-30 15:21:24,0.740s,PASSED
+"verifyElementPresent(findTestObject(""Detail Product/button_Remove""), 5)",Edge Chromium 116,,,2023-08-30 15:21:24,2023-08-30 15:21:25,0.948s,PASSED
+"verifyElementPresent(findTestObject(""selector for verify/verify jumlah item 1 (cart)""), 5)",Edge Chromium 116,,,2023-08-30 15:21:25,2023-08-30 15:21:26,0.520s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-RemoveCart-001,Edge Chromium 116,User ingin menghapus produk dari troli halaman pada halaman detail produk,Detail Product,2023-08-30 15:21:26,2023-08-30 15:21:52,26.714s,PASSED
+"callTestCase(findTestCase(""Detail Product/TC-DetailProduct-AddCart-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-30 15:21:27,2023-08-30 15:21:50,23.098s,PASSED
+"click(findTestObject(""Detail Product/button_Remove""))",Edge Chromium 116,,,2023-08-30 15:21:50,2023-08-30 15:21:51,0.788s,PASSED
+"verifyElementPresent(findTestObject(""Detail Product/button_Add to cart""), 5)",Edge Chromium 116,,,2023-08-30 15:21:51,2023-08-30 15:21:51,0.530s,PASSED
+"verifyElementNotPresent(findTestObject(""selector for verify/verify jumlah item 1 (cart)""), 5)",Edge Chromium 116,,,2023-08-30 15:21:51,2023-08-30 15:21:52,1.022s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-Nav-001,Edge Chromium 116,User ingin kembali ke halaman produk,Detail Product,2023-08-30 15:22:01,2023-08-30 15:22:27,25.410s,PASSED
+"callTestCase(findTestCase(""Detail Product/TC-DetailProduct-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-30 15:22:01,2023-08-30 15:22:25,23.628s,PASSED
+"click(findTestObject(""Detail Product/button_Back to products""))",Edge Chromium 116,,,2023-08-30 15:22:25,2023-08-30 15:22:26,0.991s,PASSED
+"verifyElementPresent(findTestObject(""Product/span_Products""), 5)",Edge Chromium 116,,,2023-08-30 15:22:26,2023-08-30 15:22:27,0.763s,PASSED
