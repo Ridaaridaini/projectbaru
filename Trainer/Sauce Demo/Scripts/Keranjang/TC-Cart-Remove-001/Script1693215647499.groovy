@@ -23,3 +23,7 @@ WebUI.click(findTestObject('Cart Button Remove Product 1'))
 
 WebUI.verifyElementNotPresent(findTestObject('Cart Text Product 1 Title'), 0)
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Product Label Icon Cart'), 0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Product Label Icon Cart'),0)
+

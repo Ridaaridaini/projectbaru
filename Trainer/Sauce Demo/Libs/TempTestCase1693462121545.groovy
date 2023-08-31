@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\youha\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Keranjang\\TC-Cart-Remove-001\\20230831_090953\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\youha\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Login\\TC-Login-Failed-002\\20230831_130841\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Keranjang/TC-Cart-Remove-001', new TestCaseBinding('Test Cases/Keranjang/TC-Cart-Remove-001',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Login/TC-Login-Failed-002', new TestCaseBinding('Test Cases/Login/TC-Login-Failed-002',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
