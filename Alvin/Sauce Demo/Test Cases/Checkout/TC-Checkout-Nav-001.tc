@@ -8,4 +8,43 @@ overview</description>
    <tag>Checkout</tag>
    <comment></comment>
    <testCaseGuid>55f19d93-730c-41bc-9cf1-79d1be6fba1f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36d9fb57-a13b-4a3d-84d6-2f10eb720292</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce2d5a03-bdfe-47db-8956-f58f1fb15e64</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>148008dc-e292-4b17-8686-0cd53250cd09</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'rida'</defaultValue>
+      <description></description>
+      <id>36d9fb57-a13b-4a3d-84d6-2f10eb720292</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'aridaini'</defaultValue>
+      <description></description>
+      <id>ce2d5a03-bdfe-47db-8956-f58f1fb15e64</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'1018'</defaultValue>
+      <description></description>
+      <id>148008dc-e292-4b17-8686-0cd53250cd09</id>
+      <masked>false</masked>
+      <name>postalCode</name>
+   </variable>
 </TestCaseEntity>

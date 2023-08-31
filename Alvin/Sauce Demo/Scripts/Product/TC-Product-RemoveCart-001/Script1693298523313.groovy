@@ -21,3 +21,7 @@ WebUI.callTestCase(findTestCase('Product/TC-Product-AddCart-001'), [:], FailureH
 
 WebUI.click(findTestObject('Product/button remove item from cart'))
 
+WebUI.verifyElementPresent(findTestObject('Product/button add to cart backpack'), 5)
+
+WebUI.verifyElementPresent(findTestObject('selector for verify/verify jumlah item 0 (cart)'), 5)
+

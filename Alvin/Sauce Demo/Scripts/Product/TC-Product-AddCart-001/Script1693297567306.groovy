@@ -14,14 +14,29 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
+import internal.GlobalVariable
+
+import org.apache.commons.collections4.map.HashedMap
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Product/TC-Product-Show-001'), [:], FailureHandling.STOP_ON_FAILURE)
 
+nameProduct = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/nama item pos 1 (product page)'), 5).text
+descProduct = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/desc item pos 1 (product)'), 5).text
+priceProduct = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/price item pos 1 (product)'), 5).text
+
+HashMap<String, String> dataProduct = new HashMap()
+
+
+dataProduct.put("nameProduct", nameProduct)
+dataProduct.put("descProduct", descProduct)
+dataProduct.put("priceProduct", priceProduct)
+
 WebUI.click(findTestObject('Product/button add to cart backpack'))
 
-WebUI.verifyElementPresent(findTestObject('Product/button remove item from cart'), 5)
+WebUI.verifyElementPresent(findTestObject('selector for verify/button remove item pos 1'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Product/cart notification'), 5)
+WebUI.verifyElementPresent(findTestObject('selector for verify/verify jumlah item 1 (cart)'), 5)
+
+return dataProduct
 

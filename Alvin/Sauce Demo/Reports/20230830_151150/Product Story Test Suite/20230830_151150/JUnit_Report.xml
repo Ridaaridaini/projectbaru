@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Product Story Test Suite" time="306.021" tests="8" failures="1" errors="0">
+   <testsuite name="Product Story Test Suite" tests="8" failures="1" errors="0" time="306.021" skipped="0" timestamp="2023-08-30 15:12:08" hostname="Aslamadin Alvian Haz - DESKTOP-L5FUI4E" id="Test Suites/Product Story Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_151150\\Product Story Test Suite\\20230830_151150"/>
+         <property name="logFiles" value="C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_151150\\Product Story Test Suite\\20230830_151150\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_151150\\Product Story Test Suite\\20230830_151150\\1693383329627.png, C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_151150\\Product Story Test Suite\\20230830_151150\\1693383329904.png, C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_151150\\Product Story Test Suite\\20230830_151150\\1693383379196.png, C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_151150\\Product Story Test Suite\\20230830_151150\\1693383379869.png, C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_151150\\Product Story Test Suite\\20230830_151150\\1693383408344.png, C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_151150\\Product Story Test Suite\\20230830_151150\\1693383408677.png, C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_151150\\Product Story Test Suite\\20230830_151150\\1693383434249.png, C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_151150\\Product Story Test Suite\\20230830_151150\\1693383434512.png"/>
+         <property name="hostName" value="Aslamadin Alvian Haz - DESKTOP-L5FUI4E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Edge Chromium 116"/>
+         <property name="hostAddress" value="10.9.2.55"/>
+         <property name="sessionId" value="266fcdb52e807569bb9aa0293a599cd0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Product/TC-Product-Show-001" time="27.687" classname="Test Cases/Product/TC-Product-Show-001" status="PASSED">
+         <system-out><![CDATA[2023-08-30 15:12:10 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-30 15:12:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:12:12 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-30 15:12:15 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:12:17 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 15:12:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 15:12:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:12:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:12:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:12:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:12:33 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:12:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:12:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:12:35 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:12:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:12:37 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:12:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product/TC-Product-Sort-001" time="21.84" classname="Test Cases/Product/TC-Product-Sort-001" status="PASSED">
+         <system-out><![CDATA[2023-08-30 15:12:37 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Sort-001: Test Cases/Product/TC-Product-Sort-001
+
+2023-08-30 15:12:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-30 15:12:39 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-30 15:12:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:12:40 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-30 15:12:40 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:12:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 15:12:41 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 15:12:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 15:12:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:12:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:12:51 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:12:51 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:12:53 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:12:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:12:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:12:55 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:12:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:12:57 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:12:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:12:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-30 15:12:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)"), option, false): All options with value 'az' are selected in object 'Object Repository/Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' 
+
+2023-08-30 15:12:58 - [MESSAGE][PASSED] - All options with value 'az' are selected in object 'Object Repository/Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' 
+
+2023-08-30 15:12:58 - [TEST_STEP][PASSED] - nameProduct = findWebElements(findTestObject("Object Repository/selector for verify/selector name product"), 5): null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - arrNameFromUI = []: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - arrSortAscName = []: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - for ([i = 0, i < nameProduct.size(), (i++)]): null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - temp = text: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - arrNameFromUI[i] = temp: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - arrSortAscName[i] = temp: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - temp = text: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - arrNameFromUI[i] = temp: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - arrSortAscName[i] = temp: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - temp = text: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - arrNameFromUI[i] = temp: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - arrSortAscName[i] = temp: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - temp = text: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - arrNameFromUI[i] = temp: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - arrSortAscName[i] = temp: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - temp = text: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - arrNameFromUI[i] = temp: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - arrSortAscName[i] = temp: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - temp = text: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - arrNameFromUI[i] = temp: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - arrSortAscName[i] = temp: null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - Arrays.sort(arrSortAscName): null
+
+2023-08-30 15:12:59 - [TEST_STEP][PASSED] - assert arrNameFromUI == arrSortAscName: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product/TC-Product-Sort-002" time="19.116" classname="Test Cases/Product/TC-Product-Sort-002" status="PASSED">
+         <system-out><![CDATA[2023-08-30 15:12:59 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Sort-002: Test Cases/Product/TC-Product-Sort-002
+
+2023-08-30 15:13:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-30 15:13:02 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-30 15:13:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:13:02 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-30 15:13:02 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:13:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 15:13:03 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 15:13:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 15:13:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:13:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:13:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:13:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:13:12 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:13:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:13:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:13:13 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:13:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:13:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:13:15 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:13:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:13:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-30 15:13:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)"), "za", false): All options with value 'za' are selected in object 'Object Repository/Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' 
+
+2023-08-30 15:13:17 - [MESSAGE][PASSED] - All options with value 'za' are selected in object 'Object Repository/Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' 
+
+2023-08-30 15:13:17 - [TEST_STEP][PASSED] - nameProduct = findWebElements(findTestObject("Object Repository/selector for verify/selector name product"), 5): null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - arrNameProduct = []: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - arrNameProductDesc = []: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - for ([i = 0, i < nameProduct.size(), (i++)]): null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - temp = text: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - arrNameProduct[i] = temp: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - arrNameProductDesc[i] = temp: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - temp = text: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - arrNameProduct[i] = temp: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - arrNameProductDesc[i] = temp: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - temp = text: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - arrNameProduct[i] = temp: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - arrNameProductDesc[i] = temp: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - temp = text: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - arrNameProduct[i] = temp: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - arrNameProductDesc[i] = temp: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - temp = text: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - arrNameProduct[i] = temp: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - arrNameProductDesc[i] = temp: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - temp = text: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - arrNameProduct[i] = temp: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - arrNameProductDesc[i] = temp: null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - Arrays.sort(arrNameProductDesc, Collections.reverseOrder()): null
+
+2023-08-30 15:13:18 - [TEST_STEP][PASSED] - assert arrNameProduct == arrNameProductDesc: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product/TC-Product-Sort-003" time="33.192" classname="Test Cases/Product/TC-Product-Sort-003" status="PASSED">
+         <system-out><![CDATA[2023-08-30 15:13:19 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Sort-003: Test Cases/Product/TC-Product-Sort-003
+
+2023-08-30 15:13:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-30 15:13:22 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-30 15:13:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:13:22 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-30 15:13:22 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:13:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 15:13:24 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 15:13:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 15:13:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:13:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:13:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:13:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:13:39 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:13:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:13:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:13:41 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:13:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:13:45 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:13:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:13:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-30 15:13:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)"), "lohi", false): All options with value 'lohi' are selected in object 'Object Repository/Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' 
+
+2023-08-30 15:13:49 - [MESSAGE][PASSED] - All options with value 'lohi' are selected in object 'Object Repository/Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' 
+
+2023-08-30 15:13:49 - [TEST_STEP][PASSED] - priceProduct = findWebElements(findTestObject("Object Repository/selector for verify/selector price product"), 10): null
+
+2023-08-30 15:13:51 - [TEST_STEP][PASSED] - arrPriceProduct = []: null
+
+2023-08-30 15:13:51 - [TEST_STEP][PASSED] - arrPriceProductAsc = []: null
+
+2023-08-30 15:13:51 - [TEST_STEP][PASSED] - for ([i = 0, i < priceProduct.size(), (i++)]): null
+
+2023-08-30 15:13:51 - [TEST_STEP][PASSED] - temp = Double.parseDouble(text.replace("$", "")): null
+
+2023-08-30 15:13:51 - [TEST_STEP][PASSED] - arrPriceProduct[i] = temp: null
+
+2023-08-30 15:13:51 - [TEST_STEP][PASSED] - arrPriceProductAsc[i] = temp: null
+
+2023-08-30 15:13:51 - [TEST_STEP][PASSED] - temp = Double.parseDouble(text.replace("$", "")): null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - arrPriceProduct[i] = temp: null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - arrPriceProductAsc[i] = temp: null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - temp = Double.parseDouble(text.replace("$", "")): null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - arrPriceProduct[i] = temp: null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - arrPriceProductAsc[i] = temp: null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - temp = Double.parseDouble(text.replace("$", "")): null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - arrPriceProduct[i] = temp: null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - arrPriceProductAsc[i] = temp: null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - temp = Double.parseDouble(text.replace("$", "")): null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - arrPriceProduct[i] = temp: null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - arrPriceProductAsc[i] = temp: null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - temp = Double.parseDouble(text.replace("$", "")): null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - arrPriceProduct[i] = temp: null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - arrPriceProductAsc[i] = temp: null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - Arrays.sort(arrPriceProductAsc): null
+
+2023-08-30 15:13:52 - [TEST_STEP][PASSED] - assert arrPriceProduct == arrPriceProductAsc: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product/TC-Product-Sort-004" time="21.685" classname="Test Cases/Product/TC-Product-Sort-004" status="PASSED">
+         <system-out><![CDATA[2023-08-30 15:13:52 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Sort-004: Test Cases/Product/TC-Product-Sort-004
+
+2023-08-30 15:13:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-30 15:13:54 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-30 15:13:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:13:55 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-30 15:13:55 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:13:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 15:13:56 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 15:13:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 15:14:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:14:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:14:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:14:06 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:14:07 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:14:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:14:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:14:09 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:14:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:14:11 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:14:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:14:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-30 15:14:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)"), "hilo", false): All options with value 'hilo' are selected in object 'Object Repository/Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' 
+
+2023-08-30 15:14:13 - [MESSAGE][PASSED] - All options with value 'hilo' are selected in object 'Object Repository/Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' 
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - priceProduct = findWebElements(findTestObject("Object Repository/selector for verify/selector price product"), 10): null
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - arrPriceProduct = []: null
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - arrPriceProductDesc = []: null
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - for ([i = 0, i < priceProduct.size(), (i++)]): null
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - temp = Double.parseDouble(text.replace("$", "")): null
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - arrPriceProduct[i] = temp: null
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - arrPriceProductDesc[i] = temp: null
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - temp = Double.parseDouble(text.replace("$", "")): null
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - arrPriceProduct[i] = temp: null
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - arrPriceProductDesc[i] = temp: null
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - temp = Double.parseDouble(text.replace("$", "")): null
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - arrPriceProduct[i] = temp: null
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - arrPriceProductDesc[i] = temp: null
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - temp = Double.parseDouble(text.replace("$", "")): null
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - arrPriceProduct[i] = temp: null
+
+2023-08-30 15:14:13 - [TEST_STEP][PASSED] - arrPriceProductDesc[i] = temp: null
+
+2023-08-30 15:14:14 - [TEST_STEP][PASSED] - temp = Double.parseDouble(text.replace("$", "")): null
+
+2023-08-30 15:14:14 - [TEST_STEP][PASSED] - arrPriceProduct[i] = temp: null
+
+2023-08-30 15:14:14 - [TEST_STEP][PASSED] - arrPriceProductDesc[i] = temp: null
+
+2023-08-30 15:14:14 - [TEST_STEP][PASSED] - temp = Double.parseDouble(text.replace("$", "")): null
+
+2023-08-30 15:14:14 - [TEST_STEP][PASSED] - arrPriceProduct[i] = temp: null
+
+2023-08-30 15:14:14 - [TEST_STEP][PASSED] - arrPriceProductDesc[i] = temp: null
+
+2023-08-30 15:14:14 - [TEST_STEP][PASSED] - Arrays.sort(arrPriceProductDesc, Collections.reverseOrder()): null
+
+2023-08-30 15:14:14 - [TEST_STEP][PASSED] - assert arrPriceProduct == arrPriceProductDesc: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product/TC-Product-AddCart-001" time="21.979" classname="Test Cases/Product/TC-Product-AddCart-001" status="PASSED">
+         <system-out><![CDATA[2023-08-30 15:14:14 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-001: Test Cases/Product/TC-Product-AddCart-001
+
+2023-08-30 15:14:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-30 15:14:16 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-30 15:14:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:14:16 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-30 15:14:16 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:14:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 15:14:17 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 15:14:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 15:14:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:14:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:14:26 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:14:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:14:28 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:14:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:14:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:14:30 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:14:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:14:32 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:14:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:14:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-30 15:14:32 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-30 15:14:33 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-30 15:14:33 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-30 15:14:34 - [TEST_STEP][PASSED] - dataProduct = new java.util.HashMap(): null
+
+2023-08-30 15:14:34 - [TEST_STEP][PASSED] - dataProduct.put("nameProduct", nameProduct): null
+
+2023-08-30 15:14:34 - [TEST_STEP][PASSED] - dataProduct.put("descProduct", descProduct): null
+
+2023-08-30 15:14:34 - [TEST_STEP][PASSED] - dataProduct.put("priceProduct", priceProduct): null
+
+2023-08-30 15:14:34 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart backpack")): Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-30 15:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-30 15:14:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/button remove item pos 1"), 5): Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-30 15:14:35 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-30 15:14:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/verify jumlah item 1 (cart)"), 5): Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-30 15:14:36 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-30 15:14:36 - [TEST_STEP][PASSED] - return dataProduct: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product/TC-Product-AddCart-002" time="25.132" classname="Test Cases/Product/TC-Product-AddCart-002" status="PASSED">
+         <system-out><![CDATA[2023-08-30 15:14:36 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-002: Test Cases/Product/TC-Product-AddCart-002
+
+2023-08-30 15:14:37 - [TEST_STEP][PASSED] - itemProduct = callTestCase(findTestCase("Product/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-30 15:14:37 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-001: Test Cases/Product/TC-Product-AddCart-001
+
+2023-08-30 15:14:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-30 15:14:37 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-30 15:14:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:14:37 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-30 15:14:37 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:14:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 15:14:39 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 15:14:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 15:14:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:14:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:14:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:14:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:14:50 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:14:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:14:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:14:51 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:14:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:14:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:14:53 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:14:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:14:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-30 15:14:53 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-30 15:14:54 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-30 15:14:55 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-30 15:14:55 - [TEST_STEP][PASSED] - dataProduct = new java.util.HashMap(): null
+
+2023-08-30 15:14:55 - [TEST_STEP][PASSED] - dataProduct.put("nameProduct", nameProduct): null
+
+2023-08-30 15:14:55 - [TEST_STEP][PASSED] - dataProduct.put("descProduct", descProduct): null
+
+2023-08-30 15:14:55 - [TEST_STEP][PASSED] - dataProduct.put("priceProduct", priceProduct): null
+
+2023-08-30 15:14:55 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart backpack")): Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-30 15:14:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-30 15:14:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/button remove item pos 1"), 5): Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-30 15:14:57 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-30 15:14:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/verify jumlah item 1 (cart)"), 5): Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-30 15:14:57 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-30 15:14:57 - [TEST_STEP][PASSED] - return dataProduct: null
+
+2023-08-30 15:14:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-30 15:14:57 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-30 15:14:58 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-30 15:14:58 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-30 15:14:59 - [TEST_STEP][PASSED] - nameProductList = new java.util.ArrayList(): null
+
+2023-08-30 15:14:59 - [TEST_STEP][PASSED] - descProductList = new java.util.ArrayList(): null
+
+2023-08-30 15:14:59 - [TEST_STEP][PASSED] - priceProductList = new java.util.ArrayList(): null
+
+2023-08-30 15:14:59 - [TEST_STEP][PASSED] - nameProductList.add(itemProduct.get("nameProduct")): null
+
+2023-08-30 15:14:59 - [TEST_STEP][PASSED] - nameProductList.add(nameProduct): null
+
+2023-08-30 15:14:59 - [TEST_STEP][PASSED] - descProductList.add(itemProduct.get("descProduct")): null
+
+2023-08-30 15:14:59 - [TEST_STEP][PASSED] - descProductList.add(descProduct): null
+
+2023-08-30 15:14:59 - [TEST_STEP][PASSED] - priceProductList.add(itemProduct.get("priceProduct")): null
+
+2023-08-30 15:14:59 - [TEST_STEP][PASSED] - priceProductList.add(priceProduct): null
+
+2023-08-30 15:14:59 - [TEST_STEP][PASSED] - itemProduct.put("listNameProduct", nameProductList): null
+
+2023-08-30 15:14:59 - [TEST_STEP][PASSED] - itemProduct.put("listDescProduct", descProductList): null
+
+2023-08-30 15:14:59 - [TEST_STEP][PASSED] - itemProduct.put("listPriceProduct", priceProductList): null
+
+2023-08-30 15:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart pos 2")): Object: 'Object Repository/Product/button add to cart pos 2' is clicked on
+
+2023-08-30 15:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart pos 2' is clicked on
+
+2023-08-30 15:15:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/button remove item pos 2"), 5): Object 'Object Repository/selector for verify/button remove item pos 2' is present
+
+2023-08-30 15:15:00 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/button remove item pos 2' is present
+
+2023-08-30 15:15:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/verify jumlah item 2 (cart)"), 5): Object 'Object Repository/selector for verify/verify jumlah item 2 (cart)' is present
+
+2023-08-30 15:15:01 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/verify jumlah item 2 (cart)' is present
+
+2023-08-30 15:15:01 - [TEST_STEP][PASSED] - return itemProduct: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product/TC-Product-RemoveCart-001" time="25.816" classname="Test Cases/Product/TC-Product-RemoveCart-001" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Product/TC-Product-RemoveCart-001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/selector for verify/verify jumlah item 0 (cart)' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at TC-Product-RemoveCart-001.run(TC-Product-RemoveCart-001:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693383110387.run(TempTestSuite1693383110387.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/selector for verify/verify jumlah item 0 (cart)' located by '//span[@class = 'shopping_cart_badge' and (text() = '0' or . = '0')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-08-30 15:16:48 - [TEST_CASE][FAILED] - Test Cases/Product/TC-Product-RemoveCart-001: Test Cases/Product/TC-Product-RemoveCart-001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/selector for verify/verify jumlah item 0 (cart)' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at TC-Product-RemoveCart-001.run(TC-Product-RemoveCart-001:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693383110387.run(TempTestSuite1693383110387.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/selector for verify/verify jumlah item 0 (cart)' located by '//span[@class = 'shopping_cart_badge' and (text() = '0' or . = '0')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-08-30 15:16:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-30 15:16:49 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-001: Test Cases/Product/TC-Product-AddCart-001
+
+2023-08-30 15:16:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-30 15:16:49 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-30 15:16:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:16:49 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-30 15:16:49 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:16:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 15:16:50 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 15:16:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 15:16:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 15:16:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:16:57 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 15:16:57 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:16:59 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 15:16:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:17:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 15:17:00 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 15:17:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:17:02 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 15:17:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-30 15:17:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-30 15:17:02 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-30 15:17:03 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-30 15:17:04 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-30 15:17:04 - [TEST_STEP][PASSED] - dataProduct = new java.util.HashMap(): null
+
+2023-08-30 15:17:04 - [TEST_STEP][PASSED] - dataProduct.put("nameProduct", nameProduct): null
+
+2023-08-30 15:17:04 - [TEST_STEP][PASSED] - dataProduct.put("descProduct", descProduct): null
+
+2023-08-30 15:17:04 - [TEST_STEP][PASSED] - dataProduct.put("priceProduct", priceProduct): null
+
+2023-08-30 15:17:04 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart backpack")): Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-30 15:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-30 15:17:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/button remove item pos 1"), 5): Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-30 15:17:06 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-30 15:17:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/verify jumlah item 1 (cart)"), 5): Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-30 15:17:06 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-30 15:17:06 - [TEST_STEP][PASSED] - return dataProduct: null
+
+2023-08-30 15:17:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-30 15:17:06 - [TEST_STEP][PASSED] - click(findTestObject("Product/button remove item from cart")): Object: 'Object Repository/Product/button remove item from cart' is clicked on
+
+2023-08-30 15:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button remove item from cart' is clicked on
+
+2023-08-30 15:17:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/button add to cart backpack"), 5): Object 'Object Repository/Product/button add to cart backpack' is present
+
+2023-08-30 15:17:07 - [MESSAGE][PASSED] - Object 'Object Repository/Product/button add to cart backpack' is present
+
+2023-08-30 15:17:07 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("selector for verify/verify jumlah item 0 (cart)"), 5): Unable to verify object 'Object Repository/selector for verify/verify jumlah item 0 (cart)' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/selector for verify/verify jumlah item 0 (cart)' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at TC-Product-RemoveCart-001.run(TC-Product-RemoveCart-001:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693383110387.run(TempTestSuite1693383110387.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/selector for verify/verify jumlah item 0 (cart)' located by '//span[@class = 'shopping_cart_badge' and (text() = '0' or . = '0')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2023-08-30 15:17:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@class = 'shopping_cart_badge' and (text() = '0' or . = '0')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-30 15:17:14 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/selector for verify/verify jumlah item 0 (cart)' located by '//span[@class = 'shopping_cart_badge' and (text() = '0' or . = '0')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/selector for verify/verify jumlah item 0 (cart)' located by '//span[@class = 'shopping_cart_badge' and (text() = '0' or . = '0')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at TC-Product-RemoveCart-001.run(TC-Product-RemoveCart-001:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693383110387.run(TempTestSuite1693383110387.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_151150\\Product Story Test Suite\\20230830_151150\\1693383434249.png]]
+
+2023-08-30 15:17:14 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/selector for verify/verify jumlah item 0 (cart)' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/selector for verify/verify jumlah item 0 (cart)' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at TC-Product-RemoveCart-001.run(TC-Product-RemoveCart-001:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693383110387.run(TempTestSuite1693383110387.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/selector for verify/verify jumlah item 0 (cart)' located by '//span[@class = 'shopping_cart_badge' and (text() = '0' or . = '0')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_151150\\Product Story Test Suite\\20230830_151150\\1693383434512.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-30 15:16:48 - [TEST_CASE][FAILED] - Test Cases/Product/TC-Product-RemoveCart-001: Test Cases/Product/TC-Product-RemoveCart-001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/selector for verify/verify jumlah item 0 (cart)' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at TC-Product-RemoveCart-001.run(TC-Product-RemoveCart-001:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693383110387.run(TempTestSuite1693383110387.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/selector for verify/verify jumlah item 0 (cart)' located by '//span[@class = 'shopping_cart_badge' and (text() = '0' or . = '0')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-30 15:12:08 - [TEST_SUITE][FAILED] - Product Story Test Suite: Test Cases/Product/TC-Product-RemoveCart-001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/selector for verify/verify jumlah item 0 (cart)' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at TC-Product-RemoveCart-001.run(TC-Product-RemoveCart-001:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693383110387.run(TempTestSuite1693383110387.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/selector for verify/verify jumlah item 0 (cart)' located by '//span[@class = 'shopping_cart_badge' and (text() = '0' or . = '0')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-30 15:12:08 - [TEST_SUITE][FAILED] - Product Story Test Suite: Test Cases/Product/TC-Product-RemoveCart-001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/selector for verify/verify jumlah item 0 (cart)' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at TC-Product-RemoveCart-001.run(TC-Product-RemoveCart-001:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693383110387.run(TempTestSuite1693383110387.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/selector for verify/verify jumlah item 0 (cart)' located by '//span[@class = 'shopping_cart_badge' and (text() = '0' or . = '0')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

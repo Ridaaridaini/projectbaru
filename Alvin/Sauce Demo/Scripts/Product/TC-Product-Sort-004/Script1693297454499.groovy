@@ -15,10 +15,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.Keys
+import org.openqa.selenium.WebElement
 
 WebUI.callTestCase(findTestCase('Product/TC-Product-Show-001'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.selectOptionByValue(findTestObject('Product/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)'), 
     'hilo', false)
 
+List<WebElement> priceProduct = WebUI.findWebElements(findTestObject('Object Repository/selector for verify/selector price product'), 10)
+
+Double[] arrPriceProduct = new Double[priceProduct.size()]
+Double[] arrPriceProductDesc = new Double[priceProduct.size()]
+
+for(int i = 0; i < priceProduct.size(); i++) {
+	temp = 	Double.parseDouble(priceProduct.get(i).text.replace('$', ''))
+	arrPriceProduct[i] = temp
+	arrPriceProductDesc[i] = temp
+}
+
+Arrays.sort(arrPriceProductDesc, Collections.reverseOrder())
+
+assert arrPriceProduct == arrPriceProductDesc

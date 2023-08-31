@@ -21,3 +21,5 @@ WebUI.callTestCase(findTestCase('Keranjang/TC-Cart-Show-002'), [:], FailureHandl
 
 WebUI.click(findTestObject('Detail Product/detail produk name pos 1 backpack'))
 
+WebUI.verifyElementPresent(findTestObject('Detail Product/button_Back to products'), 5)
+

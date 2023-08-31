@@ -16,12 +16,48 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
 
-WebUI.callTestCase(findTestCase('Product/TC-Product-AddCart-002'), [:], FailureHandling.STOP_ON_FAILURE)
+HashMap<String, String> itemProduct = WebUI.callTestCase(findTestCase('Product/TC-Product-AddCart-002'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Checkout/cart icon'))
 
 WebUI.verifyElementPresent(findTestObject('Checkout/span_Your Cart'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Detail Product/detail produk name pos 1 backpack'), 5)
+List<WebElement> nameCart = WebUI.findWebElements(findTestObject('Object Repository/selector for verify/cart item pos 1 name'), 
+    5)
+
+List<WebElement> descCart = WebUI.findWebElements(findTestObject('Object Repository/selector for verify/cart item pos 1 desc'), 
+    5)
+
+List<WebElement> priceCart = WebUI.findWebElements(findTestObject('Object Repository/selector for verify/cart item pos 1 price'), 
+    5)
+
+List<WebElement> nameProduct = new ArrayList()
+
+List<WebElement> descProduct = new ArrayList()
+
+List<WebElement> priceProduct = new ArrayList()
+
+for (int i = 0; i < nameCart.size(); i++) {
+    tempNameCart = nameCart.get(i).text
+
+    tempDescCart = descCart.get(i).text
+
+    tempPriceCart = priceCart.get(i).text
+
+    nameProduct.add(tempNameCart)
+
+    descProduct.add(tempDescCart)
+
+    priceProduct.add(tempPriceCart)
+}
+
+assert itemProduct.get('listNameProduct') == nameProduct
+
+assert itemProduct.get('listDescProduct') == descProduct
+
+assert itemProduct.get('listPriceProduct') == priceProduct
+
+return itemProduct
 

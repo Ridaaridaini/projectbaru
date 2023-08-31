@@ -5,4 +5,43 @@
    <tag>Checkout</tag>
    <comment></comment>
    <testCaseGuid>b12ab2b1-063c-4cd7-af23-a15f35be5c3e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>609aa1ec-d01d-4366-b1cb-bd2492b15f2c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8d05ee27-0488-42e1-a833-a34f0248dac6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ad2c811-acd6-470b-9269-37a1c0499e0b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Joko'</defaultValue>
+      <description></description>
+      <id>609aa1ec-d01d-4366-b1cb-bd2492b15f2c</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Widodo'</defaultValue>
+      <description></description>
+      <id>8d05ee27-0488-42e1-a833-a34f0248dac6</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345'</defaultValue>
+      <description></description>
+      <id>3ad2c811-acd6-470b-9269-37a1c0499e0b</id>
+      <masked>false</masked>
+      <name>postalCode</name>
+   </variable>
 </TestCaseEntity>

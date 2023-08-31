@@ -17,11 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Product/TC-Product-AddCart-001'), [:], FailureHandling.STOP_ON_FAILURE)
+HashMap<String, String> productPage = WebUI.callTestCase(findTestCase('Product/TC-Product-AddCart-001'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Checkout/cart icon'))
 
 WebUI.verifyElementPresent(findTestObject('Checkout/span_Your Cart'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Detail Product/detail produk name pos 1 backpack'), 5)
+nameCart = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/cart item pos 1 name'), 5).text
+descCart = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/cart item pos 1 desc'), 5).text
+priceCart = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/cart item pos 1 price'), 5).text
 
+productPage.put("nameCart", nameCart)
+productPage.put("descCart", descCart)
+productPage.put("priceCart", priceCart)
+
+assert productPage.get("nameProduct") == nameCart
+assert productPage.get("priceProduct") == priceCart
+assert productPage.get("descProduct") == descCart
+
+return productPage

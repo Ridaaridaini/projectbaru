@@ -23,11 +23,11 @@ WebUI.click(findTestObject('Checkout/button_Checkout'))
 
 WebUI.verifyElementPresent(findTestObject('Checkout/span_Checkout Your Information'), 5)
 
-WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_lastName'), 'Alvian')
+WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_lastName'), lastName)
 
-WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_postalCode'), '34192')
+WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_postalCode'), postalCode)
 
 WebUI.click(findTestObject('Checkout/input_Cancel_continue'))
 
-WebUI.verifyTextPresent('Error: First Name is required', true)
+WebUI.verifyElementPresent(findTestObject('Error message/Overview/Error First Name is required'), 5)
 

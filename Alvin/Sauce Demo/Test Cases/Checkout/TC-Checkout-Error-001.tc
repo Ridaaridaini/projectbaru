@@ -5,4 +5,30 @@
    <tag>Checkout Negative</tag>
    <comment></comment>
    <testCaseGuid>64c18b02-5114-4aa2-8d22-eedde8247277</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f11ed60e-a1c6-427d-8e42-127c20e0f887</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7774bcf-2182-42a5-9837-2a461d4617db</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Alvian'</defaultValue>
+      <description></description>
+      <id>f11ed60e-a1c6-427d-8e42-127c20e0f887</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'34192'</defaultValue>
+      <description></description>
+      <id>d7774bcf-2182-42a5-9837-2a461d4617db</id>
+      <masked>false</masked>
+      <name>postalCode</name>
+   </variable>
 </TestCaseEntity>

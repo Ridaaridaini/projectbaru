@@ -19,11 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.webSauceDemo)
 
-WebUI.verifyElementPresent(findTestObject('Login Page Object/Swag Labs Text (tanda masuk home)'), 5)
+WebUI.verifyElementPresent(findTestObject('Login Page Object/button login'), 5)
 
 WebUI.setText(findTestObject('Login Page Object/username login'), username)
 
 WebUI.setEncryptedText(findTestObject('Login Page Object/password login'), password)
 
 WebUI.click(findTestObject('Login Page Object/button login'))
+
+WebUI.verifyElementPresent(findTestObject('Error message/Login/Epic sadface Username and password do not match any user in this service'), 
+    5)
 

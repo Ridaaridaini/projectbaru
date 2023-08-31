@@ -21,5 +21,5 @@ WebUI.callTestCase(findTestCase('Detail Product/TC-DetailProduct-Show-001'), [:]
 
 WebUI.click(findTestObject('Detail Product/button_Back to products'))
 
-WebUI.verifyElementPresent(findTestObject('Login Page Object/Element Swag Labs Berhasil Login'), 5)
+WebUI.verifyElementPresent(findTestObject('Product/span_Products'), 5)
 

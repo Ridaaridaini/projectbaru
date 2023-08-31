@@ -19,11 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Keranjang/TC-Cart-Show-002'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_firstName'), 'Friska')
+WebUI.click(findTestObject('Checkout/button_Checkout'))
 
-WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_lastName'), 'Alfanda')
+WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_firstName'), firstName)
+
+WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_lastName'), lastName)
 
 WebUI.click(findTestObject('Checkout/input_Cancel_continue'))
 
-WebUI.verifyTextPresent('Error: Postal Code is required', true)
+WebUI.verifyElementPresent(findTestObject('Error message/Overview/Error Postal Code is required'), 5)
 

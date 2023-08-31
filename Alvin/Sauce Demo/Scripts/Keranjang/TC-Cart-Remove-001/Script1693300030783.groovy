@@ -21,3 +21,5 @@ WebUI.callTestCase(findTestCase('Keranjang/TC-Cart-Show-002'), [:], FailureHandl
 
 WebUI.click(findTestObject('Checkout/button_Remove'))
 
+WebUI.verifyElementNotPresent(findTestObject('selector for verify/cart item pos 1 desc'), 5)
+

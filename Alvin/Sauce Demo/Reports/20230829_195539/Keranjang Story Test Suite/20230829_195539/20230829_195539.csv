@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Keranjang Story Test Suite,Edge Chromium 116,,,2023-08-29 19:55:56,2023-08-29 19:57:44,1m - 48.171s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Show-001,Edge Chromium 116,User can access cart page,Keranjang,2023-08-29 19:55:56,2023-08-29 19:56:15,18.924s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login-Success-001""), [""username"":""standard_user"", ""password"":""qcu24s4901FyWDTwXGr6XA==""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:55:58,2023-08-29 19:56:14,16.567s,PASSED
+"click(findTestObject(""Checkout/cart icon""))",Edge Chromium 116,,,2023-08-29 19:56:14,2023-08-29 19:56:15,0.667s,PASSED
+"verifyElementPresent(findTestObject(""Checkout/span_Your Cart""), 5)",Edge Chromium 116,,,2023-08-29 19:56:15,2023-08-29 19:56:15,0.539s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Show-002,Edge Chromium 116,"User can access cart page after ""add to cart"" 1 product",Keranjang,2023-08-29 19:56:15,2023-08-29 19:56:34,18.375s,PASSED
+"callTestCase(findTestCase(""Product/TC-Product-AddCart-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:56:16,2023-08-29 19:56:32,15.735s,PASSED
+"click(findTestObject(""Checkout/cart icon""))",Edge Chromium 116,,,2023-08-29 19:56:32,2023-08-29 19:56:33,0.614s,PASSED
+"verifyElementPresent(findTestObject(""Checkout/span_Your Cart""), 5)",Edge Chromium 116,,,2023-08-29 19:56:33,2023-08-29 19:56:33,0.563s,PASSED
+"verifyElementPresent(findTestObject(""Detail Product/detail produk name pos 1 backpack""), 5)",Edge Chromium 116,,,2023-08-29 19:56:33,2023-08-29 19:56:34,0.454s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Show-003,Edge Chromium 116,"User can access cart page after ""add to cart"" 2 products",Keranjang,2023-08-29 19:56:34,2023-08-29 19:56:53,19.297s,PASSED
+"callTestCase(findTestCase(""Product/TC-Product-AddCart-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:56:35,2023-08-29 19:56:51,16.906s,PASSED
+"click(findTestObject(""Checkout/cart icon""))",Edge Chromium 116,,,2023-08-29 19:56:51,2023-08-29 19:56:52,0.579s,PASSED
+"verifyElementPresent(findTestObject(""Checkout/span_Your Cart""), 5)",Edge Chromium 116,,,2023-08-29 19:56:52,2023-08-29 19:56:53,0.475s,PASSED
+"verifyElementPresent(findTestObject(""Detail Product/detail produk name pos 1 backpack""), 5)",Edge Chromium 116,,,2023-08-29 19:56:53,2023-08-29 19:56:53,0.465s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Remove-001,Edge Chromium 116,User meremove product pada keranjang,Keranjang,2023-08-29 19:56:53,2023-08-29 19:57:09,16.474s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:56:54,2023-08-29 19:57:09,15.152s,PASSED
+"click(findTestObject(""Checkout/button_Remove""))",Edge Chromium 116,,,2023-08-29 19:57:09,2023-08-29 19:57:09,0.503s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Nav-001,Edge Chromium 116,user klik buttom Continue shoping,Keranjang,2023-08-29 19:57:10,2023-08-29 19:57:27,17.166s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:57:10,2023-08-29 19:57:26,15.817s,PASSED
+"click(findTestObject(""Checkout/button_Continue Shopping""))",Edge Chromium 116,,,2023-08-29 19:57:26,2023-08-29 19:57:27,0.567s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Nav-002,Edge Chromium 116,User ingin melihat product yang telah ditambahkan ke dalam keranjang,Keranjang,2023-08-29 19:57:27,2023-08-29 19:57:44,17.053s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-29 19:57:28,2023-08-29 19:57:43,15.639s,PASSED
+"click(findTestObject(""Detail Product/detail produk name pos 1 backpack""))",Edge Chromium 116,,,2023-08-29 19:57:43,2023-08-29 19:57:44,0.561s,PASSED

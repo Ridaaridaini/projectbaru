@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Keranjang Story Test Suite" time="108.171" tests="6" failures="0" errors="0">
+   <testsuite name="Keranjang Story Test Suite" tests="6" failures="0" errors="0" time="108.171" skipped="0" timestamp="2023-08-29 19:55:56" hostname="Aslamadin Alvian Haz - DESKTOP-L5FUI4E" id="Test Suites/Keranjang Story Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230829_195539\\Keranjang Story Test Suite\\20230829_195539"/>
+         <property name="logFiles" value="C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230829_195539\\Keranjang Story Test Suite\\20230829_195539\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Aslamadin Alvian Haz - DESKTOP-L5FUI4E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Edge Chromium 116"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="188d1e470a27c8f31fc1858a81c41866"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Keranjang/TC-Cart-Show-001" time="18.924" classname="Test Cases/Keranjang/TC-Cart-Show-001" status="PASSED">
+         <system-out><![CDATA[2023-08-29 19:55:56 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-001: Test Cases/Keranjang/TC-Cart-Show-001
+
+2023-08-29 19:55:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-29 19:55:58 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-29 19:55:59 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-29 19:56:00 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-29 19:56:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 19:56:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-29 19:56:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-29 19:56:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-29 19:56:10 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-29 19:56:11 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-29 19:56:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-29 19:56:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-29 19:56:12 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-29 19:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-29 19:56:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Element Swag Labs Berhasil Login"), 5): Object 'Object Repository/Login Page Object/Element Swag Labs Berhasil Login' is present
+
+2023-08-29 19:56:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Element Swag Labs Berhasil Login' is present
+
+2023-08-29 19:56:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-29 19:56:14 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/cart icon")): Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-29 19:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-29 19:56:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Your Cart"), 5): Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-29 19:56:15 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Your Cart' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Keranjang/TC-Cart-Show-002" time="18.375" classname="Test Cases/Keranjang/TC-Cart-Show-002" status="PASSED">
+         <system-out><![CDATA[2023-08-29 19:56:15 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-29 19:56:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-29 19:56:16 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-001: Test Cases/Product/TC-Product-AddCart-001
+
+2023-08-29 19:56:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-29 19:56:17 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-29 19:56:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-29 19:56:18 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-29 19:56:18 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-29 19:56:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-29 19:56:19 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-29 19:56:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 19:56:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-29 19:56:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-29 19:56:26 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-29 19:56:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-29 19:56:27 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-29 19:56:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-29 19:56:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-29 19:56:28 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-29 19:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-29 19:56:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Element Swag Labs Berhasil Login"), 5): Object 'Object Repository/Login Page Object/Element Swag Labs Berhasil Login' is present
+
+2023-08-29 19:56:30 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Element Swag Labs Berhasil Login' is present
+
+2023-08-29 19:56:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-29 19:56:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-29 19:56:30 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart backpack")): Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-29 19:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-29 19:56:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/button remove item from cart"), 5): Object 'Object Repository/Product/button remove item from cart' is present
+
+2023-08-29 19:56:31 - [MESSAGE][PASSED] - Object 'Object Repository/Product/button remove item from cart' is present
+
+2023-08-29 19:56:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/cart notification"), 5): Object 'Object Repository/Product/cart notification' is present
+
+2023-08-29 19:56:32 - [MESSAGE][PASSED] - Object 'Object Repository/Product/cart notification' is present
+
+2023-08-29 19:56:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-29 19:56:32 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/cart icon")): Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-29 19:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-29 19:56:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Your Cart"), 5): Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-29 19:56:33 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-29 19:56:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Detail Product/detail produk name pos 1 backpack"), 5): Object 'Object Repository/Detail Product/detail produk name pos 1 backpack' is present
+
+2023-08-29 19:56:34 - [MESSAGE][PASSED] - Object 'Object Repository/Detail Product/detail produk name pos 1 backpack' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Keranjang/TC-Cart-Show-003" time="19.297" classname="Test Cases/Keranjang/TC-Cart-Show-003" status="PASSED">
+         <system-out><![CDATA[2023-08-29 19:56:34 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-003: Test Cases/Keranjang/TC-Cart-Show-003
+
+2023-08-29 19:56:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-AddCart-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-AddCart-002' successfully
+
+2023-08-29 19:56:35 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-002: Test Cases/Product/TC-Product-AddCart-002
+
+2023-08-29 19:56:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-29 19:56:36 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-001: Test Cases/Product/TC-Product-AddCart-001
+
+2023-08-29 19:56:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-29 19:56:36 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-29 19:56:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-29 19:56:36 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-29 19:56:36 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-29 19:56:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-29 19:56:37 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-29 19:56:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 19:56:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-29 19:56:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-29 19:56:45 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-29 19:56:45 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-29 19:56:47 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-29 19:56:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-29 19:56:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-29 19:56:47 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-29 19:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-29 19:56:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Element Swag Labs Berhasil Login"), 5): Object 'Object Repository/Login Page Object/Element Swag Labs Berhasil Login' is present
+
+2023-08-29 19:56:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Element Swag Labs Berhasil Login' is present
+
+2023-08-29 19:56:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-29 19:56:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-29 19:56:49 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart backpack")): Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-29 19:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-29 19:56:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/button remove item from cart"), 5): Object 'Object Repository/Product/button remove item from cart' is present
+
+2023-08-29 19:56:50 - [MESSAGE][PASSED] - Object 'Object Repository/Product/button remove item from cart' is present
+
+2023-08-29 19:56:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/cart notification"), 5): Object 'Object Repository/Product/cart notification' is present
+
+2023-08-29 19:56:51 - [MESSAGE][PASSED] - Object 'Object Repository/Product/cart notification' is present
+
+2023-08-29 19:56:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-29 19:56:51 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart pos 2")): Object: 'Object Repository/Product/button add to cart pos 2' is clicked on
+
+2023-08-29 19:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart pos 2' is clicked on
+
+2023-08-29 19:56:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-AddCart-002' successfully
+
+2023-08-29 19:56:51 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/cart icon")): Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-29 19:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-29 19:56:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Your Cart"), 5): Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-29 19:56:53 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-29 19:56:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Detail Product/detail produk name pos 1 backpack"), 5): Object 'Object Repository/Detail Product/detail produk name pos 1 backpack' is present
+
+2023-08-29 19:56:53 - [MESSAGE][PASSED] - Object 'Object Repository/Detail Product/detail produk name pos 1 backpack' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Keranjang/TC-Cart-Remove-001" time="16.474" classname="Test Cases/Keranjang/TC-Cart-Remove-001" status="PASSED">
+         <system-out><![CDATA[2023-08-29 19:56:53 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Remove-001: Test Cases/Keranjang/TC-Cart-Remove-001
+
+2023-08-29 19:56:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-29 19:56:54 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-29 19:56:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-29 19:56:54 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-001: Test Cases/Product/TC-Product-AddCart-001
+
+2023-08-29 19:56:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-29 19:56:54 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-29 19:56:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-29 19:56:54 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-29 19:56:54 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-29 19:56:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-29 19:56:55 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-29 19:56:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 19:57:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-29 19:57:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-29 19:57:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-29 19:57:02 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-29 19:57:03 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-29 19:57:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-29 19:57:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-29 19:57:04 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-29 19:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-29 19:57:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Element Swag Labs Berhasil Login"), 5): Object 'Object Repository/Login Page Object/Element Swag Labs Berhasil Login' is present
+
+2023-08-29 19:57:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Element Swag Labs Berhasil Login' is present
+
+2023-08-29 19:57:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-29 19:57:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-29 19:57:06 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart backpack")): Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-29 19:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-29 19:57:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/button remove item from cart"), 5): Object 'Object Repository/Product/button remove item from cart' is present
+
+2023-08-29 19:57:07 - [MESSAGE][PASSED] - Object 'Object Repository/Product/button remove item from cart' is present
+
+2023-08-29 19:57:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/cart notification"), 5): Object 'Object Repository/Product/cart notification' is present
+
+2023-08-29 19:57:07 - [MESSAGE][PASSED] - Object 'Object Repository/Product/cart notification' is present
+
+2023-08-29 19:57:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-29 19:57:07 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/cart icon")): Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-29 19:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-29 19:57:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Your Cart"), 5): Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-29 19:57:09 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-29 19:57:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Detail Product/detail produk name pos 1 backpack"), 5): Object 'Object Repository/Detail Product/detail produk name pos 1 backpack' is present
+
+2023-08-29 19:57:09 - [MESSAGE][PASSED] - Object 'Object Repository/Detail Product/detail produk name pos 1 backpack' is present
+
+2023-08-29 19:57:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-29 19:57:09 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/button_Remove")): Object: 'Object Repository/Checkout/button_Remove' is clicked on
+
+2023-08-29 19:57:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/button_Remove' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Keranjang/TC-Cart-Nav-001" time="17.166" classname="Test Cases/Keranjang/TC-Cart-Nav-001" status="PASSED">
+         <system-out><![CDATA[2023-08-29 19:57:10 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Nav-001: Test Cases/Keranjang/TC-Cart-Nav-001
+
+2023-08-29 19:57:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-29 19:57:10 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-29 19:57:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-29 19:57:10 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-001: Test Cases/Product/TC-Product-AddCart-001
+
+2023-08-29 19:57:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-29 19:57:11 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-29 19:57:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-29 19:57:11 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-29 19:57:11 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-29 19:57:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-29 19:57:12 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-29 19:57:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 19:57:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-29 19:57:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-29 19:57:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-29 19:57:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-29 19:57:20 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-29 19:57:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-29 19:57:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-29 19:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-29 19:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-29 19:57:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Element Swag Labs Berhasil Login"), 5): Object 'Object Repository/Login Page Object/Element Swag Labs Berhasil Login' is present
+
+2023-08-29 19:57:23 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Element Swag Labs Berhasil Login' is present
+
+2023-08-29 19:57:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-29 19:57:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-29 19:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart backpack")): Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-29 19:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-29 19:57:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/button remove item from cart"), 5): Object 'Object Repository/Product/button remove item from cart' is present
+
+2023-08-29 19:57:24 - [MESSAGE][PASSED] - Object 'Object Repository/Product/button remove item from cart' is present
+
+2023-08-29 19:57:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/cart notification"), 5): Object 'Object Repository/Product/cart notification' is present
+
+2023-08-29 19:57:25 - [MESSAGE][PASSED] - Object 'Object Repository/Product/cart notification' is present
+
+2023-08-29 19:57:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-29 19:57:25 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/cart icon")): Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-29 19:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-29 19:57:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Your Cart"), 5): Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-29 19:57:26 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-29 19:57:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Detail Product/detail produk name pos 1 backpack"), 5): Object 'Object Repository/Detail Product/detail produk name pos 1 backpack' is present
+
+2023-08-29 19:57:26 - [MESSAGE][PASSED] - Object 'Object Repository/Detail Product/detail produk name pos 1 backpack' is present
+
+2023-08-29 19:57:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-29 19:57:26 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/button_Continue Shopping")): Object: 'Object Repository/Checkout/button_Continue Shopping' is clicked on
+
+2023-08-29 19:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/button_Continue Shopping' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Keranjang/TC-Cart-Nav-002" time="17.053" classname="Test Cases/Keranjang/TC-Cart-Nav-002" status="PASSED">
+         <system-out><![CDATA[2023-08-29 19:57:27 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Nav-002: Test Cases/Keranjang/TC-Cart-Nav-002
+
+2023-08-29 19:57:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-29 19:57:28 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-29 19:57:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-29 19:57:28 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-001: Test Cases/Product/TC-Product-AddCart-001
+
+2023-08-29 19:57:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-29 19:57:28 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-29 19:57:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-29 19:57:28 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-29 19:57:28 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-29 19:57:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-29 19:57:29 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-29 19:57:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 19:57:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-29 19:57:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-29 19:57:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-29 19:57:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-29 19:57:37 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-29 19:57:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-29 19:57:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-29 19:57:38 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-29 19:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-29 19:57:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Element Swag Labs Berhasil Login"), 5): Object 'Object Repository/Login Page Object/Element Swag Labs Berhasil Login' is present
+
+2023-08-29 19:57:40 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Element Swag Labs Berhasil Login' is present
+
+2023-08-29 19:57:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-29 19:57:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-29 19:57:40 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart backpack")): Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-29 19:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-29 19:57:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/button remove item from cart"), 5): Object 'Object Repository/Product/button remove item from cart' is present
+
+2023-08-29 19:57:41 - [MESSAGE][PASSED] - Object 'Object Repository/Product/button remove item from cart' is present
+
+2023-08-29 19:57:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/cart notification"), 5): Object 'Object Repository/Product/cart notification' is present
+
+2023-08-29 19:57:42 - [MESSAGE][PASSED] - Object 'Object Repository/Product/cart notification' is present
+
+2023-08-29 19:57:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-29 19:57:42 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/cart icon")): Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-29 19:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-29 19:57:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Your Cart"), 5): Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-29 19:57:43 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-29 19:57:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Detail Product/detail produk name pos 1 backpack"), 5): Object 'Object Repository/Detail Product/detail produk name pos 1 backpack' is present
+
+2023-08-29 19:57:43 - [MESSAGE][PASSED] - Object 'Object Repository/Detail Product/detail produk name pos 1 backpack' is present
+
+2023-08-29 19:57:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-29 19:57:43 - [TEST_STEP][PASSED] - click(findTestObject("Detail Product/detail produk name pos 1 backpack")): Object: 'Object Repository/Detail Product/detail produk name pos 1 backpack' is clicked on
+
+2023-08-29 19:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail Product/detail produk name pos 1 backpack' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-29 19:55:56 - [TEST_SUITE][PASSED] - Keranjang Story Test Suite: Test Cases/Keranjang/TC-Cart-Nav-002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

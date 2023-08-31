@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Story Test Suite" time="80.878" tests="6" failures="0" errors="0">
+   <testsuite name="Login Story Test Suite" tests="6" failures="0" errors="0" time="80.878" skipped="0" timestamp="2023-08-30 19:50:02" hostname="Aslamadin Alvian Haz - DESKTOP-L5FUI4E" id="Test Suites/Login Story Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_194949\\Login Story Test Suite\\20230830_194949"/>
+         <property name="logFiles" value="C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_194949\\Login Story Test Suite\\20230830_194949\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Aslamadin Alvian Haz - DESKTOP-L5FUI4E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Edge Chromium 116"/>
+         <property name="hostAddress" value="192.168.100.28"/>
+         <property name="sessionId" value="50c0d26fa8e2a3b1ae4d444619b0d596"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC-Login-Success-001" time="18.025" classname="Test Cases/Login/TC-Login-Success-001" status="PASSED">
+         <system-out><![CDATA[2023-08-30 19:50:03 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-30 19:50:04 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:50:05 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 19:50:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 19:50:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:50:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:50:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:50:14 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:50:15 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:50:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:50:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:50:18 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:50:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 19:50:21 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC-Login-Locked-001" time="15.865" classname="Test Cases/Login/TC-Login-Locked-001" status="PASSED">
+         <system-out><![CDATA[2023-08-30 19:50:21 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Locked-001: Test Cases/Login/TC-Login-Locked-001
+
+2023-08-30 19:50:24 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:50:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 19:50:26 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 19:50:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 19:50:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:50:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:50:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:50:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'locked_out_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:50:34 - [MESSAGE][PASSED] - Text 'locked_out_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:50:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:50:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:50:35 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:50:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:50:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Error message/Login/Epic sadface Sorry, this user has been locked out"), 5): Object 'Object Repository/Error message/Login/Epic sadface Sorry, this user has been locked out' is present
+
+2023-08-30 19:50:37 - [MESSAGE][PASSED] - Object 'Object Repository/Error message/Login/Epic sadface Sorry, this user has been locked out' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC-Login-Failed-001" time="8.377" classname="Test Cases/Login/TC-Login-Failed-001" status="PASSED">
+         <system-out><![CDATA[2023-08-30 19:50:44 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Failed-001: Test Cases/Login/TC-Login-Failed-001
+
+2023-08-30 19:50:44 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:50:44 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 19:50:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 19:50:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:50:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/button login"), 5): Object 'Object Repository/Login Page Object/button login' is present
+
+2023-08-30 19:50:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/button login' is present
+
+2023-08-30 19:50:49 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'dianty' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:50:50 - [MESSAGE][PASSED] - Text 'dianty' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:50:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:50:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:50:51 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:50:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:50:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Error message/Login/Epic sadface Username and password do not match any user in this service"), 5): Object 'Object Repository/Error message/Login/Epic sadface Username and password do not match any user in this service' is present
+
+2023-08-30 19:50:52 - [MESSAGE][PASSED] - Object 'Object Repository/Error message/Login/Epic sadface Username and password do not match any user in this service' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC-Login-Failed-002" time="10.335" classname="Test Cases/Login/TC-Login-Failed-002" status="PASSED">
+         <system-out><![CDATA[2023-08-30 19:50:52 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Failed-002: Test Cases/Login/TC-Login-Failed-002
+
+2023-08-30 19:50:54 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:50:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 19:50:55 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 19:50:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 19:51:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:51:00 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:51:01 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:51:01 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:51:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Error message/Login/Epic sadface Password is required"), 5): Object 'Object Repository/Error message/Login/Epic sadface Password is required' is present
+
+2023-08-30 19:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/Error message/Login/Epic sadface Password is required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC-Login-Failed-003" time="10.677" classname="Test Cases/Login/TC-Login-Failed-003" status="PASSED">
+         <system-out><![CDATA[2023-08-30 19:51:03 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Failed-003: Test Cases/Login/TC-Login-Failed-003
+
+2023-08-30 19:51:04 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:51:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 19:51:05 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 19:51:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 19:51:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:51:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 0): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:51:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 19:51:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:51:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:51:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:51:12 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:51:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Error message/Login/Epic sadface Username is required"), 5): Object 'Object Repository/Error message/Login/Epic sadface Username is required' is present
+
+2023-08-30 19:51:13 - [MESSAGE][PASSED] - Object 'Object Repository/Error message/Login/Epic sadface Username is required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC-Login-Failed-004" time="9.902" classname="Test Cases/Login/TC-Login-Failed-004" status="PASSED">
+         <system-out><![CDATA[2023-08-30 19:51:13 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Failed-004: Test Cases/Login/TC-Login-Failed-004
+
+2023-08-30 19:51:15 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:51:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 19:51:16 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 19:51:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 19:51:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:51:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:51:22 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:51:22 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:51:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Error message/Login/Epic sadface Username is required"), 5): Object 'Object Repository/Error message/Login/Epic sadface Username is required' is present
+
+2023-08-30 19:51:23 - [MESSAGE][PASSED] - Object 'Object Repository/Error message/Login/Epic sadface Username is required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-30 19:50:02 - [TEST_SUITE][FAILED] - Login Story Test Suite: Test Cases/Login/TC-Login-Failed-001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://www.saucedemo.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Failed-001.run(TC-Login-Failed-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693399789830.run(TempTestSuite1693399789830.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-L5FUI4E', ip: '192.168.100.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x003B73C3+226771]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002A0831+384945]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000D62FE+3950]
+	Microsoft::Applications::Events::ILogConfiguration::GetModules [0x000C8E90+14080]
+	Microsoft::Applications::Events::ILogConfiguration::GetModules [0x000C7B60+9168]
+	Microsoft::Applications::Events::ILogConfiguration::GetModules [0x000C7D3A+9642]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000D8D47+14775]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000DA118+19848]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000DA1A0+19984]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0011E97F+214431]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0011D2FA+208666]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00116F06+183078]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x000FB3EB+69643]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x000FAB9B+67515]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x000FBAED+71437]
+	GetHandleVerifier [0x00474712+1001762]
+	Microsoft::Applications::Events::FromJSON [0x00540CAE+130302]
+	Microsoft::Applications::Events::FromJSON [0x00540634+128644]
+	Microsoft::Applications::Events::FromJSON [0x005368CA+88346]
+	Microsoft::Applications::Events::FromJSON [0x00541683+132819]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002B41C7+465223]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002A9E78+423416]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002A9F93+423699]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00293E64+333284]
+	BaseThreadInitThunk [0x765100C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77437B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77437AEE+238]
+	(No symbol) [0x00000000]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:674)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:389)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-30 19:50:02 - [TEST_SUITE][FAILED] - Login Story Test Suite: Test Cases/Login/TC-Login-Failed-001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://www.saucedemo.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Failed-001.run(TC-Login-Failed-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693399789830.run(TempTestSuite1693399789830.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-L5FUI4E', ip: '192.168.100.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x003B73C3+226771]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002A0831+384945]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000D62FE+3950]
+	Microsoft::Applications::Events::ILogConfiguration::GetModules [0x000C8E90+14080]
+	Microsoft::Applications::Events::ILogConfiguration::GetModules [0x000C7B60+9168]
+	Microsoft::Applications::Events::ILogConfiguration::GetModules [0x000C7D3A+9642]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000D8D47+14775]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000DA118+19848]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x000DA1A0+19984]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0011E97F+214431]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0011D2FA+208666]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00116F06+183078]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x000FB3EB+69643]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x000FAB9B+67515]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x000FBAED+71437]
+	GetHandleVerifier [0x00474712+1001762]
+	Microsoft::Applications::Events::FromJSON [0x00540CAE+130302]
+	Microsoft::Applications::Events::FromJSON [0x00540634+128644]
+	Microsoft::Applications::Events::FromJSON [0x005368CA+88346]
+	Microsoft::Applications::Events::FromJSON [0x00541683+132819]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002B41C7+465223]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002A9E78+423416]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x002A9F93+423699]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00293E64+333284]
+	BaseThreadInitThunk [0x765100C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77437B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77437AEE+238]
+	(No symbol) [0x00000000]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:674)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:389)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

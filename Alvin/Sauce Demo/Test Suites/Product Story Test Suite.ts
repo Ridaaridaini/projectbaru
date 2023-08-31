@@ -24,6 +24,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Product/TC-Product-Sort-001</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b41b1fd9-15fa-4bc3-88bd-43ee6531e653</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>73ed0409-ad74-45dc-88b1-ef0663e998d9</guid>
