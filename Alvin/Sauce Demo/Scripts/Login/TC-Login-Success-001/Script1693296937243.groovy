@@ -29,3 +29,14 @@ WebUI.click(findTestObject('Login Page Object/button login'))
 
 WebUI.verifyElementPresent(findTestObject('Product/span_Products'), 5)
 
+nameProduct = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/nama item pos 1 (product page)'), 5).text
+descProduct = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/desc item pos 1 (product)'), 5).text
+priceProduct = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/price item pos 1 (product)'), 5).text
+
+HashMap<String, String> item = new HashMap()
+
+item.put("nameProduct", nameProduct)
+item.put("descProduct", descProduct)
+item.put("priceProduct", priceProduct)
+
+return item

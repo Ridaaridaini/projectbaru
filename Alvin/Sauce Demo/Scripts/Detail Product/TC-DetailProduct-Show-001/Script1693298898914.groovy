@@ -17,19 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/TC-Login-Success-001'), [('username') : 'standard_user', ('password') : 'qcu24s4901FyWDTwXGr6XA=='], 
+HashMap<String, String> item = WebUI.callTestCase(findTestCase('Login/TC-Login-Success-001'), [('username') : 'standard_user', ('password') : 'qcu24s4901FyWDTwXGr6XA=='], 
     FailureHandling.STOP_ON_FAILURE)
-
-nameProduct = WebUI.findWebElements(findTestObject('Object Repository/selector for verify/nama item pos 1 (product page)'), 10).text
-descProduct = WebUI.findWebElements(findTestObject('Object Repository/selector for verify/desc item pos 1 (product)'), 10).text
-priceProduct = WebUI.findWebElements(findTestObject('Object Repository/selector for verify/price item pos 1 (product)'), 10).text
 
 WebUI.click(findTestObject('Detail Product/detail produk name pos 1 backpack'))
 
-nameDetail = WebUI.findWebElements(findTestObject('Object Repository/selector for verify/nama item pos 1 (detail page)'), 10).text
-descDetail = WebUI.findWebElements(findTestObject('Object Repository/selector for verify/desc item pos 1 (detail)'), 10).text
-priceDetail = WebUI.findWebElements(findTestObject('Object Repository/selector for verify/price item pos 1 (detail)'), 10).text
+nameDetail = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/nama item pos 1 (detail page)'), 10).text
+descDetail = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/desc item pos 1 (detail)'), 10).text
+priceDetail = WebUI.findWebElement(findTestObject('Object Repository/selector for verify/price item pos 1 (detail)'), 10).text
 
-assert nameProduct == nameDetail
-assert descProduct == descDetail
-assert priceProduct == priceDetail
+assert item.get("nameProduct") == nameDetail
+assert item.get("descProduct") == descDetail
+assert item.get("priceProduct") == priceDetail

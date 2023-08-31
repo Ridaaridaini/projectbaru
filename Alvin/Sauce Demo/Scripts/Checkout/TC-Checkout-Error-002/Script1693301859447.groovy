@@ -27,5 +27,5 @@ WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_postalCod
 
 WebUI.click(findTestObject('Checkout/input_Cancel_continue'))
 
-WebUI.verifyElementPresent(findTestObject('Error message/Overview/Error Last Name is required'), 5)
+WebUI.verifyTextPresent('Last Name Required', true)
 

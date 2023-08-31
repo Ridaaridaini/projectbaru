@@ -33,30 +33,25 @@ List<WebElement> descCart = WebUI.findWebElements(findTestObject('Object Reposit
 List<WebElement> priceCart = WebUI.findWebElements(findTestObject('Object Repository/selector for verify/cart item pos 1 price'), 
     5)
 
-List<WebElement> nameProduct = new ArrayList()
-
-List<WebElement> descProduct = new ArrayList()
-
-List<WebElement> priceProduct = new ArrayList()
+List<String> nameProduct = new ArrayList()
+List<String> descProduct = new ArrayList()
+List<String> priceProduct = new ArrayList()
 
 for (int i = 0; i < nameCart.size(); i++) {
     tempNameCart = nameCart.get(i).text
-
     tempDescCart = descCart.get(i).text
-
     tempPriceCart = priceCart.get(i).text
 
     nameProduct.add(tempNameCart)
-
     descProduct.add(tempDescCart)
-
     priceProduct.add(tempPriceCart)
 }
 
+println itemProduct.get('listNameProduct')
+println nameProduct
+
 assert itemProduct.get('listNameProduct') == nameProduct
-
 assert itemProduct.get('listDescProduct') == descProduct
-
 assert itemProduct.get('listPriceProduct') == priceProduct
 
 return itemProduct

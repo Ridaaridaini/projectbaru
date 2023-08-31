@@ -23,3 +23,5 @@ WebUI.click(findTestObject('Checkout/button_Remove'))
 
 WebUI.verifyElementNotPresent(findTestObject('selector for verify/cart item pos 1 desc'), 5)
 
+WebUI.verifyElementPresent(findTestObject('selector for verify/verify jumlah item 0 (cart)'), 5)
+

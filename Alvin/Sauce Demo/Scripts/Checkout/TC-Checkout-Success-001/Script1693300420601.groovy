@@ -53,10 +53,11 @@ assert cartName == cartItems.get("nameCart")
 assert cartDesc == cartItems.get("descCart")
 assert cartPrice == cartItems.get("priceCart")
 
-DecimalFormat df = new DecimalFormat('#.##')
+//DecimalFormat df = new DecimalFormat('#.##')
 
 //hitung tax, item total dan total dengan matematis
-tax = Double.parseDouble(df.format(Double.parseDouble(cartPrice.replace('$', '')) * 0.08))
+//tax = Double.parseDouble(df.format(Double.parseDouble(cartPrice.replace('$', '')) * 0.08))
+tax = Math.round((Double.parseDouble(cartPrice.replace('$', '')) * 0.08) * 100) / 100
 itemTotal = Double.parseDouble(cartPrice.replace('$', ''))
 total = tax+itemTotal
 
