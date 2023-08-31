@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Melakukan Checkout 1 barang</description>
+   <name>TC-Checkout-Success-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>05e53605-13bb-49ff-bf30-bbefcfc07eae</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1aa1af5f-34ce-4cc6-a17e-933235ed8a4c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8519cd8e-6100-4418-a568-287ec45ee19f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>18409b4f-949c-4d1e-9178-386013adc83f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Yuhan'</defaultValue>
+      <description></description>
+      <id>1aa1af5f-34ce-4cc6-a17e-933235ed8a4c</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nanda'</defaultValue>
+      <description></description>
+      <id>8519cd8e-6100-4418-a568-287ec45ee19f</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'55293'</defaultValue>
+      <description></description>
+      <id>18409b4f-949c-4d1e-9178-386013adc83f</id>
+      <masked>false</masked>
+      <name>postal_code</name>
+   </variable>
+</TestCaseEntity>

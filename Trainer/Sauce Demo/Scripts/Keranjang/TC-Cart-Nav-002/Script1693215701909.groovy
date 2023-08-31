@@ -15,38 +15,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys
-import org.openqa.selenium.WebElement
+import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://the-internet.herokuapp.com/tables')
+WebUI.callTestCase(findTestCase('Keranjang/TC-Cart-Show-002'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Sorting/TH Last Name 1'))
-WebUI.click(findTestObject('Sorting/TH Last Name 1'))
+title = WebUI.getText(findTestObject('Cart Text Product 1 Title'))
 
-//Ambil semua element dari last name
-List<WebElement> dataList = WebUI.findWebElements(findTestObject('Object Repository/Sorting/Data List Last Name 1'),10);
+desc = WebUI.getText(findTestObject('Cart Text Product 1 Desc'))
 
-//Deklarasi dua array
-String[] arrLastNameOri = new String[dataList.size()]
-String[] arrLastNameSort = new String[dataList.size()]
+price = WebUI.getText(findTestObject('Cart Text Product 1 Price')).replace('Remove', '')
 
-//Isi Array yang Ori & Sort
-for(int i = 0; i< dataList.size(); i++){
-	text = dataList.get(i).text
-	
-	//manipulasi disini
-	
-	arrLastNameOri[i] = text
-	arrLastNameSort[i] = text
-}
+WebUI.click(findTestObject('Cart Text Product 1'))
 
-//Sort Array
-//Arrays.sort(arrLastNameSort)
-Arrays.sort(arrLastNameSort,Collections.reverseOrder())
+WebUI.verifyElementText(findTestObject('Detail Product Text Name Product 1'), title)
 
-//verifikasi arrayOri == arraySort
-println arrLastNameOri
-println arrLastNameSort
-assert arrLastNameOri == arrLastNameSort
+WebUI.verifyElementText(findTestObject('Detail Product Text Desc Product 1'), desc)
 
+WebUI.verifyElementText(findTestObject('Detail Product Text Price Product 1'), price)
 

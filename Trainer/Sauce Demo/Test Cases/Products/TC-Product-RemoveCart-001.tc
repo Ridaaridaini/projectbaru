@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User meremove barang yang dipilih dari halaman product</description>
+   <name>TC-Product-RemoveCart-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfdce4d8-a68f-4691-8ed8-f525e0e9fc21</testCaseGuid>
+</TestCaseEntity>

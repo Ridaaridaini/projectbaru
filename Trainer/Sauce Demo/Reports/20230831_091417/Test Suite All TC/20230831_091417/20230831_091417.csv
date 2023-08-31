@@ -1,0 +1,319 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite All TC,Edge Chromium 116,,,2023-08-31 09:14:23,2023-08-31 09:20:32,6m - 8.319s,FAILED
+,,,,,,,
+Test Cases/Login/TC-Login-Failed-001,Edge Chromium 116,User login dengan menggunakan username dan password yang invalid.,,2023-08-31 09:14:23,2023-08-31 09:14:30,6.980s,PASSED
+openBrowser(WEB_URL),Edge Chromium 116,,,2023-08-31 09:14:24,2023-08-31 09:14:28,4.459s,PASSED
+"verifyElementPresent(findTestObject(""Login Title Text""), 10)",Edge Chromium 116,,,2023-08-31 09:14:28,2023-08-31 09:14:29,0.368s,PASSED
+"setText(findTestObject(""Login Input Username""), username)",Edge Chromium 116,,,2023-08-31 09:14:29,2023-08-31 09:14:29,0.662s,PASSED
+"setEncryptedText(findTestObject(""Login Input Password""), password)",Edge Chromium 116,,,2023-08-31 09:14:29,2023-08-31 09:14:30,0.399s,PASSED
+"click(findTestObject(""Login Button""))",Edge Chromium 116,,,2023-08-31 09:14:30,2023-08-31 09:14:30,0.359s,PASSED
+"verifyElementText(findTestObject(""Login Error Message""), ""Epic sadface: Username and password do not match any user in this service"")",Edge Chromium 116,,,2023-08-31 09:14:30,2023-08-31 09:14:30,0.444s,PASSED
+,,,,,,,
+Test Cases/Login/TC-Login-Failed-002,Edge Chromium 116,User login hanya menggunakan Username,,2023-08-31 09:14:30,2023-08-31 09:14:37,6.817s,FAILED
+openBrowser(WEB_URL),Edge Chromium 116,,,2023-08-31 09:14:31,2023-08-31 09:14:35,4.851s,PASSED
+"setText(findTestObject(""Login Input Username""), username)",Edge Chromium 116,,,2023-08-31 09:14:35,2023-08-31 09:14:36,0.785s,PASSED
+"click(findTestObject(""Login Button""))",Edge Chromium 116,,,2023-08-31 09:14:36,2023-08-31 09:14:37,0.334s,PASSED
+"verifyElementText(findTestObject(""Login Error Message""), ""Login failed! Please ensure the password are valid."")",Edge Chromium 116,,,2023-08-31 09:14:37,2023-08-31 09:14:37,0.658s,FAILED
+,,,,,,,
+Test Cases/Login/TC-Login-Failed-003,Edge Chromium 116,User hanya login menggunakan password yang valid saja tidak menyertakan username,,2023-08-31 09:14:37,2023-08-31 09:14:44,6.856s,PASSED
+openBrowser(WEB_URL),Edge Chromium 116,,,2023-08-31 09:14:37,2023-08-31 09:14:43,5.066s,PASSED
+"verifyElementPresent(findTestObject(""Login Title Text""), 10)",Edge Chromium 116,,,2023-08-31 09:14:43,2023-08-31 09:14:43,0.310s,PASSED
+"setEncryptedText(findTestObject(""Login Input Password""), password)",Edge Chromium 116,,,2023-08-31 09:14:43,2023-08-31 09:14:43,0.398s,PASSED
+"click(findTestObject(""Login Button""))",Edge Chromium 116,,,2023-08-31 09:14:43,2023-08-31 09:14:44,0.349s,PASSED
+"verifyElementText(findTestObject(""Login Error Message""), ""Epic sadface: Username is required"")",Edge Chromium 116,,,2023-08-31 09:14:44,2023-08-31 09:14:44,0.524s,PASSED
+,,,,,,,
+Test Cases/Login/TC-Login-Failed-004,Edge Chromium 116,User ketika user login tidak menggunakan password dan username,,2023-08-31 09:14:44,2023-08-31 09:14:50,6.314s,PASSED
+openBrowser(WEB_URL),Edge Chromium 116,,,2023-08-31 09:14:44,2023-08-31 09:14:49,4.891s,PASSED
+"verifyElementPresent(findTestObject(""Login Title Text""), 10)",Edge Chromium 116,,,2023-08-31 09:14:49,2023-08-31 09:14:50,0.407s,PASSED
+"click(findTestObject(""Login Button""))",Edge Chromium 116,,,2023-08-31 09:14:50,2023-08-31 09:14:50,0.338s,PASSED
+"verifyElementText(findTestObject(""Login Error Message""), ""Epic sadface: Username is required"")",Edge Chromium 116,,,2023-08-31 09:14:50,2023-08-31 09:14:50,0.432s,PASSED
+,,,,,,,
+Test Cases/Login/TC-Login-Locked-001,Edge Chromium 116,User login dengan akun username yang terblokir,,2023-08-31 09:14:50,2023-08-31 09:14:58,7.295s,PASSED
+openBrowser(WEB_URL),Edge Chromium 116,,,2023-08-31 09:14:51,2023-08-31 09:14:55,4.840s,PASSED
+"verifyElementPresent(findTestObject(""Login Title Text""), 0)",Edge Chromium 116,,,2023-08-31 09:14:55,2023-08-31 09:14:56,0.314s,PASSED
+"setText(findTestObject(""Login Input Username""), username)",Edge Chromium 116,,,2023-08-31 09:14:56,2023-08-31 09:14:56,0.671s,PASSED
+"setEncryptedText(findTestObject(""Login Input Password""), password)",Edge Chromium 116,,,2023-08-31 09:14:56,2023-08-31 09:14:57,0.377s,PASSED
+"click(findTestObject(""Login Button""))",Edge Chromium 116,,,2023-08-31 09:14:57,2023-08-31 09:14:57,0.367s,PASSED
+"verifyElementText(findTestObject(""Login Error Message""), ""Epic sadface: Sorry, this user has been locked out."")",Edge Chromium 116,,,2023-08-31 09:14:57,2023-08-31 09:14:58,0.552s,PASSED
+,,,,,,,
+Test Cases/Login/TC-Login-Success-001,Edge Chromium 116,User memasukkan username dan password yang valid,,2023-08-31 09:14:58,2023-08-31 09:15:05,7.343s,PASSED
+openBrowser(WEB_URL),Edge Chromium 116,,,2023-08-31 09:14:58,2023-08-31 09:15:03,5.023s,PASSED
+"verifyElementPresent(findTestObject(""Login Title Text""), 10)",Edge Chromium 116,,,2023-08-31 09:15:03,2023-08-31 09:15:03,0.297s,PASSED
+"setText(findTestObject(""Login Input Username""), username)",Edge Chromium 116,,,2023-08-31 09:15:03,2023-08-31 09:15:04,0.665s,PASSED
+"setEncryptedText(findTestObject(""Login Input Password""), password)",Edge Chromium 116,,,2023-08-31 09:15:04,2023-08-31 09:15:04,0.376s,PASSED
+"click(findTestObject(""Login Button""))",Edge Chromium 116,,,2023-08-31 09:15:04,2023-08-31 09:15:05,0.376s,PASSED
+"verifyElementPresent(findTestObject(""Product Title Text""), 10)",Edge Chromium 116,,,2023-08-31 09:15:05,2023-08-31 09:15:05,0.430s,PASSED
+,,,,,,,
+Test Cases/Products/TC-Product-AddCart-001,Edge Chromium 116,User ingin menambahkan 1 product ke dalam keranjang,,2023-08-31 09:15:05,2023-08-31 09:15:15,10.343s,PASSED
+"callTestCase(findTestCase(""Products/TC-Product-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:15:05,2023-08-31 09:15:13,8.012s,PASSED
+"click(findTestObject(""Product Button ATC Product 1""))",Edge Chromium 116,,,2023-08-31 09:15:13,2023-08-31 09:15:14,0.337s,PASSED
+"verifyElementText(findTestObject(""Product Button Remove Product 1""), ""Remove"")",Edge Chromium 116,,,2023-08-31 09:15:14,2023-08-31 09:15:14,0.527s,PASSED
+"verifyElementText(findTestObject(""Product Label Icon Cart""), ""1"")",Edge Chromium 116,,,2023-08-31 09:15:14,2023-08-31 09:15:14,0.311s,PASSED
+"name = getText(findTestObject(""Product Text Name Product 1""))",Edge Chromium 116,,,2023-08-31 09:15:14,2023-08-31 09:15:15,0.334s,PASSED
+"desc = getText(findTestObject(""Product Text Desc Product 1""))",Edge Chromium 116,,,2023-08-31 09:15:15,2023-08-31 09:15:15,0.315s,PASSED
+"prize = getText(findTestObject(""Product Text Price Product 1""))",Edge Chromium 116,,,2023-08-31 09:15:15,2023-08-31 09:15:15,0.316s,PASSED
+data = new java.util.HashMap(),Edge Chromium 116,,,2023-08-31 09:15:15,2023-08-31 09:15:15,0.001s,PASSED
+"data.put(""product_name"", name)",Edge Chromium 116,,,2023-08-31 09:15:15,2023-08-31 09:15:15,0.000s,PASSED
+"data.put(""product_desc"", desc)",Edge Chromium 116,,,2023-08-31 09:15:15,2023-08-31 09:15:15,0.000s,PASSED
+"data.put(""product_price"", prize)",Edge Chromium 116,,,2023-08-31 09:15:15,2023-08-31 09:15:15,0.001s,PASSED
+return data,Edge Chromium 116,,,2023-08-31 09:15:15,2023-08-31 09:15:15,0.000s,PASSED
+,,,,,,,
+Test Cases/Products/TC-Product-AddCart-002,Edge Chromium 116,User ingin menambahkan 2 product ke dalam keranjang,,2023-08-31 09:15:15,2023-08-31 09:15:27,11.255s,PASSED
+"data = callTestCase(findTestCase(""Products/TC-Product-AddCart-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:15:16,2023-08-31 09:15:25,8.883s,PASSED
+"click(findTestObject(""Product Button ATC Product 2""))",Edge Chromium 116,,,2023-08-31 09:15:25,2023-08-31 09:15:25,0.365s,PASSED
+"verifyElementText(findTestObject(""Product Button Remove Product 2""), ""Remove"")",Edge Chromium 116,,,2023-08-31 09:15:25,2023-08-31 09:15:25,0.528s,PASSED
+"verifyElementText(findTestObject(""Product Label Icon Cart""), ""2"")",Edge Chromium 116,,,2023-08-31 09:15:25,2023-08-31 09:15:26,0.314s,PASSED
+"name = getText(findTestObject(""Product Text Name Product 2""))",Edge Chromium 116,,,2023-08-31 09:15:26,2023-08-31 09:15:26,0.312s,PASSED
+"desc = getText(findTestObject(""Product Text Desc Product 2""))",Edge Chromium 116,,,2023-08-31 09:15:26,2023-08-31 09:15:26,0.310s,PASSED
+"price = getText(findTestObject(""Product Text Price Product 2""))",Edge Chromium 116,,,2023-08-31 09:15:26,2023-08-31 09:15:27,0.314s,PASSED
+nameProductList = new java.util.ArrayList(),Edge Chromium 116,,,2023-08-31 09:15:27,2023-08-31 09:15:27,0.001s,PASSED
+"nameProductList.add(data.get(""product_name""))",Edge Chromium 116,,,2023-08-31 09:15:27,2023-08-31 09:15:27,0.000s,PASSED
+nameProductList.add(name),Edge Chromium 116,,,2023-08-31 09:15:27,2023-08-31 09:15:27,0.000s,PASSED
+println(nameProductList.get(0)),Edge Chromium 116,,,2023-08-31 09:15:27,2023-08-31 09:15:27,0.003s,PASSED
+descProductList = new java.util.ArrayList(),Edge Chromium 116,,,2023-08-31 09:15:27,2023-08-31 09:15:27,0.000s,PASSED
+"descProductList.add(data.get(""product_desc""))",Edge Chromium 116,,,2023-08-31 09:15:27,2023-08-31 09:15:27,0.000s,PASSED
+descProductList.add(desc),Edge Chromium 116,,,2023-08-31 09:15:27,2023-08-31 09:15:27,0.000s,PASSED
+priceProductList = new java.util.ArrayList(),Edge Chromium 116,,,2023-08-31 09:15:27,2023-08-31 09:15:27,0.003s,PASSED
+"priceProductList.add(data.get(""product_price""))",Edge Chromium 116,,,2023-08-31 09:15:27,2023-08-31 09:15:27,0.000s,PASSED
+priceProductList.add(price),Edge Chromium 116,,,2023-08-31 09:15:27,2023-08-31 09:15:27,0.000s,PASSED
+"data.put(""product_name_list"", nameProductList)",Edge Chromium 116,,,2023-08-31 09:15:27,2023-08-31 09:15:27,0.000s,PASSED
+"data.put(""product_desc_list"", descProductList)",Edge Chromium 116,,,2023-08-31 09:15:27,2023-08-31 09:15:27,0.000s,PASSED
+"data.put(""product_price_list"", priceProductList)",Edge Chromium 116,,,2023-08-31 09:15:27,2023-08-31 09:15:27,0.000s,PASSED
+return data,Edge Chromium 116,,,2023-08-31 09:15:27,2023-08-31 09:15:27,0.000s,PASSED
+,,,,,,,
+Test Cases/Products/TC-Product-RemoveCart-001,Edge Chromium 116,User meremove barang yang dipilih dari halaman product,,2023-08-31 09:15:27,2023-08-31 09:15:49,22.600s,FAILED
+"callTestCase(findTestCase(""Products/TC-Product-AddCart-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:15:27,2023-08-31 09:15:37,10.212s,PASSED
+"click(findTestObject(""Product Button Remove Product 1""))",Edge Chromium 116,,,2023-08-31 09:15:37,2023-08-31 09:15:37,0.366s,PASSED
+"verifyElementText(findTestObject(""Product Button ATC Product 1""), ""Add to cart"")",Edge Chromium 116,,,2023-08-31 09:15:37,2023-08-31 09:15:38,0.433s,PASSED
+"verifyElementPresent(findTestObject(""Product Label Icon Cart""), 10)",Edge Chromium 116,,,2023-08-31 09:15:38,2023-08-31 09:15:49,11.373s,FAILED
+,,,,,,,
+Test Cases/Products/TC-Product-Show-001,Edge Chromium 116,User can see product in product page,,2023-08-31 09:15:49,2023-08-31 09:15:57,7.835s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login-Success-001""), [""username"":""standard_user"", ""password"":""qcu24s4901FyWDTwXGr6XA==""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:15:49,2023-08-31 09:15:57,7.312s,PASSED
+"verifyElementPresent(findTestObject(""Product Title Text""), 10)",Edge Chromium 116,,,2023-08-31 09:15:57,2023-08-31 09:15:57,0.519s,PASSED
+,,,,,,,
+Test Cases/Products/TC-Product-Sort-001,Edge Chromium 116,User ingin mengurutkan nama produk dari A ke Z,,2023-08-31 09:15:57,2023-08-31 09:16:06,9.143s,PASSED
+"callTestCase(findTestCase(""Products/TC-Product-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:15:57,2023-08-31 09:16:05,7.898s,PASSED
+"selectOptionByValue(findTestObject(""Product Dropdown Sort""), ""az"", false)",Edge Chromium 116,,,2023-08-31 09:16:05,2023-08-31 09:16:06,0.637s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Name List""), 10)",Edge Chromium 116,,,2023-08-31 09:16:06,2023-08-31 09:16:06,0.313s,PASSED
+arrOri = [],Edge Chromium 116,,,2023-08-31 09:16:06,2023-08-31 09:16:06,0.001s,PASSED
+arrSort = [],Edge Chromium 116,,,2023-08-31 09:16:06,2023-08-31 09:16:06,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 116,,,2023-08-31 09:16:06,2023-08-31 09:16:06,0.041s,PASSED
+Arrays.sort(arrSort),Edge Chromium 116,,,2023-08-31 09:16:06,2023-08-31 09:16:06,0.000s,PASSED
+assert arrOri == arrSort,Edge Chromium 116,,,2023-08-31 09:16:06,2023-08-31 09:16:06,0.000s,PASSED
+,,,,,,,
+Test Cases/Products/TC-Product-Sort-002,Edge Chromium 116,User ingin mengurutkan product items berurutan nama Z-A (descending),,2023-08-31 09:16:06,2023-08-31 09:16:14,8.125s,PASSED
+"callTestCase(findTestCase(""Products/TC-Product-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:16:07,2023-08-31 09:16:13,6.739s,PASSED
+"selectOptionByValue(findTestObject(""Product Dropdown Sort""), ""za"", false)",Edge Chromium 116,,,2023-08-31 09:16:13,2023-08-31 09:16:14,0.633s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Name List""), 10)",Edge Chromium 116,,,2023-08-31 09:16:14,2023-08-31 09:16:14,0.423s,PASSED
+arrOri = [],Edge Chromium 116,,,2023-08-31 09:16:14,2023-08-31 09:16:14,0.000s,PASSED
+arrSort = [],Edge Chromium 116,,,2023-08-31 09:16:14,2023-08-31 09:16:14,0.001s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 116,,,2023-08-31 09:16:14,2023-08-31 09:16:14,0.042s,PASSED
+"Arrays.sort(arrSort, Collections.reverseOrder())",Edge Chromium 116,,,2023-08-31 09:16:14,2023-08-31 09:16:14,0.007s,PASSED
+assert arrOri == arrSort,Edge Chromium 116,,,2023-08-31 09:16:14,2023-08-31 09:16:14,0.000s,PASSED
+,,,,,,,
+Test Cases/Products/TC-Product-Sort-003,Edge Chromium 116,User ingin mengurutkan produk berdasarkan price (low to high),,2023-08-31 09:16:14,2023-08-31 09:16:24,9.207s,PASSED
+"callTestCase(findTestCase(""Products/TC-Product-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:16:15,2023-08-31 09:16:22,7.827s,PASSED
+"selectOptionByValue(findTestObject(""Product Dropdown Sort""), ""lohi"", false)",Edge Chromium 116,,,2023-08-31 09:16:22,2023-08-31 09:16:23,0.655s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Price List""), 10)",Edge Chromium 116,,,2023-08-31 09:16:23,2023-08-31 09:16:24,0.425s,PASSED
+arrOri = [],Edge Chromium 116,,,2023-08-31 09:16:24,2023-08-31 09:16:24,0.000s,PASSED
+arrSort = [],Edge Chromium 116,,,2023-08-31 09:16:24,2023-08-31 09:16:24,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 116,,,2023-08-31 09:16:24,2023-08-31 09:16:24,0.046s,PASSED
+Arrays.sort(arrSort),Edge Chromium 116,,,2023-08-31 09:16:24,2023-08-31 09:16:24,0.000s,PASSED
+assert arrOri == arrSort,Edge Chromium 116,,,2023-08-31 09:16:24,2023-08-31 09:16:24,0.000s,PASSED
+,,,,,,,
+Test Cases/Products/TC-Product-Sort-004,Edge Chromium 116,User ingin mengurutkan produk berdasarkan price (high to low),,2023-08-31 09:16:24,2023-08-31 09:16:33,9.250s,PASSED
+"callTestCase(findTestCase(""Products/TC-Product-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:16:24,2023-08-31 09:16:32,7.789s,PASSED
+"selectOptionByValue(findTestObject(""Product Dropdown Sort""), ""hilo"", false)",Edge Chromium 116,,,2023-08-31 09:16:32,2023-08-31 09:16:32,0.648s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Price List""), 10)",Edge Chromium 116,,,2023-08-31 09:16:32,2023-08-31 09:16:33,0.519s,PASSED
+arrOri = [],Edge Chromium 116,,,2023-08-31 09:16:33,2023-08-31 09:16:33,0.001s,PASSED
+arrSort = [],Edge Chromium 116,,,2023-08-31 09:16:33,2023-08-31 09:16:33,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 116,,,2023-08-31 09:16:33,2023-08-31 09:16:33,0.039s,PASSED
+"Arrays.sort(arrSort, Collections.reverseOrder())",Edge Chromium 116,,,2023-08-31 09:16:33,2023-08-31 09:16:33,0.000s,PASSED
+assert arrOri == arrSort,Edge Chromium 116,,,2023-08-31 09:16:33,2023-08-31 09:16:33,0.000s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-AddCart-001,Edge Chromium 116,"""Test case ketika user ingin 
+menambahkan product ke
+ keranjang""",,2023-08-31 09:16:33,2023-08-31 09:16:44,10.677s,PASSED
+"callTestCase(findTestCase(""Detail Product/TC-DetailProduct-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:16:33,2023-08-31 09:16:42,9.247s,PASSED
+"click(findTestObject(""Detail Product Button ATC Product 1""))",Edge Chromium 116,,,2023-08-31 09:16:42,2023-08-31 09:16:43,0.368s,PASSED
+"verifyElementText(findTestObject(""Detail Product Button Remove Product 1""), ""Remove"")",Edge Chromium 116,,,2023-08-31 09:16:43,2023-08-31 09:16:43,0.529s,PASSED
+"verifyElementText(findTestObject(""Product Label Icon Cart""), ""1"")",Edge Chromium 116,,,2023-08-31 09:16:43,2023-08-31 09:16:44,0.313s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-Nav-001,Edge Chromium 116,User ingin kembali ke halaman produk,,2023-08-31 09:16:44,2023-08-31 09:16:55,11.598s,PASSED
+"callTestCase(findTestCase(""Detail Product/TC-DetailProduct-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:16:44,2023-08-31 09:16:54,10.588s,PASSED
+"click(findTestObject(""Detail Product Button Back To Product""))",Edge Chromium 116,,,2023-08-31 09:16:54,2023-08-31 09:16:55,0.357s,PASSED
+"verifyElementPresent(findTestObject(""Product Title Text""), 10)",Edge Chromium 116,,,2023-08-31 09:16:55,2023-08-31 09:16:55,0.419s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-RemoveCart-001,Edge Chromium 116,User ingin menghapus produk dari troli halaman pada halaman detail produk,,2023-08-31 09:16:55,2023-08-31 09:17:08,12.538s,PASSED
+"callTestCase(findTestCase(""Detail Product/TC-DetailProduct-AddCart-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:16:55,2023-08-31 09:17:06,11.057s,PASSED
+"click(findTestObject(""Detail Product Button Remove Product 1""))",Edge Chromium 116,,,2023-08-31 09:17:06,2023-08-31 09:17:07,0.340s,PASSED
+"verifyElementText(findTestObject(""Detail Product Button ATC Product 1""), ""Add to cart"")",Edge Chromium 116,,,2023-08-31 09:17:07,2023-08-31 09:17:07,0.513s,PASSED
+"verifyElementNotPresent(findTestObject(""Product Label Icon Cart""), 10)",Edge Chromium 116,,,2023-08-31 09:17:07,2023-08-31 09:17:08,0.390s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-Show-001,Edge Chromium 116,User ingin menampilkan Detail Products,,2023-08-31 09:17:08,2023-08-31 09:17:20,11.828s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login-Success-001""), [""username"":""standard_user"", ""password"":""qcu24s4901FyWDTwXGr6XA==""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:17:08,2023-08-31 09:17:17,9.222s,PASSED
+"name = getText(findTestObject(""Product Text Name Product 1""))",Edge Chromium 116,,,2023-08-31 09:17:17,2023-08-31 09:17:17,0.547s,PASSED
+"desc = getText(findTestObject(""Product Text Desc Product 1""))",Edge Chromium 116,,,2023-08-31 09:17:17,2023-08-31 09:17:18,0.321s,PASSED
+"price = getText(findTestObject(""Product Text Price Product 1""))",Edge Chromium 116,,,2023-08-31 09:17:18,2023-08-31 09:17:18,0.321s,PASSED
+"click(findTestObject(""Product Text Product 1""))",Edge Chromium 116,,,2023-08-31 09:17:18,2023-08-31 09:17:18,0.356s,PASSED
+"verifyElementText(findTestObject(""Detail Product Text Name Product 1""), name)",Edge Chromium 116,,,2023-08-31 09:17:18,2023-08-31 09:17:19,0.431s,PASSED
+"verifyElementText(findTestObject(""Detail Product Text Desc Product 1""), desc)",Edge Chromium 116,,,2023-08-31 09:17:19,2023-08-31 09:17:19,0.326s,PASSED
+"verifyElementText(findTestObject(""Detail Product Text Price Product 1""), price)",Edge Chromium 116,,,2023-08-31 09:17:19,2023-08-31 09:17:20,0.302s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Nav-001,Edge Chromium 116,user klik buttom Continue shoping,,2023-08-31 09:17:20,2023-08-31 09:17:33,13.271s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:17:20,2023-08-31 09:17:32,12.245s,PASSED
+"click(findTestObject(""Cart Button Continue Shopping""))",Edge Chromium 116,,,2023-08-31 09:17:32,2023-08-31 09:17:32,0.386s,PASSED
+"verifyElementPresent(findTestObject(""Product Title Text""), 10)",Edge Chromium 116,,,2023-08-31 09:17:32,2023-08-31 09:17:33,0.422s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Nav-002,Edge Chromium 116,User ingin melihat product yang telah ditambahkan ke dalam keranjang,,2023-08-31 09:17:33,2023-08-31 09:17:50,16.731s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:17:33,2023-08-31 09:17:47,14.080s,PASSED
+"title = getText(findTestObject(""Cart Text Product 1 Title""))",Edge Chromium 116,,,2023-08-31 09:17:47,2023-08-31 09:17:47,0.322s,PASSED
+"desc = getText(findTestObject(""Cart Text Product 1 Desc""))",Edge Chromium 116,,,2023-08-31 09:17:47,2023-08-31 09:17:48,0.317s,PASSED
+"price = getText(findTestObject(""Cart Text Product 1 Price"")).replace(""Remove"", """")",Edge Chromium 116,,,2023-08-31 09:17:48,2023-08-31 09:17:48,0.325s,PASSED
+"click(findTestObject(""Cart Text Product 1""))",Edge Chromium 116,,,2023-08-31 09:17:48,2023-08-31 09:17:48,0.356s,PASSED
+"verifyElementText(findTestObject(""Detail Product Text Name Product 1""), title)",Edge Chromium 116,,,2023-08-31 09:17:48,2023-08-31 09:17:49,0.447s,PASSED
+"verifyElementText(findTestObject(""Detail Product Text Desc Product 1""), desc)",Edge Chromium 116,,,2023-08-31 09:17:49,2023-08-31 09:17:49,0.324s,PASSED
+"verifyElementText(findTestObject(""Detail Product Text Price Product 1""), price)",Edge Chromium 116,,,2023-08-31 09:17:49,2023-08-31 09:17:50,0.324s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Remove-001,Edge Chromium 116,User meremove product pada keranjang,,2023-08-31 09:17:50,2023-08-31 09:18:03,13.288s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:17:50,2023-08-31 09:18:02,12.250s,PASSED
+"click(findTestObject(""Cart Button Remove Product 1""))",Edge Chromium 116,,,2023-08-31 09:18:02,2023-08-31 09:18:02,0.381s,PASSED
+"verifyElementNotPresent(findTestObject(""Cart Text Product 1 Title""), 0)",Edge Chromium 116,,,2023-08-31 09:18:02,2023-08-31 09:18:03,0.425s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Show-001,Edge Chromium 116,User can access cart page,,2023-08-31 09:18:03,2023-08-31 09:18:11,8.639s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login-Success-001""), [""username"":""standard_user"", ""password"":""qcu24s4901FyWDTwXGr6XA==""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:18:03,2023-08-31 09:18:10,7.307s,PASSED
+"click(findTestObject(""Product Icon Cart""))",Edge Chromium 116,,,2023-08-31 09:18:10,2023-08-31 09:18:11,0.570s,PASSED
+"verifyElementPresent(findTestObject(""Cart Title Text""), 10)",Edge Chromium 116,,,2023-08-31 09:18:11,2023-08-31 09:18:11,0.529s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Show-002,Edge Chromium 116,"User can access cart page after ""add to cart"" 1 product",,2023-08-31 09:18:11,2023-08-31 09:18:23,11.965s,PASSED
+"data = callTestCase(findTestCase(""Products/TC-Product-AddCart-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:18:11,2023-08-31 09:18:22,10.222s,PASSED
+"click(findTestObject(""Product Icon Cart""))",Edge Chromium 116,,,2023-08-31 09:18:22,2023-08-31 09:18:22,0.360s,PASSED
+"verifyElementPresent(findTestObject(""Cart Title Text""), 10)",Edge Chromium 116,,,2023-08-31 09:18:22,2023-08-31 09:18:22,0.436s,PASSED
+"name = getText(findTestObject(""Cart Text Product 1 Title""))",Edge Chromium 116,,,2023-08-31 09:18:22,2023-08-31 09:18:23,0.301s,PASSED
+"desc = getText(findTestObject(""Cart Text Product 1 Desc""))",Edge Chromium 116,,,2023-08-31 09:18:23,2023-08-31 09:18:23,0.315s,PASSED
+"price = getText(findTestObject(""Cart Text Product 1 Price""))",Edge Chromium 116,,,2023-08-31 09:18:23,2023-08-31 09:18:23,0.330s,PASSED
+"assert name == data.get(""product_name"")",Edge Chromium 116,,,2023-08-31 09:18:23,2023-08-31 09:18:23,0.000s,PASSED
+"assert desc == data.get(""product_desc"")",Edge Chromium 116,,,2023-08-31 09:18:23,2023-08-31 09:18:23,0.000s,PASSED
+"assert price == data.get(""product_price"")",Edge Chromium 116,,,2023-08-31 09:18:23,2023-08-31 09:18:23,0.000s,PASSED
+return data,Edge Chromium 116,,,2023-08-31 09:18:23,2023-08-31 09:18:23,0.001s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Show-003,Edge Chromium 116,"User can access cart page after ""add to cart"" 2 products",,2023-08-31 09:18:23,2023-08-31 09:18:37,14.053s,PASSED
+"data = callTestCase(findTestCase(""Products/TC-Product-AddCart-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:18:24,2023-08-31 09:18:36,12.251s,PASSED
+"click(findTestObject(""Product Icon Cart""))",Edge Chromium 116,,,2023-08-31 09:18:36,2023-08-31 09:18:36,0.387s,PASSED
+"sourceProductTitleList = findWebElements(findTestObject(""Object Repository/Cart Product Title List""), 10)",Edge Chromium 116,,,2023-08-31 09:18:36,2023-08-31 09:18:37,0.512s,PASSED
+"sourceProductDescList = findWebElements(findTestObject(""Object Repository/Cart Product Desc List""), 10)",Edge Chromium 116,,,2023-08-31 09:18:37,2023-08-31 09:18:37,0.295s,PASSED
+"sourceProductPriceList = findWebElements(findTestObject(""Object Repository/Cart Product Price List""), 10)",Edge Chromium 116,,,2023-08-31 09:18:37,2023-08-31 09:18:37,0.302s,PASSED
+oriProductTitleList = new java.util.ArrayList(),Edge Chromium 116,,,2023-08-31 09:18:37,2023-08-31 09:18:37,0.000s,PASSED
+oriProductDescList = new java.util.ArrayList(),Edge Chromium 116,,,2023-08-31 09:18:37,2023-08-31 09:18:37,0.000s,PASSED
+oriProductPriceList = new java.util.ArrayList(),Edge Chromium 116,,,2023-08-31 09:18:37,2023-08-31 09:18:37,0.000s,PASSED
+"for ([i = 0, i < sourceProductTitleList.size(), (i++)])",Edge Chromium 116,,,2023-08-31 09:18:37,2023-08-31 09:18:37,0.032s,PASSED
+"assert data.get(""product_name_list"") == oriProductTitleList",Edge Chromium 116,,,2023-08-31 09:18:37,2023-08-31 09:18:37,0.000s,PASSED
+"assert data.get(""product_desc_list"") == oriProductDescList",Edge Chromium 116,,,2023-08-31 09:18:37,2023-08-31 09:18:37,0.000s,PASSED
+"assert data.get(""product_price_list"") == oriProductPriceList",Edge Chromium 116,,,2023-08-31 09:18:37,2023-08-31 09:18:37,0.000s,PASSED
+return data,Edge Chromium 116,,,2023-08-31 09:18:37,2023-08-31 09:18:37,0.000s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Error-001,Edge Chromium 116,user melakukan chekout di halaman Your Cart yang sudah ada isi atau sudah ada produk yang di masukan kedalaman keranjang namun tidak memasukan first name di halaman Chekout : Your Information,,2023-08-31 09:18:37,2023-08-31 09:18:55,17.100s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-003""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:18:38,2023-08-31 09:18:51,13.720s,PASSED
+"click(findTestObject(""Cart Button Checkout""))",Edge Chromium 116,,,2023-08-31 09:18:51,2023-08-31 09:18:52,0.357s,PASSED
+"verifyElementPresent(findTestObject(""Checkout Step 1 Title""), 0)",Edge Chromium 116,,,2023-08-31 09:18:52,2023-08-31 09:18:52,0.439s,PASSED
+"setText(findTestObject(""Checkout Input Last Name""), last_name)",Edge Chromium 116,,,2023-08-31 09:18:52,2023-08-31 09:18:53,0.662s,PASSED
+"setText(findTestObject(""Checkout Input Postal Code""), postal_code)",Edge Chromium 116,,,2023-08-31 09:18:53,2023-08-31 09:18:54,0.771s,PASSED
+"click(findTestObject(""Checkout Button Continue""))",Edge Chromium 116,,,2023-08-31 09:18:54,2023-08-31 09:18:54,0.465s,PASSED
+"verifyElementText(findTestObject(""Checkout Error Message""), ""Error: First Name is required"")",Edge Chromium 116,,,2023-08-31 09:18:54,2023-08-31 09:18:55,0.430s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Error-002,Edge Chromium 116,user cannot continue to the overview page when the user does not fill out the last name information form,,2023-08-31 09:18:55,2023-08-31 09:19:10,15.404s,FAILED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:18:55,2023-08-31 09:19:07,11.779s,PASSED
+"click(findTestObject(""Cart Button Checkout""))",Edge Chromium 116,,,2023-08-31 09:19:07,2023-08-31 09:19:07,0.380s,PASSED
+"verifyElementPresent(findTestObject(""Checkout Step 1 Title""), 0)",Edge Chromium 116,,,2023-08-31 09:19:07,2023-08-31 09:19:07,0.427s,PASSED
+"setText(findTestObject(""Checkout Input First Name""), first_name)",Edge Chromium 116,,,2023-08-31 09:19:07,2023-08-31 09:19:08,0.647s,PASSED
+"setText(findTestObject(""Checkout Input Postal Code""), postal_code)",Edge Chromium 116,,,2023-08-31 09:19:08,2023-08-31 09:19:09,0.768s,PASSED
+"click(findTestObject(""Checkout Button Continue""))",Edge Chromium 116,,,2023-08-31 09:19:09,2023-08-31 09:19:09,0.567s,PASSED
+"verifyElementText(findTestObject(""Checkout Error Message""), ""Last Name Required"")",Edge Chromium 116,,,2023-08-31 09:19:09,2023-08-31 09:19:10,0.584s,FAILED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Error-003,Edge Chromium 116,User hanya mengosongkan zip/Postal Code.,,2023-08-31 09:19:10,2023-08-31 09:19:25,15.186s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:19:10,2023-08-31 09:19:22,11.762s,PASSED
+"click(findTestObject(""Cart Button Checkout""))",Edge Chromium 116,,,2023-08-31 09:19:22,2023-08-31 09:19:22,0.362s,PASSED
+"verifyElementPresent(findTestObject(""Checkout Step 1 Title""), 0)",Edge Chromium 116,,,2023-08-31 09:19:22,2023-08-31 09:19:23,0.425s,PASSED
+"setText(findTestObject(""Checkout Input First Name""), first_name)",Edge Chromium 116,,,2023-08-31 09:19:23,2023-08-31 09:19:23,0.638s,PASSED
+"setText(findTestObject(""Checkout Input Last Name""), last_name)",Edge Chromium 116,,,2023-08-31 09:19:23,2023-08-31 09:19:24,0.840s,PASSED
+"click(findTestObject(""Checkout Button Continue""))",Edge Chromium 116,,,2023-08-31 09:19:24,2023-08-31 09:19:25,0.468s,PASSED
+"verifyElementText(findTestObject(""Checkout Error Message""), ""Error: Postal Code is required"")",Edge Chromium 116,,,2023-08-31 09:19:25,2023-08-31 09:19:25,0.434s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Nav-001,Edge Chromium 116,"""User 
+batal membeli product 
+pada halaman checkout:
+overview""",,2023-08-31 09:19:25,2023-08-31 09:19:42,17.086s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:19:25,2023-08-31 09:19:37,11.794s,PASSED
+"click(findTestObject(""Cart Button Checkout""))",Edge Chromium 116,,,2023-08-31 09:19:37,2023-08-31 09:19:38,0.373s,PASSED
+"verifyElementPresent(findTestObject(""Checkout Step 1 Title""), 0)",Edge Chromium 116,,,2023-08-31 09:19:38,2023-08-31 09:19:38,0.421s,PASSED
+"setText(findTestObject(""Checkout Input First Name""), first_name)",Edge Chromium 116,,,2023-08-31 09:19:38,2023-08-31 09:19:39,0.638s,PASSED
+"setText(findTestObject(""Checkout Input Last Name""), last_name)",Edge Chromium 116,,,2023-08-31 09:19:39,2023-08-31 09:19:40,0.872s,PASSED
+"setText(findTestObject(""Checkout Input Postal Code""), postal_code)",Edge Chromium 116,,,2023-08-31 09:19:40,2023-08-31 09:19:40,0.766s,PASSED
+"click(findTestObject(""Checkout Button Continue""))",Edge Chromium 116,,,2023-08-31 09:19:40,2023-08-31 09:19:41,0.568s,PASSED
+"verifyElementPresent(findTestObject(""Checkout Step 2 Title""), 0)",Edge Chromium 116,,,2023-08-31 09:19:41,2023-08-31 09:19:41,0.524s,PASSED
+"click(findTestObject(""Checkout Button Cancel""))",Edge Chromium 116,,,2023-08-31 09:19:41,2023-08-31 09:19:42,0.340s,PASSED
+"verifyElementPresent(findTestObject(""Product Title Text""), 0)",Edge Chromium 116,,,2023-08-31 09:19:42,2023-08-31 09:19:42,0.516s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Success-001,Edge Chromium 116,User Melakukan Checkout 1 barang,,2023-08-31 09:19:42,2023-08-31 09:20:02,19.359s,PASSED
+"data = callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:19:43,2023-08-31 09:19:54,11.825s,PASSED
+"click(findTestObject(""Cart Button Checkout""))",Edge Chromium 116,,,2023-08-31 09:19:54,2023-08-31 09:19:55,0.353s,PASSED
+"verifyElementPresent(findTestObject(""Checkout Step 1 Title""), 0)",Edge Chromium 116,,,2023-08-31 09:19:55,2023-08-31 09:19:55,0.518s,PASSED
+"setText(findTestObject(""Checkout Input First Name""), first_name)",Edge Chromium 116,,,2023-08-31 09:19:55,2023-08-31 09:19:56,0.653s,PASSED
+"setText(findTestObject(""Checkout Input Last Name""), last_name)",Edge Chromium 116,,,2023-08-31 09:19:56,2023-08-31 09:19:57,0.864s,PASSED
+"setText(findTestObject(""Checkout Input Postal Code""), postal_code)",Edge Chromium 116,,,2023-08-31 09:19:57,2023-08-31 09:19:58,0.779s,PASSED
+"click(findTestObject(""Checkout Button Continue""))",Edge Chromium 116,,,2023-08-31 09:19:58,2023-08-31 09:19:58,0.553s,PASSED
+"verifyElementPresent(findTestObject(""Checkout Step 2 Title""), 0)",Edge Chromium 116,,,2023-08-31 09:19:58,2023-08-31 09:19:59,0.522s,PASSED
+"productTitle = getText(findTestObject(""Object Repository/Checkout Title Product 1""))",Edge Chromium 116,,,2023-08-31 09:19:59,2023-08-31 09:19:59,0.298s,PASSED
+"productDesc = getText(findTestObject(""Object Repository/Checkout Desc Product 1""))",Edge Chromium 116,,,2023-08-31 09:19:59,2023-08-31 09:19:59,0.334s,PASSED
+"productPrice = getText(findTestObject(""Object Repository/Checkout Price Product 1""))",Edge Chromium 116,,,2023-08-31 09:19:59,2023-08-31 09:20:00,0.298s,PASSED
+"assert productTitle == data.get(""product_name"")",Edge Chromium 116,,,2023-08-31 09:20:00,2023-08-31 09:20:00,0.001s,PASSED
+"assert productDesc == data.get(""product_desc"")",Edge Chromium 116,,,2023-08-31 09:20:00,2023-08-31 09:20:00,0.000s,PASSED
+"assert productPrice == data.get(""product_price"")",Edge Chromium 116,,,2023-08-31 09:20:00,2023-08-31 09:20:00,0.000s,PASSED
+"price_product = replace(""$"", """").trim()",Edge Chromium 116,,,2023-08-31 09:20:00,2023-08-31 09:20:00,0.306s,PASSED
+price_product = Double.parseDouble(price_product),Edge Chromium 116,,,2023-08-31 09:20:00,2023-08-31 09:20:00,0.001s,PASSED
+"total_price_product = replace(""$"", """").trim()",Edge Chromium 116,,,2023-08-31 09:20:00,2023-08-31 09:20:00,0.317s,PASSED
+total_price_product = Double.parseDouble(total_price_product),Edge Chromium 116,,,2023-08-31 09:20:00,2023-08-31 09:20:00,0.000s,PASSED
+assert price_product == total_price_product,Edge Chromium 116,,,2023-08-31 09:20:00,2023-08-31 09:20:00,0.000s,PASSED
+"tax = replace(""$"", """").trim()",Edge Chromium 116,,,2023-08-31 09:20:00,2023-08-31 09:20:00,0.310s,PASSED
+tax = Double.parseDouble(tax),Edge Chromium 116,,,2023-08-31 09:20:00,2023-08-31 09:20:00,0.000s,PASSED
+assert Math.round(tax / total_price_product * 100.0) / 100.0 == 0.08,Edge Chromium 116,,,2023-08-31 09:20:00,2023-08-31 09:20:00,0.012s,PASSED
+"total_price_plus_tax = replace(""$"", """").trim()",Edge Chromium 116,,,2023-08-31 09:20:00,2023-08-31 09:20:01,0.327s,PASSED
+total_price_plus_tax = Double.parseDouble(total_price_plus_tax),Edge Chromium 116,,,2023-08-31 09:20:01,2023-08-31 09:20:01,0.000s,PASSED
+assert total_price_plus_tax == total_price_product + tax,Edge Chromium 116,,,2023-08-31 09:20:01,2023-08-31 09:20:01,0.001s,PASSED
+"click(findTestObject(""Checkout Button Finish""))",Edge Chromium 116,,,2023-08-31 09:20:01,2023-08-31 09:20:01,0.359s,PASSED
+"verifyElementPresent(findTestObject(""Checkout Title Complete""), 0)",Edge Chromium 116,,,2023-08-31 09:20:01,2023-08-31 09:20:02,0.428s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Success-002,Edge Chromium 116,User Melakukan Checkout 2 barang,,2023-08-31 09:20:02,2023-08-31 09:20:23,21.017s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-003""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:20:02,2023-08-31 09:20:16,13.660s,PASSED
+"click(findTestObject(""Cart Button Checkout""))",Edge Chromium 116,,,2023-08-31 09:20:16,2023-08-31 09:20:16,0.364s,PASSED
+"verifyElementPresent(findTestObject(""Checkout Step 1 Title""), 0)",Edge Chromium 116,,,2023-08-31 09:20:16,2023-08-31 09:20:16,0.555s,PASSED
+"setText(findTestObject(""Checkout Input First Name""), first_name)",Edge Chromium 116,,,2023-08-31 09:20:16,2023-08-31 09:20:17,0.691s,PASSED
+"setText(findTestObject(""Checkout Input Last Name""), last_name)",Edge Chromium 116,,,2023-08-31 09:20:17,2023-08-31 09:20:18,0.764s,PASSED
+"setText(findTestObject(""Checkout Input Postal Code""), postal_code)",Edge Chromium 116,,,2023-08-31 09:20:18,2023-08-31 09:20:19,0.865s,PASSED
+"click(findTestObject(""Checkout Button Continue""))",Edge Chromium 116,,,2023-08-31 09:20:19,2023-08-31 09:20:19,0.572s,PASSED
+"verifyElementPresent(findTestObject(""Checkout Step 2 Title""), 0)",Edge Chromium 116,,,2023-08-31 09:20:19,2023-08-31 09:20:20,0.526s,PASSED
+"sourceTitleList = findWebElements(findTestObject(""Object Repository/Checkout Title Product List""), 10)",Edge Chromium 116,,,2023-08-31 09:20:20,2023-08-31 09:20:20,0.298s,PASSED
+"sourceDescList = findWebElements(findTestObject(""Object Repository/Checkout Desc Product List""), 10)",Edge Chromium 116,,,2023-08-31 09:20:20,2023-08-31 09:20:21,0.319s,PASSED
+"sourcePriceList = findWebElements(findTestObject(""Object Repository/Checkout Price Product List""), 10)",Edge Chromium 116,,,2023-08-31 09:20:21,2023-08-31 09:20:21,0.292s,PASSED
+oriTitleList = new java.util.ArrayList(),Edge Chromium 116,,,2023-08-31 09:20:21,2023-08-31 09:20:21,0.000s,PASSED
+oriDescList = new java.util.ArrayList(),Edge Chromium 116,,,2023-08-31 09:20:21,2023-08-31 09:20:21,0.000s,PASSED
+oriPriceList = new java.util.ArrayList(),Edge Chromium 116,,,2023-08-31 09:20:21,2023-08-31 09:20:21,0.001s,PASSED
+price_product = 0.0,Edge Chromium 116,,,2023-08-31 09:20:21,2023-08-31 09:20:21,0.000s,PASSED
+"for ([i = 0, i < sourceTitleList.size(), (i++)])",Edge Chromium 116,,,2023-08-31 09:20:21,2023-08-31 09:20:21,0.043s,PASSED
+"total_price_product = replace(""$"", """").trim()",Edge Chromium 116,,,2023-08-31 09:20:21,2023-08-31 09:20:21,0.322s,PASSED
+total_price_product = Double.parseDouble(total_price_product),Edge Chromium 116,,,2023-08-31 09:20:21,2023-08-31 09:20:21,0.000s,PASSED
+assert price_product == total_price_product,Edge Chromium 116,,,2023-08-31 09:20:21,2023-08-31 09:20:21,0.000s,PASSED
+"tax = replace(""$"", """").trim()",Edge Chromium 116,,,2023-08-31 09:20:21,2023-08-31 09:20:21,0.329s,PASSED
+tax = Double.parseDouble(tax),Edge Chromium 116,,,2023-08-31 09:20:21,2023-08-31 09:20:21,0.000s,PASSED
+assert Math.round(tax / total_price_product * 100.0) / 100.0 == 0.08,Edge Chromium 116,,,2023-08-31 09:20:21,2023-08-31 09:20:21,0.000s,PASSED
+"total_price_plus_tax = replace(""$"", """").trim()",Edge Chromium 116,,,2023-08-31 09:20:21,2023-08-31 09:20:22,0.330s,PASSED
+total_price_plus_tax = Double.parseDouble(total_price_plus_tax),Edge Chromium 116,,,2023-08-31 09:20:22,2023-08-31 09:20:22,0.000s,PASSED
+assert total_price_plus_tax == total_price_product + tax,Edge Chromium 116,,,2023-08-31 09:20:22,2023-08-31 09:20:22,0.000s,PASSED
+"click(findTestObject(""Checkout Button Finish""))",Edge Chromium 116,,,2023-08-31 09:20:22,2023-08-31 09:20:22,0.348s,PASSED
+"verifyElementPresent(findTestObject(""Checkout Title Complete""), 0)",Edge Chromium 116,,,2023-08-31 09:20:22,2023-08-31 09:20:23,0.455s,PASSED
+,,,,,,,
+Test Cases/Logout/TC-Logout-Success-001,Edge Chromium 116,User melakukan logout dari hamburger,,2023-08-31 09:20:23,2023-08-31 09:20:32,8.975s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login-Success-001""), [""username"":""standard_user"", ""password"":""qcu24s4901FyWDTwXGr6XA==""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-31 09:20:23,2023-08-31 09:20:30,7.222s,PASSED
+"click(findTestObject(""Logout Icon Hamburgur""))",Edge Chromium 116,,,2023-08-31 09:20:30,2023-08-31 09:20:31,0.568s,PASSED
+"click(findTestObject(""Logout Menu Logout""))",Edge Chromium 116,,,2023-08-31 09:20:31,2023-08-31 09:20:31,0.554s,PASSED
+"verifyElementPresent(findTestObject(""Login Title Text""), 0)",Edge Chromium 116,,,2023-08-31 09:20:31,2023-08-31 09:20:32,0.418s,PASSED

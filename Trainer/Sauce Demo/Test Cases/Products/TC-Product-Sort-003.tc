@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin mengurutkan produk berdasarkan price (low to high)</description>
+   <name>TC-Product-Sort-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09c0c5df-8739-49e3-8e0f-fb6e28382ea8</testCaseGuid>
+</TestCaseEntity>

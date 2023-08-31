@@ -15,38 +15,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys
-import org.openqa.selenium.WebElement
+import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://the-internet.herokuapp.com/tables')
+WebUI.callTestCase(findTestCase('Keranjang/TC-Cart-Show-003'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Sorting/TH Last Name 1'))
-WebUI.click(findTestObject('Sorting/TH Last Name 1'))
+WebUI.click(findTestObject('Cart Button Checkout'))
 
-//Ambil semua element dari last name
-List<WebElement> dataList = WebUI.findWebElements(findTestObject('Object Repository/Sorting/Data List Last Name 1'),10);
+WebUI.verifyElementPresent(findTestObject('Checkout Step 1 Title'), 0)
 
-//Deklarasi dua array
-String[] arrLastNameOri = new String[dataList.size()]
-String[] arrLastNameSort = new String[dataList.size()]
+WebUI.setText(findTestObject('Checkout Input Last Name'), last_name)
 
-//Isi Array yang Ori & Sort
-for(int i = 0; i< dataList.size(); i++){
-	text = dataList.get(i).text
-	
-	//manipulasi disini
-	
-	arrLastNameOri[i] = text
-	arrLastNameSort[i] = text
-}
+WebUI.setText(findTestObject('Checkout Input Postal Code'), postal_code)
 
-//Sort Array
-//Arrays.sort(arrLastNameSort)
-Arrays.sort(arrLastNameSort,Collections.reverseOrder())
+WebUI.click(findTestObject('Checkout Button Continue'))
 
-//verifikasi arrayOri == arraySort
-println arrLastNameOri
-println arrLastNameSort
-assert arrLastNameOri == arrLastNameSort
-
+WebUI.verifyElementText(findTestObject('Checkout Error Message'), 'Error: First Name is required')
 

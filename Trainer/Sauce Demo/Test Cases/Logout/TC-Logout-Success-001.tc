@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan logout dari hamburger</description>
+   <name>TC-Logout-Success-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4114e93b-4320-44b6-a50b-ec92b9155021</testCaseGuid>
+</TestCaseEntity>

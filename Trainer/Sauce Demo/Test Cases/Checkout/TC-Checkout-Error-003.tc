@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User hanya mengosongkan zip/Postal Code.</description>
+   <name>TC-Checkout-Error-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1c862ae-fe57-4d2c-ae5d-e908c3691e6d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa299890-0b05-404c-a386-f3eda526eb24</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ead94e9a-acea-41e8-9eef-920b3c981dea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f19e11db-88a0-408f-8fb7-5241d66201b6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Yuhan'</defaultValue>
+      <description></description>
+      <id>aa299890-0b05-404c-a386-f3eda526eb24</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nanda'</defaultValue>
+      <description></description>
+      <id>ead94e9a-acea-41e8-9eef-920b3c981dea</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'55293'</defaultValue>
+      <description></description>
+      <id>f19e11db-88a0-408f-8fb7-5241d66201b6</id>
+      <masked>false</masked>
+      <name>postal_code</name>
+   </variable>
+</TestCaseEntity>

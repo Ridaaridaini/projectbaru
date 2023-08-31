@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user cannot continue to the overview page when the user does not fill out the last name information form</description>
+   <name>TC-Checkout-Error-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e7be09e-95f7-40d2-8eee-a460b4037257</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c3ec3d5-7793-4591-8628-133e30b09103</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fa4b2f83-5ebe-4b78-8073-2a2fb6ac239f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>323c6615-4f66-432d-a3ed-5b819a150e68</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Yuhan'</defaultValue>
+      <description></description>
+      <id>9c3ec3d5-7793-4591-8628-133e30b09103</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nanda'</defaultValue>
+      <description></description>
+      <id>fa4b2f83-5ebe-4b78-8073-2a2fb6ac239f</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'55293'</defaultValue>
+      <description></description>
+      <id>323c6615-4f66-432d-a3ed-5b819a150e68</id>
+      <masked>false</masked>
+      <name>postal_code</name>
+   </variable>
+</TestCaseEntity>

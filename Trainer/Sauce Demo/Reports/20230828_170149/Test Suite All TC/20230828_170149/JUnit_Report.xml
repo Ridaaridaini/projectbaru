@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite All TC" time="257.977" tests="31" failures="1" errors="0">
+   <testsuite name="Test Suite All TC" tests="31" failures="1" errors="0" time="257.977" skipped="0" timestamp="2023-08-28 17:01:55" hostname="youha - LAPTOP-H03M84CI" id="Test Suites/Test Suite All TC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\youha\\OneDrive\\Desktop\\Batch 324\\Workspace\\batch-324-qa\\Trainer\\Sauce Demo\\Reports\\20230828_170149\\Test Suite All TC\\20230828_170149"/>
+         <property name="logFiles" value="C:\\Users\\youha\\OneDrive\\Desktop\\Batch 324\\Workspace\\batch-324-qa\\Trainer\\Sauce Demo\\Reports\\20230828_170149\\Test Suite All TC\\20230828_170149\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\youha\\OneDrive\\Desktop\\Batch 324\\Workspace\\batch-324-qa\\Trainer\\Sauce Demo\\Reports\\20230828_170149\\Test Suite All TC\\20230828_170149\\1693217082999.png"/>
+         <property name="hostName" value="youha - LAPTOP-H03M84CI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Edge Chromium 116"/>
+         <property name="hostAddress" value="10.9.2.27"/>
+         <property name="sessionId" value="eefc7e3347e97026c6e8d0c29ef0de12"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC-Login-Failed-001" time="5.74" classname="Test Cases/Login/TC-Login-Failed-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:01:56 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Failed-001: Test Cases/Login/TC-Login-Failed-001
+
+2023-08-28 17:01:56 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:01:56 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:01:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:02:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:00 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'dianty' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:01 - [MESSAGE][PASSED] - Text 'dianty' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:01 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC-Login-Failed-002" time="5.34" classname="Test Cases/Login/TC-Login-Failed-002" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:02:01 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Failed-002: Test Cases/Login/TC-Login-Failed-002
+
+2023-08-28 17:02:02 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:02:02 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:02:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:02:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'locked_out_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:06 - [MESSAGE][PASSED] - Text 'locked_out_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:06 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC-Login-Failed-003" time="4.898" classname="Test Cases/Login/TC-Login-Failed-003" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:02:07 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Failed-003: Test Cases/Login/TC-Login-Failed-003
+
+2023-08-28 17:02:07 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:02:07 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:02:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:02:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:11 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC-Login-Failed-004" time="4.613" classname="Test Cases/Login/TC-Login-Failed-004" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:02:12 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Failed-004: Test Cases/Login/TC-Login-Failed-004
+
+2023-08-28 17:02:12 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:02:12 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:02:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:02:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:16 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:02:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC-Login-Locked-001" time="5.778" classname="Test Cases/Login/TC-Login-Locked-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:02:16 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Locked-001: Test Cases/Login/TC-Login-Locked-001
+
+2023-08-28 17:02:16 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:02:17 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:02:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:02:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:20 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:21 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:22 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC-Login-Success-001" time="5.831" classname="Test Cases/Login/TC-Login-Success-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:02:22 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:02:22 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:02:23 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:02:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:02:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:27 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:27 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:02:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Products/TC-Product-AddCart-001" time="7.032" classname="Test Cases/Products/TC-Product-AddCart-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:02:28 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-001: Test Cases/Products/TC-Product-AddCart-001
+
+2023-08-28 17:02:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:02:28 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:02:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:02:28 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:02:28 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:02:29 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:02:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:02:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:33 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:34 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:02:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:02:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:02:34 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 1")): Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:02:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Products/TC-Product-AddCart-002" time="7.076" classname="Test Cases/Products/TC-Product-AddCart-002" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:02:35 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-002: Test Cases/Products/TC-Product-AddCart-002
+
+2023-08-28 17:02:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:02:35 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-001: Test Cases/Products/TC-Product-AddCart-001
+
+2023-08-28 17:02:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:02:35 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:02:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:02:35 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:02:35 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:02:36 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:02:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:02:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:39 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:40 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:40 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:02:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:02:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:02:41 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 1")): Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:02:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:02:41 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 2")): Object: 'Object Repository/Product Button ATC Product 2' is clicked on
+
+2023-08-28 17:02:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 2' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Products/TC-Product-RemoveCart-001" time="6.846" classname="Test Cases/Products/TC-Product-RemoveCart-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:02:42 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-RemoveCart-001: Test Cases/Products/TC-Product-RemoveCart-001
+
+2023-08-28 17:02:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:02:42 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-001: Test Cases/Products/TC-Product-AddCart-001
+
+2023-08-28 17:02:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:02:42 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:02:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:02:42 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:02:42 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:02:43 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:02:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:02:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:46 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:47 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:47 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:02:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:02:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:02:48 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 1")): Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:02:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:02:48 - [TEST_STEP][PASSED] - click(findTestObject("Product Button Remove Product 1")): Object: 'Object Repository/Product Button Remove Product 1' is clicked on
+
+2023-08-28 17:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button Remove Product 1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Products/TC-Product-Show-001" time="5.522" classname="Test Cases/Products/TC-Product-Show-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:02:49 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:02:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:02:49 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:02:49 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:02:49 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:02:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:02:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:53 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:53 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:02:54 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:02:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Products/TC-Product-Sort-001" time="6.796" classname="Test Cases/Products/TC-Product-Sort-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:02:54 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Sort-001: Test Cases/Products/TC-Product-Sort-001
+
+2023-08-28 17:02:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:02:55 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:02:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:02:55 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:02:55 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:02:55 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:02:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:02:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:02:59 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:59 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:02:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:00 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:03:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Product Dropdown Sort"), "az", false): All options with value 'az' are selected in object 'Object Repository/Product Dropdown Sort' 
+
+2023-08-28 17:03:01 - [MESSAGE][PASSED] - All options with value 'az' are selected in object 'Object Repository/Product Dropdown Sort']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Products/TC-Product-Sort-002" time="6.961" classname="Test Cases/Products/TC-Product-Sort-002" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:03:01 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Sort-002: Test Cases/Products/TC-Product-Sort-002
+
+2023-08-28 17:03:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:03:01 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:03:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:01 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:03:01 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:03:02 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:03:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:03:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:06 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:07 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:03:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Product Dropdown Sort"), "za", false): All options with value 'za' are selected in object 'Object Repository/Product Dropdown Sort' 
+
+2023-08-28 17:03:08 - [MESSAGE][PASSED] - All options with value 'za' are selected in object 'Object Repository/Product Dropdown Sort']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Products/TC-Product-Sort-003" time="6.88" classname="Test Cases/Products/TC-Product-Sort-003" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:03:08 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Sort-003: Test Cases/Products/TC-Product-Sort-003
+
+2023-08-28 17:03:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:03:08 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:03:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:08 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:03:08 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:03:09 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:03:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:03:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:13 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:13 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:03:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Product Dropdown Sort"), "lohi", false): All options with value 'lohi' are selected in object 'Object Repository/Product Dropdown Sort' 
+
+2023-08-28 17:03:15 - [MESSAGE][PASSED] - All options with value 'lohi' are selected in object 'Object Repository/Product Dropdown Sort']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Products/TC-Product-Sort-004" time="6.719" classname="Test Cases/Products/TC-Product-Sort-004" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:03:15 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Sort-004: Test Cases/Products/TC-Product-Sort-004
+
+2023-08-28 17:03:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:03:15 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:03:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:15 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:03:15 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:03:16 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:03:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:03:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:20 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:20 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:03:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Product Dropdown Sort"), "hilo", false): All options with value 'hilo' are selected in object 'Object Repository/Product Dropdown Sort' 
+
+2023-08-28 17:03:22 - [MESSAGE][PASSED] - All options with value 'hilo' are selected in object 'Object Repository/Product Dropdown Sort']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Detail Product/TC-DetailProduct-AddCart-001" time="6.983" classname="Test Cases/Detail Product/TC-DetailProduct-AddCart-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:03:22 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-AddCart-001: Test Cases/Detail Product/TC-DetailProduct-AddCart-001
+
+2023-08-28 17:03:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Detail Product/TC-DetailProduct-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-Show-001' successfully
+
+2023-08-28 17:03:22 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-Show-001: Test Cases/Detail Product/TC-DetailProduct-Show-001
+
+2023-08-28 17:03:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:22 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:03:22 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:03:23 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:03:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:03:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:27 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:27 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:28 - [TEST_STEP][PASSED] - click(findTestObject("Product Text Product 1")): Object: 'Object Repository/Product Text Product 1' is clicked on
+
+2023-08-28 17:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Text Product 1' is clicked on
+
+2023-08-28 17:03:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-Show-001' successfully
+
+2023-08-28 17:03:28 - [TEST_STEP][PASSED] - click(findTestObject("Detail Product Button ATC Product 1")): Object: 'Object Repository/Detail Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail Product Button ATC Product 1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Detail Product/TC-DetailProduct-Nav-001" time="6.984" classname="Test Cases/Detail Product/TC-DetailProduct-Nav-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:03:29 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-Nav-001: Test Cases/Detail Product/TC-DetailProduct-Nav-001
+
+2023-08-28 17:03:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Detail Product/TC-DetailProduct-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-Show-001' successfully
+
+2023-08-28 17:03:29 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-Show-001: Test Cases/Detail Product/TC-DetailProduct-Show-001
+
+2023-08-28 17:03:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:29 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:03:29 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:03:30 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:03:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:03:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:34 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:34 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:35 - [TEST_STEP][PASSED] - click(findTestObject("Product Text Product 1")): Object: 'Object Repository/Product Text Product 1' is clicked on
+
+2023-08-28 17:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Text Product 1' is clicked on
+
+2023-08-28 17:03:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-Show-001' successfully
+
+2023-08-28 17:03:35 - [TEST_STEP][PASSED] - click(findTestObject("Detail Product Button Back To Product")): Object: 'Object Repository/Detail Product Button Back To Product' is clicked on
+
+2023-08-28 17:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail Product Button Back To Product' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Detail Product/TC-DetailProduct-RemoveCart-001" time="7.314" classname="Test Cases/Detail Product/TC-DetailProduct-RemoveCart-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:03:36 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-RemoveCart-001: Test Cases/Detail Product/TC-DetailProduct-RemoveCart-001
+
+2023-08-28 17:03:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Detail Product/TC-DetailProduct-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-AddCart-001' successfully
+
+2023-08-28 17:03:36 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-AddCart-001: Test Cases/Detail Product/TC-DetailProduct-AddCart-001
+
+2023-08-28 17:03:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Detail Product/TC-DetailProduct-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-Show-001' successfully
+
+2023-08-28 17:03:36 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-Show-001: Test Cases/Detail Product/TC-DetailProduct-Show-001
+
+2023-08-28 17:03:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:36 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:03:36 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:03:37 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:03:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:03:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:41 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:41 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:41 - [TEST_STEP][PASSED] - click(findTestObject("Product Text Product 1")): Object: 'Object Repository/Product Text Product 1' is clicked on
+
+2023-08-28 17:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Text Product 1' is clicked on
+
+2023-08-28 17:03:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-Show-001' successfully
+
+2023-08-28 17:03:42 - [TEST_STEP][PASSED] - click(findTestObject("Detail Product Button ATC Product 1")): Object: 'Object Repository/Detail Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:03:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Detail Product/TC-DetailProduct-AddCart-001' successfully
+
+2023-08-28 17:03:42 - [TEST_STEP][PASSED] - click(findTestObject("Detail Product Button Remove Product 1")): Object: 'Object Repository/Detail Product Button Remove Product 1' is clicked on
+
+2023-08-28 17:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail Product Button Remove Product 1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Detail Product/TC-DetailProduct-Show-001" time="6.008" classname="Test Cases/Detail Product/TC-DetailProduct-Show-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:03:43 - [TEST_CASE][PASSED] - Test Cases/Detail Product/TC-DetailProduct-Show-001: Test Cases/Detail Product/TC-DetailProduct-Show-001
+
+2023-08-28 17:03:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:43 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:03:43 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:03:44 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:03:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:03:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:48 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Product Text Product 1")): Object: 'Object Repository/Product Text Product 1' is clicked on
+
+2023-08-28 17:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Text Product 1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Keranjang/TC-Cart-Nav-001" time="7.855" classname="Test Cases/Keranjang/TC-Cart-Nav-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:03:49 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Nav-001: Test Cases/Keranjang/TC-Cart-Nav-001
+
+2023-08-28 17:03:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-28 17:03:49 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-28 17:03:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:03:49 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-001: Test Cases/Products/TC-Product-AddCart-001
+
+2023-08-28 17:03:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:03:50 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:03:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:50 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:03:50 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:03:50 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:03:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:03:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:54 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:03:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:03:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 1")): Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:03:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:03:56 - [TEST_STEP][PASSED] - click(findTestObject("Product Icon Cart")): Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:03:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-28 17:03:56 - [TEST_STEP][PASSED] - click(findTestObject("Cart Button Continue Shopping")): Object: 'Object Repository/Cart Button Continue Shopping' is clicked on
+
+2023-08-28 17:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart Button Continue Shopping' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Keranjang/TC-Cart-Nav-002" time="7.468" classname="Test Cases/Keranjang/TC-Cart-Nav-002" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:03:57 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Nav-002: Test Cases/Keranjang/TC-Cart-Nav-002
+
+2023-08-28 17:03:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-28 17:03:57 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-28 17:03:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:03:57 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-001: Test Cases/Products/TC-Product-AddCart-001
+
+2023-08-28 17:03:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:03:57 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:03:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:03:57 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:03:57 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:03:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:03:58 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:04:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:04:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:04:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:04:02 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:04:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:04:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:04:02 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:04:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:04:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:04:03 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 1")): Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:04:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:04:03 - [TEST_STEP][PASSED] - click(findTestObject("Product Icon Cart")): Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:04:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:04:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-28 17:04:04 - [TEST_STEP][PASSED] - click(findTestObject("Cart Text Product 1")): Object: 'Object Repository/Cart Text Product 1' is clicked on
+
+2023-08-28 17:04:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart Text Product 1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Keranjang/TC-Cart-Remove-001" time="38.349" classname="Test Cases/Keranjang/TC-Cart-Remove-001" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Keranjang/TC-Cart-Remove-001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cart Button Remove Product 1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC-Cart-Remove-001.run(TC-Cart-Remove-001:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693216909287.run(TempTestSuite1693216909287.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cart Button Remove Product 1' located by '//button[@id='remove-sauce-labs-bike-light']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-28 17:04:04 - [TEST_CASE][FAILED] - Test Cases/Keranjang/TC-Cart-Remove-001: Test Cases/Keranjang/TC-Cart-Remove-001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cart Button Remove Product 1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC-Cart-Remove-001.run(TC-Cart-Remove-001:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693216909287.run(TempTestSuite1693216909287.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cart Button Remove Product 1' located by '//button[@id='remove-sauce-labs-bike-light']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-28 17:04:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-28 17:04:05 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-28 17:04:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:04:05 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-001: Test Cases/Products/TC-Product-AddCart-001
+
+2023-08-28 17:04:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:04:05 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:04:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:04:05 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:04:05 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:04:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:04:05 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:04:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:04:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:04:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:04:09 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:04:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:04:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:04:10 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:04:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:04:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:04:10 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 1")): Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:04:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:04:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:04:11 - [TEST_STEP][PASSED] - click(findTestObject("Product Icon Cart")): Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:04:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:04:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-28 17:04:11 - [TEST_STEP][FAILED] - click(findTestObject("Cart Button Remove Product 1")): Unable to click on object 'Object Repository/Cart Button Remove Product 1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cart Button Remove Product 1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC-Cart-Remove-001.run(TC-Cart-Remove-001:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693216909287.run(TempTestSuite1693216909287.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cart Button Remove Product 1' located by '//button[@id='remove-sauce-labs-bike-light']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1693215647499.run(Script1693215647499.groovy:22)
+	... 13 more
+)
+
+2023-08-28 17:04:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='remove-sauce-labs-bike-light']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-28 17:04:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Cart Button Remove Product 1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cart Button Remove Product 1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC-Cart-Remove-001.run(TC-Cart-Remove-001:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693216909287.run(TempTestSuite1693216909287.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cart Button Remove Product 1' located by '//button[@id='remove-sauce-labs-bike-light']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1693215647499.run(Script1693215647499.groovy:22)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\youha\\OneDrive\\Desktop\\Batch 324\\Workspace\\batch-324-qa\\Trainer\\Sauce Demo\\Reports\\20230828_170149\\Test Suite All TC\\20230828_170149\\1693217082999.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-28 17:04:04 - [TEST_CASE][FAILED] - Test Cases/Keranjang/TC-Cart-Remove-001: Test Cases/Keranjang/TC-Cart-Remove-001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cart Button Remove Product 1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC-Cart-Remove-001.run(TC-Cart-Remove-001:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693216909287.run(TempTestSuite1693216909287.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cart Button Remove Product 1' located by '//button[@id='remove-sauce-labs-bike-light']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Keranjang/TC-Cart-Show-001" time="6.207" classname="Test Cases/Keranjang/TC-Cart-Show-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:04:43 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-001: Test Cases/Keranjang/TC-Cart-Show-001
+
+2023-08-28 17:04:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:04:43 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:04:43 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:04:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:04:44 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:04:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:04:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:04:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:04:47 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:04:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:04:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:04:48 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:04:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:04:48 - [TEST_STEP][PASSED] - click(findTestObject("Product Icon Cart")): Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Icon Cart' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Keranjang/TC-Cart-Show-002" time="6.685" classname="Test Cases/Keranjang/TC-Cart-Show-002" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:04:49 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-28 17:04:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:04:49 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-001: Test Cases/Products/TC-Product-AddCart-001
+
+2023-08-28 17:04:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:04:49 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:04:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:04:49 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:04:49 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:04:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:04:50 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:04:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:04:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:04:53 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:04:54 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:04:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:04:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:04:54 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:04:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:04:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:04:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:04:54 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 1")): Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:04:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:04:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:04:55 - [TEST_STEP][PASSED] - click(findTestObject("Product Icon Cart")): Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:04:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Icon Cart' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Keranjang/TC-Cart-Show-003" time="7.468" classname="Test Cases/Keranjang/TC-Cart-Show-003" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:04:55 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-003: Test Cases/Keranjang/TC-Cart-Show-003
+
+2023-08-28 17:04:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-002' successfully
+
+2023-08-28 17:04:56 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-002: Test Cases/Products/TC-Product-AddCart-002
+
+2023-08-28 17:04:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:04:56 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-001: Test Cases/Products/TC-Product-AddCart-001
+
+2023-08-28 17:04:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:04:56 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:04:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:04:56 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:04:56 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:04:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:04:57 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:04:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:05:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:05:00 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:05:01 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:05:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:05:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:05:01 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:05:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:05:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:05:01 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 1")): Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:05:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:05:02 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 2")): Object: 'Object Repository/Product Button ATC Product 2' is clicked on
+
+2023-08-28 17:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 2' is clicked on
+
+2023-08-28 17:05:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-002' successfully
+
+2023-08-28 17:05:02 - [TEST_STEP][PASSED] - click(findTestObject("Product Icon Cart")): Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Icon Cart' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC-Checkout-Error-001" time="10.221" classname="Test Cases/Checkout/TC-Checkout-Error-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:05:03 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC-Checkout-Error-001: Test Cases/Checkout/TC-Checkout-Error-001
+
+2023-08-28 17:05:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-003"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-003' successfully
+
+2023-08-28 17:05:03 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-003: Test Cases/Keranjang/TC-Cart-Show-003
+
+2023-08-28 17:05:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-002' successfully
+
+2023-08-28 17:05:03 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-002: Test Cases/Products/TC-Product-AddCart-002
+
+2023-08-28 17:05:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:05:03 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-001: Test Cases/Products/TC-Product-AddCart-001
+
+2023-08-28 17:05:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:05:03 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:05:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:05:03 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:05:03 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:05:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:05:04 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:05:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:05:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:05:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:05:08 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:05:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:05:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:05:08 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:05:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:05:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:05:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:05:09 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 1")): Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:05:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:05:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:05:09 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 2")): Object: 'Object Repository/Product Button ATC Product 2' is clicked on
+
+2023-08-28 17:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 2' is clicked on
+
+2023-08-28 17:05:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-002' successfully
+
+2023-08-28 17:05:10 - [TEST_STEP][PASSED] - click(findTestObject("Product Icon Cart")): Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:05:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-003' successfully
+
+2023-08-28 17:05:10 - [TEST_STEP][PASSED] - click(findTestObject("Cart Button Checkout")): Object: 'Object Repository/Cart Button Checkout' is clicked on
+
+2023-08-28 17:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart Button Checkout' is clicked on
+
+2023-08-28 17:05:11 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout Input Last Name"), last_name): Text 'Nanda' is set on object 'Object Repository/Checkout Input Last Name'
+
+2023-08-28 17:05:12 - [MESSAGE][PASSED] - Text 'Nanda' is set on object 'Object Repository/Checkout Input Last Name'
+
+2023-08-28 17:05:12 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout Input Postal Code"), postal_code): Text '55293' is set on object 'Object Repository/Checkout Input Postal Code'
+
+2023-08-28 17:05:13 - [MESSAGE][PASSED] - Text '55293' is set on object 'Object Repository/Checkout Input Postal Code'
+
+2023-08-28 17:05:13 - [TEST_STEP][PASSED] - click(findTestObject("Checkout Button Continue")): Object: 'Object Repository/Checkout Button Continue' is clicked on
+
+2023-08-28 17:05:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout Button Continue' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC-Checkout-Error-002" time="9.806" classname="Test Cases/Checkout/TC-Checkout-Error-002" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:05:13 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC-Checkout-Error-002: Test Cases/Checkout/TC-Checkout-Error-002
+
+2023-08-28 17:05:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-28 17:05:13 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-28 17:05:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:05:14 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-001: Test Cases/Products/TC-Product-AddCart-001
+
+2023-08-28 17:05:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:05:14 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:05:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:05:14 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:05:14 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:05:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:05:14 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:05:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:05:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:05:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:05:18 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:05:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:05:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:05:19 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:05:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:05:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:05:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:05:19 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 1")): Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:05:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:05:20 - [TEST_STEP][PASSED] - click(findTestObject("Product Icon Cart")): Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:05:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-28 17:05:20 - [TEST_STEP][PASSED] - click(findTestObject("Cart Button Checkout")): Object: 'Object Repository/Cart Button Checkout' is clicked on
+
+2023-08-28 17:05:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart Button Checkout' is clicked on
+
+2023-08-28 17:05:21 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout Input First Name"), first_name): Text 'Yuhan' is set on object 'Object Repository/Checkout Input First Name'
+
+2023-08-28 17:05:22 - [MESSAGE][PASSED] - Text 'Yuhan' is set on object 'Object Repository/Checkout Input First Name'
+
+2023-08-28 17:05:22 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout Input Postal Code"), postal_code): Text '55293' is set on object 'Object Repository/Checkout Input Postal Code'
+
+2023-08-28 17:05:22 - [MESSAGE][PASSED] - Text '55293' is set on object 'Object Repository/Checkout Input Postal Code'
+
+2023-08-28 17:05:22 - [TEST_STEP][PASSED] - click(findTestObject("Checkout Button Continue")): Object: 'Object Repository/Checkout Button Continue' is clicked on
+
+2023-08-28 17:05:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout Button Continue' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC-Checkout-Error-003" time="9.608" classname="Test Cases/Checkout/TC-Checkout-Error-003" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:05:23 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC-Checkout-Error-003: Test Cases/Checkout/TC-Checkout-Error-003
+
+2023-08-28 17:05:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-28 17:05:23 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-28 17:05:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:05:23 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-001: Test Cases/Products/TC-Product-AddCart-001
+
+2023-08-28 17:05:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:05:23 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:05:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:05:23 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:05:23 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:05:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:05:24 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:05:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:05:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:05:27 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:05:28 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:05:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:05:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:05:28 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:05:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:05:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:05:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:05:29 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 1")): Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:05:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:05:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:05:29 - [TEST_STEP][PASSED] - click(findTestObject("Product Icon Cart")): Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:05:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-28 17:05:30 - [TEST_STEP][PASSED] - click(findTestObject("Cart Button Checkout")): Object: 'Object Repository/Cart Button Checkout' is clicked on
+
+2023-08-28 17:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart Button Checkout' is clicked on
+
+2023-08-28 17:05:30 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout Input First Name"), first_name): Text 'Yuhan' is set on object 'Object Repository/Checkout Input First Name'
+
+2023-08-28 17:05:31 - [MESSAGE][PASSED] - Text 'Yuhan' is set on object 'Object Repository/Checkout Input First Name'
+
+2023-08-28 17:05:31 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout Input Last Name"), last_name): Text 'Nanda' is set on object 'Object Repository/Checkout Input Last Name'
+
+2023-08-28 17:05:32 - [MESSAGE][PASSED] - Text 'Nanda' is set on object 'Object Repository/Checkout Input Last Name'
+
+2023-08-28 17:05:32 - [TEST_STEP][PASSED] - click(findTestObject("Checkout Button Continue")): Object: 'Object Repository/Checkout Button Continue' is clicked on
+
+2023-08-28 17:05:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout Button Continue' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC-Checkout-Nav-001" time="11.211" classname="Test Cases/Checkout/TC-Checkout-Nav-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:05:33 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC-Checkout-Nav-001: Test Cases/Checkout/TC-Checkout-Nav-001
+
+2023-08-28 17:05:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-28 17:05:33 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-28 17:05:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:05:33 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-001: Test Cases/Products/TC-Product-AddCart-001
+
+2023-08-28 17:05:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:05:33 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:05:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:05:33 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:05:33 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:05:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:05:34 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:05:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:05:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:05:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:05:38 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:05:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:05:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:05:38 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:05:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:05:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:05:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:05:39 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 1")): Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:05:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:05:39 - [TEST_STEP][PASSED] - click(findTestObject("Product Icon Cart")): Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:05:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-28 17:05:40 - [TEST_STEP][PASSED] - click(findTestObject("Cart Button Checkout")): Object: 'Object Repository/Cart Button Checkout' is clicked on
+
+2023-08-28 17:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart Button Checkout' is clicked on
+
+2023-08-28 17:05:40 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout Input First Name"), first_name): Text 'Yuhan' is set on object 'Object Repository/Checkout Input First Name'
+
+2023-08-28 17:05:41 - [MESSAGE][PASSED] - Text 'Yuhan' is set on object 'Object Repository/Checkout Input First Name'
+
+2023-08-28 17:05:41 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout Input Last Name"), last_name): Text 'Nanda' is set on object 'Object Repository/Checkout Input Last Name'
+
+2023-08-28 17:05:42 - [MESSAGE][PASSED] - Text 'Nanda' is set on object 'Object Repository/Checkout Input Last Name'
+
+2023-08-28 17:05:42 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout Input Postal Code"), postal_code): Text '55293' is set on object 'Object Repository/Checkout Input Postal Code'
+
+2023-08-28 17:05:43 - [MESSAGE][PASSED] - Text '55293' is set on object 'Object Repository/Checkout Input Postal Code'
+
+2023-08-28 17:05:43 - [TEST_STEP][PASSED] - click(findTestObject("Checkout Button Continue")): Object: 'Object Repository/Checkout Button Continue' is clicked on
+
+2023-08-28 17:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout Button Continue' is clicked on
+
+2023-08-28 17:05:43 - [TEST_STEP][PASSED] - click(findTestObject("Checkout Button Cancel")): Object: 'Object Repository/Checkout Button Cancel' is clicked on
+
+2023-08-28 17:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout Button Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC-Checkout-Success-001" time="11.102" classname="Test Cases/Checkout/TC-Checkout-Success-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:05:44 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC-Checkout-Success-001: Test Cases/Checkout/TC-Checkout-Success-001
+
+2023-08-28 17:05:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-28 17:05:44 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-28 17:05:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:05:44 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-001: Test Cases/Products/TC-Product-AddCart-001
+
+2023-08-28 17:05:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:05:44 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:05:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:05:44 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:05:44 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:05:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:05:45 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:05:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:05:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:05:48 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:05:49 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:05:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:05:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:05:49 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:05:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:05:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 1")): Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:05:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Product Icon Cart")): Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:05:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-28 17:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Cart Button Checkout")): Object: 'Object Repository/Cart Button Checkout' is clicked on
+
+2023-08-28 17:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart Button Checkout' is clicked on
+
+2023-08-28 17:05:51 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout Input First Name"), first_name): Text 'Yuhan' is set on object 'Object Repository/Checkout Input First Name'
+
+2023-08-28 17:05:52 - [MESSAGE][PASSED] - Text 'Yuhan' is set on object 'Object Repository/Checkout Input First Name'
+
+2023-08-28 17:05:52 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout Input Last Name"), last_name): Text 'Nanda' is set on object 'Object Repository/Checkout Input Last Name'
+
+2023-08-28 17:05:53 - [MESSAGE][PASSED] - Text 'Nanda' is set on object 'Object Repository/Checkout Input Last Name'
+
+2023-08-28 17:05:53 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout Input Postal Code"), postal_code): Text '55293' is set on object 'Object Repository/Checkout Input Postal Code'
+
+2023-08-28 17:05:54 - [MESSAGE][PASSED] - Text '55293' is set on object 'Object Repository/Checkout Input Postal Code'
+
+2023-08-28 17:05:54 - [TEST_STEP][PASSED] - click(findTestObject("Checkout Button Continue")): Object: 'Object Repository/Checkout Button Continue' is clicked on
+
+2023-08-28 17:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout Button Continue' is clicked on
+
+2023-08-28 17:05:54 - [TEST_STEP][PASSED] - click(findTestObject("Checkout Button Finish")): Object: 'Object Repository/Checkout Button Finish' is clicked on
+
+2023-08-28 17:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout Button Finish' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC-Checkout-Success-002" time="11.825" classname="Test Cases/Checkout/TC-Checkout-Success-002" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:05:55 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC-Checkout-Success-002: Test Cases/Checkout/TC-Checkout-Success-002
+
+2023-08-28 17:05:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-003"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-003' successfully
+
+2023-08-28 17:05:55 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-003: Test Cases/Keranjang/TC-Cart-Show-003
+
+2023-08-28 17:05:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-002' successfully
+
+2023-08-28 17:05:55 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-002: Test Cases/Products/TC-Product-AddCart-002
+
+2023-08-28 17:05:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:05:55 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-AddCart-001: Test Cases/Products/TC-Product-AddCart-001
+
+2023-08-28 17:05:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Products/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:05:55 - [TEST_CASE][PASSED] - Test Cases/Products/TC-Product-Show-001: Test Cases/Products/TC-Product-Show-001
+
+2023-08-28 17:05:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:05:55 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:05:55 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:05:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:05:56 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:05:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:05:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:05:59 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:06:00 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:06:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:06:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:06:01 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:06:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:06:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-Show-001' successfully
+
+2023-08-28 17:06:01 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 1")): Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 1' is clicked on
+
+2023-08-28 17:06:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-001' successfully
+
+2023-08-28 17:06:01 - [TEST_STEP][PASSED] - click(findTestObject("Product Button ATC Product 2")): Object: 'Object Repository/Product Button ATC Product 2' is clicked on
+
+2023-08-28 17:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Button ATC Product 2' is clicked on
+
+2023-08-28 17:06:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Products/TC-Product-AddCart-002' successfully
+
+2023-08-28 17:06:02 - [TEST_STEP][PASSED] - click(findTestObject("Product Icon Cart")): Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Icon Cart' is clicked on
+
+2023-08-28 17:06:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-003' successfully
+
+2023-08-28 17:06:02 - [TEST_STEP][PASSED] - click(findTestObject("Cart Button Checkout")): Object: 'Object Repository/Cart Button Checkout' is clicked on
+
+2023-08-28 17:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart Button Checkout' is clicked on
+
+2023-08-28 17:06:03 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout Input First Name"), first_name): Text 'Yuhan' is set on object 'Object Repository/Checkout Input First Name'
+
+2023-08-28 17:06:04 - [MESSAGE][PASSED] - Text 'Yuhan' is set on object 'Object Repository/Checkout Input First Name'
+
+2023-08-28 17:06:04 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout Input Last Name"), last_name): Text 'Nanda' is set on object 'Object Repository/Checkout Input Last Name'
+
+2023-08-28 17:06:05 - [MESSAGE][PASSED] - Text 'Nanda' is set on object 'Object Repository/Checkout Input Last Name'
+
+2023-08-28 17:06:05 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout Input Postal Code"), postal_code): Text '55293' is set on object 'Object Repository/Checkout Input Postal Code'
+
+2023-08-28 17:06:06 - [MESSAGE][PASSED] - Text '55293' is set on object 'Object Repository/Checkout Input Postal Code'
+
+2023-08-28 17:06:06 - [TEST_STEP][PASSED] - click(findTestObject("Checkout Button Continue")): Object: 'Object Repository/Checkout Button Continue' is clicked on
+
+2023-08-28 17:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout Button Continue' is clicked on
+
+2023-08-28 17:06:06 - [TEST_STEP][PASSED] - click(findTestObject("Checkout Button Finish")): Object: 'Object Repository/Checkout Button Finish' is clicked on
+
+2023-08-28 17:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout Button Finish' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout/TC-Logout-Success-001" time="6.6" classname="Test Cases/Logout/TC-Logout-Success-001" status="PASSED">
+         <system-out><![CDATA[2023-08-28 17:06:07 - [TEST_CASE][PASSED] - Test Cases/Logout/TC-Logout-Success-001: Test Cases/Logout/TC-Logout-Success-001
+
+2023-08-28 17:06:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:06:07 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-28 17:06:07 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:06:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-28 17:06:08 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-28 17:06:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 17:06:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-28 17:06:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login Input Username"), username): Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:06:12 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Input Username'
+
+2023-08-28 17:06:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Input Password"), password): Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:06:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Input Password'
+
+2023-08-28 17:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Login Button")): Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Button' is clicked on
+
+2023-08-28 17:06:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-28 17:06:13 - [TEST_STEP][PASSED] - click(findTestObject("Logout Icon Hamburgur")): Object: 'Object Repository/Logout Icon Hamburgur' is clicked on
+
+2023-08-28 17:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout Icon Hamburgur' is clicked on
+
+2023-08-28 17:06:13 - [TEST_STEP][PASSED] - click(findTestObject("Logout Menu Logout")): Object: 'Object Repository/Logout Menu Logout' is clicked on
+
+2023-08-28 17:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout Menu Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-28 17:01:55 - [TEST_SUITE][FAILED] - Test Suite All TC: Test Cases/Keranjang/TC-Cart-Remove-001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cart Button Remove Product 1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC-Cart-Remove-001.run(TC-Cart-Remove-001:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693216909287.run(TempTestSuite1693216909287.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cart Button Remove Product 1' located by '//button[@id='remove-sauce-labs-bike-light']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-28 17:01:55 - [TEST_SUITE][FAILED] - Test Suite All TC: Test Cases/Keranjang/TC-Cart-Remove-001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cart Button Remove Product 1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC-Cart-Remove-001.run(TC-Cart-Remove-001:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693216909287.run(TempTestSuite1693216909287.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cart Button Remove Product 1' located by '//button[@id='remove-sauce-labs-bike-light']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

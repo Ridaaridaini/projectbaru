@@ -18,35 +18,22 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys
 import org.openqa.selenium.WebElement
 
-WebUI.openBrowser('https://the-internet.herokuapp.com/tables')
+WebUI.callTestCase(findTestCase('Products/TC-Product-Show-001'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Sorting/TH Last Name 1'))
-WebUI.click(findTestObject('Sorting/TH Last Name 1'))
+WebUI.selectOptionByValue(findTestObject('Product Dropdown Sort'), 'za', false)
 
-//Ambil semua element dari last name
-List<WebElement> dataList = WebUI.findWebElements(findTestObject('Object Repository/Sorting/Data List Last Name 1'),10);
+List<WebElement> dataList = WebUI.findWebElements(findTestObject('Object Repository/Product Name List'),10)
 
-//Deklarasi dua array
-String[] arrLastNameOri = new String[dataList.size()]
-String[] arrLastNameSort = new String[dataList.size()]
+String[] arrOri = new String[dataList.size()]
+String[] arrSort = new String[dataList.size()]
 
-//Isi Array yang Ori & Sort
-for(int i = 0; i< dataList.size(); i++){
+for(int i = 0; i < dataList.size(); i++) {
 	text = dataList.get(i).text
 	
-	//manipulasi disini
-	
-	arrLastNameOri[i] = text
-	arrLastNameSort[i] = text
+	arrOri[i] = text
+	arrSort[i] = text
 }
 
-//Sort Array
-//Arrays.sort(arrLastNameSort)
-Arrays.sort(arrLastNameSort,Collections.reverseOrder())
+Arrays.sort(arrSort,Collections.reverseOrder())
 
-//verifikasi arrayOri == arraySort
-println arrLastNameOri
-println arrLastNameSort
-assert arrLastNameOri == arrLastNameSort
-
-
+assert arrOri == arrSort

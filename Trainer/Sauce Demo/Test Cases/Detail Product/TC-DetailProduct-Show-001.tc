@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin menampilkan Detail Products</description>
+   <name>TC-DetailProduct-Show-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aafae584-7a84-4d0a-bd7c-1964a44ce377</testCaseGuid>
+</TestCaseEntity>

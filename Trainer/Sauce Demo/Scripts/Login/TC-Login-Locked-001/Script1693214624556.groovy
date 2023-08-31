@@ -15,38 +15,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys
-import org.openqa.selenium.WebElement
+import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://the-internet.herokuapp.com/tables')
+WebUI.openBrowser(GlobalVariable.WEB_URL)
 
-WebUI.click(findTestObject('Sorting/TH Last Name 1'))
-WebUI.click(findTestObject('Sorting/TH Last Name 1'))
+WebUI.verifyElementPresent(findTestObject('Login Title Text'), 0)
 
-//Ambil semua element dari last name
-List<WebElement> dataList = WebUI.findWebElements(findTestObject('Object Repository/Sorting/Data List Last Name 1'),10);
+WebUI.setText(findTestObject('Login Input Username'), username)
 
-//Deklarasi dua array
-String[] arrLastNameOri = new String[dataList.size()]
-String[] arrLastNameSort = new String[dataList.size()]
+WebUI.setEncryptedText(findTestObject('Login Input Password'), password)
 
-//Isi Array yang Ori & Sort
-for(int i = 0; i< dataList.size(); i++){
-	text = dataList.get(i).text
-	
-	//manipulasi disini
-	
-	arrLastNameOri[i] = text
-	arrLastNameSort[i] = text
-}
+WebUI.click(findTestObject('Login Button'))
 
-//Sort Array
-//Arrays.sort(arrLastNameSort)
-Arrays.sort(arrLastNameSort,Collections.reverseOrder())
-
-//verifikasi arrayOri == arraySort
-println arrLastNameOri
-println arrLastNameSort
-assert arrLastNameOri == arrLastNameSort
-
+WebUI.verifyElementText(findTestObject('Login Error Message'), 'Epic sadface: Sorry, this user has been locked out.')
 
