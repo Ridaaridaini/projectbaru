@@ -21,3 +21,7 @@ WebUI.callTestCase(findTestCase('Login/TC-Login-Success-001'), [:], FailureHandl
 
 WebUI.click(findTestObject('Keranjang/icon_cart'))
 
+WebUI.verifyElementVisible(findTestObject('Checkout/button_checkout'))
+
+WebUI.verifyElementVisible(findTestObject('Keranjang/button_continue_shopping'))
+

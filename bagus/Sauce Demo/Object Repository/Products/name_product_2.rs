@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>name_product_2</name>
+   <tag></tag>
+   <elementGuidId>5712c425-9c5e-478e-ba03-c925febd602d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;item_0_title_link&quot;]/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

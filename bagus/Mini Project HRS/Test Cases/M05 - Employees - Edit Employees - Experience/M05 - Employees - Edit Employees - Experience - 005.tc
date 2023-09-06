@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>M05 - Employees - Edit Employees - Experience - 005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af0ff880-7c3f-4cf6-8977-5fa9b206494a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>de9db7cc-9235-47a8-9ced-fbc9a25421a3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a17fe8f-73e5-49d8-afd3-c9a866bc089b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e9f32f27-1095-460b-94ca-561d955fdf96</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c4d71b3-0352-4fcb-b4bc-f3346cb6a577</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'PT XSIS MITRA UTAMA'</defaultValue>
+      <description></description>
+      <id>de9db7cc-9235-47a8-9ced-fbc9a25421a3</id>
+      <masked>false</masked>
+      <name>company_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Manager Trainer'</defaultValue>
+      <description></description>
+      <id>3a17fe8f-73e5-49d8-afd3-c9a866bc089b</id>
+      <masked>false</masked>
+      <name>position</name>
+   </variable>
+   <variable>
+      <defaultValue>'prayan raya'</defaultValue>
+      <description></description>
+      <id>e9f32f27-1095-460b-94ca-561d955fdf96</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>'2 years'</defaultValue>
+      <description></description>
+      <id>7c4d71b3-0352-4fcb-b4bc-f3346cb6a577</id>
+      <masked>false</masked>
+      <name>working_duration</name>
+   </variable>
+</TestCaseEntity>

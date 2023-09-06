@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_submit_modal</name>
+   <tag></tag>
+   <elementGuidId>3f5fe918-e811-4aca-b7e3-5c5cc497593d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;experiencemodal&quot;]/div[2]/button[2]
+</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

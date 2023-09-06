@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>modal_input_position</name>
+   <tag></tag>
+   <elementGuidId>c0af5a15-0596-41b5-84e1-945fbcaba2dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;experiencemodal&quot;]/div[1]/div[2]/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

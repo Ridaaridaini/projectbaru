@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_department</name>
+   <tag></tag>
+   <elementGuidId>e13ea4ee-1f38-474e-8694-6979e97ee0ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div[2]/div[3]/div[2]/div/div/div[2]/form/div[4]/select</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

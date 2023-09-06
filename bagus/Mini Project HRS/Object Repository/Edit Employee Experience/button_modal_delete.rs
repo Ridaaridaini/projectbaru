@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_modal_delete</name>
+   <tag></tag>
+   <elementGuidId>527ee7c2-ab61-44a7-9d52-dc12b9e28789</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;example23&quot;]/tbody/tr/td[5]/a[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

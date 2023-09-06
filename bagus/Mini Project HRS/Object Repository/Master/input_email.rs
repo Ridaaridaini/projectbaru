@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_email</name>
+   <tag></tag>
+   <elementGuidId>5f4d2479-4de1-4819-aefe-97245bfbecdd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;loginform&quot;]/div[1]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

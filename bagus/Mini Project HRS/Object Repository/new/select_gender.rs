@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_gender</name>
+   <tag></tag>
+   <elementGuidId>8426b0e9-3f02-420c-87f6-7dacb95e2004</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;gender&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='gender']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>10a43bcf-6c48-4f04-8fdb-f00488c645ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>gender</value>
+      <webElementGuid>a0fe501b-fbaf-4c2b-a768-de7b6a7499d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control custom-select</value>
+      <webElementGuid>0f1fd2fb-d141-4a29-a46c-b74340545da3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                            Select Gender
+                                            Male
+                                            Female
+                                        </value>
+      <webElementGuid>83e925a2-a7a5-4f76-a8c9-79f20f305b08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-wrapper&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card card-outline-info&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;row&quot;]/div[@class=&quot;form-group col-md-3 m-t-20&quot;]/select[@class=&quot;form-control custom-select&quot;]</value>
+      <webElementGuid>5c9359b0-3e4c-419b-8684-7bb6644be147</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='gender']</value>
+      <webElementGuid>e16eb02c-dfcc-47ea-8afe-8e6a46dece8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-wrapper']/div/div[3]/div[2]/div/div/div[2]/form/div[7]/select</value>
+      <webElementGuid>e496e5e7-2b23-4922-bfca-1cd98b0f04b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender'])[1]/following::select[1]</value>
+      <webElementGuid>fc0df4e1-c240-4d53-84f5-1f0be097ed5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Role'])[1]/following::select[2]</value>
+      <webElementGuid>1ce845a5-4ac5-4027-8725-63033f8a2d13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blood Group'])[1]/preceding::select[1]</value>
+      <webElementGuid>76ef2641-6410-4eef-8fb8-3773b2cec71b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NID'])[1]/preceding::select[2]</value>
+      <webElementGuid>de05a161-89d4-4d9d-b663-5aea0808fdf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/select</value>
+      <webElementGuid>5330a510-df72-4115-bbd5-c037d5bd996c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'gender' and (text() = '
+                                            Select Gender
+                                            Male
+                                            Female
+                                        ' or . = '
+                                            Select Gender
+                                            Male
+                                            Female
+                                        ')]</value>
+      <webElementGuid>d2704f32-39ad-4d2a-8d4e-5b4832e3b8a7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

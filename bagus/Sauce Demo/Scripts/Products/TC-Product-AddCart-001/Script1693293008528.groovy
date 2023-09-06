@@ -23,3 +23,21 @@ WebUI.click(findTestObject('Products/add_to_chart_produk_1'))
 
 WebUI.verifyElementVisible(findTestObject('Keranjang/alert_icon'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementNotPresent(findTestObject('Products/add_to_chart_produk_1'), 0)
+
+name_product = WebUI.getText(findTestObject('Detail Product/title_product'))
+
+description_product = WebUI.getText(findTestObject('Products/description_product'))
+
+product_price = WebUI.getText(findTestObject('Products/products_price'))
+
+HashMap<String, Object> data = new HashMap<String, Object>()
+
+data.put('name_product', name_product)
+
+data.put('description_product', description_product)
+
+data.put('product_price', product_price)
+
+return data
+

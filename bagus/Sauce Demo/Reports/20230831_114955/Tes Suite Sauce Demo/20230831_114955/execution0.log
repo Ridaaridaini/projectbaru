@@ -1,0 +1,2250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-08-31T11:49:58</date>
+  <millis>1693457398560</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Tes Suite Sauce Demo</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">Tes Suite Sauce Demo</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Tes Suite Sauce Demo</property>
+</record>
+<record>
+  <date>2023-08-31T11:49:58</date>
+  <millis>1693457398576</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = ASUS - DESKTOP-MRD68AC</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">ASUS - DESKTOP-MRD68AC</property>
+</record>
+<record>
+  <date>2023-08-31T11:49:58</date>
+  <millis>1693457398577</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2023-08-31T11:49:58</date>
+  <millis>1693457398578</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 169.254.61.130</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">169.254.61.130</property>
+</record>
+<record>
+  <date>2023-08-31T11:49:58</date>
+  <millis>1693457398578</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.6.5.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.6.5.208</property>
+</record>
+<record>
+  <date>2023-08-31T11:49:58</date>
+  <millis>1693457398974</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Logout/logout</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Logout/logout</property>
+  <property name="description">User melakukan logout dari hamburger</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Logout/logout</property>
+  <property name="source">D:\xsis\batch-324-qa\bagus\Sauce Demo\Test Cases\Logout\logout.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2023-08-31T11:49:59</date>
+  <millis>1693457399388</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(&amp;quot;Login/TC-Login-Success-001&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-08-31T11:49:59</date>
+  <millis>1693457399567</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Login/TC-Login-Success-001</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Login/TC-Login-Success-001</property>
+  <property name="description">User memasukkan username dan password yang valid</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Login/TC-Login-Success-001</property>
+  <property name="source">D:\xsis\batch-324-qa\bagus\Sauce Demo\Test Cases\Login\TC-Login-Success-001.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2023-08-31T11:49:59</date>
+  <millis>1693457399734</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) username = standard_user</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:49:59</date>
+  <millis>1693457399767</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) password = qcu24s4901FyWDTwXGr6XA==</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:00</date>
+  <millis>1693457400164</millis>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(url)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:00</date>
+  <millis>1693457400471</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Edge Chromium&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:02</date>
+  <millis>1693457402834</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:04</date>
+  <millis>1693457404475</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = ff79c478b29e88c15a78fbbcf5066d26</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">ff79c478b29e88c15a78fbbcf5066d26</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:04</date>
+  <millis>1693457404517</millis>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Edge Chromium 116</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Edge Chromium 116</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:04</date>
+  <millis>1693457404518</millis>
+  <sequence>22</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:04</date>
+  <millis>1693457404518</millis>
+  <sequence>23</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:04</date>
+  <millis>1693457404520</millis>
+  <sequence>24</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:04</date>
+  <millis>1693457404928</millis>
+  <sequence>29</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;https://www.saucedemo.com/&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;https://www.saucedemo.com/&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Success-001.run(TC-Login-Success-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at logout.run(logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-MRD68AC&amp;apos;, ip: &amp;apos;169.254.61.130&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49202}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79c478b29e88c15a78fbbcf5066d26
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1693213413694.run(Script1693213413694.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at Script1693294467300.run(Script1693294467300.groovy:20)
+	... 13 more
+)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.WebDriverException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49202}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79c478b29e88c15a78fbbcf5066d26
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Success-001.run(TC-Login-Success-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at logout.run(logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+</property>
+  <property name="failed.exception.message">unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49202}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79c478b29e88c15a78fbbcf5066d26</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:04</date>
+  <millis>1693457404941</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(url)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:04</date>
+  <millis>1693457404945</millis>
+  <sequence>35</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Login/TC-Login-Success-001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;https://www.saucedemo.com/&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Success-001.run(TC-Login-Success-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at logout.run(logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-MRD68AC&amp;apos;, ip: &amp;apos;169.254.61.130&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49202}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79c478b29e88c15a78fbbcf5066d26
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://www.saucedemo.com/'</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TC-Login-Success-001</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>runTestCase</method>
+      <line>144</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>doCall</method>
+      <line>59</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>75</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>callTestCase</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>execute</method>
+      <line>44</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.BuiltinKeywords</class>
+      <method>callTestCase</method>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>logout</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1693457395493</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49202}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79c478b29e88c15a78fbbcf5066d26
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Success-001.run(TC-Login-Success-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at logout.run(logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.WebDriverException</property>
+  <property name="failed.exception.message">unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49202}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79c478b29e88c15a78fbbcf5066d26</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:04</date>
+  <millis>1693457404961</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Login/TC-Login-Success-001</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:04</date>
+  <millis>1693457404983</millis>
+  <sequence>42</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to call Test Case &amp;apos;Test Cases/Login/TC-Login-Success-001&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case &amp;apos;Test Cases/Login/TC-Login-Success-001&amp;apos; failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at logout.run(logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;https://www.saucedemo.com/&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Success-001.run(TC-Login-Success-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-MRD68AC&amp;apos;, ip: &amp;apos;169.254.61.130&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49202}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79c478b29e88c15a78fbbcf5066d26
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.WebDriverException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49202}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79c478b29e88c15a78fbbcf5066d26
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Success-001.run(TC-Login-Success-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at logout.run(logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+</property>
+  <property name="failed.exception.message">unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49202}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79c478b29e88c15a78fbbcf5066d26</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:04</date>
+  <millis>1693457404992</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(&amp;quot;Login/TC-Login-Success-001&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:04</date>
+  <millis>1693457404995</millis>
+  <sequence>50</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Logout/logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case &amp;apos;Test Cases/Login/TC-Login-Success-001&amp;apos; failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at logout.run(logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;https://www.saucedemo.com/&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Success-001.run(TC-Login-Success-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-MRD68AC&amp;apos;, ip: &amp;apos;169.254.61.130&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49202}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79c478b29e88c15a78fbbcf5066d26
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login/TC-Login-Success-001' failed</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>doCall</method>
+      <line>63</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>75</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>callTestCase</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>execute</method>
+      <line>44</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.BuiltinKeywords</class>
+      <method>callTestCase</method>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>logout</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1693457395493</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49202}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79c478b29e88c15a78fbbcf5066d26
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Success-001.run(TC-Login-Success-001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at logout.run(logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.WebDriverException</property>
+  <property name="failed.exception.message">unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49202}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79c478b29e88c15a78fbbcf5066d26</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:05</date>
+  <millis>1693457405005</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Logout/logout</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: true,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:05</date>
+  <millis>1693457405026</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Login/TC-Login-Failed-002</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Login/TC-Login-Failed-002</property>
+  <property name="description">User login hanya menggunakan Username</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Login/TC-Login-Failed-002</property>
+  <property name="source">D:\xsis\batch-324-qa\bagus\Sauce Demo\Test Cases\Login\TC-Login-Failed-002.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:05</date>
+  <millis>1693457405068</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) username = standard_user</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:05</date>
+  <millis>1693457405424</millis>
+  <sequence>56</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(url)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:05</date>
+  <millis>1693457405433</millis>
+  <sequence>58</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:06</date>
+  <millis>1693457406197</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Edge Chromium&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:08</date>
+  <millis>1693457408438</millis>
+  <sequence>61</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:09</date>
+  <millis>1693457409266</millis>
+  <sequence>63</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 3196379976b376c46b0039d7d6c6f5c1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">3196379976b376c46b0039d7d6c6f5c1</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:09</date>
+  <millis>1693457409307</millis>
+  <sequence>64</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Edge Chromium 116</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Edge Chromium 116</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:09</date>
+  <millis>1693457409308</millis>
+  <sequence>65</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:09</date>
+  <millis>1693457409308</millis>
+  <sequence>66</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:09</date>
+  <millis>1693457409311</millis>
+  <sequence>67</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:09</date>
+  <millis>1693457409760</millis>
+  <sequence>72</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;https://www.saucedemo.com/&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;https://www.saucedemo.com/&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Failed-002.run(TC-Login-Failed-002:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-MRD68AC&amp;apos;, ip: &amp;apos;169.254.61.130&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49223}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3196379976b376c46b0039d7d6c6f5c1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1693214050145.run(Script1693214050145.groovy:20)
+	... 13 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.WebDriverException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49223}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3196379976b376c46b0039d7d6c6f5c1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Failed-002.run(TC-Login-Failed-002:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+</property>
+  <property name="failed.exception.message">unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49223}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3196379976b376c46b0039d7d6c6f5c1</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:09</date>
+  <millis>1693457409763</millis>
+  <sequence>75</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(url)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:09</date>
+  <millis>1693457409767</millis>
+  <sequence>78</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Login/TC-Login-Failed-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;https://www.saucedemo.com/&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Failed-002.run(TC-Login-Failed-002:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-MRD68AC&amp;apos;, ip: &amp;apos;169.254.61.130&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49223}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3196379976b376c46b0039d7d6c6f5c1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://www.saucedemo.com/'</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TC-Login-Failed-002</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1693457395493</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49223}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3196379976b376c46b0039d7d6c6f5c1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Failed-002.run(TC-Login-Failed-002:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.WebDriverException</property>
+  <property name="failed.exception.message">unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49223}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3196379976b376c46b0039d7d6c6f5c1</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:09</date>
+  <millis>1693457409770</millis>
+  <sequence>80</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Login/TC-Login-Failed-002</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[
+  {
+    &quot;displayReportName&quot;: &quot;(Default) usern...&quot;,
+    &quot;value&quot;: &quot;standard_user&quot;,
+    &quot;name&quot;: &quot;(Default) username&quot;,
+    &quot;masked&quot;: false
+  }
+]</property>
+  <property name="applitools">false</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:09</date>
+  <millis>1693457409789</millis>
+  <sequence>81</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Login/TC-Login-Failed-003</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Login/TC-Login-Failed-003</property>
+  <property name="description">User hanya login menggunakan password yang valid saja tidak menyertakan username</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Login/TC-Login-Failed-003</property>
+  <property name="source">D:\xsis\batch-324-qa\bagus\Sauce Demo\Test Cases\Login\TC-Login-Failed-003.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:09</date>
+  <millis>1693457409818</millis>
+  <sequence>83</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) password = qcu24s4901FyWDTwXGr6XA==</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:10</date>
+  <millis>1693457410205</millis>
+  <sequence>84</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(url)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:10</date>
+  <millis>1693457410213</millis>
+  <sequence>86</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:10</date>
+  <millis>1693457410947</millis>
+  <sequence>87</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Edge Chromium&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:13</date>
+  <millis>1693457413171</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:13</date>
+  <millis>1693457413982</millis>
+  <sequence>91</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 2ee22dfa761252f64033f1950322c3b5</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">2ee22dfa761252f64033f1950322c3b5</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:14</date>
+  <millis>1693457414007</millis>
+  <sequence>92</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Edge Chromium 116</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Edge Chromium 116</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:14</date>
+  <millis>1693457414008</millis>
+  <sequence>93</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:14</date>
+  <millis>1693457414008</millis>
+  <sequence>94</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:14</date>
+  <millis>1693457414009</millis>
+  <sequence>95</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:14</date>
+  <millis>1693457414442</millis>
+  <sequence>100</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;https://www.saucedemo.com/&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;https://www.saucedemo.com/&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Failed-003.run(TC-Login-Failed-003:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-MRD68AC&amp;apos;, ip: &amp;apos;169.254.61.130&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49243}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee22dfa761252f64033f1950322c3b5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1693214090510.run(Script1693214090510.groovy:20)
+	... 13 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.WebDriverException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49243}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee22dfa761252f64033f1950322c3b5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Failed-003.run(TC-Login-Failed-003:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+</property>
+  <property name="failed.exception.message">unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49243}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee22dfa761252f64033f1950322c3b5</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:14</date>
+  <millis>1693457414444</millis>
+  <sequence>103</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(url)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-08-31T11:50:14</date>
+  <millis>1693457414449</millis>
+  <sequence>106</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Login/TC-Login-Failed-003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;https://www.saucedemo.com/&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Failed-003.run(TC-Login-Failed-003:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-MRD68AC&amp;apos;, ip: &amp;apos;169.254.61.130&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49243}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee22dfa761252f64033f1950322c3b5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://www.saucedemo.com/'</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TC-Login-Failed-003</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1693457395493</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49243}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee22dfa761252f64033f1950322c3b5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TC-Login-Failed-003.run(TC-Login-Failed-003:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693457395493.run(TempTestSuite1693457395493.groovy:36)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.WebDriverException</property>
+  <property name="failed.exception.message">unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=116.0.1938.62)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-MRD68AC&apos;, ip: &apos;169.254.61.130&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49243}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee22dfa761252f64033f1950322c3b5</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:14</date>
+  <millis>1693457414452</millis>
+  <sequence>108</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Login/TC-Login-Failed-003</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[
+  {
+    &quot;displayReportName&quot;: &quot;(Default) passw...&quot;,
+    &quot;value&quot;: &quot;qcu24s4901FyWDTwXGr6XA\u003d\u003d&quot;,
+    &quot;name&quot;: &quot;(Default) password&quot;,
+    &quot;masked&quot;: false
+  }
+]</property>
+  <property name="applitools">false</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:14</date>
+  <millis>1693457414469</millis>
+  <sequence>109</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Login/TC-Login-Failed-004</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Login/TC-Login-Failed-004</property>
+  <property name="description">User ketika user login tidak menggunakan password dan username</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Login/TC-Login-Failed-004</property>
+  <property name="source">D:\xsis\batch-324-qa\bagus\Sauce Demo\Test Cases\Login\TC-Login-Failed-004.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:14</date>
+  <millis>1693457414834</millis>
+  <sequence>111</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(url)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-08-31T11:50:14</date>
+  <millis>1693457414840</millis>
+  <sequence>113</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>

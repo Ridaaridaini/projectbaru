@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>User ingin melihat product yang telah ditambahkan ke dalam keranjang</description>
    <name>TC-Cart-Nav-002</name>
    <tag></tag>
    <comment></comment>

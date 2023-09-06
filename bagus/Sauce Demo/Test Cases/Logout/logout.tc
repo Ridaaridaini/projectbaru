@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>User melakukan logout dari hamburger</description>
    <name>logout</name>
    <tag></tag>
    <comment></comment>

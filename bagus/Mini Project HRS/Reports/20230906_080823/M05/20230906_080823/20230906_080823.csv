@@ -1,0 +1,154 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+M05,Edge Chromium 116,,,2023-09-06 08:08:34,2023-09-06 08:16:00,7m - 26.030s,FAILED
+,,,,,,,
+Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001,Edge Chromium 116,,,2023-09-06 08:08:35,2023-09-06 08:08:49,14.507s,PASSED
+openBrowser(url),Edge Chromium 116,,,2023-09-06 08:08:36,2023-09-06 08:08:41,5.202s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-06 08:08:41,2023-09-06 08:08:41,0.552s,PASSED
+"setText(findTestObject(""Master/input_email""), email)",Edge Chromium 116,,,2023-09-06 08:08:41,2023-09-06 08:08:43,1.487s,PASSED
+"setEncryptedText(findTestObject(""Master/input_password""), pass)",Edge Chromium 116,,,2023-09-06 08:08:43,2023-09-06 08:08:44,0.965s,PASSED
+"click(findTestObject(""Master/button_login""))",Edge Chromium 116,,,2023-09-06 08:08:44,2023-09-06 08:08:49,4.816s,PASSED
+"verifyElementPresent(findTestObject(""Master/dashboard""), 0)",Edge Chromium 116,,,2023-09-06 08:08:49,2023-09-06 08:08:49,0.659s,PASSED
+,,,,,,,
+Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002,Edge Chromium 116,,,2023-09-06 08:08:49,2023-09-06 08:09:03,13.563s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001""), [""email"":""superadmin@mail.com"", ""pass"":""p4y+y39Ir5Pc2g9xt3QkeQ==""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:08:50,2023-09-06 08:09:00,9.441s,PASSED
+"click(findTestObject(""Edit Employee Experience/employee_sidebar""))",Edge Chromium 116,,,2023-09-06 08:09:00,2023-09-06 08:09:01,1.132s,PASSED
+"click(findTestObject(""Edit Employee Experience/dropdown_employee""))",Edge Chromium 116,,,2023-09-06 08:09:01,2023-09-06 08:09:02,1.511s,PASSED
+"verifyElementPresent(findTestObject(""Edit Employee Experience/title_Employee""), 0)",Edge Chromium 116,,,2023-09-06 08:09:02,2023-09-06 08:09:03,0.654s,PASSED
+,,,,,,,
+Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003,Edge Chromium 116,,,2023-09-06 08:09:03,2023-09-06 08:09:20,17.001s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:09:04,2023-09-06 08:09:17,13.552s,PASSED
+"click(findTestObject(""Edit Employee Experience/action_edit""))",Edge Chromium 116,,,2023-09-06 08:09:17,2023-09-06 08:09:19,2.010s,PASSED
+"verifyElementPresent(findTestObject(""Edit Employee Experience/title_name""), 0)",Edge Chromium 116,,,2023-09-06 08:09:19,2023-09-06 08:09:20,0.530s,PASSED
+,,,,,,,
+Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004,Edge Chromium 116,,,2023-09-06 08:09:20,2023-09-06 08:09:43,23.106s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:09:21,2023-09-06 08:09:42,20.819s,PASSED
+"click(findTestObject(""Edit Employee Experience/experience""))",Edge Chromium 116,,,2023-09-06 08:09:42,2023-09-06 08:09:43,0.768s,PASSED
+"verifyElementPresent(findTestObject(""Edit Employee Experience/form_experience""), 0)",Edge Chromium 116,,,2023-09-06 08:09:43,2023-09-06 08:09:43,0.542s,PASSED
+,,,,,,,
+Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 005,Edge Chromium 116,,,2023-09-06 08:09:43,2023-09-06 08:10:27,44.229s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:09:44,2023-09-06 08:10:04,19.471s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_company_name""), company_name)",Edge Chromium 116,,,2023-09-06 08:10:04,2023-09-06 08:10:05,1.427s,PASSED
+"input_company_name = getAttribute(findTestObject(""Edit Employee Experience/input_company_name""), ""value"")",Edge Chromium 116,,,2023-09-06 08:10:05,2023-09-06 08:10:06,0.664s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_position""), position)",Edge Chromium 116,,,2023-09-06 08:10:06,2023-09-06 08:10:07,1.568s,PASSED
+"input_position = getAttribute(findTestObject(""Edit Employee Experience/input_position""), ""value"")",Edge Chromium 116,,,2023-09-06 08:10:07,2023-09-06 08:10:08,0.673s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_address""), address)",Edge Chromium 116,,,2023-09-06 08:10:08,2023-09-06 08:10:10,1.603s,PASSED
+"input_address = getAttribute(findTestObject(""Edit Employee Experience/input_address""), ""value"")",Edge Chromium 116,,,2023-09-06 08:10:10,2023-09-06 08:10:10,0.618s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_working_duration""), working_duration)",Edge Chromium 116,,,2023-09-06 08:10:10,2023-09-06 08:10:12,1.385s,PASSED
+"input_working_duration = getAttribute(findTestObject(""Edit Employee Experience/input_working_duration""), ""value"")",Edge Chromium 116,,,2023-09-06 08:10:12,2023-09-06 08:10:12,0.705s,PASSED
+"click(findTestObject(""Edit Employee Experience/save_button""))",Edge Chromium 116,,,2023-09-06 08:10:12,2023-09-06 08:10:13,0.793s,PASSED
+"verifyElementText(findTestObject(""Edit Employee Experience/message_success""), ""Successfully Updated"")",Edge Chromium 116,,,2023-09-06 08:10:13,2023-09-06 08:10:14,1.056s,PASSED
+delay(10),Edge Chromium 116,,,2023-09-06 08:10:14,2023-09-06 08:10:24,10.035s,PASSED
+"click(findTestObject(""Edit Employee Experience/experience""))",Edge Chromium 116,,,2023-09-06 08:10:24,2023-09-06 08:10:25,0.976s,PASSED
+"table_company_name = getText(findTestObject(""Edit Employee Experience/table_company_name""))",Edge Chromium 116,,,2023-09-06 08:10:25,2023-09-06 08:10:26,0.626s,PASSED
+"table_position = getText(findTestObject(""Edit Employee Experience/table_position""))",Edge Chromium 116,,,2023-09-06 08:10:26,2023-09-06 08:10:27,0.636s,PASSED
+"table_working_duration = getText(findTestObject(""Edit Employee Experience/table_working_duration""))",Edge Chromium 116,,,2023-09-06 08:10:27,2023-09-06 08:10:27,0.680s,PASSED
+"verifyMatch(table_company_name, input_company_name, false)",Edge Chromium 116,,,2023-09-06 08:10:27,2023-09-06 08:10:27,0.053s,PASSED
+"verifyMatch(table_position, input_position, false)",Edge Chromium 116,,,2023-09-06 08:10:27,2023-09-06 08:10:27,0.010s,PASSED
+"verifyMatch(table_working_duration, input_working_duration, false)",Edge Chromium 116,,,2023-09-06 08:10:27,2023-09-06 08:10:27,0.010s,PASSED
+,,,,,,,
+Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006,Edge Chromium 116,,,2023-09-06 08:10:27,2023-09-06 08:10:46,18.414s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:10:28,2023-09-06 08:10:44,16.061s,PASSED
+"click(findTestObject(""Edit Employee Experience/button_modal_edit""))",Edge Chromium 116,,,2023-09-06 08:10:44,2023-09-06 08:10:45,0.889s,PASSED
+"verifyElementPresent(findTestObject(""Edit Employee Experience/title_Experience Modal""), 0)",Edge Chromium 116,,,2023-09-06 08:10:45,2023-09-06 08:10:46,0.619s,PASSED
+,,,,,,,
+Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 007,Edge Chromium 116,,,2023-09-06 08:10:46,2023-09-06 08:11:25,38.954s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:10:47,2023-09-06 08:11:08,21.028s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_compay_name_modal""), ""PT Mencari Cinta Sejati"")",Edge Chromium 116,,,2023-09-06 08:11:08,2023-09-06 08:11:09,1.780s,PASSED
+"modal_company_name = getAttribute(findTestObject(""Edit Employee Experience/input_compay_name_modal""), ""value"")",Edge Chromium 116,,,2023-09-06 08:11:09,2023-09-06 08:11:10,0.577s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_position_modal""), ""Human Resource Department"")",Edge Chromium 116,,,2023-09-06 08:11:10,2023-09-06 08:11:11,1.313s,PASSED
+"modal_position = getAttribute(findTestObject(""Edit Employee Experience/input_position_modal""), ""value"")",Edge Chromium 116,,,2023-09-06 08:11:11,2023-09-06 08:11:12,0.553s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_address_modal""), ""sisingamangaraja"")",Edge Chromium 116,,,2023-09-06 08:11:12,2023-09-06 08:11:13,1.479s,PASSED
+"modal_address = getAttribute(findTestObject(""Edit Employee Experience/input_address_modal""), ""value"")",Edge Chromium 116,,,2023-09-06 08:11:13,2023-09-06 08:11:14,0.506s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_working_duration_modal""), ""1 year"")",Edge Chromium 116,,,2023-09-06 08:11:14,2023-09-06 08:11:15,1.150s,PASSED
+"modal_working_duration = getAttribute(findTestObject(""Edit Employee Experience/input_working_duration_modal""), ""value"")",Edge Chromium 116,,,2023-09-06 08:11:15,2023-09-06 08:11:16,0.598s,PASSED
+"click(findTestObject(""Edit Employee Experience/button_submit_modal""))",Edge Chromium 116,,,2023-09-06 08:11:16,2023-09-06 08:11:16,0.778s,PASSED
+"verifyElementText(findTestObject(""Edit Employee Experience/message_success""), ""Successfully Updated"")",Edge Chromium 116,,,2023-09-06 08:11:16,2023-09-06 08:11:17,0.775s,PASSED
+delay(5),Edge Chromium 116,,,2023-09-06 08:11:17,2023-09-06 08:11:22,5.017s,PASSED
+"click(findTestObject(""Edit Employee Experience/experience""))",Edge Chromium 116,,,2023-09-06 08:11:22,2023-09-06 08:11:23,0.748s,PASSED
+"table_company_name = getText(findTestObject(""Edit Employee Experience/table_company_name""))",Edge Chromium 116,,,2023-09-06 08:11:23,2023-09-06 08:11:24,0.611s,PASSED
+"table_position = getText(findTestObject(""Edit Employee Experience/table_position""))",Edge Chromium 116,,,2023-09-06 08:11:24,2023-09-06 08:11:24,0.618s,PASSED
+"table_working_duration = getText(findTestObject(""Edit Employee Experience/table_working_duration""))",Edge Chromium 116,,,2023-09-06 08:11:24,2023-09-06 08:11:25,0.579s,PASSED
+"verifyMatch(table_company_name, modal_company_name, false)",Edge Chromium 116,,,2023-09-06 08:11:25,2023-09-06 08:11:25,0.007s,PASSED
+"verifyMatch(table_position, modal_position, false)",Edge Chromium 116,,,2023-09-06 08:11:25,2023-09-06 08:11:25,0.006s,PASSED
+"verifyMatch(table_working_duration, modal_working_duration, false)",Edge Chromium 116,,,2023-09-06 08:11:25,2023-09-06 08:11:25,0.006s,PASSED
+,,,,,,,
+Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 008,Edge Chromium 116,,,2023-09-06 08:11:25,2023-09-06 08:11:51,26.486s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:11:26,2023-09-06 08:11:44,17.966s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_company_name""), company_name)",Edge Chromium 116,,,2023-09-06 08:11:44,2023-09-06 08:11:45,1.738s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_position""), position)",Edge Chromium 116,,,2023-09-06 08:11:45,2023-09-06 08:11:47,1.443s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_address""), ""jalan"")",Edge Chromium 116,,,2023-09-06 08:11:47,2023-09-06 08:11:48,1.399s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_working_duration""), working_duration)",Edge Chromium 116,,,2023-09-06 08:11:48,2023-09-06 08:11:50,1.359s,PASSED
+"verifyElementText(findTestObject(""Edit Employee Experience/label_alert_address""), ""Please enter at least 7 characters."")",Edge Chromium 116,,,2023-09-06 08:11:50,2023-09-06 08:11:50,0.626s,PASSED
+"click(findTestObject(""Edit Employee Experience/save_button""))",Edge Chromium 116,,,2023-09-06 08:11:50,2023-09-06 08:11:51,0.932s,PASSED
+,,,,,,,
+Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 009,Edge Chromium 116,,,2023-09-06 08:11:51,2023-09-06 08:12:25,33.783s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:11:52,2023-09-06 08:12:07,15.028s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_company_name""), company_name)",Edge Chromium 116,,,2023-09-06 08:12:07,2023-09-06 08:12:09,1.577s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_position""), ""HRD"")",Edge Chromium 116,,,2023-09-06 08:12:09,2023-09-06 08:12:10,1.239s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_address""), address)",Edge Chromium 116,,,2023-09-06 08:12:10,2023-09-06 08:12:11,1.345s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_working_duration""), working_duration)",Edge Chromium 116,,,2023-09-06 08:12:11,2023-09-06 08:12:13,1.317s,PASSED
+"click(findTestObject(""Edit Employee Experience/save_button""))",Edge Chromium 116,,,2023-09-06 08:12:13,2023-09-06 08:12:13,0.696s,PASSED
+"verifyElementText(findTestObject(""Edit Employee Experience/p_The position_name field must be at least 5 characters in length""), ""The position_name field must be at least 5 characters in length."")",Edge Chromium 116,,,2023-09-06 08:12:13,2023-09-06 08:12:14,0.801s,PASSED
+delay(10),Edge Chromium 116,,,2023-09-06 08:12:14,2023-09-06 08:12:24,10.019s,PASSED
+"click(findTestObject(""Edit Employee Experience/experience""))",Edge Chromium 116,,,2023-09-06 08:12:24,2023-09-06 08:12:25,0.797s,PASSED
+,,,,,,,
+Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 010,Edge Chromium 116,,,2023-09-06 08:12:25,2023-09-06 08:13:00,35.132s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:12:26,2023-09-06 08:12:42,15.550s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_company_name""), ""Q"")",Edge Chromium 116,,,2023-09-06 08:12:42,2023-09-06 08:12:44,1.846s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_position""), position)",Edge Chromium 116,,,2023-09-06 08:12:44,2023-09-06 08:12:45,1.607s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_address""), address)",Edge Chromium 116,,,2023-09-06 08:12:45,2023-09-06 08:12:46,1.322s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_working_duration""), working_duration)",Edge Chromium 116,,,2023-09-06 08:12:46,2023-09-06 08:12:48,1.388s,PASSED
+"click(findTestObject(""Edit Employee Experience/save_button""))",Edge Chromium 116,,,2023-09-06 08:12:48,2023-09-06 08:12:49,0.811s,PASSED
+"verifyElementText(findTestObject(""Edit Employee Experience/label_company_name""), ""Please enter at least 2 characters."")",Edge Chromium 116,,,2023-09-06 08:12:49,2023-09-06 08:12:49,0.634s,PASSED
+delay(10),Edge Chromium 116,,,2023-09-06 08:12:49,2023-09-06 08:12:59,10.008s,PASSED
+"click(findTestObject(""Edit Employee Experience/experience""))",Edge Chromium 116,,,2023-09-06 08:12:59,2023-09-06 08:13:00,0.856s,PASSED
+,,,,,,,
+Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 011,Edge Chromium 116,,,2023-09-06 08:13:00,2023-09-06 08:13:30,29.750s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:13:01,2023-09-06 08:13:17,15.670s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_company_name""), """")",Edge Chromium 116,,,2023-09-06 08:13:17,2023-09-06 08:13:19,1.823s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_position""), position)",Edge Chromium 116,,,2023-09-06 08:13:19,2023-09-06 08:13:20,1.459s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_address""), address)",Edge Chromium 116,,,2023-09-06 08:13:20,2023-09-06 08:13:21,1.431s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_working_duration""), working_duration)",Edge Chromium 116,,,2023-09-06 08:13:21,2023-09-06 08:13:23,1.176s,PASSED
+"click(findTestObject(""Edit Employee Experience/save_button""))",Edge Chromium 116,,,2023-09-06 08:13:23,2023-09-06 08:13:23,0.757s,PASSED
+"verifyElementText(findTestObject(""Edit Employee Experience/label_company_name""), ""This field is required."")",Edge Chromium 116,,,2023-09-06 08:13:23,2023-09-06 08:13:24,0.633s,PASSED
+delay(5),Edge Chromium 116,,,2023-09-06 08:13:24,2023-09-06 08:13:29,5.071s,PASSED
+"click(findTestObject(""Edit Employee Experience/experience""))",Edge Chromium 116,,,2023-09-06 08:13:29,2023-09-06 08:13:30,0.818s,PASSED
+,,,,,,,
+Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 012,Edge Chromium 116,,,2023-09-06 08:13:30,2023-09-06 08:13:59,29.189s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:13:31,2023-09-06 08:13:52,20.755s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_compay_name_modal""), ""PT Mencari Cinta Sejati"")",Edge Chromium 116,,,2023-09-06 08:13:52,2023-09-06 08:13:53,1.850s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_position_modal""), ""Human Resource Department"")",Edge Chromium 116,,,2023-09-06 08:13:53,2023-09-06 08:13:55,1.441s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_address_modal""), ""jalan"")",Edge Chromium 116,,,2023-09-06 08:13:55,2023-09-06 08:13:56,1.340s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_working_duration_modal""), ""1 year"")",Edge Chromium 116,,,2023-09-06 08:13:56,2023-09-06 08:13:58,1.442s,PASSED
+"click(findTestObject(""Edit Employee Experience/button_submit_modal""))",Edge Chromium 116,,,2023-09-06 08:13:58,2023-09-06 08:13:58,0.788s,PASSED
+"verifyElementText(findTestObject(""Master/label_Please enter at least 7 characters_modal""), ""Please enter at least 7 characters."")",Edge Chromium 116,,,2023-09-06 08:13:58,2023-09-06 08:13:59,0.685s,PASSED
+,,,,,,,
+Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 013,Edge Chromium 116,,,2023-09-06 08:13:59,2023-09-06 08:14:32,33.074s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:14:00,2023-09-06 08:14:19,18.965s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_compay_name_modal""), ""PT Mencari Cinta Sejati"")",Edge Chromium 116,,,2023-09-06 08:14:19,2023-09-06 08:14:21,1.883s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_position_modal""), ""CEO"")",Edge Chromium 116,,,2023-09-06 08:14:21,2023-09-06 08:14:22,1.319s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_address_modal""), ""sisingamangaraja"")",Edge Chromium 116,,,2023-09-06 08:14:22,2023-09-06 08:14:24,1.430s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_working_duration_modal""), ""1 year"")",Edge Chromium 116,,,2023-09-06 08:14:24,2023-09-06 08:14:25,1.286s,PASSED
+"click(findTestObject(""Edit Employee Experience/button_submit_modal""))",Edge Chromium 116,,,2023-09-06 08:14:25,2023-09-06 08:14:26,0.763s,PASSED
+"verifyElementText(findTestObject(""Edit Employee Experience/p_The position_name field must be at least 5 characters in length""), ""The position_name field must be at least 5 characters in length."")",Edge Chromium 116,,,2023-09-06 08:14:26,2023-09-06 08:14:26,0.744s,PASSED
+delay(5),Edge Chromium 116,,,2023-09-06 08:14:26,2023-09-06 08:14:31,5.008s,PASSED
+"click(findTestObject(""Edit Employee Experience/experience""))",Edge Chromium 116,,,2023-09-06 08:14:31,2023-09-06 08:14:32,0.823s,PASSED
+,,,,,,,
+Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 014,Edge Chromium 116,,,2023-09-06 08:14:32,2023-09-06 08:14:57,24.935s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:14:33,2023-09-06 08:14:50,16.980s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_compay_name_modal""), ""P"")",Edge Chromium 116,,,2023-09-06 08:14:50,2023-09-06 08:14:52,1.624s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_position_modal""), ""Human Resource Department"")",Edge Chromium 116,,,2023-09-06 08:14:52,2023-09-06 08:14:53,1.674s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_address_modal""), ""sisingamangaraja"")",Edge Chromium 116,,,2023-09-06 08:14:53,2023-09-06 08:14:55,1.389s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_working_duration_modal""), ""1 year"")",Edge Chromium 116,,,2023-09-06 08:14:55,2023-09-06 08:14:56,1.402s,PASSED
+"click(findTestObject(""Edit Employee Experience/button_submit_modal""))",Edge Chromium 116,,,2023-09-06 08:14:56,2023-09-06 08:14:57,0.599s,PASSED
+"verifyElementText(findTestObject(""Master/label_company_name_modal""), ""Please enter at least 2 characters."")",Edge Chromium 116,,,2023-09-06 08:14:57,2023-09-06 08:14:57,0.503s,PASSED
+,,,,,,,
+Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 015,Edge Chromium 116,,,2023-09-06 08:14:57,2023-09-06 08:16:00,1m - 3.136s,FAILED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:14:58,2023-09-06 08:15:15,17.364s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_compay_name_modal""), """")",Edge Chromium 116,,,2023-09-06 08:15:15,2023-09-06 08:15:17,1.658s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_position_modal""), ""Human Resource Department"")",Edge Chromium 116,,,2023-09-06 08:15:17,2023-09-06 08:15:18,1.258s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_address_modal""), ""sisingamangaraja"")",Edge Chromium 116,,,2023-09-06 08:15:18,2023-09-06 08:15:20,1.386s,PASSED
+"setText(findTestObject(""Edit Employee Experience/input_working_duration_modal""), ""1 year"")",Edge Chromium 116,,,2023-09-06 08:15:20,2023-09-06 08:15:21,1.330s,PASSED
+"click(findTestObject(""Edit Employee Experience/button_submit_modal""))",Edge Chromium 116,,,2023-09-06 08:15:21,2023-09-06 08:15:22,0.901s,PASSED
+delay(5),Edge Chromium 116,,,2023-09-06 08:15:22,2023-09-06 08:15:27,5.015s,PASSED
+"click(findTestObject(""Edit Employee Experience/experience""))",Edge Chromium 116,,,2023-09-06 08:15:27,2023-09-06 08:16:00,33.486s,FAILED

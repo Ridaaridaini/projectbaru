@@ -23,3 +23,5 @@ WebUI.click(findTestObject('Logout/button_burger'))
 
 WebUI.click(findTestObject('Logout/button_logout'))
 
+WebUI.verifyElementPresent(findTestObject('login/button_login'), 0)
+

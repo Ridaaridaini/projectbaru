@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>message_success</name>
+   <tag></tag>
+   <elementGuidId>f5de46ea-0523-43eb-81f3-51f9db0daff0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-wrapper']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.message</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f3f5d158-6488-48f9-91e9-537822a94752</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>message</value>
+      <webElementGuid>369e496c-ddc9-420a-988b-244246fa90d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>    Successfully Updated</value>
+      <webElementGuid>cc9aada2-ba23-4e2e-9562-e26d1674ee3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-wrapper&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;message&quot;]</value>
+      <webElementGuid>544e0e26-6e1d-4221-b419-4eea66cd5d9f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-wrapper']/div/div</value>
+      <webElementGuid>d969dad8-557f-41f0-b6ba-3da0646308d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::div[4]</value>
+      <webElementGuid>4456dad7-537f-4abf-8aad-417a5d5407fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notice'])[1]/following::div[4]</value>
+      <webElementGuid>9807dff2-da04-4d6b-b4ed-c99b31297428</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='John Doe'])[1]/preceding::div[1]</value>
+      <webElementGuid>3b8656b7-8f7e-45b1-b07c-23a0990b13fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::div[2]</value>
+      <webElementGuid>9015ab89-f813-4074-b6c9-cee5220f7df6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Successfully Updated']/parent::*</value>
+      <webElementGuid>bada8813-b1aa-4667-8cad-1c80715fdb48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div</value>
+      <webElementGuid>68e6ccee-955e-4c7f-bc45-7b1b5e33fcc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '    Successfully Updated' or . = '    Successfully Updated')]</value>
+      <webElementGuid>8cc9ec5e-7514-4b85-b875-d98921c2233b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

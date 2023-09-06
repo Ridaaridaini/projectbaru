@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>User Melakukan Checkout 2 barang</description>
    <name>TC-Checkout-Success-002</name>
    <tag></tag>
    <comment></comment>

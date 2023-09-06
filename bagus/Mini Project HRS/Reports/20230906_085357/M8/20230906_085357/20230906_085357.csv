@@ -1,0 +1,349 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+M8,Edge Chromium 116,,,2023-09-06 08:54:06,2023-09-06 09:04:22,10m - 15.748s,ERROR
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 001,Edge Chromium 116,,,2023-09-06 08:54:06,2023-09-06 08:54:17,10.935s,PASSED
+openBrowser(url),Edge Chromium 116,,,2023-09-06 08:54:07,2023-09-06 08:54:12,5.118s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-06 08:54:12,2023-09-06 08:54:12,0.361s,PASSED
+"setText(findTestObject(""Master/input_email""), email)",Edge Chromium 116,,,2023-09-06 08:54:12,2023-09-06 08:54:13,0.949s,PASSED
+"setEncryptedText(findTestObject(""Master/input_password""), pass)",Edge Chromium 116,,,2023-09-06 08:54:13,2023-09-06 08:54:14,0.556s,PASSED
+"click(findTestObject(""Master/button_login""))",Edge Chromium 116,,,2023-09-06 08:54:14,2023-09-06 08:54:17,2.886s,PASSED
+"verifyElementPresent(findTestObject(""Master/dashboard""), 0)",Edge Chromium 116,,,2023-09-06 08:54:17,2023-09-06 08:54:17,0.505s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 002,Edge Chromium 116,,,2023-09-06 08:54:17,2023-09-06 08:54:28,11.265s,PASSED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 001""), [""email"":""superadmin@mail.com"", ""pass"":""p4y+y39Ir5Pc2g9xt3QkeQ==""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:54:17,2023-09-06 08:54:26,8.707s,PASSED
+"click(findTestObject(""Edit Employee Experience/employee_sidebar""))",Edge Chromium 116,,,2023-09-06 08:54:26,2023-09-06 08:54:27,0.756s,PASSED
+"click(findTestObject(""Edit Employee Experience/dropdown_employee""))",Edge Chromium 116,,,2023-09-06 08:54:27,2023-09-06 08:54:28,0.992s,PASSED
+"verifyElementPresent(findTestObject(""Edit Employee Experience/title_Employee""), 0)",Edge Chromium 116,,,2023-09-06 08:54:28,2023-09-06 08:54:28,0.481s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 003,Edge Chromium 116,,,2023-09-06 08:54:28,2023-09-06 08:54:41,12.533s,PASSED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:54:29,2023-09-06 08:54:40,10.947s,PASSED
+"click(findTestObject(""Add Employee/button_add_employee""))",Edge Chromium 116,,,2023-09-06 08:54:40,2023-09-06 08:54:40,0.744s,PASSED
+"verifyElementPresent(findTestObject(""Add Employee/title_Employee List""), 0)",Edge Chromium 116,,,2023-09-06 08:54:40,2023-09-06 08:54:41,0.545s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 004,Edge Chromium 116,,,2023-09-06 08:54:41,2023-09-06 08:55:26,45.364s,PASSED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 003""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:54:41,2023-09-06 08:54:54,12.341s,PASSED
+"setText(findTestObject(""Add Employee/input_first_name""), ""Aan"")",Edge Chromium 116,,,2023-09-06 08:54:54,2023-09-06 08:54:54,0.818s,PASSED
+"first_name = getAttribute(findTestObject(""Add Employee/input_first_name""), ""value"")",Edge Chromium 116,,,2023-09-06 08:54:54,2023-09-06 08:54:55,0.377s,PASSED
+"setText(findTestObject(""Add Employee/input_last_name""), ""Aan"")",Edge Chromium 116,,,2023-09-06 08:54:55,2023-09-06 08:54:56,0.769s,PASSED
+"last_name = getAttribute(findTestObject(""Add Employee/input_last_name""), ""value"")",Edge Chromium 116,,,2023-09-06 08:54:56,2023-09-06 08:54:56,0.491s,PASSED
+"full_name = first_name + "" "" + last_name",Edge Chromium 116,,,2023-09-06 08:54:56,2023-09-06 08:54:56,0.001s,PASSED
+println(full_name),Edge Chromium 116,,,2023-09-06 08:54:56,2023-09-06 08:54:56,0.003s,PASSED
+"setText(findTestObject(""Spy Add Employee/input_Employee Code_eid""), ""01"")",Edge Chromium 116,,,2023-09-06 08:54:56,2023-09-06 08:54:57,0.826s,PASSED
+"code = getAttribute(findTestObject(""Spy Add Employee/input_Employee Code_eid""), ""value"")",Edge Chromium 116,,,2023-09-06 08:54:57,2023-09-06 08:54:57,0.561s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_department""), ""3"", false)",Edge Chromium 116,,,2023-09-06 08:54:57,2023-09-06 08:54:58,0.770s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_designation""), ""5"", false)",Edge Chromium 116,,,2023-09-06 08:54:58,2023-09-06 08:54:59,0.909s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_role""), ""EMPLOYEE"", false)",Edge Chromium 116,,,2023-09-06 08:54:59,2023-09-06 08:55:00,0.919s,PASSED
+"role = getAttribute(findTestObject(""new/select_role""), ""value"")",Edge Chromium 116,,,2023-09-06 08:55:00,2023-09-06 08:55:01,0.555s,PASSED
+println(role),Edge Chromium 116,,,2023-09-06 08:55:01,2023-09-06 08:55:01,0.001s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_gender""), ""MALE"", false)",Edge Chromium 116,,,2023-09-06 08:55:01,2023-09-06 08:55:01,0.813s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_blood""), ""O+"", false)",Edge Chromium 116,,,2023-09-06 08:55:01,2023-09-06 08:55:02,0.930s,PASSED
+"setText(findTestObject(""new/input_NID_nid""), ""0987654321"")",Edge Chromium 116,,,2023-09-06 08:55:02,2023-09-06 08:55:03,0.929s,PASSED
+"setText(findTestObject(""new/input_Contact Number_contact""), ""089878987656"")",Edge Chromium 116,,,2023-09-06 08:55:03,2023-09-06 08:55:04,1.028s,PASSED
+"contact = getAttribute(findTestObject(""new/input_Contact Number_contact""), ""value"")",Edge Chromium 116,,,2023-09-06 08:55:04,2023-09-06 08:55:05,0.546s,PASSED
+"setText(findTestObject(""new/input_Date Of Birth_dob""), ""10/10/2000"")",Edge Chromium 116,,,2023-09-06 08:55:05,2023-09-06 08:55:06,0.821s,PASSED
+"setText(findTestObject(""new/input_Date Of Joining_joindate""), ""20/12/2020"")",Edge Chromium 116,,,2023-09-06 08:55:06,2023-09-06 08:55:07,0.956s,PASSED
+"setText(findTestObject(""new/input_Date Of Leaving_leavedate""), ""10/12/2020"")",Edge Chromium 116,,,2023-09-06 08:55:07,2023-09-06 08:55:08,0.900s,PASSED
+"setText(findTestObject(""new/input_Username_username""), ""vinniv"")",Edge Chromium 116,,,2023-09-06 08:55:08,2023-09-06 08:55:08,0.867s,PASSED
+"setText(findTestObject(""new/input_Email_email""), ""aanaan@email.com"")",Edge Chromium 116,,,2023-09-06 08:55:08,2023-09-06 08:55:09,0.940s,PASSED
+"email = getAttribute(findTestObject(""new/input_Email_email""), ""value"")",Edge Chromium 116,,,2023-09-06 08:55:09,2023-09-06 08:55:10,0.540s,PASSED
+"uploadFile(findTestObject(""new/input_Image_image_url""), ""C:\Users\ASUS\Downloads\images.jpg"")",Edge Chromium 116,,,2023-09-06 08:55:10,2023-09-06 08:55:10,0.419s,PASSED
+"click(findTestObject(""Add Employee/button_save""))",Edge Chromium 116,,,2023-09-06 08:55:10,2023-09-06 08:55:11,0.472s,PASSED
+delay(7),Edge Chromium 116,,,2023-09-06 08:55:11,2023-09-06 08:55:18,7.022s,PASSED
+"click(findTestObject(""Add Employee/button_Employee List""))",Edge Chromium 116,,,2023-09-06 08:55:18,2023-09-06 08:55:19,0.857s,PASSED
+delay(5),Edge Chromium 116,,,2023-09-06 08:55:19,2023-09-06 08:55:24,5.015s,PASSED
+"click(findTestObject(""Add Employee/th_Employee Name""))",Edge Chromium 116,,,2023-09-06 08:55:24,2023-09-06 08:55:24,0.481s,PASSED
+"table_name = getText(findTestObject(""Master/table_employee_name""))",Edge Chromium 116,,,2023-09-06 08:55:24,2023-09-06 08:55:25,0.563s,PASSED
+"table_pin = getText(findTestObject(""Master/table_pin""))",Edge Chromium 116,,,2023-09-06 08:55:25,2023-09-06 08:55:25,0.336s,PASSED
+"table_email = getText(findTestObject(""Master/table_email""))",Edge Chromium 116,,,2023-09-06 08:55:25,2023-09-06 08:55:25,0.377s,PASSED
+"table_contact = getText(findTestObject(""Master/table_contact""))",Edge Chromium 116,,,2023-09-06 08:55:25,2023-09-06 08:55:26,0.383s,PASSED
+"table_user = getText(findTestObject(""Master/table_user_type""))",Edge Chromium 116,,,2023-09-06 08:55:26,2023-09-06 08:55:26,0.406s,PASSED
+"verifyMatch(table_name, full_name, false)",Edge Chromium 116,,,2023-09-06 08:55:26,2023-09-06 08:55:26,0.013s,PASSED
+"verifyMatch(table_pin, code, false)",Edge Chromium 116,,,2023-09-06 08:55:26,2023-09-06 08:55:26,0.001s,PASSED
+"verifyMatch(table_email, email, false)",Edge Chromium 116,,,2023-09-06 08:55:26,2023-09-06 08:55:26,0.002s,PASSED
+"verifyMatch(table_contact, contact, false)",Edge Chromium 116,,,2023-09-06 08:55:26,2023-09-06 08:55:26,0.002s,PASSED
+"verifyMatch(table_user, role, false)",Edge Chromium 116,,,2023-09-06 08:55:26,2023-09-06 08:55:26,0.001s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 005,Edge Chromium 116,,,2023-09-06 08:55:26,2023-09-06 08:55:41,14.263s,PASSED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:55:27,2023-09-06 08:55:39,12.604s,PASSED
+"setText(findTestObject(""Master/input_search""), ""rida"")",Edge Chromium 116,,,2023-09-06 08:55:39,2023-09-06 08:55:40,0.841s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Master/row_table_employee""), 10)",Edge Chromium 116,,,2023-09-06 08:55:40,2023-09-06 08:55:41,0.481s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 116,,,2023-09-06 08:55:41,2023-09-06 08:55:41,0.026s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 006,Edge Chromium 116,,,2023-09-06 08:55:41,2023-09-06 08:56:03,22.328s,PASSED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:55:41,2023-09-06 08:55:51,10.109s,PASSED
+"click(findTestObject(""Add Employee/th_Employee Name""))",Edge Chromium 116,,,2023-09-06 08:55:51,2023-09-06 08:55:52,0.485s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Master/employee""), 10)",Edge Chromium 116,,,2023-09-06 08:55:52,2023-09-06 08:56:03,11.345s,PASSED
+arrOri = [],Edge Chromium 116,,,2023-09-06 08:56:03,2023-09-06 08:56:03,0.011s,PASSED
+arrSort = [],Edge Chromium 116,,,2023-09-06 08:56:03,2023-09-06 08:56:03,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 116,,,2023-09-06 08:56:03,2023-09-06 08:56:03,0.001s,PASSED
+Arrays.sort(arrSort),Edge Chromium 116,,,2023-09-06 08:56:03,2023-09-06 08:56:03,0.009s,PASSED
+assert arrOri == arrSort,Edge Chromium 116,,,2023-09-06 08:56:03,2023-09-06 08:56:03,0.002s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 007,Edge Chromium 116,,,2023-09-06 08:56:03,2023-09-06 08:56:25,22.097s,PASSED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:56:03,2023-09-06 08:56:14,10.593s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Master/pin""), 10)",Edge Chromium 116,,,2023-09-06 08:56:14,2023-09-06 08:56:25,11.072s,PASSED
+arrOri = [],Edge Chromium 116,,,2023-09-06 08:56:25,2023-09-06 08:56:25,0.000s,PASSED
+arrSort = [],Edge Chromium 116,,,2023-09-06 08:56:25,2023-09-06 08:56:25,0.001s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 116,,,2023-09-06 08:56:25,2023-09-06 08:56:25,0.001s,PASSED
+Arrays.sort(arrSort),Edge Chromium 116,,,2023-09-06 08:56:25,2023-09-06 08:56:25,0.000s,PASSED
+assert arrOri == arrSort,Edge Chromium 116,,,2023-09-06 08:56:25,2023-09-06 08:56:25,0.001s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 008,Edge Chromium 116,,,2023-09-06 08:56:25,2023-09-06 08:56:49,23.585s,PASSED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:56:25,2023-09-06 08:56:37,11.480s,PASSED
+"click(findTestObject(""Add Employee/th_Email""))",Edge Chromium 116,,,2023-09-06 08:56:37,2023-09-06 08:56:37,0.504s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Master/email""), 10)",Edge Chromium 116,,,2023-09-06 08:56:37,2023-09-06 08:56:49,11.196s,PASSED
+arrOri = [],Edge Chromium 116,,,2023-09-06 08:56:49,2023-09-06 08:56:49,0.000s,PASSED
+arrSort = [],Edge Chromium 116,,,2023-09-06 08:56:49,2023-09-06 08:56:49,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 116,,,2023-09-06 08:56:49,2023-09-06 08:56:49,0.001s,PASSED
+Arrays.sort(arrSort),Edge Chromium 116,,,2023-09-06 08:56:49,2023-09-06 08:56:49,0.001s,PASSED
+assert arrOri == arrSort,Edge Chromium 116,,,2023-09-06 08:56:49,2023-09-06 08:56:49,0.000s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 009,Edge Chromium 116,,,2023-09-06 08:56:49,2023-09-06 08:57:12,23.724s,PASSED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:56:49,2023-09-06 08:57:01,11.654s,PASSED
+"click(findTestObject(""Add Employee/th_Contact""))",Edge Chromium 116,,,2023-09-06 08:57:01,2023-09-06 08:57:01,0.504s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Master/contact""), 10)",Edge Chromium 116,,,2023-09-06 08:57:01,2023-09-06 08:57:12,11.263s,PASSED
+arrOri = [],Edge Chromium 116,,,2023-09-06 08:57:12,2023-09-06 08:57:12,0.001s,PASSED
+arrSort = [],Edge Chromium 116,,,2023-09-06 08:57:12,2023-09-06 08:57:12,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 116,,,2023-09-06 08:57:12,2023-09-06 08:57:12,0.001s,PASSED
+Arrays.sort(arrSort),Edge Chromium 116,,,2023-09-06 08:57:12,2023-09-06 08:57:12,0.000s,PASSED
+assert arrOri == arrSort,Edge Chromium 116,,,2023-09-06 08:57:12,2023-09-06 08:57:12,0.001s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 010,Edge Chromium 116,,,2023-09-06 08:57:12,2023-09-06 08:57:35,22.783s,PASSED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:57:13,2023-09-06 08:57:23,10.753s,PASSED
+"click(findTestObject(""Add Employee/th_User Type""))",Edge Chromium 116,,,2023-09-06 08:57:23,2023-09-06 08:57:24,0.438s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Master/user_type""), 10)",Edge Chromium 116,,,2023-09-06 08:57:24,2023-09-06 08:57:35,11.222s,PASSED
+arrOri = [],Edge Chromium 116,,,2023-09-06 08:57:35,2023-09-06 08:57:35,0.000s,PASSED
+arrSort = [],Edge Chromium 116,,,2023-09-06 08:57:35,2023-09-06 08:57:35,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 116,,,2023-09-06 08:57:35,2023-09-06 08:57:35,0.001s,PASSED
+Arrays.sort(arrSort),Edge Chromium 116,,,2023-09-06 08:57:35,2023-09-06 08:57:35,0.001s,PASSED
+assert arrOri == arrSort,Edge Chromium 116,,,2023-09-06 08:57:35,2023-09-06 08:57:35,0.000s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 011,Edge Chromium 116,,,2023-09-06 08:57:35,2023-09-06 08:57:58,22.866s,PASSED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:57:36,2023-09-06 08:57:46,10.419s,PASSED
+"click(findTestObject(""Add Employee/th_Employee Name""))",Edge Chromium 116,,,2023-09-06 08:57:46,2023-09-06 08:57:46,0.395s,PASSED
+"click(findTestObject(""Add Employee/th_Employee Name""))",Edge Chromium 116,,,2023-09-06 08:57:46,2023-09-06 08:57:47,0.504s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Master/employee""), 10)",Edge Chromium 116,,,2023-09-06 08:57:47,2023-09-06 08:57:58,11.084s,PASSED
+arrOri = [],Edge Chromium 116,,,2023-09-06 08:57:58,2023-09-06 08:57:58,0.000s,PASSED
+arrSort = [],Edge Chromium 116,,,2023-09-06 08:57:58,2023-09-06 08:57:58,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 116,,,2023-09-06 08:57:58,2023-09-06 08:57:58,0.000s,PASSED
+"Arrays.sort(arrSort, Collections.reverseOrder())",Edge Chromium 116,,,2023-09-06 08:57:58,2023-09-06 08:57:58,0.016s,PASSED
+assert arrOri == arrSort,Edge Chromium 116,,,2023-09-06 08:57:58,2023-09-06 08:57:58,0.000s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 012,Edge Chromium 116,,,2023-09-06 08:57:58,2023-09-06 08:58:20,22.273s,ERROR
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:57:58,2023-09-06 08:58:09,10.248s,PASSED
+"click(findTestObject(""Add Employee/th_PIN""))",Edge Chromium 116,,,2023-09-06 08:58:09,2023-09-06 08:58:09,0.445s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Master/pin""), 10)",Edge Chromium 116,,,2023-09-06 08:58:09,2023-09-06 08:58:20,11.209s,PASSED
+arrOri = [],Edge Chromium 116,,,2023-09-06 08:58:20,2023-09-06 08:58:20,0.000s,PASSED
+arrSort = [],Edge Chromium 116,,,2023-09-06 08:58:20,2023-09-06 08:58:20,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 116,,,2023-09-06 08:58:20,2023-09-06 08:58:20,0.001s,PASSED
+"Arrays.sort(arrLastNameSort, Collections.reverseOrder())",Edge Chromium 116,,,2023-09-06 08:58:20,2023-09-06 08:58:20,0.022s,ERROR
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 013,Edge Chromium 116,,,2023-09-06 08:58:20,2023-09-06 08:58:44,23.569s,PASSED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:58:21,2023-09-06 08:58:32,11.124s,PASSED
+"click(findTestObject(""Add Employee/th_Email""))",Edge Chromium 116,,,2023-09-06 08:58:32,2023-09-06 08:58:32,0.457s,PASSED
+"click(findTestObject(""Add Employee/th_Email""))",Edge Chromium 116,,,2023-09-06 08:58:32,2023-09-06 08:58:33,0.508s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Master/email""), 10)",Edge Chromium 116,,,2023-09-06 08:58:33,2023-09-06 08:58:44,11.121s,PASSED
+arrOri = [],Edge Chromium 116,,,2023-09-06 08:58:44,2023-09-06 08:58:44,0.001s,PASSED
+arrSort = [],Edge Chromium 116,,,2023-09-06 08:58:44,2023-09-06 08:58:44,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 116,,,2023-09-06 08:58:44,2023-09-06 08:58:44,0.001s,PASSED
+"Arrays.sort(arrSort, Collections.reverseOrder())",Edge Chromium 116,,,2023-09-06 08:58:44,2023-09-06 08:58:44,0.000s,PASSED
+assert arrOri == arrSort,Edge Chromium 116,,,2023-09-06 08:58:44,2023-09-06 08:58:44,0.000s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 014,Edge Chromium 116,,,2023-09-06 08:58:44,2023-09-06 08:59:08,24.163s,PASSED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:58:44,2023-09-06 08:58:56,11.400s,PASSED
+"click(findTestObject(""Add Employee/th_Contact""))",Edge Chromium 116,,,2023-09-06 08:58:56,2023-09-06 08:58:56,0.418s,PASSED
+"click(findTestObject(""Add Employee/th_Contact""))",Edge Chromium 116,,,2023-09-06 08:58:56,2023-09-06 08:58:57,0.603s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Master/pin""), 10)",Edge Chromium 116,,,2023-09-06 08:58:57,2023-09-06 08:59:08,11.340s,PASSED
+arrOri = [],Edge Chromium 116,,,2023-09-06 08:59:08,2023-09-06 08:59:08,0.001s,PASSED
+arrSort = [],Edge Chromium 116,,,2023-09-06 08:59:08,2023-09-06 08:59:08,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 116,,,2023-09-06 08:59:08,2023-09-06 08:59:08,0.001s,PASSED
+"Arrays.sort(arrSort, Collections.reverseOrder())",Edge Chromium 116,,,2023-09-06 08:59:08,2023-09-06 08:59:08,0.000s,PASSED
+assert arrOri == arrSort,Edge Chromium 116,,,2023-09-06 08:59:08,2023-09-06 08:59:08,0.001s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 015,Edge Chromium 116,,,2023-09-06 08:59:08,2023-09-06 08:59:34,25.893s,PASSED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:59:08,2023-09-06 08:59:21,13.129s,PASSED
+"click(findTestObject(""Add Employee/th_User Type""))",Edge Chromium 116,,,2023-09-06 08:59:21,2023-09-06 08:59:22,0.489s,PASSED
+"click(findTestObject(""Add Employee/th_User Type""))",Edge Chromium 116,,,2023-09-06 08:59:22,2023-09-06 08:59:23,0.595s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Master/pin""), 10)",Edge Chromium 116,,,2023-09-06 08:59:23,2023-09-06 08:59:34,11.363s,PASSED
+arrOri = [],Edge Chromium 116,,,2023-09-06 08:59:34,2023-09-06 08:59:34,0.001s,PASSED
+arrSort = [],Edge Chromium 116,,,2023-09-06 08:59:34,2023-09-06 08:59:34,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 116,,,2023-09-06 08:59:34,2023-09-06 08:59:34,0.000s,PASSED
+"Arrays.sort(arrSort, Collections.reverseOrder())",Edge Chromium 116,,,2023-09-06 08:59:34,2023-09-06 08:59:34,0.002s,PASSED
+assert arrOri == arrSort,Edge Chromium 116,,,2023-09-06 08:59:34,2023-09-06 08:59:34,0.000s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 016,Edge Chromium 116,,,2023-09-06 08:59:34,2023-09-06 08:59:48,13.920s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:59:34,2023-09-06 08:59:47,13.106s,PASSED
+"click(findTestObject(""Add Employee/a_CSV""))",Edge Chromium 116,,,2023-09-06 08:59:47,2023-09-06 08:59:48,0.490s,PASSED
+downloadFolder = new java.io.File(C:\Users\ASUS\Downloads\),Edge Chromium 116,,,2023-09-06 08:59:48,2023-09-06 08:59:48,0.000s,PASSED
+namesOfFiles = Arrays.asList(downloadFolder.list()),Edge Chromium 116,,,2023-09-06 08:59:48,2023-09-06 08:59:48,0.004s,PASSED
+"if (namesOfFiles.contains(""H R System (CI).csv""))",Edge Chromium 116,,,2023-09-06 08:59:48,2023-09-06 08:59:48,0.010s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 017,Edge Chromium 116,,,2023-09-06 08:59:48,2023-09-06 09:00:01,13.653s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 08:59:48,2023-09-06 09:00:01,12.724s,PASSED
+"click(findTestObject(""Add Employee/a_Excel""))",Edge Chromium 116,,,2023-09-06 09:00:01,2023-09-06 09:00:01,0.471s,PASSED
+downloadFolder = new java.io.File(C:\Users\ASUS\Downloads\),Edge Chromium 116,,,2023-09-06 09:00:01,2023-09-06 09:00:01,0.000s,PASSED
+namesOfFiles = Arrays.asList(downloadFolder.list()),Edge Chromium 116,,,2023-09-06 09:00:01,2023-09-06 09:00:01,0.002s,PASSED
+"if (namesOfFiles.contains(""H R System (CI).xlsx""))",Edge Chromium 116,,,2023-09-06 09:00:01,2023-09-06 09:00:01,0.004s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 018,Edge Chromium 116,,,2023-09-06 09:00:01,2023-09-06 09:00:13,11.706s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:00:02,2023-09-06 09:00:13,10.655s,PASSED
+"click(findTestObject(""Add Employee/a_PDF""))",Edge Chromium 116,,,2023-09-06 09:00:13,2023-09-06 09:00:13,0.526s,PASSED
+downloadFolder = new java.io.File(C:\Users\ASUS\Downloads\),Edge Chromium 116,,,2023-09-06 09:00:13,2023-09-06 09:00:13,0.001s,PASSED
+namesOfFiles = Arrays.asList(downloadFolder.list()),Edge Chromium 116,,,2023-09-06 09:00:13,2023-09-06 09:00:13,0.001s,PASSED
+"if (namesOfFiles.contains(""H R System (CI).pdf""))",Edge Chromium 116,,,2023-09-06 09:00:13,2023-09-06 09:00:13,0.000s,PASSED
+else,Edge Chromium 116,,,2023-09-06 09:00:13,2023-09-06 09:00:13,0.001s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 019,Edge Chromium 116,,,2023-09-06 09:00:13,2023-09-06 09:00:27,14.236s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:00:14,2023-09-06 09:00:27,13.171s,PASSED
+"click(findTestObject(""Add Employee/a_Print""))",Edge Chromium 116,,,2023-09-06 09:00:27,2023-09-06 09:00:27,0.571s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 020,Edge Chromium 116,,,2023-09-06 09:00:27,2023-09-06 09:00:38,10.802s,PASSED
+"callTestCase(findTestCase(""M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:00:28,2023-09-06 09:00:38,10.029s,PASSED
+"click(findTestObject(""Add Employee/a_Copy""))",Edge Chromium 116,,,2023-09-06 09:00:38,2023-09-06 09:00:38,0.415s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 021,Edge Chromium 116,,,2023-09-06 09:00:38,2023-09-06 09:01:05,26.903s,PASSED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 003""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:00:39,2023-09-06 09:00:50,11.700s,PASSED
+"setText(findTestObject(""Add Employee/input_first_name""), """")",Edge Chromium 116,,,2023-09-06 09:00:50,2023-09-06 09:00:51,0.756s,PASSED
+"setText(findTestObject(""Add Employee/input_last_name""), ""Venezuela"")",Edge Chromium 116,,,2023-09-06 09:00:51,2023-09-06 09:00:52,0.768s,PASSED
+"setText(findTestObject(""Spy Add Employee/input_Employee Code_eid""), ""12345"")",Edge Chromium 116,,,2023-09-06 09:00:52,2023-09-06 09:00:53,0.861s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_department""), ""3"", false)",Edge Chromium 116,,,2023-09-06 09:00:53,2023-09-06 09:00:54,0.994s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_designation""), ""5"", false)",Edge Chromium 116,,,2023-09-06 09:00:54,2023-09-06 09:00:55,0.908s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_role""), ""EMPLOYEE"", false)",Edge Chromium 116,,,2023-09-06 09:00:55,2023-09-06 09:00:55,0.865s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_gender""), ""MALE"", false)",Edge Chromium 116,,,2023-09-06 09:00:55,2023-09-06 09:00:56,0.893s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_blood""), ""O+"", false)",Edge Chromium 116,,,2023-09-06 09:00:56,2023-09-06 09:00:57,0.855s,PASSED
+"setText(findTestObject(""new/input_NID_nid""), ""0987654321"")",Edge Chromium 116,,,2023-09-06 09:00:57,2023-09-06 09:00:58,0.924s,PASSED
+"setText(findTestObject(""new/input_Contact Number_contact""), ""089878987656"")",Edge Chromium 116,,,2023-09-06 09:00:58,2023-09-06 09:00:59,0.903s,PASSED
+"setText(findTestObject(""new/input_Date Of Birth_dob""), ""10/10/2000"")",Edge Chromium 116,,,2023-09-06 09:00:59,2023-09-06 09:01:00,0.862s,PASSED
+"setText(findTestObject(""new/input_Date Of Joining_joindate""), ""20/12/2020"")",Edge Chromium 116,,,2023-09-06 09:01:00,2023-09-06 09:01:01,0.927s,PASSED
+"setText(findTestObject(""new/input_Date Of Leaving_leavedate""), ""10/12/2020"")",Edge Chromium 116,,,2023-09-06 09:01:01,2023-09-06 09:01:02,0.957s,PASSED
+"setText(findTestObject(""new/input_Username_username""), ""vinniv"")",Edge Chromium 116,,,2023-09-06 09:01:02,2023-09-06 09:01:03,0.940s,PASSED
+"setText(findTestObject(""new/input_Email_email""), ""vinnvvin@email.com"")",Edge Chromium 116,,,2023-09-06 09:01:03,2023-09-06 09:01:04,0.931s,PASSED
+"uploadFile(findTestObject(""new/input_Image_image_url""), ""C:\Users\ASUS\Downloads\images.jpg"")",Edge Chromium 116,,,2023-09-06 09:01:04,2023-09-06 09:01:04,0.564s,PASSED
+"click(findTestObject(""Add Employee/button_save""))",Edge Chromium 116,,,2023-09-06 09:01:04,2023-09-06 09:01:05,0.439s,PASSED
+"verifyElementText(findTestObject(""Add Employee/label_field is required""), ""This field is required."")",Edge Chromium 116,,,2023-09-06 09:01:05,2023-09-06 09:01:05,0.552s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 022,Edge Chromium 116,,,2023-09-06 09:01:05,2023-09-06 09:01:33,27.638s,FAILED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 003""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:01:05,2023-09-06 09:01:17,12.082s,PASSED
+"setText(findTestObject(""Add Employee/input_first_name""), ""Alvin"")",Edge Chromium 116,,,2023-09-06 09:01:17,2023-09-06 09:01:18,0.704s,PASSED
+"setText(findTestObject(""Add Employee/input_last_name""), ""Venezuela"")",Edge Chromium 116,,,2023-09-06 09:01:18,2023-09-06 09:01:19,0.788s,PASSED
+"setText(findTestObject(""Spy Add Employee/input_Employee Code_eid""), ""12345"")",Edge Chromium 116,,,2023-09-06 09:01:19,2023-09-06 09:01:20,0.970s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_department""), ""3"", false)",Edge Chromium 116,,,2023-09-06 09:01:20,2023-09-06 09:01:21,0.946s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_designation""), ""5"", false)",Edge Chromium 116,,,2023-09-06 09:01:21,2023-09-06 09:01:22,0.890s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_role""), ""EMPLOYEE"", false)",Edge Chromium 116,,,2023-09-06 09:01:22,2023-09-06 09:01:23,0.845s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_gender""), ""MALE"", false)",Edge Chromium 116,,,2023-09-06 09:01:23,2023-09-06 09:01:23,0.862s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_blood""), ""O+"", false)",Edge Chromium 116,,,2023-09-06 09:01:23,2023-09-06 09:01:24,0.926s,PASSED
+"setText(findTestObject(""new/input_NID_nid""), ""123456789011"")",Edge Chromium 116,,,2023-09-06 09:01:24,2023-09-06 09:01:25,0.964s,PASSED
+"setText(findTestObject(""new/input_Contact Number_contact""), ""089878987656"")",Edge Chromium 116,,,2023-09-06 09:01:25,2023-09-06 09:01:26,0.980s,PASSED
+"setText(findTestObject(""new/input_Date Of Birth_dob""), ""10/10/2000"")",Edge Chromium 116,,,2023-09-06 09:01:26,2023-09-06 09:01:27,0.906s,PASSED
+"setText(findTestObject(""new/input_Date Of Joining_joindate""), ""20/12/2020"")",Edge Chromium 116,,,2023-09-06 09:01:27,2023-09-06 09:01:28,0.896s,PASSED
+"setText(findTestObject(""new/input_Date Of Leaving_leavedate""), ""10/12/2020"")",Edge Chromium 116,,,2023-09-06 09:01:28,2023-09-06 09:01:29,0.911s,PASSED
+"setText(findTestObject(""new/input_Username_username""), ""vinniv"")",Edge Chromium 116,,,2023-09-06 09:01:29,2023-09-06 09:01:30,0.910s,PASSED
+"setText(findTestObject(""new/input_Email_email""), ""niv@email.com"")",Edge Chromium 116,,,2023-09-06 09:01:30,2023-09-06 09:01:31,0.871s,PASSED
+"uploadFile(findTestObject(""new/input_Image_image_url""), ""C:\Users\ASUS\Downloads\images.jpg"")",Edge Chromium 116,,,2023-09-06 09:01:31,2023-09-06 09:01:31,0.511s,PASSED
+"click(findTestObject(""Add Employee/button_save""))",Edge Chromium 116,,,2023-09-06 09:01:31,2023-09-06 09:01:32,0.444s,PASSED
+"verifyTextPresent(""Maximum number length is 10"", false)",Edge Chromium 116,,,2023-09-06 09:01:32,2023-09-06 09:01:33,0.953s,FAILED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 023,Edge Chromium 116,,,2023-09-06 09:01:33,2023-09-06 09:02:00,27.735s,FAILED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 003""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:01:33,2023-09-06 09:01:45,12.116s,PASSED
+"setText(findTestObject(""Add Employee/input_first_name""), ""Alvin"")",Edge Chromium 116,,,2023-09-06 09:01:45,2023-09-06 09:01:46,0.782s,PASSED
+"setText(findTestObject(""Add Employee/input_last_name""), ""Venezuela"")",Edge Chromium 116,,,2023-09-06 09:01:46,2023-09-06 09:01:47,0.761s,PASSED
+"setText(findTestObject(""Spy Add Employee/input_Employee Code_eid""), ""12345"")",Edge Chromium 116,,,2023-09-06 09:01:47,2023-09-06 09:01:48,0.911s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_department""), ""3"", false)",Edge Chromium 116,,,2023-09-06 09:01:48,2023-09-06 09:01:49,0.929s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_designation""), ""5"", false)",Edge Chromium 116,,,2023-09-06 09:01:49,2023-09-06 09:01:49,0.860s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_role""), ""EMPLOYEE"", false)",Edge Chromium 116,,,2023-09-06 09:01:49,2023-09-06 09:01:50,0.955s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_gender""), ""MALE"", false)",Edge Chromium 116,,,2023-09-06 09:01:50,2023-09-06 09:01:51,0.878s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_blood""), ""O+"", false)",Edge Chromium 116,,,2023-09-06 09:01:51,2023-09-06 09:01:52,0.873s,PASSED
+"setText(findTestObject(""new/input_NID_nid""), ""123456789011"")",Edge Chromium 116,,,2023-09-06 09:01:52,2023-09-06 09:01:53,0.925s,PASSED
+"setText(findTestObject(""new/input_Contact Number_contact""), ""08987898765612344544"")",Edge Chromium 116,,,2023-09-06 09:01:53,2023-09-06 09:01:54,0.944s,PASSED
+"setText(findTestObject(""new/input_Date Of Birth_dob""), ""10/10/2000"")",Edge Chromium 116,,,2023-09-06 09:01:54,2023-09-06 09:01:55,0.901s,PASSED
+"setText(findTestObject(""new/input_Date Of Joining_joindate""), ""20/12/2020"")",Edge Chromium 116,,,2023-09-06 09:01:55,2023-09-06 09:01:56,0.894s,PASSED
+"setText(findTestObject(""new/input_Date Of Leaving_leavedate""), ""10/12/2020"")",Edge Chromium 116,,,2023-09-06 09:01:56,2023-09-06 09:01:57,0.901s,PASSED
+"setText(findTestObject(""new/input_Username_username""), ""vinniv"")",Edge Chromium 116,,,2023-09-06 09:01:57,2023-09-06 09:01:58,0.887s,PASSED
+"setText(findTestObject(""new/input_Email_email""), ""niv@email.com"")",Edge Chromium 116,,,2023-09-06 09:01:58,2023-09-06 09:01:59,0.961s,PASSED
+"uploadFile(findTestObject(""new/input_Image_image_url""), ""C:\Users\ASUS\Downloads\images.jpg"")",Edge Chromium 116,,,2023-09-06 09:01:59,2023-09-06 09:01:59,0.519s,PASSED
+"click(findTestObject(""Add Employee/button_save""))",Edge Chromium 116,,,2023-09-06 09:01:59,2023-09-06 09:02:00,0.477s,PASSED
+"verifyTextPresent(""Maximum number length is 13"", false)",Edge Chromium 116,,,2023-09-06 09:02:00,2023-09-06 09:02:00,0.970s,FAILED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 024,Edge Chromium 116,,,2023-09-06 09:02:01,2023-09-06 09:02:29,28.735s,PASSED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 003""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:02:01,2023-09-06 09:02:14,13.512s,PASSED
+"setText(findTestObject(""Add Employee/input_first_name""), ""Alvin"")",Edge Chromium 116,,,2023-09-06 09:02:14,2023-09-06 09:02:15,0.781s,PASSED
+"setText(findTestObject(""Add Employee/input_last_name""), ""Venezuela"")",Edge Chromium 116,,,2023-09-06 09:02:15,2023-09-06 09:02:16,0.811s,PASSED
+"setText(findTestObject(""Spy Add Employee/input_Employee Code_eid""), ""12345"")",Edge Chromium 116,,,2023-09-06 09:02:16,2023-09-06 09:02:17,0.947s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_department""), ""3"", false)",Edge Chromium 116,,,2023-09-06 09:02:17,2023-09-06 09:02:18,0.939s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_designation""), ""5"", false)",Edge Chromium 116,,,2023-09-06 09:02:18,2023-09-06 09:02:19,0.857s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_role""), ""EMPLOYEE"", false)",Edge Chromium 116,,,2023-09-06 09:02:19,2023-09-06 09:02:19,0.856s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_gender""), ""MALE"", false)",Edge Chromium 116,,,2023-09-06 09:02:19,2023-09-06 09:02:20,0.891s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_blood""), ""O+"", false)",Edge Chromium 116,,,2023-09-06 09:02:20,2023-09-06 09:02:21,0.830s,PASSED
+"setText(findTestObject(""new/input_NID_nid""), ""123456789011"")",Edge Chromium 116,,,2023-09-06 09:02:21,2023-09-06 09:02:22,0.923s,PASSED
+"setText(findTestObject(""new/input_Contact Number_contact""), ""08789845"")",Edge Chromium 116,,,2023-09-06 09:02:22,2023-09-06 09:02:23,0.952s,PASSED
+"setText(findTestObject(""new/input_Date Of Birth_dob""), ""10/10/2000"")",Edge Chromium 116,,,2023-09-06 09:02:23,2023-09-06 09:02:24,0.955s,PASSED
+"setText(findTestObject(""new/input_Date Of Joining_joindate""), ""20/12/2020"")",Edge Chromium 116,,,2023-09-06 09:02:24,2023-09-06 09:02:25,0.929s,PASSED
+"setText(findTestObject(""new/input_Date Of Leaving_leavedate""), ""10/12/2020"")",Edge Chromium 116,,,2023-09-06 09:02:25,2023-09-06 09:02:26,0.932s,PASSED
+"setText(findTestObject(""new/input_Username_username""), ""vinniv"")",Edge Chromium 116,,,2023-09-06 09:02:26,2023-09-06 09:02:27,0.878s,PASSED
+"setText(findTestObject(""new/input_Email_email""), ""niv@email.com"")",Edge Chromium 116,,,2023-09-06 09:02:27,2023-09-06 09:02:28,0.937s,PASSED
+"uploadFile(findTestObject(""new/input_Image_image_url""), ""C:\Users\ASUS\Downloads\images.jpg"")",Edge Chromium 116,,,2023-09-06 09:02:28,2023-09-06 09:02:28,0.527s,PASSED
+"click(findTestObject(""Add Employee/button_save""))",Edge Chromium 116,,,2023-09-06 09:02:28,2023-09-06 09:02:29,0.475s,PASSED
+"verifyElementText(findTestObject(""label_least 10 characters_contact""), ""Please enter at least 10 characters."")",Edge Chromium 116,,,2023-09-06 09:02:29,2023-09-06 09:02:29,0.529s,PASSED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 025,Edge Chromium 116,,,2023-09-06 09:02:29,2023-09-06 09:02:56,26.775s,FAILED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 003""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:02:29,2023-09-06 09:02:41,11.371s,PASSED
+"setText(findTestObject(""Add Employee/input_first_name""), ""Alvin"")",Edge Chromium 116,,,2023-09-06 09:02:41,2023-09-06 09:02:42,0.734s,PASSED
+"setText(findTestObject(""Add Employee/input_last_name""), ""Venezuela"")",Edge Chromium 116,,,2023-09-06 09:02:42,2023-09-06 09:02:42,0.814s,PASSED
+"setText(findTestObject(""Spy Add Employee/input_Employee Code_eid""), ""12345"")",Edge Chromium 116,,,2023-09-06 09:02:42,2023-09-06 09:02:43,1.069s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_department""), ""3"", false)",Edge Chromium 116,,,2023-09-06 09:02:43,2023-09-06 09:02:44,0.851s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_designation""), ""5"", false)",Edge Chromium 116,,,2023-09-06 09:02:44,2023-09-06 09:02:45,0.960s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_role""), ""EMPLOYEE"", false)",Edge Chromium 116,,,2023-09-06 09:02:45,2023-09-06 09:02:46,0.890s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_gender""), ""MALE"", false)",Edge Chromium 116,,,2023-09-06 09:02:46,2023-09-06 09:02:47,0.853s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_blood""), ""O+"", false)",Edge Chromium 116,,,2023-09-06 09:02:47,2023-09-06 09:02:48,0.840s,PASSED
+"setText(findTestObject(""new/input_NID_nid""), ""123456789011"")",Edge Chromium 116,,,2023-09-06 09:02:48,2023-09-06 09:02:49,0.919s,PASSED
+"setText(findTestObject(""new/input_Contact Number_contact""), ""08987898765612344544"")",Edge Chromium 116,,,2023-09-06 09:02:49,2023-09-06 09:02:50,0.890s,PASSED
+"setText(findTestObject(""new/input_Date Of Birth_dob""), ""10/10/2000"")",Edge Chromium 116,,,2023-09-06 09:02:50,2023-09-06 09:02:51,0.879s,PASSED
+"setText(findTestObject(""new/input_Date Of Joining_joindate""), ""20/12/2020"")",Edge Chromium 116,,,2023-09-06 09:02:51,2023-09-06 09:02:51,0.872s,PASSED
+"setText(findTestObject(""new/input_Date Of Leaving_leavedate""), ""10/12/2020"")",Edge Chromium 116,,,2023-09-06 09:02:51,2023-09-06 09:02:52,0.932s,PASSED
+"setText(findTestObject(""new/input_Username_username""), ""vinniv"")",Edge Chromium 116,,,2023-09-06 09:02:52,2023-09-06 09:02:53,0.886s,PASSED
+"setText(findTestObject(""new/input_Email_email""), ""niv@email.com"")",Edge Chromium 116,,,2023-09-06 09:02:53,2023-09-06 09:02:54,0.915s,PASSED
+"uploadFile(findTestObject(""new/input_Image_image_url""), ""C:\Users\ASUS\Downloads\images.jpg"")",Edge Chromium 116,,,2023-09-06 09:02:54,2023-09-06 09:02:55,0.475s,PASSED
+"click(findTestObject(""Add Employee/button_save""))",Edge Chromium 116,,,2023-09-06 09:02:55,2023-09-06 09:02:55,0.426s,PASSED
+"verifyTextPresent(""Employee code already used"", false)",Edge Chromium 116,,,2023-09-06 09:02:55,2023-09-06 09:02:56,0.946s,FAILED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 026,Edge Chromium 116,,,2023-09-06 09:02:56,2023-09-06 09:03:54,58.474s,FAILED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 003""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:02:56,2023-09-06 09:03:09,12.808s,PASSED
+"setText(findTestObject(""Add Employee/input_first_name""), ""Alvin"")",Edge Chromium 116,,,2023-09-06 09:03:09,2023-09-06 09:03:10,0.767s,PASSED
+"setText(findTestObject(""Add Employee/input_last_name""), ""Venezuela"")",Edge Chromium 116,,,2023-09-06 09:03:10,2023-09-06 09:03:11,0.789s,PASSED
+"setText(findTestObject(""Spy Add Employee/input_Employee Code_eid""), ""12345"")",Edge Chromium 116,,,2023-09-06 09:03:11,2023-09-06 09:03:12,0.913s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_department""), ""3"", false)",Edge Chromium 116,,,2023-09-06 09:03:12,2023-09-06 09:03:13,0.926s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_designation""), ""5"", false)",Edge Chromium 116,,,2023-09-06 09:03:13,2023-09-06 09:03:13,0.903s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_role""), ""EMPLOYEE"", false)",Edge Chromium 116,,,2023-09-06 09:03:13,2023-09-06 09:03:14,0.856s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_gender""), ""MALE"", false)",Edge Chromium 116,,,2023-09-06 09:03:14,2023-09-06 09:03:15,0.833s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_blood""), ""O+"", false)",Edge Chromium 116,,,2023-09-06 09:03:15,2023-09-06 09:03:16,0.836s,PASSED
+"setText(findTestObject(""new/input_NID_nid""), ""123456789011"")",Edge Chromium 116,,,2023-09-06 09:03:16,2023-09-06 09:03:17,0.865s,PASSED
+"setText(findTestObject(""new/input_Contact Number_contact""), ""08987898765612344544"")",Edge Chromium 116,,,2023-09-06 09:03:17,2023-09-06 09:03:18,0.937s,PASSED
+"setText(findTestObject(""new/input_Date Of Birth_dob""), ""10/10/2000"")",Edge Chromium 116,,,2023-09-06 09:03:18,2023-09-06 09:03:19,0.846s,PASSED
+"setText(findTestObject(""new/input_Date Of Joining_joindate""), ""20/12/2020"")",Edge Chromium 116,,,2023-09-06 09:03:19,2023-09-06 09:03:19,0.890s,PASSED
+"setText(findTestObject(""new/input_Date Of Leaving_leavedate""), ""10/12/2020"")",Edge Chromium 116,,,2023-09-06 09:03:19,2023-09-06 09:03:20,0.802s,PASSED
+"setText(findTestObject(""new/input_Username_username""), ""vinniv"")",Edge Chromium 116,,,2023-09-06 09:03:20,2023-09-06 09:03:21,0.859s,PASSED
+"setText(findTestObject(""new/input_Email_email""), ""niv@email.com"")",Edge Chromium 116,,,2023-09-06 09:03:21,2023-09-06 09:03:22,0.892s,PASSED
+"uploadFile(findTestObject(""new/input_Image_image_url""), ""C:\Users\ASUS\Downloads\images.jpg"")",Edge Chromium 116,,,2023-09-06 09:03:22,2023-09-06 09:03:23,0.523s,PASSED
+"click(findTestObject(""Add Employee/button_save""))",Edge Chromium 116,,,2023-09-06 09:03:23,2023-09-06 09:03:23,0.398s,PASSED
+"verifyElementText(findTestObject(""Add Employee/alert_email""), ""Email"")",Edge Chromium 116,,,2023-09-06 09:03:23,2023-09-06 09:03:54,31.525s,FAILED
+,,,,,,,
+Test Cases/M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 027,Edge Chromium 116,,,2023-09-06 09:03:54,2023-09-06 09:04:22,27.040s,FAILED
+"callTestCase(findTestCase(""M08 - Employees - List and Add Employees/M08 - Employees - List and Add Employees - 003""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:03:55,2023-09-06 09:04:06,11.657s,PASSED
+"setText(findTestObject(""Add Employee/input_first_name""), ""Alvin"")",Edge Chromium 116,,,2023-09-06 09:04:06,2023-09-06 09:04:07,0.751s,PASSED
+"setText(findTestObject(""Add Employee/input_last_name""), ""Venezuela"")",Edge Chromium 116,,,2023-09-06 09:04:07,2023-09-06 09:04:08,0.787s,PASSED
+"setText(findTestObject(""Spy Add Employee/input_Employee Code_eid""), ""12345"")",Edge Chromium 116,,,2023-09-06 09:04:08,2023-09-06 09:04:09,0.925s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_department""), ""3"", false)",Edge Chromium 116,,,2023-09-06 09:04:09,2023-09-06 09:04:10,0.847s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_designation""), ""5"", false)",Edge Chromium 116,,,2023-09-06 09:04:10,2023-09-06 09:04:11,0.849s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_role""), ""EMPLOYEE"", false)",Edge Chromium 116,,,2023-09-06 09:04:11,2023-09-06 09:04:11,0.847s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_gender""), ""MALE"", false)",Edge Chromium 116,,,2023-09-06 09:04:11,2023-09-06 09:04:12,0.841s,PASSED
+"selectOptionByValue(findTestObject(""Spy Add Employee/select_blood""), ""O+"", false)",Edge Chromium 116,,,2023-09-06 09:04:12,2023-09-06 09:04:13,0.975s,PASSED
+"setText(findTestObject(""new/input_NID_nid""), ""123456789011"")",Edge Chromium 116,,,2023-09-06 09:04:13,2023-09-06 09:04:14,0.914s,PASSED
+"setText(findTestObject(""new/input_Contact Number_contact""), ""08987898765612344544"")",Edge Chromium 116,,,2023-09-06 09:04:14,2023-09-06 09:04:15,0.988s,PASSED
+"setText(findTestObject(""new/input_Date Of Birth_dob""), ""10/10/2000"")",Edge Chromium 116,,,2023-09-06 09:04:15,2023-09-06 09:04:16,0.883s,PASSED
+"setText(findTestObject(""new/input_Date Of Joining_joindate""), ""20/12/2020"")",Edge Chromium 116,,,2023-09-06 09:04:16,2023-09-06 09:04:17,0.827s,PASSED
+"setText(findTestObject(""new/input_Date Of Leaving_leavedate""), ""10/12/2020"")",Edge Chromium 116,,,2023-09-06 09:04:17,2023-09-06 09:04:18,0.861s,PASSED
+"setText(findTestObject(""new/input_Username_username""), ""vinniv"")",Edge Chromium 116,,,2023-09-06 09:04:18,2023-09-06 09:04:19,0.877s,PASSED
+"setText(findTestObject(""new/input_Email_email""), ""niv@email.com"")",Edge Chromium 116,,,2023-09-06 09:04:19,2023-09-06 09:04:20,0.909s,PASSED
+"uploadFile(findTestObject(""new/input_Image_image_url""), ""C:\Users\ASUS\Downloads\images.jpg"")",Edge Chromium 116,,,2023-09-06 09:04:20,2023-09-06 09:04:20,0.556s,PASSED
+"click(findTestObject(""Add Employee/button_save""))",Edge Chromium 116,,,2023-09-06 09:04:20,2023-09-06 09:04:21,0.446s,PASSED
+"verifyTextPresent(""Contact number already used"", false)",Edge Chromium 116,,,2023-09-06 09:04:21,2023-09-06 09:04:22,0.992s,FAILED

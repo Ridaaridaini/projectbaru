@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_blood</name>
+   <tag></tag>
+   <elementGuidId>7c7189da-bcb9-4d3d-b49a-3d6aec18f045</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;blood&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='blood']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>a4c147bb-2249-4ff1-845b-5da021e6f954</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>blood</value>
+      <webElementGuid>20251852-5316-4a49-b460-c6ba12a59f3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control custom-select</value>
+      <webElementGuid>81edfd68-f1aa-4c67-8906-5273d1cd8e72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                            Select Blood Group
+                                            O+
+                                            O-
+                                            A+
+                                            A-
+                                            B+
+                                            B-
+                                            AB+
+                                        </value>
+      <webElementGuid>bf428b1e-7b4b-48d5-8296-7737331575fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-wrapper&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card card-outline-info&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;row&quot;]/div[@class=&quot;form-group col-md-3 m-t-20&quot;]/select[@class=&quot;form-control custom-select&quot;]</value>
+      <webElementGuid>c864c137-05f5-4290-89f7-43c1b2946aaa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='blood']</value>
+      <webElementGuid>e68ae18a-ae64-492d-9f58-2eb94b213d47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-wrapper']/div/div[3]/div[2]/div/div/div[2]/form/div[8]/select</value>
+      <webElementGuid>bd6d9a99-6470-4437-892a-009dca82aee2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blood Group'])[1]/following::select[1]</value>
+      <webElementGuid>9fce9fd4-0bdf-4827-9524-1dfaff7ce1fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender'])[1]/following::select[2]</value>
+      <webElementGuid>f0385d90-1beb-464b-8ef1-5ebdb879ddb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NID'])[1]/preceding::select[1]</value>
+      <webElementGuid>ca5a0442-e661-48a5-93eb-913e51f9ea41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Number'])[1]/preceding::select[1]</value>
+      <webElementGuid>f141d92e-ace8-4f01-ad5d-68a238bfc2cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/select</value>
+      <webElementGuid>46aeb138-1aa1-4025-998b-4dbb797ae017</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'blood' and (text() = '
+                                            Select Blood Group
+                                            O+
+                                            O-
+                                            A+
+                                            A-
+                                            B+
+                                            B-
+                                            AB+
+                                        ' or . = '
+                                            Select Blood Group
+                                            O+
+                                            O-
+                                            A+
+                                            A-
+                                            B+
+                                            B-
+                                            AB+
+                                        ')]</value>
+      <webElementGuid>96c52f3b-d6dd-4eb6-829b-284f43c55535</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

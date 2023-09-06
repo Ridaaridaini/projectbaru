@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>title_Employee</name>
+   <tag></tag>
+   <elementGuidId>1f7ca29a-f6ee-4a80-9cad-b2bf6ed07b1d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-wrapper']/div/div/div/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.text-themecolor</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>ef2630ae-68c8-4858-833a-f1446c9f3121</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-themecolor</value>
+      <webElementGuid>cf26a553-f892-4d61-a028-ed296954a1dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Employee</value>
+      <webElementGuid>e73da14b-9404-467d-8a66-0e67055fc753</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-wrapper&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;row page-titles&quot;]/div[@class=&quot;col-md-5 align-self-center&quot;]/h3[@class=&quot;text-themecolor&quot;]</value>
+      <webElementGuid>02cfc219-999d-4005-8122-64cad26172e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-wrapper']/div/div/div/h3</value>
+      <webElementGuid>ff99064e-da33-4201-b7b2-3504f31b39d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::h3[1]</value>
+      <webElementGuid>64477dab-6846-45dc-88e0-e55ed925c772</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notice'])[1]/following::h3[1]</value>
+      <webElementGuid>7253bd86-5a2b-458f-b4fa-e06de683d44f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::h3[1]</value>
+      <webElementGuid>7da16330-3af4-4b29-8d33-c4a24403c976</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee'])[2]/preceding::h3[1]</value>
+      <webElementGuid>983a7f07-426b-4183-a243-65613b6cb967</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Employee']/parent::*</value>
+      <webElementGuid>91f9f280-1304-47d8-9d2d-d3c31ca043b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>0ad37739-7c39-4f5e-a67b-4b46050bfc21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = ' Employee' or . = ' Employee')]</value>
+      <webElementGuid>219ce618-f4be-4c5d-97c6-0331179e9722</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

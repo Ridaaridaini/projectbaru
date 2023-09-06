@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>M05 - Employees - Edit Employees - Experience - 011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce774fc7-3d43-4d07-a211-b1bed2e74a24</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f3be76e6-2a06-45f5-a8b1-1699056db73f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bcee1d73-26bb-4457-a8d7-1492310f7a08</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ccfd0b18-c433-4ff9-850d-d98b16c72586</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b0c98d9f-7ee6-4518-9b6c-2d7fffe60a97</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Facebook'</defaultValue>
+      <description></description>
+      <id>f3be76e6-2a06-45f5-a8b1-1699056db73f</id>
+      <masked>false</masked>
+      <name>company_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Manager QA'</defaultValue>
+      <description></description>
+      <id>bcee1d73-26bb-4457-a8d7-1492310f7a08</id>
+      <masked>false</masked>
+      <name>position</name>
+   </variable>
+   <variable>
+      <defaultValue>'jogokariyan'</defaultValue>
+      <description></description>
+      <id>ccfd0b18-c433-4ff9-850d-d98b16c72586</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>'6 months'</defaultValue>
+      <description></description>
+      <id>b0c98d9f-7ee6-4518-9b6c-2d7fffe60a97</id>
+      <masked>false</masked>
+      <name>working_duration</name>
+   </variable>
+</TestCaseEntity>

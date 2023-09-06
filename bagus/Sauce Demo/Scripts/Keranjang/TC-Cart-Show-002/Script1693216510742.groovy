@@ -17,7 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/TC-Login-Success-001'), [:], FailureHandling.STOP_ON_FAILURE)
+HashMap<String, String> data_cart = WebUI.callTestCase(findTestCase('Products/TC-Product-AddCart-001'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Products/add_to_chart_produk_1'))
+WebUI.click(findTestObject('Keranjang/icon_cart'))
 
+name_product_cart = WebUI.getText(findTestObject('Keranjang/name_product_cart'))
+
+description_product_cart = WebUI.getText(findTestObject('Keranjang/description_product_cart'))
+
+product_price_cart = WebUI.getText(findTestObject('Keranjang/product_price_cart'))
+
+nama_product = data_cart.get('name_product')
+
+deskripsi_produk = data_cart.get('description_product')
+
+harga_produk = data_cart.get('product_price')
+
+WebUI.verifyMatch(name_product_cart, nama_product, false)
+
+WebUI.verifyMatch(description_product_cart, deskripsi_produk, false)
+
+WebUI.verifyMatch(product_price_cart, harga_produk, false)
+
+return data_cart

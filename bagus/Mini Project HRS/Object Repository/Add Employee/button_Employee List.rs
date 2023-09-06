@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Employee List</name>
+   <tag></tag>
+   <elementGuidId>ffc0dcec-4df8-4415-87f7-b6ee3fb48bee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b3b3849b-c220-43d0-b06d-e9317cb73311</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>43641a83-5dbb-4891-9008-a94bce972748</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>6d24a093-670b-4a1c-a83c-9a1a4de44786</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Employee List</value>
+      <webElementGuid>80da8ad7-04fb-49b3-9929-4352cd0def13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-wrapper&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row m-b-10&quot;]/div[@class=&quot;col-12&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>9df4fd76-f53c-4548-83a1-06c3b0d43ade</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>1dfebc51-e0d5-4a05-8123-15010a5b0cd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-wrapper']/div/div[3]/div/div/button</value>
+      <webElementGuid>a9d62630-12e2-4d2f-8d26-fad74b8944a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee'])[2]/following::button[1]</value>
+      <webElementGuid>df5ec8b0-d01f-4220-a362-47c99fc5b91e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::button[1]</value>
+      <webElementGuid>b95e286c-3c3c-4252-ad46-ec1b5ebc3c52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disciplinary List'])[1]/preceding::button[1]</value>
+      <webElementGuid>e8bddc69-338d-4e90-aebe-2cd4d6c35d23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>53004b14-1606-4e6a-a517-f834681c8ce0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '  Employee List' or . = '  Employee List')]</value>
+      <webElementGuid>d45cde15-bf55-4b00-aad4-1b2d6ef4f7f6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

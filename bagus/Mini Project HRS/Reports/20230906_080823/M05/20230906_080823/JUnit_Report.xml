@@ -1,0 +1,2156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="M05" time="446.03" tests="15" failures="1" errors="0">
+   <testsuite name="M05" tests="15" failures="1" errors="0" time="446.03" skipped="0" timestamp="2023-09-06 08:08:34" hostname="ASUS - DESKTOP-MRD68AC" id="Test Suites/M05">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\xsis\\batch-324-qa\\bagus\\Mini Project HRS\\Reports\\20230906_080823\\M05\\20230906_080823"/>
+         <property name="logFiles" value="D:\\xsis\\batch-324-qa\\bagus\\Mini Project HRS\\Reports\\20230906_080823\\M05\\20230906_080823\\execution0.log"/>
+         <property name="attachments" value="D:\\xsis\\batch-324-qa\\bagus\\Mini Project HRS\\Reports\\20230906_080823\\M05\\20230906_080823\\1693962960066.png"/>
+         <property name="hostName" value="ASUS - DESKTOP-MRD68AC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Edge Chromium 116"/>
+         <property name="hostAddress" value="10.9.2.26"/>
+         <property name="sessionId" value="a18c9015812f7a252ab307c981aa8aa6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001" time="14.507" classname="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001" status="PASSED">
+         <system-out><![CDATA[2023-09-06 08:08:35 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001
+
+2023-09-06 08:08:36 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:08:36 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-06 08:08:36 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-06 08:08:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-06 08:08:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:08:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-06 08:08:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-06 08:08:41 - [TEST_STEP][PASSED] - setText(findTestObject("Master/input_email"), email): Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:08:43 - [MESSAGE][PASSED] - Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:08:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master/input_password"), pass): Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:08:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:08:44 - [TEST_STEP][PASSED] - click(findTestObject("Master/button_login")): Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:08:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Master/dashboard"), 0): Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:08:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:08:49 - [MESSAGE][PASSED] - Object 'Object Repository/Master/dashboard' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002" time="13.563" classname="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002" status="PASSED">
+         <system-out><![CDATA[2023-09-06 08:08:49 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002
+
+2023-09-06 08:08:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001"), ["email":"superadmin@mail.com", "pass":"p4y+y39Ir5Pc2g9xt3QkeQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:08:50 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001
+
+2023-09-06 08:08:50 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:08:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-06 08:08:51 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-06 08:08:51 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-06 08:08:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-06 08:08:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:08:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-06 08:08:55 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-06 08:08:55 - [TEST_STEP][PASSED] - setText(findTestObject("Master/input_email"), email): Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:08:57 - [MESSAGE][PASSED] - Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:08:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master/input_password"), pass): Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:08:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:08:58 - [TEST_STEP][PASSED] - click(findTestObject("Master/button_login")): Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:08:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Master/dashboard"), 0): Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:08:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:09:00 - [MESSAGE][PASSED] - Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:09:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:09:00 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/employee_sidebar")): Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:09:01 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/dropdown_employee")): Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:09:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Employee"), 0): Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:09:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:09:03 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Employee' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003" time="17.001" classname="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003" status="PASSED">
+         <system-out><![CDATA[2023-09-06 08:09:03 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003
+
+2023-09-06 08:09:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:09:04 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002
+
+2023-09-06 08:09:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001"), ["email":"superadmin@mail.com", "pass":"p4y+y39Ir5Pc2g9xt3QkeQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:09:04 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001
+
+2023-09-06 08:09:04 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:09:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-06 08:09:05 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-06 08:09:05 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-06 08:09:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-06 08:09:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:09:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-06 08:09:09 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-06 08:09:09 - [TEST_STEP][PASSED] - setText(findTestObject("Master/input_email"), email): Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:09:10 - [MESSAGE][PASSED] - Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:09:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master/input_password"), pass): Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:09:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:09:11 - [TEST_STEP][PASSED] - click(findTestObject("Master/button_login")): Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:09:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Master/dashboard"), 0): Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:09:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:09:15 - [MESSAGE][PASSED] - Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:09:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/employee_sidebar")): Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:09:16 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/dropdown_employee")): Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:09:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:09:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Employee"), 0): Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:09:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:09:17 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:09:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:09:17 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/action_edit")): Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:09:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_name"), 0): Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:09:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:09:20 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_name' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004" time="23.106" classname="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004" status="PASSED">
+         <system-out><![CDATA[2023-09-06 08:09:20 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004
+
+2023-09-06 08:09:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:09:21 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003
+
+2023-09-06 08:09:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:09:21 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002
+
+2023-09-06 08:09:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001"), ["email":"superadmin@mail.com", "pass":"p4y+y39Ir5Pc2g9xt3QkeQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:09:21 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001
+
+2023-09-06 08:09:21 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:09:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-06 08:09:22 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-06 08:09:22 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-06 08:09:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-06 08:09:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:09:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-06 08:09:29 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-06 08:09:29 - [TEST_STEP][PASSED] - setText(findTestObject("Master/input_email"), email): Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:09:30 - [MESSAGE][PASSED] - Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:09:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master/input_password"), pass): Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:09:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:09:31 - [TEST_STEP][PASSED] - click(findTestObject("Master/button_login")): Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:09:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:09:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Master/dashboard"), 0): Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:09:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:09:37 - [MESSAGE][PASSED] - Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:09:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:09:37 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/employee_sidebar")): Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:09:37 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/dropdown_employee")): Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:09:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Employee"), 0): Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:09:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:09:39 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:09:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:09:39 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/action_edit")): Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:09:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:09:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_name"), 0): Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:09:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:09:42 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:09:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:09:42 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:09:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/form_experience"), 0): Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:09:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:09:43 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/form_experience' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 005" time="44.229" classname="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 005" status="PASSED">
+         <system-out><![CDATA[2023-09-06 08:09:43 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 005: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 005
+
+2023-09-06 08:09:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:09:44 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004
+
+2023-09-06 08:09:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:09:45 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003
+
+2023-09-06 08:09:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:09:45 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002
+
+2023-09-06 08:09:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001"), ["email":"superadmin@mail.com", "pass":"p4y+y39Ir5Pc2g9xt3QkeQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:09:45 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001
+
+2023-09-06 08:09:45 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:09:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-06 08:09:46 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-06 08:09:46 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-06 08:09:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-06 08:09:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:09:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-06 08:09:50 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-06 08:09:50 - [TEST_STEP][PASSED] - setText(findTestObject("Master/input_email"), email): Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:09:51 - [MESSAGE][PASSED] - Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:09:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master/input_password"), pass): Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:09:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:09:52 - [TEST_STEP][PASSED] - click(findTestObject("Master/button_login")): Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:09:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Master/dashboard"), 0): Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:09:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:09:56 - [MESSAGE][PASSED] - Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:09:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:09:56 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/employee_sidebar")): Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:09:57 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/dropdown_employee")): Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:09:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Employee"), 0): Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:09:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:09:59 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:09:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:09:59 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/action_edit")): Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:10:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_name"), 0): Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:10:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:10:02 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:10:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:10:02 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:10:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/form_experience"), 0): Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:10:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:10:04 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:10:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:10:04 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_company_name"), company_name): Text 'PT XSIS MITRA UTAMA' is set on object 'Object Repository/Edit Employee Experience/input_company_name'
+
+2023-09-06 08:10:05 - [MESSAGE][PASSED] - Text 'PT XSIS MITRA UTAMA' is set on object 'Object Repository/Edit Employee Experience/input_company_name'
+
+2023-09-06 08:10:05 - [TEST_STEP][PASSED] - input_company_name = getAttribute(findTestObject("Edit Employee Experience/input_company_name"), "value"): Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_company_name' is: 'PT XSIS MITRA UTAMA'
+
+2023-09-06 08:10:06 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_company_name' is: 'PT XSIS MITRA UTAMA'
+
+2023-09-06 08:10:06 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_position"), position): Text 'Manager Trainer' is set on object 'Object Repository/Edit Employee Experience/input_position'
+
+2023-09-06 08:10:07 - [MESSAGE][PASSED] - Text 'Manager Trainer' is set on object 'Object Repository/Edit Employee Experience/input_position'
+
+2023-09-06 08:10:07 - [TEST_STEP][PASSED] - input_position = getAttribute(findTestObject("Edit Employee Experience/input_position"), "value"): Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_position' is: 'Manager Trainer'
+
+2023-09-06 08:10:08 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_position' is: 'Manager Trainer'
+
+2023-09-06 08:10:08 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_address"), address): Text 'prayan raya' is set on object 'Object Repository/Edit Employee Experience/input_address'
+
+2023-09-06 08:10:10 - [MESSAGE][PASSED] - Text 'prayan raya' is set on object 'Object Repository/Edit Employee Experience/input_address'
+
+2023-09-06 08:10:10 - [TEST_STEP][PASSED] - input_address = getAttribute(findTestObject("Edit Employee Experience/input_address"), "value"): Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_address' is: 'prayan raya'
+
+2023-09-06 08:10:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_address' is: 'prayan raya'
+
+2023-09-06 08:10:10 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_working_duration"), working_duration): Text '2 years' is set on object 'Object Repository/Edit Employee Experience/input_working_duration'
+
+2023-09-06 08:10:12 - [MESSAGE][PASSED] - Text '2 years' is set on object 'Object Repository/Edit Employee Experience/input_working_duration'
+
+2023-09-06 08:10:12 - [TEST_STEP][PASSED] - input_working_duration = getAttribute(findTestObject("Edit Employee Experience/input_working_duration"), "value"): Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_working_duration' is: '2 years'
+
+2023-09-06 08:10:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_working_duration' is: '2 years'
+
+2023-09-06 08:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/save_button")): Object: 'Object Repository/Edit Employee Experience/save_button' is clicked on
+
+2023-09-06 08:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/save_button' is clicked on
+
+2023-09-06 08:10:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Edit Employee Experience/message_success"), "Successfully Updated"): Actual text and expected text of test object 'Object Repository/Edit Employee Experience/message_success' are matched.
+
+2023-09-06 08:10:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Employee Experience/message_success' are matched.
+
+2023-09-06 08:10:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-09-06 08:10:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-09-06 08:10:24 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:10:25 - [TEST_STEP][PASSED] - table_company_name = getText(findTestObject("Edit Employee Experience/table_company_name")): Text of object 'Object Repository/Edit Employee Experience/table_company_name' is: 'PT XSIS MITRA UTAMA'
+
+2023-09-06 08:10:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Edit Employee Experience/table_company_name' is: 'PT XSIS MITRA UTAMA'
+
+2023-09-06 08:10:26 - [TEST_STEP][PASSED] - table_position = getText(findTestObject("Edit Employee Experience/table_position")): Text of object 'Object Repository/Edit Employee Experience/table_position' is: 'Manager Trainer'
+
+2023-09-06 08:10:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Edit Employee Experience/table_position' is: 'Manager Trainer'
+
+2023-09-06 08:10:27 - [TEST_STEP][PASSED] - table_working_duration = getText(findTestObject("Edit Employee Experience/table_working_duration")): Text of object 'Object Repository/Edit Employee Experience/table_working_duration' is: '2 years'
+
+2023-09-06 08:10:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Edit Employee Experience/table_working_duration' is: '2 years'
+
+2023-09-06 08:10:27 - [TEST_STEP][PASSED] - verifyMatch(table_company_name, input_company_name, false): Actual text 'PT XSIS MITRA UTAMA' and expected text 'PT XSIS MITRA UTAMA' are matched 
+
+2023-09-06 08:10:27 - [MESSAGE][PASSED] - Actual text 'PT XSIS MITRA UTAMA' and expected text 'PT XSIS MITRA UTAMA' are matched 
+
+2023-09-06 08:10:27 - [TEST_STEP][PASSED] - verifyMatch(table_position, input_position, false): Actual text 'Manager Trainer' and expected text 'Manager Trainer' are matched 
+
+2023-09-06 08:10:27 - [MESSAGE][PASSED] - Actual text 'Manager Trainer' and expected text 'Manager Trainer' are matched 
+
+2023-09-06 08:10:27 - [TEST_STEP][PASSED] - verifyMatch(table_working_duration, input_working_duration, false): Actual text '2 years' and expected text '2 years' are matched 
+
+2023-09-06 08:10:27 - [MESSAGE][PASSED] - Actual text '2 years' and expected text '2 years' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006" time="18.414" classname="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006" status="PASSED">
+         <system-out><![CDATA[2023-09-06 08:10:27 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006
+
+2023-09-06 08:10:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:10:28 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004
+
+2023-09-06 08:10:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:10:28 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003
+
+2023-09-06 08:10:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:10:28 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002
+
+2023-09-06 08:10:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001"), ["email":"superadmin@mail.com", "pass":"p4y+y39Ir5Pc2g9xt3QkeQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:10:29 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001
+
+2023-09-06 08:10:29 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:10:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-06 08:10:30 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-06 08:10:30 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-06 08:10:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-06 08:10:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:10:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-06 08:10:33 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-06 08:10:33 - [TEST_STEP][PASSED] - setText(findTestObject("Master/input_email"), email): Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:10:34 - [MESSAGE][PASSED] - Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:10:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master/input_password"), pass): Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:10:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Master/button_login")): Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:10:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Master/dashboard"), 0): Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:10:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:10:37 - [MESSAGE][PASSED] - Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:10:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:10:37 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/employee_sidebar")): Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:10:39 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/dropdown_employee")): Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:10:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Employee"), 0): Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:10:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:10:41 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:10:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:10:41 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/action_edit")): Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:10:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:10:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_name"), 0): Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:10:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:10:43 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:10:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:10:43 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:10:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/form_experience"), 0): Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:10:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:10:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:10:44 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/button_modal_edit")): Object: 'Object Repository/Edit Employee Experience/button_modal_edit' is clicked on
+
+2023-09-06 08:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/button_modal_edit' is clicked on
+
+2023-09-06 08:10:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Experience Modal"), 0): Object 'Object Repository/Edit Employee Experience/title_Experience Modal' is present
+
+2023-09-06 08:10:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:10:46 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Experience Modal' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 007" time="38.954" classname="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 007" status="PASSED">
+         <system-out><![CDATA[2023-09-06 08:10:46 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 007: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 007
+
+2023-09-06 08:10:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006' successfully
+
+2023-09-06 08:10:47 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006
+
+2023-09-06 08:10:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:10:47 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004
+
+2023-09-06 08:10:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:10:47 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003
+
+2023-09-06 08:10:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:10:47 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002
+
+2023-09-06 08:10:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001"), ["email":"superadmin@mail.com", "pass":"p4y+y39Ir5Pc2g9xt3QkeQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:10:47 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001
+
+2023-09-06 08:10:47 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:10:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-06 08:10:48 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-06 08:10:48 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-06 08:10:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-06 08:10:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:10:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-06 08:10:52 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-06 08:10:52 - [TEST_STEP][PASSED] - setText(findTestObject("Master/input_email"), email): Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:10:53 - [MESSAGE][PASSED] - Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:10:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master/input_password"), pass): Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:10:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:10:54 - [TEST_STEP][PASSED] - click(findTestObject("Master/button_login")): Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:10:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Master/dashboard"), 0): Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:10:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:10:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/employee_sidebar")): Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:11:00 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/dropdown_employee")): Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:11:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Employee"), 0): Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:11:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:11:02 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:11:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:11:02 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/action_edit")): Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:11:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_name"), 0): Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:11:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:11:05 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:11:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:11:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/form_experience"), 0): Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:11:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:11:06 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:11:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:11:06 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/button_modal_edit")): Object: 'Object Repository/Edit Employee Experience/button_modal_edit' is clicked on
+
+2023-09-06 08:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/button_modal_edit' is clicked on
+
+2023-09-06 08:11:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Experience Modal"), 0): Object 'Object Repository/Edit Employee Experience/title_Experience Modal' is present
+
+2023-09-06 08:11:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:11:08 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Experience Modal' is present
+
+2023-09-06 08:11:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006' successfully
+
+2023-09-06 08:11:08 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_compay_name_modal"), "PT Mencari Cinta Sejati"): Text 'PT Mencari Cinta Sejati' is set on object 'Object Repository/Edit Employee Experience/input_compay_name_modal'
+
+2023-09-06 08:11:09 - [MESSAGE][PASSED] - Text 'PT Mencari Cinta Sejati' is set on object 'Object Repository/Edit Employee Experience/input_compay_name_modal'
+
+2023-09-06 08:11:09 - [TEST_STEP][PASSED] - modal_company_name = getAttribute(findTestObject("Edit Employee Experience/input_compay_name_modal"), "value"): Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_compay_name_modal' is: 'PT Mencari Cinta Sejati'
+
+2023-09-06 08:11:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_compay_name_modal' is: 'PT Mencari Cinta Sejati'
+
+2023-09-06 08:11:10 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_position_modal"), "Human Resource Department"): Text 'Human Resource Department' is set on object 'Object Repository/Edit Employee Experience/input_position_modal'
+
+2023-09-06 08:11:11 - [MESSAGE][PASSED] - Text 'Human Resource Department' is set on object 'Object Repository/Edit Employee Experience/input_position_modal'
+
+2023-09-06 08:11:11 - [TEST_STEP][PASSED] - modal_position = getAttribute(findTestObject("Edit Employee Experience/input_position_modal"), "value"): Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_position_modal' is: 'Human Resource Department'
+
+2023-09-06 08:11:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_position_modal' is: 'Human Resource Department'
+
+2023-09-06 08:11:12 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_address_modal"), "sisingamangaraja"): Text 'sisingamangaraja' is set on object 'Object Repository/Edit Employee Experience/input_address_modal'
+
+2023-09-06 08:11:13 - [MESSAGE][PASSED] - Text 'sisingamangaraja' is set on object 'Object Repository/Edit Employee Experience/input_address_modal'
+
+2023-09-06 08:11:13 - [TEST_STEP][PASSED] - modal_address = getAttribute(findTestObject("Edit Employee Experience/input_address_modal"), "value"): Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_address_modal' is: 'sisingamangaraja'
+
+2023-09-06 08:11:14 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_address_modal' is: 'sisingamangaraja'
+
+2023-09-06 08:11:14 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_working_duration_modal"), "1 year"): Text '1 year' is set on object 'Object Repository/Edit Employee Experience/input_working_duration_modal'
+
+2023-09-06 08:11:15 - [MESSAGE][PASSED] - Text '1 year' is set on object 'Object Repository/Edit Employee Experience/input_working_duration_modal'
+
+2023-09-06 08:11:15 - [TEST_STEP][PASSED] - modal_working_duration = getAttribute(findTestObject("Edit Employee Experience/input_working_duration_modal"), "value"): Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_working_duration_modal' is: '1 year'
+
+2023-09-06 08:11:16 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Edit Employee Experience/input_working_duration_modal' is: '1 year'
+
+2023-09-06 08:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/button_submit_modal")): Object: 'Object Repository/Edit Employee Experience/button_submit_modal' is clicked on
+
+2023-09-06 08:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/button_submit_modal' is clicked on
+
+2023-09-06 08:11:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Edit Employee Experience/message_success"), "Successfully Updated"): Actual text and expected text of test object 'Object Repository/Edit Employee Experience/message_success' are matched.
+
+2023-09-06 08:11:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Employee Experience/message_success' are matched.
+
+2023-09-06 08:11:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-09-06 08:11:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-09-06 08:11:22 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:11:23 - [TEST_STEP][PASSED] - table_company_name = getText(findTestObject("Edit Employee Experience/table_company_name")): Text of object 'Object Repository/Edit Employee Experience/table_company_name' is: 'PT Mencari Cinta Sejati'
+
+2023-09-06 08:11:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Edit Employee Experience/table_company_name' is: 'PT Mencari Cinta Sejati'
+
+2023-09-06 08:11:24 - [TEST_STEP][PASSED] - table_position = getText(findTestObject("Edit Employee Experience/table_position")): Text of object 'Object Repository/Edit Employee Experience/table_position' is: 'Human Resource Department'
+
+2023-09-06 08:11:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Edit Employee Experience/table_position' is: 'Human Resource Department'
+
+2023-09-06 08:11:24 - [TEST_STEP][PASSED] - table_working_duration = getText(findTestObject("Edit Employee Experience/table_working_duration")): Text of object 'Object Repository/Edit Employee Experience/table_working_duration' is: '1 year'
+
+2023-09-06 08:11:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Edit Employee Experience/table_working_duration' is: '1 year'
+
+2023-09-06 08:11:25 - [TEST_STEP][PASSED] - verifyMatch(table_company_name, modal_company_name, false): Actual text 'PT Mencari Cinta Sejati' and expected text 'PT Mencari Cinta Sejati' are matched 
+
+2023-09-06 08:11:25 - [MESSAGE][PASSED] - Actual text 'PT Mencari Cinta Sejati' and expected text 'PT Mencari Cinta Sejati' are matched 
+
+2023-09-06 08:11:25 - [TEST_STEP][PASSED] - verifyMatch(table_position, modal_position, false): Actual text 'Human Resource Department' and expected text 'Human Resource Department' are matched 
+
+2023-09-06 08:11:25 - [MESSAGE][PASSED] - Actual text 'Human Resource Department' and expected text 'Human Resource Department' are matched 
+
+2023-09-06 08:11:25 - [TEST_STEP][PASSED] - verifyMatch(table_working_duration, modal_working_duration, false): Actual text '1 year' and expected text '1 year' are matched 
+
+2023-09-06 08:11:25 - [MESSAGE][PASSED] - Actual text '1 year' and expected text '1 year' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 008" time="26.486" classname="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 008" status="PASSED">
+         <system-out><![CDATA[2023-09-06 08:11:25 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 008: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 008
+
+2023-09-06 08:11:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:11:26 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004
+
+2023-09-06 08:11:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:11:26 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003
+
+2023-09-06 08:11:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:11:26 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002
+
+2023-09-06 08:11:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001"), ["email":"superadmin@mail.com", "pass":"p4y+y39Ir5Pc2g9xt3QkeQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:11:26 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001
+
+2023-09-06 08:11:26 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:11:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-06 08:11:27 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-06 08:11:27 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-06 08:11:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-06 08:11:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:11:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-06 08:11:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-06 08:11:31 - [TEST_STEP][PASSED] - setText(findTestObject("Master/input_email"), email): Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:11:32 - [MESSAGE][PASSED] - Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:11:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master/input_password"), pass): Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:11:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Master/button_login")): Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:11:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Master/dashboard"), 0): Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:11:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:11:37 - [MESSAGE][PASSED] - Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:11:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:11:37 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/employee_sidebar")): Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:11:38 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/dropdown_employee")): Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:11:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Employee"), 0): Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:11:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:11:40 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:11:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/action_edit")): Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:11:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_name"), 0): Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:11:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:11:42 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:11:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:11:42 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:11:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/form_experience"), 0): Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:11:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:11:44 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:11:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:11:44 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_company_name"), company_name): Text 'PT XSIS MITRA UTAMA' is set on object 'Object Repository/Edit Employee Experience/input_company_name'
+
+2023-09-06 08:11:45 - [MESSAGE][PASSED] - Text 'PT XSIS MITRA UTAMA' is set on object 'Object Repository/Edit Employee Experience/input_company_name'
+
+2023-09-06 08:11:45 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_position"), position): Text 'Manager' is set on object 'Object Repository/Edit Employee Experience/input_position'
+
+2023-09-06 08:11:47 - [MESSAGE][PASSED] - Text 'Manager' is set on object 'Object Repository/Edit Employee Experience/input_position'
+
+2023-09-06 08:11:47 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_address"), "jalan"): Text 'jalan' is set on object 'Object Repository/Edit Employee Experience/input_address'
+
+2023-09-06 08:11:48 - [MESSAGE][PASSED] - Text 'jalan' is set on object 'Object Repository/Edit Employee Experience/input_address'
+
+2023-09-06 08:11:48 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_working_duration"), working_duration): Text '1 year' is set on object 'Object Repository/Edit Employee Experience/input_working_duration'
+
+2023-09-06 08:11:50 - [MESSAGE][PASSED] - Text '1 year' is set on object 'Object Repository/Edit Employee Experience/input_working_duration'
+
+2023-09-06 08:11:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Edit Employee Experience/label_alert_address"), "Please enter at least 7 characters."): Actual text and expected text of test object 'Object Repository/Edit Employee Experience/label_alert_address' are matched.
+
+2023-09-06 08:11:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Employee Experience/label_alert_address' are matched.
+
+2023-09-06 08:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/save_button")): Object: 'Object Repository/Edit Employee Experience/save_button' is clicked on
+
+2023-09-06 08:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/save_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 009" time="33.783" classname="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 009" status="PASSED">
+         <system-out><![CDATA[2023-09-06 08:11:51 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 009: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 009
+
+2023-09-06 08:11:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:11:52 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004
+
+2023-09-06 08:11:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:11:52 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003
+
+2023-09-06 08:11:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:11:52 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002
+
+2023-09-06 08:11:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001"), ["email":"superadmin@mail.com", "pass":"p4y+y39Ir5Pc2g9xt3QkeQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:11:53 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001
+
+2023-09-06 08:11:53 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:11:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-06 08:11:53 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-06 08:11:53 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-06 08:11:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-06 08:11:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:11:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-06 08:11:56 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-06 08:11:56 - [TEST_STEP][PASSED] - setText(findTestObject("Master/input_email"), email): Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:11:58 - [MESSAGE][PASSED] - Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:11:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master/input_password"), pass): Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:11:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:11:59 - [TEST_STEP][PASSED] - click(findTestObject("Master/button_login")): Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:12:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Master/dashboard"), 0): Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:12:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:12:00 - [MESSAGE][PASSED] - Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:12:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:12:00 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/employee_sidebar")): Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:12:02 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/dropdown_employee")): Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:12:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Employee"), 0): Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:12:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:12:04 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:12:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:12:04 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/action_edit")): Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:12:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:12:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_name"), 0): Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:12:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:12:06 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:12:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:12:06 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:12:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:12:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/form_experience"), 0): Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:12:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:12:07 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:12:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:12:07 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_company_name"), company_name): Text 'PT XSIS MITRA ACADEMY' is set on object 'Object Repository/Edit Employee Experience/input_company_name'
+
+2023-09-06 08:12:09 - [MESSAGE][PASSED] - Text 'PT XSIS MITRA ACADEMY' is set on object 'Object Repository/Edit Employee Experience/input_company_name'
+
+2023-09-06 08:12:09 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_position"), "HRD"): Text 'HRD' is set on object 'Object Repository/Edit Employee Experience/input_position'
+
+2023-09-06 08:12:10 - [MESSAGE][PASSED] - Text 'HRD' is set on object 'Object Repository/Edit Employee Experience/input_position'
+
+2023-09-06 08:12:10 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_address"), address): Text 'jalan prayan wetan' is set on object 'Object Repository/Edit Employee Experience/input_address'
+
+2023-09-06 08:12:11 - [MESSAGE][PASSED] - Text 'jalan prayan wetan' is set on object 'Object Repository/Edit Employee Experience/input_address'
+
+2023-09-06 08:12:11 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_working_duration"), working_duration): Text '4 years' is set on object 'Object Repository/Edit Employee Experience/input_working_duration'
+
+2023-09-06 08:12:13 - [MESSAGE][PASSED] - Text '4 years' is set on object 'Object Repository/Edit Employee Experience/input_working_duration'
+
+2023-09-06 08:12:13 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/save_button")): Object: 'Object Repository/Edit Employee Experience/save_button' is clicked on
+
+2023-09-06 08:12:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/save_button' is clicked on
+
+2023-09-06 08:12:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Edit Employee Experience/p_The position_name field must be at least 5 characters in length"), "The position_name field must be at least 5 characters in length."): Actual text and expected text of test object 'Object Repository/Edit Employee Experience/p_The position_name field must be at least 5 characters in length' are matched.
+
+2023-09-06 08:12:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Employee Experience/p_The position_name field must be at least 5 characters in length' are matched.
+
+2023-09-06 08:12:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-09-06 08:12:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-09-06 08:12:24 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 010" time="35.132" classname="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 010" status="PASSED">
+         <system-out><![CDATA[2023-09-06 08:12:25 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 010: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 010
+
+2023-09-06 08:12:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:12:26 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004
+
+2023-09-06 08:12:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:12:26 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003
+
+2023-09-06 08:12:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:12:26 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002
+
+2023-09-06 08:12:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001"), ["email":"superadmin@mail.com", "pass":"p4y+y39Ir5Pc2g9xt3QkeQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:12:27 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001
+
+2023-09-06 08:12:27 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:12:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-06 08:12:28 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-06 08:12:28 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-06 08:12:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-06 08:12:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:12:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-06 08:12:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-06 08:12:31 - [TEST_STEP][PASSED] - setText(findTestObject("Master/input_email"), email): Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:12:33 - [MESSAGE][PASSED] - Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:12:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master/input_password"), pass): Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:12:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:12:33 - [TEST_STEP][PASSED] - click(findTestObject("Master/button_login")): Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:12:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:12:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Master/dashboard"), 0): Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:12:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:12:35 - [MESSAGE][PASSED] - Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:12:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:12:35 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/employee_sidebar")): Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:12:36 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/dropdown_employee")): Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:12:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:12:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Employee"), 0): Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:12:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:12:38 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:12:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:12:38 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/action_edit")): Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:12:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:12:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_name"), 0): Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:12:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:12:41 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:12:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:12:41 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:12:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:12:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/form_experience"), 0): Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:12:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:12:42 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:12:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:12:42 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_company_name"), "Q"): Text 'Q' is set on object 'Object Repository/Edit Employee Experience/input_company_name'
+
+2023-09-06 08:12:44 - [MESSAGE][PASSED] - Text 'Q' is set on object 'Object Repository/Edit Employee Experience/input_company_name'
+
+2023-09-06 08:12:44 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_position"), position): Text 'Quality Assurance' is set on object 'Object Repository/Edit Employee Experience/input_position'
+
+2023-09-06 08:12:45 - [MESSAGE][PASSED] - Text 'Quality Assurance' is set on object 'Object Repository/Edit Employee Experience/input_position'
+
+2023-09-06 08:12:45 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_address"), address): Text 'jalan afandi' is set on object 'Object Repository/Edit Employee Experience/input_address'
+
+2023-09-06 08:12:46 - [MESSAGE][PASSED] - Text 'jalan afandi' is set on object 'Object Repository/Edit Employee Experience/input_address'
+
+2023-09-06 08:12:46 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_working_duration"), working_duration): Text '3 years' is set on object 'Object Repository/Edit Employee Experience/input_working_duration'
+
+2023-09-06 08:12:48 - [MESSAGE][PASSED] - Text '3 years' is set on object 'Object Repository/Edit Employee Experience/input_working_duration'
+
+2023-09-06 08:12:48 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/save_button")): Object: 'Object Repository/Edit Employee Experience/save_button' is clicked on
+
+2023-09-06 08:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/save_button' is clicked on
+
+2023-09-06 08:12:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Edit Employee Experience/label_company_name"), "Please enter at least 2 characters."): Actual text and expected text of test object 'Object Repository/Edit Employee Experience/label_company_name' are matched.
+
+2023-09-06 08:12:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Employee Experience/label_company_name' are matched.
+
+2023-09-06 08:12:49 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-09-06 08:12:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-09-06 08:12:59 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:13:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 011" time="29.75" classname="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 011" status="PASSED">
+         <system-out><![CDATA[2023-09-06 08:13:00 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 011: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 011
+
+2023-09-06 08:13:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:13:01 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004
+
+2023-09-06 08:13:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:13:01 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003
+
+2023-09-06 08:13:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:13:01 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002
+
+2023-09-06 08:13:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001"), ["email":"superadmin@mail.com", "pass":"p4y+y39Ir5Pc2g9xt3QkeQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:13:01 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001
+
+2023-09-06 08:13:02 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:13:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-06 08:13:03 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-06 08:13:03 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-06 08:13:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-06 08:13:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:13:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-06 08:13:06 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-06 08:13:06 - [TEST_STEP][PASSED] - setText(findTestObject("Master/input_email"), email): Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:13:07 - [MESSAGE][PASSED] - Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:13:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master/input_password"), pass): Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:13:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:13:08 - [TEST_STEP][PASSED] - click(findTestObject("Master/button_login")): Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:13:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Master/dashboard"), 0): Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:13:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:13:10 - [MESSAGE][PASSED] - Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:13:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:13:10 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/employee_sidebar")): Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:13:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:13:11 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/dropdown_employee")): Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:13:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Employee"), 0): Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:13:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:13:13 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:13:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:13:13 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/action_edit")): Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:13:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_name"), 0): Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:13:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:13:15 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:13:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:13:15 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:13:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/form_experience"), 0): Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:13:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:13:17 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:13:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:13:17 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_company_name"), ""): Text '' is set on object 'Object Repository/Edit Employee Experience/input_company_name'
+
+2023-09-06 08:13:19 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Employee Experience/input_company_name'
+
+2023-09-06 08:13:19 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_position"), position): Text 'Manager QA' is set on object 'Object Repository/Edit Employee Experience/input_position'
+
+2023-09-06 08:13:20 - [MESSAGE][PASSED] - Text 'Manager QA' is set on object 'Object Repository/Edit Employee Experience/input_position'
+
+2023-09-06 08:13:20 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_address"), address): Text 'jogokariyan' is set on object 'Object Repository/Edit Employee Experience/input_address'
+
+2023-09-06 08:13:21 - [MESSAGE][PASSED] - Text 'jogokariyan' is set on object 'Object Repository/Edit Employee Experience/input_address'
+
+2023-09-06 08:13:21 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_working_duration"), working_duration): Text '6 months' is set on object 'Object Repository/Edit Employee Experience/input_working_duration'
+
+2023-09-06 08:13:23 - [MESSAGE][PASSED] - Text '6 months' is set on object 'Object Repository/Edit Employee Experience/input_working_duration'
+
+2023-09-06 08:13:23 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/save_button")): Object: 'Object Repository/Edit Employee Experience/save_button' is clicked on
+
+2023-09-06 08:13:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/save_button' is clicked on
+
+2023-09-06 08:13:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Edit Employee Experience/label_company_name"), "This field is required."): Actual text and expected text of test object 'Object Repository/Edit Employee Experience/label_company_name' are matched.
+
+2023-09-06 08:13:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Employee Experience/label_company_name' are matched.
+
+2023-09-06 08:13:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-09-06 08:13:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-09-06 08:13:29 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 012" time="29.189" classname="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 012" status="PASSED">
+         <system-out><![CDATA[2023-09-06 08:13:30 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 012: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 012
+
+2023-09-06 08:13:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006' successfully
+
+2023-09-06 08:13:31 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006
+
+2023-09-06 08:13:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:13:31 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004
+
+2023-09-06 08:13:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:13:31 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003
+
+2023-09-06 08:13:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:13:31 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002
+
+2023-09-06 08:13:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001"), ["email":"superadmin@mail.com", "pass":"p4y+y39Ir5Pc2g9xt3QkeQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:13:31 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001
+
+2023-09-06 08:13:31 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:13:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-06 08:13:32 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-06 08:13:32 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-06 08:13:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-06 08:13:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:13:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-06 08:13:37 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-06 08:13:37 - [TEST_STEP][PASSED] - setText(findTestObject("Master/input_email"), email): Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:13:39 - [MESSAGE][PASSED] - Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:13:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master/input_password"), pass): Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:13:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:13:39 - [TEST_STEP][PASSED] - click(findTestObject("Master/button_login")): Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:13:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Master/dashboard"), 0): Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:13:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:13:43 - [MESSAGE][PASSED] - Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:13:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:13:43 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/employee_sidebar")): Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:13:44 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/dropdown_employee")): Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:13:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Employee"), 0): Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:13:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:13:46 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:13:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:13:46 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/action_edit")): Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:13:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_name"), 0): Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:13:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:13:49 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:13:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:13:49 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:13:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/form_experience"), 0): Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:13:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:13:50 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:13:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:13:50 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/button_modal_edit")): Object: 'Object Repository/Edit Employee Experience/button_modal_edit' is clicked on
+
+2023-09-06 08:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/button_modal_edit' is clicked on
+
+2023-09-06 08:13:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Experience Modal"), 0): Object 'Object Repository/Edit Employee Experience/title_Experience Modal' is present
+
+2023-09-06 08:13:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:13:52 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Experience Modal' is present
+
+2023-09-06 08:13:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006' successfully
+
+2023-09-06 08:13:52 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_compay_name_modal"), "PT Mencari Cinta Sejati"): Text 'PT Mencari Cinta Sejati' is set on object 'Object Repository/Edit Employee Experience/input_compay_name_modal'
+
+2023-09-06 08:13:53 - [MESSAGE][PASSED] - Text 'PT Mencari Cinta Sejati' is set on object 'Object Repository/Edit Employee Experience/input_compay_name_modal'
+
+2023-09-06 08:13:53 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_position_modal"), "Human Resource Department"): Text 'Human Resource Department' is set on object 'Object Repository/Edit Employee Experience/input_position_modal'
+
+2023-09-06 08:13:55 - [MESSAGE][PASSED] - Text 'Human Resource Department' is set on object 'Object Repository/Edit Employee Experience/input_position_modal'
+
+2023-09-06 08:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_address_modal"), "jalan"): Text 'jalan' is set on object 'Object Repository/Edit Employee Experience/input_address_modal'
+
+2023-09-06 08:13:56 - [MESSAGE][PASSED] - Text 'jalan' is set on object 'Object Repository/Edit Employee Experience/input_address_modal'
+
+2023-09-06 08:13:56 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_working_duration_modal"), "1 year"): Text '1 year' is set on object 'Object Repository/Edit Employee Experience/input_working_duration_modal'
+
+2023-09-06 08:13:58 - [MESSAGE][PASSED] - Text '1 year' is set on object 'Object Repository/Edit Employee Experience/input_working_duration_modal'
+
+2023-09-06 08:13:58 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/button_submit_modal")): Object: 'Object Repository/Edit Employee Experience/button_submit_modal' is clicked on
+
+2023-09-06 08:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/button_submit_modal' is clicked on
+
+2023-09-06 08:13:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Master/label_Please enter at least 7 characters_modal"), "Please enter at least 7 characters."): Actual text and expected text of test object 'Object Repository/Master/label_Please enter at least 7 characters_modal' are matched.
+
+2023-09-06 08:13:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Master/label_Please enter at least 7 characters_modal' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 013" time="33.074" classname="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 013" status="PASSED">
+         <system-out><![CDATA[2023-09-06 08:13:59 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 013: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 013
+
+2023-09-06 08:14:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006' successfully
+
+2023-09-06 08:14:00 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006
+
+2023-09-06 08:14:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:14:00 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004
+
+2023-09-06 08:14:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:14:00 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003
+
+2023-09-06 08:14:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:14:00 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002
+
+2023-09-06 08:14:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001"), ["email":"superadmin@mail.com", "pass":"p4y+y39Ir5Pc2g9xt3QkeQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:14:00 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001
+
+2023-09-06 08:14:00 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:14:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-06 08:14:01 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-06 08:14:01 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-06 08:14:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-06 08:14:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:14:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-06 08:14:05 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-06 08:14:05 - [TEST_STEP][PASSED] - setText(findTestObject("Master/input_email"), email): Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:14:06 - [MESSAGE][PASSED] - Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:14:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master/input_password"), pass): Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:14:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:14:07 - [TEST_STEP][PASSED] - click(findTestObject("Master/button_login")): Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:14:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Master/dashboard"), 0): Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:14:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:14:10 - [MESSAGE][PASSED] - Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:14:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:14:10 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/employee_sidebar")): Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:14:12 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/dropdown_employee")): Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:14:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Employee"), 0): Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:14:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:14:14 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:14:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:14:14 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/action_edit")): Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:14:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_name"), 0): Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:14:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:14:16 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:14:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:14:16 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:14:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:14:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/form_experience"), 0): Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:14:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:14:17 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:14:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:14:17 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/button_modal_edit")): Object: 'Object Repository/Edit Employee Experience/button_modal_edit' is clicked on
+
+2023-09-06 08:14:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/button_modal_edit' is clicked on
+
+2023-09-06 08:14:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Experience Modal"), 0): Object 'Object Repository/Edit Employee Experience/title_Experience Modal' is present
+
+2023-09-06 08:14:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Experience Modal' is present
+
+2023-09-06 08:14:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006' successfully
+
+2023-09-06 08:14:19 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_compay_name_modal"), "PT Mencari Cinta Sejati"): Text 'PT Mencari Cinta Sejati' is set on object 'Object Repository/Edit Employee Experience/input_compay_name_modal'
+
+2023-09-06 08:14:21 - [MESSAGE][PASSED] - Text 'PT Mencari Cinta Sejati' is set on object 'Object Repository/Edit Employee Experience/input_compay_name_modal'
+
+2023-09-06 08:14:21 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_position_modal"), "CEO"): Text 'CEO' is set on object 'Object Repository/Edit Employee Experience/input_position_modal'
+
+2023-09-06 08:14:22 - [MESSAGE][PASSED] - Text 'CEO' is set on object 'Object Repository/Edit Employee Experience/input_position_modal'
+
+2023-09-06 08:14:22 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_address_modal"), "sisingamangaraja"): Text 'sisingamangaraja' is set on object 'Object Repository/Edit Employee Experience/input_address_modal'
+
+2023-09-06 08:14:24 - [MESSAGE][PASSED] - Text 'sisingamangaraja' is set on object 'Object Repository/Edit Employee Experience/input_address_modal'
+
+2023-09-06 08:14:24 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_working_duration_modal"), "1 year"): Text '1 year' is set on object 'Object Repository/Edit Employee Experience/input_working_duration_modal'
+
+2023-09-06 08:14:25 - [MESSAGE][PASSED] - Text '1 year' is set on object 'Object Repository/Edit Employee Experience/input_working_duration_modal'
+
+2023-09-06 08:14:25 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/button_submit_modal")): Object: 'Object Repository/Edit Employee Experience/button_submit_modal' is clicked on
+
+2023-09-06 08:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/button_submit_modal' is clicked on
+
+2023-09-06 08:14:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Edit Employee Experience/p_The position_name field must be at least 5 characters in length"), "The position_name field must be at least 5 characters in length."): Actual text and expected text of test object 'Object Repository/Edit Employee Experience/p_The position_name field must be at least 5 characters in length' are matched.
+
+2023-09-06 08:14:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Employee Experience/p_The position_name field must be at least 5 characters in length' are matched.
+
+2023-09-06 08:14:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-09-06 08:14:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-09-06 08:14:31 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 014" time="24.935" classname="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 014" status="PASSED">
+         <system-out><![CDATA[2023-09-06 08:14:32 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 014: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 014
+
+2023-09-06 08:14:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006' successfully
+
+2023-09-06 08:14:33 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006
+
+2023-09-06 08:14:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:14:33 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004
+
+2023-09-06 08:14:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:14:33 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003
+
+2023-09-06 08:14:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:14:33 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002
+
+2023-09-06 08:14:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001"), ["email":"superadmin@mail.com", "pass":"p4y+y39Ir5Pc2g9xt3QkeQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:14:33 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001
+
+2023-09-06 08:14:33 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:14:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-06 08:14:34 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-06 08:14:34 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-06 08:14:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-06 08:14:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:14:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-06 08:14:37 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-06 08:14:37 - [TEST_STEP][PASSED] - setText(findTestObject("Master/input_email"), email): Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:14:38 - [MESSAGE][PASSED] - Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:14:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master/input_password"), pass): Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:14:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:14:39 - [TEST_STEP][PASSED] - click(findTestObject("Master/button_login")): Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:14:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Master/dashboard"), 0): Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:14:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:14:41 - [MESSAGE][PASSED] - Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:14:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:14:41 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/employee_sidebar")): Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/dropdown_employee")): Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:14:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Employee"), 0): Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:14:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:14:45 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:14:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:14:45 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/action_edit")): Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:14:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_name"), 0): Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:14:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:14:47 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:14:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:14:47 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:14:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/form_experience"), 0): Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:14:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:14:48 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:14:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/button_modal_edit")): Object: 'Object Repository/Edit Employee Experience/button_modal_edit' is clicked on
+
+2023-09-06 08:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/button_modal_edit' is clicked on
+
+2023-09-06 08:14:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Experience Modal"), 0): Object 'Object Repository/Edit Employee Experience/title_Experience Modal' is present
+
+2023-09-06 08:14:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:14:50 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Experience Modal' is present
+
+2023-09-06 08:14:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006' successfully
+
+2023-09-06 08:14:50 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_compay_name_modal"), "P"): Text 'P' is set on object 'Object Repository/Edit Employee Experience/input_compay_name_modal'
+
+2023-09-06 08:14:52 - [MESSAGE][PASSED] - Text 'P' is set on object 'Object Repository/Edit Employee Experience/input_compay_name_modal'
+
+2023-09-06 08:14:52 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_position_modal"), "Human Resource Department"): Text 'Human Resource Department' is set on object 'Object Repository/Edit Employee Experience/input_position_modal'
+
+2023-09-06 08:14:53 - [MESSAGE][PASSED] - Text 'Human Resource Department' is set on object 'Object Repository/Edit Employee Experience/input_position_modal'
+
+2023-09-06 08:14:53 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_address_modal"), "sisingamangaraja"): Text 'sisingamangaraja' is set on object 'Object Repository/Edit Employee Experience/input_address_modal'
+
+2023-09-06 08:14:55 - [MESSAGE][PASSED] - Text 'sisingamangaraja' is set on object 'Object Repository/Edit Employee Experience/input_address_modal'
+
+2023-09-06 08:14:55 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_working_duration_modal"), "1 year"): Text '1 year' is set on object 'Object Repository/Edit Employee Experience/input_working_duration_modal'
+
+2023-09-06 08:14:56 - [MESSAGE][PASSED] - Text '1 year' is set on object 'Object Repository/Edit Employee Experience/input_working_duration_modal'
+
+2023-09-06 08:14:56 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/button_submit_modal")): Object: 'Object Repository/Edit Employee Experience/button_submit_modal' is clicked on
+
+2023-09-06 08:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/button_submit_modal' is clicked on
+
+2023-09-06 08:14:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Master/label_company_name_modal"), "Please enter at least 2 characters."): Actual text and expected text of test object 'Object Repository/Master/label_company_name_modal' are matched.
+
+2023-09-06 08:14:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Master/label_company_name_modal' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 015" time="63.136" classname="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 015" status="FAILED">
+         <failure type="FAILED" message="Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 015 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Employee Experience/experience'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at M05 - Employees - Edit Employees - Experience - 015.run(M05 - Employees - Edit Employees - Experience - 015:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693962503521.run(TempTestSuite1693962503521.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;nav-link active&quot; data-toggle=&quot;tab&quot; href=&quot;#experience&quot; role=&quot;tab&quot; style=&quot;font-size: 14px;&quot; aria-expanded=&quot;true&quot;>...&lt;/a> is not clickable at point (600, 128). Other element would receive the click: &lt;div class=&quot;form-group&quot;>...&lt;/div>
+  (Session info: MicrosoftEdge=116.0.1938.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-MRD68AC', ip: '10.9.2.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: true, browserName: msedge, browserVersion: 116.0.1938.69, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55842}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a18c9015812f7a252ab307c981aa8aa6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-09-06 08:14:57 - [TEST_CASE][FAILED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 015: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 015 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Employee Experience/experience'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at M05 - Employees - Edit Employees - Experience - 015.run(M05 - Employees - Edit Employees - Experience - 015:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693962503521.run(TempTestSuite1693962503521.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link active" data-toggle="tab" href="#experience" role="tab" style="font-size: 14px;" aria-expanded="true">...</a> is not clickable at point (600, 128). Other element would receive the click: <div class="form-group">...</div>
+  (Session info: MicrosoftEdge=116.0.1938.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-MRD68AC', ip: '10.9.2.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: true, browserName: msedge, browserVersion: 116.0.1938.69, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55842}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a18c9015812f7a252ab307c981aa8aa6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-09-06 08:14:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006' successfully
+
+2023-09-06 08:14:58 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006
+
+2023-09-06 08:14:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:14:58 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004
+
+2023-09-06 08:14:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:14:58 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003
+
+2023-09-06 08:14:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:14:58 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002
+
+2023-09-06 08:14:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001"), ["email":"superadmin@mail.com", "pass":"p4y+y39Ir5Pc2g9xt3QkeQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:14:58 - [TEST_CASE][PASSED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001
+
+2023-09-06 08:14:58 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:14:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-06 08:15:00 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-06 08:15:00 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-06 08:15:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-06 08:15:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/hrsystem/'
+
+2023-09-06 08:15:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-06 08:15:03 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-06 08:15:03 - [TEST_STEP][PASSED] - setText(findTestObject("Master/input_email"), email): Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:15:04 - [MESSAGE][PASSED] - Text 'superadmin@mail.com' is set on object 'Object Repository/Master/input_email'
+
+2023-09-06 08:15:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master/input_password"), pass): Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:15:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/input_password'
+
+2023-09-06 08:15:05 - [TEST_STEP][PASSED] - click(findTestObject("Master/button_login")): Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/button_login' is clicked on
+
+2023-09-06 08:15:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Master/dashboard"), 0): Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:15:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:15:07 - [MESSAGE][PASSED] - Object 'Object Repository/Master/dashboard' is present
+
+2023-09-06 08:15:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 001' successfully
+
+2023-09-06 08:15:07 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/employee_sidebar")): Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/employee_sidebar' is clicked on
+
+2023-09-06 08:15:08 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/dropdown_employee")): Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/dropdown_employee' is clicked on
+
+2023-09-06 08:15:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Employee"), 0): Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:15:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:15:10 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Employee' is present
+
+2023-09-06 08:15:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 002' successfully
+
+2023-09-06 08:15:10 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/action_edit")): Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/action_edit' is clicked on
+
+2023-09-06 08:15:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_name"), 0): Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:15:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:15:12 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_name' is present
+
+2023-09-06 08:15:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 003' successfully
+
+2023-09-06 08:15:12 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/experience")): Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:15:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/experience' is clicked on
+
+2023-09-06 08:15:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/form_experience"), 0): Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:15:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:15:14 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/form_experience' is present
+
+2023-09-06 08:15:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 004' successfully
+
+2023-09-06 08:15:14 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/button_modal_edit")): Object: 'Object Repository/Edit Employee Experience/button_modal_edit' is clicked on
+
+2023-09-06 08:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/button_modal_edit' is clicked on
+
+2023-09-06 08:15:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee Experience/title_Experience Modal"), 0): Object 'Object Repository/Edit Employee Experience/title_Experience Modal' is present
+
+2023-09-06 08:15:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 08:15:15 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee Experience/title_Experience Modal' is present
+
+2023-09-06 08:15:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 006' successfully
+
+2023-09-06 08:15:15 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_compay_name_modal"), ""): Text '' is set on object 'Object Repository/Edit Employee Experience/input_compay_name_modal'
+
+2023-09-06 08:15:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Employee Experience/input_compay_name_modal'
+
+2023-09-06 08:15:17 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_position_modal"), "Human Resource Department"): Text 'Human Resource Department' is set on object 'Object Repository/Edit Employee Experience/input_position_modal'
+
+2023-09-06 08:15:18 - [MESSAGE][PASSED] - Text 'Human Resource Department' is set on object 'Object Repository/Edit Employee Experience/input_position_modal'
+
+2023-09-06 08:15:18 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_address_modal"), "sisingamangaraja"): Text 'sisingamangaraja' is set on object 'Object Repository/Edit Employee Experience/input_address_modal'
+
+2023-09-06 08:15:20 - [MESSAGE][PASSED] - Text 'sisingamangaraja' is set on object 'Object Repository/Edit Employee Experience/input_address_modal'
+
+2023-09-06 08:15:20 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee Experience/input_working_duration_modal"), "1 year"): Text '1 year' is set on object 'Object Repository/Edit Employee Experience/input_working_duration_modal'
+
+2023-09-06 08:15:21 - [MESSAGE][PASSED] - Text '1 year' is set on object 'Object Repository/Edit Employee Experience/input_working_duration_modal'
+
+2023-09-06 08:15:21 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee Experience/button_submit_modal")): Object: 'Object Repository/Edit Employee Experience/button_submit_modal' is clicked on
+
+2023-09-06 08:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee Experience/button_submit_modal' is clicked on
+
+2023-09-06 08:15:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-09-06 08:15:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-09-06 08:15:27 - [TEST_STEP][FAILED] - click(findTestObject("Edit Employee Experience/experience")): Unable to click on object 'Object Repository/Edit Employee Experience/experience' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Employee Experience/experience'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at M05 - Employees - Edit Employees - Experience - 015.run(M05 - Employees - Edit Employees - Experience - 015:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693962503521.run(TempTestSuite1693962503521.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link active" data-toggle="tab" href="#experience" role="tab" style="font-size: 14px;" aria-expanded="true">...</a> is not clickable at point (600, 128). Other element would receive the click: <div class="form-group">...</div>
+  (Session info: MicrosoftEdge=116.0.1938.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-MRD68AC', ip: '10.9.2.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: true, browserName: msedge, browserVersion: 116.0.1938.69, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55842}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a18c9015812f7a252ab307c981aa8aa6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1693795932199.run(Script1693795932199.groovy:35)
+	... 13 more
+)
+
+2023-09-06 08:16:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Edit Employee Experience/experience' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Employee Experience/experience'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at M05 - Employees - Edit Employees - Experience - 015.run(M05 - Employees - Edit Employees - Experience - 015:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693962503521.run(TempTestSuite1693962503521.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link active" data-toggle="tab" href="#experience" role="tab" style="font-size: 14px;" aria-expanded="true">...</a> is not clickable at point (600, 128). Other element would receive the click: <div class="form-group">...</div>
+  (Session info: MicrosoftEdge=116.0.1938.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-MRD68AC', ip: '10.9.2.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: true, browserName: msedge, browserVersion: 116.0.1938.69, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55842}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a18c9015812f7a252ab307c981aa8aa6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1693795932199.run(Script1693795932199.groovy:35)
+	... 13 more
+)
+[[ATTACHMENT|D:\\xsis\\batch-324-qa\\bagus\\Mini Project HRS\\Reports\\20230906_080823\\M05\\20230906_080823\\1693962960066.png]]]]></system-out>
+         <system-err><![CDATA[2023-09-06 08:14:57 - [TEST_CASE][FAILED] - Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 015: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 015 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Employee Experience/experience'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at M05 - Employees - Edit Employees - Experience - 015.run(M05 - Employees - Edit Employees - Experience - 015:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693962503521.run(TempTestSuite1693962503521.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link active" data-toggle="tab" href="#experience" role="tab" style="font-size: 14px;" aria-expanded="true">...</a> is not clickable at point (600, 128). Other element would receive the click: <div class="form-group">...</div>
+  (Session info: MicrosoftEdge=116.0.1938.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-MRD68AC', ip: '10.9.2.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: true, browserName: msedge, browserVersion: 116.0.1938.69, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55842}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a18c9015812f7a252ab307c981aa8aa6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-06 08:08:34 - [TEST_SUITE][FAILED] - M05: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 015 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Employee Experience/experience'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at M05 - Employees - Edit Employees - Experience - 015.run(M05 - Employees - Edit Employees - Experience - 015:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693962503521.run(TempTestSuite1693962503521.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link active" data-toggle="tab" href="#experience" role="tab" style="font-size: 14px;" aria-expanded="true">...</a> is not clickable at point (600, 128). Other element would receive the click: <div class="form-group">...</div>
+  (Session info: MicrosoftEdge=116.0.1938.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-MRD68AC', ip: '10.9.2.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: true, browserName: msedge, browserVersion: 116.0.1938.69, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55842}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a18c9015812f7a252ab307c981aa8aa6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-09-06 08:08:34 - [TEST_SUITE][FAILED] - M05: Test Cases/M05 - Employees - Edit Employees - Experience/M05 - Employees - Edit Employees - Experience - 015 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Employee Experience/experience'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at M05 - Employees - Edit Employees - Experience - 015.run(M05 - Employees - Edit Employees - Experience - 015:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693962503521.run(TempTestSuite1693962503521.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link active" data-toggle="tab" href="#experience" role="tab" style="font-size: 14px;" aria-expanded="true">...</a> is not clickable at point (600, 128). Other element would receive the click: <div class="form-group">...</div>
+  (Session info: MicrosoftEdge=116.0.1938.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-MRD68AC', ip: '10.9.2.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: true, browserName: msedge, browserVersion: 116.0.1938.69, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55842}, msedge: {msedgedriverVersion: 115.0.1901.203 (a5a2b1779bc..., userDataDir: C:\Users\ASUS\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a18c9015812f7a252ab307c981aa8aa6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

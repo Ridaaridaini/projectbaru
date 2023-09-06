@@ -15,9 +15,37 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.Keys  as Keys
+import org.openqa.selenium.WebElement
 
-WebUI.callTestCase(findTestCase('Login/TC-Login-Success-001'), [:], FailureHandling.STOP_ON_FAILURE)
+HashMap<String, Object> data = WebUI.callTestCase(findTestCase('Products/TC-Product-AddCart-002'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Keranjang/icon_cart'))
 
+List<WebElement> name_product_list = WebUI.findWebElements(findTestObject('Object Repository/Keranjang/product_list_cart'),10)
+List<WebElement> description_product_list = WebUI.findWebElements(findTestObject('Object Repository/Keranjang/description_product_list'),10)
+List<WebElement> price_product_list = WebUI.findWebElements(findTestObject('Object Repository/Keranjang/price_product_price'),10)
+
+List<String> defult_name_product_list = new ArrayList()
+List<String> defult_description_product_list = new ArrayList()
+List<String> defult_price_product_list = new ArrayList()
+
+for(i = 0; i<name_product_list.size();i++) {
+	text_name_product = name_product_list.get(i).text.trim()
+	text_decription_product = description_product_list.get(i).text.trim()
+	text_price_product = price_product_list.get(i).text.trim()
+	
+	defult_name_product_list.add(text_name_product)
+	defult_description_product_list.add(text_decription_product)
+	defult_price_product_list.add(text_price_product)
+	
+}
+
+
+
+
+assert data.get("name_product_list") == defult_name_product_list
+assert data.get("description_product_list") == defult_description_product_list
+assert data.get("price_product_list") == defult_price_product_list
+
+return data

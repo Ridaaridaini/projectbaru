@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_employee_name</name>
+   <tag></tag>
+   <elementGuidId>4802223d-02a2-4ca3-985d-38afbc954e26</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='employees123']/tbody/tr/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td[title=&quot;Colin Smith&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>70d4f76b-a9e1-4f10-a5dc-b0afa9427068</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Colin Smith</value>
+      <webElementGuid>87df40d4-80d0-428a-96b8-8bbf14856b58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Colin Smith</value>
+      <webElementGuid>b580ef38-ff0a-408a-823e-4ee084cf6261</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;employees123&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[1]</value>
+      <webElementGuid>6f3614cf-a747-4b9a-8358-e410bc8398d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='employees123']/tbody/tr/td</value>
+      <webElementGuid>24ed131b-7a13-4afe-9656-fd4b380d8275</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::td[1]</value>
+      <webElementGuid>a5d372bd-86aa-45cb-bccb-6c81ce3e5aae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Type'])[1]/following::td[1]</value>
+      <webElementGuid>3f6e0066-9590-4620-8e32-00f1d9f619e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='colin@mail.com'])[1]/preceding::td[2]</value>
+      <webElementGuid>11082751-55ab-4037-ad8e-e12a39d9a3a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EMPLOYEE'])[1]/preceding::td[4]</value>
+      <webElementGuid>349f803c-97b6-4e95-9d3b-e6b43e6b2ff9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Colin Smith']/parent::*</value>
+      <webElementGuid>9631b3a7-5959-44f9-9daf-9db2b13d0a36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td</value>
+      <webElementGuid>4ecb1f94-3498-4840-a99b-3a8793ce7713</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[@title = 'Colin Smith' and (text() = 'Colin Smith' or . = 'Colin Smith')]</value>
+      <webElementGuid>432c98c7-4cc0-4266-989f-babfe9e6e5f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

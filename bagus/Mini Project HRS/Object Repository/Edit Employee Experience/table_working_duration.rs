@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_working_duration</name>
+   <tag></tag>
+   <elementGuidId>3e334f2c-37d7-414d-9c1f-ab1910acae16</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='example23']/tbody/tr/td[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(4)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>1937c7df-214b-44a1-b34b-24a94ffa7c07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1 tahun</value>
+      <webElementGuid>190f8fb4-0ccd-4fe6-b13a-16312e58f282</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;experience&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive&quot;]/table[@id=&quot;example23&quot;]/tbody[1]/tr[1]/td[4]</value>
+      <webElementGuid>099817eb-b0bc-496b-8719-a5c529da38a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='example23']/tbody/tr/td[4]</value>
+      <webElementGuid>dd13639e-3520-4dbb-b9ff-c875453ce7f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='manajaer'])[1]/following::td[1]</value>
+      <webElementGuid>34a61529-8834-4535-90c8-91b09180146d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='XSIS Mitra Utama'])[1]/following::td[2]</value>
+      <webElementGuid>d99305ba-f508-4239-92f9-40cffaf830a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company Name'])[1]/preceding::td[2]</value>
+      <webElementGuid>ac6ee0f0-3e44-478f-b8d6-e55fabc2560a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Position'])[2]/preceding::td[2]</value>
+      <webElementGuid>f23b4199-c367-4101-ac3b-928752610e3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1 tahun']/parent::*</value>
+      <webElementGuid>1f7901cf-8893-4c00-aaf7-8e9bd573697f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]</value>
+      <webElementGuid>49cad583-4f00-42e6-94ca-59942899a789</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '1 tahun' or . = '1 tahun')]</value>
+      <webElementGuid>9c1393b4-1d20-4c41-a46a-6842a3255e12</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

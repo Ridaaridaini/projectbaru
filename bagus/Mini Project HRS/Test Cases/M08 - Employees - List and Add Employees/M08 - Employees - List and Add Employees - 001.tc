@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>M08 - Employees - List and Add Employees - 001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41aec64a-564e-4c39-bad1-06a855277980</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ac1b981-a824-4272-a4aa-d0c3b70f2e47</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9b8e9386-c34c-4140-aede-424999b7bf29</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'superadmin@mail.com'</defaultValue>
+      <description></description>
+      <id>3ac1b981-a824-4272-a4aa-d0c3b70f2e47</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'p4y+y39Ir5Pc2g9xt3QkeQ=='</defaultValue>
+      <description></description>
+      <id>9b8e9386-c34c-4140-aede-424999b7bf29</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>

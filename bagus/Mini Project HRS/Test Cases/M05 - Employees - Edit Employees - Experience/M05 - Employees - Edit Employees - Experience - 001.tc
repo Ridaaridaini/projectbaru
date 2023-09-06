@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>M05 - Employees - Edit Employees - Experience - 001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>413bd68a-a304-4313-9197-6dbd34907c0a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fff772ec-5cbc-4c45-9df4-1032f79a5de7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>20e5e65d-f8c9-47cb-b85c-763887ce5709</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'superadmin@mail.com'</defaultValue>
+      <description></description>
+      <id>fff772ec-5cbc-4c45-9df4-1032f79a5de7</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'p4y+y39Ir5Pc2g9xt3QkeQ=='</defaultValue>
+      <description></description>
+      <id>20e5e65d-f8c9-47cb-b85c-763887ce5709</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>

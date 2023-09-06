@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_field is required</name>
+   <tag></tag>
+   <elementGuidId>d595f39c-c844-4c40-a4a9-556c88976d41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-wrapper']/div/div[3]/div[2]/div/div/div[2]/form/div/label[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.error</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>fe9d3363-8c4f-45fc-b102-2259e5d6ddcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>fname</value>
+      <webElementGuid>0cd1ec03-b205-4bd7-8e50-979521755a2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>generated</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>2ec3926a-a5df-480b-b8f2-31d56f50c655</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>error</value>
+      <webElementGuid>d4878be2-76a7-4f2f-83dd-f5a3e873f294</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>This field is required.</value>
+      <webElementGuid>1de87a2a-f008-4cb5-a461-9a46c56c8557</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-wrapper&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card card-outline-info&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;row&quot;]/div[@class=&quot;form-group col-md-3 m-t-20&quot;]/label[@class=&quot;error&quot;]</value>
+      <webElementGuid>e62cb8d3-3328-4b4c-b9fe-ed0ad129fac8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-wrapper']/div/div[3]/div[2]/div/div/div[2]/form/div/label[2]</value>
+      <webElementGuid>32d2724e-4ce6-4138-87b4-e831024a4c91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[1]/following::label[1]</value>
+      <webElementGuid>def39e91-d81b-4b6a-b230-56817824f214</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Employee'])[1]/following::label[2]</value>
+      <webElementGuid>4766b29d-dd5c-48d9-a42d-aa3f76cf2f46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[1]/preceding::label[1]</value>
+      <webElementGuid>c703f823-6a2a-4fa7-a6c8-cf1be4b41394</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This field is required.'])[2]/preceding::label[2]</value>
+      <webElementGuid>79951355-dc27-42b8-a048-a7f75fc1bb73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='This field is required.']/parent::*</value>
+      <webElementGuid>2a34ba1c-ac36-4841-91ec-421f02e05a84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[2]</value>
+      <webElementGuid>3d9e287c-5b07-4ebe-b2e2-38887741b5fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'This field is required.' or . = 'This field is required.')]</value>
+      <webElementGuid>22f049f5-746a-4954-8b2e-047fce813534</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

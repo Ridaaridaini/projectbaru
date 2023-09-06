@@ -21,3 +21,5 @@ WebUI.callTestCase(findTestCase('Keranjang/TC-Cart-Show-002'), [:], FailureHandl
 
 WebUI.click(findTestObject('Keranjang/button_continue_shopping'))
 
+WebUI.verifyElementPresent(findTestObject('Products/title_product'), 0)
+

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>title_name</name>
+   <tag></tag>
+   <elementGuidId>a5ab31ed-5490-4c3c-8b1c-6a10a0c14b69</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-wrapper']/div/div[2]/div/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.text-themecolor</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>c6969c31-d782-45c5-bd4c-f742bd5dd717</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-themecolor</value>
+      <webElementGuid>8e9196d0-8ed8-461e-bbf6-363f96bfbec5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> John Doe</value>
+      <webElementGuid>ddea9a1f-8bde-466d-b8ec-263797dac527</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-wrapper&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;row page-titles&quot;]/div[@class=&quot;col-md-5 align-self-center&quot;]/h3[@class=&quot;text-themecolor&quot;]</value>
+      <webElementGuid>555a6bfd-0b24-402e-b0cf-32049beae37b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-wrapper']/div/div[2]/div/h3</value>
+      <webElementGuid>32563b98-9add-4e51-a788-22cfbc77c504</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::h3[1]</value>
+      <webElementGuid>79cecc82-93c9-4562-8025-4a2758c52d5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notice'])[1]/following::h3[1]</value>
+      <webElementGuid>9bcb8316-9e2f-4b18-bc71-14e689209a61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::h3[1]</value>
+      <webElementGuid>a257c2a5-83aa-4331-ad3f-34ff900b07e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/preceding::h3[1]</value>
+      <webElementGuid>4731d2fe-683a-47f5-8709-9fbe26958d0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='John Doe']/parent::*</value>
+      <webElementGuid>ceef9103-705b-42b8-96c0-82eae391c4d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>9f2168bd-acd1-4214-b0da-c78e021f7ebb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = ' John Doe' or . = ' John Doe')]</value>
+      <webElementGuid>425a2cb4-b4df-49da-a394-4e763245cd34</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

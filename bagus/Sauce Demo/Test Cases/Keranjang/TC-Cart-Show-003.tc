@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>User can access cart page after &quot;add to cart&quot; 2 products</description>
    <name>TC-Cart-Show-003</name>
    <tag></tag>
    <comment></comment>

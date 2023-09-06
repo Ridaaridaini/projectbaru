@@ -33,3 +33,5 @@ WebUI.click(findTestObject('Checkout/input_continue'))
 
 WebUI.click(findTestObject('Checkout/button_Cancel_overview'))
 
+WebUI.verifyElementVisible(findTestObject('Products/title_product'))
+

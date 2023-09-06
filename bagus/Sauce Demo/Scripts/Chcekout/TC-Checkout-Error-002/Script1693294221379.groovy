@@ -29,3 +29,7 @@ WebUI.setText(findTestObject('Checkout/input_Checkout Your Information_postalCod
 
 WebUI.click(findTestObject('Checkout/input_continue'))
 
+error = WebUI.getText(findTestObject('Checkout/error message'))
+
+WebUI.verifyMatch(error, 'Last Name Required', false)
+

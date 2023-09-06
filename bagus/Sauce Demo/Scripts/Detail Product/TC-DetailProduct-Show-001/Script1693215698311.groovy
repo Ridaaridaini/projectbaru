@@ -21,11 +21,21 @@ WebUI.callTestCase(findTestCase('Login/TC-Login-Success-001'), [:], FailureHandl
 
 name_product = WebUI.getText(findTestObject('Keranjang/title_product'))
 
-WebUI.click(findTestObject('Detail Product/title_product'))
+product_price = WebUI.getText(findTestObject('Products/products_price'))
 
-println(name_product)
+description_product = WebUI.getText(findTestObject('Products/description_product'))
+
+WebUI.click(findTestObject('Detail Product/title_product'))
 
 detail_name_product = WebUI.getText(findTestObject('Detail Product/detail_name_product'))
 
+detail_product_price = WebUI.getText(findTestObject('Products/detail_product_price'))
+
+detail_description_product = WebUI.getText(findTestObject('Products/detail_description_product'))
+
 WebUI.verifyMatch(detail_name_product, name_product, false)
+
+WebUI.verifyMatch(detail_product_price, product_price, false)
+
+WebUI.verifyMatch(detail_description_product, description_product, false)
 
