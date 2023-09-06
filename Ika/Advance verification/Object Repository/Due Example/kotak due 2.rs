@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>kotak due 2</name>
+   <tag></tag>
+   <elementGuidId>1e3fec51-e64c-43b3-b1e6-a78439b01277</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='table2']/thead/tr/th[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>th.header.headerSortUp</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>1a529fb6-2695-47b1-ace1-63bdb40618d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header headerSortUp</value>
+      <webElementGuid>47167e3f-8b40-4e78-8083-f76df4d034dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Due</value>
+      <webElementGuid>6a933aaa-ba2e-4587-a099-ed467bb698a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table2&quot;)/thead[1]/tr[1]/th[@class=&quot;header headerSortUp&quot;]</value>
+      <webElementGuid>b0e4a591-0da3-4a2e-b7bb-d9a2a981d8ce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table2']/thead/tr/th[4]</value>
+      <webElementGuid>c2dc9cf0-9552-4af1-aab7-c34571ebbf79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[2]/following::th[1]</value>
+      <webElementGuid>096b0101-b167-480c-b9b3-e97fa61b4848</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[2]/following::th[2]</value>
+      <webElementGuid>75358f39-282c-4611-8d42-238987c0cb5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Web Site'])[2]/preceding::th[1]</value>
+      <webElementGuid>3f6a1bfd-3f77-452b-b96d-f72c74b2789c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[2]/thead/tr/th[4]</value>
+      <webElementGuid>c45c1517-1cb2-41a5-a920-0f7c29ae34ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'Due' or . = 'Due')]</value>
+      <webElementGuid>d8a9b802-d04d-46b7-9d44-6cac3b76b245</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

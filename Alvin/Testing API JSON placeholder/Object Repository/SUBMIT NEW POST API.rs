@@ -38,14 +38,14 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'Musim kemarau panjang jarang hujan, sekalinya hujan masak indomie mantap'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>08f86a38-cb27-4739-9f2d-bd2abb2b7ada</id>
       <masked>false</masked>
       <name>varBody</name>
    </variables>
    <variables>
-      <defaultValue>'Makan indomie pas hujan, enak men!'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>f91f50e0-c3d0-4cda-96d5-4cb671566aff</id>
       <masked>false</masked>

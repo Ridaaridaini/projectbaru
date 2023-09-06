@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Story Test Suite" time="102.155" tests="6" failures="1" errors="0">
+   <testsuite name="Login Story Test Suite" tests="6" failures="1" errors="0" time="102.155" skipped="0" timestamp="2023-08-30 19:53:36" hostname="Aslamadin Alvian Haz - DESKTOP-L5FUI4E" id="Test Suites/Login Story Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_195322\\Login Story Test Suite\\20230830_195322"/>
+         <property name="logFiles" value="C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_195322\\Login Story Test Suite\\20230830_195322\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_195322\\Login Story Test Suite\\20230830_195322\\1693400069132.png, C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_195322\\Login Story Test Suite\\20230830_195322\\1693400078521.png, C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_195322\\Login Story Test Suite\\20230830_195322\\1693400087877.png, C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_195322\\Login Story Test Suite\\20230830_195322\\1693400097266.png"/>
+         <property name="hostName" value="Aslamadin Alvian Haz - DESKTOP-L5FUI4E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Edge Chromium 116"/>
+         <property name="hostAddress" value="192.168.100.28"/>
+         <property name="sessionId" value="494cdbd95c479147a83b2b0006d88938"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC-Login-Success-001" time="19.545" classname="Test Cases/Login/TC-Login-Success-001" status="PASSED">
+         <system-out><![CDATA[2023-08-30 19:53:37 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-30 19:53:38 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:53:39 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 19:53:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 19:53:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:53:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:53:51 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:53:51 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:53:53 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:53:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:53:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:53:54 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:53:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:53:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-30 19:53:56 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC-Login-Locked-001" time="11.18" classname="Test Cases/Login/TC-Login-Locked-001" status="PASSED">
+         <system-out><![CDATA[2023-08-30 19:53:56 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Locked-001: Test Cases/Login/TC-Login-Locked-001
+
+2023-08-30 19:53:57 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:53:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 19:53:58 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 19:54:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 19:54:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:54:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:54:04 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:54:04 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'locked_out_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:54:05 - [MESSAGE][PASSED] - Text 'locked_out_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:54:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:54:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:54:06 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:54:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Error message/Login/Epic sadface Sorry, this user has been locked out"), 5): Object 'Object Repository/Error message/Login/Epic sadface Sorry, this user has been locked out' is present
+
+2023-08-30 19:54:08 - [MESSAGE][PASSED] - Object 'Object Repository/Error message/Login/Epic sadface Sorry, this user has been locked out' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC-Login-Failed-001" time="11.154" classname="Test Cases/Login/TC-Login-Failed-001" status="PASSED">
+         <system-out><![CDATA[2023-08-30 19:54:08 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Failed-001: Test Cases/Login/TC-Login-Failed-001
+
+2023-08-30 19:54:09 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:54:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 19:54:10 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 19:54:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 19:54:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:54:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/button login"), 5): Object 'Object Repository/Login Page Object/button login' is present
+
+2023-08-30 19:54:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/button login' is present
+
+2023-08-30 19:54:15 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'dianty' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:54:16 - [MESSAGE][PASSED] - Text 'dianty' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:54:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:54:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:54:17 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:54:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Error message/Login/Epic sadface Username and password do not match any user in this service"), 5): Object 'Object Repository/Error message/Login/Epic sadface Username and password do not match any user in this service' is present
+
+2023-08-30 19:54:19 - [MESSAGE][PASSED] - Object 'Object Repository/Error message/Login/Epic sadface Username and password do not match any user in this service' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC-Login-Failed-002" time="9.365" classname="Test Cases/Login/TC-Login-Failed-002" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login/TC-Login-Failed-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Login failed! Please ensure the password are valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC-Login-Failed-002.run(TC-Login-Failed-002:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693400002916.run(TempTestSuite1693400002916.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Login failed! Please ensure the password are valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-08-30 19:54:48 - [TEST_CASE][FAILED] - Test Cases/Login/TC-Login-Failed-002: Test Cases/Login/TC-Login-Failed-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Login failed! Please ensure the password are valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC-Login-Failed-002.run(TC-Login-Failed-002:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693400002916.run(TempTestSuite1693400002916.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Login failed! Please ensure the password are valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-08-30 19:54:48 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:54:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 19:54:49 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 19:54:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 19:54:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:54:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:54:55 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-30 19:54:55 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:54:56 - [TEST_STEP][FAILED] - verifyTextPresent("Login failed! Please ensure the password are valid.", false): Unable to verify text 'Login failed! Please ensure the password are valid.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Login failed! Please ensure the password are valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC-Login-Failed-002.run(TC-Login-Failed-002:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693400002916.run(TempTestSuite1693400002916.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Login failed! Please ensure the password are valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2023-08-30 19:54:57 - [MESSAGE][FAILED] - Text 'Login failed! Please ensure the password are valid.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Login failed! Please ensure the password are valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC-Login-Failed-002.run(TC-Login-Failed-002:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693400002916.run(TempTestSuite1693400002916.groovy:36)
+)
+
+2023-08-30 19:54:57 - [MESSAGE][FAILED] - Unable to verify text 'Login failed! Please ensure the password are valid.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Login failed! Please ensure the password are valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC-Login-Failed-002.run(TC-Login-Failed-002:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693400002916.run(TempTestSuite1693400002916.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Login failed! Please ensure the password are valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230830_195322\\Login Story Test Suite\\20230830_195322\\1693400097266.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-30 19:54:48 - [TEST_CASE][FAILED] - Test Cases/Login/TC-Login-Failed-002: Test Cases/Login/TC-Login-Failed-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Login failed! Please ensure the password are valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC-Login-Failed-002.run(TC-Login-Failed-002:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693400002916.run(TempTestSuite1693400002916.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Login failed! Please ensure the password are valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC-Login-Failed-003" time="10.54" classname="Test Cases/Login/TC-Login-Failed-003" status="PASSED">
+         <system-out><![CDATA[2023-08-30 19:54:57 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Failed-003: Test Cases/Login/TC-Login-Failed-003
+
+2023-08-30 19:54:58 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:54:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 19:54:59 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 19:55:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 19:55:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:55:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 0): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:55:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 19:55:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:55:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:55:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-30 19:55:07 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:55:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Error message/Login/Epic sadface Username is required"), 5): Object 'Object Repository/Error message/Login/Epic sadface Username is required' is present
+
+2023-08-30 19:55:08 - [MESSAGE][PASSED] - Object 'Object Repository/Error message/Login/Epic sadface Username is required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC-Login-Failed-004" time="10.548" classname="Test Cases/Login/TC-Login-Failed-004" status="PASSED">
+         <system-out><![CDATA[2023-08-30 19:55:08 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Failed-004: Test Cases/Login/TC-Login-Failed-004
+
+2023-08-30 19:55:09 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:55:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 19:55:11 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-30 19:55:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 19:55:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-30 19:55:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:55:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-30 19:55:17 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-30 19:55:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Error message/Login/Epic sadface Username is required"), 5): Object 'Object Repository/Error message/Login/Epic sadface Username is required' is present
+
+2023-08-30 19:55:18 - [MESSAGE][PASSED] - Object 'Object Repository/Error message/Login/Epic sadface Username is required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-30 19:53:36 - [TEST_SUITE][FAILED] - Login Story Test Suite: Test Cases/Login/TC-Login-Failed-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Login failed! Please ensure the password are valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC-Login-Failed-002.run(TC-Login-Failed-002:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693400002916.run(TempTestSuite1693400002916.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Login failed! Please ensure the password are valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-30 19:53:36 - [TEST_SUITE][FAILED] - Login Story Test Suite: Test Cases/Login/TC-Login-Failed-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Login failed! Please ensure the password are valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC-Login-Failed-002.run(TC-Login-Failed-002:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693400002916.run(TempTestSuite1693400002916.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Login failed! Please ensure the password are valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

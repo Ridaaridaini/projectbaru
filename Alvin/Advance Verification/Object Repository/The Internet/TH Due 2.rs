@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TH Due 2</name>
+   <tag></tag>
+   <elementGuidId>f32ad644-7b9c-4a96-9e41-daea0e3dd88c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//th[@class = 'header headerSortDown']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>th.header.headerSortDown</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='table2']/thead/tr/th[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>31ed3b6b-b2ed-4bd1-a915-bade05a8fbe4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header headerSortDown</value>
+      <webElementGuid>00b4fcf9-93f9-47e5-a208-bf1588bc4053</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Due</value>
+      <webElementGuid>276ed65e-4083-4ff3-9709-32daea65e0e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table2&quot;)/thead[1]/tr[1]/th[@class=&quot;header headerSortDown&quot;]</value>
+      <webElementGuid>851b62f5-44ee-453b-a15e-acedbd6c0b2f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table2']/thead/tr/th[4]</value>
+      <webElementGuid>34c2a486-276c-4b5f-9173-bba442446d6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[2]/following::th[1]</value>
+      <webElementGuid>32ffdbc8-0544-4a77-84f7-ef59ea87e9a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[2]/following::th[2]</value>
+      <webElementGuid>63ead2c8-b3a5-4de0-9f8f-c3d00f3a356e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Web Site'])[2]/preceding::th[1]</value>
+      <webElementGuid>f4e24968-981f-4e9e-ae8b-d5f481fc53f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[2]/thead/tr/th[4]</value>
+      <webElementGuid>6d665173-14f9-41d7-9881-739f20f00f25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'Due' or . = 'Due')]</value>
+      <webElementGuid>9d5a5536-94ba-468d-bc01-bbf3f5fd7721</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

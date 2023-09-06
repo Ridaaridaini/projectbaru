@@ -1,0 +1,1993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Appointment" time="306.513" tests="17" failures="0" errors="0">
+   <testsuite name="Test Suite Appointment" tests="17" failures="0" errors="0" time="306.513" skipped="0" timestamp="2023-08-25 10:38:55" hostname="Admin - Riswandha" id="Test Suites/Test Suite Appointment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Project Xsis\\batch-324-qa\\Riswan\\Cura Heroku App\\Reports\\20230825_103846\\Test Suite Appointment\\20230825_103846"/>
+         <property name="logFiles" value="G:\\Project Xsis\\batch-324-qa\\Riswan\\Cura Heroku App\\Reports\\20230825_103846\\Test Suite Appointment\\20230825_103846\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - Riswandha"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Edge Chromium 115"/>
+         <property name="hostAddress" value="192.168.62.31"/>
+         <property name="sessionId" value="9f5fe84763dc7ce1ed57522f7084d27b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="19.395" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:38:55 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:38:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:38:56 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:38:56 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:38:57 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:38:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:39:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:39:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:39:04 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:39:04 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:39:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:39:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:39:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:39:06 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:39:07 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:39:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:39:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:39:07 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:39:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:39:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:39:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:39:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:39:10 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:39:10 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:39:10 - [TEST_STEP][PASSED] - check(findTestObject("Make Appointment/Checkbox_Apply for hospital readmission")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:39:10 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:39:10 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:39:10 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_Medicare_programs")): Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:39:10 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:39:10 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:39:11 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:39:11 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:39:12 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:39:12 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:39:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:39:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:39:13 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:39:13 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 10:39:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 10:39:14 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:39:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:39:14 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicare'
+
+2023-08-25 10:39:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicare'
+
+2023-08-25 10:39:14 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:39:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:39:15 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:39:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:39:15 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:39:15 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:39:15 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:39:15 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:39:15 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="18.826" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:39:15 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:39:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:39:15 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:39:15 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:39:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:39:16 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:39:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:39:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:39:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:39:23 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:39:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:39:24 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:39:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:39:25 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:39:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:39:26 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:39:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:39:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:39:26 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:39:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:39:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:39:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:39:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:39:29 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:39:29 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:39:29 - [TEST_STEP][PASSED] - check(findTestObject("Make Appointment/Checkbox_Apply for hospital readmission")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:39:29 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:39:29 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): null
+
+2023-08-25 10:39:29 - [TEST_STEP][PASSED] - else if (toString().equalsIgnoreCase("medicaid")): Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:39:29 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_Medicaid_programs")): Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:39:29 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:39:29 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:39:30 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:39:30 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:39:31 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:39:31 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:39:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:39:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:39:32 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:39:32 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 10:39:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 10:39:32 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:39:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:39:33 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicaid'
+
+2023-08-25 10:39:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicaid'
+
+2023-08-25 10:39:33 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:39:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:39:33 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:39:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:39:34 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:39:34 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:39:34 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:39:34 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:39:34 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="17.916" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:39:34 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:39:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:39:34 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:39:34 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:39:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:39:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:39:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:39:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:39:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:39:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:39:41 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:39:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:39:42 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:39:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:39:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:39:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:39:43 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:39:44 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:39:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:39:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:39:44 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:39:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:39:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:39:46 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:39:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:39:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:39:46 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:39:46 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:39:46 - [TEST_STEP][PASSED] - check(findTestObject("Make Appointment/Checkbox_Apply for hospital readmission")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:39:47 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:39:47 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): null
+
+2023-08-25 10:39:47 - [TEST_STEP][PASSED] - else if (toString().equalsIgnoreCase("medicaid")): null
+
+2023-08-25 10:39:47 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Make Appointment/Radio_None_programs' is checked
+
+2023-08-25 10:39:47 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_None_programs")): Object 'Object Repository/Make Appointment/Radio_None_programs' is checked
+
+2023-08-25 10:39:47 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_None_programs' is checked
+
+2023-08-25 10:39:47 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:39:48 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:39:48 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:39:49 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:39:49 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:39:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:39:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:39:50 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:39:50 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 10:39:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 10:39:50 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:39:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:39:51 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'None'
+
+2023-08-25 10:39:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'None'
+
+2023-08-25 10:39:51 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:39:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:39:51 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:39:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:39:52 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:39:52 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:39:52 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:39:52 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:39:52 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="17.596" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:39:52 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:39:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:39:52 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:39:52 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:39:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:39:53 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:39:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:39:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:39:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:39:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:39:59 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:40:00 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:40:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:40:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:40:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:40:02 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:40:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:40:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:40:02 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:40:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:40:04 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:40:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:40:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:40:04 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:40:04 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): null
+
+2023-08-25 10:40:04 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:40:04 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_Medicare_programs")): Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:40:05 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:40:05 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:40:06 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:40:06 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:40:06 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:40:06 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:40:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:40:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:40:08 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:40:08 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 10:40:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 10:40:08 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:40:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:40:08 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicare'
+
+2023-08-25 10:40:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicare'
+
+2023-08-25 10:40:09 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:40:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:40:09 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:40:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:40:09 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:40:09 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:40:09 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:40:09 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:40:09 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="17.679" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:40:09 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:40:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:40:09 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:40:09 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:40:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:40:10 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:40:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:40:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:40:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:40:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:40:17 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:40:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:40:17 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:40:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:40:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:40:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:40:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:40:20 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:40:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:40:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:40:20 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:40:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:40:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:40:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:40:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:40:22 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:40:22 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): null
+
+2023-08-25 10:40:22 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): null
+
+2023-08-25 10:40:22 - [TEST_STEP][PASSED] - else if (toString().equalsIgnoreCase("medicaid")): Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:40:22 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_Medicaid_programs")): Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:40:23 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:40:23 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:40:23 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:40:24 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:40:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:40:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:40:25 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:40:25 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 10:40:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 10:40:26 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:40:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:40:26 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicaid'
+
+2023-08-25 10:40:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicaid'
+
+2023-08-25 10:40:26 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:40:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:40:27 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:40:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:40:27 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:40:27 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:40:27 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:40:27 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:40:27 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="17.675" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:40:27 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:40:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:40:27 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:40:27 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:40:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:40:28 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:40:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:40:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:40:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:40:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:40:35 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:40:35 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:40:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:40:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:40:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:40:37 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:40:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:40:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:40:38 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:40:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:40:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:40:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:40:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:40:40 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:40:40 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): null
+
+2023-08-25 10:40:40 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): null
+
+2023-08-25 10:40:40 - [TEST_STEP][PASSED] - else if (toString().equalsIgnoreCase("medicaid")): null
+
+2023-08-25 10:40:40 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Make Appointment/Radio_None_programs' is checked
+
+2023-08-25 10:40:40 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_None_programs")): Object 'Object Repository/Make Appointment/Radio_None_programs' is checked
+
+2023-08-25 10:40:40 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_None_programs' is checked
+
+2023-08-25 10:40:40 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:40:41 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:40:41 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:40:42 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:40:42 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:40:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:40:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:40:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:40:43 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:40:43 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 10:40:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Tokyo CURA Healthcare Center'
+
+2023-08-25 10:40:43 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:40:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:40:44 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'None'
+
+2023-08-25 10:40:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'None'
+
+2023-08-25 10:40:44 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:40:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:40:44 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:40:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:40:45 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:40:45 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:40:45 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:40:45 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:40:45 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="18.867" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:40:45 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:40:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:40:45 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:40:45 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:40:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:40:46 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:40:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:40:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:40:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:40:52 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:40:52 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:40:53 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:40:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:40:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:40:55 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:40:55 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:40:55 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:40:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:40:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:40:56 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:40:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:40:57 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:40:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:40:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:40:58 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:40:58 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:40:58 - [TEST_STEP][PASSED] - check(findTestObject("Make Appointment/Checkbox_Apply for hospital readmission")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:40:59 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:40:59 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:40:59 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_Medicare_programs")): Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:40:59 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:40:59 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:41:00 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:41:00 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:41:01 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:41:01 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:41:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:41:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:41:02 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:41:02 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Hongkong CURA Healthcare Center'
+
+2023-08-25 10:41:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Hongkong CURA Healthcare Center'
+
+2023-08-25 10:41:02 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:41:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:41:03 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicare'
+
+2023-08-25 10:41:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicare'
+
+2023-08-25 10:41:03 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:41:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:41:03 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:41:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:41:04 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:41:04 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:41:04 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:41:04 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:41:04 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="18.551" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:41:04 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:41:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:41:04 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:41:04 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:41:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:41:05 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:41:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:41:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:41:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:41:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:41:12 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:41:12 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:41:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:41:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:41:14 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:41:14 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:41:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:41:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:41:15 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:41:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:41:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:41:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:41:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:41:17 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:41:17 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:41:17 - [TEST_STEP][PASSED] - check(findTestObject("Make Appointment/Checkbox_Apply for hospital readmission")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:41:17 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:41:17 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): null
+
+2023-08-25 10:41:17 - [TEST_STEP][PASSED] - else if (toString().equalsIgnoreCase("medicaid")): Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:41:17 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_Medicaid_programs")): Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:41:18 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:41:18 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:41:19 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:41:19 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:41:19 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:41:19 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:41:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:41:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:41:21 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:41:21 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Hongkong CURA Healthcare Center'
+
+2023-08-25 10:41:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Hongkong CURA Healthcare Center'
+
+2023-08-25 10:41:21 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:41:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:41:21 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicaid'
+
+2023-08-25 10:41:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicaid'
+
+2023-08-25 10:41:22 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:41:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:41:22 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:41:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:41:22 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:41:22 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:41:22 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:41:22 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:41:22 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="17.75" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:41:22 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:41:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:41:22 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:41:22 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:41:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:41:23 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:41:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:41:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:41:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:41:30 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:41:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:41:32 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:41:32 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:41:32 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:41:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:41:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:41:33 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:41:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:41:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:41:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:41:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:41:35 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:41:35 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:41:35 - [TEST_STEP][PASSED] - check(findTestObject("Make Appointment/Checkbox_Apply for hospital readmission")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:41:35 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:41:35 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): null
+
+2023-08-25 10:41:35 - [TEST_STEP][PASSED] - else if (toString().equalsIgnoreCase("medicaid")): null
+
+2023-08-25 10:41:35 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Make Appointment/Radio_None_programs' is checked
+
+2023-08-25 10:41:35 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_None_programs")): Object 'Object Repository/Make Appointment/Radio_None_programs' is checked
+
+2023-08-25 10:41:36 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_None_programs' is checked
+
+2023-08-25 10:41:36 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:41:36 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:41:36 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:41:37 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:41:37 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:41:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:41:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:41:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:41:38 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:41:38 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Hongkong CURA Healthcare Center'
+
+2023-08-25 10:41:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Hongkong CURA Healthcare Center'
+
+2023-08-25 10:41:39 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:41:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:41:39 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'None'
+
+2023-08-25 10:41:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'None'
+
+2023-08-25 10:41:39 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:41:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:41:40 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:41:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:41:40 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:41:40 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:41:40 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:41:40 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:41:40 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="17.96" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:41:40 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:41:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:41:40 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:41:40 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:41:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:41:41 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:41:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:41:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:41:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:41:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:41:47 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:41:48 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:41:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:41:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:41:50 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:41:51 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:41:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:41:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:41:51 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:41:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:41:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:41:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:41:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:41:53 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:41:53 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): null
+
+2023-08-25 10:41:53 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:41:53 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_Medicare_programs")): Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:41:54 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:41:54 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:41:54 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:41:55 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:41:55 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:41:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:41:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:41:56 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:41:56 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Hongkong CURA Healthcare Center'
+
+2023-08-25 10:41:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Hongkong CURA Healthcare Center'
+
+2023-08-25 10:41:57 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:41:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:41:57 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicare'
+
+2023-08-25 10:41:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicare'
+
+2023-08-25 10:41:57 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:41:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:41:58 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:41:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:41:58 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:41:58 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:41:58 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:41:58 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:41:58 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="17.32" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:41:58 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:41:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:41:58 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:41:58 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:41:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:41:59 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:42:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:42:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:42:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:42:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:42:05 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:42:06 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:42:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:42:08 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:42:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:42:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:42:08 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:42:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:42:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:42:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:42:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:42:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:42:11 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:42:11 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): null
+
+2023-08-25 10:42:11 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): null
+
+2023-08-25 10:42:11 - [TEST_STEP][PASSED] - else if (toString().equalsIgnoreCase("medicaid")): Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:42:11 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_Medicaid_programs")): Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:42:11 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:42:11 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:42:12 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:42:12 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:42:13 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:42:13 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:42:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:42:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:42:14 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:42:14 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Hongkong CURA Healthcare Center'
+
+2023-08-25 10:42:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Hongkong CURA Healthcare Center'
+
+2023-08-25 10:42:14 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:42:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:42:14 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicaid'
+
+2023-08-25 10:42:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicaid'
+
+2023-08-25 10:42:15 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:42:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:42:15 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:42:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:42:15 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:42:15 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:42:15 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:42:15 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:42:15 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="17.763" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:42:15 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:42:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:42:15 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:42:15 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:42:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:42:16 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:42:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:42:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:42:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:42:23 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:42:23 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:42:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:42:23 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:42:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:42:25 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:42:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:42:25 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:42:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:42:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:42:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:42:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:42:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:42:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:42:28 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:42:28 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:42:28 - [TEST_STEP][PASSED] - check(findTestObject("Make Appointment/Checkbox_Apply for hospital readmission")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:42:28 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:42:28 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:42:28 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_Medicare_programs")): Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:42:29 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:42:29 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:42:29 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:42:29 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:42:30 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:42:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:42:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:42:32 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:42:32 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Seoul CURA Healthcare Center'
+
+2023-08-25 10:42:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Seoul CURA Healthcare Center'
+
+2023-08-25 10:42:32 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:42:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:42:32 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicare'
+
+2023-08-25 10:42:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicare'
+
+2023-08-25 10:42:32 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:42:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:42:33 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:42:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:42:33 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:42:33 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:42:33 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:42:33 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:42:33 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="17.646" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:42:33 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:42:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:42:33 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:42:33 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:42:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:42:34 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:42:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:42:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:42:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:42:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:42:41 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:42:41 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:42:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:42:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:42:43 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:42:43 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:42:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:42:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:42:44 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:42:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:42:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:42:45 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:42:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:42:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:42:46 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:42:46 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:42:46 - [TEST_STEP][PASSED] - check(findTestObject("Make Appointment/Checkbox_Apply for hospital readmission")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:42:46 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:42:46 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): null
+
+2023-08-25 10:42:46 - [TEST_STEP][PASSED] - else if (toString().equalsIgnoreCase("medicaid")): Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:42:46 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_Medicaid_programs")): Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:42:46 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:42:46 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:42:47 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:42:47 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:42:48 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:42:48 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:42:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:42:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:42:49 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:42:49 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Seoul CURA Healthcare Center'
+
+2023-08-25 10:42:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Seoul CURA Healthcare Center'
+
+2023-08-25 10:42:49 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:42:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:42:50 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicaid'
+
+2023-08-25 10:42:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicaid'
+
+2023-08-25 10:42:50 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:42:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:42:50 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:42:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:42:51 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:42:51 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:42:51 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:42:51 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:42:51 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="17.52" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:42:51 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:42:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:42:51 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:42:51 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:42:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:42:52 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:42:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:42:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:42:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:42:58 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:42:58 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:42:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:42:58 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:42:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:42:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:43:00 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:43:00 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:43:01 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:43:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:43:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:43:01 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:43:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:43:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:43:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:43:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:43:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:43:03 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:43:03 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:43:03 - [TEST_STEP][PASSED] - check(findTestObject("Make Appointment/Checkbox_Apply for hospital readmission")): Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:43:04 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Checkbox_Apply for hospital readmission' is checked
+
+2023-08-25 10:43:04 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): null
+
+2023-08-25 10:43:04 - [TEST_STEP][PASSED] - else if (toString().equalsIgnoreCase("medicaid")): null
+
+2023-08-25 10:43:04 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Make Appointment/Radio_None_programs' is checked
+
+2023-08-25 10:43:04 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_None_programs")): Object 'Object Repository/Make Appointment/Radio_None_programs' is checked
+
+2023-08-25 10:43:04 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_None_programs' is checked
+
+2023-08-25 10:43:04 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:43:05 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:43:05 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:43:05 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:43:05 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:43:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:43:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:43:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:43:07 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:43:07 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Seoul CURA Healthcare Center'
+
+2023-08-25 10:43:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Seoul CURA Healthcare Center'
+
+2023-08-25 10:43:07 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:43:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'Yes'
+
+2023-08-25 10:43:07 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'None'
+
+2023-08-25 10:43:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'None'
+
+2023-08-25 10:43:08 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:43:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:43:08 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:43:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:43:08 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:43:08 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:43:08 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:43:08 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:43:08 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="17.285" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:43:08 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:43:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:43:08 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:43:08 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:43:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:43:09 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:43:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:43:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:43:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:43:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:43:16 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:43:16 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:43:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:43:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:43:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:43:18 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:43:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:43:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:43:19 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:43:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:43:20 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:43:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:43:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:43:21 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:43:21 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): null
+
+2023-08-25 10:43:21 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:43:21 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_Medicare_programs")): Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:43:21 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_Medicare_programs' is checked
+
+2023-08-25 10:43:21 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:43:22 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:43:22 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:43:23 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:43:23 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:43:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:43:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:43:24 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:43:24 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Seoul CURA Healthcare Center'
+
+2023-08-25 10:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Seoul CURA Healthcare Center'
+
+2023-08-25 10:43:24 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:43:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:43:25 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicare'
+
+2023-08-25 10:43:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicare'
+
+2023-08-25 10:43:25 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:43:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:43:25 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:43:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:43:26 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:43:26 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:43:26 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:43:26 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:43:26 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="17.621" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:43:26 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:43:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:43:26 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:43:26 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:43:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:43:26 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:43:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:43:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:43:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:43:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:43:33 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:43:34 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:43:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:43:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:43:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:43:36 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:43:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:43:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:43:36 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:43:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:43:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:43:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:43:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:43:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:43:38 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:43:38 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): null
+
+2023-08-25 10:43:38 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): null
+
+2023-08-25 10:43:38 - [TEST_STEP][PASSED] - else if (toString().equalsIgnoreCase("medicaid")): Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:43:38 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_Medicaid_programs")): Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:43:39 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_Medicaid_programs' is checked
+
+2023-08-25 10:43:39 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:43:40 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:43:40 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:43:40 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:43:40 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:43:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:43:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:43:42 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:43:42 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Seoul CURA Healthcare Center'
+
+2023-08-25 10:43:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Seoul CURA Healthcare Center'
+
+2023-08-25 10:43:42 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:43:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:43:42 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicaid'
+
+2023-08-25 10:43:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'Medicaid'
+
+2023-08-25 10:43:43 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:43:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:43:43 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:43:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:43:43 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:43:43 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:43:43 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:43:43 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:43:43 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment/Test Case 2.1(versi dinamis)" time="18.378" classname="Test Cases/Appointment/Test Case 2.1(versi dinamis)" status="PASSED">
+         <system-out><![CDATA[2023-08-25 10:43:43 - [TEST_CASE][PASSED] - Test Cases/Appointment/Test Case 2.1(versi dinamis): Test Cases/Appointment/Test Case 2.1(versi dinamis)
+
+2023-08-25 10:43:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Test Case 1.1(Manual)"), ["username":username, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:43:43 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case 1.1(Manual): Test Cases/Login/Test Case 1.1(Manual)
+
+2023-08-25 10:43:43 - [TEST_STEP][PASSED] - openBrowser(WEB_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:43:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-25 10:43:44 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-25 10:43:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-25 10:43:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-08-25 10:43:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Home_Page"), 10): Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:43:51 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Home_Page' is present
+
+2023-08-25 10:43:51 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Burger")): Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Burger' is clicked on
+
+2023-08-25 10:43:52 - [TEST_STEP][PASSED] - click(findTestObject("Login/Menu Login")): Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Menu Login' is clicked on
+
+2023-08-25 10:43:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title Login"), 10): Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:43:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title Login' is present
+
+2023-08-25 10:43:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username_Login"), username): Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:43:54 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/input_Username_Login'
+
+2023-08-25 10:43:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_Login"), password): Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:43:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_Login'
+
+2023-08-25 10:43:55 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-08-25 10:43:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Title_Make Appointment"), 10): Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:43:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Title_Make Appointment' is present
+
+2023-08-25 10:43:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test Case 1.1(Manual)' successfully
+
+2023-08-25 10:43:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Make Appointment/Select Drop down Facility"), facility, false): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:43:57 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/Select Drop down Facility' 
+
+2023-08-25 10:43:57 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("yes")): null
+
+2023-08-25 10:43:57 - [TEST_STEP][PASSED] - if (toString().equalsIgnoreCase("medicare")): null
+
+2023-08-25 10:43:57 - [TEST_STEP][PASSED] - else if (toString().equalsIgnoreCase("medicaid")): null
+
+2023-08-25 10:43:57 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Make Appointment/Radio_None_programs' is checked
+
+2023-08-25 10:43:57 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Make Appointment/Radio_None_programs")): Object 'Object Repository/Make Appointment/Radio_None_programs' is checked
+
+2023-08-25 10:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Radio_None_programs' is checked
+
+2023-08-25 10:43:57 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/input_Visit Date"), visit_date): Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:43:58 - [MESSAGE][PASSED] - Text '23/08/2023' is set on object 'Object Repository/Make Appointment/input_Visit Date'
+
+2023-08-25 10:43:58 - [TEST_STEP][PASSED] - setText(findTestObject("Make Appointment/textarea_Comment"), comment): Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:43:59 - [MESSAGE][PASSED] - Text 'Saya Pesan' is set on object 'Object Repository/Make Appointment/textarea_Comment'
+
+2023-08-25 10:43:59 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-08-25 10:44:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Make Appointment/Title_Appointment Confirmation"), 0): Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:44:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-25 10:44:00 - [MESSAGE][PASSED] - Object 'Object Repository/Make Appointment/Title_Appointment Confirmation' is present
+
+2023-08-25 10:44:00 - [TEST_STEP][PASSED] - hasilFacility = getText(findTestObject("Make Appointment/Hasil Facility")): Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Seoul CURA Healthcare Center'
+
+2023-08-25 10:44:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Facility' is: 'Seoul CURA Healthcare Center'
+
+2023-08-25 10:44:00 - [TEST_STEP][PASSED] - hasilReadmission = getText(findTestObject("Make Appointment/Hasil Hospital Readmission")): Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:44:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil Hospital Readmission' is: 'No'
+
+2023-08-25 10:44:01 - [TEST_STEP][PASSED] - hasilHealthCare = getText(findTestObject("Make Appointment/hasil healthcare program")): Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'None'
+
+2023-08-25 10:44:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil healthcare program' is: 'None'
+
+2023-08-25 10:44:01 - [TEST_STEP][PASSED] - hasilVisitDate = getText(findTestObject("Make Appointment/Hasil visit date")): Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:44:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/Hasil visit date' is: '23/08/2023'
+
+2023-08-25 10:44:01 - [TEST_STEP][PASSED] - hasilComment = getText(findTestObject("Make Appointment/hasil comment")): Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:44:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Make Appointment/hasil comment' is: 'Saya Pesan'
+
+2023-08-25 10:44:02 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(facility.trim()): null
+
+2023-08-25 10:44:02 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(hospital_readmission.trim()): null
+
+2023-08-25 10:44:02 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(health_care_program.trim()): null
+
+2023-08-25 10:44:02 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(visit_date.trim()): null
+
+2023-08-25 10:44:02 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(comment.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-25 10:38:55 - [TEST_SUITE][PASSED] - Test Suite Appointment: Test Cases/Appointment/Test Case 2.1(versi dinamis)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

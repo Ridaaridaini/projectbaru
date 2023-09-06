@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin mengurutkan nama produk dari A ke Z</description>
+   <name>TC-Product-Sort-001</name>
+   <tag>Product</tag>
+   <comment></comment>
+   <testCaseGuid>1c343b52-b3c9-4307-b672-e473624e87cf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b41b1fd9-15fa-4bc3-88bd-43ee6531e653</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'az'</defaultValue>
+      <description>ascending: az; descending: za; low to high: lohi; high to low: hilo </description>
+      <id>b41b1fd9-15fa-4bc3-88bd-43ee6531e653</id>
+      <masked>false</masked>
+      <name>option</name>
+   </variable>
+</TestCaseEntity>

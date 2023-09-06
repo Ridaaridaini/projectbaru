@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Test Suite Appointment</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>03989210-e270-4dd9-a612-45b8b06cb4c5</testSuiteGuid>
+   <testCaseLink>
+      <guid>2b018591-9188-4a55-bb3b-0599521a5ee1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Appointment/Test Case 2.1 (dinamis)</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>dc475aab-525d-4361-8931-dfd15b49326d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data Appointment</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>42accaaf-7403-4b8c-bf95-0670caf0693d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d56c5879-212c-4cca-9cdc-e0aa3892a3d7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dc475aab-525d-4361-8931-dfd15b49326d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>facility</value>
+         <variableId>bf00962c-2228-496a-a4bb-a6c202888b67</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dc475aab-525d-4361-8931-dfd15b49326d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>readmission</value>
+         <variableId>55701612-c6cf-4a62-af73-6ae090094aeb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dc475aab-525d-4361-8931-dfd15b49326d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>program</value>
+         <variableId>820ee9ce-552b-4aa2-acb8-4c1588561add</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dc475aab-525d-4361-8931-dfd15b49326d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>date</value>
+         <variableId>69894289-d0c8-4dda-a24c-72714eb85d0c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dc475aab-525d-4361-8931-dfd15b49326d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>comment</value>
+         <variableId>28ebdaa1-4e47-4d08-aa2b-18a4d7239e99</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

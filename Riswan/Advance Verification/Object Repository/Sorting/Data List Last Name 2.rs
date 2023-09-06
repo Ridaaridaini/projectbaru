@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Data List Last Name 2</name>
+   <tag></tag>
+   <elementGuidId>3f9efff7-5627-466f-9b4c-e6d975fc2398</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='table2']/tbody/tr/td[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.last-name</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>b396fd5a-1b1d-4727-bc7b-bb76426a741f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>last-name</value>
+      <webElementGuid>4d3c5c10-01f4-47cd-a505-67767fd380b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bach</value>
+      <webElementGuid>0fa82e28-318d-4795-adf8-8466c9067cbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table2&quot;)/tbody[1]/tr[1]/td[@class=&quot;last-name&quot;]</value>
+      <webElementGuid>23086fda-286f-47a3-a2a1-8b672a31956d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table2']/tbody/tr/td</value>
+      <webElementGuid>8defaab8-f677-4923-b395-679063e7962e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[2]/following::td[1]</value>
+      <webElementGuid>a014d0ce-d140-4b18-bd57-060bac33c74a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Web Site'])[2]/following::td[1]</value>
+      <webElementGuid>54b359d1-9618-4b90-96f5-caa660d4f9d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Frank'])[2]/preceding::td[1]</value>
+      <webElementGuid>273c0b4b-0593-49e9-b6d2-1abf52c85f30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='fbach@yahoo.com'])[2]/preceding::td[2]</value>
+      <webElementGuid>b4e5945d-e8ca-4b80-b429-830d3de37b0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[2]/tbody/tr/td</value>
+      <webElementGuid>7b7db631-2897-48ba-99fb-62087ccfe4e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Bach' or . = 'Bach')]</value>
+      <webElementGuid>5560e7f0-d4f9-4b80-8bd9-363368d392b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

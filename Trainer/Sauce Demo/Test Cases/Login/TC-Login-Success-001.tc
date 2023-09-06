@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User memasukkan username dan password yang valid</description>
+   <name>TC-Login-Success-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>773b5476-ea67-4d42-88f5-0e7351c440cf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea27041e-2898-4185-8a1b-e20c8156a205</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>57fab95f-61b9-4c4e-aa7d-f1a6300cc634</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>ea27041e-2898-4185-8a1b-e20c8156a205</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>57fab95f-61b9-4c4e-aa7d-f1a6300cc634</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

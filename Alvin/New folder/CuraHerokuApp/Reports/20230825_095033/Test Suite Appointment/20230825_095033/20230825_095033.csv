@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Appointment,Edge Chromium 116,,,2023-08-25 09:50:48,2023-08-25 09:52:07,1m - 19.177s,PASSED
+,,,,,,,
+Test Cases/Appointment/Test Case 2.1 (dinamis),Edge Chromium 116,Test Case ketika user membuat appointment dengan data yang valid,,2023-08-25 09:50:49,2023-08-25 09:51:20,31.062s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Script)""), [""username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-25 09:50:50,2023-08-25 09:51:11,21.208s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/select_facility""), facility, false)",Edge Chromium 116,,,2023-08-25 09:51:11,2023-08-25 09:51:12,0.968s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 116,,,2023-08-25 09:51:12,2023-08-25 09:51:13,0.635s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 116,,,2023-08-25 09:51:13,2023-08-25 09:51:13,0.016s,PASSED
+"else if (toString().equalsIgnoreCase(""medicaid""))",Edge Chromium 116,,,2023-08-25 09:51:13,2023-08-25 09:51:14,0.658s,PASSED
+"setText(findTestObject(""Make Appointment/visit_date_appointment""), date)",Edge Chromium 116,,,2023-08-25 09:51:14,2023-08-25 09:51:15,1.117s,PASSED
+"setText(findTestObject(""Make Appointment/comment_appointment""), comment)",Edge Chromium 116,,,2023-08-25 09:51:15,2023-08-25 09:51:16,0.981s,PASSED
+"click(findTestObject(""Make Appointment/button_book_appointment""))",Edge Chromium 116,,,2023-08-25 09:51:16,2023-08-25 09:51:17,1.123s,PASSED
+"verifyElementPresent(findTestObject(""Make Appointment/verify_appointment_confirmation""), 10)",Edge Chromium 116,,,2023-08-25 09:51:17,2023-08-25 09:51:17,0.475s,PASSED
+"hasilFacility = getText(findTestObject(""Object Repository/Make Appointment/hasil_facility""))",Edge Chromium 116,,,2023-08-25 09:51:17,2023-08-25 09:51:18,0.501s,PASSED
+"hasilReadmission = getText(findTestObject(""Object Repository/Make Appointment/hasil_readmission""))",Edge Chromium 116,,,2023-08-25 09:51:18,2023-08-25 09:51:18,0.453s,PASSED
+"hasilProgram = getText(findTestObject(""Object Repository/Make Appointment/hasil_program""))",Edge Chromium 116,,,2023-08-25 09:51:18,2023-08-25 09:51:19,0.499s,PASSED
+"hasilDate = getText(findTestObject(""Make Appointment/hasil_visit_date""))",Edge Chromium 116,,,2023-08-25 09:51:19,2023-08-25 09:51:19,0.490s,PASSED
+"hasilComment = getText(findTestObject(""Make Appointment/hasil_comment""))",Edge Chromium 116,,,2023-08-25 09:51:19,2023-08-25 09:51:20,0.455s,PASSED
+assert toString().equalsIgnoreCase(facility),Edge Chromium 116,,,2023-08-25 09:51:20,2023-08-25 09:51:20,0.005s,PASSED
+assert toString().equalsIgnoreCase(readmission),Edge Chromium 116,,,2023-08-25 09:51:20,2023-08-25 09:51:20,0.001s,PASSED
+assert toString().equalsIgnoreCase(healthcare_program),Edge Chromium 116,,,2023-08-25 09:51:20,2023-08-25 09:51:20,0.001s,PASSED
+assert toString().equalsIgnoreCase(date),Edge Chromium 116,,,2023-08-25 09:51:20,2023-08-25 09:51:20,0.001s,PASSED
+assert toString().equalsIgnoreCase(comment),Edge Chromium 116,,,2023-08-25 09:51:20,2023-08-25 09:51:20,0.001s,PASSED
+,,,,,,,
+Test Cases/Appointment/Test Case 2.1 (dinamis),Edge Chromium 116,Test Case ketika user membuat appointment dengan data yang valid,,2023-08-25 09:51:20,2023-08-25 09:51:43,22.595s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Script)""), [""username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-25 09:51:20,2023-08-25 09:51:35,15.185s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/select_facility""), facility, false)",Edge Chromium 116,,,2023-08-25 09:51:35,2023-08-25 09:51:36,0.814s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 116,,,2023-08-25 09:51:36,2023-08-25 09:51:36,0.000s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 116,,,2023-08-25 09:51:36,2023-08-25 09:51:37,0.464s,PASSED
+"setText(findTestObject(""Make Appointment/visit_date_appointment""), date)",Edge Chromium 116,,,2023-08-25 09:51:37,2023-08-25 09:51:38,1.096s,PASSED
+"setText(findTestObject(""Make Appointment/comment_appointment""), comment)",Edge Chromium 116,,,2023-08-25 09:51:38,2023-08-25 09:51:39,0.976s,PASSED
+"click(findTestObject(""Make Appointment/button_book_appointment""))",Edge Chromium 116,,,2023-08-25 09:51:39,2023-08-25 09:51:40,1.145s,PASSED
+"verifyElementPresent(findTestObject(""Make Appointment/verify_appointment_confirmation""), 10)",Edge Chromium 116,,,2023-08-25 09:51:40,2023-08-25 09:51:40,0.471s,PASSED
+"hasilFacility = getText(findTestObject(""Object Repository/Make Appointment/hasil_facility""))",Edge Chromium 116,,,2023-08-25 09:51:40,2023-08-25 09:51:41,0.488s,PASSED
+"hasilReadmission = getText(findTestObject(""Object Repository/Make Appointment/hasil_readmission""))",Edge Chromium 116,,,2023-08-25 09:51:41,2023-08-25 09:51:41,0.479s,PASSED
+"hasilProgram = getText(findTestObject(""Object Repository/Make Appointment/hasil_program""))",Edge Chromium 116,,,2023-08-25 09:51:41,2023-08-25 09:51:42,0.448s,PASSED
+"hasilDate = getText(findTestObject(""Make Appointment/hasil_visit_date""))",Edge Chromium 116,,,2023-08-25 09:51:42,2023-08-25 09:51:42,0.471s,PASSED
+"hasilComment = getText(findTestObject(""Make Appointment/hasil_comment""))",Edge Chromium 116,,,2023-08-25 09:51:42,2023-08-25 09:51:43,0.440s,PASSED
+assert toString().equalsIgnoreCase(facility),Edge Chromium 116,,,2023-08-25 09:51:43,2023-08-25 09:51:43,0.001s,PASSED
+assert toString().equalsIgnoreCase(readmission),Edge Chromium 116,,,2023-08-25 09:51:43,2023-08-25 09:51:43,0.001s,PASSED
+assert toString().equalsIgnoreCase(healthcare_program),Edge Chromium 116,,,2023-08-25 09:51:43,2023-08-25 09:51:43,0.001s,PASSED
+assert toString().equalsIgnoreCase(date),Edge Chromium 116,,,2023-08-25 09:51:43,2023-08-25 09:51:43,0.001s,PASSED
+assert toString().equalsIgnoreCase(comment),Edge Chromium 116,,,2023-08-25 09:51:43,2023-08-25 09:51:43,0.001s,PASSED
+,,,,,,,
+Test Cases/Appointment/Test Case 2.1 (dinamis),Edge Chromium 116,Test Case ketika user membuat appointment dengan data yang valid,,2023-08-25 09:51:43,2023-08-25 09:52:07,24.111s,PASSED
+"callTestCase(findTestCase(""Login/Test Case 1.1 (Script)""), [""username"":username, ""password"":password], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-25 09:51:43,2023-08-25 09:51:58,15.634s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment/select_facility""), facility, false)",Edge Chromium 116,,,2023-08-25 09:51:58,2023-08-25 09:51:59,0.882s,PASSED
+"if (toString().equalsIgnoreCase(""yes""))",Edge Chromium 116,,,2023-08-25 09:51:59,2023-08-25 09:51:59,0.001s,PASSED
+"if (toString().equalsIgnoreCase(""medicare""))",Edge Chromium 116,,,2023-08-25 09:51:59,2023-08-25 09:52:00,0.507s,PASSED
+"setText(findTestObject(""Make Appointment/visit_date_appointment""), date)",Edge Chromium 116,,,2023-08-25 09:52:00,2023-08-25 09:52:01,1.055s,PASSED
+"setText(findTestObject(""Make Appointment/comment_appointment""), comment)",Edge Chromium 116,,,2023-08-25 09:52:01,2023-08-25 09:52:02,0.983s,PASSED
+"click(findTestObject(""Make Appointment/button_book_appointment""))",Edge Chromium 116,,,2023-08-25 09:52:02,2023-08-25 09:52:03,1.208s,PASSED
+"verifyElementPresent(findTestObject(""Make Appointment/verify_appointment_confirmation""), 10)",Edge Chromium 116,,,2023-08-25 09:52:03,2023-08-25 09:52:05,1.543s,PASSED
+"hasilFacility = getText(findTestObject(""Object Repository/Make Appointment/hasil_facility""))",Edge Chromium 116,,,2023-08-25 09:52:05,2023-08-25 09:52:05,0.456s,PASSED
+"hasilReadmission = getText(findTestObject(""Object Repository/Make Appointment/hasil_readmission""))",Edge Chromium 116,,,2023-08-25 09:52:05,2023-08-25 09:52:06,0.435s,PASSED
+"hasilProgram = getText(findTestObject(""Object Repository/Make Appointment/hasil_program""))",Edge Chromium 116,,,2023-08-25 09:52:06,2023-08-25 09:52:06,0.435s,PASSED
+"hasilDate = getText(findTestObject(""Make Appointment/hasil_visit_date""))",Edge Chromium 116,,,2023-08-25 09:52:06,2023-08-25 09:52:06,0.424s,PASSED
+"hasilComment = getText(findTestObject(""Make Appointment/hasil_comment""))",Edge Chromium 116,,,2023-08-25 09:52:06,2023-08-25 09:52:07,0.436s,PASSED
+assert toString().equalsIgnoreCase(facility),Edge Chromium 116,,,2023-08-25 09:52:07,2023-08-25 09:52:07,0.001s,PASSED
+assert toString().equalsIgnoreCase(readmission),Edge Chromium 116,,,2023-08-25 09:52:07,2023-08-25 09:52:07,0.000s,PASSED
+assert toString().equalsIgnoreCase(healthcare_program),Edge Chromium 116,,,2023-08-25 09:52:07,2023-08-25 09:52:07,0.001s,PASSED
+assert toString().equalsIgnoreCase(date),Edge Chromium 116,,,2023-08-25 09:52:07,2023-08-25 09:52:07,0.001s,PASSED
+assert toString().equalsIgnoreCase(comment),Edge Chromium 116,,,2023-08-25 09:52:07,2023-08-25 09:52:07,0.000s,PASSED

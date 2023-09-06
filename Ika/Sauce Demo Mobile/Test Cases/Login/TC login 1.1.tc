@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user  login dengan detail yang valid.</description>
+   <name>TC login 1.1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c21819ed-b5d9-4562-9190-142dfc44c10b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Melakukan Checkout 2 barang</description>
+   <name>TC-Checkout-Success-002</name>
+   <tag>Checkout</tag>
+   <comment></comment>
+   <testCaseGuid>5973761f-f2af-41d3-9dce-945ca069a1a4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d6ed8304-364d-404a-b7d3-0351d9b930e2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05093386-864a-4e0c-a60a-819789f0f69e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51d42add-0cb6-41b1-854d-ce8c66f0da78</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Joko'</defaultValue>
+      <description></description>
+      <id>d6ed8304-364d-404a-b7d3-0351d9b930e2</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Widodo'</defaultValue>
+      <description></description>
+      <id>05093386-864a-4e0c-a60a-819789f0f69e</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345'</defaultValue>
+      <description></description>
+      <id>51d42add-0cb6-41b1-854d-ce8c66f0da78</id>
+      <masked>false</masked>
+      <name>postalCode</name>
+   </variable>
+</TestCaseEntity>

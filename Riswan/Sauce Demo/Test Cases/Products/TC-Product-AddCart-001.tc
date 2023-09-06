@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin menambahkan 1 product ke dalam keranjang</description>
+   <name>TC-Product-AddCart-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5030801e-3314-4a2d-aa21-2913aaca6799</testCaseGuid>
+</TestCaseEntity>

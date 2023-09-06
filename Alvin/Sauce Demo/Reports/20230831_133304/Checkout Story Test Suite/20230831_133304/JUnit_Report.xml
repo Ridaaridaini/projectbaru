@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Checkout Story Test Suite" time="234.334" tests="6" failures="1" errors="0">
+   <testsuite name="Checkout Story Test Suite" tests="6" failures="1" errors="0" time="234.334" skipped="0" timestamp="2023-08-31 13:33:16" hostname="Aslamadin Alvian Haz - DESKTOP-L5FUI4E" id="Test Suites/Checkout Story Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230831_133304\\Checkout Story Test Suite\\20230831_133304"/>
+         <property name="logFiles" value="C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230831_133304\\Checkout Story Test Suite\\20230831_133304\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230831_133304\\Checkout Story Test Suite\\20230831_133304\\1693463742585.png, C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230831_133304\\Checkout Story Test Suite\\20230831_133304\\1693463764394.png, C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230831_133304\\Checkout Story Test Suite\\20230831_133304\\1693463785549.png, C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230831_133304\\Checkout Story Test Suite\\20230831_133304\\1693463807581.png"/>
+         <property name="hostName" value="Aslamadin Alvian Haz - DESKTOP-L5FUI4E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Edge Chromium 116"/>
+         <property name="hostAddress" value="10.9.2.24"/>
+         <property name="sessionId" value="3e6b427d72caa36e1e27d0260715e413"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Checkout/TC-Checkout-Success-001" time="35.971" classname="Test Cases/Checkout/TC-Checkout-Success-001" status="PASSED">
+         <system-out><![CDATA[2023-08-31 13:33:17 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC-Checkout-Success-001: Test Cases/Checkout/TC-Checkout-Success-001
+
+2023-08-31 13:33:18 - [TEST_STEP][PASSED] - cartItems = callTestCase(findTestCase("Keranjang/TC-Cart-Show-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-31 13:33:19 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-31 13:33:20 - [TEST_STEP][PASSED] - productPage = callTestCase(findTestCase("Product/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-31 13:33:20 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-001: Test Cases/Product/TC-Product-AddCart-001
+
+2023-08-31 13:33:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-31 13:33:21 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-31 13:33:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-31 13:33:22 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-31 13:33:23 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-31 13:33:23 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-31 13:33:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-31 13:33:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-31 13:33:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-31 13:33:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-31 13:33:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-31 13:33:34 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-31 13:33:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-31 13:33:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-31 13:33:35 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-31 13:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-31 13:33:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-31 13:33:37 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-31 13:33:37 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-31 13:33:38 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-31 13:33:38 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-31 13:33:39 - [TEST_STEP][PASSED] - item = new java.util.HashMap(): null
+
+2023-08-31 13:33:39 - [TEST_STEP][PASSED] - item.put("nameProduct", nameProduct): null
+
+2023-08-31 13:33:39 - [TEST_STEP][PASSED] - item.put("descProduct", descProduct): null
+
+2023-08-31 13:33:39 - [TEST_STEP][PASSED] - item.put("priceProduct", priceProduct): null
+
+2023-08-31 13:33:39 - [TEST_STEP][PASSED] - return item: null
+
+2023-08-31 13:33:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-31 13:33:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-31 13:33:39 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-31 13:33:39 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-31 13:33:40 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-31 13:33:40 - [TEST_STEP][PASSED] - dataProduct = new java.util.HashMap(): null
+
+2023-08-31 13:33:40 - [TEST_STEP][PASSED] - dataProduct.put("nameProduct", nameProduct): null
+
+2023-08-31 13:33:40 - [TEST_STEP][PASSED] - dataProduct.put("descProduct", descProduct): null
+
+2023-08-31 13:33:40 - [TEST_STEP][PASSED] - dataProduct.put("priceProduct", priceProduct): null
+
+2023-08-31 13:33:40 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart backpack")): Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-31 13:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-31 13:33:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/button remove item pos 1"), 5): Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-31 13:33:41 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-31 13:33:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/verify jumlah item 1 (cart)"), 5): Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-31 13:33:42 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-31 13:33:42 - [TEST_STEP][PASSED] - return dataProduct: null
+
+2023-08-31 13:33:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-31 13:33:42 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/cart icon")): Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-31 13:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-31 13:33:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Your Cart"), 5): Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-31 13:33:43 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-31 13:33:43 - [TEST_STEP][PASSED] - nameCart = text: null
+
+2023-08-31 13:33:43 - [TEST_STEP][PASSED] - descCart = text: null
+
+2023-08-31 13:33:44 - [TEST_STEP][PASSED] - priceCart = text: null
+
+2023-08-31 13:33:44 - [TEST_STEP][PASSED] - productPage.put("nameCart", nameCart): null
+
+2023-08-31 13:33:44 - [TEST_STEP][PASSED] - productPage.put("descCart", descCart): null
+
+2023-08-31 13:33:44 - [TEST_STEP][PASSED] - productPage.put("priceCart", priceCart): null
+
+2023-08-31 13:33:44 - [TEST_STEP][PASSED] - assert productPage.get("nameProduct") == nameCart: null
+
+2023-08-31 13:33:44 - [TEST_STEP][PASSED] - assert productPage.get("priceProduct") == priceCart: null
+
+2023-08-31 13:33:44 - [TEST_STEP][PASSED] - assert productPage.get("descProduct") == descCart: null
+
+2023-08-31 13:33:44 - [TEST_STEP][PASSED] - return productPage: null
+
+2023-08-31 13:33:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-31 13:33:44 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/button_Checkout")): Object: 'Object Repository/Checkout/button_Checkout' is clicked on
+
+2023-08-31 13:33:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/button_Checkout' is clicked on
+
+2023-08-31 13:33:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Checkout Your Information"), 5): Object 'Object Repository/Checkout/span_Checkout Your Information' is present
+
+2023-08-31 13:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Checkout Your Information' is present
+
+2023-08-31 13:33:45 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/input_Checkout Your Information_firstName"), firstName): Text 'Joko' is set on object 'Object Repository/Checkout/input_Checkout Your Information_firstName'
+
+2023-08-31 13:33:46 - [MESSAGE][PASSED] - Text 'Joko' is set on object 'Object Repository/Checkout/input_Checkout Your Information_firstName'
+
+2023-08-31 13:33:46 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/input_Checkout Your Information_lastName"), lastName): Text 'Widodo' is set on object 'Object Repository/Checkout/input_Checkout Your Information_lastName'
+
+2023-08-31 13:33:47 - [MESSAGE][PASSED] - Text 'Widodo' is set on object 'Object Repository/Checkout/input_Checkout Your Information_lastName'
+
+2023-08-31 13:33:47 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/input_Checkout Your Information_postalCode"), postalCode): Text '12345' is set on object 'Object Repository/Checkout/input_Checkout Your Information_postalCode'
+
+2023-08-31 13:33:48 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Checkout/input_Checkout Your Information_postalCode'
+
+2023-08-31 13:33:48 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/input_Cancel_continue")): Object: 'Object Repository/Checkout/input_Cancel_continue' is clicked on
+
+2023-08-31 13:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/input_Cancel_continue' is clicked on
+
+2023-08-31 13:33:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Checkout Overview"), 5): Object 'Object Repository/Checkout/span_Checkout Overview' is present
+
+2023-08-31 13:33:49 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Checkout Overview' is present
+
+2023-08-31 13:33:49 - [TEST_STEP][PASSED] - cartName = text: null
+
+2023-08-31 13:33:50 - [TEST_STEP][PASSED] - cartDesc = text: null
+
+2023-08-31 13:33:50 - [TEST_STEP][PASSED] - cartPrice = text: null
+
+2023-08-31 13:33:51 - [TEST_STEP][PASSED] - taxElement = text: null
+
+2023-08-31 13:33:51 - [TEST_STEP][PASSED] - itemTotalElement = text: null
+
+2023-08-31 13:33:51 - [TEST_STEP][PASSED] - totalElement = text: null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - assert cartName == cartItems.get("nameProduct"): null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - assert cartDesc == cartItems.get("descProduct"): null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - assert cartPrice == cartItems.get("priceProduct"): null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - assert cartName == cartItems.get("nameCart"): null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - assert cartDesc == cartItems.get("descCart"): null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - assert cartPrice == cartItems.get("priceCart"): null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - tax = Math.round(Double.parseDouble(cartPrice.replace("$", "")) * 0.08 * 100) / 100: null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - itemTotal = Double.parseDouble(cartPrice.replace("$", "")): null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - total = tax + itemTotal: null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - arrItemTotalElement = itemTotalElement.split("\$"): null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - arrTaxElement = taxElement.split("\$"): null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - arrTotalElement = totalElement.split("\$"): null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - assert tax == Double.parseDouble(arrTaxElement[1]): null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - assert itemTotal == Double.parseDouble(arrItemTotalElement[1]): null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - assert total == Double.parseDouble(arrTotalElement[1]): null
+
+2023-08-31 13:33:52 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/button_Finish")): Object: 'Object Repository/Checkout/button_Finish' is clicked on
+
+2023-08-31 13:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/button_Finish' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC-Checkout-Success-002" time="34.048" classname="Test Cases/Checkout/TC-Checkout-Success-002" status="PASSED">
+         <system-out><![CDATA[2023-08-31 13:33:53 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC-Checkout-Success-002: Test Cases/Checkout/TC-Checkout-Success-002
+
+2023-08-31 13:33:54 - [TEST_STEP][PASSED] - cartItems = callTestCase(findTestCase("Keranjang/TC-Cart-Show-003"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-003' successfully
+
+2023-08-31 13:33:54 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-003: Test Cases/Keranjang/TC-Cart-Show-003
+
+2023-08-31 13:33:55 - [TEST_STEP][PASSED] - itemProduct = callTestCase(findTestCase("Product/TC-Product-AddCart-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-AddCart-002' successfully
+
+2023-08-31 13:33:55 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-002: Test Cases/Product/TC-Product-AddCart-002
+
+2023-08-31 13:33:56 - [TEST_STEP][PASSED] - itemProduct = callTestCase(findTestCase("Product/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-31 13:33:56 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-001: Test Cases/Product/TC-Product-AddCart-001
+
+2023-08-31 13:33:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-31 13:33:56 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-31 13:33:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-31 13:33:56 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-31 13:33:56 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-31 13:33:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-31 13:33:57 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-31 13:33:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-31 13:34:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-31 13:34:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-31 13:34:04 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-31 13:34:04 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-31 13:34:05 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-31 13:34:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-31 13:34:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-31 13:34:06 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-31 13:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-31 13:34:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-31 13:34:08 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-31 13:34:08 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-31 13:34:08 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-31 13:34:09 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-31 13:34:09 - [TEST_STEP][PASSED] - item = new java.util.HashMap(): null
+
+2023-08-31 13:34:09 - [TEST_STEP][PASSED] - item.put("nameProduct", nameProduct): null
+
+2023-08-31 13:34:09 - [TEST_STEP][PASSED] - item.put("descProduct", descProduct): null
+
+2023-08-31 13:34:09 - [TEST_STEP][PASSED] - item.put("priceProduct", priceProduct): null
+
+2023-08-31 13:34:09 - [TEST_STEP][PASSED] - return item: null
+
+2023-08-31 13:34:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-31 13:34:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-31 13:34:09 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-31 13:34:10 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-31 13:34:10 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-31 13:34:11 - [TEST_STEP][PASSED] - dataProduct = new java.util.HashMap(): null
+
+2023-08-31 13:34:11 - [TEST_STEP][PASSED] - dataProduct.put("nameProduct", nameProduct): null
+
+2023-08-31 13:34:11 - [TEST_STEP][PASSED] - dataProduct.put("descProduct", descProduct): null
+
+2023-08-31 13:34:11 - [TEST_STEP][PASSED] - dataProduct.put("priceProduct", priceProduct): null
+
+2023-08-31 13:34:11 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart backpack")): Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-31 13:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-31 13:34:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/button remove item pos 1"), 5): Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-31 13:34:12 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-31 13:34:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/verify jumlah item 1 (cart)"), 5): Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-31 13:34:12 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-31 13:34:12 - [TEST_STEP][PASSED] - return dataProduct: null
+
+2023-08-31 13:34:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-31 13:34:12 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-31 13:34:13 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-31 13:34:13 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-31 13:34:14 - [TEST_STEP][PASSED] - nameProductList = new java.util.ArrayList(): null
+
+2023-08-31 13:34:14 - [TEST_STEP][PASSED] - descProductList = new java.util.ArrayList(): null
+
+2023-08-31 13:34:14 - [TEST_STEP][PASSED] - priceProductList = new java.util.ArrayList(): null
+
+2023-08-31 13:34:14 - [TEST_STEP][PASSED] - nameProductList.add(itemProduct.get("nameProduct")): null
+
+2023-08-31 13:34:14 - [TEST_STEP][PASSED] - nameProductList.add(nameProduct): null
+
+2023-08-31 13:34:14 - [TEST_STEP][PASSED] - descProductList.add(itemProduct.get("descProduct")): null
+
+2023-08-31 13:34:14 - [TEST_STEP][PASSED] - descProductList.add(descProduct): null
+
+2023-08-31 13:34:14 - [TEST_STEP][PASSED] - priceProductList.add(itemProduct.get("priceProduct")): null
+
+2023-08-31 13:34:14 - [TEST_STEP][PASSED] - priceProductList.add(priceProduct): null
+
+2023-08-31 13:34:14 - [TEST_STEP][PASSED] - itemProduct.put("listNameProduct", nameProductList): null
+
+2023-08-31 13:34:14 - [TEST_STEP][PASSED] - itemProduct.put("listDescProduct", descProductList): null
+
+2023-08-31 13:34:14 - [TEST_STEP][PASSED] - itemProduct.put("listPriceProduct", priceProductList): null
+
+2023-08-31 13:34:14 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart pos 2")): Object: 'Object Repository/Product/button add to cart pos 2' is clicked on
+
+2023-08-31 13:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart pos 2' is clicked on
+
+2023-08-31 13:34:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/button remove item pos 2"), 5): Object 'Object Repository/selector for verify/button remove item pos 2' is present
+
+2023-08-31 13:34:15 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/button remove item pos 2' is present
+
+2023-08-31 13:34:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/verify jumlah item 2 (cart)"), 5): Object 'Object Repository/selector for verify/verify jumlah item 2 (cart)' is present
+
+2023-08-31 13:34:15 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/verify jumlah item 2 (cart)' is present
+
+2023-08-31 13:34:15 - [TEST_STEP][PASSED] - return itemProduct: null
+
+2023-08-31 13:34:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-AddCart-002' successfully
+
+2023-08-31 13:34:15 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/cart icon")): Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-31 13:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-31 13:34:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Your Cart"), 5): Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-31 13:34:16 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-31 13:34:16 - [TEST_STEP][PASSED] - nameCart = findWebElements(findTestObject("Object Repository/selector for verify/cart item pos 1 name"), 5): null
+
+2023-08-31 13:34:16 - [TEST_STEP][PASSED] - descCart = findWebElements(findTestObject("Object Repository/selector for verify/cart item pos 1 desc"), 5): null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - priceCart = findWebElements(findTestObject("Object Repository/selector for verify/cart item pos 1 price"), 5): null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - nameProduct = new java.util.ArrayList(): null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - descProduct = new java.util.ArrayList(): null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - priceProduct = new java.util.ArrayList(): null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - for ([i = 0, i < nameCart.size(), (i++)]): null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - tempNameCart = text: null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - tempDescCart = text: null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - tempPriceCart = text: null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - nameProduct.add(tempNameCart): null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - descProduct.add(tempDescCart): null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - priceProduct.add(tempPriceCart): null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - tempNameCart = text: null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - tempDescCart = text: null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - tempPriceCart = text: null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - nameProduct.add(tempNameCart): null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - descProduct.add(tempDescCart): null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - priceProduct.add(tempPriceCart): null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - println(itemProduct.get("listNameProduct")): null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - println(nameProduct): null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - assert itemProduct.get("listNameProduct") == nameProduct: null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - assert itemProduct.get("listDescProduct") == descProduct: null
+
+2023-08-31 13:34:17 - [TEST_STEP][PASSED] - assert itemProduct.get("listPriceProduct") == priceProduct: null
+
+2023-08-31 13:34:18 - [TEST_STEP][PASSED] - return itemProduct: null
+
+2023-08-31 13:34:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-003' successfully
+
+2023-08-31 13:34:18 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/button_Checkout")): Object: 'Object Repository/Checkout/button_Checkout' is clicked on
+
+2023-08-31 13:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/button_Checkout' is clicked on
+
+2023-08-31 13:34:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Checkout Your Information"), 5): Object 'Object Repository/Checkout/span_Checkout Your Information' is present
+
+2023-08-31 13:34:19 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Checkout Your Information' is present
+
+2023-08-31 13:34:19 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/input_Checkout Your Information_firstName"), firstName): Text 'Joko' is set on object 'Object Repository/Checkout/input_Checkout Your Information_firstName'
+
+2023-08-31 13:34:20 - [MESSAGE][PASSED] - Text 'Joko' is set on object 'Object Repository/Checkout/input_Checkout Your Information_firstName'
+
+2023-08-31 13:34:20 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/input_Checkout Your Information_lastName"), lastName): Text 'Widodo' is set on object 'Object Repository/Checkout/input_Checkout Your Information_lastName'
+
+2023-08-31 13:34:21 - [MESSAGE][PASSED] - Text 'Widodo' is set on object 'Object Repository/Checkout/input_Checkout Your Information_lastName'
+
+2023-08-31 13:34:21 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/input_Checkout Your Information_postalCode"), postalCode): Text '12345' is set on object 'Object Repository/Checkout/input_Checkout Your Information_postalCode'
+
+2023-08-31 13:34:21 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Checkout/input_Checkout Your Information_postalCode'
+
+2023-08-31 13:34:21 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/input_Cancel_continue")): Object: 'Object Repository/Checkout/input_Cancel_continue' is clicked on
+
+2023-08-31 13:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/input_Cancel_continue' is clicked on
+
+2023-08-31 13:34:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Checkout Overview"), 5): Object 'Object Repository/Checkout/span_Checkout Overview' is present
+
+2023-08-31 13:34:22 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Checkout Overview' is present
+
+2023-08-31 13:34:22 - [TEST_STEP][PASSED] - cartName = findWebElements(findTestObject("Object Repository/Checkout/overview item pos 1 name"), 5): null
+
+2023-08-31 13:34:23 - [TEST_STEP][PASSED] - cartDesc = findWebElements(findTestObject("Object Repository/Checkout/overview item pos 1 desc"), 5): null
+
+2023-08-31 13:34:23 - [TEST_STEP][PASSED] - cartPrice = findWebElements(findTestObject("Object Repository/Checkout/overview item pos 1 price"), 5): null
+
+2023-08-31 13:34:24 - [TEST_STEP][PASSED] - overviewItemTotal = text: null
+
+2023-08-31 13:34:24 - [TEST_STEP][PASSED] - overviewTax = text: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - overviewTotal = text: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - arrOverviewItemTotal = overviewItemTotal.split("\$"): null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - arrOverviewTax = overviewTax.split("\$"): null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - arrOverviewTotal = overviewTotal.split("\$"): null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - productName = new java.util.ArrayList(): null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - productDesc = new java.util.ArrayList(): null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - productPrice = new java.util.ArrayList(): null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - totalHargaBarang = 0: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - for ([i = 0, i < cartName.size(), (i++)]): null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - tempProductName = text: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - tempProductDesc = text: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - tempProductPrice = text: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - productName.add(tempProductName): null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - productDesc.add(tempProductDesc): null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - productPrice.add(tempProductPrice): null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - totalHargaBarang += Double.parseDouble(text.replace("$", "")): null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - tempProductName = text: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - tempProductDesc = text: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - tempProductPrice = text: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - productName.add(tempProductName): null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - productDesc.add(tempProductDesc): null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - productPrice.add(tempProductPrice): null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - totalHargaBarang += Double.parseDouble(text.replace("$", "")): null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - tax = Math.round(totalHargaBarang * 0.08 * 100) / 100: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - totals = Math.round(totalHargaBarang + tax * 100) / 100: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - assert cartItems.get("listNameProduct") == productName: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - assert cartItems.get("listDescProduct") == productDesc: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - assert cartItems.get("listPriceProduct") == productPrice: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - assert Double.parseDouble(arrOverviewItemTotal[1]) == totalHargaBarang: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - assert Double.parseDouble(arrOverviewTax[1]) == tax: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - assert Double.parseDouble(arrOverviewTotal[1]) == totals: null
+
+2023-08-31 13:34:25 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/button_Finish")): Object: 'Object Repository/Checkout/button_Finish' is clicked on
+
+2023-08-31 13:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/button_Finish' is clicked on
+
+2023-08-31 13:34:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Checkout/span_Checkout Complete"), 5): Object 'Object Repository/Checkout/span_Checkout Complete' is present
+
+2023-08-31 13:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Checkout Complete' is present
+
+2023-08-31 13:34:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Checkout/present thankyou for your order"), 5): Object 'Object Repository/Checkout/present thankyou for your order' is present
+
+2023-08-31 13:34:27 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/present thankyou for your order' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC-Checkout-Nav-001" time="27.138" classname="Test Cases/Checkout/TC-Checkout-Nav-001" status="PASSED">
+         <system-out><![CDATA[2023-08-31 13:34:27 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC-Checkout-Nav-001: Test Cases/Checkout/TC-Checkout-Nav-001
+
+2023-08-31 13:34:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-31 13:34:28 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-31 13:34:28 - [TEST_STEP][PASSED] - productPage = callTestCase(findTestCase("Product/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-31 13:34:28 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-001: Test Cases/Product/TC-Product-AddCart-001
+
+2023-08-31 13:34:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-31 13:34:28 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-31 13:34:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-31 13:34:28 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-31 13:34:28 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-31 13:34:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-31 13:34:29 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-31 13:34:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-31 13:34:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-31 13:34:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-31 13:34:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-31 13:34:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-31 13:34:39 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-31 13:34:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-31 13:34:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-31 13:34:40 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-31 13:34:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-31 13:34:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-31 13:34:41 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-31 13:34:41 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-31 13:34:42 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-31 13:34:42 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-31 13:34:43 - [TEST_STEP][PASSED] - item = new java.util.HashMap(): null
+
+2023-08-31 13:34:43 - [TEST_STEP][PASSED] - item.put("nameProduct", nameProduct): null
+
+2023-08-31 13:34:43 - [TEST_STEP][PASSED] - item.put("descProduct", descProduct): null
+
+2023-08-31 13:34:43 - [TEST_STEP][PASSED] - item.put("priceProduct", priceProduct): null
+
+2023-08-31 13:34:43 - [TEST_STEP][PASSED] - return item: null
+
+2023-08-31 13:34:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-31 13:34:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-31 13:34:43 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-31 13:34:43 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-31 13:34:44 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-31 13:34:44 - [TEST_STEP][PASSED] - dataProduct = new java.util.HashMap(): null
+
+2023-08-31 13:34:44 - [TEST_STEP][PASSED] - dataProduct.put("nameProduct", nameProduct): null
+
+2023-08-31 13:34:44 - [TEST_STEP][PASSED] - dataProduct.put("descProduct", descProduct): null
+
+2023-08-31 13:34:44 - [TEST_STEP][PASSED] - dataProduct.put("priceProduct", priceProduct): null
+
+2023-08-31 13:34:44 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart backpack")): Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-31 13:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-31 13:34:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/button remove item pos 1"), 5): Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-31 13:34:45 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-31 13:34:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/verify jumlah item 1 (cart)"), 5): Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-31 13:34:46 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-31 13:34:46 - [TEST_STEP][PASSED] - return dataProduct: null
+
+2023-08-31 13:34:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-31 13:34:46 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/cart icon")): Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-31 13:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-31 13:34:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Your Cart"), 5): Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-31 13:34:47 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-31 13:34:47 - [TEST_STEP][PASSED] - nameCart = text: null
+
+2023-08-31 13:34:47 - [TEST_STEP][PASSED] - descCart = text: null
+
+2023-08-31 13:34:48 - [TEST_STEP][PASSED] - priceCart = text: null
+
+2023-08-31 13:34:48 - [TEST_STEP][PASSED] - productPage.put("nameCart", nameCart): null
+
+2023-08-31 13:34:48 - [TEST_STEP][PASSED] - productPage.put("descCart", descCart): null
+
+2023-08-31 13:34:48 - [TEST_STEP][PASSED] - productPage.put("priceCart", priceCart): null
+
+2023-08-31 13:34:48 - [TEST_STEP][PASSED] - assert productPage.get("nameProduct") == nameCart: null
+
+2023-08-31 13:34:48 - [TEST_STEP][PASSED] - assert productPage.get("priceProduct") == priceCart: null
+
+2023-08-31 13:34:48 - [TEST_STEP][PASSED] - assert productPage.get("descProduct") == descCart: null
+
+2023-08-31 13:34:48 - [TEST_STEP][PASSED] - return productPage: null
+
+2023-08-31 13:34:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-31 13:34:48 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/button_Checkout")): Object: 'Object Repository/Checkout/button_Checkout' is clicked on
+
+2023-08-31 13:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/button_Checkout' is clicked on
+
+2023-08-31 13:34:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Checkout Your Information"), 5): Object 'Object Repository/Checkout/span_Checkout Your Information' is present
+
+2023-08-31 13:34:49 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Checkout Your Information' is present
+
+2023-08-31 13:34:49 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/input_Checkout Your Information_firstName"), firstName): Text 'rida' is set on object 'Object Repository/Checkout/input_Checkout Your Information_firstName'
+
+2023-08-31 13:34:50 - [MESSAGE][PASSED] - Text 'rida' is set on object 'Object Repository/Checkout/input_Checkout Your Information_firstName'
+
+2023-08-31 13:34:50 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/input_Checkout Your Information_lastName"), lastName): Text 'aridaini' is set on object 'Object Repository/Checkout/input_Checkout Your Information_lastName'
+
+2023-08-31 13:34:51 - [MESSAGE][PASSED] - Text 'aridaini' is set on object 'Object Repository/Checkout/input_Checkout Your Information_lastName'
+
+2023-08-31 13:34:51 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/input_Checkout Your Information_postalCode"), postalCode): Text '1018' is set on object 'Object Repository/Checkout/input_Checkout Your Information_postalCode'
+
+2023-08-31 13:34:52 - [MESSAGE][PASSED] - Text '1018' is set on object 'Object Repository/Checkout/input_Checkout Your Information_postalCode'
+
+2023-08-31 13:34:52 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/input_Cancel_continue")): Object: 'Object Repository/Checkout/input_Cancel_continue' is clicked on
+
+2023-08-31 13:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/input_Cancel_continue' is clicked on
+
+2023-08-31 13:34:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Checkout Overview"), 5): Object 'Object Repository/Checkout/span_Checkout Overview' is present
+
+2023-08-31 13:34:53 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Checkout Overview' is present
+
+2023-08-31 13:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/button_Cancel")): Object: 'Object Repository/Checkout/button_Cancel' is clicked on
+
+2023-08-31 13:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/button_Cancel' is clicked on
+
+2023-08-31 13:34:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-31 13:34:54 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC-Checkout-Error-001" time="24.981" classname="Test Cases/Checkout/TC-Checkout-Error-001" status="PASSED">
+         <system-out><![CDATA[2023-08-31 13:34:54 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC-Checkout-Error-001: Test Cases/Checkout/TC-Checkout-Error-001
+
+2023-08-31 13:34:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-31 13:34:55 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-31 13:34:55 - [TEST_STEP][PASSED] - productPage = callTestCase(findTestCase("Product/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-31 13:34:55 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-001: Test Cases/Product/TC-Product-AddCart-001
+
+2023-08-31 13:34:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-31 13:34:55 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-31 13:34:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-31 13:34:55 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-31 13:34:55 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-31 13:34:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-31 13:34:56 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-31 13:34:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-31 13:35:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-31 13:35:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-31 13:35:04 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-31 13:35:04 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-31 13:35:05 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-31 13:35:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-31 13:35:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-31 13:35:06 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-31 13:35:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-31 13:35:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-31 13:35:08 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-31 13:35:08 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-31 13:35:09 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-31 13:35:09 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-31 13:35:10 - [TEST_STEP][PASSED] - item = new java.util.HashMap(): null
+
+2023-08-31 13:35:10 - [TEST_STEP][PASSED] - item.put("nameProduct", nameProduct): null
+
+2023-08-31 13:35:10 - [TEST_STEP][PASSED] - item.put("descProduct", descProduct): null
+
+2023-08-31 13:35:10 - [TEST_STEP][PASSED] - item.put("priceProduct", priceProduct): null
+
+2023-08-31 13:35:10 - [TEST_STEP][PASSED] - return item: null
+
+2023-08-31 13:35:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-31 13:35:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-31 13:35:10 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-31 13:35:10 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-31 13:35:11 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-31 13:35:11 - [TEST_STEP][PASSED] - dataProduct = new java.util.HashMap(): null
+
+2023-08-31 13:35:11 - [TEST_STEP][PASSED] - dataProduct.put("nameProduct", nameProduct): null
+
+2023-08-31 13:35:11 - [TEST_STEP][PASSED] - dataProduct.put("descProduct", descProduct): null
+
+2023-08-31 13:35:11 - [TEST_STEP][PASSED] - dataProduct.put("priceProduct", priceProduct): null
+
+2023-08-31 13:35:11 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart backpack")): Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-31 13:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-31 13:35:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/button remove item pos 1"), 5): Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-31 13:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-31 13:35:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/verify jumlah item 1 (cart)"), 5): Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-31 13:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-31 13:35:12 - [TEST_STEP][PASSED] - return dataProduct: null
+
+2023-08-31 13:35:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-31 13:35:12 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/cart icon")): Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-31 13:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-31 13:35:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Your Cart"), 5): Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-31 13:35:14 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-31 13:35:14 - [TEST_STEP][PASSED] - nameCart = text: null
+
+2023-08-31 13:35:14 - [TEST_STEP][PASSED] - descCart = text: null
+
+2023-08-31 13:35:14 - [TEST_STEP][PASSED] - priceCart = text: null
+
+2023-08-31 13:35:15 - [TEST_STEP][PASSED] - productPage.put("nameCart", nameCart): null
+
+2023-08-31 13:35:15 - [TEST_STEP][PASSED] - productPage.put("descCart", descCart): null
+
+2023-08-31 13:35:15 - [TEST_STEP][PASSED] - productPage.put("priceCart", priceCart): null
+
+2023-08-31 13:35:15 - [TEST_STEP][PASSED] - assert productPage.get("nameProduct") == nameCart: null
+
+2023-08-31 13:35:15 - [TEST_STEP][PASSED] - assert productPage.get("priceProduct") == priceCart: null
+
+2023-08-31 13:35:15 - [TEST_STEP][PASSED] - assert productPage.get("descProduct") == descCart: null
+
+2023-08-31 13:35:15 - [TEST_STEP][PASSED] - return productPage: null
+
+2023-08-31 13:35:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-31 13:35:15 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/button_Checkout")): Object: 'Object Repository/Checkout/button_Checkout' is clicked on
+
+2023-08-31 13:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/button_Checkout' is clicked on
+
+2023-08-31 13:35:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Checkout Your Information"), 5): Object 'Object Repository/Checkout/span_Checkout Your Information' is present
+
+2023-08-31 13:35:16 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Checkout Your Information' is present
+
+2023-08-31 13:35:16 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/input_Checkout Your Information_lastName"), lastName): Text 'Alvian' is set on object 'Object Repository/Checkout/input_Checkout Your Information_lastName'
+
+2023-08-31 13:35:17 - [MESSAGE][PASSED] - Text 'Alvian' is set on object 'Object Repository/Checkout/input_Checkout Your Information_lastName'
+
+2023-08-31 13:35:17 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/input_Checkout Your Information_postalCode"), postalCode): Text '34192' is set on object 'Object Repository/Checkout/input_Checkout Your Information_postalCode'
+
+2023-08-31 13:35:18 - [MESSAGE][PASSED] - Text '34192' is set on object 'Object Repository/Checkout/input_Checkout Your Information_postalCode'
+
+2023-08-31 13:35:18 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/input_Cancel_continue")): Object: 'Object Repository/Checkout/input_Cancel_continue' is clicked on
+
+2023-08-31 13:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/input_Cancel_continue' is clicked on
+
+2023-08-31 13:35:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Error message/Overview/Error First Name is required"), 5): Object 'Object Repository/Error message/Overview/Error First Name is required' is present
+
+2023-08-31 13:35:19 - [MESSAGE][PASSED] - Object 'Object Repository/Error message/Overview/Error First Name is required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC-Checkout-Error-002" time="22.013" classname="Test Cases/Checkout/TC-Checkout-Error-002" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Checkout/TC-Checkout-Error-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Last Name Required' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC-Checkout-Error-002.run(TC-Checkout-Error-002:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693463584033.run(TempTestSuite1693463584033.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Last Name Required' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-08-31 13:36:25 - [TEST_CASE][FAILED] - Test Cases/Checkout/TC-Checkout-Error-002: Test Cases/Checkout/TC-Checkout-Error-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Last Name Required' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC-Checkout-Error-002.run(TC-Checkout-Error-002:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693463584033.run(TempTestSuite1693463584033.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Last Name Required' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-08-31 13:36:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-31 13:36:25 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-31 13:36:25 - [TEST_STEP][PASSED] - productPage = callTestCase(findTestCase("Product/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-31 13:36:25 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-001: Test Cases/Product/TC-Product-AddCart-001
+
+2023-08-31 13:36:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-31 13:36:26 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-31 13:36:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-31 13:36:26 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-31 13:36:26 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-31 13:36:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-31 13:36:27 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-31 13:36:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-31 13:36:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-31 13:36:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-31 13:36:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-31 13:36:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-31 13:36:34 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-31 13:36:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-31 13:36:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-31 13:36:35 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-31 13:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-31 13:36:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-31 13:36:37 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-31 13:36:37 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-31 13:36:37 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-31 13:36:38 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-31 13:36:38 - [TEST_STEP][PASSED] - item = new java.util.HashMap(): null
+
+2023-08-31 13:36:38 - [TEST_STEP][PASSED] - item.put("nameProduct", nameProduct): null
+
+2023-08-31 13:36:38 - [TEST_STEP][PASSED] - item.put("descProduct", descProduct): null
+
+2023-08-31 13:36:38 - [TEST_STEP][PASSED] - item.put("priceProduct", priceProduct): null
+
+2023-08-31 13:36:38 - [TEST_STEP][PASSED] - return item: null
+
+2023-08-31 13:36:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-31 13:36:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-31 13:36:38 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-31 13:36:39 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-31 13:36:39 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-31 13:36:40 - [TEST_STEP][PASSED] - dataProduct = new java.util.HashMap(): null
+
+2023-08-31 13:36:40 - [TEST_STEP][PASSED] - dataProduct.put("nameProduct", nameProduct): null
+
+2023-08-31 13:36:40 - [TEST_STEP][PASSED] - dataProduct.put("descProduct", descProduct): null
+
+2023-08-31 13:36:40 - [TEST_STEP][PASSED] - dataProduct.put("priceProduct", priceProduct): null
+
+2023-08-31 13:36:40 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart backpack")): Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-31 13:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-31 13:36:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/button remove item pos 1"), 5): Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-31 13:36:41 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-31 13:36:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/verify jumlah item 1 (cart)"), 5): Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-31 13:36:41 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-31 13:36:41 - [TEST_STEP][PASSED] - return dataProduct: null
+
+2023-08-31 13:36:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-31 13:36:41 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/cart icon")): Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-31 13:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-31 13:36:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Your Cart"), 5): Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-31 13:36:42 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-31 13:36:42 - [TEST_STEP][PASSED] - nameCart = text: null
+
+2023-08-31 13:36:43 - [TEST_STEP][PASSED] - descCart = text: null
+
+2023-08-31 13:36:43 - [TEST_STEP][PASSED] - priceCart = text: null
+
+2023-08-31 13:36:43 - [TEST_STEP][PASSED] - productPage.put("nameCart", nameCart): null
+
+2023-08-31 13:36:43 - [TEST_STEP][PASSED] - productPage.put("descCart", descCart): null
+
+2023-08-31 13:36:43 - [TEST_STEP][PASSED] - productPage.put("priceCart", priceCart): null
+
+2023-08-31 13:36:43 - [TEST_STEP][PASSED] - assert productPage.get("nameProduct") == nameCart: null
+
+2023-08-31 13:36:43 - [TEST_STEP][PASSED] - assert productPage.get("priceProduct") == priceCart: null
+
+2023-08-31 13:36:43 - [TEST_STEP][PASSED] - assert productPage.get("descProduct") == descCart: null
+
+2023-08-31 13:36:43 - [TEST_STEP][PASSED] - return productPage: null
+
+2023-08-31 13:36:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-31 13:36:43 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/button_Checkout")): Object: 'Object Repository/Checkout/button_Checkout' is clicked on
+
+2023-08-31 13:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/button_Checkout' is clicked on
+
+2023-08-31 13:36:44 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/input_Checkout Your Information_firstName"), firstName): Text 'Joko' is set on object 'Object Repository/Checkout/input_Checkout Your Information_firstName'
+
+2023-08-31 13:36:45 - [MESSAGE][PASSED] - Text 'Joko' is set on object 'Object Repository/Checkout/input_Checkout Your Information_firstName'
+
+2023-08-31 13:36:45 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/input_Checkout Your Information_postalCode"), postalCode): Text '12345' is set on object 'Object Repository/Checkout/input_Checkout Your Information_postalCode'
+
+2023-08-31 13:36:46 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Checkout/input_Checkout Your Information_postalCode'
+
+2023-08-31 13:36:46 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/input_Cancel_continue")): Object: 'Object Repository/Checkout/input_Cancel_continue' is clicked on
+
+2023-08-31 13:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/input_Cancel_continue' is clicked on
+
+2023-08-31 13:36:46 - [TEST_STEP][FAILED] - verifyTextPresent("Last Name Required", true): Unable to verify text 'Last Name Required' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Last Name Required' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC-Checkout-Error-002.run(TC-Checkout-Error-002:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693463584033.run(TempTestSuite1693463584033.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Last Name Required' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2023-08-31 13:36:47 - [MESSAGE][FAILED] - Text 'Last Name Required' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Last Name Required' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC-Checkout-Error-002.run(TC-Checkout-Error-002:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693463584033.run(TempTestSuite1693463584033.groovy:36)
+)
+
+2023-08-31 13:36:47 - [MESSAGE][FAILED] - Unable to verify text 'Last Name Required' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Last Name Required' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC-Checkout-Error-002.run(TC-Checkout-Error-002:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693463584033.run(TempTestSuite1693463584033.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Last Name Required' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|C:\\Users\\Aslamadin Alvian Haz\\Documents\\Batch 324 QA XSIS Academy\\batch-324-qa\\Alvin\\Sauce Demo\\Reports\\20230831_133304\\Checkout Story Test Suite\\20230831_133304\\1693463807581.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-31 13:36:25 - [TEST_CASE][FAILED] - Test Cases/Checkout/TC-Checkout-Error-002: Test Cases/Checkout/TC-Checkout-Error-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Last Name Required' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC-Checkout-Error-002.run(TC-Checkout-Error-002:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693463584033.run(TempTestSuite1693463584033.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Last Name Required' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC-Checkout-Error-003" time="23.05" classname="Test Cases/Checkout/TC-Checkout-Error-003" status="PASSED">
+         <system-out><![CDATA[2023-08-31 13:36:47 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC-Checkout-Error-003: Test Cases/Checkout/TC-Checkout-Error-003
+
+2023-08-31 13:36:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Keranjang/TC-Cart-Show-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-31 13:36:48 - [TEST_CASE][PASSED] - Test Cases/Keranjang/TC-Cart-Show-002: Test Cases/Keranjang/TC-Cart-Show-002
+
+2023-08-31 13:36:48 - [TEST_STEP][PASSED] - productPage = callTestCase(findTestCase("Product/TC-Product-AddCart-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-31 13:36:48 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-AddCart-001: Test Cases/Product/TC-Product-AddCart-001
+
+2023-08-31 13:36:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Product/TC-Product-Show-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-31 13:36:48 - [TEST_CASE][PASSED] - Test Cases/Product/TC-Product-Show-001: Test Cases/Product/TC-Product-Show-001
+
+2023-08-31 13:36:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login-Success-001"), ["username":"standard_user", "password":"qcu24s4901FyWDTwXGr6XA=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-31 13:36:48 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login-Success-001: Test Cases/Login/TC-Login-Success-001
+
+2023-08-31 13:36:48 - [TEST_STEP][PASSED] - openBrowser(webSauceDemo): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-31 13:36:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-31 13:36:49 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-08-31 13:36:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-31 13:36:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-08-31 13:36:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page Object/Swag Labs Text (tanda masuk home)"), 5): Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-31 13:36:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page Object/Swag Labs Text (tanda masuk home)' is present
+
+2023-08-31 13:36:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page Object/username login"), username): Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-31 13:36:57 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Page Object/username login'
+
+2023-08-31 13:36:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page Object/password login"), password): Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-31 13:36:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page Object/password login'
+
+2023-08-31 13:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Login Page Object/button login")): Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-31 13:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page Object/button login' is clicked on
+
+2023-08-31 13:36:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/span_Products"), 5): Object 'Object Repository/Product/span_Products' is present
+
+2023-08-31 13:37:00 - [MESSAGE][PASSED] - Object 'Object Repository/Product/span_Products' is present
+
+2023-08-31 13:37:00 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-31 13:37:01 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-31 13:37:01 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-31 13:37:02 - [TEST_STEP][PASSED] - item = new java.util.HashMap(): null
+
+2023-08-31 13:37:02 - [TEST_STEP][PASSED] - item.put("nameProduct", nameProduct): null
+
+2023-08-31 13:37:02 - [TEST_STEP][PASSED] - item.put("descProduct", descProduct): null
+
+2023-08-31 13:37:02 - [TEST_STEP][PASSED] - item.put("priceProduct", priceProduct): null
+
+2023-08-31 13:37:02 - [TEST_STEP][PASSED] - return item: null
+
+2023-08-31 13:37:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login-Success-001' successfully
+
+2023-08-31 13:37:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-Show-001' successfully
+
+2023-08-31 13:37:02 - [TEST_STEP][PASSED] - nameProduct = text: null
+
+2023-08-31 13:37:02 - [TEST_STEP][PASSED] - descProduct = text: null
+
+2023-08-31 13:37:03 - [TEST_STEP][PASSED] - priceProduct = text: null
+
+2023-08-31 13:37:03 - [TEST_STEP][PASSED] - dataProduct = new java.util.HashMap(): null
+
+2023-08-31 13:37:03 - [TEST_STEP][PASSED] - dataProduct.put("nameProduct", nameProduct): null
+
+2023-08-31 13:37:03 - [TEST_STEP][PASSED] - dataProduct.put("descProduct", descProduct): null
+
+2023-08-31 13:37:03 - [TEST_STEP][PASSED] - dataProduct.put("priceProduct", priceProduct): null
+
+2023-08-31 13:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Product/button add to cart backpack")): Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-31 13:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/button add to cart backpack' is clicked on
+
+2023-08-31 13:37:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/button remove item pos 1"), 5): Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-31 13:37:04 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/button remove item pos 1' is present
+
+2023-08-31 13:37:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("selector for verify/verify jumlah item 1 (cart)"), 5): Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-31 13:37:05 - [MESSAGE][PASSED] - Object 'Object Repository/selector for verify/verify jumlah item 1 (cart)' is present
+
+2023-08-31 13:37:05 - [TEST_STEP][PASSED] - return dataProduct: null
+
+2023-08-31 13:37:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Product/TC-Product-AddCart-001' successfully
+
+2023-08-31 13:37:05 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/cart icon")): Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-31 13:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/cart icon' is clicked on
+
+2023-08-31 13:37:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Checkout/span_Your Cart"), 5): Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-31 13:37:06 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/span_Your Cart' is present
+
+2023-08-31 13:37:06 - [TEST_STEP][PASSED] - nameCart = text: null
+
+2023-08-31 13:37:06 - [TEST_STEP][PASSED] - descCart = text: null
+
+2023-08-31 13:37:06 - [TEST_STEP][PASSED] - priceCart = text: null
+
+2023-08-31 13:37:07 - [TEST_STEP][PASSED] - productPage.put("nameCart", nameCart): null
+
+2023-08-31 13:37:07 - [TEST_STEP][PASSED] - productPage.put("descCart", descCart): null
+
+2023-08-31 13:37:07 - [TEST_STEP][PASSED] - productPage.put("priceCart", priceCart): null
+
+2023-08-31 13:37:07 - [TEST_STEP][PASSED] - assert productPage.get("nameProduct") == nameCart: null
+
+2023-08-31 13:37:07 - [TEST_STEP][PASSED] - assert productPage.get("priceProduct") == priceCart: null
+
+2023-08-31 13:37:07 - [TEST_STEP][PASSED] - assert productPage.get("descProduct") == descCart: null
+
+2023-08-31 13:37:07 - [TEST_STEP][PASSED] - return productPage: null
+
+2023-08-31 13:37:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Keranjang/TC-Cart-Show-002' successfully
+
+2023-08-31 13:37:07 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/button_Checkout")): Object: 'Object Repository/Checkout/button_Checkout' is clicked on
+
+2023-08-31 13:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/button_Checkout' is clicked on
+
+2023-08-31 13:37:07 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/input_Checkout Your Information_firstName"), firstName): Text 'friska' is set on object 'Object Repository/Checkout/input_Checkout Your Information_firstName'
+
+2023-08-31 13:37:08 - [MESSAGE][PASSED] - Text 'friska' is set on object 'Object Repository/Checkout/input_Checkout Your Information_firstName'
+
+2023-08-31 13:37:08 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout/input_Checkout Your Information_lastName"), lastName): Text 'alafanda' is set on object 'Object Repository/Checkout/input_Checkout Your Information_lastName'
+
+2023-08-31 13:37:09 - [MESSAGE][PASSED] - Text 'alafanda' is set on object 'Object Repository/Checkout/input_Checkout Your Information_lastName'
+
+2023-08-31 13:37:09 - [TEST_STEP][PASSED] - click(findTestObject("Checkout/input_Cancel_continue")): Object: 'Object Repository/Checkout/input_Cancel_continue' is clicked on
+
+2023-08-31 13:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/input_Cancel_continue' is clicked on
+
+2023-08-31 13:37:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Error message/Overview/Error Postal Code is required"), 5): Object 'Object Repository/Error message/Overview/Error Postal Code is required' is present
+
+2023-08-31 13:37:10 - [MESSAGE][PASSED] - Object 'Object Repository/Error message/Overview/Error Postal Code is required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-31 13:33:16 - [TEST_SUITE][FAILED] - Checkout Story Test Suite: Test Cases/Checkout/TC-Checkout-Error-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Last Name Required' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC-Checkout-Error-002.run(TC-Checkout-Error-002:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693463584033.run(TempTestSuite1693463584033.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Last Name Required' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-31 13:33:16 - [TEST_SUITE][FAILED] - Checkout Story Test Suite: Test Cases/Checkout/TC-Checkout-Error-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Last Name Required' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC-Checkout-Error-002.run(TC-Checkout-Error-002:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693463584033.run(TempTestSuite1693463584033.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Last Name Required' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

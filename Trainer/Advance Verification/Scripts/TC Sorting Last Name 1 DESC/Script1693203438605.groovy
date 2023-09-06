@@ -33,6 +33,9 @@ String[] arrLastNameSort = new String[dataList.size()]
 //Isi Array yang Ori & Sort
 for(int i = 0; i< dataList.size(); i++){
 	text = dataList.get(i).text
+	
+	//manipulasi disini
+	
 	arrLastNameOri[i] = text
 	arrLastNameSort[i] = text
 }

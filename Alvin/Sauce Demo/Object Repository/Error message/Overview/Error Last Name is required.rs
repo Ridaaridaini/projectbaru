@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Error Last Name is required</name>
+   <tag></tag>
+   <elementGuidId>57a22da3-a979-49fe-8fd2-4525e99e00e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='checkout_info_container']/div/form/div/div[4]/h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>1ccdcded-ec72-44cf-a436-9fa6b72d87d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>error</value>
+      <webElementGuid>b3138619-84fd-4c6d-a91c-b289fcb2dfce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Error: Last Name is required</value>
+      <webElementGuid>8908fe57-a601-4d71-9463-ab76f11388b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;checkout_info_container&quot;)/div[@class=&quot;checkout_info_wrapper&quot;]/form[1]/div[@class=&quot;checkout_info&quot;]/div[@class=&quot;error-message-container error&quot;]/h3[1]</value>
+      <webElementGuid>7b6ef3e7-538b-4941-a5fc-ba0d6bf27185</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='checkout_info_container']/div/form/div/div[4]/h3</value>
+      <webElementGuid>5a208afc-b32f-4058-949d-6235fdd98847</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout: Your Information'])[1]/following::h3[1]</value>
+      <webElementGuid>310b0298-e600-4e9a-98c3-b46d57ebdfbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/following::h3[1]</value>
+      <webElementGuid>f15e4412-1ec8-4b98-933b-056ae9a41733</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::h3[1]</value>
+      <webElementGuid>ec05e6e4-1cba-493f-956c-f35e388714f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::h3[1]</value>
+      <webElementGuid>6764dbad-0282-460a-a19d-57733898ef6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Error: Last Name is required']/parent::*</value>
+      <webElementGuid>6ac6a32b-d0ef-4207-9562-f6b29cedf817</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>f3442dd6-1589-49b3-ac02-554884b3c53b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Error: Last Name is required' or . = 'Error: Last Name is required')]</value>
+      <webElementGuid>50cb8779-36dc-46d3-939e-fde76f62d1e1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

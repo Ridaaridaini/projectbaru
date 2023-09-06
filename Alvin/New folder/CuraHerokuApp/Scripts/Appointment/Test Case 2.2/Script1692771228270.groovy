@@ -12,11 +12,44 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.By.ByXPath as ByXPath
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebDriver as WebDriver
 
 WebUI.callTestCase(findTestCase('Login/Test Case 1.1 (Script)'), [('username') : 'John Doe', ('password') : 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'], 
     FailureHandling.STOP_ON_FAILURE)
+
+WebUI.selectOptionByValue(findTestObject('Make Appointment/select_facility'), facility, false)
+
+if (readmission.toString().equalsIgnoreCase('yes')) {
+    WebUI.check(findTestObject('Object Repository/Make Appointment/apply_hospital_readmission'))
+}
+
+if (healthcare_program.toString().equalsIgnoreCase('medicare')) {
+    WebUI.check(findTestObject('Object Repository/Make Appointment/option_medicare'))
+} else if (healthcare_program.toString().equalsIgnoreCase('medicaid')) {
+    WebUI.check(findTestObject('Object Repository/Make Appointment/option_medicaid'))
+} else {
+    WebUI.check(findTestObject('Object Repository/Make Appointment/option_none_programs'))
+}
+
+WebUI.setText(findTestObject('Object Repository/Make Appointment/comment_appointment'), comment)
+
+WebUI.click(findTestObject('Object Repository/Make Appointment/button_book_appointment'))
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+field_date_element = driver.findElement(By.xpath('//*[@id="txt_visit_date"]'))
+
+error_message = ((driver) as JavascriptExecutor).executeScript('return arguments[0].validationMessage', field_date_element)
+
+assert error_message == 'Please fill out this field.'
+
+WebUI.closeBrowser()
 

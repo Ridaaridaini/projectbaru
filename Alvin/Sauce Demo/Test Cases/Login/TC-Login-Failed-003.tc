@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User hanya login menggunakan password yang valid saja tidak menyertakan username</description>
+   <name>TC-Login-Failed-003</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <testCaseGuid>09e48221-a98b-49b2-8059-0b97de4cd2c5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>24fb0f30-e30a-48d9-be8d-8afe71dafab2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>24fb0f30-e30a-48d9-be8d-8afe71dafab2</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

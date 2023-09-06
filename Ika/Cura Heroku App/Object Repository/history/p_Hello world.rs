@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Hello world</name>
+   <tag></tag>
+   <elementGuidId>947632ec-2612-4267-bcb7-a23f591317c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#comment</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id='comment']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>c2317aa9-61bd-46ee-9e73-c35e8cb43320</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>comment</value>
+      <webElementGuid>4c52be8f-4672-4380-ad8a-b34536f6fcaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hello world</value>
+      <webElementGuid>dffd290a-9369-415d-a514-a0ca91300555</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;comment&quot;)</value>
+      <webElementGuid>d6e1de0e-29c0-40a3-bcd0-958e0d123d97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//p[@id='comment']</value>
+      <webElementGuid>c9bec5a0-88c6-403a-b5bb-dcb4e5c7fb5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='history']/div/div[2]/div/div/div[2]/div[11]/p</value>
+      <webElementGuid>7e3c9770-a7ef-4d26-9a74-ed162ddd2383</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/following::p[1]</value>
+      <webElementGuid>ad3445ba-4647-4831-b909-6b078c8c91e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Healthcare Program'])[1]/following::p[2]</value>
+      <webElementGuid>cf413c07-9be3-42c8-b3cb-ad993e0d5811</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to Homepage'])[1]/preceding::p[1]</value>
+      <webElementGuid>476af297-521c-4315-b4da-cebe7b8f1585</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/preceding::p[2]</value>
+      <webElementGuid>7fbe0ca5-9209-4f97-be8c-97f2b50194e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Hello world']/parent::*</value>
+      <webElementGuid>1c5d46d8-0c4f-45be-b17f-74af2ad22927</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/p</value>
+      <webElementGuid>267631f6-b35e-4979-9abc-e5da0fde232c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'comment' and (text() = 'Hello world' or . = 'Hello world')]</value>
+      <webElementGuid>e2d698ba-de08-4167-a0f6-21a92c335c2b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

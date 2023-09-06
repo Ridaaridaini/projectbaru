@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can access cart page after &quot;add to cart&quot; 1 product</description>
+   <name>TC-Cart-Show-002</name>
+   <tag>Keranjang</tag>
+   <comment></comment>
+   <testCaseGuid>7ac5e002-7807-44c2-9c58-27da4b3f6a0c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>test suite appoitment</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>5</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>f1ffd98c-908c-4e4e-b5c9-9fac520b66bb</testSuiteGuid>
+   <testCaseLink>
+      <guid>8ea80431-9f47-46e8-aa5a-4766ca64acde</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>'John Doe'</defaultValue>
+         <description></description>
+         <id>2cbd70e9-f383-4812-8aeb-5d2fe34bf697</id>
+         <masked>false</masked>
+         <name>username</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/appointment/Test Case 2.1 (versi dinamis)</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>776e6a66-7ea4-47bf-a266-6b639f9cd729</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/data baim</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2cbd70e9-f383-4812-8aeb-5d2fe34bf697</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d0a67bd5-d53c-44a1-bfd8-13eb192370aa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>776e6a66-7ea4-47bf-a266-6b639f9cd729</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Facility</value>
+         <variableId>0757753a-5f4d-4e76-a76e-34dda153dd95</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>776e6a66-7ea4-47bf-a266-6b639f9cd729</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Readmission</value>
+         <variableId>4f00c4b8-f3bb-41f4-bac0-6c7034a1131f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>776e6a66-7ea4-47bf-a266-6b639f9cd729</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Healthcare</value>
+         <variableId>860e8d3b-2003-44c0-ab41-3fbac73de3d5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>afbaf4f0-500c-468e-bb88-2deddb52ea90</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6a1297f6-80d1-4461-a89b-d0013f108ab2</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

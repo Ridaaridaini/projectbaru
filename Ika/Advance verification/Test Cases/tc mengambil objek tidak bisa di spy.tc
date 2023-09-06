@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tc mengambil objek tidak bisa di spy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba69e786-89b3-43f9-a663-c645be88ed65</testCaseGuid>
+</TestCaseEntity>

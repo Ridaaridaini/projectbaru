@@ -1,0 +1,160 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite All TC,Edge Chromium 116,,,2023-08-28 17:01:55,2023-08-28 17:06:13,4m - 17.977s,FAILED
+,,,,,,,
+Test Cases/Login/TC-Login-Failed-001,Edge Chromium 116,User memasukkan username dan password yang valid,,2023-08-28 17:01:56,2023-08-28 17:02:01,5.740s,PASSED
+openBrowser(WEB_URL),Edge Chromium 116,,,2023-08-28 17:01:56,2023-08-28 17:02:00,3.942s,PASSED
+"setText(findTestObject(""Login Input Username""), username)",Edge Chromium 116,,,2023-08-28 17:02:00,2023-08-28 17:02:01,0.762s,PASSED
+"setEncryptedText(findTestObject(""Login Input Password""), password)",Edge Chromium 116,,,2023-08-28 17:02:01,2023-08-28 17:02:01,0.397s,PASSED
+"click(findTestObject(""Login Button""))",Edge Chromium 116,,,2023-08-28 17:02:01,2023-08-28 17:02:01,0.345s,PASSED
+,,,,,,,
+Test Cases/Login/TC-Login-Failed-002,Edge Chromium 116,User memasukkan username dan password yang valid,,2023-08-28 17:02:01,2023-08-28 17:02:07,5.340s,PASSED
+openBrowser(WEB_URL),Edge Chromium 116,,,2023-08-28 17:02:02,2023-08-28 17:02:05,3.955s,PASSED
+"setText(findTestObject(""Login Input Username""), username)",Edge Chromium 116,,,2023-08-28 17:02:05,2023-08-28 17:02:06,0.785s,PASSED
+"click(findTestObject(""Login Button""))",Edge Chromium 116,,,2023-08-28 17:02:06,2023-08-28 17:02:07,0.351s,PASSED
+,,,,,,,
+Test Cases/Login/TC-Login-Failed-003,Edge Chromium 116,User memasukkan username dan password yang valid,,2023-08-28 17:02:07,2023-08-28 17:02:12,4.898s,PASSED
+openBrowser(WEB_URL),Edge Chromium 116,,,2023-08-28 17:02:07,2023-08-28 17:02:11,3.954s,PASSED
+"setEncryptedText(findTestObject(""Login Input Password""), password)",Edge Chromium 116,,,2023-08-28 17:02:11,2023-08-28 17:02:11,0.397s,PASSED
+"click(findTestObject(""Login Button""))",Edge Chromium 116,,,2023-08-28 17:02:11,2023-08-28 17:02:12,0.367s,PASSED
+,,,,,,,
+Test Cases/Login/TC-Login-Failed-004,Edge Chromium 116,User memasukkan username dan password yang valid,,2023-08-28 17:02:12,2023-08-28 17:02:16,4.613s,PASSED
+openBrowser(WEB_URL),Edge Chromium 116,,,2023-08-28 17:02:12,2023-08-28 17:02:16,3.935s,PASSED
+"click(findTestObject(""Login Button""))",Edge Chromium 116,,,2023-08-28 17:02:16,2023-08-28 17:02:16,0.482s,PASSED
+,,,,,,,
+Test Cases/Login/TC-Login-Locked-001,Edge Chromium 116,User memasukkan username dan password yang valid,,2023-08-28 17:02:16,2023-08-28 17:02:22,5.778s,PASSED
+openBrowser(WEB_URL),Edge Chromium 116,,,2023-08-28 17:02:16,2023-08-28 17:02:20,3.922s,PASSED
+"setText(findTestObject(""Login Input Username""), username)",Edge Chromium 116,,,2023-08-28 17:02:20,2023-08-28 17:02:21,0.802s,PASSED
+"setEncryptedText(findTestObject(""Login Input Password""), password)",Edge Chromium 116,,,2023-08-28 17:02:21,2023-08-28 17:02:22,0.412s,PASSED
+"click(findTestObject(""Login Button""))",Edge Chromium 116,,,2023-08-28 17:02:22,2023-08-28 17:02:22,0.402s,PASSED
+,,,,,,,
+Test Cases/Login/TC-Login-Success-001,Edge Chromium 116,User memasukkan username dan password yang valid,,2023-08-28 17:02:22,2023-08-28 17:02:28,5.831s,PASSED
+openBrowser(WEB_URL),Edge Chromium 116,,,2023-08-28 17:02:22,2023-08-28 17:02:26,4.071s,PASSED
+"setText(findTestObject(""Login Input Username""), username)",Edge Chromium 116,,,2023-08-28 17:02:26,2023-08-28 17:02:27,0.678s,PASSED
+"setEncryptedText(findTestObject(""Login Input Password""), password)",Edge Chromium 116,,,2023-08-28 17:02:27,2023-08-28 17:02:27,0.397s,PASSED
+"click(findTestObject(""Login Button""))",Edge Chromium 116,,,2023-08-28 17:02:27,2023-08-28 17:02:28,0.391s,PASSED
+,,,,,,,
+Test Cases/Products/TC-Product-AddCart-001,Edge Chromium 116,User ingin menambahkan 1 product ke dalam keranjang,,2023-08-28 17:02:28,2023-08-28 17:02:35,7.032s,PASSED
+"callTestCase(findTestCase(""Products/TC-Product-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:02:28,2023-08-28 17:02:34,6.298s,PASSED
+"click(findTestObject(""Product Button ATC Product 1""))",Edge Chromium 116,,,2023-08-28 17:02:34,2023-08-28 17:02:35,0.490s,PASSED
+,,,,,,,
+Test Cases/Products/TC-Product-AddCart-002,Edge Chromium 116,User ingin menambahkan 2 product ke dalam keranjang,,2023-08-28 17:02:35,2023-08-28 17:02:42,7.076s,PASSED
+"callTestCase(findTestCase(""Products/TC-Product-AddCart-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:02:35,2023-08-28 17:02:41,6.296s,PASSED
+"click(findTestObject(""Product Button ATC Product 2""))",Edge Chromium 116,,,2023-08-28 17:02:41,2023-08-28 17:02:42,0.556s,PASSED
+,,,,,,,
+Test Cases/Products/TC-Product-RemoveCart-001,Edge Chromium 116,User meremove barang yang dipilih dari halaman product,,2023-08-28 17:02:42,2023-08-28 17:02:49,6.846s,PASSED
+"callTestCase(findTestCase(""Products/TC-Product-AddCart-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:02:42,2023-08-28 17:02:48,6.069s,PASSED
+"click(findTestObject(""Product Button Remove Product 1""))",Edge Chromium 116,,,2023-08-28 17:02:48,2023-08-28 17:02:49,0.566s,PASSED
+,,,,,,,
+Test Cases/Products/TC-Product-Show-001,Edge Chromium 116,User can see product in product page,,2023-08-28 17:02:49,2023-08-28 17:02:54,5.522s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login-Success-001""), [""username"":""standard_user"", ""password"":""qcu24s4901FyWDTwXGr6XA==""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:02:49,2023-08-28 17:02:54,5.518s,PASSED
+,,,,,,,
+Test Cases/Products/TC-Product-Sort-001,Edge Chromium 116,User can see product in product page,,2023-08-28 17:02:54,2023-08-28 17:03:01,6.796s,PASSED
+"callTestCase(findTestCase(""Products/TC-Product-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:02:54,2023-08-28 17:03:00,5.595s,PASSED
+"selectOptionByValue(findTestObject(""Product Dropdown Sort""), ""az"", false)",Edge Chromium 116,,,2023-08-28 17:03:00,2023-08-28 17:03:01,0.961s,PASSED
+,,,,,,,
+Test Cases/Products/TC-Product-Sort-002,Edge Chromium 116,User can see product in product page,,2023-08-28 17:03:01,2023-08-28 17:03:08,6.961s,PASSED
+"callTestCase(findTestCase(""Products/TC-Product-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:03:01,2023-08-28 17:03:07,5.693s,PASSED
+"selectOptionByValue(findTestObject(""Product Dropdown Sort""), ""za"", false)",Edge Chromium 116,,,2023-08-28 17:03:07,2023-08-28 17:03:08,1.036s,PASSED
+,,,,,,,
+Test Cases/Products/TC-Product-Sort-003,Edge Chromium 116,User can see product in product page,,2023-08-28 17:03:08,2023-08-28 17:03:15,6.880s,PASSED
+"callTestCase(findTestCase(""Products/TC-Product-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:03:08,2023-08-28 17:03:14,5.671s,PASSED
+"selectOptionByValue(findTestObject(""Product Dropdown Sort""), ""lohi"", false)",Edge Chromium 116,,,2023-08-28 17:03:14,2023-08-28 17:03:15,1.010s,PASSED
+,,,,,,,
+Test Cases/Products/TC-Product-Sort-004,Edge Chromium 116,User can see product in product page,,2023-08-28 17:03:15,2023-08-28 17:03:22,6.719s,PASSED
+"callTestCase(findTestCase(""Products/TC-Product-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:03:15,2023-08-28 17:03:21,5.517s,PASSED
+"selectOptionByValue(findTestObject(""Product Dropdown Sort""), ""hilo"", false)",Edge Chromium 116,,,2023-08-28 17:03:21,2023-08-28 17:03:22,1.000s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-AddCart-001,Edge Chromium 116,"""Test case ketika user ingin 
+menambahkan product ke
+ keranjang""",,2023-08-28 17:03:22,2023-08-28 17:03:29,6.983s,PASSED
+"callTestCase(findTestCase(""Detail Product/TC-DetailProduct-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:03:22,2023-08-28 17:03:28,6.241s,PASSED
+"click(findTestObject(""Detail Product Button ATC Product 1""))",Edge Chromium 116,,,2023-08-28 17:03:28,2023-08-28 17:03:29,0.519s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-Nav-001,Edge Chromium 116,User ingin kembali ke halaman produk,,2023-08-28 17:03:29,2023-08-28 17:03:36,6.984s,PASSED
+"callTestCase(findTestCase(""Detail Product/TC-DetailProduct-Show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:03:29,2023-08-28 17:03:35,6.256s,PASSED
+"click(findTestObject(""Detail Product Button Back To Product""))",Edge Chromium 116,,,2023-08-28 17:03:35,2023-08-28 17:03:36,0.502s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-RemoveCart-001,Edge Chromium 116,User ingin menghapus produk dari troli halaman pada halaman detail produk,,2023-08-28 17:03:36,2023-08-28 17:03:43,7.314s,PASSED
+"callTestCase(findTestCase(""Detail Product/TC-DetailProduct-AddCart-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:03:36,2023-08-28 17:03:42,6.553s,PASSED
+"click(findTestObject(""Detail Product Button Remove Product 1""))",Edge Chromium 116,,,2023-08-28 17:03:42,2023-08-28 17:03:43,0.553s,PASSED
+,,,,,,,
+Test Cases/Detail Product/TC-DetailProduct-Show-001,Edge Chromium 116,User ingin menampilkan Detail Products,,2023-08-28 17:03:43,2023-08-28 17:03:49,6.008s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login-Success-001""), [""username"":""standard_user"", ""password"":""qcu24s4901FyWDTwXGr6XA==""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:03:43,2023-08-28 17:03:48,5.499s,PASSED
+"click(findTestObject(""Product Text Product 1""))",Edge Chromium 116,,,2023-08-28 17:03:48,2023-08-28 17:03:49,0.507s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Nav-001,Edge Chromium 116,user klik buttom Continue shoping,,2023-08-28 17:03:49,2023-08-28 17:03:57,7.855s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:03:49,2023-08-28 17:03:56,7.043s,PASSED
+"click(findTestObject(""Cart Button Continue Shopping""))",Edge Chromium 116,,,2023-08-28 17:03:56,2023-08-28 17:03:57,0.579s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Nav-002,Edge Chromium 116,User ingin melihat product yang telah ditambahkan ke dalam keranjang,,2023-08-28 17:03:57,2023-08-28 17:04:04,7.468s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:03:57,2023-08-28 17:04:04,6.698s,PASSED
+"click(findTestObject(""Cart Text Product 1""))",Edge Chromium 116,,,2023-08-28 17:04:04,2023-08-28 17:04:04,0.564s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Remove-001,Edge Chromium 116,User meremove product pada keranjang,,2023-08-28 17:04:04,2023-08-28 17:04:43,38.349s,FAILED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:04:04,2023-08-28 17:04:11,6.818s,PASSED
+"click(findTestObject(""Cart Button Remove Product 1""))",Edge Chromium 116,,,2023-08-28 17:04:11,2023-08-28 17:04:43,31.317s,FAILED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Show-001,Edge Chromium 116,User can access cart page,,2023-08-28 17:04:43,2023-08-28 17:04:49,6.207s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login-Success-001""), [""username"":""standard_user"", ""password"":""qcu24s4901FyWDTwXGr6XA==""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:04:43,2023-08-28 17:04:48,5.480s,PASSED
+"click(findTestObject(""Product Icon Cart""))",Edge Chromium 116,,,2023-08-28 17:04:48,2023-08-28 17:04:49,0.528s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Show-002,Edge Chromium 116,"User can access cart page after ""add to cart"" 1 product",,2023-08-28 17:04:49,2023-08-28 17:04:55,6.685s,PASSED
+"callTestCase(findTestCase(""Products/TC-Product-AddCart-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:04:49,2023-08-28 17:04:55,6.128s,PASSED
+"click(findTestObject(""Product Icon Cart""))",Edge Chromium 116,,,2023-08-28 17:04:55,2023-08-28 17:04:55,0.552s,PASSED
+,,,,,,,
+Test Cases/Keranjang/TC-Cart-Show-003,Edge Chromium 116,"User can access cart page after ""add to cart"" 2 products",,2023-08-28 17:04:55,2023-08-28 17:05:03,7.468s,PASSED
+"callTestCase(findTestCase(""Products/TC-Product-AddCart-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:04:56,2023-08-28 17:05:02,6.745s,PASSED
+"click(findTestObject(""Product Icon Cart""))",Edge Chromium 116,,,2023-08-28 17:05:02,2023-08-28 17:05:03,0.555s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Error-001,Edge Chromium 116,User Melakukan Checkout 1 baran,,2023-08-28 17:05:03,2023-08-28 17:05:13,10.221s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-003""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:05:03,2023-08-28 17:05:10,7.211s,PASSED
+"click(findTestObject(""Cart Button Checkout""))",Edge Chromium 116,,,2023-08-28 17:05:10,2023-08-28 17:05:11,0.557s,PASSED
+"setText(findTestObject(""Checkout Input Last Name""), last_name)",Edge Chromium 116,,,2023-08-28 17:05:11,2023-08-28 17:05:12,0.862s,PASSED
+"setText(findTestObject(""Checkout Input Postal Code""), postal_code)",Edge Chromium 116,,,2023-08-28 17:05:12,2023-08-28 17:05:13,0.857s,PASSED
+"click(findTestObject(""Checkout Button Continue""))",Edge Chromium 116,,,2023-08-28 17:05:13,2023-08-28 17:05:13,0.556s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Error-002,Edge Chromium 116,User Melakukan Checkout 1 baran,,2023-08-28 17:05:13,2023-08-28 17:05:23,9.806s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:05:13,2023-08-28 17:05:20,6.716s,PASSED
+"click(findTestObject(""Cart Button Checkout""))",Edge Chromium 116,,,2023-08-28 17:05:20,2023-08-28 17:05:21,0.563s,PASSED
+"setText(findTestObject(""Checkout Input First Name""), first_name)",Edge Chromium 116,,,2023-08-28 17:05:21,2023-08-28 17:05:22,0.854s,PASSED
+"setText(findTestObject(""Checkout Input Postal Code""), postal_code)",Edge Chromium 116,,,2023-08-28 17:05:22,2023-08-28 17:05:22,0.866s,PASSED
+"click(findTestObject(""Checkout Button Continue""))",Edge Chromium 116,,,2023-08-28 17:05:22,2023-08-28 17:05:23,0.552s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Error-003,Edge Chromium 116,User Melakukan Checkout 1 baran,,2023-08-28 17:05:23,2023-08-28 17:05:33,9.608s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:05:23,2023-08-28 17:05:30,6.671s,PASSED
+"click(findTestObject(""Cart Button Checkout""))",Edge Chromium 116,,,2023-08-28 17:05:30,2023-08-28 17:05:30,0.466s,PASSED
+"setText(findTestObject(""Checkout Input First Name""), first_name)",Edge Chromium 116,,,2023-08-28 17:05:30,2023-08-28 17:05:31,0.854s,PASSED
+"setText(findTestObject(""Checkout Input Last Name""), last_name)",Edge Chromium 116,,,2023-08-28 17:05:31,2023-08-28 17:05:32,0.854s,PASSED
+"click(findTestObject(""Checkout Button Continue""))",Edge Chromium 116,,,2023-08-28 17:05:32,2023-08-28 17:05:33,0.556s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Nav-001,Edge Chromium 116,User Melakukan Checkout 1 baran,,2023-08-28 17:05:33,2023-08-28 17:05:44,11.211s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:05:33,2023-08-28 17:05:40,6.838s,PASSED
+"click(findTestObject(""Cart Button Checkout""))",Edge Chromium 116,,,2023-08-28 17:05:40,2023-08-28 17:05:40,0.562s,PASSED
+"setText(findTestObject(""Checkout Input First Name""), first_name)",Edge Chromium 116,,,2023-08-28 17:05:40,2023-08-28 17:05:41,0.854s,PASSED
+"setText(findTestObject(""Checkout Input Last Name""), last_name)",Edge Chromium 116,,,2023-08-28 17:05:41,2023-08-28 17:05:42,0.866s,PASSED
+"setText(findTestObject(""Checkout Input Postal Code""), postal_code)",Edge Chromium 116,,,2023-08-28 17:05:42,2023-08-28 17:05:43,0.849s,PASSED
+"click(findTestObject(""Checkout Button Continue""))",Edge Chromium 116,,,2023-08-28 17:05:43,2023-08-28 17:05:43,0.558s,PASSED
+"click(findTestObject(""Checkout Button Cancel""))",Edge Chromium 116,,,2023-08-28 17:05:43,2023-08-28 17:05:44,0.466s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Success-001,Edge Chromium 116,User Melakukan Checkout 1 baran,,2023-08-28 17:05:44,2023-08-28 17:05:55,11.102s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-002""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:05:44,2023-08-28 17:05:51,6.740s,PASSED
+"click(findTestObject(""Cart Button Checkout""))",Edge Chromium 116,,,2023-08-28 17:05:51,2023-08-28 17:05:51,0.564s,PASSED
+"setText(findTestObject(""Checkout Input First Name""), first_name)",Edge Chromium 116,,,2023-08-28 17:05:51,2023-08-28 17:05:52,0.852s,PASSED
+"setText(findTestObject(""Checkout Input Last Name""), last_name)",Edge Chromium 116,,,2023-08-28 17:05:52,2023-08-28 17:05:53,0.855s,PASSED
+"setText(findTestObject(""Checkout Input Postal Code""), postal_code)",Edge Chromium 116,,,2023-08-28 17:05:53,2023-08-28 17:05:54,0.847s,PASSED
+"click(findTestObject(""Checkout Button Continue""))",Edge Chromium 116,,,2023-08-28 17:05:54,2023-08-28 17:05:54,0.555s,PASSED
+"click(findTestObject(""Checkout Button Finish""))",Edge Chromium 116,,,2023-08-28 17:05:54,2023-08-28 17:05:55,0.458s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC-Checkout-Success-002,Edge Chromium 116,User Melakukan Checkout 1 baran,,2023-08-28 17:05:55,2023-08-28 17:06:07,11.825s,PASSED
+"callTestCase(findTestCase(""Keranjang/TC-Cart-Show-003""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:05:55,2023-08-28 17:06:02,7.308s,PASSED
+"click(findTestObject(""Cart Button Checkout""))",Edge Chromium 116,,,2023-08-28 17:06:02,2023-08-28 17:06:03,0.564s,PASSED
+"setText(findTestObject(""Checkout Input First Name""), first_name)",Edge Chromium 116,,,2023-08-28 17:06:03,2023-08-28 17:06:04,0.860s,PASSED
+"setText(findTestObject(""Checkout Input Last Name""), last_name)",Edge Chromium 116,,,2023-08-28 17:06:04,2023-08-28 17:06:05,0.869s,PASSED
+"setText(findTestObject(""Checkout Input Postal Code""), postal_code)",Edge Chromium 116,,,2023-08-28 17:06:05,2023-08-28 17:06:06,0.873s,PASSED
+"click(findTestObject(""Checkout Button Continue""))",Edge Chromium 116,,,2023-08-28 17:06:06,2023-08-28 17:06:06,0.575s,PASSED
+"click(findTestObject(""Checkout Button Finish""))",Edge Chromium 116,,,2023-08-28 17:06:06,2023-08-28 17:06:07,0.554s,PASSED
+,,,,,,,
+Test Cases/Logout/TC-Logout-Success-001,Edge Chromium 116,User melakukan logout dari hamburger,,2023-08-28 17:06:07,2023-08-28 17:06:13,6.600s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login-Success-001""), [""username"":""standard_user"", ""password"":""qcu24s4901FyWDTwXGr6XA==""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-08-28 17:06:07,2023-08-28 17:06:13,5.590s,PASSED
+"click(findTestObject(""Logout Icon Hamburgur""))",Edge Chromium 116,,,2023-08-28 17:06:13,2023-08-28 17:06:13,0.462s,PASSED
+"click(findTestObject(""Logout Menu Logout""))",Edge Chromium 116,,,2023-08-28 17:06:13,2023-08-28 17:06:13,0.338s,PASSED
